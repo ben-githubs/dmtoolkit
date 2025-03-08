@@ -1,0 +1,110 @@
+{% extends "base.jinja2" %}
+
+{% block header %}
+    <link rel=stylesheet type="text/css" href="{{ url_for('tracker_bp.static', filename='tracker.css') }}">
+    <link rel=stylesheet type="text/css" href="{{ url_for('tracker_bp.static', filename='statblock.css') }}">
+    <script src="{{url_for('tracker_bp.static', filename='tracker.js')}}"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Convergence">
+{% endblock %}
+
+{% block content %}
+
+{% include "add-player.jinja2" %}
+
+{% include "save-encounter.jinja2" %}
+
+<div style="margin: auto; width:1200px">
+    <div style="display: flex; margin: 0; width: 100%">
+        <input id="monstersearch" list="monsterlist" class="w3-input" type="text" placeholder="Search for monsters...">
+        <datalist id="monsterlist">
+            {% for monster_id, monster_name in monsters %}
+                <option value="{{monster_id}}">{{monster_name}}</option>
+            {% endfor %}
+        </datalist>
+        <button id="add-monster-button" class="w3-button w3-whte w3-border w3-large w3-circle w3-xlarge w3-ripple" style="margin-left: 12px; overflow: visible">+</button>
+        <button id="manage-players-btn" class="w3-button w3-white w3-border w3-ripple" style="margin-left: 12px; float: right; overflow: visible">Add Players</button>
+    </div>
+    <div style="display: flex; ">
+        <div style="width: 100%">
+            <h1>Initiative Tracker</h1>
+            <h5>Saved Encounters</h5>
+            <div class="saved-encounter-list-header w3-small" style="width: 100%">
+                <span><strong>Title</strong></span>
+                <span><strong>Description</strong></span>
+            </div>
+            <div class="saved-encounter-list w3-small">
+                <div class="saved-encounter-list-item">
+                    <span>Encounter 1</span>
+                    <span>Lorem Ipsum Dolar...</span>
+                </div>
+                <div class="saved-encounter-list-item">
+                    <span>Encounter 2</span>
+                    <span>Lorem Ipsum Dolar...</span>
+                </div>
+                <div class="saved-encounter-list-item selected">
+                    <span>Encounter 3</span>
+                    <span>Lorem Ipsum Dolar...</span>
+                </div>
+                <div class="saved-encounter-list-item">
+                    <span>Encounter 4</span>
+                    <span>Lorem Ipsum Dolar...</span>
+                </div>
+                <div class="saved-encounter-list-item">
+                    <span>Encounter 5</span>
+                    <span>Lorem Ipsum Dolar...</span>
+                </div>
+            </div>
+
+            <table id="turntracker" class="w3-table w3-bordered w3-border">
+                <tr>
+                    <th></th>
+                    <th>Name</th>
+                    <th>AC</th>
+                    <th>HP</th>
+                    <th>Initiative</th>
+                    <th>PP</th>
+                </tr>
+            </table>
+            <div style="margin-top: 12px; display: flex; justify-content: space-evenly">
+                <button id="prompt-save-encounter-btn" class="w3-button w3-white w3-border w3-ripple">Save Encounter</button>
+                <button class="w3-button w3-white w3-border w3-ripple" onclick="rollInitiative()">Roll Initiative</button>
+                <button class="w3-button w3-white w3-border w3-ripple" onclick="sortInitiativeTable()">Order</button>
+                <button class="w3-button w3-white w3-border w3-ripple" onclick="nextCombatant()">Next Turn</button>
+            </div>
+            <div>
+                <h3>Encounter Stats</h3>
+                <div id="encounter-stats">
+                    <div class="w3-large"><span>XP to Award</span> <span class="w3-xlarge" id="xp-to-award">0</span></div>
+                </div>
+            </div>
+        </div>
+        <div style="flex-basis: 560px; flex-grow: 0; flex-shrink: 0;">
+            <h1>Monster Stats!</h1>
+            <div id="statblock"></div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $('.remove-btn').click(function() { deleteRow($(this)); });
+    $('.hpbox').change(function() { updateHP($(this)); });
+    $('#add-monster-button').click(function() {
+        monsterId = $('#monstersearch').val();
+        // If no ID is provided, then just ignore.
+        if (!monsterId) { return; }
+        addMonster(monsterId);
+    });
+    $('#monstersearch').focus(function () { $(this).val(''); });
+    $('#manage-players-btn').click(function() { $('#player-add-modal').show(); updateAddPlayerButtons();});
+    $('#player-add-modal').find('button').click(function() { togglePlayer($(this)) });
+
+    // Save Encounter
+    $('#prompt-save-encounter-btn').click(function() { $('#save-encounter-modal').show(); });
+    $('#save-encounter-btn').click(function() { saveEncounter(); $('#save-encounter-modal').hide(); })
+
+    $(document).ready(function() {
+        refreshEncounters();
+    })
+</script>
+
+{% endblock %}

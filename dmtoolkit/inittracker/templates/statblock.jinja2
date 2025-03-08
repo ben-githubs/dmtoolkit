@@ -1,0 +1,138 @@
+<div id="statblock">
+    <h1>{{ monster.name }}</h1>
+    <em>{{ monster.sizeStr }} {{ monster.type | title }}, {{ monster.alignmentStr | default("Unaligned") }}</em>
+    <hr/>
+    <strong>Armor Class</strong> {{ monster.acStr }} <br/>
+    <strong>Hit Points</strong> {{ monster.hp.average }} ({{ monster.hp.formula }}) <br/>
+    <strong>Speed</strong> {{ monster.speed.walk }} ft.
+    {%- if monster.speed | length > 1 -%}
+        {%- for type, speed in monster.speed.items() -%}
+            {%- if type != "walk" -%}, {{ type }} {{ speed }} ft.{%- endif -%}
+        {%- endfor -%}
+    {%- endif -%}
+    <hr/>
+    <div id="ability-scores">
+        <div>
+            <strong>STR</strong><br/>{{ monster.str }} ({{ "%+d" | format(monster.str // 2 - 5) }})
+        </div>
+        <div>
+            <strong>DEX</strong><br/>{{ monster.dex }} ({{ "%+d" | format(monster.dex // 2 - 5) }})
+        </div>
+        <div>
+            <strong>CON</strong><br/>{{ monster.con }} ({{ "%+d" | format(monster.con // 2 - 5) }})
+        </div>
+        <div>
+            <strong>INT</strong><br/>{{ monster.int }} ({{ "%+d" | format(monster.int // 2 - 5) }})
+        </div>
+        <div>
+            <strong>WIS</strong><br/>{{ monster.wis }} ({{ "%+d" | format(monster.wis // 2 - 5) }})
+        </div>
+        <div>
+            <strong>CHA</strong><br/>{{ monster.cha }} ({{ "%+d" | format(monster.cha // 2 - 5) }})
+        </div>
+    </div>
+    <hr/>
+    {% if "save" in monster %}
+        <strong>Saving Throws</strong>
+        {% for stat, mod in monster.save.items() %}
+            {{ stat | title }} {{ mod }}{% if not loop.last %},{% endif %} 
+        {%- endfor -%}
+        <br/>
+    {% endif %}
+    {% if "skill" in monster %}
+        <strong>Skills</strong>
+        {% for skill, mod in monster.skill.items() %}
+            {{ skill | title }} {{ mod }}{% if not loop.last %},{% endif %} 
+        {%- endfor -%}
+        <br/>
+    {% endif %}
+    {% if "resist" in monster %}
+        <strong>Damage Resistances</strong>
+        {{ monster.resist | join(", ") | macro5e }} <br/>
+    {% endif %}
+    {% if "immune" in monster %}
+        <strong>Damage Immunities</strong>
+        {% for immunity in monster.immune %}
+            {% if immunity is string %}{{ immunity }}{% endif -%}
+            {% if immunity is mapping %}
+                {{ immunity.immune | join(", ") | macro5e }} {{ immunity.note }}
+            {% endif %}
+            {%- if not loop.last -%};{% endif %}
+        {%- endfor -%}
+        <br/>
+    {% endif %}
+    {% if "conditionImmune" in monster %}
+        <strong>Condition Immunities</strong>
+        {{ monster.conditionImmune | join(", ") | macro5e }} <br/>
+    {% endif %}
+    <strong>Senses</strong>
+    {% if "senses" in monster %}
+        {% for sense in monster.senses %}{{ sense }}, {% endfor %}
+    {% endif %}
+    passive Perception {{ monster.passive }} <br/>
+    {% if "languages" in monster %}
+        <strong>Languages</strong>
+        {% for lang in monster.languages %}
+            {{ lang }}
+            {%- if not loop.last %}, {% endif %}
+        {% endfor %}
+        <br/>
+    {% endif %}
+    <strong>Challenge</strong>
+    {% if monster.cr is mapping %}
+        {{ monster.cr.cr }} or {{ monster.cr.lair }} when encountered in lair
+    {% else %}
+        {{ monster.cr }}
+    {% endif %}
+    {% if "trait" in monster or "spellcasting" in monster %}
+        <hr/>
+    {% endif %}
+    {% if "trait" in monster %}
+        {% for trait in monster.trait %}
+            <p><strong><em>{{ trait.name }}.</em></strong> {{ trait.entries | join(" ") | macro5e }}</p>
+        {% endfor %}
+    {% endif %}
+    {% if "spellcasting" in monster %}
+        <p>
+            <strong>{{ monster.spellcasting[0].name }}.</strong> {{ monster.spellcasting[0].headerEntries | join(" ") | macro5e }} <br/>
+            {% if "spells" in monster.spellcasting[0] %}
+                {% for level, spellset in monster.spellcasting[0].spells.items() %}
+                    {% if level == "0" %}
+                        Cantrips (at will):
+                    {% else %}
+                        {{ level | ordinal }} level ({{ spellset.slots }} slots):
+                    {% endif %}
+                    {{ spellset.spells | join(", ") | macro5e }} <br/>
+                {% endfor %}
+            {% endif %}
+            {% if "will" in monster.spellcasting[0] %}
+                At will: {{ monster.spellcasting[0].will | join(", ") | macro5e }}<br/>
+            {% endif %}
+            {% if "daily" in monster.spellcasting[0] %}
+                {% for num, spells in monster.spellcasting[0].daily.items() %}
+                    {{num}}/day: {{ spells | join(", ") | macro5e }}<br/>
+                {% endfor %}
+            {% endif %}
+        </p>
+    {% endif %}
+    {% if "action" in monster %}
+        <h4>Actions</h4>
+        {% for action in monster.action %}
+            <p><em><strong>{{ action.name }}</strong></em>. {{ action.entries | join(" ") | macro5e }}</p>
+        {% endfor %}
+    {% endif %}
+    {% if "bonus" in monster %}
+        <h4>Bonus Actions</h4>
+        {% for action in monster.bonus %}
+            <p><em><strong>{{ action.name }}</strong></em>. {{ action.entries | join(" ") | macro5e }}</p>
+        {% endfor %}
+    {% endif %}
+    {% if "legendary" in monster %}
+        <h4>Legendary Actions</h4>
+        The {{ monster.name }} can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. The {{ monster.name }} regains spent legendary actions at the start of its turn.
+        {% for action in monster.legendary %}
+            <p><em><strong>{{ action.name }}</strong></em>. {{ action.entries | join(" ") | macro5e }}</p>
+        {% endfor %}
+    {% endif %}
+
+</div>

@@ -1,0 +1,31 @@
+{% extends "base.jinja2" %}
+
+{% block content %}
+<div style="width: 1200px; margin: auto">
+    <h1>Edit {{ player.name }}</h1>
+
+    <form method="POST" action="{{ url_for('players_bp.update_player_page', player_name=player.name) }}">
+        {{ form.csrf_token }}
+        <div>
+            <fieldset>
+                {{ form.name.label }}
+                {{ form.name(value=player.name) }}
+            </fieldset>
+        </div>
+        <div style="display: flex; flex-direction: row; justify-content: space-around">
+            <fieldset>
+                {{ form.hp.label }} {{ form.hp(value=player.hp) }}
+            </fieldset>
+
+            <fieldset>
+                {{ form.ac.label }} {{ form.ac(value=player.ac) }}
+            </fieldset>
+
+            <fieldset>
+                {{ form.pp.label }} {{ form.pp(value=player.pp) }}
+            </fieldset>
+        </div>
+        {{ form.submit }}
+    </form>
+</div>
+{% endblock %}

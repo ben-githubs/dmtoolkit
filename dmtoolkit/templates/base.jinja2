@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>{{ page.title | default("DMTools") }}</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script type="text/javascript">
+            var csrf_token = "{{ csrf_token() }}";
+
+            $.ajaxSetup({
+                beforeSend: function(xhr, settings) {
+                    if (!/^(GET|HEAD|OPTIONS|TRACE)$/i.test(settings.type) && !this.crossDomain) {
+                        xhr.setRequestHeader("X-CSRFToken", csrf_token);
+                    }
+                }
+            });
+        </script>
+        {% block header %}{% endblock %}
+    </head>
+    <body>
+
+    <div class="w3-bar w3-border w3-light-grey">
+        <a class="w3-bar-item w3-button" href="{{ url_for('tracker_bp.tracker') }}">Tracker</a>
+        <a class="w3-bar-item w3-button" href="{{ url_for('players_bp.list_players_page') }}">Manage Players</a>
+    </div>
+
+    <div id="content">
+        {% block content %}{% endblock %}
+    </div>
+
+    <footer class="w3-container w3-teal">
+        <p>by Ben Airey</p>
+    </footer>
+
+    </body>
+</html>

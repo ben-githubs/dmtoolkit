@@ -1,0 +1,29 @@
+{% extends "base.jinja2" %}
+
+{% block content %}
+<div style="width: 1200px; margin: auto">
+    <h1>Player Characters</h1>
+    <div class="w3-margin-bottom">
+        <a href="{{ url_for('players_bp.new_player_page') }}" class="w3-button w3-white w3-border w3-ripple">Create New Player Character</a>
+    </div>
+    {% for player in players %}
+        <div class="w3-card w3-padding" style="margin-bottom: 12px">
+            <div>
+                <span class="w3-xlarge">{{ player.name }}</span>
+                <a href="{{ url_for('players_bp.update_player_page', player_name=player.name)}}" style="float: right" class="w3-button w3-white w3-border w3-ripple">Edit</a>
+            </div>
+            <div style="display: flex; flex-flow: row wrap;">
+                <div class="w3-padding">
+                    <strong>Max HP: </strong> {{ player.hp }}
+                </div>
+                <div class="w3-padding">
+                    <strong>AC: </strong> {{ player.ac }}
+                </div>
+                <div class="w3-padding">
+                    <strong>Passive Perception: </strong> {{ player.pp }}
+                </div>
+            </div>
+        </div>
+    {% endfor %}
+</div>
+{% endblock %}

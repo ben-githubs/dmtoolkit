@@ -1,0 +1,56 @@
+/* Most of this comes from 5e.tools or is inspired by it. Credit were credit is due! */
+
+#statblock {
+    background: url('https://5e.tools/img/bestiary/stat-block-top-texture.webp') no-repeat, repeat top center, #fdf1dc;
+    border-top: 3px solid #e69a28;
+    padding-left: .2em;
+    padding-right: .2em;
+    font-size: 12.6px;
+    font-family: "Convergence", Arial, sans-serif;
+}
+
+#statblock h1, h4 {
+    font-variant: small-caps;
+    color: #822000;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+}
+
+#statblock h4 {
+    border-bottom: 2px solid #822000;
+}
+
+#statblock p {
+    margin-top: 0;
+    margin-bottom: 3px;
+    padding-left: 10px;
+    text-indent: -10px;
+}
+
+#statblock hr {
+    border-top: 2px solid #822000;
+    margin-top: 8px;
+    padding-bottom: 8px;
+    margin-bottom: 0;
+}
+
+#statblock strong {
+    font-weight: 700;
+    font-family: Arial, sans-serif;
+}
+
+#statblock #ability-scores {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+#statblock a {
+    text-decoration: none;
+    color: #337ab7;;
+}
+
+#statblock a:hover {
+    color: #23527c;
+    text-decoration: underline;
+}

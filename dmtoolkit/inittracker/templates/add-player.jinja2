@@ -1,0 +1,10 @@
+{% from "modal.jinja2" import render_modal %}
+
+{% call render_modal("player-add-modal") %}
+    {%- for player in players %}
+        <div class="_player-row w3-container w3-cell-row w3-padding">
+            <span class="w3-large w3-cell w3-cell-middle">{{ player.name }}</span>
+            <button class="w3-button w3-ripple" style="float: right">Add Player</button>
+        </div>
+    {% endfor %}
+{% endcall %}

@@ -1,0 +1,13 @@
+{% from "modal.jinja2" import render_modal %}
+
+{% call render_modal("save-encounter-modal") %}
+    <p>
+        <label class="w3-text-grey">Encounter Title</label>
+        <input id="encounter-name" class="w3-input w3-border" type="text" required/>
+    </p>
+    <p>
+        <label class="w3-text-grey">Description (Optional)</label>
+        <textarea id="encounter-desc" class="w3-input w3-border" style="resize: none"></textarea>
+    </p>
+    <button id="save-encounter-btn" class="w3-button s3-ripple">Save Encounter</button>
+{% endcall %}

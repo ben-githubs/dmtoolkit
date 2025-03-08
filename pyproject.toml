@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "dmtoolkit"
+version = "0.1.0"
+description = "Web app containing useful tools for the techie DM"
+authors = ["Ben Airey <ben.airey@panther.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+flask = "^3.1.0"
+flask-wtf = "^1.2.2"
+python-dotenv = "^1.0.1"
+flask-session = "^0.8.0"
+redis = "^5.2.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

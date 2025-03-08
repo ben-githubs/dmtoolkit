@@ -1,0 +1,64 @@
+#turntracker td {
+    vertical-align: middle;
+}
+
+#turntracker input {
+    width: 24px;
+    display: inline-block;
+    padding: 0 2px 0 0;
+    text-align: right;
+}
+
+tr.selected {
+    border-right: 3px solid #f44336 !important;
+}
+
+td.remove-btn {
+    width: 24px;
+    padding: 4px 4px !important;
+    text-align: center;
+}
+
+input.hpbox {
+    width: 48px !important;
+}
+
+input.hpbox::placeholder {
+    color: black
+}
+
+tr.statblock-target {
+    background-color: #eeeeee;
+}
+
+div.saved-encounter-list {
+    width: 100%;
+    overflow-y: scroll;
+    height: 76px;
+}
+
+div.saved-encounter-list-item {
+    border-top: 1px solid #ddd;
+}
+
+div.saved-encounter-list-header {
+    border: 1px solid #ddd;
+    border-bottom: 0;
+}
+
+div.saved-encounter-list-item span:first-child, div.saved-encounter-list-header span:first-child {
+    display: inline-block;
+    width: 225px;
+}
+
+div.saved-encounter-list-item span {
+    display: inline-block;
+}
+
+div.saved-encounter-list-item:hover {
+    background-color: #f5f5f5;
+}
+
+div.saved-encounter-list div.selected {
+    background-color: #eeeeee;
+}

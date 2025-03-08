@@ -1,0 +1,14 @@
+{% macro render_modal(id) %}
+<div id="{{id}}" class="w3-modal">
+    <div class="w3-modal-content">
+        <div class="w3-container">
+            <span id="{{id}}-close"  class="w3-button w3-display-topright">&times;</span>
+            {{ caller() }}
+        </div>
+    </div>
+</div>
+
+<script>
+    $('#{{id}}-close').click(function() { $('#{{id}}').hide(); });
+</script>
+{% endmacro %}
