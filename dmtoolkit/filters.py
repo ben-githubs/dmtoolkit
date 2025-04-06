@@ -11,6 +11,8 @@ class Macro5e:
     spell = re.compile(r"\{@spell (.*?)\}")
     dice = re.compile(r"\{@dice (\d+d\d+)\}")
     status = re.compile(r"\{@status (\w+)(?:\s*\|\|\s*(\w+))?}")
+    skill = re.compile(r"{@skill (.*?)}")
+    italics = re.compile(r"{@i (.*?)}")
 
 
     def render_macros(text: str) -> str:
@@ -25,6 +27,8 @@ class Macro5e:
         text = Macro5e.spell.sub(Macro5e.render_spell, text)
         text = Macro5e.dice.sub(r"\1", text)
         text = Macro5e.status.sub(Macro5e.render_status, text)
+        text = Macro5e.skill.sub(Macro5e.render_skill, text)
+        text = Macro5e.italics.sub(r"<em>\1</em>", text)
 
         return text
     
@@ -68,6 +72,14 @@ class Macro5e:
         url = f"https://roll20.net/compendium/dnd5e/Conditions#toc_{index}"
 
         return f"""<a href="{url}">{condition}</a>"""
+
+    def render_skill(match: re.Match) -> str:
+        """Return a link to the appripriate entry in Roll20."""
+        skill = match.group(1)
+        skill = skill.title()
+        url = f"https://roll20.net/compendium/dnd5e/{skill}#content"
+
+        return f"""<a href="{url}">{skill}</a>"""
     
     def render_spell(match: re.Match) -> str:
         """Convert spell references to Roll20 links."""

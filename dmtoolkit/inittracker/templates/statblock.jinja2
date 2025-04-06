@@ -57,14 +57,8 @@
     {% endif %}
     {% if monster.dmg_immunities %}
         <strong>Damage Immunities</strong>
-        {% for immunity in monster.dmg_immunities %}
+        {{ monster.dmg_immunities | join(", ") | macro5e }} <br/>
             {% if immunity is string %}{{ immunity }}{% endif -%}
-            {% if immunity is mapping %}
-                {{ immunity.immune | join(", ") | macro5e }} {{ immunity.note }}
-            {% endif %}
-            {%- if not loop.last -%};{% endif %}
-        {%- endfor -%}
-        <br/>
     {% endif %}
     {% if monster.cond_immunities %}
         <strong>Condition Immunities</strong>
@@ -87,20 +81,20 @@
     {% if monster.cr is mapping %}
         {{ monster.cr.cr }} or {{ monster.cr.lair }} when encountered in lair
     {% else %}
-        {{ monster.cr }}
+        {{ monster.cr }} ({{ monster.xp }} XP)
     {% endif %}
     {% if monster.traits or monster.spellcasting %}
         <hr/>
     {% endif %}
     {% if monster.traits %}
         {% for trait in monster.traits %}
-            trait.html()
+            {{ trait.html() | macro5e }}
         {% endfor %}
     {% endif %}
     {% if monster.spellcasting %}
         {% for spellspec in monster.spellcasting %}
             {% if spellspec.header %}
-                {{ spellspec.header.html() }}
+                {{ spellspec.header.html() | macro5e }}
             {% endif %}
             {% if spellspec.slots %}
                 Cantrips (at will): {{ spellspec.slots[0].spells | join(", ") | macro5e }}<br/>
