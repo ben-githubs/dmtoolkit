@@ -1,3 +1,7 @@
-from dmtoolkit.inittracker.api import get_monster
+from dmtoolkit.inittracker.api import MONSTERS
+fields = set()
+for m in MONSTERS.values():
+    fields |= set(m.get("speed", {}).keys())
 
-print(get_monster("Lich-MM"))
+for s in fields:
+    print(s)

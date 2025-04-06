@@ -2,8 +2,8 @@ import json
 
 from flask import Blueprint, render_template, request
 
-import dmtoolkit.inittracker.api as api
 from dmtoolkit.api.players import list_players
+from dmtoolkit.api.monsters import get_monster, get_monster_names
 
 tracker_bp = Blueprint(
     "tracker_bp",
@@ -19,8 +19,8 @@ def tracker():
     page = {
         "title": "DMTTools - Init Tracker"
     }
-    monsters = api.get_monster_names()
-    monster = api.get_monster("Poltergeist-MM")
+    monsters = get_monster_names()
+    monster = get_monster("Poltergeist-MM")
     return render_template(
         "tracker.jinja2",
         page = page,
@@ -30,37 +30,31 @@ def tracker():
     )
 
 @tracker_bp.route("/api/monsters", methods=["GET"])
-def get_monster():
+def get_monster_page():
     name = request.args.get("name")
-    monster = api.get_monster(name)
+    monster = get_monster(name)
     return json.dumps(monster)
 
 @tracker_bp.route("/api/monsters-combat-overview", methods=["GET"])
 def get_monster_combat_overview():
     name = request.args.get("name")
-    monster = api.get_monster(name)
-    ac = monster.get("ac")
-    if isinstance(ac, list):
-        ac = ac[0]
-    if isinstance(ac, dict):
-        ac = ac.get("ac")
-    hp = monster.get("hp")
-    if isinstance(hp, dict):
-        hp = hp.get("average")
-    init_mod = int(monster.get("dex")) // 2 - 5
-    pp = monster.get("passive")
+    monster = get_monster(name)
+    ac = monster.ac[0].value
+    hp = monster.hp.average
+    init_mod = int(monster.dexterity) // 2 - 5
+    pp = monster.passive
     if not pp:
-        if perception_mod := monster.get("skill", {}).get("perception"):
+        if perception_mod := monster.skills.get("perception"):
             pp = 10 + perception_mod
         else:
-            wis_mod = int(monster.get("wis")) // 2 - 5
+            wis_mod = int(monster.wisdom) // 2 - 5
             pp = 10 + wis_mod
     return json.dumps({
-        "name": monster["name"],
+        "name": monster.name,
         "ac": ac,
         "hp": hp,
         "initMod": init_mod,
-        "xp": monster.get("xp"),
+        "xp": monster.xp,
         "pp": pp
     })
 
@@ -85,7 +79,7 @@ def make_ordinal(n):
 def get_statblock_html(id: str):
     # Assume it's a monster
     # TODO: Add statblocks for players
-    monster = api.get_monster(id)
+    monster = get_monster(id)
     if not monster:
         return f"Preview Unavailable for {id}"
     
