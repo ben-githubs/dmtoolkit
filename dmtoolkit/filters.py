@@ -89,7 +89,21 @@ class Macro5e:
 
         return f"""<a href="{url}">{status_text}</a>"""
 
+def ordinal(s: str | int) -> str:
+    if isinstance(s, int):
+        s = str(s)
+    if any(s.endswith(suffix) for suffix in ("11", "12", "13")):
+        return s + "th"
+    elif s.endswith("1"):
+        return s + "st"
+    elif s.endswith("2"):
+        return s + "nd"
+    elif s.endswith("3"):
+        return s + "rd"
+    else:
+        return s + "th"
 
 
 def add_filters(app):
     app.jinja_env.filters["macro5e"] = Macro5e.render_macros
+    app.jinja_env.filters["ordinal"] = ordinal
