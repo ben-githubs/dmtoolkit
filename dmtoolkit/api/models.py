@@ -79,7 +79,7 @@ class AC:
             ac_list = []
             for spec in ac_spec:
                 if isinstance(spec, int):
-                    ac_list.append(AC(ac_spec))
+                    ac_list.append(AC(spec))
                     continue
                 value = spec["ac"]
                 if "from" in spec:
