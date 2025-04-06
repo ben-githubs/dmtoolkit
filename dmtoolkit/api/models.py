@@ -65,12 +65,14 @@ class Monster:
 class AC:
     value: int
     note: Optional[str] = None
+    with_braces: bool = False
 
     def __str__(self):
         string = str(self.value)
         if self.note:
-            string += f" ({self.note})"
-        return string
+            note = f"({self.note})" if not self.with_braces else self.note
+            string += f" {note}"
+        return f"({string})" if self.with_braces else string
 
     def from_spec(ac_spec: int | list) -> list[AC]:
         if isinstance(ac_spec, int):
@@ -79,16 +81,15 @@ class AC:
             ac_list = []
             for spec in ac_spec:
                 if isinstance(spec, int):
-                    ac_list.append(AC(ac_spec))
+                    ac_list.append(AC(spec))
                     continue
                 value = spec["ac"]
                 if "from" in spec:
                     aux_str = ", ".join(spec["from"])
                 if "condition" in spec:
                     aux_str = spec["condition"]
-                    if spec.get("braces"):
-                        aux_str = f"({aux_str})"
-                ac_list.append(AC(value, aux_str))
+                braces = spec.get("braces", False)
+                ac_list.append(AC(value, aux_str, braces))
             return ac_list
         else:
             raise TypeError(f"Unexpected type '{type(ac_spec).__name__}', {ac_spec}")
