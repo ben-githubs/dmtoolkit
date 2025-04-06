@@ -12,6 +12,7 @@ class Macro5e:
     dice = re.compile(r"\{@dice (\d+d\d+)\}")
     status = re.compile(r"\{@status (\w+)(?:\s*\|\|\s*(\w+))?}")
     skill = re.compile(r"{@skill (.*?)}")
+    italics = re.compile(r"{@i (.*?)}")
 
 
     def render_macros(text: str) -> str:
@@ -27,6 +28,7 @@ class Macro5e:
         text = Macro5e.dice.sub(r"\1", text)
         text = Macro5e.status.sub(Macro5e.render_status, text)
         text = Macro5e.skill.sub(Macro5e.render_skill, text)
+        text = Macro5e.italics.sub(r"<em>\1</em>", text)
 
         return text
     
