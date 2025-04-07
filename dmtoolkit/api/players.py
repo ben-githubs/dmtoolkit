@@ -16,7 +16,7 @@ class Player:
     hp: int
     ac: int
     pp: int
-    race: Race
+    race: Race = None
 
     level: int = 1
     enabled: bool = False
