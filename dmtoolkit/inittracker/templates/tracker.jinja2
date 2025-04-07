@@ -56,7 +56,7 @@
             </div>
 
             <table id="turntracker" class="w3-table w3-bordered w3-border">
-                <tr>
+                <tr id="tracker-header">
                     <th></th>
                     <th>Name</th>
                     <th>AC</th>
@@ -69,7 +69,10 @@
                 <button id="prompt-save-encounter-btn" class="w3-button w3-white w3-border w3-ripple">Save Encounter</button>
                 <button class="w3-button w3-white w3-border w3-ripple" onclick="rollInitiative()">Roll Initiative</button>
                 <button class="w3-button w3-white w3-border w3-ripple" onclick="sortInitiativeTable()">Order</button>
-                <button class="w3-button w3-white w3-border w3-ripple" onclick="nextCombatant()">Next Turn</button>
+                <div style="display: inline-flex">
+                    <button class="w3-button w3-white w3-border w3-ripple" onclick="prevCombatant()"><i class="fa-solid fa-arrow-left"></i></button>
+                    <button class="w3-button w3-white w3-border w3-ripple" onclick="nextCombatant()" style="border-left: 0 !important"><i class="fa-solid fa-arrow-right"></i></button>
+                </div>
             </div>
             <div>
                 <h3>Encounter Stats</h3>
