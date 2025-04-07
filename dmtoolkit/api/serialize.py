@@ -2,7 +2,7 @@
 Code for serializing and deserializing the custom classes.
 """
 from collections.abc import Mapping, Sequence
-from dataclasses import asdict, dataclass, fields, is_dataclass, _is_dataclass_instance
+from dataclasses import dataclass, fields, is_dataclass
 import inspect
 import json
 
