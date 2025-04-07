@@ -6,6 +6,8 @@ from wtforms import StringField, IntegerField, SubmitField
 from wtforms.validators import InputRequired, NumberRange, ValidationError
 
 import dmtoolkit.api.players as api
+from dmtoolkit.api.races import get_race
+from dmtoolkit.players.forms import CreateForm, UpdateForm
 
 players_bp = Blueprint(
     "players_bp",
@@ -65,7 +67,8 @@ def new_player_page():
             "name": form.name.data,
             "ac": form.ac.data,
             "pp": form.pp.data,
-            "hp": form.hp.data
+            "hp": form.hp.data,
+            "race": get_race(form.race.data)
         }
         print("NEW")
         resp = make_response(redirect(url_for("players_bp.list_players_page")))
@@ -97,6 +100,8 @@ def update_player_page(player_name: str):
             player_params["hp"] = val
         if val := form.pp.data:
             player_params["pp"] = val
+        if val := form.race.data:
+            player_params["race"] = get_race(val)
 
         player_dict = asdict(player)
         player_dict |= player_params # Update player params
