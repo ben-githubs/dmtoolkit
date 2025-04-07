@@ -497,3 +497,12 @@ class SkillList:
             else:
                 skills.append(SkillMod(k, v))
         return SkillList(skills)
+
+
+@dataclass
+class Race:
+    name: str
+    size: str
+    speed: Speed
+    ability_scores: dict[str, int]
+    traits: list[Entry]

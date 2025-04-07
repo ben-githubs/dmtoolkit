@@ -4,6 +4,8 @@ from pathlib import Path
 
 from flask import Response, request
 
+from dmtoolkit.api.models import Race
+
 DATA_DIR = Path(__file__).parent / "data"
 
 PLAYERS: list = []
@@ -14,9 +16,11 @@ class Player:
     hp: int
     ac: int
     pp: int
+    race: Race
+
     level: int = 1
-    
     enabled: bool = False
+    notes: str = ""
 
 def list_players() -> list[Player]:
     player_specs = json.loads(request.cookies.get("players", "[]"))
