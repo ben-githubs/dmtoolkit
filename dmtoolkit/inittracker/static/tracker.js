@@ -8,6 +8,17 @@ function nextCombatant() {
     current.removeClass("selected");
 }
 
+function prevCombatant() {
+    current = $("tr.selected");
+    next = current.prev();
+    if (next.attr("id") == "tracker-header") {
+        // Don't want to select header row, so just go back another space
+        next = $("table#turntracker").children().eq(0).children().last();
+    }
+    next.addClass("selected");
+    current.removeClass("selected");
+}
+
 function sortInitiativeTable() {
     table = $('#turntracker');
     rows = table.find('tr:gt(0)').toArray().sort(compareRows).reverse();
