@@ -16,7 +16,7 @@ def list_races() -> list[str]:
         for race in races:
             RACES[race.name] = race
     
-    return list(races.keys())
+    return list(RACES.keys())
 
 
 def get_race(name: str) -> Race:
