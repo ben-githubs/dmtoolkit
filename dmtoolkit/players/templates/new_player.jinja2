@@ -60,6 +60,10 @@
                     </ul>
                 {% endif %}
             </fieldset>
+
+            <fieldset>
+                {{ form.race.label }} {{ form.race(value=player.race.name) }}
+            </fieldset>
         </div>
         {{ form.submit }}
     </form>
