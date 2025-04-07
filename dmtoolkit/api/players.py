@@ -14,6 +14,7 @@ class Player:
     hp: int
     ac: int
     pp: int
+    level: int = 1
     
     enabled: bool = False
 
