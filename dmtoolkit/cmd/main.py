@@ -3,6 +3,7 @@ from pathlib import Path
 import click
 
 import dmtoolkit.cmd.get_monsters as cmd_m
+import dmtoolkit.cmd.races as cmd_r
 
 @click.group
 def main():
@@ -33,8 +34,10 @@ def races():
 
 
 @races.command
-def convert():
-    pass
+@click.option("--infile", "-i", default=cmd_r.DEFAULT_RAW, type=click.Path(exists=True, path_type=Path))
+@click.option("--outfile", "-o", default=cmd_r.DEFAULT_CONV, type=click.Path(writable=True, path_type=Path))
+def convert(infile: Path, outfile: Path):
+    cmd_r.convert(infile, outfile)
 
 
 @races.command

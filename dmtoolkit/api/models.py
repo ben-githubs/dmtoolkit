@@ -268,6 +268,8 @@ class Speed:
 
 
     def from_spec(speed_spec) -> Speed:
+        if isinstance(speed_spec, int):
+            return Speed(walk=speed_spec)
         args = {}
         for x in ("walk", "fly", "burrow", "swim", "climb"):
             if x not in speed_spec:
@@ -498,11 +500,55 @@ class SkillList:
                 skills.append(SkillMod(k, v))
         return SkillList(skills)
 
+@dataclass
+class AgeParams:
+    maximum: int
+    mature: int
+
+    def from_spec(spec: dict[str, Any]) -> AgeParams:
+        return AgeParams(spec["max"], spec.get("mature", 0))
+
+
+@dataclass
+class SizeParams:
+    weight_base: int
+    height_base: int
+    weight_mod: str = ""
+    height_mod: str = ""
+
+    def from_spec(spec: dict[str, Any]) -> SizeParams:
+        return SizeParams(
+            weight_base = spec["baseWeight"],
+            height_base = spec.get("weightMod", ""),
+            weight_mod = spec["baseHeight"],
+            height_mod = spec.get("heightMod", "")
+        )
 
 @dataclass
 class Race:
     name: str
-    size: str
+    source: str
     speed: Speed
     ability_scores: dict[str, int]
-    traits: list[Entry]
+    
+    size: list[str]
+    age: AgeParams = None
+    size_params: SizeParams = None
+    blindsight: int = 0
+    darkvision: int = 0
+
+    skills: list[str] = field(default_factory=list)
+    languages: list[str] = field(default_factory=list)
+    feats: list = field(default_factory=list)
+    traits: list[Entry] = field(default_factory=list)
+
+    dmg_resistances: list[str] = field(default_factory=list)
+    dmg_vulnerabilities: list[str] = field(default_factory=list)
+    dmg_immunities: list[str] = field(default_factory=list)
+    cond_immunities: list[str] = field(default_factory=list)
+
+    tool_profs: list[str] = field(default_factory=list)
+    armor_prof: list[str] = field(default_factory=list)
+    weapon_profs: list[str] = field(default_factory=list)
+
+    key: str = ""

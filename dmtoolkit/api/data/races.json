@@ -1,64 +1,6811 @@
 [
-    {
-        "__dataclass__": "Race",
-        "name": "Dragonborn",
-        "ability_scores": {
-            "Strength": 2,
-            "Charisma": 1
-        },
-        "size": "Medium",
-        "speed": {
-            "__dataclass__": "Speed",
-            "walk": {
-                "__dataclass__": "Scalar",
-                "value": 30
-            }
-        },
-        "traits": [
-            {
-                "__dataclass__": "Entry",
-                "title": "Age",
-                "body": [
-                    "Young dragonborn grow quickly. They walk hours after hatching, attain the size and development of a 10-year-old human child by the age of 3, and reach adulthood by 15. They live to be around 80."
-                ]
-            },
-            {
-                "__dataclass__": "Entry",
-                "title": "Size",
-                "body": [
-                    "Dragonborn are taller and heavier than humans, standing well over 6 feet tall and averaging almost 250 pounds. Your size is Medium."
-                ]
-            },
-            {
-                "__dataclass__": "Entry",
-                "title": "Draconic Ancestry",
-                "body": [
-                    "You have draconic ancestry. Choose one type of dragon from the Draconic Ancestry table. Your breath weapon and damage resistance are determined by the dragon type, as shown in the table."
-                ]
-            },
-            {
-                "__dataclass__": "Entry",
-                "title": "Breath Weapon",
-                "body": [
-                    "You can use your action to exhale destructive energy. Your draconic ancestry determines the size, shape, and damage type of the exhalation.",
-                    "When you use your breath weapon, each creature in the area of the exhalation must make a saving throw, the type of which is determined by your draconic ancestry. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level.",
-                    "After you use your breath weapon, you can't use it again until you complete a short or long rest."
-                ]
-            },
-            {
-                "__dataclass__": "Entry",
-                "title": "Damage Resistance",
-                "body": [
-                    "You have resistance to the damage type associated with your draconic ancestry."
-                ]
-            },
-            {
-                "__dataclass__": "Entry",
-                "title": "Languages",
-                "body": [
-                    "Languages"
-                ]
-            }
-        ]
-    }
+  {
+    "name": "Aarakocra",
+    "source": "DMG",
+    "speed": {
+      "walk": {
+        "value": 20,
+        "__dataclass__": "Scalar"
+      },
+      "fly": {
+        "value": 50,
+        "__dataclass__": "Scalar"
+      },
+      "burrow": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "swim": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "climb": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "can_hover": false,
+      "__dataclass__": "Speed"
+    },
+    "ability_scores": [
+      {
+        "dex": 2,
+        "wis": 2
+      }
+    ],
+    "size": [
+      "M"
+    ],
+    "age": null,
+    "size_params": null,
+    "blindsight": 0,
+    "darkvision": 0,
+    "skills": [],
+    "languages": null,
+    "feats": [],
+    "traits": [],
+    "dmg_resistances": [],
+    "dmg_vulnerabilities": [],
+    "dmg_immunities": [],
+    "cond_immunities": [],
+    "tool_profs": [],
+    "armor_prof": [],
+    "weapon_profs": [],
+    "key": "",
+    "__dataclass__": "Race"
+  },
+  {
+    "name": "Aarakocra",
+    "source": "EEPC",
+    "speed": {
+      "walk": {
+        "value": 25,
+        "__dataclass__": "Scalar"
+      },
+      "fly": {
+        "value": 50,
+        "__dataclass__": "Scalar"
+      },
+      "burrow": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "swim": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "climb": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "can_hover": false,
+      "__dataclass__": "Speed"
+    },
+    "ability_scores": [
+      {
+        "dex": 2,
+        "wis": 1
+      }
+    ],
+    "size": [
+      "M"
+    ],
+    "age": {
+      "maximum": 30,
+      "mature": 3,
+      "__dataclass__": "AgeParams"
+    },
+    "size_params": null,
+    "blindsight": 0,
+    "darkvision": 0,
+    "skills": [],
+    "languages": null,
+    "feats": [],
+    "traits": [],
+    "dmg_resistances": [],
+    "dmg_vulnerabilities": [],
+    "dmg_immunities": [],
+    "cond_immunities": [],
+    "tool_profs": [],
+    "armor_prof": [],
+    "weapon_profs": [],
+    "key": "",
+    "__dataclass__": "Race"
+  },
+  {
+    "name": "Aarakocra",
+    "source": "MPMM",
+    "speed": {
+      "walk": {
+        "value": 30,
+        "__dataclass__": "Scalar"
+      },
+      "fly": {
+        "value": true,
+        "__dataclass__": "Scalar"
+      },
+      "burrow": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "swim": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "climb": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "can_hover": false,
+      "__dataclass__": "Speed"
+    },
+    "ability_scores": {},
+    "size": [
+      "M"
+    ],
+    "age": null,
+    "size_params": null,
+    "blindsight": 0,
+    "darkvision": 0,
+    "skills": [],
+    "languages": null,
+    "feats": [],
+    "traits": [],
+    "dmg_resistances": [],
+    "dmg_vulnerabilities": [],
+    "dmg_immunities": [],
+    "cond_immunities": [],
+    "tool_profs": [],
+    "armor_prof": [],
+    "weapon_profs": [],
+    "key": "",
+    "__dataclass__": "Race"
+  },
+  {
+    "name": "Aasimar",
+    "source": "DMG",
+    "speed": {
+      "walk": 30,
+      "fly": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "burrow": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "swim": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "climb": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "can_hover": false,
+      "__dataclass__": "Speed"
+    },
+    "ability_scores": [
+      {
+        "wis": 1,
+        "cha": 2
+      }
+    ],
+    "size": [
+      "M"
+    ],
+    "age": {
+      "maximum": 100,
+      "mature": 20,
+      "__dataclass__": "AgeParams"
+    },
+    "size_params": null,
+    "blindsight": 0,
+    "darkvision": 60,
+    "skills": [],
+    "languages": null,
+    "feats": [],
+    "traits": [],
+    "dmg_resistances": [
+      "necrotic",
+      "radiant"
+    ],
+    "dmg_vulnerabilities": [],
+    "dmg_immunities": [],
+    "cond_immunities": [],
+    "tool_profs": [],
+    "armor_prof": [],
+    "weapon_profs": [],
+    "key": "",
+    "__dataclass__": "Race"
+  },
+  {
+    "name": "Aasimar",
+    "source": "MPMM",
+    "speed": {
+      "walk": 30,
+      "fly": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "burrow": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "swim": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "climb": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "can_hover": false,
+      "__dataclass__": "Speed"
+    },
+    "ability_scores": {},
+    "size": [
+      "S",
+      "M"
+    ],
+    "age": {
+      "maximum": 180,
+      "mature": 0,
+      "__dataclass__": "AgeParams"
+    },
+    "size_params": null,
+    "blindsight": 0,
+    "darkvision": 60,
+    "skills": [],
+    "languages": null,
+    "feats": [],
+    "traits": [],
+    "dmg_resistances": [
+      "necrotic",
+      "radiant"
+    ],
+    "dmg_vulnerabilities": [],
+    "dmg_immunities": [],
+    "cond_immunities": [],
+    "tool_profs": [],
+    "armor_prof": [],
+    "weapon_profs": [],
+    "key": "",
+    "__dataclass__": "Race"
+  },
+  {
+    "name": "Aasimar",
+    "source": "VGM",
+    "speed": {
+      "walk": 30,
+      "fly": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "burrow": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "swim": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "climb": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "can_hover": false,
+      "__dataclass__": "Speed"
+    },
+    "ability_scores": [
+      {
+        "cha": 2
+      }
+    ],
+    "size": [
+      "M"
+    ],
+    "age": {
+      "maximum": 160,
+      "mature": 20,
+      "__dataclass__": "AgeParams"
+    },
+    "size_params": {
+      "weight_base": 110,
+      "height_base": "2d4",
+      "weight_mod": 56,
+      "height_mod": "2d10",
+      "__dataclass__": "SizeParams"
+    },
+    "blindsight": 0,
+    "darkvision": 60,
+    "skills": [],
+    "languages": null,
+    "feats": [],
+    "traits": [],
+    "dmg_resistances": [
+      "necrotic",
+      "radiant"
+    ],
+    "dmg_vulnerabilities": [],
+    "dmg_immunities": [],
+    "cond_immunities": [],
+    "tool_profs": [],
+    "armor_prof": [],
+    "weapon_profs": [],
+    "key": "",
+    "__dataclass__": "Race"
+  },
+  {
+    "name": "Aetherborn",
+    "source": "PSK",
+    "speed": {
+      "walk": 30,
+      "fly": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "burrow": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "swim": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "climb": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "can_hover": false,
+      "__dataclass__": "Speed"
+    },
+    "ability_scores": [
+      {
+        "cha": 2,
+        "choose": {
+          "from": [
+            "str",
+            "dex",
+            "con",
+            "int",
+            "wis"
+          ],
+          "count": 2
+        }
+      }
+    ],
+    "size": [
+      "M"
+    ],
+    "age": {
+      "maximum": 3,
+      "mature": 0,
+      "__dataclass__": "AgeParams"
+    },
+    "size_params": null,
+    "blindsight": 0,
+    "darkvision": 60,
+    "skills": [],
+    "languages": null,
+    "feats": [],
+    "traits": [],
+    "dmg_resistances": [
+      "necrotic"
+    ],
+    "dmg_vulnerabilities": [],
+    "dmg_immunities": [],
+    "cond_immunities": [],
+    "tool_profs": [],
+    "armor_prof": [],
+    "weapon_profs": [],
+    "key": "",
+    "__dataclass__": "Race"
+  },
+  {
+    "name": "Astral Elf",
+    "source": "AAG",
+    "speed": {
+      "walk": 30,
+      "fly": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "burrow": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "swim": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "climb": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "can_hover": false,
+      "__dataclass__": "Speed"
+    },
+    "ability_scores": {},
+    "size": [
+      "M"
+    ],
+    "age": {
+      "maximum": 750,
+      "mature": 0,
+      "__dataclass__": "AgeParams"
+    },
+    "size_params": null,
+    "blindsight": 0,
+    "darkvision": 60,
+    "skills": [],
+    "languages": null,
+    "feats": [],
+    "traits": [],
+    "dmg_resistances": [],
+    "dmg_vulnerabilities": [],
+    "dmg_immunities": [],
+    "cond_immunities": [],
+    "tool_profs": [],
+    "armor_prof": [],
+    "weapon_profs": [],
+    "key": "",
+    "__dataclass__": "Race"
+  },
+  {
+    "name": "Autognome",
+    "source": "AAG",
+    "speed": {
+      "walk": 30,
+      "fly": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "burrow": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "swim": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "climb": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "can_hover": false,
+      "__dataclass__": "Speed"
+    },
+    "ability_scores": {},
+    "size": [
+      "S"
+    ],
+    "age": null,
+    "size_params": null,
+    "blindsight": 0,
+    "darkvision": 0,
+    "skills": [],
+    "languages": null,
+    "feats": [],
+    "traits": [],
+    "dmg_resistances": [
+      "poison"
+    ],
+    "dmg_vulnerabilities": [],
+    "dmg_immunities": [],
+    "cond_immunities": [
+      "disease"
+    ],
+    "tool_profs": [],
+    "armor_prof": [],
+    "weapon_profs": [],
+    "key": "",
+    "__dataclass__": "Race"
+  },
+  {
+    "name": "Aven",
+    "source": "PSA",
+    "speed": {
+      "walk": {
+        "value": 25,
+        "__dataclass__": "Scalar"
+      },
+      "fly": {
+        "value": 30,
+        "__dataclass__": "Scalar"
+      },
+      "burrow": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "swim": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "climb": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "can_hover": false,
+      "__dataclass__": "Speed"
+    },
+    "ability_scores": [
+      {
+        "dex": 2
+      }
+    ],
+    "size": [
+      "M"
+    ],
+    "age": {
+      "maximum": 100,
+      "mature": 20,
+      "__dataclass__": "AgeParams"
+    },
+    "size_params": null,
+    "blindsight": 0,
+    "darkvision": 0,
+    "skills": [],
+    "languages": null,
+    "feats": [],
+    "traits": [],
+    "dmg_resistances": [],
+    "dmg_vulnerabilities": [],
+    "dmg_immunities": [],
+    "cond_immunities": [],
+    "tool_profs": [],
+    "armor_prof": [],
+    "weapon_profs": [],
+    "key": "",
+    "__dataclass__": "Race"
+  },
+  {
+    "name": "Aven",
+    "source": "PSD",
+    "speed": {
+      "walk": {
+        "value": 25,
+        "__dataclass__": "Scalar"
+      },
+      "fly": {
+        "value": 30,
+        "__dataclass__": "Scalar"
+      },
+      "burrow": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "swim": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "climb": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "can_hover": false,
+      "__dataclass__": "Speed"
+    },
+    "ability_scores": [
+      {
+        "dex": 2,
+        "wis": 2
+      }
+    ],
+    "size": [
+      "M"
+    ],
+    "age": {
+      "maximum": 100,
+      "mature": 20,
+      "__dataclass__": "AgeParams"
+    },
+    "size_params": null,
+    "blindsight": 0,
+    "darkvision": 0,
+    "skills": [],
+    "languages": null,
+    "feats": [],
+    "traits": [],
+    "dmg_resistances": [],
+    "dmg_vulnerabilities": [],
+    "dmg_immunities": [],
+    "cond_immunities": [],
+    "tool_profs": [],
+    "armor_prof": [],
+    "weapon_profs": [],
+    "key": "",
+    "__dataclass__": "Race"
+  },
+  {
+    "name": "Bugbear",
+    "source": "ERLW",
+    "speed": {
+      "walk": 30,
+      "fly": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "burrow": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "swim": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "climb": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "can_hover": false,
+      "__dataclass__": "Speed"
+    },
+    "ability_scores": [
+      {
+        "str": 2,
+        "dex": 1
+      }
+    ],
+    "size": [
+      "M"
+    ],
+    "age": {
+      "maximum": 80,
+      "mature": 16,
+      "__dataclass__": "AgeParams"
+    },
+    "size_params": {
+      "weight_base": 200,
+      "height_base": "2d6",
+      "weight_mod": 72,
+      "height_mod": "2d12",
+      "__dataclass__": "SizeParams"
+    },
+    "blindsight": 0,
+    "darkvision": 60,
+    "skills": [],
+    "languages": null,
+    "feats": [],
+    "traits": [],
+    "dmg_resistances": [],
+    "dmg_vulnerabilities": [],
+    "dmg_immunities": [],
+    "cond_immunities": [],
+    "tool_profs": [],
+    "armor_prof": [],
+    "weapon_profs": [],
+    "key": "",
+    "__dataclass__": "Race"
+  },
+  {
+    "name": "Bugbear",
+    "source": "MPMM",
+    "speed": {
+      "walk": 30,
+      "fly": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "burrow": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "swim": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "climb": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "can_hover": false,
+      "__dataclass__": "Speed"
+    },
+    "ability_scores": {},
+    "size": [
+      "M"
+    ],
+    "age": null,
+    "size_params": null,
+    "blindsight": 0,
+    "darkvision": 60,
+    "skills": [],
+    "languages": null,
+    "feats": [],
+    "traits": [],
+    "dmg_resistances": [],
+    "dmg_vulnerabilities": [],
+    "dmg_immunities": [],
+    "cond_immunities": [],
+    "tool_profs": [],
+    "armor_prof": [],
+    "weapon_profs": [],
+    "key": "",
+    "__dataclass__": "Race"
+  },
+  {
+    "name": "Bugbear",
+    "source": "VGM",
+    "speed": {
+      "walk": 30,
+      "fly": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "burrow": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "swim": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "climb": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "can_hover": false,
+      "__dataclass__": "Speed"
+    },
+    "ability_scores": [
+      {
+        "str": 2,
+        "dex": 1
+      }
+    ],
+    "size": [
+      "M"
+    ],
+    "age": {
+      "maximum": 80,
+      "mature": 16,
+      "__dataclass__": "AgeParams"
+    },
+    "size_params": {
+      "weight_base": 200,
+      "height_base": "2d6",
+      "weight_mod": 72,
+      "height_mod": "2d12",
+      "__dataclass__": "SizeParams"
+    },
+    "blindsight": 0,
+    "darkvision": 60,
+    "skills": [],
+    "languages": null,
+    "feats": [],
+    "traits": [],
+    "dmg_resistances": [],
+    "dmg_vulnerabilities": [],
+    "dmg_immunities": [],
+    "cond_immunities": [],
+    "tool_profs": [],
+    "armor_prof": [],
+    "weapon_profs": [],
+    "key": "",
+    "__dataclass__": "Race"
+  },
+  {
+    "name": "Bullywug",
+    "source": "DMG",
+    "speed": {
+      "walk": {
+        "value": 20,
+        "__dataclass__": "Scalar"
+      },
+      "fly": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "burrow": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "swim": {
+        "value": 40,
+        "__dataclass__": "Scalar"
+      },
+      "climb": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "can_hover": false,
+      "__dataclass__": "Speed"
+    },
+    "ability_scores": [
+      {
+        "int": -2,
+        "cha": -2
+      }
+    ],
+    "size": [
+      "M"
+    ],
+    "age": null,
+    "size_params": null,
+    "blindsight": 0,
+    "darkvision": 0,
+    "skills": [],
+    "languages": null,
+    "feats": [],
+    "traits": [],
+    "dmg_resistances": [],
+    "dmg_vulnerabilities": [],
+    "dmg_immunities": [],
+    "cond_immunities": [],
+    "tool_profs": [],
+    "armor_prof": [],
+    "weapon_profs": [],
+    "key": "",
+    "__dataclass__": "Race"
+  },
+  {
+    "name": "Centaur",
+    "source": "GGR",
+    "speed": {
+      "walk": 40,
+      "fly": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "burrow": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "swim": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "climb": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "can_hover": false,
+      "__dataclass__": "Speed"
+    },
+    "ability_scores": [
+      {
+        "str": 2,
+        "wis": 1
+      }
+    ],
+    "size": [
+      "M"
+    ],
+    "age": {
+      "maximum": 100,
+      "mature": 20,
+      "__dataclass__": "AgeParams"
+    },
+    "size_params": {
+      "weight_base": 600,
+      "height_base": "2d12",
+      "weight_mod": 72,
+      "height_mod": "1d10",
+      "__dataclass__": "SizeParams"
+    },
+    "blindsight": 0,
+    "darkvision": 0,
+    "skills": [],
+    "languages": null,
+    "feats": [],
+    "traits": [],
+    "dmg_resistances": [],
+    "dmg_vulnerabilities": [],
+    "dmg_immunities": [],
+    "cond_immunities": [],
+    "tool_profs": [],
+    "armor_prof": [],
+    "weapon_profs": [],
+    "key": "",
+    "__dataclass__": "Race"
+  },
+  {
+    "name": "Centaur",
+    "source": "MPMM",
+    "speed": {
+      "walk": 40,
+      "fly": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "burrow": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "swim": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "climb": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "can_hover": false,
+      "__dataclass__": "Speed"
+    },
+    "ability_scores": {},
+    "size": [
+      "M"
+    ],
+    "age": null,
+    "size_params": null,
+    "blindsight": 0,
+    "darkvision": 0,
+    "skills": [],
+    "languages": null,
+    "feats": [],
+    "traits": [],
+    "dmg_resistances": [],
+    "dmg_vulnerabilities": [],
+    "dmg_immunities": [],
+    "cond_immunities": [],
+    "tool_profs": [],
+    "armor_prof": [],
+    "weapon_profs": [],
+    "key": "",
+    "__dataclass__": "Race"
+  },
+  {
+    "name": "Changeling",
+    "source": "ERLW",
+    "speed": {
+      "walk": 30,
+      "fly": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "burrow": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "swim": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "climb": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "can_hover": false,
+      "__dataclass__": "Speed"
+    },
+    "ability_scores": [
+      {
+        "cha": 2,
+        "choose": {
+          "from": [
+            "str",
+            "dex",
+            "con",
+            "int",
+            "wis"
+          ],
+          "count": 1
+        }
+      }
+    ],
+    "size": [
+      "M"
+    ],
+    "age": {
+      "maximum": 100,
+      "mature": 20,
+      "__dataclass__": "AgeParams"
+    },
+    "size_params": {
+      "weight_base": 115,
+      "height_base": "2d4",
+      "weight_mod": 61,
+      "height_mod": "2d4",
+      "__dataclass__": "SizeParams"
+    },
+    "blindsight": 0,
+    "darkvision": 0,
+    "skills": [],
+    "languages": null,
+    "feats": [],
+    "traits": [],
+    "dmg_resistances": [],
+    "dmg_vulnerabilities": [],
+    "dmg_immunities": [],
+    "cond_immunities": [],
+    "tool_profs": [],
+    "armor_prof": [],
+    "weapon_profs": [],
+    "key": "",
+    "__dataclass__": "Race"
+  },
+  {
+    "name": "Changeling",
+    "source": "MPMM",
+    "speed": {
+      "walk": 30,
+      "fly": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "burrow": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "swim": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "climb": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "can_hover": false,
+      "__dataclass__": "Speed"
+    },
+    "ability_scores": {},
+    "size": [
+      "S",
+      "M"
+    ],
+    "age": null,
+    "size_params": null,
+    "blindsight": 0,
+    "darkvision": 0,
+    "skills": [],
+    "languages": null,
+    "feats": [],
+    "traits": [],
+    "dmg_resistances": [],
+    "dmg_vulnerabilities": [],
+    "dmg_immunities": [],
+    "cond_immunities": [],
+    "tool_profs": [],
+    "armor_prof": [],
+    "weapon_profs": [],
+    "key": "",
+    "__dataclass__": "Race"
+  },
+  {
+    "name": "Custom Lineage",
+    "source": "TCE",
+    "speed": {
+      "walk": 30,
+      "fly": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "burrow": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "swim": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "climb": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "can_hover": false,
+      "__dataclass__": "Speed"
+    },
+    "ability_scores": [
+      {
+        "choose": {
+          "from": [
+            "str",
+            "dex",
+            "con",
+            "int",
+            "wis",
+            "cha"
+          ],
+          "amount": 2
+        }
+      }
+    ],
+    "size": [
+      "S",
+      "M"
+    ],
+    "age": null,
+    "size_params": null,
+    "blindsight": 0,
+    "darkvision": 60,
+    "skills": [],
+    "languages": null,
+    "feats": [],
+    "traits": [],
+    "dmg_resistances": [],
+    "dmg_vulnerabilities": [],
+    "dmg_immunities": [],
+    "cond_immunities": [],
+    "tool_profs": [],
+    "armor_prof": [],
+    "weapon_profs": [],
+    "key": "",
+    "__dataclass__": "Race"
+  },
+  {
+    "name": "Deep Gnome",
+    "source": "MPMM",
+    "speed": {
+      "walk": 30,
+      "fly": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "burrow": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "swim": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "climb": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "can_hover": false,
+      "__dataclass__": "Speed"
+    },
+    "ability_scores": {},
+    "size": [
+      "S"
+    ],
+    "age": {
+      "maximum": 500,
+      "mature": 0,
+      "__dataclass__": "AgeParams"
+    },
+    "size_params": null,
+    "blindsight": 0,
+    "darkvision": 120,
+    "skills": [],
+    "languages": null,
+    "feats": [],
+    "traits": [],
+    "dmg_resistances": [],
+    "dmg_vulnerabilities": [],
+    "dmg_immunities": [],
+    "cond_immunities": [],
+    "tool_profs": [],
+    "armor_prof": [],
+    "weapon_profs": [],
+    "key": "",
+    "__dataclass__": "Race"
+  },
+  {
+    "name": "Dhampir",
+    "source": "VRGR",
+    "speed": {
+      "walk": {
+        "value": 35,
+        "__dataclass__": "Scalar"
+      },
+      "fly": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "burrow": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "swim": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "climb": {
+        "value": true,
+        "__dataclass__": "Scalar"
+      },
+      "can_hover": false,
+      "__dataclass__": "Speed"
+    },
+    "ability_scores": {},
+    "size": [
+      "S",
+      "M"
+    ],
+    "age": null,
+    "size_params": null,
+    "blindsight": 0,
+    "darkvision": 60,
+    "skills": [],
+    "languages": null,
+    "feats": [],
+    "traits": [],
+    "dmg_resistances": [],
+    "dmg_vulnerabilities": [],
+    "dmg_immunities": [],
+    "cond_immunities": [],
+    "tool_profs": [],
+    "armor_prof": [],
+    "weapon_profs": [],
+    "key": "",
+    "__dataclass__": "Race"
+  },
+  {
+    "name": "Dragonborn",
+    "source": "PHB",
+    "speed": {
+      "walk": 30,
+      "fly": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "burrow": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "swim": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "climb": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "can_hover": false,
+      "__dataclass__": "Speed"
+    },
+    "ability_scores": [
+      {
+        "str": 2,
+        "cha": 1
+      }
+    ],
+    "size": [
+      "M"
+    ],
+    "age": {
+      "maximum": 80,
+      "mature": 15,
+      "__dataclass__": "AgeParams"
+    },
+    "size_params": {
+      "weight_base": 175,
+      "height_base": "2d6",
+      "weight_mod": 66,
+      "height_mod": "2d8",
+      "__dataclass__": "SizeParams"
+    },
+    "blindsight": 0,
+    "darkvision": 0,
+    "skills": [],
+    "languages": null,
+    "feats": [],
+    "traits": [],
+    "dmg_resistances": [
+      {
+        "choose": {
+          "from": [
+            "acid",
+            "cold",
+            "fire",
+            "lightning",
+            "poison"
+          ]
+        }
+      }
+    ],
+    "dmg_vulnerabilities": [],
+    "dmg_immunities": [],
+    "cond_immunities": [],
+    "tool_profs": [],
+    "armor_prof": [],
+    "weapon_profs": [],
+    "key": "",
+    "__dataclass__": "Race"
+  },
+  {
+    "name": "Dragonborn (Chromatic)",
+    "source": "FTD",
+    "speed": {
+      "walk": 30,
+      "fly": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "burrow": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "swim": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "climb": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "can_hover": false,
+      "__dataclass__": "Speed"
+    },
+    "ability_scores": {},
+    "size": [
+      "M"
+    ],
+    "age": null,
+    "size_params": null,
+    "blindsight": 0,
+    "darkvision": 0,
+    "skills": [],
+    "languages": null,
+    "feats": [],
+    "traits": [],
+    "dmg_resistances": [
+      {
+        "choose": {
+          "from": [
+            "acid",
+            "lightning",
+            "poison",
+            "fire",
+            "cold"
+          ]
+        }
+      }
+    ],
+    "dmg_vulnerabilities": [],
+    "dmg_immunities": [],
+    "cond_immunities": [],
+    "tool_profs": [],
+    "armor_prof": [],
+    "weapon_profs": [],
+    "key": "",
+    "__dataclass__": "Race"
+  },
+  {
+    "name": "Dragonborn (Gem)",
+    "source": "FTD",
+    "speed": {
+      "walk": 30,
+      "fly": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "burrow": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "swim": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "climb": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "can_hover": false,
+      "__dataclass__": "Speed"
+    },
+    "ability_scores": {},
+    "size": [
+      "M"
+    ],
+    "age": null,
+    "size_params": null,
+    "blindsight": 0,
+    "darkvision": 0,
+    "skills": [],
+    "languages": null,
+    "feats": [],
+    "traits": [],
+    "dmg_resistances": [
+      {
+        "choose": {
+          "from": [
+            "force",
+            "radiant",
+            "psychic",
+            "thunder",
+            "necrotic"
+          ]
+        }
+      }
+    ],
+    "dmg_vulnerabilities": [],
+    "dmg_immunities": [],
+    "cond_immunities": [],
+    "tool_profs": [],
+    "armor_prof": [],
+    "weapon_profs": [],
+    "key": "",
+    "__dataclass__": "Race"
+  },
+  {
+    "name": "Dragonborn (Metallic)",
+    "source": "FTD",
+    "speed": {
+      "walk": 30,
+      "fly": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "burrow": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "swim": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "climb": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "can_hover": false,
+      "__dataclass__": "Speed"
+    },
+    "ability_scores": {},
+    "size": [
+      "M"
+    ],
+    "age": null,
+    "size_params": null,
+    "blindsight": 0,
+    "darkvision": 0,
+    "skills": [],
+    "languages": null,
+    "feats": [],
+    "traits": [],
+    "dmg_resistances": [
+      {
+        "choose": {
+          "from": [
+            "fire",
+            "lightning",
+            "acid",
+            "cold"
+          ]
+        }
+      }
+    ],
+    "dmg_vulnerabilities": [],
+    "dmg_immunities": [],
+    "cond_immunities": [],
+    "tool_profs": [],
+    "armor_prof": [],
+    "weapon_profs": [],
+    "key": "",
+    "__dataclass__": "Race"
+  },
+  {
+    "name": "Duergar",
+    "source": "MPMM",
+    "speed": {
+      "walk": 30,
+      "fly": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "burrow": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "swim": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "climb": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "can_hover": false,
+      "__dataclass__": "Speed"
+    },
+    "ability_scores": {},
+    "size": [
+      "M"
+    ],
+    "age": {
+      "maximum": 350,
+      "mature": 0,
+      "__dataclass__": "AgeParams"
+    },
+    "size_params": null,
+    "blindsight": 0,
+    "darkvision": 120,
+    "skills": [],
+    "languages": null,
+    "feats": [],
+    "traits": [],
+    "dmg_resistances": [
+      "poison"
+    ],
+    "dmg_vulnerabilities": [],
+    "dmg_immunities": [],
+    "cond_immunities": [],
+    "tool_profs": [],
+    "armor_prof": [],
+    "weapon_profs": [],
+    "key": "",
+    "__dataclass__": "Race"
+  },
+  {
+    "name": "Dwarf",
+    "source": "PHB",
+    "speed": {
+      "walk": 25,
+      "fly": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "burrow": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "swim": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "climb": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "can_hover": false,
+      "__dataclass__": "Speed"
+    },
+    "ability_scores": [
+      {
+        "con": 2
+      }
+    ],
+    "size": [
+      "M"
+    ],
+    "age": {
+      "maximum": 350,
+      "mature": 20,
+      "__dataclass__": "AgeParams"
+    },
+    "size_params": null,
+    "blindsight": 0,
+    "darkvision": 60,
+    "skills": [],
+    "languages": null,
+    "feats": [],
+    "traits": [],
+    "dmg_resistances": [
+      "poison"
+    ],
+    "dmg_vulnerabilities": [],
+    "dmg_immunities": [],
+    "cond_immunities": [],
+    "tool_profs": [],
+    "armor_prof": [],
+    "weapon_profs": [],
+    "key": "",
+    "__dataclass__": "Race"
+  },
+  {
+    "name": "Dwarf (Kaladesh)",
+    "source": "PSK",
+    "speed": {
+      "walk": 25,
+      "fly": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "burrow": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "swim": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "climb": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "can_hover": false,
+      "__dataclass__": "Speed"
+    },
+    "ability_scores": [
+      {
+        "con": 2,
+        "wis": 1
+      }
+    ],
+    "size": [
+      "M"
+    ],
+    "age": {
+      "maximum": 350,
+      "mature": 50,
+      "__dataclass__": "AgeParams"
+    },
+    "size_params": null,
+    "blindsight": 0,
+    "darkvision": 60,
+    "skills": [],
+    "languages": null,
+    "feats": [],
+    "traits": [],
+    "dmg_resistances": [
+      "poison"
+    ],
+    "dmg_vulnerabilities": [],
+    "dmg_immunities": [],
+    "cond_immunities": [],
+    "tool_profs": [],
+    "armor_prof": [],
+    "weapon_profs": [],
+    "key": "",
+    "__dataclass__": "Race"
+  },
+  {
+    "name": "Eladrin",
+    "source": "MPMM",
+    "speed": {
+      "walk": 30,
+      "fly": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "burrow": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "swim": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "climb": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "can_hover": false,
+      "__dataclass__": "Speed"
+    },
+    "ability_scores": {},
+    "size": [
+      "M"
+    ],
+    "age": {
+      "maximum": 750,
+      "mature": 0,
+      "__dataclass__": "AgeParams"
+    },
+    "size_params": null,
+    "blindsight": 0,
+    "darkvision": 60,
+    "skills": [],
+    "languages": null,
+    "feats": [],
+    "traits": [],
+    "dmg_resistances": [],
+    "dmg_vulnerabilities": [],
+    "dmg_immunities": [],
+    "cond_immunities": [],
+    "tool_profs": [],
+    "armor_prof": [],
+    "weapon_profs": [],
+    "key": "",
+    "__dataclass__": "Race"
+  },
+  {
+    "name": "Elf",
+    "source": "PHB",
+    "speed": {
+      "walk": 30,
+      "fly": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "burrow": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "swim": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "climb": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "can_hover": false,
+      "__dataclass__": "Speed"
+    },
+    "ability_scores": [
+      {
+        "dex": 2
+      }
+    ],
+    "size": [
+      "M"
+    ],
+    "age": {
+      "maximum": 750,
+      "mature": 100,
+      "__dataclass__": "AgeParams"
+    },
+    "size_params": null,
+    "blindsight": 0,
+    "darkvision": 60,
+    "skills": [],
+    "languages": null,
+    "feats": [],
+    "traits": [],
+    "dmg_resistances": [],
+    "dmg_vulnerabilities": [],
+    "dmg_immunities": [],
+    "cond_immunities": [],
+    "tool_profs": [],
+    "armor_prof": [],
+    "weapon_profs": [],
+    "key": "",
+    "__dataclass__": "Race"
+  },
+  {
+    "name": "Elf (Kaladesh)",
+    "source": "PSK",
+    "speed": {
+      "walk": 30,
+      "fly": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "burrow": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "swim": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "climb": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "can_hover": false,
+      "__dataclass__": "Speed"
+    },
+    "ability_scores": [
+      {
+        "dex": 2,
+        "wis": 1
+      }
+    ],
+    "size": [
+      "M"
+    ],
+    "age": {
+      "maximum": 750,
+      "mature": 100,
+      "__dataclass__": "AgeParams"
+    },
+    "size_params": null,
+    "blindsight": 0,
+    "darkvision": 60,
+    "skills": [],
+    "languages": null,
+    "feats": [],
+    "traits": [],
+    "dmg_resistances": [],
+    "dmg_vulnerabilities": [],
+    "dmg_immunities": [],
+    "cond_immunities": [],
+    "tool_profs": [],
+    "armor_prof": [],
+    "weapon_profs": [],
+    "key": "",
+    "__dataclass__": "Race"
+  },
+  {
+    "name": "Elf (Zendikar)",
+    "source": "PSZ",
+    "speed": {
+      "walk": 30,
+      "fly": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "burrow": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "swim": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "climb": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "can_hover": false,
+      "__dataclass__": "Speed"
+    },
+    "ability_scores": [
+      {
+        "wis": 2
+      }
+    ],
+    "size": [
+      "M"
+    ],
+    "age": {
+      "maximum": 750,
+      "mature": 100,
+      "__dataclass__": "AgeParams"
+    },
+    "size_params": null,
+    "blindsight": 0,
+    "darkvision": 60,
+    "skills": [],
+    "languages": null,
+    "feats": [],
+    "traits": [],
+    "dmg_resistances": [],
+    "dmg_vulnerabilities": [],
+    "dmg_immunities": [],
+    "cond_immunities": [],
+    "tool_profs": [],
+    "armor_prof": [],
+    "weapon_profs": [],
+    "key": "",
+    "__dataclass__": "Race"
+  },
+  {
+    "name": "Fairy",
+    "source": "MPMM",
+    "speed": {
+      "walk": {
+        "value": 30,
+        "__dataclass__": "Scalar"
+      },
+      "fly": {
+        "value": true,
+        "__dataclass__": "Scalar"
+      },
+      "burrow": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "swim": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "climb": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "can_hover": false,
+      "__dataclass__": "Speed"
+    },
+    "ability_scores": {},
+    "size": [
+      "S"
+    ],
+    "age": null,
+    "size_params": null,
+    "blindsight": 0,
+    "darkvision": 0,
+    "skills": [],
+    "languages": null,
+    "feats": [],
+    "traits": [],
+    "dmg_resistances": [],
+    "dmg_vulnerabilities": [],
+    "dmg_immunities": [],
+    "cond_immunities": [],
+    "tool_profs": [],
+    "armor_prof": [],
+    "weapon_profs": [],
+    "key": "",
+    "__dataclass__": "Race"
+  },
+  {
+    "name": "Fairy",
+    "source": "WBtW",
+    "speed": {
+      "walk": {
+        "value": 30,
+        "__dataclass__": "Scalar"
+      },
+      "fly": {
+        "value": true,
+        "__dataclass__": "Scalar"
+      },
+      "burrow": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "swim": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "climb": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "can_hover": false,
+      "__dataclass__": "Speed"
+    },
+    "ability_scores": {},
+    "size": [
+      "S"
+    ],
+    "age": null,
+    "size_params": null,
+    "blindsight": 0,
+    "darkvision": 0,
+    "skills": [],
+    "languages": null,
+    "feats": [],
+    "traits": [],
+    "dmg_resistances": [],
+    "dmg_vulnerabilities": [],
+    "dmg_immunities": [],
+    "cond_immunities": [],
+    "tool_profs": [],
+    "armor_prof": [],
+    "weapon_profs": [],
+    "key": "",
+    "__dataclass__": "Race"
+  },
+  {
+    "name": "Firbolg",
+    "source": "MPMM",
+    "speed": {
+      "walk": 30,
+      "fly": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "burrow": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "swim": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "climb": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "can_hover": false,
+      "__dataclass__": "Speed"
+    },
+    "ability_scores": {},
+    "size": [
+      "M"
+    ],
+    "age": {
+      "maximum": 500,
+      "mature": 0,
+      "__dataclass__": "AgeParams"
+    },
+    "size_params": null,
+    "blindsight": 0,
+    "darkvision": 0,
+    "skills": [],
+    "languages": null,
+    "feats": [],
+    "traits": [],
+    "dmg_resistances": [],
+    "dmg_vulnerabilities": [],
+    "dmg_immunities": [],
+    "cond_immunities": [],
+    "tool_profs": [],
+    "armor_prof": [],
+    "weapon_profs": [],
+    "key": "",
+    "__dataclass__": "Race"
+  },
+  {
+    "name": "Firbolg",
+    "source": "VGM",
+    "speed": {
+      "walk": 30,
+      "fly": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "burrow": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "swim": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "climb": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "can_hover": false,
+      "__dataclass__": "Speed"
+    },
+    "ability_scores": [
+      {
+        "wis": 2,
+        "str": 1
+      }
+    ],
+    "size": [
+      "M"
+    ],
+    "age": {
+      "maximum": 500,
+      "mature": 30,
+      "__dataclass__": "AgeParams"
+    },
+    "size_params": {
+      "weight_base": 175,
+      "height_base": "2d6",
+      "weight_mod": 74,
+      "height_mod": "2d12",
+      "__dataclass__": "SizeParams"
+    },
+    "blindsight": 0,
+    "darkvision": 0,
+    "skills": [],
+    "languages": null,
+    "feats": [],
+    "traits": [],
+    "dmg_resistances": [],
+    "dmg_vulnerabilities": [],
+    "dmg_immunities": [],
+    "cond_immunities": [],
+    "tool_profs": [],
+    "armor_prof": [],
+    "weapon_profs": [],
+    "key": "",
+    "__dataclass__": "Race"
+  },
+  {
+    "name": "Genasi",
+    "source": "EEPC",
+    "speed": {
+      "walk": 30,
+      "fly": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "burrow": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "swim": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "climb": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "can_hover": false,
+      "__dataclass__": "Speed"
+    },
+    "ability_scores": [
+      {
+        "con": 2
+      }
+    ],
+    "size": [
+      "M"
+    ],
+    "age": {
+      "maximum": 120,
+      "mature": 20,
+      "__dataclass__": "AgeParams"
+    },
+    "size_params": {
+      "weight_base": 110,
+      "height_base": "2d4",
+      "weight_mod": 56,
+      "height_mod": "2d10",
+      "__dataclass__": "SizeParams"
+    },
+    "blindsight": 0,
+    "darkvision": 0,
+    "skills": [],
+    "languages": null,
+    "feats": [],
+    "traits": [],
+    "dmg_resistances": [],
+    "dmg_vulnerabilities": [],
+    "dmg_immunities": [],
+    "cond_immunities": [],
+    "tool_profs": [],
+    "armor_prof": [],
+    "weapon_profs": [],
+    "key": "",
+    "__dataclass__": "Race"
+  },
+  {
+    "name": "Genasi",
+    "source": "MPMM",
+    "speed": {
+      "walk": 30,
+      "fly": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "burrow": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "swim": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "climb": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "can_hover": false,
+      "__dataclass__": "Speed"
+    },
+    "ability_scores": {},
+    "size": [
+      "S",
+      "M"
+    ],
+    "age": {
+      "maximum": 120,
+      "mature": 0,
+      "__dataclass__": "AgeParams"
+    },
+    "size_params": null,
+    "blindsight": 0,
+    "darkvision": 60,
+    "skills": [],
+    "languages": null,
+    "feats": [],
+    "traits": [],
+    "dmg_resistances": [],
+    "dmg_vulnerabilities": [],
+    "dmg_immunities": [],
+    "cond_immunities": [],
+    "tool_profs": [],
+    "armor_prof": [],
+    "weapon_profs": [],
+    "key": "",
+    "__dataclass__": "Race"
+  },
+  {
+    "name": "Giff",
+    "source": "AAG",
+    "speed": {
+      "walk": {
+        "value": 30,
+        "__dataclass__": "Scalar"
+      },
+      "fly": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "burrow": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "swim": {
+        "value": true,
+        "__dataclass__": "Scalar"
+      },
+      "climb": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "can_hover": false,
+      "__dataclass__": "Speed"
+    },
+    "ability_scores": {},
+    "size": [
+      "M"
+    ],
+    "age": null,
+    "size_params": null,
+    "blindsight": 0,
+    "darkvision": 0,
+    "skills": [],
+    "languages": null,
+    "feats": [],
+    "traits": [],
+    "dmg_resistances": [],
+    "dmg_vulnerabilities": [],
+    "dmg_immunities": [],
+    "cond_immunities": [],
+    "tool_profs": [],
+    "armor_prof": [],
+    "weapon_profs": [],
+    "key": "",
+    "__dataclass__": "Race"
+  },
+  {
+    "name": "Gith",
+    "source": "MTF",
+    "speed": {
+      "walk": 30,
+      "fly": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "burrow": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "swim": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "climb": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "can_hover": false,
+      "__dataclass__": "Speed"
+    },
+    "ability_scores": [
+      {
+        "int": 1
+      }
+    ],
+    "size": [
+      "M"
+    ],
+    "age": {
+      "maximum": 100,
+      "mature": 20,
+      "__dataclass__": "AgeParams"
+    },
+    "size_params": null,
+    "blindsight": 0,
+    "darkvision": 0,
+    "skills": [],
+    "languages": null,
+    "feats": [],
+    "traits": [],
+    "dmg_resistances": [],
+    "dmg_vulnerabilities": [],
+    "dmg_immunities": [],
+    "cond_immunities": [],
+    "tool_profs": [],
+    "armor_prof": [],
+    "weapon_profs": [],
+    "key": "",
+    "__dataclass__": "Race"
+  },
+  {
+    "name": "Githyanki",
+    "source": "MPMM",
+    "speed": {
+      "walk": 30,
+      "fly": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "burrow": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "swim": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "climb": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "can_hover": false,
+      "__dataclass__": "Speed"
+    },
+    "ability_scores": {},
+    "size": [
+      "M"
+    ],
+    "age": null,
+    "size_params": null,
+    "blindsight": 0,
+    "darkvision": 0,
+    "skills": [],
+    "languages": null,
+    "feats": [],
+    "traits": [],
+    "dmg_resistances": [
+      "psychic"
+    ],
+    "dmg_vulnerabilities": [],
+    "dmg_immunities": [],
+    "cond_immunities": [],
+    "tool_profs": [],
+    "armor_prof": [],
+    "weapon_profs": [],
+    "key": "",
+    "__dataclass__": "Race"
+  },
+  {
+    "name": "Githzerai",
+    "source": "MPMM",
+    "speed": {
+      "walk": 30,
+      "fly": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "burrow": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "swim": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "climb": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "can_hover": false,
+      "__dataclass__": "Speed"
+    },
+    "ability_scores": {},
+    "size": [
+      "M"
+    ],
+    "age": null,
+    "size_params": null,
+    "blindsight": 0,
+    "darkvision": 0,
+    "skills": [],
+    "languages": null,
+    "feats": [],
+    "traits": [],
+    "dmg_resistances": [
+      "psychic"
+    ],
+    "dmg_vulnerabilities": [],
+    "dmg_immunities": [],
+    "cond_immunities": [],
+    "tool_profs": [],
+    "armor_prof": [],
+    "weapon_profs": [],
+    "key": "",
+    "__dataclass__": "Race"
+  },
+  {
+    "name": "Gnoll",
+    "source": "DMG",
+    "speed": {
+      "walk": 30,
+      "fly": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "burrow": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "swim": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "climb": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "can_hover": false,
+      "__dataclass__": "Speed"
+    },
+    "ability_scores": [
+      {
+        "str": 2,
+        "int": -2
+      }
+    ],
+    "size": [
+      "M"
+    ],
+    "age": null,
+    "size_params": null,
+    "blindsight": 0,
+    "darkvision": 60,
+    "skills": [],
+    "languages": null,
+    "feats": [],
+    "traits": [],
+    "dmg_resistances": [],
+    "dmg_vulnerabilities": [],
+    "dmg_immunities": [],
+    "cond_immunities": [],
+    "tool_profs": [],
+    "armor_prof": [],
+    "weapon_profs": [],
+    "key": "",
+    "__dataclass__": "Race"
+  },
+  {
+    "name": "Gnome",
+    "source": "PHB",
+    "speed": {
+      "walk": 25,
+      "fly": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "burrow": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "swim": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "climb": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "can_hover": false,
+      "__dataclass__": "Speed"
+    },
+    "ability_scores": [
+      {
+        "int": 2
+      }
+    ],
+    "size": [
+      "S"
+    ],
+    "age": {
+      "maximum": 500,
+      "mature": 40,
+      "__dataclass__": "AgeParams"
+    },
+    "size_params": {
+      "weight_base": 35,
+      "height_base": "",
+      "weight_mod": 35,
+      "height_mod": "2d4",
+      "__dataclass__": "SizeParams"
+    },
+    "blindsight": 0,
+    "darkvision": 60,
+    "skills": [],
+    "languages": null,
+    "feats": [],
+    "traits": [],
+    "dmg_resistances": [],
+    "dmg_vulnerabilities": [],
+    "dmg_immunities": [],
+    "cond_immunities": [],
+    "tool_profs": [],
+    "armor_prof": [],
+    "weapon_profs": [],
+    "key": "",
+    "__dataclass__": "Race"
+  },
+  {
+    "name": "Gnome (Deep)",
+    "source": "DMG",
+    "speed": {
+      "walk": 20,
+      "fly": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "burrow": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "swim": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "climb": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "can_hover": false,
+      "__dataclass__": "Speed"
+    },
+    "ability_scores": [
+      {
+        "str": 1,
+        "dex": 2
+      }
+    ],
+    "size": [
+      "S"
+    ],
+    "age": null,
+    "size_params": null,
+    "blindsight": 0,
+    "darkvision": 120,
+    "skills": [],
+    "languages": null,
+    "feats": [],
+    "traits": [],
+    "dmg_resistances": [],
+    "dmg_vulnerabilities": [],
+    "dmg_immunities": [],
+    "cond_immunities": [],
+    "tool_profs": [],
+    "armor_prof": [],
+    "weapon_profs": [],
+    "key": "",
+    "__dataclass__": "Race"
+  },
+  {
+    "name": "Goblin",
+    "source": "DMG",
+    "speed": {
+      "walk": 30,
+      "fly": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "burrow": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "swim": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "climb": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "can_hover": false,
+      "__dataclass__": "Speed"
+    },
+    "ability_scores": [
+      {
+        "str": -2,
+        "dex": 2
+      }
+    ],
+    "size": [
+      "S"
+    ],
+    "age": null,
+    "size_params": null,
+    "blindsight": 0,
+    "darkvision": 60,
+    "skills": [],
+    "languages": null,
+    "feats": [],
+    "traits": [],
+    "dmg_resistances": [],
+    "dmg_vulnerabilities": [],
+    "dmg_immunities": [],
+    "cond_immunities": [],
+    "tool_profs": [],
+    "armor_prof": [],
+    "weapon_profs": [],
+    "key": "",
+    "__dataclass__": "Race"
+  },
+  {
+    "name": "Goblin",
+    "source": "MPMM",
+    "speed": {
+      "walk": 30,
+      "fly": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "burrow": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "swim": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "climb": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "can_hover": false,
+      "__dataclass__": "Speed"
+    },
+    "ability_scores": {},
+    "size": [
+      "S"
+    ],
+    "age": null,
+    "size_params": null,
+    "blindsight": 0,
+    "darkvision": 60,
+    "skills": [],
+    "languages": null,
+    "feats": [],
+    "traits": [],
+    "dmg_resistances": [],
+    "dmg_vulnerabilities": [],
+    "dmg_immunities": [],
+    "cond_immunities": [],
+    "tool_profs": [],
+    "armor_prof": [],
+    "weapon_profs": [],
+    "key": "",
+    "__dataclass__": "Race"
+  },
+  {
+    "name": "Goblin",
+    "source": "PSZ",
+    "speed": {
+      "walk": 25,
+      "fly": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "burrow": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "swim": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "climb": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "can_hover": false,
+      "__dataclass__": "Speed"
+    },
+    "ability_scores": {},
+    "size": [
+      "S"
+    ],
+    "age": {
+      "maximum": 50,
+      "mature": 12,
+      "__dataclass__": "AgeParams"
+    },
+    "size_params": null,
+    "blindsight": 0,
+    "darkvision": 60,
+    "skills": [],
+    "languages": null,
+    "feats": [],
+    "traits": [],
+    "dmg_resistances": [
+      "fire",
+      "psychic"
+    ],
+    "dmg_vulnerabilities": [],
+    "dmg_immunities": [],
+    "cond_immunities": [],
+    "tool_profs": [],
+    "armor_prof": [],
+    "weapon_profs": [],
+    "key": "",
+    "__dataclass__": "Race"
+  },
+  {
+    "name": "Goblin",
+    "source": "VGM",
+    "speed": {
+      "walk": 30,
+      "fly": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "burrow": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "swim": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "climb": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "can_hover": false,
+      "__dataclass__": "Speed"
+    },
+    "ability_scores": [
+      {
+        "dex": 2,
+        "con": 1
+      }
+    ],
+    "size": [
+      "S"
+    ],
+    "age": {
+      "maximum": 60,
+      "mature": 8,
+      "__dataclass__": "AgeParams"
+    },
+    "size_params": {
+      "weight_base": 35,
+      "height_base": "",
+      "weight_mod": 41,
+      "height_mod": "2d4",
+      "__dataclass__": "SizeParams"
+    },
+    "blindsight": 0,
+    "darkvision": 60,
+    "skills": [],
+    "languages": null,
+    "feats": [],
+    "traits": [],
+    "dmg_resistances": [],
+    "dmg_vulnerabilities": [],
+    "dmg_immunities": [],
+    "cond_immunities": [],
+    "tool_profs": [],
+    "armor_prof": [],
+    "weapon_profs": [],
+    "key": "",
+    "__dataclass__": "Race"
+  },
+  {
+    "name": "Goliath",
+    "source": "MPMM",
+    "speed": {
+      "walk": 30,
+      "fly": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "burrow": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "swim": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "climb": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "can_hover": false,
+      "__dataclass__": "Speed"
+    },
+    "ability_scores": {},
+    "size": [
+      "M"
+    ],
+    "age": null,
+    "size_params": null,
+    "blindsight": 0,
+    "darkvision": 0,
+    "skills": [],
+    "languages": null,
+    "feats": [],
+    "traits": [],
+    "dmg_resistances": [
+      "cold"
+    ],
+    "dmg_vulnerabilities": [],
+    "dmg_immunities": [],
+    "cond_immunities": [],
+    "tool_profs": [],
+    "armor_prof": [],
+    "weapon_profs": [],
+    "key": "",
+    "__dataclass__": "Race"
+  },
+  {
+    "name": "Goliath",
+    "source": "VGM",
+    "speed": {
+      "walk": 30,
+      "fly": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "burrow": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "swim": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "climb": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "can_hover": false,
+      "__dataclass__": "Speed"
+    },
+    "ability_scores": [
+      {
+        "str": 2,
+        "con": 1
+      }
+    ],
+    "size": [
+      "M"
+    ],
+    "age": {
+      "maximum": 100,
+      "mature": 20,
+      "__dataclass__": "AgeParams"
+    },
+    "size_params": {
+      "weight_base": 200,
+      "height_base": "2d6",
+      "weight_mod": 74,
+      "height_mod": "2d10",
+      "__dataclass__": "SizeParams"
+    },
+    "blindsight": 0,
+    "darkvision": 0,
+    "skills": [],
+    "languages": null,
+    "feats": [],
+    "traits": [],
+    "dmg_resistances": [
+      "cold"
+    ],
+    "dmg_vulnerabilities": [],
+    "dmg_immunities": [],
+    "cond_immunities": [],
+    "tool_profs": [],
+    "armor_prof": [],
+    "weapon_profs": [],
+    "key": "",
+    "__dataclass__": "Race"
+  },
+  {
+    "name": "Grimlock",
+    "source": "DMG",
+    "speed": {
+      "walk": 30,
+      "fly": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "burrow": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "swim": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "climb": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "can_hover": false,
+      "__dataclass__": "Speed"
+    },
+    "ability_scores": [
+      {
+        "str": 2,
+        "cha": -2
+      }
+    ],
+    "size": [
+      "M"
+    ],
+    "age": null,
+    "size_params": null,
+    "blindsight": 30,
+    "darkvision": 0,
+    "skills": [],
+    "languages": null,
+    "feats": [],
+    "traits": [],
+    "dmg_resistances": [],
+    "dmg_vulnerabilities": [],
+    "dmg_immunities": [],
+    "cond_immunities": [],
+    "tool_profs": [],
+    "armor_prof": [],
+    "weapon_profs": [],
+    "key": "",
+    "__dataclass__": "Race"
+  },
+  {
+    "name": "Grung",
+    "source": "OGA",
+    "speed": {
+      "walk": {
+        "value": 25,
+        "__dataclass__": "Scalar"
+      },
+      "fly": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "burrow": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "swim": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "climb": {
+        "value": 25,
+        "__dataclass__": "Scalar"
+      },
+      "can_hover": false,
+      "__dataclass__": "Speed"
+    },
+    "ability_scores": [
+      {
+        "dex": 2,
+        "con": 1
+      }
+    ],
+    "size": [
+      "S"
+    ],
+    "age": {
+      "maximum": 50,
+      "mature": 1,
+      "__dataclass__": "AgeParams"
+    },
+    "size_params": null,
+    "blindsight": 0,
+    "darkvision": 0,
+    "skills": [],
+    "languages": null,
+    "feats": [],
+    "traits": [],
+    "dmg_resistances": [],
+    "dmg_vulnerabilities": [],
+    "dmg_immunities": [
+      "poison"
+    ],
+    "cond_immunities": [
+      "poisoned"
+    ],
+    "tool_profs": [],
+    "armor_prof": [],
+    "weapon_profs": [],
+    "key": "",
+    "__dataclass__": "Race"
+  },
+  {
+    "name": "Hadozee",
+    "source": "AAG",
+    "speed": {
+      "walk": {
+        "value": 30,
+        "__dataclass__": "Scalar"
+      },
+      "fly": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "burrow": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "swim": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "climb": {
+        "value": true,
+        "__dataclass__": "Scalar"
+      },
+      "can_hover": false,
+      "__dataclass__": "Speed"
+    },
+    "ability_scores": {},
+    "size": [
+      "S",
+      "M"
+    ],
+    "age": null,
+    "size_params": null,
+    "blindsight": 0,
+    "darkvision": 0,
+    "skills": [],
+    "languages": null,
+    "feats": [],
+    "traits": [],
+    "dmg_resistances": [],
+    "dmg_vulnerabilities": [],
+    "dmg_immunities": [],
+    "cond_immunities": [],
+    "tool_profs": [],
+    "armor_prof": [],
+    "weapon_profs": [],
+    "key": "",
+    "__dataclass__": "Race"
+  },
+  {
+    "name": "Half-Elf",
+    "source": "PHB",
+    "speed": {
+      "walk": 30,
+      "fly": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "burrow": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "swim": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "climb": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "can_hover": false,
+      "__dataclass__": "Speed"
+    },
+    "ability_scores": [
+      {
+        "cha": 2,
+        "choose": {
+          "from": [
+            "str",
+            "dex",
+            "con",
+            "int",
+            "wis"
+          ],
+          "count": 2
+        }
+      }
+    ],
+    "size": [
+      "M"
+    ],
+    "age": {
+      "maximum": 180,
+      "mature": 20,
+      "__dataclass__": "AgeParams"
+    },
+    "size_params": {
+      "weight_base": 110,
+      "height_base": "2d4",
+      "weight_mod": 57,
+      "height_mod": "2d8",
+      "__dataclass__": "SizeParams"
+    },
+    "blindsight": 0,
+    "darkvision": 60,
+    "skills": [],
+    "languages": null,
+    "feats": [],
+    "traits": [],
+    "dmg_resistances": [],
+    "dmg_vulnerabilities": [],
+    "dmg_immunities": [],
+    "cond_immunities": [],
+    "tool_profs": [],
+    "armor_prof": [],
+    "weapon_profs": [],
+    "key": "",
+    "__dataclass__": "Race"
+  },
+  {
+    "name": "Half-Orc",
+    "source": "PHB",
+    "speed": {
+      "walk": 30,
+      "fly": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "burrow": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "swim": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "climb": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "can_hover": false,
+      "__dataclass__": "Speed"
+    },
+    "ability_scores": [
+      {
+        "str": 2,
+        "con": 1
+      }
+    ],
+    "size": [
+      "M"
+    ],
+    "age": {
+      "maximum": 75,
+      "mature": 14,
+      "__dataclass__": "AgeParams"
+    },
+    "size_params": {
+      "weight_base": 140,
+      "height_base": "2d6",
+      "weight_mod": 58,
+      "height_mod": "2d10",
+      "__dataclass__": "SizeParams"
+    },
+    "blindsight": 0,
+    "darkvision": 60,
+    "skills": [],
+    "languages": null,
+    "feats": [],
+    "traits": [],
+    "dmg_resistances": [],
+    "dmg_vulnerabilities": [],
+    "dmg_immunities": [],
+    "cond_immunities": [],
+    "tool_profs": [],
+    "armor_prof": [],
+    "weapon_profs": [],
+    "key": "",
+    "__dataclass__": "Race"
+  },
+  {
+    "name": "Halfling",
+    "source": "PHB",
+    "speed": {
+      "walk": 25,
+      "fly": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "burrow": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "swim": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "climb": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "can_hover": false,
+      "__dataclass__": "Speed"
+    },
+    "ability_scores": [
+      {
+        "dex": 2
+      }
+    ],
+    "size": [
+      "S"
+    ],
+    "age": {
+      "maximum": 250,
+      "mature": 20,
+      "__dataclass__": "AgeParams"
+    },
+    "size_params": {
+      "weight_base": 35,
+      "height_base": "",
+      "weight_mod": 31,
+      "height_mod": "2d4",
+      "__dataclass__": "SizeParams"
+    },
+    "blindsight": 0,
+    "darkvision": 0,
+    "skills": [],
+    "languages": null,
+    "feats": [],
+    "traits": [],
+    "dmg_resistances": [],
+    "dmg_vulnerabilities": [],
+    "dmg_immunities": [],
+    "cond_immunities": [],
+    "tool_profs": [],
+    "armor_prof": [],
+    "weapon_profs": [],
+    "key": "",
+    "__dataclass__": "Race"
+  },
+  {
+    "name": "Harengon",
+    "source": "MPMM",
+    "speed": {
+      "walk": 30,
+      "fly": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "burrow": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "swim": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "climb": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "can_hover": false,
+      "__dataclass__": "Speed"
+    },
+    "ability_scores": {},
+    "size": [
+      "S",
+      "M"
+    ],
+    "age": null,
+    "size_params": null,
+    "blindsight": 0,
+    "darkvision": 0,
+    "skills": [],
+    "languages": null,
+    "feats": [],
+    "traits": [],
+    "dmg_resistances": [],
+    "dmg_vulnerabilities": [],
+    "dmg_immunities": [],
+    "cond_immunities": [],
+    "tool_profs": [],
+    "armor_prof": [],
+    "weapon_profs": [],
+    "key": "",
+    "__dataclass__": "Race"
+  },
+  {
+    "name": "Harengon",
+    "source": "WBtW",
+    "speed": {
+      "walk": 30,
+      "fly": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "burrow": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "swim": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "climb": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "can_hover": false,
+      "__dataclass__": "Speed"
+    },
+    "ability_scores": {},
+    "size": [
+      "S",
+      "M"
+    ],
+    "age": null,
+    "size_params": null,
+    "blindsight": 0,
+    "darkvision": 0,
+    "skills": [],
+    "languages": null,
+    "feats": [],
+    "traits": [],
+    "dmg_resistances": [],
+    "dmg_vulnerabilities": [],
+    "dmg_immunities": [],
+    "cond_immunities": [],
+    "tool_profs": [],
+    "armor_prof": [],
+    "weapon_profs": [],
+    "key": "",
+    "__dataclass__": "Race"
+  },
+  {
+    "name": "Hexblood",
+    "source": "VRGR",
+    "speed": {
+      "walk": 30,
+      "fly": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "burrow": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "swim": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "climb": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "can_hover": false,
+      "__dataclass__": "Speed"
+    },
+    "ability_scores": {},
+    "size": [
+      "S",
+      "M"
+    ],
+    "age": null,
+    "size_params": null,
+    "blindsight": 0,
+    "darkvision": 60,
+    "skills": [],
+    "languages": null,
+    "feats": [],
+    "traits": [],
+    "dmg_resistances": [],
+    "dmg_vulnerabilities": [],
+    "dmg_immunities": [],
+    "cond_immunities": [],
+    "tool_profs": [],
+    "armor_prof": [],
+    "weapon_profs": [],
+    "key": "",
+    "__dataclass__": "Race"
+  },
+  {
+    "name": "Hobgoblin",
+    "source": "DMG",
+    "speed": {
+      "walk": 30,
+      "fly": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "burrow": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "swim": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "climb": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "can_hover": false,
+      "__dataclass__": "Speed"
+    },
+    "ability_scores": {},
+    "size": [
+      "M"
+    ],
+    "age": null,
+    "size_params": null,
+    "blindsight": 0,
+    "darkvision": 60,
+    "skills": [],
+    "languages": null,
+    "feats": [],
+    "traits": [],
+    "dmg_resistances": [],
+    "dmg_vulnerabilities": [],
+    "dmg_immunities": [],
+    "cond_immunities": [],
+    "tool_profs": [],
+    "armor_prof": [],
+    "weapon_profs": [],
+    "key": "",
+    "__dataclass__": "Race"
+  },
+  {
+    "name": "Hobgoblin",
+    "source": "MPMM",
+    "speed": {
+      "walk": 30,
+      "fly": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "burrow": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "swim": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "climb": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "can_hover": false,
+      "__dataclass__": "Speed"
+    },
+    "ability_scores": {},
+    "size": [
+      "M"
+    ],
+    "age": null,
+    "size_params": null,
+    "blindsight": 0,
+    "darkvision": 60,
+    "skills": [],
+    "languages": null,
+    "feats": [],
+    "traits": [],
+    "dmg_resistances": [],
+    "dmg_vulnerabilities": [],
+    "dmg_immunities": [],
+    "cond_immunities": [],
+    "tool_profs": [],
+    "armor_prof": [],
+    "weapon_profs": [],
+    "key": "",
+    "__dataclass__": "Race"
+  },
+  {
+    "name": "Hobgoblin",
+    "source": "VGM",
+    "speed": {
+      "walk": 30,
+      "fly": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "burrow": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "swim": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "climb": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "can_hover": false,
+      "__dataclass__": "Speed"
+    },
+    "ability_scores": [
+      {
+        "con": 2,
+        "int": 1
+      }
+    ],
+    "size": [
+      "M"
+    ],
+    "age": {
+      "maximum": 100,
+      "mature": 20,
+      "__dataclass__": "AgeParams"
+    },
+    "size_params": {
+      "weight_base": 110,
+      "height_base": "2d4",
+      "weight_mod": 56,
+      "height_mod": "2d10",
+      "__dataclass__": "SizeParams"
+    },
+    "blindsight": 0,
+    "darkvision": 60,
+    "skills": [],
+    "languages": null,
+    "feats": [],
+    "traits": [],
+    "dmg_resistances": [],
+    "dmg_vulnerabilities": [],
+    "dmg_immunities": [],
+    "cond_immunities": [],
+    "tool_profs": [],
+    "armor_prof": [],
+    "weapon_profs": [],
+    "key": "",
+    "__dataclass__": "Race"
+  },
+  {
+    "name": "Human",
+    "source": "PHB",
+    "speed": {
+      "walk": 30,
+      "fly": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "burrow": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "swim": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "climb": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "can_hover": false,
+      "__dataclass__": "Speed"
+    },
+    "ability_scores": {},
+    "size": [
+      "M"
+    ],
+    "age": {
+      "maximum": 100,
+      "mature": 20,
+      "__dataclass__": "AgeParams"
+    },
+    "size_params": {
+      "weight_base": 110,
+      "height_base": "2d4",
+      "weight_mod": 56,
+      "height_mod": "2d10",
+      "__dataclass__": "SizeParams"
+    },
+    "blindsight": 0,
+    "darkvision": 0,
+    "skills": [],
+    "languages": null,
+    "feats": [],
+    "traits": [],
+    "dmg_resistances": [],
+    "dmg_vulnerabilities": [],
+    "dmg_immunities": [],
+    "cond_immunities": [],
+    "tool_profs": [],
+    "armor_prof": [],
+    "weapon_profs": [],
+    "key": "",
+    "__dataclass__": "Race"
+  },
+  {
+    "name": "Human (Amonkhet)",
+    "source": "PSA",
+    "speed": {
+      "walk": 30,
+      "fly": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "burrow": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "swim": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "climb": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "can_hover": false,
+      "__dataclass__": "Speed"
+    },
+    "ability_scores": [
+      {
+        "choose": {
+          "from": [
+            "str",
+            "dex",
+            "con",
+            "int",
+            "wis",
+            "cha"
+          ],
+          "count": 2
+        }
+      }
+    ],
+    "size": [
+      "M"
+    ],
+    "age": {
+      "maximum": 100,
+      "mature": 20,
+      "__dataclass__": "AgeParams"
+    },
+    "size_params": null,
+    "blindsight": 0,
+    "darkvision": 0,
+    "skills": [],
+    "languages": null,
+    "feats": [],
+    "traits": [],
+    "dmg_resistances": [],
+    "dmg_vulnerabilities": [],
+    "dmg_immunities": [],
+    "cond_immunities": [],
+    "tool_profs": [],
+    "armor_prof": [],
+    "weapon_profs": [],
+    "key": "",
+    "__dataclass__": "Race"
+  },
+  {
+    "name": "Human (Innistrad)",
+    "source": "PSI",
+    "speed": {
+      "walk": 30,
+      "fly": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "burrow": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "swim": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "climb": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "can_hover": false,
+      "__dataclass__": "Speed"
+    },
+    "ability_scores": {},
+    "size": [
+      "M"
+    ],
+    "age": {
+      "maximum": 100,
+      "mature": 20,
+      "__dataclass__": "AgeParams"
+    },
+    "size_params": null,
+    "blindsight": 0,
+    "darkvision": 0,
+    "skills": [],
+    "languages": null,
+    "feats": [],
+    "traits": [],
+    "dmg_resistances": [],
+    "dmg_vulnerabilities": [],
+    "dmg_immunities": [],
+    "cond_immunities": [],
+    "tool_profs": [],
+    "armor_prof": [],
+    "weapon_profs": [],
+    "key": "",
+    "__dataclass__": "Race"
+  },
+  {
+    "name": "Kalashtar",
+    "source": "ERLW",
+    "speed": {
+      "walk": 30,
+      "fly": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "burrow": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "swim": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "climb": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "can_hover": false,
+      "__dataclass__": "Speed"
+    },
+    "ability_scores": [
+      {
+        "wis": 2,
+        "cha": 1
+      }
+    ],
+    "size": [
+      "M"
+    ],
+    "age": {
+      "maximum": 100,
+      "mature": 20,
+      "__dataclass__": "AgeParams"
+    },
+    "size_params": {
+      "weight_base": 110,
+      "height_base": "1d6",
+      "weight_mod": 64,
+      "height_mod": "2d6",
+      "__dataclass__": "SizeParams"
+    },
+    "blindsight": 0,
+    "darkvision": 0,
+    "skills": [],
+    "languages": null,
+    "feats": [],
+    "traits": [],
+    "dmg_resistances": [
+      "psychic"
+    ],
+    "dmg_vulnerabilities": [],
+    "dmg_immunities": [],
+    "cond_immunities": [],
+    "tool_profs": [],
+    "armor_prof": [],
+    "weapon_profs": [],
+    "key": "",
+    "__dataclass__": "Race"
+  },
+  {
+    "name": "Kender",
+    "source": "DSotDQ",
+    "speed": {
+      "walk": 30,
+      "fly": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "burrow": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "swim": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "climb": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "can_hover": false,
+      "__dataclass__": "Speed"
+    },
+    "ability_scores": {},
+    "size": [
+      "S"
+    ],
+    "age": null,
+    "size_params": null,
+    "blindsight": 0,
+    "darkvision": 0,
+    "skills": [],
+    "languages": null,
+    "feats": [],
+    "traits": [],
+    "dmg_resistances": [],
+    "dmg_vulnerabilities": [],
+    "dmg_immunities": [],
+    "cond_immunities": [],
+    "tool_profs": [],
+    "armor_prof": [],
+    "weapon_profs": [],
+    "key": "",
+    "__dataclass__": "Race"
+  },
+  {
+    "name": "Kenku",
+    "source": "DMG",
+    "speed": {
+      "walk": 30,
+      "fly": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "burrow": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "swim": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "climb": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "can_hover": false,
+      "__dataclass__": "Speed"
+    },
+    "ability_scores": [
+      {
+        "dex": 2
+      }
+    ],
+    "size": [
+      "M"
+    ],
+    "age": null,
+    "size_params": null,
+    "blindsight": 0,
+    "darkvision": 60,
+    "skills": [],
+    "languages": null,
+    "feats": [],
+    "traits": [],
+    "dmg_resistances": [],
+    "dmg_vulnerabilities": [],
+    "dmg_immunities": [],
+    "cond_immunities": [],
+    "tool_profs": [],
+    "armor_prof": [],
+    "weapon_profs": [],
+    "key": "",
+    "__dataclass__": "Race"
+  },
+  {
+    "name": "Kenku",
+    "source": "MPMM",
+    "speed": {
+      "walk": 30,
+      "fly": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "burrow": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "swim": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "climb": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "can_hover": false,
+      "__dataclass__": "Speed"
+    },
+    "ability_scores": {},
+    "size": [
+      "S",
+      "M"
+    ],
+    "age": null,
+    "size_params": null,
+    "blindsight": 0,
+    "darkvision": 0,
+    "skills": [],
+    "languages": null,
+    "feats": [],
+    "traits": [],
+    "dmg_resistances": [],
+    "dmg_vulnerabilities": [],
+    "dmg_immunities": [],
+    "cond_immunities": [],
+    "tool_profs": [],
+    "armor_prof": [],
+    "weapon_profs": [],
+    "key": "",
+    "__dataclass__": "Race"
+  },
+  {
+    "name": "Kenku",
+    "source": "VGM",
+    "speed": {
+      "walk": 30,
+      "fly": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "burrow": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "swim": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "climb": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "can_hover": false,
+      "__dataclass__": "Speed"
+    },
+    "ability_scores": [
+      {
+        "dex": 2,
+        "wis": 1
+      }
+    ],
+    "size": [
+      "M"
+    ],
+    "age": {
+      "maximum": 60,
+      "mature": 12,
+      "__dataclass__": "AgeParams"
+    },
+    "size_params": {
+      "weight_base": 50,
+      "height_base": "1d6",
+      "weight_mod": 52,
+      "height_mod": "2d8",
+      "__dataclass__": "SizeParams"
+    },
+    "blindsight": 0,
+    "darkvision": 0,
+    "skills": [],
+    "languages": null,
+    "feats": [],
+    "traits": [],
+    "dmg_resistances": [],
+    "dmg_vulnerabilities": [],
+    "dmg_immunities": [],
+    "cond_immunities": [],
+    "tool_profs": [],
+    "armor_prof": [],
+    "weapon_profs": [],
+    "key": "",
+    "__dataclass__": "Race"
+  },
+  {
+    "name": "Khenra",
+    "source": "PSA",
+    "speed": {
+      "walk": 35,
+      "fly": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "burrow": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "swim": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "climb": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "can_hover": false,
+      "__dataclass__": "Speed"
+    },
+    "ability_scores": [
+      {
+        "dex": 2,
+        "str": 1
+      }
+    ],
+    "size": [
+      "M"
+    ],
+    "age": {
+      "maximum": 60,
+      "mature": 13,
+      "__dataclass__": "AgeParams"
+    },
+    "size_params": null,
+    "blindsight": 0,
+    "darkvision": 0,
+    "skills": [],
+    "languages": null,
+    "feats": [],
+    "traits": [],
+    "dmg_resistances": [],
+    "dmg_vulnerabilities": [],
+    "dmg_immunities": [],
+    "cond_immunities": [],
+    "tool_profs": [],
+    "armor_prof": [],
+    "weapon_profs": [],
+    "key": "",
+    "__dataclass__": "Race"
+  },
+  {
+    "name": "Kobold",
+    "source": "DMG",
+    "speed": {
+      "walk": 30,
+      "fly": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "burrow": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "swim": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "climb": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "can_hover": false,
+      "__dataclass__": "Speed"
+    },
+    "ability_scores": [
+      {
+        "dex": 2,
+        "str": -4
+      }
+    ],
+    "size": [
+      "S"
+    ],
+    "age": null,
+    "size_params": null,
+    "blindsight": 0,
+    "darkvision": 60,
+    "skills": [],
+    "languages": null,
+    "feats": [],
+    "traits": [],
+    "dmg_resistances": [],
+    "dmg_vulnerabilities": [],
+    "dmg_immunities": [],
+    "cond_immunities": [],
+    "tool_profs": [],
+    "armor_prof": [],
+    "weapon_profs": [],
+    "key": "",
+    "__dataclass__": "Race"
+  },
+  {
+    "name": "Kobold",
+    "source": "MPMM",
+    "speed": {
+      "walk": 30,
+      "fly": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "burrow": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "swim": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "climb": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "can_hover": false,
+      "__dataclass__": "Speed"
+    },
+    "ability_scores": {},
+    "size": [
+      "S"
+    ],
+    "age": null,
+    "size_params": null,
+    "blindsight": 0,
+    "darkvision": 60,
+    "skills": [],
+    "languages": null,
+    "feats": [],
+    "traits": [],
+    "dmg_resistances": [],
+    "dmg_vulnerabilities": [],
+    "dmg_immunities": [],
+    "cond_immunities": [],
+    "tool_profs": [],
+    "armor_prof": [],
+    "weapon_profs": [],
+    "key": "",
+    "__dataclass__": "Race"
+  },
+  {
+    "name": "Kobold",
+    "source": "VGM",
+    "speed": {
+      "walk": 30,
+      "fly": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "burrow": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "swim": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "climb": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "can_hover": false,
+      "__dataclass__": "Speed"
+    },
+    "ability_scores": [
+      {
+        "dex": 2
+      }
+    ],
+    "size": [
+      "S"
+    ],
+    "age": {
+      "maximum": 120,
+      "mature": 6,
+      "__dataclass__": "AgeParams"
+    },
+    "size_params": {
+      "weight_base": 25,
+      "height_base": "",
+      "weight_mod": 25,
+      "height_mod": "2d4",
+      "__dataclass__": "SizeParams"
+    },
+    "blindsight": 0,
+    "darkvision": 60,
+    "skills": [],
+    "languages": null,
+    "feats": [],
+    "traits": [],
+    "dmg_resistances": [],
+    "dmg_vulnerabilities": [],
+    "dmg_immunities": [],
+    "cond_immunities": [],
+    "tool_profs": [],
+    "armor_prof": [],
+    "weapon_profs": [],
+    "key": "",
+    "__dataclass__": "Race"
+  },
+  {
+    "name": "Kor",
+    "source": "PSZ",
+    "speed": {
+      "walk": {
+        "value": 30,
+        "__dataclass__": "Scalar"
+      },
+      "fly": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "burrow": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "swim": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "climb": {
+        "value": 30,
+        "__dataclass__": "Scalar"
+      },
+      "can_hover": false,
+      "__dataclass__": "Speed"
+    },
+    "ability_scores": [
+      {
+        "dex": 2,
+        "wis": 1
+      }
+    ],
+    "size": [
+      "M"
+    ],
+    "age": {
+      "maximum": 100,
+      "mature": 20,
+      "__dataclass__": "AgeParams"
+    },
+    "size_params": null,
+    "blindsight": 0,
+    "darkvision": 0,
+    "skills": [],
+    "languages": null,
+    "feats": [],
+    "traits": [],
+    "dmg_resistances": [],
+    "dmg_vulnerabilities": [],
+    "dmg_immunities": [],
+    "cond_immunities": [],
+    "tool_profs": [],
+    "armor_prof": [],
+    "weapon_profs": [],
+    "key": "",
+    "__dataclass__": "Race"
+  },
+  {
+    "name": "Kuo-Toa",
+    "source": "DMG",
+    "speed": {
+      "walk": {
+        "value": 30,
+        "__dataclass__": "Scalar"
+      },
+      "fly": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "burrow": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "swim": {
+        "value": 30,
+        "__dataclass__": "Scalar"
+      },
+      "climb": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "can_hover": false,
+      "__dataclass__": "Speed"
+    },
+    "ability_scores": {},
+    "size": [
+      "M"
+    ],
+    "age": null,
+    "size_params": null,
+    "blindsight": 0,
+    "darkvision": 120,
+    "skills": [],
+    "languages": null,
+    "feats": [],
+    "traits": [],
+    "dmg_resistances": [],
+    "dmg_vulnerabilities": [],
+    "dmg_immunities": [],
+    "cond_immunities": [],
+    "tool_profs": [],
+    "armor_prof": [],
+    "weapon_profs": [],
+    "key": "",
+    "__dataclass__": "Race"
+  },
+  {
+    "name": "Leonin",
+    "source": "MOT",
+    "speed": {
+      "walk": 35,
+      "fly": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "burrow": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "swim": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "climb": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "can_hover": false,
+      "__dataclass__": "Speed"
+    },
+    "ability_scores": [
+      {
+        "str": 1,
+        "con": 2
+      }
+    ],
+    "size": [
+      "M"
+    ],
+    "age": {
+      "maximum": 100,
+      "mature": 20,
+      "__dataclass__": "AgeParams"
+    },
+    "size_params": {
+      "weight_base": 180,
+      "height_base": "2d6",
+      "weight_mod": 66,
+      "height_mod": "2d10",
+      "__dataclass__": "SizeParams"
+    },
+    "blindsight": 0,
+    "darkvision": 60,
+    "skills": [],
+    "languages": null,
+    "feats": [],
+    "traits": [],
+    "dmg_resistances": [],
+    "dmg_vulnerabilities": [],
+    "dmg_immunities": [],
+    "cond_immunities": [],
+    "tool_profs": [],
+    "armor_prof": [],
+    "weapon_profs": [],
+    "key": "",
+    "__dataclass__": "Race"
+  },
+  {
+    "name": "Lizardfolk",
+    "source": "DMG",
+    "speed": {
+      "walk": {
+        "value": 30,
+        "__dataclass__": "Scalar"
+      },
+      "fly": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "burrow": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "swim": {
+        "value": 30,
+        "__dataclass__": "Scalar"
+      },
+      "climb": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "can_hover": false,
+      "__dataclass__": "Speed"
+    },
+    "ability_scores": [
+      {
+        "str": 2,
+        "int": -2
+      }
+    ],
+    "size": [
+      "M"
+    ],
+    "age": null,
+    "size_params": null,
+    "blindsight": 0,
+    "darkvision": 0,
+    "skills": [],
+    "languages": null,
+    "feats": [],
+    "traits": [],
+    "dmg_resistances": [],
+    "dmg_vulnerabilities": [],
+    "dmg_immunities": [],
+    "cond_immunities": [],
+    "tool_profs": [],
+    "armor_prof": [],
+    "weapon_profs": [],
+    "key": "",
+    "__dataclass__": "Race"
+  },
+  {
+    "name": "Lizardfolk",
+    "source": "MPMM",
+    "speed": {
+      "walk": {
+        "value": 30,
+        "__dataclass__": "Scalar"
+      },
+      "fly": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "burrow": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "swim": {
+        "value": true,
+        "__dataclass__": "Scalar"
+      },
+      "climb": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "can_hover": false,
+      "__dataclass__": "Speed"
+    },
+    "ability_scores": {},
+    "size": [
+      "M"
+    ],
+    "age": null,
+    "size_params": null,
+    "blindsight": 0,
+    "darkvision": 0,
+    "skills": [],
+    "languages": null,
+    "feats": [],
+    "traits": [],
+    "dmg_resistances": [],
+    "dmg_vulnerabilities": [],
+    "dmg_immunities": [],
+    "cond_immunities": [],
+    "tool_profs": [],
+    "armor_prof": [],
+    "weapon_profs": [],
+    "key": "",
+    "__dataclass__": "Race"
+  },
+  {
+    "name": "Lizardfolk",
+    "source": "VGM",
+    "speed": {
+      "walk": {
+        "value": 30,
+        "__dataclass__": "Scalar"
+      },
+      "fly": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "burrow": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "swim": {
+        "value": 30,
+        "__dataclass__": "Scalar"
+      },
+      "climb": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "can_hover": false,
+      "__dataclass__": "Speed"
+    },
+    "ability_scores": [
+      {
+        "con": 2,
+        "wis": 1
+      }
+    ],
+    "size": [
+      "M"
+    ],
+    "age": {
+      "maximum": 60,
+      "mature": 14,
+      "__dataclass__": "AgeParams"
+    },
+    "size_params": {
+      "weight_base": 120,
+      "height_base": "2d6",
+      "weight_mod": 57,
+      "height_mod": "2d10",
+      "__dataclass__": "SizeParams"
+    },
+    "blindsight": 0,
+    "darkvision": 0,
+    "skills": [],
+    "languages": null,
+    "feats": [],
+    "traits": [],
+    "dmg_resistances": [],
+    "dmg_vulnerabilities": [],
+    "dmg_immunities": [],
+    "cond_immunities": [],
+    "tool_profs": [],
+    "armor_prof": [],
+    "weapon_profs": [],
+    "key": "",
+    "__dataclass__": "Race"
+  },
+  {
+    "name": "Locathah",
+    "source": "LR",
+    "speed": {
+      "walk": {
+        "value": 30,
+        "__dataclass__": "Scalar"
+      },
+      "fly": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "burrow": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "swim": {
+        "value": 30,
+        "__dataclass__": "Scalar"
+      },
+      "climb": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "can_hover": false,
+      "__dataclass__": "Speed"
+    },
+    "ability_scores": [
+      {
+        "str": 2,
+        "dex": 1
+      }
+    ],
+    "size": [
+      "M"
+    ],
+    "age": {
+      "maximum": 80,
+      "mature": 10,
+      "__dataclass__": "AgeParams"
+    },
+    "size_params": null,
+    "blindsight": 0,
+    "darkvision": 0,
+    "skills": [],
+    "languages": null,
+    "feats": [],
+    "traits": [],
+    "dmg_resistances": [],
+    "dmg_vulnerabilities": [],
+    "dmg_immunities": [],
+    "cond_immunities": [],
+    "tool_profs": [],
+    "armor_prof": [],
+    "weapon_profs": [],
+    "key": "",
+    "__dataclass__": "Race"
+  },
+  {
+    "name": "Loxodon",
+    "source": "GGR",
+    "speed": {
+      "walk": 30,
+      "fly": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "burrow": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "swim": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "climb": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "can_hover": false,
+      "__dataclass__": "Speed"
+    },
+    "ability_scores": [
+      {
+        "con": 2,
+        "wis": 1
+      }
+    ],
+    "size": [
+      "M"
+    ],
+    "age": {
+      "maximum": 450,
+      "mature": 20,
+      "__dataclass__": "AgeParams"
+    },
+    "size_params": {
+      "weight_base": 295,
+      "height_base": "2d4",
+      "weight_mod": 79,
+      "height_mod": "2d10",
+      "__dataclass__": "SizeParams"
+    },
+    "blindsight": 0,
+    "darkvision": 0,
+    "skills": [],
+    "languages": null,
+    "feats": [],
+    "traits": [],
+    "dmg_resistances": [],
+    "dmg_vulnerabilities": [],
+    "dmg_immunities": [],
+    "cond_immunities": [],
+    "tool_profs": [],
+    "armor_prof": [],
+    "weapon_profs": [],
+    "key": "",
+    "__dataclass__": "Race"
+  },
+  {
+    "name": "Merfolk",
+    "source": "DMG",
+    "speed": {
+      "walk": {
+        "value": 10,
+        "__dataclass__": "Scalar"
+      },
+      "fly": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "burrow": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "swim": {
+        "value": 40,
+        "__dataclass__": "Scalar"
+      },
+      "climb": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "can_hover": false,
+      "__dataclass__": "Speed"
+    },
+    "ability_scores": {},
+    "size": [
+      "M"
+    ],
+    "age": null,
+    "size_params": null,
+    "blindsight": 0,
+    "darkvision": 0,
+    "skills": [],
+    "languages": null,
+    "feats": [],
+    "traits": [],
+    "dmg_resistances": [],
+    "dmg_vulnerabilities": [],
+    "dmg_immunities": [],
+    "cond_immunities": [],
+    "tool_profs": [],
+    "armor_prof": [],
+    "weapon_profs": [],
+    "key": "",
+    "__dataclass__": "Race"
+  },
+  {
+    "name": "Merfolk",
+    "source": "PSZ",
+    "speed": {
+      "walk": {
+        "value": 30,
+        "__dataclass__": "Scalar"
+      },
+      "fly": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "burrow": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "swim": {
+        "value": 30,
+        "__dataclass__": "Scalar"
+      },
+      "climb": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "can_hover": false,
+      "__dataclass__": "Speed"
+    },
+    "ability_scores": [
+      {
+        "cha": 1
+      }
+    ],
+    "size": [
+      "M"
+    ],
+    "age": {
+      "maximum": 100,
+      "mature": 20,
+      "__dataclass__": "AgeParams"
+    },
+    "size_params": null,
+    "blindsight": 0,
+    "darkvision": 0,
+    "skills": [],
+    "languages": null,
+    "feats": [],
+    "traits": [],
+    "dmg_resistances": [],
+    "dmg_vulnerabilities": [],
+    "dmg_immunities": [],
+    "cond_immunities": [],
+    "tool_profs": [],
+    "armor_prof": [],
+    "weapon_profs": [],
+    "key": "",
+    "__dataclass__": "Race"
+  },
+  {
+    "name": "Minotaur",
+    "source": "GGR",
+    "speed": {
+      "walk": 30,
+      "fly": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "burrow": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "swim": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "climb": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "can_hover": false,
+      "__dataclass__": "Speed"
+    },
+    "ability_scores": [
+      {
+        "str": 2,
+        "con": 1
+      }
+    ],
+    "size": [
+      "M"
+    ],
+    "age": {
+      "maximum": 150,
+      "mature": 17,
+      "__dataclass__": "AgeParams"
+    },
+    "size_params": {
+      "weight_base": 175,
+      "height_base": "2d6",
+      "weight_mod": 64,
+      "height_mod": "2d8",
+      "__dataclass__": "SizeParams"
+    },
+    "blindsight": 0,
+    "darkvision": 0,
+    "skills": [],
+    "languages": null,
+    "feats": [],
+    "traits": [],
+    "dmg_resistances": [],
+    "dmg_vulnerabilities": [],
+    "dmg_immunities": [],
+    "cond_immunities": [],
+    "tool_profs": [],
+    "armor_prof": [],
+    "weapon_profs": [],
+    "key": "",
+    "__dataclass__": "Race"
+  },
+  {
+    "name": "Minotaur",
+    "source": "MPMM",
+    "speed": {
+      "walk": 30,
+      "fly": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "burrow": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "swim": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "climb": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "can_hover": false,
+      "__dataclass__": "Speed"
+    },
+    "ability_scores": {},
+    "size": [
+      "M"
+    ],
+    "age": null,
+    "size_params": null,
+    "blindsight": 0,
+    "darkvision": 0,
+    "skills": [],
+    "languages": null,
+    "feats": [],
+    "traits": [],
+    "dmg_resistances": [],
+    "dmg_vulnerabilities": [],
+    "dmg_immunities": [],
+    "cond_immunities": [],
+    "tool_profs": [],
+    "armor_prof": [],
+    "weapon_profs": [],
+    "key": "",
+    "__dataclass__": "Race"
+  },
+  {
+    "name": "Minotaur (Amonkhet)",
+    "source": "PSA",
+    "speed": {
+      "walk": 30,
+      "fly": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "burrow": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "swim": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "climb": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "can_hover": false,
+      "__dataclass__": "Speed"
+    },
+    "ability_scores": [
+      {
+        "str": 2,
+        "con": 1
+      }
+    ],
+    "size": [
+      "M"
+    ],
+    "age": {
+      "maximum": 40,
+      "mature": 20,
+      "__dataclass__": "AgeParams"
+    },
+    "size_params": null,
+    "blindsight": 0,
+    "darkvision": 0,
+    "skills": [],
+    "languages": null,
+    "feats": [],
+    "traits": [],
+    "dmg_resistances": [],
+    "dmg_vulnerabilities": [],
+    "dmg_immunities": [],
+    "cond_immunities": [],
+    "tool_profs": [],
+    "armor_prof": [],
+    "weapon_profs": [],
+    "key": "",
+    "__dataclass__": "Race"
+  },
+  {
+    "name": "Naga",
+    "source": "PSA",
+    "speed": {
+      "walk": 30,
+      "fly": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "burrow": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "swim": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "climb": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "can_hover": false,
+      "__dataclass__": "Speed"
+    },
+    "ability_scores": [
+      {
+        "con": 2,
+        "int": 1
+      }
+    ],
+    "size": [
+      "M"
+    ],
+    "age": {
+      "maximum": 100,
+      "mature": 20,
+      "__dataclass__": "AgeParams"
+    },
+    "size_params": null,
+    "blindsight": 0,
+    "darkvision": 0,
+    "skills": [],
+    "languages": null,
+    "feats": [],
+    "traits": [],
+    "dmg_resistances": [],
+    "dmg_vulnerabilities": [],
+    "dmg_immunities": [
+      "poison"
+    ],
+    "cond_immunities": [
+      "poisoned"
+    ],
+    "tool_profs": [],
+    "armor_prof": [],
+    "weapon_profs": [],
+    "key": "",
+    "__dataclass__": "Race"
+  },
+  {
+    "name": "Orc",
+    "source": "DMG",
+    "speed": {
+      "walk": 30,
+      "fly": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "burrow": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "swim": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "climb": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "can_hover": false,
+      "__dataclass__": "Speed"
+    },
+    "ability_scores": [
+      {
+        "str": 2,
+        "int": -2
+      }
+    ],
+    "size": [
+      "M"
+    ],
+    "age": null,
+    "size_params": null,
+    "blindsight": 0,
+    "darkvision": 60,
+    "skills": [],
+    "languages": null,
+    "feats": [],
+    "traits": [],
+    "dmg_resistances": [],
+    "dmg_vulnerabilities": [],
+    "dmg_immunities": [],
+    "cond_immunities": [],
+    "tool_profs": [],
+    "armor_prof": [],
+    "weapon_profs": [],
+    "key": "",
+    "__dataclass__": "Race"
+  },
+  {
+    "name": "Orc",
+    "source": "ERLW",
+    "speed": {
+      "walk": 30,
+      "fly": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "burrow": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "swim": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "climb": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "can_hover": false,
+      "__dataclass__": "Speed"
+    },
+    "ability_scores": [
+      {
+        "str": 2,
+        "con": 1
+      }
+    ],
+    "size": [
+      "M"
+    ],
+    "age": {
+      "maximum": 50,
+      "mature": 12,
+      "__dataclass__": "AgeParams"
+    },
+    "size_params": {
+      "weight_base": 175,
+      "height_base": "2d6",
+      "weight_mod": 64,
+      "height_mod": "2d8",
+      "__dataclass__": "SizeParams"
+    },
+    "blindsight": 0,
+    "darkvision": 60,
+    "skills": [],
+    "languages": null,
+    "feats": [],
+    "traits": [],
+    "dmg_resistances": [],
+    "dmg_vulnerabilities": [],
+    "dmg_immunities": [],
+    "cond_immunities": [],
+    "tool_profs": [],
+    "armor_prof": [],
+    "weapon_profs": [],
+    "key": "",
+    "__dataclass__": "Race"
+  },
+  {
+    "name": "Orc",
+    "source": "MPMM",
+    "speed": {
+      "walk": 30,
+      "fly": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "burrow": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "swim": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "climb": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "can_hover": false,
+      "__dataclass__": "Speed"
+    },
+    "ability_scores": {},
+    "size": [
+      "M"
+    ],
+    "age": null,
+    "size_params": null,
+    "blindsight": 0,
+    "darkvision": 60,
+    "skills": [],
+    "languages": null,
+    "feats": [],
+    "traits": [],
+    "dmg_resistances": [],
+    "dmg_vulnerabilities": [],
+    "dmg_immunities": [],
+    "cond_immunities": [],
+    "tool_profs": [],
+    "armor_prof": [],
+    "weapon_profs": [],
+    "key": "",
+    "__dataclass__": "Race"
+  },
+  {
+    "name": "Orc",
+    "source": "VGM",
+    "speed": {
+      "walk": 30,
+      "fly": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "burrow": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "swim": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "climb": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "can_hover": false,
+      "__dataclass__": "Speed"
+    },
+    "ability_scores": [
+      {
+        "str": 2,
+        "con": 1
+      }
+    ],
+    "size": [
+      "M"
+    ],
+    "age": {
+      "maximum": 50,
+      "mature": 12,
+      "__dataclass__": "AgeParams"
+    },
+    "size_params": {
+      "weight_base": 175,
+      "height_base": "2d6",
+      "weight_mod": 64,
+      "height_mod": "2d8",
+      "__dataclass__": "SizeParams"
+    },
+    "blindsight": 0,
+    "darkvision": 60,
+    "skills": [],
+    "languages": null,
+    "feats": [],
+    "traits": [],
+    "dmg_resistances": [],
+    "dmg_vulnerabilities": [],
+    "dmg_immunities": [],
+    "cond_immunities": [],
+    "tool_profs": [],
+    "armor_prof": [],
+    "weapon_profs": [],
+    "key": "",
+    "__dataclass__": "Race"
+  },
+  {
+    "name": "Orc (Ixalan)",
+    "source": "PSX",
+    "speed": {
+      "walk": 30,
+      "fly": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "burrow": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "swim": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "climb": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "can_hover": false,
+      "__dataclass__": "Speed"
+    },
+    "ability_scores": [
+      {
+        "str": 2,
+        "con": 1
+      }
+    ],
+    "size": [
+      "M"
+    ],
+    "age": {
+      "maximum": 75,
+      "mature": 14,
+      "__dataclass__": "AgeParams"
+    },
+    "size_params": null,
+    "blindsight": 0,
+    "darkvision": 60,
+    "skills": [],
+    "languages": null,
+    "feats": [],
+    "traits": [],
+    "dmg_resistances": [],
+    "dmg_vulnerabilities": [],
+    "dmg_immunities": [],
+    "cond_immunities": [],
+    "tool_profs": [],
+    "armor_prof": [],
+    "weapon_profs": [],
+    "key": "",
+    "__dataclass__": "Race"
+  },
+  {
+    "name": "Owlin",
+    "source": "SCC",
+    "speed": {
+      "walk": {
+        "value": 30,
+        "__dataclass__": "Scalar"
+      },
+      "fly": {
+        "value": true,
+        "__dataclass__": "Scalar"
+      },
+      "burrow": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "swim": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "climb": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "can_hover": false,
+      "__dataclass__": "Speed"
+    },
+    "ability_scores": {},
+    "size": [
+      "S",
+      "M"
+    ],
+    "age": null,
+    "size_params": null,
+    "blindsight": 0,
+    "darkvision": 120,
+    "skills": [],
+    "languages": null,
+    "feats": [],
+    "traits": [],
+    "dmg_resistances": [],
+    "dmg_vulnerabilities": [],
+    "dmg_immunities": [],
+    "cond_immunities": [],
+    "tool_profs": [],
+    "armor_prof": [],
+    "weapon_profs": [],
+    "key": "",
+    "__dataclass__": "Race"
+  },
+  {
+    "name": "Plasmoid",
+    "source": "AAG",
+    "speed": {
+      "walk": 30,
+      "fly": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "burrow": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "swim": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "climb": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "can_hover": false,
+      "__dataclass__": "Speed"
+    },
+    "ability_scores": {},
+    "size": [
+      "S",
+      "M"
+    ],
+    "age": null,
+    "size_params": null,
+    "blindsight": 0,
+    "darkvision": 60,
+    "skills": [],
+    "languages": null,
+    "feats": [],
+    "traits": [],
+    "dmg_resistances": [
+      "acid",
+      "poison"
+    ],
+    "dmg_vulnerabilities": [],
+    "dmg_immunities": [],
+    "cond_immunities": [],
+    "tool_profs": [],
+    "armor_prof": [],
+    "weapon_profs": [],
+    "key": "",
+    "__dataclass__": "Race"
+  },
+  {
+    "name": "Reborn",
+    "source": "VRGR",
+    "speed": {
+      "walk": 30,
+      "fly": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "burrow": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "swim": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "climb": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "can_hover": false,
+      "__dataclass__": "Speed"
+    },
+    "ability_scores": {},
+    "size": [
+      "S",
+      "M"
+    ],
+    "age": null,
+    "size_params": null,
+    "blindsight": 0,
+    "darkvision": 0,
+    "skills": [],
+    "languages": null,
+    "feats": [],
+    "traits": [],
+    "dmg_resistances": [
+      "poison"
+    ],
+    "dmg_vulnerabilities": [],
+    "dmg_immunities": [],
+    "cond_immunities": [],
+    "tool_profs": [],
+    "armor_prof": [],
+    "weapon_profs": [],
+    "key": "",
+    "__dataclass__": "Race"
+  },
+  {
+    "name": "Satyr",
+    "source": "MOT",
+    "speed": {
+      "walk": 35,
+      "fly": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "burrow": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "swim": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "climb": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "can_hover": false,
+      "__dataclass__": "Speed"
+    },
+    "ability_scores": [
+      {
+        "cha": 2,
+        "dex": 1
+      }
+    ],
+    "size": [
+      "M"
+    ],
+    "age": {
+      "maximum": 100,
+      "mature": 20,
+      "__dataclass__": "AgeParams"
+    },
+    "size_params": {
+      "weight_base": 100,
+      "height_base": "2d4",
+      "weight_mod": 56,
+      "height_mod": "2d8",
+      "__dataclass__": "SizeParams"
+    },
+    "blindsight": 0,
+    "darkvision": 0,
+    "skills": [],
+    "languages": null,
+    "feats": [],
+    "traits": [],
+    "dmg_resistances": [],
+    "dmg_vulnerabilities": [],
+    "dmg_immunities": [],
+    "cond_immunities": [],
+    "tool_profs": [],
+    "armor_prof": [],
+    "weapon_profs": [],
+    "key": "",
+    "__dataclass__": "Race"
+  },
+  {
+    "name": "Satyr",
+    "source": "MPMM",
+    "speed": {
+      "walk": 35,
+      "fly": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "burrow": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "swim": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "climb": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "can_hover": false,
+      "__dataclass__": "Speed"
+    },
+    "ability_scores": {},
+    "size": [
+      "M"
+    ],
+    "age": null,
+    "size_params": null,
+    "blindsight": 0,
+    "darkvision": 0,
+    "skills": [],
+    "languages": null,
+    "feats": [],
+    "traits": [],
+    "dmg_resistances": [],
+    "dmg_vulnerabilities": [],
+    "dmg_immunities": [],
+    "cond_immunities": [],
+    "tool_profs": [],
+    "armor_prof": [],
+    "weapon_profs": [],
+    "key": "",
+    "__dataclass__": "Race"
+  },
+  {
+    "name": "Sea Elf",
+    "source": "MPMM",
+    "speed": {
+      "walk": {
+        "value": 30,
+        "__dataclass__": "Scalar"
+      },
+      "fly": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "burrow": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "swim": {
+        "value": true,
+        "__dataclass__": "Scalar"
+      },
+      "climb": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "can_hover": false,
+      "__dataclass__": "Speed"
+    },
+    "ability_scores": {},
+    "size": [
+      "M"
+    ],
+    "age": {
+      "maximum": 750,
+      "mature": 0,
+      "__dataclass__": "AgeParams"
+    },
+    "size_params": null,
+    "blindsight": 0,
+    "darkvision": 60,
+    "skills": [],
+    "languages": null,
+    "feats": [],
+    "traits": [],
+    "dmg_resistances": [
+      "cold"
+    ],
+    "dmg_vulnerabilities": [],
+    "dmg_immunities": [],
+    "cond_immunities": [],
+    "tool_profs": [],
+    "armor_prof": [],
+    "weapon_profs": [],
+    "key": "",
+    "__dataclass__": "Race"
+  },
+  {
+    "name": "Shadar-Kai",
+    "source": "MPMM",
+    "speed": {
+      "walk": 30,
+      "fly": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "burrow": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "swim": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "climb": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "can_hover": false,
+      "__dataclass__": "Speed"
+    },
+    "ability_scores": {},
+    "size": [
+      "M"
+    ],
+    "age": {
+      "maximum": 750,
+      "mature": 0,
+      "__dataclass__": "AgeParams"
+    },
+    "size_params": null,
+    "blindsight": 0,
+    "darkvision": 60,
+    "skills": [],
+    "languages": null,
+    "feats": [],
+    "traits": [],
+    "dmg_resistances": [
+      "necrotic"
+    ],
+    "dmg_vulnerabilities": [],
+    "dmg_immunities": [],
+    "cond_immunities": [],
+    "tool_profs": [],
+    "armor_prof": [],
+    "weapon_profs": [],
+    "key": "",
+    "__dataclass__": "Race"
+  },
+  {
+    "name": "Shifter",
+    "source": "ERLW",
+    "speed": {
+      "walk": 30,
+      "fly": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "burrow": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "swim": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "climb": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "can_hover": false,
+      "__dataclass__": "Speed"
+    },
+    "ability_scores": {},
+    "size": [
+      "M"
+    ],
+    "age": {
+      "maximum": 70,
+      "mature": 10,
+      "__dataclass__": "AgeParams"
+    },
+    "size_params": {
+      "weight_base": 90,
+      "height_base": "2d4",
+      "weight_mod": 54,
+      "height_mod": "2d8",
+      "__dataclass__": "SizeParams"
+    },
+    "blindsight": 0,
+    "darkvision": 60,
+    "skills": [],
+    "languages": null,
+    "feats": [],
+    "traits": [],
+    "dmg_resistances": [],
+    "dmg_vulnerabilities": [],
+    "dmg_immunities": [],
+    "cond_immunities": [],
+    "tool_profs": [],
+    "armor_prof": [],
+    "weapon_profs": [],
+    "key": "",
+    "__dataclass__": "Race"
+  },
+  {
+    "name": "Shifter",
+    "source": "MPMM",
+    "speed": {
+      "walk": 30,
+      "fly": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "burrow": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "swim": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "climb": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "can_hover": false,
+      "__dataclass__": "Speed"
+    },
+    "ability_scores": {},
+    "size": [
+      "M"
+    ],
+    "age": null,
+    "size_params": null,
+    "blindsight": 0,
+    "darkvision": 60,
+    "skills": [],
+    "languages": null,
+    "feats": [],
+    "traits": [],
+    "dmg_resistances": [],
+    "dmg_vulnerabilities": [],
+    "dmg_immunities": [],
+    "cond_immunities": [],
+    "tool_profs": [],
+    "armor_prof": [],
+    "weapon_profs": [],
+    "key": "",
+    "__dataclass__": "Race"
+  },
+  {
+    "name": "Simic Hybrid",
+    "source": "GGR",
+    "speed": {
+      "walk": {
+        "value": 30,
+        "__dataclass__": "Scalar"
+      },
+      "fly": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "burrow": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "swim": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "climb": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "can_hover": false,
+      "__dataclass__": "Speed"
+    },
+    "ability_scores": [
+      {
+        "con": 2,
+        "choose": {
+          "from": [
+            "str",
+            "dex",
+            "int",
+            "wis",
+            "cha"
+          ],
+          "count": 1
+        }
+      }
+    ],
+    "size": [
+      "M"
+    ],
+    "age": null,
+    "size_params": null,
+    "blindsight": 0,
+    "darkvision": 60,
+    "skills": [],
+    "languages": null,
+    "feats": [],
+    "traits": [],
+    "dmg_resistances": [],
+    "dmg_vulnerabilities": [],
+    "dmg_immunities": [],
+    "cond_immunities": [],
+    "tool_profs": [],
+    "armor_prof": [],
+    "weapon_profs": [],
+    "key": "",
+    "__dataclass__": "Race"
+  },
+  {
+    "name": "Siren",
+    "source": "PSX",
+    "speed": {
+      "walk": {
+        "value": 25,
+        "__dataclass__": "Scalar"
+      },
+      "fly": {
+        "value": 30,
+        "__dataclass__": "Scalar"
+      },
+      "burrow": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "swim": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "climb": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "can_hover": false,
+      "__dataclass__": "Speed"
+    },
+    "ability_scores": [
+      {
+        "cha": 2
+      }
+    ],
+    "size": [
+      "M"
+    ],
+    "age": null,
+    "size_params": null,
+    "blindsight": 0,
+    "darkvision": 0,
+    "skills": [],
+    "languages": null,
+    "feats": [],
+    "traits": [],
+    "dmg_resistances": [],
+    "dmg_vulnerabilities": [],
+    "dmg_immunities": [],
+    "cond_immunities": [],
+    "tool_profs": [],
+    "armor_prof": [],
+    "weapon_profs": [],
+    "key": "",
+    "__dataclass__": "Race"
+  },
+  {
+    "name": "Skeleton",
+    "source": "DMG",
+    "speed": {
+      "walk": 30,
+      "fly": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "burrow": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "swim": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "climb": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "can_hover": false,
+      "__dataclass__": "Speed"
+    },
+    "ability_scores": [
+      {
+        "dex": 2,
+        "int": -4,
+        "cha": -4
+      }
+    ],
+    "size": [
+      "M"
+    ],
+    "age": null,
+    "size_params": null,
+    "blindsight": 0,
+    "darkvision": 60,
+    "skills": [],
+    "languages": null,
+    "feats": [],
+    "traits": [],
+    "dmg_resistances": [],
+    "dmg_vulnerabilities": [
+      "bludgeoning"
+    ],
+    "dmg_immunities": [
+      "poison"
+    ],
+    "cond_immunities": [
+      "exhaustion",
+      "poisoned"
+    ],
+    "tool_profs": [],
+    "armor_prof": [],
+    "weapon_profs": [],
+    "key": "",
+    "__dataclass__": "Race"
+  },
+  {
+    "name": "Tabaxi",
+    "source": "MPMM",
+    "speed": {
+      "walk": {
+        "value": 30,
+        "__dataclass__": "Scalar"
+      },
+      "fly": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "burrow": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "swim": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "climb": {
+        "value": true,
+        "__dataclass__": "Scalar"
+      },
+      "can_hover": false,
+      "__dataclass__": "Speed"
+    },
+    "ability_scores": {},
+    "size": [
+      "S",
+      "M"
+    ],
+    "age": null,
+    "size_params": null,
+    "blindsight": 0,
+    "darkvision": 60,
+    "skills": [],
+    "languages": null,
+    "feats": [],
+    "traits": [],
+    "dmg_resistances": [],
+    "dmg_vulnerabilities": [],
+    "dmg_immunities": [],
+    "cond_immunities": [],
+    "tool_profs": [],
+    "armor_prof": [],
+    "weapon_profs": [],
+    "key": "",
+    "__dataclass__": "Race"
+  },
+  {
+    "name": "Tabaxi",
+    "source": "VGM",
+    "speed": {
+      "walk": {
+        "value": 30,
+        "__dataclass__": "Scalar"
+      },
+      "fly": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "burrow": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "swim": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "climb": {
+        "value": 20,
+        "__dataclass__": "Scalar"
+      },
+      "can_hover": false,
+      "__dataclass__": "Speed"
+    },
+    "ability_scores": [
+      {
+        "dex": 2,
+        "cha": 1
+      }
+    ],
+    "size": [
+      "M"
+    ],
+    "age": {
+      "maximum": 100,
+      "mature": 20,
+      "__dataclass__": "AgeParams"
+    },
+    "size_params": {
+      "weight_base": 90,
+      "height_base": "2d4",
+      "weight_mod": 58,
+      "height_mod": "2d10",
+      "__dataclass__": "SizeParams"
+    },
+    "blindsight": 0,
+    "darkvision": 60,
+    "skills": [],
+    "languages": null,
+    "feats": [],
+    "traits": [],
+    "dmg_resistances": [],
+    "dmg_vulnerabilities": [],
+    "dmg_immunities": [],
+    "cond_immunities": [],
+    "tool_profs": [],
+    "armor_prof": [],
+    "weapon_profs": [],
+    "key": "",
+    "__dataclass__": "Race"
+  },
+  {
+    "name": "Thri-kreen",
+    "source": "AAG",
+    "speed": {
+      "walk": 30,
+      "fly": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "burrow": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "swim": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "climb": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "can_hover": false,
+      "__dataclass__": "Speed"
+    },
+    "ability_scores": {},
+    "size": [
+      "S",
+      "M"
+    ],
+    "age": null,
+    "size_params": null,
+    "blindsight": 0,
+    "darkvision": 60,
+    "skills": [],
+    "languages": null,
+    "feats": [],
+    "traits": [],
+    "dmg_resistances": [],
+    "dmg_vulnerabilities": [],
+    "dmg_immunities": [],
+    "cond_immunities": [],
+    "tool_profs": [],
+    "armor_prof": [],
+    "weapon_profs": [],
+    "key": "",
+    "__dataclass__": "Race"
+  },
+  {
+    "name": "Tiefling",
+    "source": "PHB",
+    "speed": {
+      "walk": 30,
+      "fly": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "burrow": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "swim": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "climb": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "can_hover": false,
+      "__dataclass__": "Speed"
+    },
+    "ability_scores": [
+      {
+        "cha": 2,
+        "int": 1
+      }
+    ],
+    "size": [
+      "M"
+    ],
+    "age": {
+      "maximum": 100,
+      "mature": 20,
+      "__dataclass__": "AgeParams"
+    },
+    "size_params": {
+      "weight_base": 110,
+      "height_base": "2d4",
+      "weight_mod": 57,
+      "height_mod": "2d8",
+      "__dataclass__": "SizeParams"
+    },
+    "blindsight": 0,
+    "darkvision": 60,
+    "skills": [],
+    "languages": null,
+    "feats": [],
+    "traits": [],
+    "dmg_resistances": [
+      "fire"
+    ],
+    "dmg_vulnerabilities": [],
+    "dmg_immunities": [],
+    "cond_immunities": [],
+    "tool_profs": [],
+    "armor_prof": [],
+    "weapon_profs": [],
+    "key": "",
+    "__dataclass__": "Race"
+  },
+  {
+    "name": "Tortle",
+    "source": "MPMM",
+    "speed": {
+      "walk": 30,
+      "fly": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "burrow": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "swim": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "climb": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "can_hover": false,
+      "__dataclass__": "Speed"
+    },
+    "ability_scores": {},
+    "size": [
+      "S",
+      "M"
+    ],
+    "age": null,
+    "size_params": null,
+    "blindsight": 0,
+    "darkvision": 0,
+    "skills": [],
+    "languages": null,
+    "feats": [],
+    "traits": [],
+    "dmg_resistances": [],
+    "dmg_vulnerabilities": [],
+    "dmg_immunities": [],
+    "cond_immunities": [],
+    "tool_profs": [],
+    "armor_prof": [],
+    "weapon_profs": [],
+    "key": "",
+    "__dataclass__": "Race"
+  },
+  {
+    "name": "Tortle",
+    "source": "TTP",
+    "speed": {
+      "walk": 30,
+      "fly": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "burrow": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "swim": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "climb": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "can_hover": false,
+      "__dataclass__": "Speed"
+    },
+    "ability_scores": [
+      {
+        "str": 2,
+        "wis": 1
+      }
+    ],
+    "size": [
+      "M"
+    ],
+    "age": {
+      "maximum": 50,
+      "mature": 15,
+      "__dataclass__": "AgeParams"
+    },
+    "size_params": null,
+    "blindsight": 0,
+    "darkvision": 0,
+    "skills": [],
+    "languages": null,
+    "feats": [],
+    "traits": [],
+    "dmg_resistances": [],
+    "dmg_vulnerabilities": [],
+    "dmg_immunities": [],
+    "cond_immunities": [],
+    "tool_profs": [],
+    "armor_prof": [],
+    "weapon_profs": [],
+    "key": "",
+    "__dataclass__": "Race"
+  },
+  {
+    "name": "Triton",
+    "source": "MPMM",
+    "speed": {
+      "walk": {
+        "value": 30,
+        "__dataclass__": "Scalar"
+      },
+      "fly": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "burrow": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "swim": {
+        "value": true,
+        "__dataclass__": "Scalar"
+      },
+      "climb": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "can_hover": false,
+      "__dataclass__": "Speed"
+    },
+    "ability_scores": {},
+    "size": [
+      "M"
+    ],
+    "age": null,
+    "size_params": null,
+    "blindsight": 0,
+    "darkvision": 60,
+    "skills": [],
+    "languages": null,
+    "feats": [],
+    "traits": [],
+    "dmg_resistances": [
+      "cold"
+    ],
+    "dmg_vulnerabilities": [],
+    "dmg_immunities": [],
+    "cond_immunities": [],
+    "tool_profs": [],
+    "armor_prof": [],
+    "weapon_profs": [],
+    "key": "",
+    "__dataclass__": "Race"
+  },
+  {
+    "name": "Triton",
+    "source": "VGM",
+    "speed": {
+      "walk": {
+        "value": 30,
+        "__dataclass__": "Scalar"
+      },
+      "fly": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "burrow": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "swim": {
+        "value": 30,
+        "__dataclass__": "Scalar"
+      },
+      "climb": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "can_hover": false,
+      "__dataclass__": "Speed"
+    },
+    "ability_scores": [
+      {
+        "str": 1,
+        "cha": 1,
+        "con": 1
+      }
+    ],
+    "size": [
+      "M"
+    ],
+    "age": {
+      "maximum": 200,
+      "mature": 15,
+      "__dataclass__": "AgeParams"
+    },
+    "size_params": {
+      "weight_base": 90,
+      "height_base": "2d4",
+      "weight_mod": 54,
+      "height_mod": "2d10",
+      "__dataclass__": "SizeParams"
+    },
+    "blindsight": 0,
+    "darkvision": 60,
+    "skills": [],
+    "languages": null,
+    "feats": [],
+    "traits": [],
+    "dmg_resistances": [
+      "cold"
+    ],
+    "dmg_vulnerabilities": [],
+    "dmg_immunities": [],
+    "cond_immunities": [],
+    "tool_profs": [],
+    "armor_prof": [],
+    "weapon_profs": [],
+    "key": "",
+    "__dataclass__": "Race"
+  },
+  {
+    "name": "Troglodyte",
+    "source": "DMG",
+    "speed": {
+      "walk": 30,
+      "fly": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "burrow": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "swim": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "climb": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "can_hover": false,
+      "__dataclass__": "Speed"
+    },
+    "ability_scores": [
+      {
+        "str": 2,
+        "con": 2,
+        "int": -4,
+        "cha": -4
+      }
+    ],
+    "size": [
+      "M"
+    ],
+    "age": null,
+    "size_params": null,
+    "blindsight": 0,
+    "darkvision": 60,
+    "skills": [],
+    "languages": null,
+    "feats": [],
+    "traits": [],
+    "dmg_resistances": [],
+    "dmg_vulnerabilities": [],
+    "dmg_immunities": [],
+    "cond_immunities": [],
+    "tool_profs": [],
+    "armor_prof": [],
+    "weapon_profs": [],
+    "key": "",
+    "__dataclass__": "Race"
+  },
+  {
+    "name": "Vampire",
+    "source": "PSZ",
+    "speed": {
+      "walk": 30,
+      "fly": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "burrow": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "swim": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "climb": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "can_hover": false,
+      "__dataclass__": "Speed"
+    },
+    "ability_scores": [
+      {
+        "cha": 2
+      }
+    ],
+    "size": [
+      "M"
+    ],
+    "age": null,
+    "size_params": null,
+    "blindsight": 0,
+    "darkvision": 60,
+    "skills": [],
+    "languages": null,
+    "feats": [],
+    "traits": [],
+    "dmg_resistances": [
+      "necrotic"
+    ],
+    "dmg_vulnerabilities": [],
+    "dmg_immunities": [],
+    "cond_immunities": [],
+    "tool_profs": [],
+    "armor_prof": [],
+    "weapon_profs": [],
+    "key": "",
+    "__dataclass__": "Race"
+  },
+  {
+    "name": "Vedalken",
+    "source": "GGR",
+    "speed": {
+      "walk": 30,
+      "fly": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "burrow": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "swim": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "climb": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "can_hover": false,
+      "__dataclass__": "Speed"
+    },
+    "ability_scores": [
+      {
+        "int": 2,
+        "wis": 1
+      }
+    ],
+    "size": [
+      "M"
+    ],
+    "age": {
+      "maximum": 500,
+      "mature": 40,
+      "__dataclass__": "AgeParams"
+    },
+    "size_params": {
+      "weight_base": 110,
+      "height_base": "2d4",
+      "weight_mod": 64,
+      "height_mod": "2d10",
+      "__dataclass__": "SizeParams"
+    },
+    "blindsight": 0,
+    "darkvision": 0,
+    "skills": [],
+    "languages": null,
+    "feats": [],
+    "traits": [],
+    "dmg_resistances": [],
+    "dmg_vulnerabilities": [],
+    "dmg_immunities": [],
+    "cond_immunities": [],
+    "tool_profs": [],
+    "armor_prof": [],
+    "weapon_profs": [],
+    "key": "",
+    "__dataclass__": "Race"
+  },
+  {
+    "name": "Vedalken",
+    "source": "PSK",
+    "speed": {
+      "walk": 30,
+      "fly": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "burrow": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "swim": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "climb": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "can_hover": false,
+      "__dataclass__": "Speed"
+    },
+    "ability_scores": [
+      {
+        "int": 2,
+        "wis": 1
+      }
+    ],
+    "size": [
+      "M"
+    ],
+    "age": {
+      "maximum": 500,
+      "mature": 40,
+      "__dataclass__": "AgeParams"
+    },
+    "size_params": null,
+    "blindsight": 0,
+    "darkvision": 0,
+    "skills": [],
+    "languages": null,
+    "feats": [],
+    "traits": [],
+    "dmg_resistances": [],
+    "dmg_vulnerabilities": [],
+    "dmg_immunities": [],
+    "cond_immunities": [],
+    "tool_profs": [],
+    "armor_prof": [],
+    "weapon_profs": [],
+    "key": "",
+    "__dataclass__": "Race"
+  },
+  {
+    "name": "Verdan",
+    "source": "AI",
+    "speed": {
+      "walk": 30,
+      "fly": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "burrow": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "swim": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "climb": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "can_hover": false,
+      "__dataclass__": "Speed"
+    },
+    "ability_scores": [
+      {
+        "con": 1,
+        "cha": 2
+      }
+    ],
+    "size": [
+      "V"
+    ],
+    "age": {
+      "maximum": 200,
+      "mature": 24,
+      "__dataclass__": "AgeParams"
+    },
+    "size_params": null,
+    "blindsight": 0,
+    "darkvision": 0,
+    "skills": [],
+    "languages": null,
+    "feats": [],
+    "traits": [],
+    "dmg_resistances": [],
+    "dmg_vulnerabilities": [],
+    "dmg_immunities": [],
+    "cond_immunities": [],
+    "tool_profs": [],
+    "armor_prof": [],
+    "weapon_profs": [],
+    "key": "",
+    "__dataclass__": "Race"
+  },
+  {
+    "name": "Warforged",
+    "source": "ERLW",
+    "speed": {
+      "walk": 30,
+      "fly": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "burrow": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "swim": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "climb": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "can_hover": false,
+      "__dataclass__": "Speed"
+    },
+    "ability_scores": [
+      {
+        "con": 2,
+        "choose": {
+          "from": [
+            "str",
+            "dex",
+            "int",
+            "wis",
+            "cha"
+          ],
+          "count": 1
+        }
+      }
+    ],
+    "size": [
+      "M"
+    ],
+    "age": {
+      "maximum": 30,
+      "mature": 2,
+      "__dataclass__": "AgeParams"
+    },
+    "size_params": {
+      "weight_base": 270,
+      "height_base": "4",
+      "weight_mod": 70,
+      "height_mod": "2d6",
+      "__dataclass__": "SizeParams"
+    },
+    "blindsight": 0,
+    "darkvision": 0,
+    "skills": [],
+    "languages": null,
+    "feats": [],
+    "traits": [],
+    "dmg_resistances": [
+      "poison"
+    ],
+    "dmg_vulnerabilities": [],
+    "dmg_immunities": [],
+    "cond_immunities": [
+      "disease"
+    ],
+    "tool_profs": [],
+    "armor_prof": [],
+    "weapon_profs": [],
+    "key": "",
+    "__dataclass__": "Race"
+  },
+  {
+    "name": "Yuan-Ti",
+    "source": "MPMM",
+    "speed": {
+      "walk": 30,
+      "fly": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "burrow": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "swim": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "climb": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "can_hover": false,
+      "__dataclass__": "Speed"
+    },
+    "ability_scores": {},
+    "size": [
+      "S",
+      "M"
+    ],
+    "age": null,
+    "size_params": null,
+    "blindsight": 0,
+    "darkvision": 60,
+    "skills": [],
+    "languages": null,
+    "feats": [],
+    "traits": [],
+    "dmg_resistances": [
+      "poison"
+    ],
+    "dmg_vulnerabilities": [],
+    "dmg_immunities": [],
+    "cond_immunities": [],
+    "tool_profs": [],
+    "armor_prof": [],
+    "weapon_profs": [],
+    "key": "",
+    "__dataclass__": "Race"
+  },
+  {
+    "name": "Yuan-ti Pureblood",
+    "source": "VGM",
+    "speed": {
+      "walk": 30,
+      "fly": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "burrow": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "swim": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "climb": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "can_hover": false,
+      "__dataclass__": "Speed"
+    },
+    "ability_scores": [
+      {
+        "cha": 2,
+        "int": 1
+      }
+    ],
+    "size": [
+      "M"
+    ],
+    "age": {
+      "maximum": 100,
+      "mature": 20,
+      "__dataclass__": "AgeParams"
+    },
+    "size_params": {
+      "weight_base": 110,
+      "height_base": "2d4",
+      "weight_mod": 56,
+      "height_mod": "2d10",
+      "__dataclass__": "SizeParams"
+    },
+    "blindsight": 0,
+    "darkvision": 60,
+    "skills": [],
+    "languages": null,
+    "feats": [],
+    "traits": [],
+    "dmg_resistances": [],
+    "dmg_vulnerabilities": [],
+    "dmg_immunities": [
+      "poison"
+    ],
+    "cond_immunities": [
+      "poisoned"
+    ],
+    "tool_profs": [],
+    "armor_prof": [],
+    "weapon_profs": [],
+    "key": "",
+    "__dataclass__": "Race"
+  },
+  {
+    "name": "Zombie",
+    "source": "DMG",
+    "speed": {
+      "walk": 30,
+      "fly": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "burrow": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "swim": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "climb": {
+        "value": 0,
+        "__dataclass__": "Scalar"
+      },
+      "can_hover": false,
+      "__dataclass__": "Speed"
+    },
+    "ability_scores": [
+      {
+        "str": 1,
+        "con": 2,
+        "int": -6,
+        "wis": -4,
+        "cha": -4
+      }
+    ],
+    "size": [
+      "M"
+    ],
+    "age": null,
+    "size_params": null,
+    "blindsight": 0,
+    "darkvision": 60,
+    "skills": [],
+    "languages": null,
+    "feats": [],
+    "traits": [],
+    "dmg_resistances": [],
+    "dmg_vulnerabilities": [],
+    "dmg_immunities": [
+      "poison"
+    ],
+    "cond_immunities": [
+      "poisoned"
+    ],
+    "tool_profs": [],
+    "armor_prof": [],
+    "weapon_profs": [],
+    "key": "",
+    "__dataclass__": "Race"
+  }
 ]
