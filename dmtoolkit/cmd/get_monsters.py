@@ -16,7 +16,7 @@ from typing import Any
 
 import click
 
-from util import listify
+from dmtoolkit.cmd.util import listify
 from dmtoolkit.api.models import AC, HP, Entry, Monster, SkillList, Speed, SpellCasting, Scalar
 from dmtoolkit.api.serialize import load_json, dump_json
 

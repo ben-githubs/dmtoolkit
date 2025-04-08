@@ -13,6 +13,9 @@ python-dotenv = "^1.0.1"
 flask-session = "^0.8.0"
 redis = "^5.2.1"
 
+[tool.poetry.scripts]
+dmk = "dmtoolkit.cmd.main:main"
+
 
 [tool.poetry.group.dev.dependencies]
 
