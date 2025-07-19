@@ -1,7 +1,7 @@
 from dataclasses import asdict
 import json
 
-from flask import Blueprint, request, abort
+from flask import Blueprint, request, abort, make_response
 
 import dmtoolkit.api.players as players_api
 from dmtoolkit.api import encounters
@@ -41,9 +41,10 @@ def get_encounter(eid: str):
 
 @api_bp.route("/encounters", methods=["POST", "PUT"])
 def create_encounter():
-    # breakpoint()
     encounter = request.json
     if not encounter or not isinstance(encounter, dict):
         return json.dumps({"error": "Invalid or null encounter value"}), 403
-    eid = encounters.create_or_update(encounter)
-    return json.dumps({"eid": eid})
+    resp = make_response()
+    eid = encounters.create_or_update(resp, encounter)
+    resp.data = json.dumps({"eid": eid})
+    return resp
