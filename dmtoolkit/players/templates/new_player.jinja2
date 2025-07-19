@@ -1,5 +1,9 @@
 {% extends "base.jinja2" %}
 
+{% block header %}
+    <link rel=stylesheet type="text/css" href="{{ url_for('static', filename='forms.css') }}">
+{% endblock %}
+
 {% block content %}
 <div style="width: 1200px; margin: auto">
     <h1>Create New Player Character</h1>
@@ -10,19 +14,51 @@
             <fieldset>
                 {{ form.name.label }}
                 {{ form.name }}
+                <br/>
+                {% if form.name.errors %}
+                    <ul class="errors">
+                        {% for error in form.name.errors %}
+                            <li>{{ error }}</li>
+                        {% endfor %}
+                    </ul>
+                {% endif %}
             </fieldset>
         </div>
-        <div style="display: flex; flex-direction: row; justify-content: space-around">
+        <div style="display: flex; flex-direction: row; justify-content: space-between">
             <fieldset>
                 {{ form.hp.label }} {{ form.hp }}
+                <br/>
+                {% if form.hp.errors %}
+                    <ul class="errors">
+                        {% for error in form.hp.errors %}
+                            <li>{{ error }}</li>
+                        {% endfor %}
+                    </ul>
+                {% endif %}
             </fieldset>
 
             <fieldset>
                 {{ form.ac.label }} {{ form.ac }}
+                <br/>
+                {% if form.ac.errors %}
+                    <ul class="errors">
+                        {% for error in form.ac.errors %}
+                            <li>{{ error }}</li>
+                        {% endfor %}
+                    </ul>
+                {% endif %}
             </fieldset>
 
             <fieldset>
                 {{ form.pp.label }} {{ form.pp }}
+                <br/>
+                {% if form.pp.errors %}
+                    <ul class="errors">
+                        {% for error in form.pp.errors %}
+                            <li>{{ error }}</li>
+                        {% endfor %}
+                    </ul>
+                {% endif %}
             </fieldset>
         </div>
         {{ form.submit }}
