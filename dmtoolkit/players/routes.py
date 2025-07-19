@@ -30,10 +30,16 @@ class CreateForm(FlaskForm):
             print("Name already used")
             raise ValidationError(f"Cannot create new player with name '{field.data}' because that name is already in use.")
 
+class _UpdateForm(CreateForm):
+    orig_player_name: str = ""
 
+    def validate_name(self, field):
+        if field.data == self.orig_player_name:
+            return
+        super().validate_name(field)
 
 def UpdateForm():
-    form = CreateForm()
+    form = _UpdateForm()
     form.name.validators = ()
     form.ac.validators = ()
     form.hp.validators = ()
@@ -75,6 +81,7 @@ def new_player_page():
 @players_bp.route("/edit/<player_name>", methods=["GET","POST"])
 def update_player_page(player_name: str):
     form = UpdateForm()
+    form.orig_player_name = player_name
     players = api.list_players()
     player_arr = [p for p in players if p.name == player_name]
     if not player_arr:
@@ -94,9 +101,6 @@ def update_player_page(player_name: str):
         player_dict = asdict(player)
         player_dict |= player_params # Update player params
         new_player = api.Player(**player_dict)
-        if new_player.name != player.name and any(p.name == new_player.name for p in players):
-            # TODO: Handle this more gracefully
-            raise ValueError(f"Cannot rename player to '{new_player.name}' as this name is already in use")
         idx = players.index(player)
         players[idx] = new_player
 
