@@ -1,12 +1,11 @@
 from dataclasses import asdict
-import json
 
-from flask import Blueprint, render_template, redirect, url_for, request, Response, make_response
+from flask import Blueprint, render_template, redirect, url_for, make_response
 from flask_wtf import FlaskForm
 from wtforms import StringField, IntegerField, SubmitField
-from wtforms.validators import DataRequired, ValidationError
+from wtforms.validators import InputRequired, NumberRange, ValidationError
 
-from dmtoolkit.api.players import Player
+import dmtoolkit.api.players as api
 
 players_bp = Blueprint(
     "players_bp",
@@ -18,15 +17,17 @@ players_bp = Blueprint(
 )
 
 class CreateForm(FlaskForm):
-    name = StringField("Name", [DataRequired()])
-    ac = IntegerField("AC", [DataRequired()])
-    hp = IntegerField("Max HP", [DataRequired()])
-    pp = IntegerField("Passive Perception", [DataRequired()])
+    name = StringField("Name", [InputRequired()])
+    ac = IntegerField("AC", [InputRequired(), NumberRange(min=0)])
+    hp = IntegerField("Max HP", [InputRequired(), NumberRange(min=1, message="No!")])
+    pp = IntegerField("Passive Perception", [InputRequired(), NumberRange(min=0)])
     submit = SubmitField("Create Player Character")
 
     def validate_name(self, field):
-        players = _load_players()
+        print("Validating...")
+        players = api.list_players()
         if any(field.data == p.name for p in players):
+            print("Name already used")
             raise ValidationError(f"Cannot create new player with name '{field.data}' because that name is already in use.")
 
 
@@ -45,19 +46,14 @@ def list_players_page():
     page = {
         "title": "DMTTools - Players"
     }
-    players = _load_players()
+    players = api.list_players()
     return render_template("list_players.jinja2", page=page, players=players)
 
 
 @players_bp.route("/new", methods=["GET", "POST"])
 def new_player_page():
-    players = _load_players()
     form = CreateForm()
-    def validate_name(_, field):
-        print("I AM CALLED")
-        if any(field.data == p.name for p in players):
-            raise ValueError(f"Cannot create new player with name '{new_player.name}' because that name is already in use.")
-    setattr(form, "validate_name", validate_name)
+    print(form.validate_on_submit())
     if form.validate_on_submit():
         player = {
             "name": form.name.data,
@@ -65,10 +61,9 @@ def new_player_page():
             "pp": form.pp.data,
             "hp": form.hp.data
         }
-        new_player = (Player(**player))
-        players.append(new_player)
+        print("NEW")
         resp = make_response(redirect(url_for("players_bp.list_players_page")))
-        _save_players(resp, players)
+        api.create_player(resp, player)
         return resp
     
     page = {
@@ -80,7 +75,7 @@ def new_player_page():
 @players_bp.route("/edit/<player_name>", methods=["GET","POST"])
 def update_player_page(player_name: str):
     form = UpdateForm()
-    players = _load_players()
+    players = api.list_players()
     player_arr = [p for p in players if p.name == player_name]
     if not player_arr:
         return "404 Player Not Found"
@@ -98,7 +93,7 @@ def update_player_page(player_name: str):
 
         player_dict = asdict(player)
         player_dict |= player_params # Update player params
-        new_player = Player(**player_dict)
+        new_player = api.Player(**player_dict)
         if new_player.name != player.name and any(p.name == new_player.name for p in players):
             # TODO: Handle this more gracefully
             raise ValueError(f"Cannot rename player to '{new_player.name}' as this name is already in use")
@@ -106,7 +101,7 @@ def update_player_page(player_name: str):
         players[idx] = new_player
 
         resp = make_response(redirect(url_for("players_bp.list_players_page")))
-        _save_players(resp, players)
+        api._save_players(resp, players)
         return resp
     
     page = {
@@ -116,15 +111,6 @@ def update_player_page(player_name: str):
 
 @players_bp.route("/delete/<player_name>", methods=["GET"])
 def delete_player(player_name: str):
-    players = _load_players()
-    new_players = [p for p in players if p.name != player_name]
     resp = make_response(redirect(url_for("players_bp.list_players_page")))
-    _save_players(resp, new_players)
+    api.delete_player(resp, player_name)
     return resp
-
-def _load_players() -> list[Player]:
-    player_specs = json.loads(request.cookies.get("players", "[]"))
-    return [Player(**spec) for spec in player_specs]
-
-def _save_players(response: Response, players: list[Player]) -> None:
-    response.set_cookie("players", json.dumps([asdict(player) for player in players]))

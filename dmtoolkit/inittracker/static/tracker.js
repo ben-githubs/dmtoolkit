@@ -143,7 +143,9 @@ function togglePlayer(button) {
         $('#turntracker').find('tr').each( function(event) {
             n = $(this).children().eq(1).find("strong").first().text();
             if ($(this).find("td:gt(0)").first().find("strong").first().text() == playerName) {
-                deleteRow(event);
+                console.log("Found it!")
+                // deleteRow(event);
+                $(this).find(".remove-btn").trigger("click");
                 updateAddPlayerButtons();
             }
         });
