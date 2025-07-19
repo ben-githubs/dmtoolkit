@@ -2,12 +2,11 @@ from dataclasses import asdict
 
 from flask import Blueprint, render_template, redirect, url_for, make_response
 from flask_wtf import FlaskForm
-from wtforms import StringField, IntegerField, SubmitField
+from wtforms import SelectField, StringField, IntegerField, SubmitField
 from wtforms.validators import InputRequired, NumberRange, ValidationError
 
 import dmtoolkit.api.players as api
-from dmtoolkit.api.races import get_race
-from dmtoolkit.players.forms import CreateForm, UpdateForm
+from dmtoolkit.api.races import get_race, list_races
 
 players_bp = Blueprint(
     "players_bp",
@@ -23,6 +22,7 @@ class CreateForm(FlaskForm):
     ac = IntegerField("AC", [InputRequired(), NumberRange(min=0)])
     hp = IntegerField("Max HP", [InputRequired(), NumberRange(min=1, message="No!")])
     pp = IntegerField("Passive Perception", [InputRequired(), NumberRange(min=0)])
+    race = SelectField("Race", choices=list_races())
     submit = SubmitField("Create Player Character")
 
     def validate_name(self, field):
