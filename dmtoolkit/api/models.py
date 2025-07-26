@@ -360,6 +360,8 @@ class Entry:
                         entry = Entry.from_spec(entry)
                         entry.style |= {"margin-left": "24px"}
                         body.append(entry)
+                    case "entries":
+                        body.append(Entry.from_spec(entry))
                     case _:
                         raise ValueError(f"Unexpected type '{entry['type']}'")
             else:

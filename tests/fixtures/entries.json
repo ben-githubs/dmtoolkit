@@ -1,0 +1,352 @@
+{
+    "basic-text": {
+        "raw": {
+            "name": "Dive Attack",
+            "entries": [
+                "If you are flying and dive at least 30 ft. straight toward a target and then hit it with a melee weapon attack, the attack deals an extra {@damage 1d6} damage to the target."
+            ]
+        },
+        "result": {
+            "title": "Dive Attack",
+            "body": [
+                "If you are flying and dive at least 30 ft. straight toward a target and then hit it with a melee weapon attack, the attack deals an extra {@damage 1d6} damage to the target."
+            ],
+            "style": {}
+        }
+    },
+    "table": {
+        "raw": {
+            "name": "Draconic Ancestry",
+            "entries": [
+                "You have draconic ancestry. Choose one type of dragon from the Draconic Ancestry table. Your breath weapon and damage resistance are determined by the dragon type, as shown in the table.",
+                {
+                    "type": "table",
+                    "caption": "Draconic Ancestry",
+                    "colLabels": [
+                        "Dragon",
+                        "Damage Type",
+                        "Breath Weapon"
+                    ],
+                    "colStyles": [
+                        "col-3 text-center",
+                        "col-3 text-center",
+                        "col-6"
+                    ],
+                    "rows": [
+                        [
+                            "Black",
+                            "Acid",
+                            "5 by 30 ft. line (Dex. save)"
+                        ],
+                        [
+                            "Blue",
+                            "Lightning",
+                            "5 by 30 ft. line (Dex. save)"
+                        ],
+                        [
+                            "Brass",
+                            "Fire",
+                            "5 by 30 ft. line (Dex. save)"
+                        ],
+                        [
+                            "Bronze",
+                            "Lightning",
+                            "5 by 30 ft. line (Dex. save)"
+                        ],
+                        [
+                            "Copper",
+                            "Acid",
+                            "5 by 30 ft. line (Dex. save)"
+                        ],
+                        [
+                            "Gold",
+                            "Fire",
+                            "15 ft. cone (Dex. save)"
+                        ],
+                        [
+                            "Green",
+                            "Poison",
+                            "15 ft. cone (Con. save)"
+                        ],
+                        [
+                            "Red",
+                            "Fire",
+                            "15 ft. cone (Dex. save)"
+                        ],
+                        [
+                            "Silver",
+                            "Cold",
+                            "15 ft. cone (Con. save)"
+                        ],
+                        [
+                            "White",
+                            "Cold",
+                            "15 ft. cone (Con. save)"
+                        ]
+                    ]
+                }
+            ],
+            "type": "entries"
+        },
+        "result": {
+            "title": "Draconic Ancestry",
+            "body": [
+                "You have draconic ancestry. Choose one type of dragon from the Draconic Ancestry table. Your breath weapon and damage resistance are determined by the dragon type, as shown in the table.",
+                {
+                    "caption": "Draconic Ancestry",
+                    "col_labels": [
+                        "Dragon",
+                        "Damage Type",
+                        "Breath Weapon"
+                    ],
+                    "col_styles": [
+                        "col-3 text-center",
+                        "col-3 text-center",
+                        "col-6"
+                    ],
+                    "rows": [
+                        [
+                            "Black",
+                            "Acid",
+                            "5 by 30 ft. line (Dex. save)"
+                        ],
+                        [
+                            "Blue",
+                            "Lightning",
+                            "5 by 30 ft. line (Dex. save)"
+                        ],
+                        [
+                            "Brass",
+                            "Fire",
+                            "5 by 30 ft. line (Dex. save)"
+                        ],
+                        [
+                            "Bronze",
+                            "Lightning",
+                            "5 by 30 ft. line (Dex. save)"
+                        ],
+                        [
+                            "Copper",
+                            "Acid",
+                            "5 by 30 ft. line (Dex. save)"
+                        ],
+                        [
+                            "Gold",
+                            "Fire",
+                            "15 ft. cone (Dex. save)"
+                        ],
+                        [
+                            "Green",
+                            "Poison",
+                            "15 ft. cone (Con. save)"
+                        ],
+                        [
+                            "Red",
+                            "Fire",
+                            "15 ft. cone (Dex. save)"
+                        ],
+                        [
+                            "Silver",
+                            "Cold",
+                            "15 ft. cone (Con. save)"
+                        ],
+                        [
+                            "White",
+                            "Cold",
+                            "15 ft. cone (Con. save)"
+                        ]
+                    ]
+                }
+            ],
+            "style": {}
+        }
+    },
+    "nested-entries": {
+        "raw": {
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Creature Type",
+                    "entries": [
+                        "You are a Humanoid. You are also considered a dwarf for any prerequisite or effect that requires you to be a dwarf."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Darkvision",
+                    "entries": [
+                        "You can see in dim light within 120 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Duergar Magic",
+                    "entries": [
+                        "Starting at 3rd level, you can cast the {@spell enlarge/reduce} spell on yourself with this trait, without requiring a material component. Starting at 5th level, you can also cast the {@spell invisibility} spell on yourself with this trait, without requiring a material component. Once you cast either of these spells with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast these spells using spell slots you have of the appropriate level.",
+                        "Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race)."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Dwarven Resilience",
+                    "entries": [
+                        "You have advantage on saving throws you make to avoid or end the {@condition poisoned} condition on yourself. You also have resistance to poison damage."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Psionic Fortitude",
+                    "entries": [
+                        "You have advantage on saving throws you make to avoid or end the {@condition charmed} or {@condition stunned} condition on yourself."
+                    ]
+                }
+            ]
+        },
+        "result": {
+            "title": "",
+            "body": [
+                {
+                    "title": "Creature Type",
+                    "body": [
+                        "You are a Humanoid. You are also considered a dwarf for any prerequisite or effect that requires you to be a dwarf."
+                    ],
+                    "style": {}
+                },
+                {
+                    "title": "Darkvision",
+                    "body": [
+                        "You can see in dim light within 120 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray."
+                    ],
+                    "style": {}
+                },
+                {
+                    "title": "Duergar Magic",
+                    "body": [
+                        "Starting at 3rd level, you can cast the {@spell enlarge/reduce} spell on yourself with this trait, without requiring a material component. Starting at 5th level, you can also cast the {@spell invisibility} spell on yourself with this trait, without requiring a material component. Once you cast either of these spells with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast these spells using spell slots you have of the appropriate level.",
+                        "Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race)."
+                    ],
+                    "style": {}
+                },
+                {
+                    "title": "Dwarven Resilience",
+                    "body": [
+                        "You have advantage on saving throws you make to avoid or end the {@condition poisoned} condition on yourself. You also have resistance to poison damage."
+                    ],
+                    "style": {}
+                },
+                {
+                    "title": "Psionic Fortitude",
+                    "body": [
+                        "You have advantage on saving throws you make to avoid or end the {@condition charmed} or {@condition stunned} condition on yourself."
+                    ],
+                    "style": {}
+                }
+            ],
+            "style": {}
+        }
+    },
+    "inset-text": {
+        "raw": {
+            "entries": [
+                {
+                    "type": "inset",
+                    "name": "Gift of the Aetherborn",
+                    "entries": [
+                        "An unknown aetherborn, desperately seeking a means to extend their short life, discovered a process of transformation that prolonged their existence\u2014by giving them the ability to feed on the life essence of other beings. Since then, other aetherborn have learned and carried out this monstrous transformation, and aetherborn with this \"gift\" have become a small minority among an already small population.",
+                        "A gifted aetherborn has the ability to drain the life essence of other beings. Similar to the way heat is transferred from a warm object to a cold one, a gifted aetherborn need only touch another living being with a clawed hand to draw life essence out, fueling their own continued existence while draining strength and vitality from their victim.",
+                        "For many aetherborn, living as they do for indulgence and instant gratification, the concepts of \"want\" and \"need\" are virtually synonymous. But Aetherborn with this gift understand what it is to truly need, for they develop a hunger for life essence that far exceeds any desires they might have felt before their transformation. A gifted aetherborn who abstains from this feeding deteriorates even more rapidly than other aetherborn, while enduring unspeakable agony caused by the deprivation of life energy.",
+                        "At the DM's option, an aetherborn character can research methods of achieving this dark \"gift.\" The process is similar to inventing and manufacturing a rare magic item (see \"{@book Inventing and Manufacturing Devices|PS-K|1|Inventing and Manufacturing Devices}\" earlier in this document). But rather than aether, the process requires a variety of rare unguents and unusual ingredients that make up the cost of researching and undergoing the transformation.",
+                        "An aetherborn with this gift gains the Drain Life ability: a natural attack that deals {@damage 1d6} necrotic damage and restores the same number of hit points to the aetherborn. However, if the aetherborn goes for 7 days without dealing this damage, their hit point maximum is reduced by {@dice 1d6} per week. This reduction can't be removed until the aetherborn has used their Drain Life ability and completed a long rest."
+                    ]
+                }
+            ]
+        },
+        "result": {
+            "title": "",
+            "body": [
+                {
+                    "title": "Gift of the Aetherborn",
+                    "body": [
+                        "An unknown aetherborn, desperately seeking a means to extend their short life, discovered a process of transformation that prolonged their existence\u2014by giving them the ability to feed on the life essence of other beings. Since then, other aetherborn have learned and carried out this monstrous transformation, and aetherborn with this \"gift\" have become a small minority among an already small population.",
+                        "A gifted aetherborn has the ability to drain the life essence of other beings. Similar to the way heat is transferred from a warm object to a cold one, a gifted aetherborn need only touch another living being with a clawed hand to draw life essence out, fueling their own continued existence while draining strength and vitality from their victim.",
+                        "For many aetherborn, living as they do for indulgence and instant gratification, the concepts of \"want\" and \"need\" are virtually synonymous. But Aetherborn with this gift understand what it is to truly need, for they develop a hunger for life essence that far exceeds any desires they might have felt before their transformation. A gifted aetherborn who abstains from this feeding deteriorates even more rapidly than other aetherborn, while enduring unspeakable agony caused by the deprivation of life energy.",
+                        "At the DM's option, an aetherborn character can research methods of achieving this dark \"gift.\" The process is similar to inventing and manufacturing a rare magic item (see \"{@book Inventing and Manufacturing Devices|PS-K|1|Inventing and Manufacturing Devices}\" earlier in this document). But rather than aether, the process requires a variety of rare unguents and unusual ingredients that make up the cost of researching and undergoing the transformation.",
+                        "An aetherborn with this gift gains the Drain Life ability: a natural attack that deals {@damage 1d6} necrotic damage and restores the same number of hit points to the aetherborn. However, if the aetherborn goes for 7 days without dealing this damage, their hit point maximum is reduced by {@dice 1d6} per week. This reduction can't be removed until the aetherborn has used their Drain Life ability and completed a long rest."
+                    ],
+                    "style": {
+                        "margin-left": "24px"
+                    }
+                }
+            ],
+            "style": {}
+        }
+    },
+    "list": {
+        "raw": {
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Celestial Revelation",
+                    "entries": [
+                        "When you reach 3rd level, choose one of the revelation options below. Thereafter, you can use a bonus action to unleash the celestial energy within yourself, gaining the benefits of that revelation. Your transformation lasts for 1 minute or until you end it as a bonus action. Once you transform using your revelation below, you can't use it again until you finish a long rest.",
+                        {
+                            "type": "list",
+                            "items": [
+                                {
+                                    "type": "item",
+                                    "name": "Necrotic Shroud",
+                                    "entry": "Your eyes briefly become pools of darkness, and ghostly, flightless wings sprout from your back temporarily. Creatures other than your allies within 10 feet of you that can see you must succeed on a Charisma saving throw ({@dc 8} + your proficiency bonus + your Charisma modifier) or become {@condition frightened} of you until the end of your next turn. Until the transformation ends, once on each of your turns, you can deal extra necrotic damage to one target when you deal damage to it with an attack or a spell. The extra damage equals your proficiency bonus."
+                                },
+                                {
+                                    "type": "item",
+                                    "name": "Radiant Consumption",
+                                    "entry": "Searing light temporarily radiates from your eyes and mouth. For the duration, you shed bright light in a 10-foot radius and dim light for an additional 10 feet, and at the end of each of your turns, each creature within 10 feet of you takes radiant damage equal to your proficiency bonus. Until the transformation ends, once on each of your turns, you can deal extra radiant damage to one target when you deal damage to it with an attack or a spell. The extra damage equals your proficiency bonus."
+                                },
+                                {
+                                    "type": "item",
+                                    "name": "Radiant Soul",
+                                    "entry": "Two luminous, spectral wings sprout from your back temporarily. Until the transformation ends, you have a flying speed equal to your walking speed, and once on each of your turns, you can deal extra radiant damage to one target when you deal damage to it with an attack or a spell. The extra damage equals your proficiency bonus."
+                                }
+                            ],
+                            "style": "list-hang-notitle"
+                        }
+                    ]
+                }
+            ]
+        },
+        "result": {
+            "title": "",
+            "body": [
+                {
+                    "title": "Celestial Revelation",
+                    "body": [
+                        "When you reach 3rd level, choose one of the revelation options below. Thereafter, you can use a bonus action to unleash the celestial energy within yourself, gaining the benefits of that revelation. Your transformation lasts for 1 minute or until you end it as a bonus action. Once you transform using your revelation below, you can't use it again until you finish a long rest.",
+                        {
+                            "title": "Necrotic Shroud",
+                            "body": [
+                                "Your eyes briefly become pools of darkness, and ghostly, flightless wings sprout from your back temporarily. Creatures other than your allies within 10 feet of you that can see you must succeed on a Charisma saving throw ({@dc 8} + your proficiency bonus + your Charisma modifier) or become {@condition frightened} of you until the end of your next turn. Until the transformation ends, once on each of your turns, you can deal extra necrotic damage to one target when you deal damage to it with an attack or a spell. The extra damage equals your proficiency bonus."
+                            ],
+                            "style": {}
+                        },
+                        {
+                            "title": "Radiant Consumption",
+                            "body": [
+                                "Searing light temporarily radiates from your eyes and mouth. For the duration, you shed bright light in a 10-foot radius and dim light for an additional 10 feet, and at the end of each of your turns, each creature within 10 feet of you takes radiant damage equal to your proficiency bonus. Until the transformation ends, once on each of your turns, you can deal extra radiant damage to one target when you deal damage to it with an attack or a spell. The extra damage equals your proficiency bonus."
+                            ],
+                            "style": {}
+                        },
+                        {
+                            "title": "Radiant Soul",
+                            "body": [
+                                "Two luminous, spectral wings sprout from your back temporarily. Until the transformation ends, you have a flying speed equal to your walking speed, and once on each of your turns, you can deal extra radiant damage to one target when you deal damage to it with an attack or a spell. The extra damage equals your proficiency bonus."
+                            ],
+                            "style": {}
+                        }
+                    ],
+                    "style": {}
+                }
+            ],
+            "style": {}
+        }
+    }
+}
