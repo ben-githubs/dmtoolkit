@@ -51,7 +51,9 @@
     <hr/>
 
     {% for trait in race.traits %}
-        {{ trait.html() | macro5e }}
+        {% if trait.title not in ("Age", "Size", "Languages") %}
+            {{ trait.html() | macro5e }}
+        {% endif %}
     {% endfor %}
 
 {#     
