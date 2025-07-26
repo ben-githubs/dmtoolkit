@@ -2,11 +2,17 @@
 Code for serializing and deserializing the custom classes.
 """
 from collections.abc import Mapping, Sequence
-from dataclasses import dataclass, fields, is_dataclass
+from dataclasses import fields, is_dataclass
 import inspect
 import json
+from typing import TYPE_CHECKING
 
 import dmtoolkit.api.models
+
+if TYPE_CHECKING:
+    from _typeshed import DataclassInstance
+else:
+    DataclassInstance = object
 
 _MODELS: dict[str, type] = {}
 
@@ -16,12 +22,12 @@ def _get_models() -> dict[str, type]:
     # Lazy-load models
     if not _MODELS:
         for name, obj in inspect.getmembers(dmtoolkit.api.models):
-            if is_dataclass(obj):
+            if isinstance(obj, type) and is_dataclass(obj):
                 _MODELS[name] = obj
     return _MODELS
 
 
-def _asdict_inner(o: dataclass) -> dict:
+def _asdict_inner(o: DataclassInstance) -> dict:
     data = o.__dict__
    
     field_types = {field.name: field.type for field in fields(o.__class__)}
@@ -29,17 +35,21 @@ def _asdict_inner(o: dataclass) -> dict:
     for field, val in data.items():
         # Check if optional
         field_type = field_types.get(field)
+        if not isinstance(field_type, str):
+            field_type = repr(field_type)
         if not field_type:
             continue
         if field_type.startswith("Optional["):
             if val is None or (hasattr(val, "__iter__") and len(val) == 0):
                 delfields.append(field)
+        elif field_type.startswith("Reference["):
+            data[field] = f"${type(o).__name__}.{val._id}"
     for field in delfields:
         del data[field]
 
     return data | { "__dataclass__": type(o).__name__}
 
-def _asdict(obj: dataclass):
+def _asdict(obj: DataclassInstance):
     """Custom asdict that removed optional fields which are null."""
     if isinstance(obj, Sequence):
         return type(obj)(*[_asdict(x) for x in obj])
@@ -61,13 +71,22 @@ class CustomDecoder(json.JSONDecoder):
     def __init__(self, *args, **kwargs):
         json.JSONDecoder.__init__(self, object_hook=self.object_hook, *args, **kwargs)
 
-    def object_hook(self, o: dict):
-        if class_name := o.pop("__dataclass__", None):
+    def object_hook(self, o: dict | str):
+        if isinstance(o, str):
+            if o.startswith("$"):
+                class_name, id_ = o.split(".")[:1]
+                models = _get_models()
+                class_ = models.get(class_name)
+                if class_ is not None:
+                    return class_.get_instance(id_)
+        elif class_name := o.pop("__dataclass__", None):
             if class_name:
                 models = _get_models()
                 class_ = models.get(class_name)
                 if not class_:
                     raise ValueError(f"Unknown dataclass '{class_name}'")
+                if "race" in o:
+                    o.pop("race")
                 return class_(**o)
         return o
 
@@ -138,3 +157,11 @@ def dump_json(obj, fp, *, skipkeys=False, ensure_ascii=True, check_circular=True
         default=default,
         sort_keys=sort_keys
     )
+
+
+def load_json_string(*args, **kwargs):
+    return json.loads(*args, **({"cls": CustomDecoder} | kwargs))
+
+
+def dump_json_string(*args, **kwargs):
+    return json.dumps(*args, **({"cls": CustomEncoder} | kwargs))

@@ -54,3 +54,83 @@
     color: #23527c;
     text-decoration: underline;
 }
+
+#statblock table.entry {
+    background-color: rgba(0,0,0,0);
+    width: 100%;
+    border-collapse: collapse;
+    border: 0;
+}
+
+#statblock table.entry caption {
+    text-align: left;
+    margin-left: 5px;
+    padding: 0;
+    font-weight: bold;
+    font-size: 1.08em;
+    color: #777;
+}
+
+#statblock table.entry tr.oddrow {
+    background: rgba(192, 192, 192, 0.376);
+}
+
+#statblock table.entry .col-1 {
+    width: 8% !important;
+}
+
+#statblock table.entry .col-2 {
+    width: 17% !important;
+}
+
+#statblock table.entry .col-3 {
+    width: 25% !important;
+}
+
+#statblock table.entry .col-4 {
+    width: 33% !important;
+}
+
+#statblock table.entry .col-5 {
+    width: 42% !important;
+}
+
+#statblock table.entry .col-6 {
+    width: 50% !important;
+}
+
+#statblock table.entry .col-7 {
+    width: 58% !important;
+}
+
+#statblock table.entry .col-8 {
+    width: 67% !important;
+}
+
+#statblock table.entry .col-9 {
+    width: 75% !important;
+}
+
+#statblock table.entry .col-10 {
+    width: 83% !important;
+}
+
+#statblock table.entry .col-22 {
+    width: 92% !important;
+}
+
+#statblock table.entry .col-12 {
+    width: 100% !important;
+}
+
+#statblock table.entry .text-left {
+    text-align: left;
+}
+
+#statblock table.entry .text-center {
+    text-align: center;
+}
+
+#statblock table.entry .text-right {
+    text-align: right;
+}

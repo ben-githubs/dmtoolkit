@@ -19,6 +19,9 @@ def list_races() -> list[str]:
     return list(RACES.keys())
 
 
-def get_race(name: str) -> Race:
+def get_race(name: str) -> Race | None:
     """Returns the race with the given name. If no race with the name exists, return None."""
     return RACES.get(name)
+
+# Populate race list
+list_races()

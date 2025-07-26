@@ -14,7 +14,6 @@ DEFAULT_CONV = ROOT_DIR / "api" / "data" / "races.json"
 
 def convert_race(spec: dict[str, Any]):
     """Convert a JSON representation of a race (as downloaded from 5e.tools) into a Race object."""
-
     return Race(
         spec["name"],
         spec["source"],
@@ -28,7 +27,7 @@ def convert_race(spec: dict[str, Any]):
         skills = spec.get("skill", []),
         languages = spec.get("language"),
         feats = spec.get("feat", []),
-        traits = [Entry.from_spec(s) for s in spec.get("trait", [])],
+        traits = [Entry.from_spec(s) for s in spec.get("entries", [])],
         dmg_resistances = spec.get("resist", []),
         dmg_vulnerabilities = spec.get("vulnerable", []),
         dmg_immunities = spec.get("immune", []),

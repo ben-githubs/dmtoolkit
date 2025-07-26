@@ -1,9 +1,16 @@
 from __future__ import annotations
 
 from dataclasses import dataclass, field
-from typing import Any, Optional
+from typing import Any, Optional, TypeVar, Generic
 
+import dominate.tags as dtags
 from flask import render_template_string
+
+T = TypeVar("T")
+
+class Reference(Generic[T]):
+    """Used as a marker to indicate we should not directly serialize this class."""
+    pass
 
 @dataclass
 class Monster:
@@ -267,14 +274,18 @@ class Speed:
     can_hover: bool = False
 
 
-    def from_spec(speed_spec) -> Speed:
+    @staticmethod
+    def from_spec(speed_spec: int | dict) -> Speed:
         if isinstance(speed_spec, int):
-            return Speed(walk=speed_spec)
+            return Speed(walk=Scalar(speed_spec))
         args = {}
         for x in ("walk", "fly", "burrow", "swim", "climb"):
             if x not in speed_spec:
                 continue
-            if isinstance(speed_spec[x], int):
+            if isinstance(speed_spec[x], bool):
+                # Sometimes a speed just says 'True', in which case I assume it's equal to the walk speed
+                args[x] = args["walk"]
+            elif isinstance(speed_spec[x], int):
                 args[x] = Scalar(speed_spec[x])
             else:
                 args[x] = Scalar(speed_spec[x]["number"], speed_spec[x]["condition"])
@@ -282,7 +293,6 @@ class Speed:
             args["can_hover"] = speed_spec["canHover"]
         s = Speed(**args)
         return s
-    
 
     def __str__(self) -> str:
         speed_strs = []
@@ -291,7 +301,6 @@ class Speed:
         if self.fly:
             speed_strs.append(
                 f"Fly {self.fly.value} ft."
-                f" ({self.fly.note})" if self.fly.note else ""
             )
         if self.burrow:
             speed_strs.append(
@@ -313,12 +322,16 @@ class Speed:
 
 @dataclass
 class Entry:
-    title: str
-    body: list[str|Entry]
+    title: str = ""
+    body: list[str|Entry|Table] = field(default_factory=list)
+    style: dict[str, str|int] = field(default_factory=dict)
 
-    def from_spec(spec: dict) -> Entry:
+    @staticmethod
+    def from_spec(spec: dict | str) -> Entry:
         """Converts an entry (as it appears in the monster JSON) to an Entry object."""
-        title = spec["name"]
+        if isinstance(spec, str):
+            return Entry("", [spec])
+        title = spec.get("name", "")
         body = []
         
         # Sometimes, if there's only one entry, they use the `entry: str` field instead of
@@ -335,12 +348,18 @@ class Entry:
                     case "list":
                         for item in entry["items"]:
                             if isinstance(item, dict):
-                                assert item["type"] == "item", f"Got {item['type']}"
+                                assert item["type"] in {"item", "itemSpell"}, f"Got {item['type']}"
                                 body.append(Entry.from_spec(item))
                             elif isinstance(item, str):
                                 body.append(item)
                             else:
                                 raise ValueError(f"Unexpected type '{type(item).__name__}'")
+                    case "table":
+                        body.append(Table.from_spec(entry))
+                    case "inset":
+                        entry = Entry.from_spec(entry)
+                        entry.style |= {"margin-left": "24px"}
+                        body.append(entry)
                     case _:
                         raise ValueError(f"Unexpected type '{entry['type']}'")
             else:
@@ -350,13 +369,73 @@ class Entry:
 
     def html(self) -> str:
         """Returns HTML markup."""
+        stylestr = ""
+        if self.style:
+            stylestr = ' style="' + ", ".join([f"{k: v}" for k, v in self.style.items()]) + '"'
         template = """
-            <p><strong><em>{{entry.title}}.</em></strong> {{entry.body[0]}}</p>
+            <p{stylestr}><strong><em>{{entry.title}}.</em></strong> {{entry.body[0]}}</p>
             {% for text in entry.body[1:] %}
                 <p>{{text}}</p>
             {% endfor %}
         """
-        return render_template_string(template, entry=self)
+        root = dtags.div(style=stylestr)
+        with root.add(dtags.p(style=stylestr)) as p:
+            p.add(dtags.strong(dtags.em(self.title)))
+            p.add(f"{self.body[0]}")
+        
+        for entry in self.body[1:]:
+            if isinstance(entry, Table):
+                root.add(entry._dom())
+            else:
+                root.add(dtags.p(str(entry)))
+
+        return str(root)
+
+
+@dataclass
+class Table:
+    caption: str = ""
+    col_labels: list[str] = field(default_factory=list)
+    col_styles: list[str] = field(default_factory=list)
+    rows: list[list[str]] = field(default_factory=list)
+
+    def __post_init__(self):
+        if len(self.col_labels) != len(self.col_styles):
+            raise ValueError("Inconsistent number of columns!")
+        for row in self.rows:
+            if len(row) != len(self.col_labels):
+                raise ValueError("Invalid number of columns in row!")
+
+    @staticmethod
+    def from_spec(spec: dict[str, Any]):
+        mappings = {
+            "caption": "caption",
+            "colLabels": "col_labels",
+            "colStyles": "col_styles",
+            "rows": "rows"
+        }
+        return Table(**{mappings[k]: spec[k] for k in mappings if k in spec})
+    
+    def _dom(self) -> dtags.html_tag:
+        table = dtags.table(cls="entry")
+        table.add(dtags.caption(self.caption))
+        with(table.add(dtags.tr())):
+            for label, styles in zip(self.col_labels, self.col_styles):
+                dtags.th(label, cls=styles)
+        for idx, row in enumerate(self.rows):
+            cls = "oddrow" if idx % 2 else ""
+            with table.add(dtags.tr(cls=cls)):
+                for content, styles in zip(row, self.col_styles):
+                    dtags.td(content, cls=styles)
+        return table
+    
+    
+    def html(self) -> str:
+        return str(self._dom())
+    
+    def __str__(self):
+        return self.html()
+
 
 
 
@@ -372,10 +451,11 @@ class SpellCasting:
     typ: str
     ability: str = ""
     header: Entry = None
-    slots: list[SpellList] = field(default=None)
-    at_will: SpellList = field(default=None)
-    daily: list[DailySpellList] = field(default=None)
+    slots: list[SpellList] = field(default_factory=list)
+    at_will: SpellList = field(default_factory=list)
+    daily: list[DailySpellList] = field(default_factory=list)
 
+    @staticmethod
     def from_spec(spec: dict[str, Any]) -> SpellCasting:
         name = spec["name"]
         typ = spec["type"]
@@ -415,6 +495,7 @@ class SpellList:
     slots: int
     spells: list[str]
 
+    @staticmethod
     def from_spec(spec: dict[str, Any]) -> SpellList:
         return SpellList(
             slots = int(spec.get("slots", 0)),
@@ -426,6 +507,7 @@ class DailySpellList:
     per_day: int
     spells: list[str]
 
+    @staticmethod
     def from_spec(key: str, spells: list[str]) -> DailySpellList:
         # The 'key' will be either a integer, or something like '2e' or '3'.
         key = key.replace("e", "")
@@ -476,6 +558,7 @@ class SkillList:
         string += ", ".join(str(x) for x in self.skills)
         return string
     
+    @staticmethod
     def from_spec(skill_spec: dict[str, str|dict]) -> SkillList:
         if not skill_spec:
             return None
@@ -505,6 +588,7 @@ class AgeParams:
     maximum: int
     mature: int
 
+    @staticmethod
     def from_spec(spec: dict[str, Any]) -> AgeParams:
         return AgeParams(spec["max"], spec.get("mature", 0))
 
@@ -516,6 +600,7 @@ class SizeParams:
     weight_mod: str = ""
     height_mod: str = ""
 
+    @staticmethod
     def from_spec(spec: dict[str, Any]) -> SizeParams:
         return SizeParams(
             weight_base = spec["baseWeight"],
@@ -552,3 +637,20 @@ class Race:
     weapon_profs: list[str] = field(default_factory=list)
 
     key: str = ""
+    _id: str = ""
+
+    def __post_init__(self):
+        self._id = f"{self.name}-{self.source}"
+
+
+@dataclass
+class Player:
+    name: str
+    hp: int
+    ac: int
+    pp: int
+    race_id: str = ""
+
+    level: int = 1
+    enabled: bool = False
+    notes: str = ""

@@ -1,0 +1,150 @@
+<div id="statblock">
+    <h1>{{ player.name }}</h1>
+    {% if race %}
+        <em>{{ race.size }} {{ race.name | title }}</em>
+    {% endif %}
+    <hr/>
+    <strong>Armor Class</strong> {{ player.ac }}
+    <br/>
+    <strong>Hit Points</strong> {{ player.hp }} <br/>
+    {% if race %}
+        <strong>Speed</strong> {{ race.speed }}
+        <br/>
+        {% if race.blindvision or race.darkvision %}
+            {% set senses = [] -%}
+            {% if race.blindvision %}
+                {{ senses.append("blindvision " + race.blindvision | string + "ft.") or "" }}
+            {% endif %}
+            {% if race.darkvision %}
+                {{ senses.append("darkvision " + race.darkvision | string + "ft.") or "" }}
+            {% endif %}
+            <strong>Senses</strong> {{ senses | join(", ") }} <br/>
+        {% endif %}
+    {% else %}
+        <strong>Speed</strong> ???
+    {% endif %}
+    {% if race.dmg_resistances %}
+        <strong>Damage Resistances</strong>
+        {{ race.dmg_resistances | join(", ") | macro5e }} <br/>
+    {% endif %}
+    {% if race.dmg_immunities %}
+        <strong>Damage Immunities</strong>
+        {{ race.dmg_immunities | join(", ") | macro5e }} <br/>
+    {% endif %}
+    {% if race.dmg_vulnerabilities %}
+        <strong>Damage Vulnerabilities</strong>
+        {{ race.dmg_vulnerabilities | join(", ") | macro5e }}
+    {% endif %}
+    {% if race.weapon_profs %}
+        <strong>Weapon Proficiencies</strong>
+        {{ race.weapon_profs | join(", ") }}
+    {% endif %}
+    {% if race.armor_profs %}
+        <strong>Armor Proficiencies</strong>
+        {{ race.armor_profs }}
+    {% endif %}
+    {% if race.tool_profs %}
+        <strong>Tool Proficiencies</strong>
+        {{ race.tool_profs | join(", ") }}
+    {% endif %}
+
+    <hr/>
+
+    {% for trait in race.traits %}
+        {{ trait.html() | macro5e }}
+    {% endfor %}
+
+{#     
+    {% if monster.saves %}
+        <strong>Saving Throws</strong>
+        {% for stat, mod in monster.saves.items() %}
+            {{ stat | title }} {{ mod }}{% if not loop.last %},{% endif %} 
+        {%- endfor -%}
+        <br/>
+    {% endif %}
+    {% if monster.skills %}
+        <strong>Skills</strong>
+        {{ monster.skills | macro5e }}
+        <br/>
+    {% endif %}
+    {% if monster.dmg_resistances %}
+        <strong>Damage Resistances</strong>
+        {{ monster.resist | join(", ") | macro5e }} <br/>
+    {% endif %}
+    {% if monster.dmg_immunities %}
+        <strong>Damage Immunities</strong>
+        {{ monster.dmg_immunities | join(", ") | macro5e }} <br/>
+            {% if immunity is string %}{{ immunity }}{% endif -%}
+    {% endif %}
+    {% if monster.cond_immunities %}
+        <strong>Condition Immunities</strong>
+        {{ monster.cond_immunities | join(", ") | macro5e }} <br/>
+    {% endif %}
+    <strong>Senses</strong>
+    {% if monster.senses %}
+        {% for sense in monster.senses %}{{ sense }}, {% endfor %}
+    {% endif %}
+    passive Perception {{ monster.passive }} <br/>
+    {% if monster.languages %}
+        <strong>Languages</strong>
+        {% for lang in monster.languages %}
+            {{ lang }}
+            {%- if not loop.last %}, {% endif %}
+        {% endfor %}
+        <br/>
+    {% endif %}
+    <strong>Challenge</strong>
+    {% if monster.cr is mapping %}
+        {{ monster.cr.cr }} or {{ monster.cr.lair }} when encountered in lair
+    {% else %}
+        {{ monster.cr }} ({{ monster.xp }} XP)
+    {% endif %}
+    {% if monster.traits or monster.spellcasting %}
+        <hr/>
+    {% endif %}
+    {% if monster.traits %}
+        {% for trait in monster.traits %}
+            {{ trait.html() | macro5e }}
+        {% endfor %}
+    {% endif %}
+    {% if monster.spellcasting %}
+        {% for spellspec in monster.spellcasting %}
+            {% if spellspec.header %}
+                {{ spellspec.header.html() | macro5e }}
+            {% endif %}
+            {% if spellspec.slots %}
+                Cantrips (at will): {{ spellspec.slots[0].spells | join(", ") | macro5e }}<br/>
+                {% for spell_list in spellspec.slots[1:] %}
+                    {{ loop.index | ordinal }} Level ({{spell_list.slots}}): {{ spell_list.spells | join(", ") | macro5e }} <br/>
+                {% endfor %}
+            {% endif %}
+            {% if spellspec.at_will %}
+                At will: {{ spellspec.at_will.spells | join(", ") | macro5e }} <br/>
+            {% endif %}
+            {% if spellspec.daily %}
+                {% for spell_list in spellspec.daily %}
+                    {{ spell_list.per_day }}/day: {{ spell_list.spells | join(", ") | macro5e }} <br/>
+                {% endfor %}
+            {% endif %}
+        {% endfor %}
+    {% endif %}
+    {% if monster.actions %}
+        <h4>Actions</h4>
+        {% for action in monster.actions %}
+            {{ action.html() | macro5e }}
+        {% endfor %}
+    {% endif %}
+    {% if monster.bonus %}
+        <h4>Bonus Actions</h4>
+        {% for action in monster.bonus %}
+            {{ action.html() | macro5e }}
+        {% endfor %}
+    {% endif %}
+    {% if monster.legendary_actions %}
+        <h4>{{ monster.legendary_actions.title or "Legendary Actions" }}</h4>
+        The {{ monster.name }} can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. The {{ monster.name }} regains spent legendary actions at the start of its turn.
+        {{ monster.legendary_actions.header }}
+        {{ monster.legendary_actions.body }}
+    {% endif %} #}
+
+</div>

@@ -131,6 +131,8 @@ function togglePlayer(button) {
                 
                 trow.append(`<td style="vertical-align: middle"><input class="w3-input w3-border" type="text" value=""></td>`);
                 trow.append(`<td style="vertical-align: middle">${data.pp}</td>`)
+                
+                trow.data("id", `${playerName}.player`);
 
                 trow.click(function(event) { updateStatblockTarget(event); });
 

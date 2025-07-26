@@ -4,7 +4,8 @@ import json
 from flask import Blueprint, request, abort, make_response
 
 import dmtoolkit.api.players as players_api
-from dmtoolkit.api import encounters
+from dmtoolkit.api import encounters, races
+
 
 api_bp = Blueprint(
     "api_bp",
@@ -14,6 +15,7 @@ api_bp = Blueprint(
     static_url_path = "/api/static",
     url_prefix = "/api"
 )
+
 
 @api_bp.route("/players/<player_name>", methods=["GET"])
 def get_player(player_name: str):
@@ -48,3 +50,12 @@ def create_encounter():
     eid = encounters.create_or_update(resp, encounter)
     resp.data = json.dumps({"eid": eid})
     return resp
+
+
+@api_bp.route("/races/<rid>", methods=["GET"])
+def get_race(rid: str):
+    race = races.get_race(rid)
+    if not race:
+        return json.dumps({"null"}), 404
+    else:
+        return json.dumps(race)

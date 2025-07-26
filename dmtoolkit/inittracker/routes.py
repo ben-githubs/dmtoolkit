@@ -2,8 +2,9 @@ import json
 
 from flask import Blueprint, render_template, request
 
-from dmtoolkit.api.players import list_players
+from dmtoolkit.api.players import list_players, get_player
 from dmtoolkit.api.monsters import get_monster, get_monster_names
+from dmtoolkit.api.races import get_race
 
 tracker_bp = Blueprint(
     "tracker_bp",
@@ -77,10 +78,17 @@ def make_ordinal(n):
 
 @tracker_bp.route("/statblock/<id>", methods=["GET"])
 def get_statblock_html(id: str):
-    # Assume it's a monster
-    # TODO: Add statblocks for players
+    if id.endswith('.player'):
+        name = id[:-7]
+        player = get_player(name)
+        if not player:
+            return f"Unable to find player with name '{name}'."
+        race = get_race(player.race_id) 
+        
+        return render_template("player-statblock.jinja2", player=player, race=race)
+    
     monster = get_monster(id)
     if not monster:
-        return f"Preview Unavailable for {id}"
+        return f"Unable to find data for '{id}'"
     
     return render_template("statblock.jinja2", monster=monster)
