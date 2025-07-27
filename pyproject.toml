@@ -12,6 +12,11 @@ flask-wtf = "^1.2.2"
 python-dotenv = "^1.0.1"
 flask-session = "^0.8.0"
 redis = "^5.2.1"
+dominate = "^2.9.1"
+requests = "^2.32.4"
+
+[tool.poetry.scripts]
+dmk = "dmtoolkit.cmd.main:main"
 
 
 [tool.poetry.group.dev.dependencies]

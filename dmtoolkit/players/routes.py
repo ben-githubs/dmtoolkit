@@ -2,10 +2,12 @@ from dataclasses import asdict
 
 from flask import Blueprint, render_template, redirect, url_for, make_response
 from flask_wtf import FlaskForm
-from wtforms import StringField, IntegerField, SubmitField
+from wtforms import SelectField, StringField, IntegerField, SubmitField
 from wtforms.validators import InputRequired, NumberRange, ValidationError
 
 import dmtoolkit.api.players as api
+from dmtoolkit.api.races import list_races
+from dmtoolkit.api.classes import list_classes, get_class
 
 players_bp = Blueprint(
     "players_bp",
@@ -21,13 +23,15 @@ class CreateForm(FlaskForm):
     ac = IntegerField("AC", [InputRequired(), NumberRange(min=0)])
     hp = IntegerField("Max HP", [InputRequired(), NumberRange(min=1, message="No!")])
     pp = IntegerField("Passive Perception", [InputRequired(), NumberRange(min=0)])
+    race = SelectField("Race", choices=list_races())
+    class_ = SelectField("Class", choices=[(c.name, c.name) for c in list_classes()])
+    level = IntegerField("Player Level", [InputRequired(), NumberRange(min=1)])
+    subclass = SelectField("Subclass", choices=[], validate_choice=False)
     submit = SubmitField("Create Player Character")
 
     def validate_name(self, field):
-        print("Validating...")
         players = api.list_players()
         if any(field.data == p.name for p in players):
-            print("Name already used")
             raise ValidationError(f"Cannot create new player with name '{field.data}' because that name is already in use.")
 
 class _UpdateForm(CreateForm):
@@ -59,15 +63,17 @@ def list_players_page():
 @players_bp.route("/new", methods=["GET", "POST"])
 def new_player_page():
     form = CreateForm()
-    print(form.validate_on_submit())
     if form.validate_on_submit():
         player = {
             "name": form.name.data,
             "ac": form.ac.data,
             "pp": form.pp.data,
-            "hp": form.hp.data
+            "hp": form.hp.data,
+            "race_id": form.race.data,
+            "level": form.level.data,
+            "class_id": form.class_.data or "",
+            "subclass_id": form.subclass.data or ""
         }
-        print("NEW")
         resp = make_response(redirect(url_for("players_bp.list_players_page")))
         api.create_player(resp, player)
         return resp
@@ -87,6 +93,7 @@ def update_player_page(player_name: str):
     if not player_arr:
         return "404 Player Not Found"
     player = player_arr[0]
+
     if form.validate_on_submit():
         player_params = {}
         if val := form.name.data:
@@ -97,16 +104,36 @@ def update_player_page(player_name: str):
             player_params["hp"] = val
         if val := form.pp.data:
             player_params["pp"] = val
+        if val := form.race.data:
+            player_params["race_id"] = val
+        if val := form.level.data:
+            player_params["level"] = val
+        if val := form.class_.data:
+            player_params["class_id"] = val
+        if val := form.subclass.data:
+            idx = int(val)
+            subclass_list = list(get_class(form.class_.data or player.class_id).subclasses)
+            subclass = subclass_list[idx]
+            player_params["subclass_id"] = subclass.name
+        
+        print(player_params)
 
         player_dict = asdict(player)
         player_dict |= player_params # Update player params
         new_player = api.Player(**player_dict)
         idx = players.index(player)
         players[idx] = new_player
+        print(new_player)
 
         resp = make_response(redirect(url_for("players_bp.list_players_page")))
         api._save_players(resp, players)
         return resp
+
+    form.class_.data = player.class_id
+    if player.class_id:
+        form.subclass.choices = [(str(x), y) for x, y in enumerate([c.name for c in get_class(player.class_id).subclasses])]
+        idx = list(x[1] for x in form.subclass.choices).index(player.subclass_id)
+        form.subclass.data = str(idx)
     
     page = {
         "title": f"DMTools - Edit {player_name}"

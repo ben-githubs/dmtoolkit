@@ -1,25 +1,17 @@
 from dataclasses import dataclass, asdict
-import json
 from pathlib import Path
 
 from flask import Response, request
+
+from dmtoolkit.api.models import Player, Race
+from dmtoolkit.api.serialize import load_json_string, dump_json_string
 
 DATA_DIR = Path(__file__).parent / "data"
 
 PLAYERS: list = []
 
-@dataclass
-class Player:
-    name: str
-    hp: int
-    ac: int
-    pp: int
-    
-    enabled: bool = False
-
 def list_players() -> list[Player]:
-    player_specs = json.loads(request.cookies.get("players", "[]"))
-    return [Player(**spec) for spec in player_specs]
+   return load_json_string(request.cookies.get("players", "[]"))
 
 def get_player(player_name: str) -> Player | None:
     for player in list_players():
@@ -36,4 +28,4 @@ def delete_player(response: Response, player_name: str):
     _save_players(response, players)
 
 def _save_players(response: Response, players: list[Player]) -> None:
-    response.set_cookie("players", json.dumps([asdict(player) for player in players]))
+    response.set_cookie("players", dump_json_string(players))
