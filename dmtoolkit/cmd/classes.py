@@ -61,6 +61,10 @@ def convert(infile: Path, outfile: Path) -> list[Class]:
             subclass_copies: list[dict] = []
         
             for feat in full_class_spec.get("subclassFeature", []):
+                # Ignore 5.5e stuff
+                if feat.get("srd52") or feat.get("basicRules2024"):
+                    continue
+
                 # If this subclass feature is based on another one, we should wait until after
                 #   loading all the subclass features before we try to process it
                 if "_copy" in feat:
@@ -132,6 +136,10 @@ def convert(infile: Path, outfile: Path) -> list[Class]:
             class_feats: dict[str, ClassFeature] = {}
 
             for feat in full_class_spec.get("classFeature", []):
+                # Ignore 5.5e stuff
+                if feat.get("srd52") or feat.get("basicRules2024"):
+                    continue
+
                 feature_name = feat["name"]
                 class_name = feat["className"]
                 class_source = feat["classSource"]
@@ -151,14 +159,6 @@ def convert(infile: Path, outfile: Path) -> list[Class]:
             for feat in class_feats_raw.values():
                     # Check if this references another feat
                     feat["entries"] = [_get_entry(e, class_feats_raw, "refClassFeature", "classFeature") for e in feat["entries"]]
-            
-            # Special fixes
-            #   There's some malformated data from the source; the simplest solution is to add
-            #   one-off fixes here, rather than break the code in models.py to account for bad data
-
-            # Add missing style to the XPHB Wild Shape table
-            if bad_feat := class_feats_raw.get("Wild Shape|Druid||2"):
-                bad_feat["entries"][1]["entries"][2]["colStyles"].append("col-3")
 
             for key, feat in class_feats_raw.items():
                 try:
@@ -194,6 +194,7 @@ def convert(infile: Path, outfile: Path) -> list[Class]:
         try:
             for class_spec in full_class_spec["class"]:
                 # -- Finally, compile the class --
+                # Ignore 5.5e stuff for now
                 if class_spec.get("edition") != "classic":
                     continue
                 if class_spec.get("isSidekick"):
