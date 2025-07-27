@@ -417,7 +417,7 @@ class Entry:
         """Returns HTML markup."""
         stylestr = ""
         if self.style:
-            stylestr = ' style="' + ", ".join([f"{k: v}" for k, v in self.style.items()]) + '"'
+            stylestr = ' style="' + ", ".join([f"{k}: {v}" for k, v in self.style.items()]) + '"'
         root = dtags.div(style=stylestr)
         with root.add(dtags.p(style=stylestr)) as p:
             p.add(dtags.strong(dtags.em(self.title)))
@@ -437,9 +437,14 @@ class Entry:
         return str(self._dom())
     
     @staticmethod
-    def to_dom(item: Entry | str):
+    def to_dom(item: Entry | str | list):
         if isinstance(item, str):
             return dtags.p(item)
+        elif isinstance(item, list):
+            with dtags.div() as div:
+                for subitem in item:
+                    Entry.to_dom(subitem)
+            return div
         return item._dom()
 
 
