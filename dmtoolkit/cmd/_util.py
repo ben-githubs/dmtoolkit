@@ -7,10 +7,10 @@ from selenium.webdriver.firefox.options import Options
 _DRIVER = None
 
 def browser_fetch(url: str) -> str:
-    driver.get("view-source:" + url)
+    get_driver().get("view-source:" + url)
     import time
     time.sleep(0)
-    data = driver.find_element(By.TAG_NAME, "pre").text
+    data = get_driver().find_element(By.TAG_NAME, "pre").text
     return data
 
 def get_driver():
