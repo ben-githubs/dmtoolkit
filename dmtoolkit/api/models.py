@@ -327,47 +327,91 @@ class Entry:
     style: dict[str, str|int] = field(default_factory=dict)
 
     @staticmethod
-    def from_spec(spec: dict | str) -> Entry:
+    def from_spec(spec: dict | str | list) -> Entry:
         """Converts an entry (as it appears in the monster JSON) to an Entry object."""
         if isinstance(spec, str):
             return Entry("", [spec])
+        elif isinstance(spec, list):
+            return Entry("", [Entry.from_spec(x) for x in spec])
+        elif not isinstance(spec, dict):
+            raise TypeError(f"Unexpected type '{type(spec).__name__}'")
+        
         title = spec.get("name", "")
         body = []
+        style = {}
         
         # Sometimes, if there's only one entry, they use the `entry: str` field instead of
         #   `entries: list[str]`
-        if "entry" in spec:
-            assert "entries" not in spec, "Entry has both 'entry' and 'entries' keys!"
-            spec["entries"] = [spec["entry"]]
+        if "entry" in spec or "entries" in spec:
+            if "entry" in spec:
+                assert "entries" not in spec, "Entry has both 'entry' and 'entries' keys!"
+                spec["entries"] = [spec["entry"]]
+                del spec["entry"]
 
-        for entry in spec["entries"]:
-            if isinstance(entry, str):
-                body.append(entry)
-            elif isinstance(entry, dict):
-                match entry["type"]:
-                    case "list":
-                        for item in entry["items"]:
-                            if isinstance(item, dict):
-                                assert item["type"] in {"item", "itemSpell"}, f"Got {item['type']}"
-                                body.append(Entry.from_spec(item))
-                            elif isinstance(item, str):
-                                body.append(item)
-                            else:
-                                raise ValueError(f"Unexpected type '{type(item).__name__}'")
-                    case "table":
-                        body.append(Table.from_spec(entry))
-                    case "inset":
-                        entry = Entry.from_spec(entry)
-                        entry.style |= {"margin-left": "24px"}
-                        body.append(entry)
-                    case "entries":
-                        body.append(Entry.from_spec(entry))
-                    case _:
-                        raise ValueError(f"Unexpected type '{entry['type']}'")
-            else:
-                raise TypeError(f"Unexpected type '{type(entry).__name__}'")
+            for entry in spec["entries"]:
+                body += Entry._body_from_spec(entry)
 
-        return Entry(title, body)
+        if "type" in spec:
+            match spec["type"]:
+                case "entries":
+                    # Kind of a dumb type. Literally just means this is an entry :/
+                    pass
+                case "list":
+                    for item in spec["items"]:
+                        body.append(Entry._body_from_spec(item))
+                case "item":
+                    # There's nothing special about 'item'; it just means it's nested inside an
+                    #   outer 'list'
+                    pass
+                case "options":
+                    # Another do-nothing type
+                    pass
+                case "quote":
+                    # Indicates this is supposed to be a quote.
+                    style["font-style"] = ["italic"]
+                case "statblock":
+                    # Inline statblocks; these are hard to implement so I won't do it now. I don;t
+                    #   think they appear that often anyway.
+                    pass
+                case "refOptionalfeature":
+                    # Used in class specs to indicate an optional feature. However, I'm not
+                    #   handling these references since I don't think it's necessary, so instead
+                    #   we should just display the name of the feature
+                    body.append(spec["optionalfeature"])
+                case "table":
+                    return Table.from_spec(spec)
+                case "inset":
+                    style |= {"margin-left": "24px"}
+                case "abilityDc":
+                    # Used in "spellcasting" entries for classes
+                    ability_mod = spec["attributes"][0]
+                    body.append(f"<strong>Spell save DC</strong> = 8 + {ability_mod.upper()} modifier + Proficiency Bonus")
+                case "abilityAttackMod":
+                    # Used in "spellcasting" entries for classes
+                    ability_mod = spec["attributes"][0]
+                    body.append(f"<strong>Spell attack modifier</strong> = {ability_mod.upper()} modifier + Proficiency Bonus")
+                case "refFeat":
+                    # Reference to a Feat
+                    body.append("{{@feat {0}}}".format(spec["feat"]))
+                case _:
+                    raise ValueError(f"Unexpected type '{spec['type']}'")
+
+        return Entry(title, body, style=style)
+
+    @staticmethod
+    def _body_from_spec(spec: dict | str | list) -> list[str | Entry | list[Entry]]:
+        """Like Entry from spec, but only called when we already have a top-level Entry object in
+        place. This was we can avoid wrapping strings which are inside a `body` field already."""
+        if isinstance(spec, str):
+            return [spec]
+        elif isinstance(spec, list):
+            lists = [Entry._body_from_spec(x) for x in spec]
+            # Return the flattened list
+            return [item for nested in lists for item in nested]
+        elif "items" in spec:
+            lists = [Entry._body_from_spec(item) for item in spec["items"]]
+            return [item for nested in lists for item in nested]
+        return [Entry.from_spec(spec)]
 
     def html(self) -> str:
         """Returns HTML markup."""
@@ -395,7 +439,7 @@ class Entry:
 
 
 @dataclass
-class Table:
+class Table(Entry):
     caption: str = ""
     col_labels: list[str] = field(default_factory=list)
     col_styles: list[str] = field(default_factory=list)
@@ -652,7 +696,30 @@ class Player:
     ac: int
     pp: int
     race_id: str = ""
+    class_id: str = ""
+    subclass_id: str = ""
 
     level: int = 1
     enabled: bool = False
     notes: str = ""
+
+@dataclass
+class Class:
+    name: str
+    spellcasting_ability: str
+    multiclassing: dict
+    hitdice: str
+    weapon_profs: list[str] = field(default_factory=list)
+    armor_profs: list[str] = field(default_factory=list)
+    tool_profs: list[str] = field(default_factory=list)
+    class_features: list[Entry] = field(default_factory=list)
+    subclasses: list[Subclass] = field(default_factory=list)
+
+@dataclass
+class Subclass:
+    name: str
+    subclass_features: list[Entry] = field(default_factory=list)
+
+@dataclass
+class ClassFeature(Entry):
+    level: int = 0

@@ -2,6 +2,7 @@ from pathlib import Path
 
 import click
 
+import dmtoolkit.cmd.classes as cmd_c
 import dmtoolkit.cmd.get_monsters as cmd_m
 import dmtoolkit.cmd.races as cmd_r
 
@@ -43,3 +44,18 @@ def convert(infile: Path, outfile: Path):
 @races.command
 def test():
     pass
+
+@main.group()
+def classes():
+    pass
+
+@classes.command
+@click.option("--outfile", "-o", default=cmd_c.DEFAULT_RAW, type=click.Path(writable=True, path_type=Path))
+def fetch(outfile):
+    cmd_c.fetch_classes(outfile)
+
+@classes.command
+@click.option("--infile", "-i", default=cmd_c.DEFAULT_RAW, type=click.Path(exists=True, path_type=Path))
+@click.option("--outfile", "-o", default=cmd_c.DEFAULT_CONV, type=click.Path(writable=True, path_type=Path))
+def convert(infile: Path, outfile: Path):
+    cmd_c.convert(infile, outfile)

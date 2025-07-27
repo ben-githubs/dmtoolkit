@@ -2,6 +2,7 @@
 
 {% block header %}
     <link rel=stylesheet type="text/css" href="{{ url_for('static', filename='forms.css') }}">
+    <script src="{{url_for('players_bp.static', filename='forms.js')}}"></script>
 {% endblock %}
 
 {% block content %}
@@ -65,7 +66,49 @@
                 {{ form.race.label }} {{ form.race(value=player.race_id) }}
             </fieldset>
         </div>
+        <div style="display: flex; flex-direction: row; justify-content: space-between">
+            <fieldset>
+                {{ form.class_.label }} {{ form.class_ }}
+                <br/>
+                {% if form.class_.errors %}
+                    <ul class="errors">
+                        {% for error in form.class_.errors %}
+                            <li>{{ error }}</li>
+                        {% endfor %}
+                    </ul>
+                {% endif %}
+            </fieldset>
+
+            <fieldset>
+                {{ form.level.label }} {{ form.level(value=player.level) }}
+                <br/>
+                {% if form.level.errors %}
+                    <ul class="errors">
+                        {% for error in form.level.errors %}
+                            <li>{{ error }}</li>
+                        {% endfor %}
+                    </ul>
+                {% endif %}
+            </fieldset>
+
+            <fieldset>
+                {{ form.subclass.label }} {{ form.subclass }}
+                <br/>
+                {% if form.subclass.errors %}
+                    <ul class="errors">
+                        {% for error in form.subclass.errors %}
+                            <li>{{ error }}</li>
+                        {% endfor %}
+                    </ul>
+                {% endif %}
+            </fieldset>
+        </div>
         {{ form.submit }}
     </form>
 </div>
+
+<script>
+    $('#class_').on('change', populateSubclassSelector);
+</script>
+
 {% endblock %}
