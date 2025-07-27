@@ -2,8 +2,9 @@ import json
 
 from flask import Blueprint, render_template, request
 
-from dmtoolkit.api.players import list_players, get_player
+from dmtoolkit.api.classes import get_class
 from dmtoolkit.api.monsters import get_monster, get_monster_names
+from dmtoolkit.api.players import list_players, get_player
 from dmtoolkit.api.races import get_race
 
 tracker_bp = Blueprint(
@@ -84,8 +85,14 @@ def get_statblock_html(id: str):
         if not player:
             return f"Unable to find player with name '{name}'."
         race = get_race(player.race_id) 
+        class_ = get_class(player.class_id)
+        subclass= [c for c in class_.subclasses if c.name == player.subclass_id]
+        if subclass:
+            subclass = subclass[0]
+        else:
+            subclass = {}
         
-        return render_template("player-statblock.jinja2", player=player, race=race)
+        return render_template("player-statblock.jinja2", player=player, race=race, class_=class_, subclass=subclass)
     
     monster = get_monster(id)
     if not monster:

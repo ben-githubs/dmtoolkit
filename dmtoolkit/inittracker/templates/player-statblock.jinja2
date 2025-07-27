@@ -56,6 +56,14 @@
         {% endif %}
     {% endfor %}
 
+    {% for level in range(player.level) %}
+        {% for entry in class_.class_features + subclass.subclass_features %}
+            {% if entry.level == level+1 %}
+                {{ entry.html() | macro5e }}
+            {% endif %}
+        {% endfor %}
+    {% endfor %}
+
 {#     
     {% if monster.saves %}
         <strong>Saving Throws</strong>

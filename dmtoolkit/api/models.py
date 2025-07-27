@@ -413,29 +413,34 @@ class Entry:
             return [item for nested in lists for item in nested]
         return [Entry.from_spec(spec)]
 
-    def html(self) -> str:
+    def _dom(self) -> str:
         """Returns HTML markup."""
         stylestr = ""
         if self.style:
             stylestr = ' style="' + ", ".join([f"{k: v}" for k, v in self.style.items()]) + '"'
-        template = """
-            <p{stylestr}><strong><em>{{entry.title}}.</em></strong> {{entry.body[0]}}</p>
-            {% for text in entry.body[1:] %}
-                <p>{{text}}</p>
-            {% endfor %}
-        """
         root = dtags.div(style=stylestr)
         with root.add(dtags.p(style=stylestr)) as p:
             p.add(dtags.strong(dtags.em(self.title)))
-            p.add(f"{self.body[0]}")
+            # Rather than render a full entry (which will be inside a <p> tag), we should just 
+            #   extract the text.
+            text = str(self.body[0])
+            if isinstance(self.body[0], Entry):
+                text = "\n".join([str(s) for s in self.body[0].body])
+            p.add(text)
         
         for entry in self.body[1:]:
-            if isinstance(entry, Table):
-                root.add(entry._dom())
-            else:
-                root.add(dtags.p(str(entry)))
-
-        return str(root)
+            root.add(Entry.to_dom(entry))
+    
+        return root
+    
+    def html(self):
+        return str(self._dom())
+    
+    @staticmethod
+    def to_dom(item: Entry | str):
+        if isinstance(item, str):
+            return dtags.p(item)
+        return item._dom()
 
 
 @dataclass
