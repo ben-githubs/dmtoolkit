@@ -733,3 +733,23 @@ class Subclass:
 @dataclass
 class ClassFeature(Entry):
     level: int = 0
+
+@dataclass
+class Spell:
+    entries: list[Entry]
+    duration: str
+    level: int
+    name: str
+    range: str
+    school: str
+    source: tuple[str, int]
+    time: str
+    
+    
+    additional_sources: list[tuple[str, int]] = field(default_factory=list)
+    is_ritual: bool = False
+    is_verbal: bool = False
+    is_material: bool = False
+    is_cocnentration: bool = False
+    is_somatic: bool = False
+    material_components: str = ""

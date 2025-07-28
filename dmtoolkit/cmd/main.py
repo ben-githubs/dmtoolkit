@@ -69,3 +69,9 @@ def spells():
 @click.option("--outfile", "-o", default=cmd_sp.DEFAULT_RAW, type=click.Path(writable=True, path_type=Path))
 def fetch(outfile):
     cmd_sp.fetch_spells(outfile)
+
+@spells.command
+@click.option("--infile", "-i", default=cmd_sp.DEFAULT_RAW, type=click.Path(exists=True, path_type=Path))
+@click.option("--outfile", "-o", default=cmd_sp.DEFAULT_CONV, type=click.Path(writable=True, path_type=Path))
+def convert(infile: Path, outfile: Path):
+    cmd_sp.convert(infile, outfile)
