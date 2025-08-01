@@ -753,3 +753,18 @@ class Spell:
     is_cocnentration: bool = False
     is_somatic: bool = False
     material_components: str = ""
+
+    def components_string(self):
+        """Returns a string of the format 'V, S, M (materials)'"""
+        components = []
+        if self.is_verbal:
+            components.append("V")
+        if self.is_somatic:
+            components.append("S")
+        if self.is_material:
+            components.append("M")
+        component_str = ", ".join(components)
+        if self.material_components:
+            component_str += f" ({self.material_components})"
+        
+        return component_str
