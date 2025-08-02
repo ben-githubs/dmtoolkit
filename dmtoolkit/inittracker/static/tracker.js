@@ -155,6 +155,7 @@ function togglePlayer(button) {
 }
 
 function setContentAjax(target, url) {
+    // Set the HTML content of an element as the response of a GET request to a URL
     $.ajax({
         url: url,
         method: 'GET',
@@ -312,13 +313,14 @@ function saveEncounter() {
     })
 }
 
-function showSpellTooltip(event, spellName) {
+function showTooltip(event) {
+    // Show a tooltip over/under the element which triggered the event
     if ($('#tooltip').is(":visible")) {
         return // Don't trigger a new popup inside the existing one
     }
     $('#tooltip').show();
     target = $(event.target);
-    target.before($('#tooltip-sleeve'));
+    target.append($('#tooltip-sleeve'));
     bounds = event.target.getBoundingClientRect();
     offset = target.offset();
     // Set sleeve coordinates
@@ -328,11 +330,15 @@ function showSpellTooltip(event, spellName) {
     } else {
         $('#tooltip').css({bottom: 0, top: ""});
     }
-    setContentAjax($('#tooltip'), `/tooltips/spells/${spellName}`);
-    tooltipOffset = $('#tooltip').offset();
 }
 
-function hideSpellTooltip(event) {
+function hideSpellTooltip(_) {
+    // Stop displaying a tooltip
     $('#tooltip').hide();
     $('#content').append($('#tooltip-sleeve'));
+}
+
+function showSpellTooltip(event, spellName) {
+    showTooltip(event);
+    setContentAjax($('#tooltip'), `/tooltips/spells/${spellName}`);
 }

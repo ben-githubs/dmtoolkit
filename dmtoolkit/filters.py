@@ -90,7 +90,7 @@ class Macro5e:
         func_str = f"showSpellTooltip(event, '{spell_url}')"
         func = func_str.replace("SPELL_NAME", spell_url)
         
-        return f"""<span onmouseover="{func}" onmouseleave="hideSpellTooltip(event)"><a href="{url}">{spell}</a></span>"""
+        return f"""<span onmouseenter="{func}" onmouseleave="hideSpellTooltip(event)"><a href="{url}">{spell}</a></span>"""
 
     def render_status(match: re.Match) -> str:
         """Handle references to thr surpriused and concentration statuses."""
