@@ -332,13 +332,23 @@ function showTooltip(event) {
     }
 }
 
-function hideSpellTooltip(_) {
+function hideTooltip(event) {
+    // Don't trigger if triggered from inside a tooltip
+    if ($(event.target).parents('#tooltip').length) {
+        return;
+    }
     // Stop displaying a tooltip
     $('#tooltip').hide();
     $('#content').append($('#tooltip-sleeve'));
 }
 
-function showSpellTooltip(event, spellName) {
+function showNewTooltip(event, url) {
+    // Displays the tooltip and sets it's content to the value returned by the URL
+    
+    // Don't do anythign if this function is triggered from inside the tooltip
+    if ($(event.target).parents('#tooltip').length) {
+        return;
+    }
     showTooltip(event);
-    setContentAjax($('#tooltip'), `/tooltips/spells/${spellName}`);
+    setContentAjax($('#tooltip'), url);
 }

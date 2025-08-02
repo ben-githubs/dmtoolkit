@@ -479,7 +479,7 @@ class Table(Entry):
             for label, styles in zip(self.col_labels, self.col_styles):
                 dtags.th(label, cls=styles)
         for idx, row in enumerate(self.rows):
-            cls = "oddrow" if idx % 2 else ""
+            cls = "" if idx % 2 else "oddrow" # note: due to 0-indexing
             with table.add(dtags.tr(cls=cls)):
                 for content, styles in zip(row, self.col_styles):
                     dtags.td(content, cls=styles)

@@ -1,5 +1,6 @@
 import re
 from urllib.parse import quote
+from flask import url_for
 
 class Macro5e:
     damage = re.compile(r"{@damage (.*?)}")
@@ -86,11 +87,10 @@ class Macro5e:
         spell = match.group(1).title()
         url = f"https://roll20.net/compendium/dnd5e/{quote(spell, safe='')}"
 
-        spell_url = quote(spell.strip(), safe="")
-        func_str = f"showSpellTooltip(event, '{spell_url}')"
-        func = func_str.replace("SPELL_NAME", spell_url)
+        spell_url = url_for("tracker_bp.get_spell_tooltip", spell_name=spell)
+        func = f"showNewTooltip(event, '{spell_url}')"
         
-        return f"""<span onmouseenter="{func}" onmouseleave="hideSpellTooltip(event)"><a href="{url}">{spell}</a></span>"""
+        return f"""<span onmouseenter="{func}" onmouseleave="hideTooltip(event)"><a href="{url}">{spell}</a></span>"""
 
     def render_status(match: re.Match) -> str:
         """Handle references to thr surpriused and concentration statuses."""
