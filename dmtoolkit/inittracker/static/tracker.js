@@ -324,9 +324,9 @@ function showSpellTooltip(event, spellName) {
     // Set sleeve coordinates
     $('#tooltip-sleeve').css({left: offset.left+bounds.width, top: offset.top});
     if ((offset.top / $(window).height()) < 0.5) {
-        $('#tooltip').css({top: bounds.height});
+        $('#tooltip').css({top: bounds.height, bottom: ""});
     } else {
-        $('#tooltip').css({bottom: 0});
+        $('#tooltip').css({bottom: 0, top: ""});
     }
     setContentAjax($('#tooltip'), `/tooltips/spells/${spellName}`);
     tooltipOffset = $('#tooltip').offset();
@@ -334,6 +334,5 @@ function showSpellTooltip(event, spellName) {
 
 function hideSpellTooltip(event) {
     $('#tooltip').hide();
-    console.log("Mouseleave")
     $('#content').append($('#tooltip-sleeve'));
 }
