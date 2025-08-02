@@ -80,4 +80,6 @@ div.tooltip {
     background: url('/inittracker/static/seamless-parchment.jpg');
     border-top: 2px solid #e69a28;
     border-bottom: 2px solid #e69a28;
+    max-height: 50vh;
+    overflow: scroll;
 }
