@@ -3,8 +3,11 @@
 #statblock {
     background: url('https://5e.tools/img/bestiary/stat-block-top-texture.webp') no-repeat, repeat top center, #fdf1dc;
     border-top: 3px solid #e69a28;
-    padding-left: .2em;
-    padding-right: .2em;
+}
+
+.statblock {
+    padding-left: 8px;
+    padding-right: 5px;
     font-size: 12.6px;
     font-family: "Convergence", Arial, sans-serif;
 }

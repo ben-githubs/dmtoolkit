@@ -154,6 +154,16 @@ function togglePlayer(button) {
     }
 }
 
+function setContentAjax(target, url) {
+    $.ajax({
+        url: url,
+        method: 'GET',
+        success: function(response) {
+            target.html(response);
+        }
+    })
+}
+
 function updateStatblockTarget(event) {
     self = $(event.target);
     if (!(self.is('tr') || self.is('td'))) {
@@ -300,4 +310,30 @@ function saveEncounter() {
             refreshEncounters();
         }
     })
+}
+
+function showSpellTooltip(event, spellName) {
+    if ($('#tooltip').is(":visible")) {
+        return // Don't trigger a new popup inside the existing one
+    }
+    $('#tooltip').show();
+    target = $(event.target);
+    target.before($('#tooltip-sleeve'));
+    bounds = event.target.getBoundingClientRect();
+    offset = target.offset();
+    // Set sleeve coordinates
+    $('#tooltip-sleeve').css({left: offset.left+bounds.width, top: offset.top});
+    if ((offset.top / $(window).height()) < 0.5) {
+        $('#tooltip').css({top: bounds.height});
+    } else {
+        $('#tooltip').css({bottom: 0});
+    }
+    setContentAjax($('#tooltip'), `/tooltips/spells/${spellName}`);
+    tooltipOffset = $('#tooltip').offset();
+}
+
+function hideSpellTooltip(event) {
+    $('#tooltip').hide();
+    console.log("Mouseleave")
+    $('#content').append($('#tooltip-sleeve'));
 }

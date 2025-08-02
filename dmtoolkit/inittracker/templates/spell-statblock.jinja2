@@ -1,0 +1,13 @@
+<div id="spell-statblock" class="statblock">
+    <h4 style="font-size: 24px; border: 0;">{{ spell.name }}</h4>
+    <em>Level {{ spell.level }} {{ spell.school }}</em><br/>
+
+    <strong>Casting Time:</strong> {{ spell.time }} <br/>
+    <strong>Range:</strong> {{ spell.range }} <br/>
+    <strong>Components:</strong> {{ spell.components_string() }} <br/>
+    <strong>Duration:</strong> {{ spell.duration }} <br/>
+
+    {% for entry in spell.entries %}
+        {{ entry.html() | macro5e }}
+    {% endfor %}
+</div>
