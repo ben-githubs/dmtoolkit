@@ -11,6 +11,18 @@ from dmtoolkit.api.serialize import dump_json, load_json
 DEFAULT_RAW = ROOT_DIR /  "cmd/raw_spells.json"
 DEFAULT_CONV = ROOT_DIR / "api" / "data" / "spells.json"
 
+# 5e.tools uses shorthand to store the schools of magic
+SCHOOLS = {
+    "A": "Abjuration",
+    "C": "Conjuration",
+    "D": "Divination",
+    "E": "Enchantment",
+    "V": "Evocation",
+    "I": "Illusion",
+    "N": "Necromancy",
+    "T": "Transmutation",
+}
+
 def fetch_spells(outfile: Path):
     # URLs to fetch
     urls = [
@@ -61,7 +73,7 @@ def convert(infile: Path, outfile: Path) -> list[Spell]:
                 "level": spell_spec["level"],
                 "name": spell_name,
                 "range": "",
-                "school": spell_spec["school"],
+                "school": SCHOOLS[spell_spec["school"]],
                 "source": (spell_spec["source"], int(spell_spec["page"])),
                 "time": "",
             }
@@ -192,5 +204,7 @@ def _fmt_time(time_specs: list[dict[str, Any]]) -> str:
     if len(time_strs) != len(time_specs):
         raise ConverterError("No logic path to conver time spec")
     
-    # Join in format "x, y, or z"
+    # Join in format "x, y, or z" or just "x"
+    if len(time_strs) == 1:
+        return time_strs[0]
     return ", or ".join([", ".join(time_strs[:-1]), time_strs[-1]])

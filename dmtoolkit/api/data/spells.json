@@ -22,12 +22,12 @@
     "level": 2,
     "name": "Air Bubble",
     "range": "60 feet",
-    "school": "C",
+    "school": "Conjuration",
     "source": [
       "AAG",
       22
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": false,
@@ -52,12 +52,12 @@
     "level": 5,
     "name": "Create Spelljamming Helm",
     "range": "Touch",
-    "school": "T",
+    "school": "Transmutation",
     "source": [
       "AAG",
       22
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -98,12 +98,12 @@
     "level": 1,
     "name": "Distort Value",
     "range": "Touch",
-    "school": "I",
+    "school": "Illusion",
     "source": [
       "AI",
       75
     ],
-    "time": ", or Minute",
+    "time": "Minute",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -152,12 +152,12 @@
     "level": 3,
     "name": "Fast Friends",
     "range": "30 feet",
-    "school": "E",
+    "school": "Enchantment",
     "source": [
       "AI",
       75
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -202,12 +202,12 @@
     "level": 2,
     "name": "Gift of Gab",
     "range": "Self",
-    "school": "E",
+    "school": "Enchantment",
     "source": [
       "AI",
       76
     ],
-    "time": ", or Reaction",
+    "time": "Reaction",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -240,12 +240,12 @@
     "level": 3,
     "name": "Incite Greed",
     "range": "30 feet",
-    "school": "E",
+    "school": "Enchantment",
     "source": [
       "AI",
       76
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -270,12 +270,12 @@
     "level": 2,
     "name": "Jim's Glowing Coin",
     "range": "60 feet",
-    "school": "E",
+    "school": "Enchantment",
     "source": [
       "AI",
       76
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": false,
@@ -336,12 +336,12 @@
     "level": 1,
     "name": "Jim's Magic Missile",
     "range": "120 feet",
-    "school": "V",
+    "school": "Evocation",
     "source": [
       "AI",
       76
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -386,12 +386,12 @@
     "level": 3,
     "name": "Motivational Speech",
     "range": "60 feet",
-    "school": "E",
+    "school": "Enchantment",
     "source": [
       "AI",
       77
     ],
-    "time": ", or Minute",
+    "time": "Minute",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -472,12 +472,12 @@
     "level": 3,
     "name": "Linked Glyphs",
     "range": "Touch",
-    "school": "A",
+    "school": "Abjuration",
     "source": [
       "AitFR-AVT",
       9
     ],
-    "time": ", or Hour",
+    "time": "Hour",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -518,12 +518,12 @@
     "level": 8,
     "name": "Dark Star",
     "range": "150 feet",
-    "school": "V",
+    "school": "Evocation",
     "source": [
       "EGW",
       186
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -564,12 +564,12 @@
     "level": 2,
     "name": "Fortune's Favor",
     "range": "60 feet",
-    "school": "D",
+    "school": "Divination",
     "source": [
       "EGW",
       186
     ],
-    "time": ", or Minute",
+    "time": "Minute",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -594,12 +594,12 @@
     "level": 1,
     "name": "Gift of Alacrity",
     "range": "Touch",
-    "school": "D",
+    "school": "Divination",
     "source": [
       "EGW",
       186
     ],
-    "time": ", or Minute",
+    "time": "Minute",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -640,12 +640,12 @@
     "level": 6,
     "name": "Gravity Fissure",
     "range": "Self (100-foot line)",
-    "school": "V",
+    "school": "Evocation",
     "source": [
       "EGW",
       187
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -678,12 +678,12 @@
     "level": 4,
     "name": "Gravity Sinkhole",
     "range": "120 feet",
-    "school": "V",
+    "school": "Evocation",
     "source": [
       "EGW",
       187
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -724,12 +724,12 @@
     "level": 2,
     "name": "Immovable Object",
     "range": "Touch",
-    "school": "T",
+    "school": "Transmutation",
     "source": [
       "EGW",
       187
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -770,12 +770,12 @@
     "level": 1,
     "name": "Magnify Gravity",
     "range": "60 feet",
-    "school": "T",
+    "school": "Transmutation",
     "source": [
       "EGW",
       188
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -816,12 +816,12 @@
     "level": 3,
     "name": "Pulse Wave",
     "range": "Self (30-foot cone)",
-    "school": "V",
+    "school": "Evocation",
     "source": [
       "EGW",
       188
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -862,12 +862,12 @@
     "level": 9,
     "name": "Ravenous Void",
     "range": "1000 feet",
-    "school": "V",
+    "school": "Evocation",
     "source": [
       "EGW",
       188
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -933,12 +933,12 @@
     "level": 8,
     "name": "Reality Break",
     "range": "60 feet",
-    "school": "C",
+    "school": "Conjuration",
     "source": [
       "EGW",
       189
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -971,12 +971,12 @@
     "level": 0,
     "name": "Sapping Sting",
     "range": "30 feet",
-    "school": "N",
+    "school": "Necromancy",
     "source": [
       "EGW",
       189
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -1009,12 +1009,12 @@
     "level": 5,
     "name": "Temporal Shunt",
     "range": "120 feet",
-    "school": "T",
+    "school": "Transmutation",
     "source": [
       "EGW",
       189
     ],
-    "time": ", or Reaction",
+    "time": "Reaction",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -1039,12 +1039,12 @@
     "level": 7,
     "name": "Tether Essence",
     "range": "60 feet",
-    "school": "N",
+    "school": "Necromancy",
     "source": [
       "EGW",
       189
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -1069,12 +1069,12 @@
     "level": 9,
     "name": "Time Ravage",
     "range": "90 feet",
-    "school": "N",
+    "school": "Necromancy",
     "source": [
       "EGW",
       189
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -1107,12 +1107,12 @@
     "level": 2,
     "name": "Wristpocket",
     "range": "Self",
-    "school": "C",
+    "school": "Conjuration",
     "source": [
       "EGW",
       190
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": true,
     "is_verbal": false,
@@ -1153,12 +1153,12 @@
     "level": 3,
     "name": "Ashardalon's Stride",
     "range": "Self",
-    "school": "T",
+    "school": "Transmutation",
     "source": [
       "FTD",
       19
     ],
-    "time": ", or Bonus Action",
+    "time": "Bonus Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -1220,12 +1220,12 @@
     "level": 7,
     "name": "Draconic Transformation",
     "range": "Self",
-    "school": "T",
+    "school": "Transmutation",
     "source": [
       "FTD",
       19
     ],
-    "time": ", or Bonus Action",
+    "time": "Bonus Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -1295,12 +1295,12 @@
     "level": 6,
     "name": "Fizban's Platinum Shield",
     "range": "60 feet",
-    "school": "A",
+    "school": "Abjuration",
     "source": [
       "FTD",
       20
     ],
-    "time": ", or Bonus Action",
+    "time": "Bonus Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -1358,12 +1358,12 @@
     "level": 2,
     "name": "Nathair's Mischief",
     "range": "60 feet",
-    "school": "I",
+    "school": "Illusion",
     "source": [
       "FTD",
       20
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": false,
@@ -1404,12 +1404,12 @@
     "level": 4,
     "name": "Raulothim's Psychic Lance",
     "range": "120 feet",
-    "school": "E",
+    "school": "Enchantment",
     "source": [
       "FTD",
       21
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -1442,12 +1442,12 @@
     "level": 2,
     "name": "Rime's Binding Ice",
     "range": "Self (30-foot cone)",
-    "school": "V",
+    "school": "Evocation",
     "source": [
       "FTD",
       21
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": false,
@@ -1488,12 +1488,12 @@
     "level": 5,
     "name": "Summon Draconic Spirit",
     "range": "60 feet",
-    "school": "C",
+    "school": "Conjuration",
     "source": [
       "FTD",
       21
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -1534,12 +1534,12 @@
     "level": 3,
     "name": "Ashardalon's Stride",
     "range": "Self",
-    "school": "T",
+    "school": "Transmutation",
     "source": [
       "FTD",
       19
     ],
-    "time": ", or Bonus Action",
+    "time": "Bonus Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -1601,12 +1601,12 @@
     "level": 7,
     "name": "Draconic Transformation",
     "range": "Self",
-    "school": "T",
+    "school": "Transmutation",
     "source": [
       "FTD",
       19
     ],
-    "time": ", or Bonus Action",
+    "time": "Bonus Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -1676,12 +1676,12 @@
     "level": 6,
     "name": "Fizban's Platinum Shield",
     "range": "60 feet",
-    "school": "A",
+    "school": "Abjuration",
     "source": [
       "FTD",
       20
     ],
-    "time": ", or Bonus Action",
+    "time": "Bonus Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -1739,12 +1739,12 @@
     "level": 2,
     "name": "Nathair's Mischief",
     "range": "60 feet",
-    "school": "I",
+    "school": "Illusion",
     "source": [
       "FTD",
       20
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": false,
@@ -1785,12 +1785,12 @@
     "level": 4,
     "name": "Raulothim's Psychic Lance",
     "range": "120 feet",
-    "school": "E",
+    "school": "Enchantment",
     "source": [
       "FTD",
       21
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -1823,12 +1823,12 @@
     "level": 2,
     "name": "Rime's Binding Ice",
     "range": "Self (30-foot cone)",
-    "school": "V",
+    "school": "Evocation",
     "source": [
       "FTD",
       21
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": false,
@@ -1869,12 +1869,12 @@
     "level": 5,
     "name": "Summon Draconic Spirit",
     "range": "60 feet",
-    "school": "C",
+    "school": "Conjuration",
     "source": [
       "FTD",
       21
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -1915,12 +1915,12 @@
     "level": 7,
     "name": "Create Magen",
     "range": "Touch",
-    "school": "T",
+    "school": "Transmutation",
     "source": [
       "IDRotF",
       318
     ],
-    "time": ", or Hour",
+    "time": "Hour",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -1961,12 +1961,12 @@
     "level": 1,
     "name": "Frost Fingers",
     "range": "Self (15-foot cone)",
-    "school": "V",
+    "school": "Evocation",
     "source": [
       "IDRotF",
       318
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -2015,12 +2015,12 @@
     "level": 2,
     "name": "Flock of Familiars",
     "range": "Touch",
-    "school": "C",
+    "school": "Conjuration",
     "source": [
       "LLK",
       57
     ],
-    "time": ", or Minute",
+    "time": "Minute",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -2069,12 +2069,12 @@
     "level": 4,
     "name": "Galder's Speedy Courier",
     "range": "10 feet",
-    "school": "C",
+    "school": "Conjuration",
     "source": [
       "LLK",
       57
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -2151,12 +2151,12 @@
     "level": 3,
     "name": "Galder's Tower",
     "range": "30 feet",
-    "school": "C",
+    "school": "Conjuration",
     "source": [
       "LLK",
       57
     ],
-    "time": ", or 10 Minutes",
+    "time": "10 Minutes",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -2189,12 +2189,12 @@
     "level": 0,
     "name": "Acid Splash",
     "range": "60 feet",
-    "school": "C",
+    "school": "Conjuration",
     "source": [
       "PHB",
       211
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -2227,12 +2227,12 @@
     "level": 2,
     "name": "Aid",
     "range": "30 feet",
-    "school": "A",
+    "school": "Abjuration",
     "source": [
       "PHB",
       211
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -2273,12 +2273,12 @@
     "level": 1,
     "name": "Alarm",
     "range": "30 feet",
-    "school": "A",
+    "school": "Abjuration",
     "source": [
       "PHB",
       211
     ],
-    "time": ", or Minute",
+    "time": "Minute",
     "additional_sources": [],
     "is_ritual": true,
     "is_verbal": true,
@@ -2327,12 +2327,12 @@
     "level": 2,
     "name": "Alter Self",
     "range": "Self",
-    "school": "T",
+    "school": "Transmutation",
     "source": [
       "PHB",
       211
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -2365,12 +2365,12 @@
     "level": 1,
     "name": "Animal Friendship",
     "range": "30 feet",
-    "school": "E",
+    "school": "Enchantment",
     "source": [
       "PHB",
       212
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -2411,12 +2411,12 @@
     "level": 2,
     "name": "Animal Messenger",
     "range": "30 feet",
-    "school": "E",
+    "school": "Enchantment",
     "source": [
       "PHB",
       212
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": true,
     "is_verbal": true,
@@ -2457,12 +2457,12 @@
     "level": 8,
     "name": "Animal Shapes",
     "range": "30 feet",
-    "school": "T",
+    "school": "Transmutation",
     "source": [
       "PHB",
       212
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -2511,12 +2511,12 @@
     "level": 3,
     "name": "Animate Dead",
     "range": "10 feet",
-    "school": "N",
+    "school": "Necromancy",
     "source": [
       "PHB",
       212
     ],
-    "time": ", or Minute",
+    "time": "Minute",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -2638,12 +2638,12 @@
     "level": 5,
     "name": "Animate Objects",
     "range": "120 feet",
-    "school": "T",
+    "school": "Transmutation",
     "source": [
       "PHB",
       213
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -2684,12 +2684,12 @@
     "level": 5,
     "name": "Antilife Shell",
     "range": "Self (10-foot radius)",
-    "school": "A",
+    "school": "Abjuration",
     "source": [
       "PHB",
       213
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -2779,12 +2779,12 @@
     "level": 8,
     "name": "Antimagic Field",
     "range": "Self (10-foot sphere)",
-    "school": "A",
+    "school": "Abjuration",
     "source": [
       "PHB",
       213
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -2842,12 +2842,12 @@
     "level": 8,
     "name": "Antipathy/Sympathy",
     "range": "60 feet",
-    "school": "E",
+    "school": "Enchantment",
     "source": [
       "PHB",
       214
     ],
-    "time": ", or Hour",
+    "time": "Hour",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -2888,12 +2888,12 @@
     "level": 4,
     "name": "Arcane Eye",
     "range": "30 feet",
-    "school": "D",
+    "school": "Divination",
     "source": [
       "PHB",
       214
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -2934,12 +2934,12 @@
     "level": 6,
     "name": "Arcane Gate",
     "range": "500 feet",
-    "school": "C",
+    "school": "Conjuration",
     "source": [
       "PHB",
       214
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -2972,12 +2972,12 @@
     "level": 2,
     "name": "Arcane Lock",
     "range": "Touch",
-    "school": "A",
+    "school": "Abjuration",
     "source": [
       "PHB",
       215
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -3010,12 +3010,12 @@
     "level": 1,
     "name": "Armor of Agathys",
     "range": "Self",
-    "school": "A",
+    "school": "Abjuration",
     "source": [
       "PHB",
       215
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -3048,12 +3048,12 @@
     "level": 1,
     "name": "Arms of Hadar",
     "range": "Self (10-foot radius)",
-    "school": "C",
+    "school": "Conjuration",
     "source": [
       "PHB",
       215
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -3118,12 +3118,12 @@
     "level": 9,
     "name": "Astral Projection",
     "range": "10 feet",
-    "school": "N",
+    "school": "Necromancy",
     "source": [
       "PHB",
       215
     ],
-    "time": ", or Hour",
+    "time": "Hour",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -3183,12 +3183,12 @@
     "level": 2,
     "name": "Augury",
     "range": "Self",
-    "school": "D",
+    "school": "Divination",
     "source": [
       "PHB",
       215
     ],
-    "time": ", or Minute",
+    "time": "Minute",
     "additional_sources": [],
     "is_ritual": true,
     "is_verbal": true,
@@ -3213,12 +3213,12 @@
     "level": 4,
     "name": "Aura of Life",
     "range": "Self (30-foot radius)",
-    "school": "A",
+    "school": "Abjuration",
     "source": [
       "PHB",
       216
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -3243,12 +3243,12 @@
     "level": 4,
     "name": "Aura of Purity",
     "range": "Self (30-foot radius)",
-    "school": "A",
+    "school": "Abjuration",
     "source": [
       "PHB",
       216
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -3273,12 +3273,12 @@
     "level": 3,
     "name": "Aura of Vitality",
     "range": "Self (30-foot radius)",
-    "school": "V",
+    "school": "Evocation",
     "source": [
       "PHB",
       216
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -3311,12 +3311,12 @@
     "level": 5,
     "name": "Awaken",
     "range": "Touch",
-    "school": "T",
+    "school": "Transmutation",
     "source": [
       "PHB",
       216
     ],
-    "time": ", or 8 Hours",
+    "time": "8 Hours",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -3349,12 +3349,12 @@
     "level": 1,
     "name": "Bane",
     "range": "30 feet",
-    "school": "E",
+    "school": "Enchantment",
     "source": [
       "PHB",
       216
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -3379,12 +3379,12 @@
     "level": 5,
     "name": "Banishing Smite",
     "range": "Self",
-    "school": "A",
+    "school": "Abjuration",
     "source": [
       "PHB",
       216
     ],
-    "time": ", or Bonus Action",
+    "time": "Bonus Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -3433,12 +3433,12 @@
     "level": 4,
     "name": "Banishment",
     "range": "60 feet",
-    "school": "A",
+    "school": "Abjuration",
     "source": [
       "PHB",
       217
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -3463,12 +3463,12 @@
     "level": 2,
     "name": "Barkskin",
     "range": "Touch",
-    "school": "T",
+    "school": "Transmutation",
     "source": [
       "PHB",
       217
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -3493,12 +3493,12 @@
     "level": 3,
     "name": "Beacon of Hope",
     "range": "30 feet",
-    "school": "A",
+    "school": "Abjuration",
     "source": [
       "PHB",
       217
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -3523,12 +3523,12 @@
     "level": 2,
     "name": "Beast Sense",
     "range": "Touch",
-    "school": "D",
+    "school": "Divination",
     "source": [
       "PHB",
       217
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": true,
     "is_verbal": false,
@@ -3588,12 +3588,12 @@
     "level": 3,
     "name": "Bestow Curse",
     "range": "Touch",
-    "school": "N",
+    "school": "Necromancy",
     "source": [
       "PHB",
       218
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -3674,12 +3674,12 @@
     "level": 5,
     "name": "Bigby's Hand",
     "range": "120 feet",
-    "school": "V",
+    "school": "Evocation",
     "source": [
       "PHB",
       218
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -3712,12 +3712,12 @@
     "level": 6,
     "name": "Blade Barrier",
     "range": "90 feet",
-    "school": "V",
+    "school": "Evocation",
     "source": [
       "PHB",
       218
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -3742,12 +3742,12 @@
     "level": 0,
     "name": "Blade Ward",
     "range": "Self",
-    "school": "A",
+    "school": "Abjuration",
     "source": [
       "PHB",
       218
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -3780,12 +3780,12 @@
     "level": 1,
     "name": "Bless",
     "range": "30 feet",
-    "school": "E",
+    "school": "Enchantment",
     "source": [
       "PHB",
       219
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -3834,12 +3834,12 @@
     "level": 4,
     "name": "Blight",
     "range": "30 feet",
-    "school": "N",
+    "school": "Necromancy",
     "source": [
       "PHB",
       219
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -3872,12 +3872,12 @@
     "level": 3,
     "name": "Blinding Smite",
     "range": "Self",
-    "school": "V",
+    "school": "Evocation",
     "source": [
       "PHB",
       219
     ],
-    "time": ", or Bonus Action",
+    "time": "Bonus Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -3910,12 +3910,12 @@
     "level": 2,
     "name": "Blindness/Deafness",
     "range": "30 feet",
-    "school": "N",
+    "school": "Necromancy",
     "source": [
       "PHB",
       219
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -3948,12 +3948,12 @@
     "level": 3,
     "name": "Blink",
     "range": "Self",
-    "school": "T",
+    "school": "Transmutation",
     "source": [
       "PHB",
       219
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -3978,12 +3978,12 @@
     "level": 2,
     "name": "Blur",
     "range": "Self",
-    "school": "I",
+    "school": "Illusion",
     "source": [
       "PHB",
       219
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -4016,12 +4016,12 @@
     "level": 2,
     "name": "Branding Smite",
     "range": "Self",
-    "school": "V",
+    "school": "Evocation",
     "source": [
       "PHB",
       219
     ],
-    "time": ", or Bonus Action",
+    "time": "Bonus Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -4062,12 +4062,12 @@
     "level": 1,
     "name": "Burning Hands",
     "range": "Self (15-foot cone)",
-    "school": "V",
+    "school": "Evocation",
     "source": [
       "PHB",
       220
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -4116,12 +4116,12 @@
     "level": 3,
     "name": "Call Lightning",
     "range": "120 feet",
-    "school": "C",
+    "school": "Conjuration",
     "source": [
       "PHB",
       220
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -4162,12 +4162,12 @@
     "level": 2,
     "name": "Calm Emotions",
     "range": "60 feet",
-    "school": "E",
+    "school": "Enchantment",
     "source": [
       "PHB",
       221
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -4208,12 +4208,12 @@
     "level": 6,
     "name": "Chain Lightning",
     "range": "150 feet",
-    "school": "V",
+    "school": "Evocation",
     "source": [
       "PHB",
       221
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -4246,12 +4246,12 @@
     "level": 1,
     "name": "Charm Person",
     "range": "30 feet",
-    "school": "E",
+    "school": "Enchantment",
     "source": [
       "PHB",
       221
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -4292,12 +4292,12 @@
     "level": 0,
     "name": "Chill Touch",
     "range": "120 feet",
-    "school": "N",
+    "school": "Necromancy",
     "source": [
       "PHB",
       221
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -4330,12 +4330,12 @@
     "level": 1,
     "name": "Chromatic Orb",
     "range": "90 feet",
-    "school": "V",
+    "school": "Evocation",
     "source": [
       "PHB",
       221
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -4368,12 +4368,12 @@
     "level": 6,
     "name": "Circle of Death",
     "range": "150 feet",
-    "school": "N",
+    "school": "Necromancy",
     "source": [
       "PHB",
       221
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -4398,12 +4398,12 @@
     "level": 5,
     "name": "Circle of Power",
     "range": "Self (30-foot radius)",
-    "school": "A",
+    "school": "Abjuration",
     "source": [
       "PHB",
       221
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -4444,12 +4444,12 @@
     "level": 3,
     "name": "Clairvoyance",
     "range": "1 miles",
-    "school": "D",
+    "school": "Divination",
     "source": [
       "PHB",
       222
     ],
-    "time": ", or 10 Minutes",
+    "time": "10 Minutes",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -4482,12 +4482,12 @@
     "level": 8,
     "name": "Clone",
     "range": "Touch",
-    "school": "N",
+    "school": "Necromancy",
     "source": [
       "PHB",
       222
     ],
-    "time": ", or Hour",
+    "time": "Hour",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -4520,12 +4520,12 @@
     "level": 2,
     "name": "Cloud of Daggers",
     "range": "60 feet",
-    "school": "C",
+    "school": "Conjuration",
     "source": [
       "PHB",
       222
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -4574,12 +4574,12 @@
     "level": 5,
     "name": "Cloudkill",
     "range": "120 feet",
-    "school": "C",
+    "school": "Conjuration",
     "source": [
       "PHB",
       222
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -4620,12 +4620,12 @@
     "level": 1,
     "name": "Color Spray",
     "range": "Self (15-foot cone)",
-    "school": "I",
+    "school": "Illusion",
     "source": [
       "PHB",
       222
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -4706,12 +4706,12 @@
     "level": 1,
     "name": "Command",
     "range": "60 feet",
-    "school": "E",
+    "school": "Enchantment",
     "source": [
       "PHB",
       223
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -4752,12 +4752,12 @@
     "level": 5,
     "name": "Commune",
     "range": "Self",
-    "school": "D",
+    "school": "Divination",
     "source": [
       "PHB",
       223
     ],
-    "time": ", or Minute",
+    "time": "Minute",
     "additional_sources": [],
     "is_ritual": true,
     "is_verbal": true,
@@ -4820,12 +4820,12 @@
     "level": 5,
     "name": "Commune with Nature",
     "range": "Self",
-    "school": "D",
+    "school": "Divination",
     "source": [
       "PHB",
       224
     ],
-    "time": ", or Minute",
+    "time": "Minute",
     "additional_sources": [],
     "is_ritual": true,
     "is_verbal": true,
@@ -4858,12 +4858,12 @@
     "level": 1,
     "name": "Compelled Duel",
     "range": "30 feet",
-    "school": "E",
+    "school": "Enchantment",
     "source": [
       "PHB",
       224
     ],
-    "time": ", or Bonus Action",
+    "time": "Bonus Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -4896,12 +4896,12 @@
     "level": 1,
     "name": "Comprehend Languages",
     "range": "Self",
-    "school": "D",
+    "school": "Divination",
     "source": [
       "PHB",
       224
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": true,
     "is_verbal": true,
@@ -4934,12 +4934,12 @@
     "level": 4,
     "name": "Compulsion",
     "range": "30 feet",
-    "school": "E",
+    "school": "Enchantment",
     "source": [
       "PHB",
       224
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -4980,12 +4980,12 @@
     "level": 5,
     "name": "Cone of Cold",
     "range": "Self (60-foot cone)",
-    "school": "V",
+    "school": "Evocation",
     "source": [
       "PHB",
       224
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -5090,12 +5090,12 @@
     "level": 4,
     "name": "Confusion",
     "range": "90 feet",
-    "school": "E",
+    "school": "Enchantment",
     "source": [
       "PHB",
       224
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -5171,12 +5171,12 @@
     "level": 3,
     "name": "Conjure Animals",
     "range": "60 feet",
-    "school": "C",
+    "school": "Conjuration",
     "source": [
       "PHB",
       225
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -5201,12 +5201,12 @@
     "level": 3,
     "name": "Conjure Barrage",
     "range": "Self (60-foot cone)",
-    "school": "C",
+    "school": "Conjuration",
     "source": [
       "PHB",
       225
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -5255,12 +5255,12 @@
     "level": 7,
     "name": "Conjure Celestial",
     "range": "90 feet",
-    "school": "C",
+    "school": "Conjuration",
     "source": [
       "PHB",
       225
     ],
-    "time": ", or Minute",
+    "time": "Minute",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -5317,12 +5317,12 @@
     "level": 5,
     "name": "Conjure Elemental",
     "range": "90 feet",
-    "school": "C",
+    "school": "Conjuration",
     "source": [
       "PHB",
       225
     ],
-    "time": ", or Minute",
+    "time": "Minute",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -5379,12 +5379,12 @@
     "level": 6,
     "name": "Conjure Fey",
     "range": "90 feet",
-    "school": "C",
+    "school": "Conjuration",
     "source": [
       "PHB",
       226
     ],
-    "time": ", or Minute",
+    "time": "Minute",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -5460,12 +5460,12 @@
     "level": 4,
     "name": "Conjure Minor Elementals",
     "range": "90 feet",
-    "school": "C",
+    "school": "Conjuration",
     "source": [
       "PHB",
       226
     ],
-    "time": ", or Minute",
+    "time": "Minute",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -5490,12 +5490,12 @@
     "level": 5,
     "name": "Conjure Volley",
     "range": "150 feet",
-    "school": "C",
+    "school": "Conjuration",
     "source": [
       "PHB",
       226
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -5571,12 +5571,12 @@
     "level": 4,
     "name": "Conjure Woodland Beings",
     "range": "60 feet",
-    "school": "C",
+    "school": "Conjuration",
     "source": [
       "PHB",
       226
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -5609,12 +5609,12 @@
     "level": 5,
     "name": "Contact Other Plane",
     "range": "Self",
-    "school": "D",
+    "school": "Divination",
     "source": [
       "PHB",
       226
     ],
-    "time": ", or Minute",
+    "time": "Minute",
     "additional_sources": [],
     "is_ritual": true,
     "is_verbal": true,
@@ -5703,12 +5703,12 @@
     "level": 5,
     "name": "Contagion",
     "range": "Touch",
-    "school": "N",
+    "school": "Necromancy",
     "source": [
       "PHB",
       227
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -5749,12 +5749,12 @@
     "level": 6,
     "name": "Contingency",
     "range": "Self",
-    "school": "V",
+    "school": "Evocation",
     "source": [
       "PHB",
       227
     ],
-    "time": ", or 10 Minutes",
+    "time": "10 Minutes",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -5779,12 +5779,12 @@
     "level": 2,
     "name": "Continual Flame",
     "range": "Touch",
-    "school": "V",
+    "school": "Evocation",
     "source": [
       "PHB",
       227
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -5845,12 +5845,12 @@
     "level": 4,
     "name": "Control Water",
     "range": "300 feet",
-    "school": "T",
+    "school": "Transmutation",
     "source": [
       "PHB",
       227
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -6006,12 +6006,12 @@
     "level": 8,
     "name": "Control Weather",
     "range": "Self (5-mile radius)",
-    "school": "T",
+    "school": "Transmutation",
     "source": [
       "PHB",
       228
     ],
-    "time": ", or 10 Minutes",
+    "time": "10 Minutes",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -6052,12 +6052,12 @@
     "level": 2,
     "name": "Cordon of Arrows",
     "range": "5 feet",
-    "school": "T",
+    "school": "Transmutation",
     "source": [
       "PHB",
       228
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -6090,12 +6090,12 @@
     "level": 3,
     "name": "Counterspell",
     "range": "60 feet",
-    "school": "A",
+    "school": "Abjuration",
     "source": [
       "PHB",
       228
     ],
-    "time": ", or Reaction",
+    "time": "Reaction",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": false,
@@ -6120,12 +6120,12 @@
     "level": 3,
     "name": "Create Food and Water",
     "range": "30 feet",
-    "school": "C",
+    "school": "Conjuration",
     "source": [
       "PHB",
       229
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -6174,12 +6174,12 @@
     "level": 1,
     "name": "Create or Destroy Water",
     "range": "30 feet",
-    "school": "T",
+    "school": "Transmutation",
     "source": [
       "PHB",
       229
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -6228,12 +6228,12 @@
     "level": 6,
     "name": "Create Undead",
     "range": "10 feet",
-    "school": "N",
+    "school": "Necromancy",
     "source": [
       "PHB",
       229
     ],
-    "time": ", or Minute",
+    "time": "Minute",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -6319,12 +6319,12 @@
     "level": 5,
     "name": "Creation",
     "range": "30 feet",
-    "school": "I",
+    "school": "Illusion",
     "source": [
       "PHB",
       229
     ],
-    "time": ", or Minute",
+    "time": "Minute",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -6365,12 +6365,12 @@
     "level": 2,
     "name": "Crown of Madness",
     "range": "120 feet",
-    "school": "E",
+    "school": "Enchantment",
     "source": [
       "PHB",
       229
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -6395,12 +6395,12 @@
     "level": 3,
     "name": "Crusader's Mantle",
     "range": "Self (30-foot radius)",
-    "school": "V",
+    "school": "Evocation",
     "source": [
       "PHB",
       230
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -6433,12 +6433,12 @@
     "level": 1,
     "name": "Cure Wounds",
     "range": "Touch",
-    "school": "V",
+    "school": "Evocation",
     "source": [
       "PHB",
       230
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -6471,12 +6471,12 @@
     "level": 0,
     "name": "Dancing Lights",
     "range": "120 feet",
-    "school": "V",
+    "school": "Evocation",
     "source": [
       "PHB",
       230
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -6517,12 +6517,12 @@
     "level": 2,
     "name": "Darkness",
     "range": "60 feet",
-    "school": "V",
+    "school": "Evocation",
     "source": [
       "PHB",
       230
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -6547,12 +6547,12 @@
     "level": 2,
     "name": "Darkvision",
     "range": "Touch",
-    "school": "T",
+    "school": "Transmutation",
     "source": [
       "PHB",
       230
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -6593,12 +6593,12 @@
     "level": 3,
     "name": "Daylight",
     "range": "60 feet",
-    "school": "V",
+    "school": "Evocation",
     "source": [
       "PHB",
       230
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -6639,12 +6639,12 @@
     "level": 4,
     "name": "Death Ward",
     "range": "Touch",
-    "school": "A",
+    "school": "Abjuration",
     "source": [
       "PHB",
       230
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -6701,12 +6701,12 @@
     "level": 7,
     "name": "Delayed Blast Fireball",
     "range": "150 feet",
-    "school": "V",
+    "school": "Evocation",
     "source": [
       "PHB",
       230
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -6739,12 +6739,12 @@
     "level": 8,
     "name": "Demiplane",
     "range": "60 feet",
-    "school": "C",
+    "school": "Conjuration",
     "source": [
       "PHB",
       231
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": false,
@@ -6769,12 +6769,12 @@
     "level": 5,
     "name": "Destructive Wave",
     "range": "Self (30-foot radius)",
-    "school": "V",
+    "school": "Evocation",
     "source": [
       "PHB",
       231
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -6807,12 +6807,12 @@
     "level": 1,
     "name": "Detect Evil and Good",
     "range": "Self",
-    "school": "D",
+    "school": "Divination",
     "source": [
       "PHB",
       231
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -6845,12 +6845,12 @@
     "level": 1,
     "name": "Detect Magic",
     "range": "Self",
-    "school": "D",
+    "school": "Divination",
     "source": [
       "PHB",
       231
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": true,
     "is_verbal": true,
@@ -6883,12 +6883,12 @@
     "level": 1,
     "name": "Detect Poison and Disease",
     "range": "Self",
-    "school": "D",
+    "school": "Divination",
     "source": [
       "PHB",
       231
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": true,
     "is_verbal": true,
@@ -6945,12 +6945,12 @@
     "level": 2,
     "name": "Detect Thoughts",
     "range": "Self",
-    "school": "D",
+    "school": "Divination",
     "source": [
       "PHB",
       231
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -6991,12 +6991,12 @@
     "level": 4,
     "name": "Dimension Door",
     "range": "500 feet",
-    "school": "C",
+    "school": "Conjuration",
     "source": [
       "PHB",
       233
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -7037,12 +7037,12 @@
     "level": 1,
     "name": "Disguise Self",
     "range": "Self",
-    "school": "I",
+    "school": "Illusion",
     "source": [
       "PHB",
       233
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -7099,12 +7099,12 @@
     "level": 6,
     "name": "Disintegrate",
     "range": "60 feet",
-    "school": "T",
+    "school": "Transmutation",
     "source": [
       "PHB",
       233
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -7153,12 +7153,12 @@
     "level": 5,
     "name": "Dispel Evil and Good",
     "range": "Self",
-    "school": "A",
+    "school": "Abjuration",
     "source": [
       "PHB",
       233
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -7191,12 +7191,12 @@
     "level": 3,
     "name": "Dispel Magic",
     "range": "120 feet",
-    "school": "A",
+    "school": "Abjuration",
     "source": [
       "PHB",
       234
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -7229,12 +7229,12 @@
     "level": 1,
     "name": "Dissonant Whispers",
     "range": "60 feet",
-    "school": "E",
+    "school": "Enchantment",
     "source": [
       "PHB",
       234
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -7275,12 +7275,12 @@
     "level": 4,
     "name": "Divination",
     "range": "Self",
-    "school": "D",
+    "school": "Divination",
     "source": [
       "PHB",
       234
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": true,
     "is_verbal": true,
@@ -7305,12 +7305,12 @@
     "level": 1,
     "name": "Divine Favor",
     "range": "Self",
-    "school": "V",
+    "school": "Evocation",
     "source": [
       "PHB",
       234
     ],
-    "time": ", or Bonus Action",
+    "time": "Bonus Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -7362,12 +7362,12 @@
     "level": 7,
     "name": "Divine Word",
     "range": "30 feet",
-    "school": "V",
+    "school": "Evocation",
     "source": [
       "PHB",
       234
     ],
-    "time": ", or Bonus Action",
+    "time": "Bonus Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -7424,12 +7424,12 @@
     "level": 4,
     "name": "Dominate Beast",
     "range": "60 feet",
-    "school": "E",
+    "school": "Enchantment",
     "source": [
       "PHB",
       234
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -7486,12 +7486,12 @@
     "level": 8,
     "name": "Dominate Monster",
     "range": "60 feet",
-    "school": "E",
+    "school": "Enchantment",
     "source": [
       "PHB",
       235
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -7548,12 +7548,12 @@
     "level": 5,
     "name": "Dominate Person",
     "range": "60 feet",
-    "school": "E",
+    "school": "Enchantment",
     "source": [
       "PHB",
       235
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -7602,12 +7602,12 @@
     "level": 6,
     "name": "Drawmij's Instant Summons",
     "range": "Touch",
-    "school": "C",
+    "school": "Conjuration",
     "source": [
       "PHB",
       235
     ],
-    "time": ", or Minute",
+    "time": "Minute",
     "additional_sources": [],
     "is_ritual": true,
     "is_verbal": true,
@@ -7656,12 +7656,12 @@
     "level": 5,
     "name": "Dream",
     "range": "Special",
-    "school": "I",
+    "school": "Illusion",
     "source": [
       "PHB",
       236
     ],
-    "time": ", or Minute",
+    "time": "Minute",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -7705,12 +7705,12 @@
     "level": 0,
     "name": "Druidcraft",
     "range": "30 feet",
-    "school": "T",
+    "school": "Transmutation",
     "source": [
       "PHB",
       236
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -7776,12 +7776,12 @@
     "level": 8,
     "name": "Earthquake",
     "range": "500 feet",
-    "school": "V",
+    "school": "Evocation",
     "source": [
       "PHB",
       236
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -7814,12 +7814,12 @@
     "level": 0,
     "name": "Eldritch Blast",
     "range": "120 feet",
-    "school": "V",
+    "school": "Evocation",
     "source": [
       "PHB",
       237
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -7852,12 +7852,12 @@
     "level": 3,
     "name": "Elemental Weapon",
     "range": "Touch",
-    "school": "T",
+    "school": "Transmutation",
     "source": [
       "PHB",
       237
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -7938,12 +7938,12 @@
     "level": 2,
     "name": "Enhance Ability",
     "range": "Touch",
-    "school": "T",
+    "school": "Transmutation",
     "source": [
       "PHB",
       237
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -7992,12 +7992,12 @@
     "level": 2,
     "name": "Enlarge/Reduce",
     "range": "30 feet",
-    "school": "T",
+    "school": "Transmutation",
     "source": [
       "PHB",
       237
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -8038,12 +8038,12 @@
     "level": 1,
     "name": "Ensnaring Strike",
     "range": "Self",
-    "school": "C",
+    "school": "Conjuration",
     "source": [
       "PHB",
       237
     ],
-    "time": ", or Bonus Action",
+    "time": "Bonus Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -8084,12 +8084,12 @@
     "level": 1,
     "name": "Entangle",
     "range": "90 feet",
-    "school": "C",
+    "school": "Conjuration",
     "source": [
       "PHB",
       238
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -8114,12 +8114,12 @@
     "level": 2,
     "name": "Enthrall",
     "range": "60 feet",
-    "school": "E",
+    "school": "Enchantment",
     "source": [
       "PHB",
       238
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -8184,12 +8184,12 @@
     "level": 7,
     "name": "Etherealness",
     "range": "Self",
-    "school": "T",
+    "school": "Transmutation",
     "source": [
       "PHB",
       238
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -8230,12 +8230,12 @@
     "level": 4,
     "name": "Evard's Black Tentacles",
     "range": "90 feet",
-    "school": "C",
+    "school": "Conjuration",
     "source": [
       "PHB",
       238
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -8260,12 +8260,12 @@
     "level": 1,
     "name": "Expeditious Retreat",
     "range": "Self",
-    "school": "T",
+    "school": "Transmutation",
     "source": [
       "PHB",
       238
     ],
-    "time": ", or Bonus Action",
+    "time": "Bonus Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -8314,12 +8314,12 @@
     "level": 6,
     "name": "Eyebite",
     "range": "Self",
-    "school": "N",
+    "school": "Necromancy",
     "source": [
       "PHB",
       238
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -8360,12 +8360,12 @@
     "level": 4,
     "name": "Fabricate",
     "range": "120 feet",
-    "school": "T",
+    "school": "Transmutation",
     "source": [
       "PHB",
       239
     ],
-    "time": ", or 10 Minutes",
+    "time": "10 Minutes",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -8398,12 +8398,12 @@
     "level": 1,
     "name": "Faerie Fire",
     "range": "60 feet",
-    "school": "V",
+    "school": "Evocation",
     "source": [
       "PHB",
       239
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -8436,12 +8436,12 @@
     "level": 1,
     "name": "False Life",
     "range": "Self",
-    "school": "N",
+    "school": "Necromancy",
     "source": [
       "PHB",
       239
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -8474,12 +8474,12 @@
     "level": 3,
     "name": "Fear",
     "range": "Self (30-foot cone)",
-    "school": "I",
+    "school": "Illusion",
     "source": [
       "PHB",
       239
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -8504,12 +8504,12 @@
     "level": 1,
     "name": "Feather Fall",
     "range": "60 feet",
-    "school": "T",
+    "school": "Transmutation",
     "source": [
       "PHB",
       239
     ],
-    "time": ", or Reaction",
+    "time": "Reaction",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -8558,12 +8558,12 @@
     "level": 8,
     "name": "Feeblemind",
     "range": "150 feet",
-    "school": "E",
+    "school": "Enchantment",
     "source": [
       "PHB",
       239
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -8596,12 +8596,12 @@
     "level": 3,
     "name": "Feign Death",
     "range": "Touch",
-    "school": "N",
+    "school": "Necromancy",
     "source": [
       "PHB",
       240
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": true,
     "is_verbal": true,
@@ -8674,12 +8674,12 @@
     "level": 1,
     "name": "Find Familiar",
     "range": "10 feet",
-    "school": "C",
+    "school": "Conjuration",
     "source": [
       "PHB",
       240
     ],
-    "time": ", or Hour",
+    "time": "Hour",
     "additional_sources": [],
     "is_ritual": true,
     "is_verbal": true,
@@ -8736,12 +8736,12 @@
     "level": 2,
     "name": "Find Steed",
     "range": "30 feet",
-    "school": "C",
+    "school": "Conjuration",
     "source": [
       "PHB",
       240
     ],
-    "time": ", or 10 Minutes",
+    "time": "10 Minutes",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -8774,12 +8774,12 @@
     "level": 6,
     "name": "Find the Path",
     "range": "Self",
-    "school": "D",
+    "school": "Divination",
     "source": [
       "PHB",
       240
     ],
-    "time": ", or Minute",
+    "time": "Minute",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -8812,12 +8812,12 @@
     "level": 2,
     "name": "Find Traps",
     "range": "120 feet",
-    "school": "D",
+    "school": "Divination",
     "source": [
       "PHB",
       241
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -8850,12 +8850,12 @@
     "level": 7,
     "name": "Finger of Death",
     "range": "60 feet",
-    "school": "N",
+    "school": "Necromancy",
     "source": [
       "PHB",
       241
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -8888,12 +8888,12 @@
     "level": 0,
     "name": "Fire Bolt",
     "range": "120 feet",
-    "school": "V",
+    "school": "Evocation",
     "source": [
       "PHB",
       242
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -8934,12 +8934,12 @@
     "level": 4,
     "name": "Fire Shield",
     "range": "Self",
-    "school": "V",
+    "school": "Evocation",
     "source": [
       "PHB",
       242
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -8972,12 +8972,12 @@
     "level": 7,
     "name": "Fire Storm",
     "range": "150 feet",
-    "school": "V",
+    "school": "Evocation",
     "source": [
       "PHB",
       242
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -9018,12 +9018,12 @@
     "level": 3,
     "name": "Fireball",
     "range": "150 feet",
-    "school": "V",
+    "school": "Evocation",
     "source": [
       "PHB",
       241
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -9072,12 +9072,12 @@
     "level": 2,
     "name": "Flame Blade",
     "range": "Self",
-    "school": "V",
+    "school": "Evocation",
     "source": [
       "PHB",
       242
     ],
-    "time": ", or Bonus Action",
+    "time": "Bonus Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -9110,12 +9110,12 @@
     "level": 5,
     "name": "Flame Strike",
     "range": "60 feet",
-    "school": "V",
+    "school": "Evocation",
     "source": [
       "PHB",
       242
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -9164,12 +9164,12 @@
     "level": 2,
     "name": "Flaming Sphere",
     "range": "60 feet",
-    "school": "C",
+    "school": "Conjuration",
     "source": [
       "PHB",
       242
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -9218,12 +9218,12 @@
     "level": 6,
     "name": "Flesh to Stone",
     "range": "60 feet",
-    "school": "T",
+    "school": "Transmutation",
     "source": [
       "PHB",
       243
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -9256,12 +9256,12 @@
     "level": 3,
     "name": "Fly",
     "range": "Touch",
-    "school": "T",
+    "school": "Transmutation",
     "source": [
       "PHB",
       243
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -9294,12 +9294,12 @@
     "level": 1,
     "name": "Fog Cloud",
     "range": "120 feet",
-    "school": "C",
+    "school": "Conjuration",
     "source": [
       "PHB",
       243
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -9348,12 +9348,12 @@
     "level": 6,
     "name": "Forbiddance",
     "range": "Touch",
-    "school": "A",
+    "school": "Abjuration",
     "source": [
       "PHB",
       243
     ],
-    "time": ", or 10 Minutes",
+    "time": "10 Minutes",
     "additional_sources": [],
     "is_ritual": true,
     "is_verbal": true,
@@ -9418,12 +9418,12 @@
     "level": 7,
     "name": "Forcecage",
     "range": "100 feet",
-    "school": "V",
+    "school": "Evocation",
     "source": [
       "PHB",
       243
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -9456,12 +9456,12 @@
     "level": 9,
     "name": "Foresight",
     "range": "Touch",
-    "school": "D",
+    "school": "Divination",
     "source": [
       "PHB",
       244
     ],
-    "time": ", or Minute",
+    "time": "Minute",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -9494,12 +9494,12 @@
     "level": 4,
     "name": "Freedom of Movement",
     "range": "Touch",
-    "school": "A",
+    "school": "Abjuration",
     "source": [
       "PHB",
       244
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -9524,12 +9524,12 @@
     "level": 0,
     "name": "Friends",
     "range": "Self",
-    "school": "E",
+    "school": "Enchantment",
     "source": [
       "PHB",
       244
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": false,
@@ -9570,12 +9570,12 @@
     "level": 3,
     "name": "Gaseous Form",
     "range": "Touch",
-    "school": "T",
+    "school": "Transmutation",
     "source": [
       "PHB",
       244
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -9624,12 +9624,12 @@
     "level": 9,
     "name": "Gate",
     "range": "60 feet",
-    "school": "C",
+    "school": "Conjuration",
     "source": [
       "PHB",
       244
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -9678,12 +9678,12 @@
     "level": 5,
     "name": "Geas",
     "range": "60 feet",
-    "school": "E",
+    "school": "Enchantment",
     "source": [
       "PHB",
       244
     ],
-    "time": ", or Minute",
+    "time": "Minute",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -9716,12 +9716,12 @@
     "level": 2,
     "name": "Gentle Repose",
     "range": "Touch",
-    "school": "N",
+    "school": "Necromancy",
     "source": [
       "PHB",
       245
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": true,
     "is_verbal": true,
@@ -9770,12 +9770,12 @@
     "level": 4,
     "name": "Giant Insect",
     "range": "30 feet",
-    "school": "T",
+    "school": "Transmutation",
     "source": [
       "PHB",
       245
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -9800,12 +9800,12 @@
     "level": 8,
     "name": "Glibness",
     "range": "Self",
-    "school": "T",
+    "school": "Transmutation",
     "source": [
       "PHB",
       245
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -9846,12 +9846,12 @@
     "level": 6,
     "name": "Globe of Invulnerability",
     "range": "Self (10-foot radius)",
-    "school": "A",
+    "school": "Abjuration",
     "source": [
       "PHB",
       245
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -9932,12 +9932,12 @@
     "level": 3,
     "name": "Glyph of Warding",
     "range": "Touch",
-    "school": "A",
+    "school": "Abjuration",
     "source": [
       "PHB",
       245
     ],
-    "time": ", or Hour",
+    "time": "Hour",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -9970,12 +9970,12 @@
     "level": 1,
     "name": "Goodberry",
     "range": "Touch",
-    "school": "T",
+    "school": "Transmutation",
     "source": [
       "PHB",
       246
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -10008,12 +10008,12 @@
     "level": 4,
     "name": "Grasping Vine",
     "range": "30 feet",
-    "school": "C",
+    "school": "Conjuration",
     "source": [
       "PHB",
       246
     ],
-    "time": ", or Bonus Action",
+    "time": "Bonus Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -10046,12 +10046,12 @@
     "level": 1,
     "name": "Grease",
     "range": "60 feet",
-    "school": "C",
+    "school": "Conjuration",
     "source": [
       "PHB",
       246
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -10076,12 +10076,12 @@
     "level": 4,
     "name": "Greater Invisibility",
     "range": "Touch",
-    "school": "I",
+    "school": "Illusion",
     "source": [
       "PHB",
       246
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -10125,12 +10125,12 @@
     "level": 5,
     "name": "Greater Restoration",
     "range": "Touch",
-    "school": "A",
+    "school": "Abjuration",
     "source": [
       "PHB",
       246
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -10163,12 +10163,12 @@
     "level": 4,
     "name": "Guardian of Faith",
     "range": "30 feet",
-    "school": "C",
+    "school": "Conjuration",
     "source": [
       "PHB",
       246
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -10262,12 +10262,12 @@
     "level": 6,
     "name": "Guards and Wards",
     "range": "Touch",
-    "school": "A",
+    "school": "Abjuration",
     "source": [
       "PHB",
       248
     ],
-    "time": ", or 10 Minutes",
+    "time": "10 Minutes",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -10292,12 +10292,12 @@
     "level": 0,
     "name": "Guidance",
     "range": "Touch",
-    "school": "D",
+    "school": "Divination",
     "source": [
       "PHB",
       248
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -10330,12 +10330,12 @@
     "level": 1,
     "name": "Guiding Bolt",
     "range": "120 feet",
-    "school": "V",
+    "school": "Evocation",
     "source": [
       "PHB",
       248
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -10384,12 +10384,12 @@
     "level": 2,
     "name": "Gust of Wind",
     "range": "Self (60-foot line)",
-    "school": "V",
+    "school": "Evocation",
     "source": [
       "PHB",
       248
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -10422,12 +10422,12 @@
     "level": 1,
     "name": "Hail of Thorns",
     "range": "Self",
-    "school": "C",
+    "school": "Conjuration",
     "source": [
       "PHB",
       249
     ],
-    "time": ", or Bonus Action",
+    "time": "Bonus Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -10548,12 +10548,12 @@
     "level": 5,
     "name": "Hallow",
     "range": "Touch",
-    "school": "V",
+    "school": "Evocation",
     "source": [
       "PHB",
       249
     ],
-    "time": ", or 24 Hours",
+    "time": "24 Hours",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -10586,12 +10586,12 @@
     "level": 4,
     "name": "Hallucinatory Terrain",
     "range": "300 feet",
-    "school": "I",
+    "school": "Illusion",
     "source": [
       "PHB",
       249
     ],
-    "time": ", or 10 Minutes",
+    "time": "10 Minutes",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -10616,12 +10616,12 @@
     "level": 6,
     "name": "Harm",
     "range": "60 feet",
-    "school": "N",
+    "school": "Necromancy",
     "source": [
       "PHB",
       249
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -10654,12 +10654,12 @@
     "level": 3,
     "name": "Haste",
     "range": "30 feet",
-    "school": "T",
+    "school": "Transmutation",
     "source": [
       "PHB",
       250
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -10692,12 +10692,12 @@
     "level": 6,
     "name": "Heal",
     "range": "60 feet",
-    "school": "V",
+    "school": "Evocation",
     "source": [
       "PHB",
       250
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -10730,12 +10730,12 @@
     "level": 1,
     "name": "Healing Word",
     "range": "60 feet",
-    "school": "V",
+    "school": "Evocation",
     "source": [
       "PHB",
       250
     ],
-    "time": ", or Bonus Action",
+    "time": "Bonus Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -10776,12 +10776,12 @@
     "level": 2,
     "name": "Heat Metal",
     "range": "60 feet",
-    "school": "T",
+    "school": "Transmutation",
     "source": [
       "PHB",
       250
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -10814,12 +10814,12 @@
     "level": 1,
     "name": "Hellish Rebuke",
     "range": "60 feet",
-    "school": "V",
+    "school": "Evocation",
     "source": [
       "PHB",
       250
     ],
-    "time": ", or Reaction",
+    "time": "Reaction",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -10852,12 +10852,12 @@
     "level": 6,
     "name": "Heroes' Feast",
     "range": "30 feet",
-    "school": "C",
+    "school": "Conjuration",
     "source": [
       "PHB",
       250
     ],
-    "time": ", or 10 Minutes",
+    "time": "10 Minutes",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -10890,12 +10890,12 @@
     "level": 1,
     "name": "Heroism",
     "range": "Touch",
-    "school": "E",
+    "school": "Enchantment",
     "source": [
       "PHB",
       250
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -10944,12 +10944,12 @@
     "level": 1,
     "name": "Hex",
     "range": "90 feet",
-    "school": "E",
+    "school": "Enchantment",
     "source": [
       "PHB",
       251
     ],
-    "time": ", or Bonus Action",
+    "time": "Bonus Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -10982,12 +10982,12 @@
     "level": 5,
     "name": "Hold Monster",
     "range": "90 feet",
-    "school": "E",
+    "school": "Enchantment",
     "source": [
       "PHB",
       251
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -11020,12 +11020,12 @@
     "level": 2,
     "name": "Hold Person",
     "range": "60 feet",
-    "school": "E",
+    "school": "Enchantment",
     "source": [
       "PHB",
       251
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -11050,12 +11050,12 @@
     "level": 8,
     "name": "Holy Aura",
     "range": "Self",
-    "school": "A",
+    "school": "Abjuration",
     "source": [
       "PHB",
       251
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -11088,12 +11088,12 @@
     "level": 3,
     "name": "Hunger of Hadar",
     "range": "150 feet",
-    "school": "C",
+    "school": "Conjuration",
     "source": [
       "PHB",
       251
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -11126,12 +11126,12 @@
     "level": 1,
     "name": "Hunter's Mark",
     "range": "90 feet",
-    "school": "D",
+    "school": "Divination",
     "source": [
       "PHB",
       251
     ],
-    "time": ", or Bonus Action",
+    "time": "Bonus Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -11164,12 +11164,12 @@
     "level": 3,
     "name": "Hypnotic Pattern",
     "range": "120 feet",
-    "school": "I",
+    "school": "Illusion",
     "source": [
       "PHB",
       252
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": false,
@@ -11210,12 +11210,12 @@
     "level": 4,
     "name": "Ice Storm",
     "range": "300 feet",
-    "school": "V",
+    "school": "Evocation",
     "source": [
       "PHB",
       252
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -11248,12 +11248,12 @@
     "level": 1,
     "name": "Identify",
     "range": "Touch",
-    "school": "D",
+    "school": "Divination",
     "source": [
       "PHB",
       252
     ],
-    "time": ", or Minute",
+    "time": "Minute",
     "additional_sources": [],
     "is_ritual": true,
     "is_verbal": true,
@@ -11302,12 +11302,12 @@
     "level": 1,
     "name": "Illusory Script",
     "range": "Touch",
-    "school": "I",
+    "school": "Illusion",
     "source": [
       "PHB",
       252
     ],
-    "time": ", or Minute",
+    "time": "Minute",
     "additional_sources": [],
     "is_ritual": true,
     "is_verbal": false,
@@ -11444,12 +11444,12 @@
     "level": 9,
     "name": "Imprisonment",
     "range": "30 feet",
-    "school": "A",
+    "school": "Abjuration",
     "source": [
       "PHB",
       252
     ],
-    "time": ", or Minute",
+    "time": "Minute",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -11490,12 +11490,12 @@
     "level": 8,
     "name": "Incendiary Cloud",
     "range": "150 feet",
-    "school": "C",
+    "school": "Conjuration",
     "source": [
       "PHB",
       253
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -11528,12 +11528,12 @@
     "level": 1,
     "name": "Inflict Wounds",
     "range": "Touch",
-    "school": "N",
+    "school": "Necromancy",
     "source": [
       "PHB",
       253
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -11574,12 +11574,12 @@
     "level": 5,
     "name": "Insect Plague",
     "range": "300 feet",
-    "school": "C",
+    "school": "Conjuration",
     "source": [
       "PHB",
       254
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -11612,12 +11612,12 @@
     "level": 2,
     "name": "Invisibility",
     "range": "Touch",
-    "school": "I",
+    "school": "Illusion",
     "source": [
       "PHB",
       254
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -11642,12 +11642,12 @@
     "level": 1,
     "name": "Jump",
     "range": "Touch",
-    "school": "T",
+    "school": "Transmutation",
     "source": [
       "PHB",
       254
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -11696,12 +11696,12 @@
     "level": 2,
     "name": "Knock",
     "range": "60 feet",
-    "school": "T",
+    "school": "Transmutation",
     "source": [
       "PHB",
       254
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -11734,12 +11734,12 @@
     "level": 5,
     "name": "Legend Lore",
     "range": "Self",
-    "school": "D",
+    "school": "Divination",
     "source": [
       "PHB",
       254
     ],
-    "time": ", or 10 Minutes",
+    "time": "10 Minutes",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -11780,12 +11780,12 @@
     "level": 4,
     "name": "Leomund's Secret Chest",
     "range": "Touch",
-    "school": "C",
+    "school": "Conjuration",
     "source": [
       "PHB",
       254
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -11826,12 +11826,12 @@
     "level": 3,
     "name": "Leomund's Tiny Hut",
     "range": "Self (10-foot -radius hemisphere)",
-    "school": "V",
+    "school": "Evocation",
     "source": [
       "PHB",
       255
     ],
-    "time": ", or Minute",
+    "time": "Minute",
     "additional_sources": [],
     "is_ritual": true,
     "is_verbal": true,
@@ -11856,12 +11856,12 @@
     "level": 2,
     "name": "Lesser Restoration",
     "range": "Touch",
-    "school": "A",
+    "school": "Abjuration",
     "source": [
       "PHB",
       255
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -11902,12 +11902,12 @@
     "level": 2,
     "name": "Levitate",
     "range": "60 feet",
-    "school": "T",
+    "school": "Transmutation",
     "source": [
       "PHB",
       255
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -11940,12 +11940,12 @@
     "level": 0,
     "name": "Light",
     "range": "Touch",
-    "school": "V",
+    "school": "Evocation",
     "source": [
       "PHB",
       255
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -11994,12 +11994,12 @@
     "level": 3,
     "name": "Lightning Arrow",
     "range": "Self",
-    "school": "T",
+    "school": "Transmutation",
     "source": [
       "PHB",
       255
     ],
-    "time": ", or Bonus Action",
+    "time": "Bonus Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -12040,12 +12040,12 @@
     "level": 3,
     "name": "Lightning Bolt",
     "range": "Self (100-foot line)",
-    "school": "V",
+    "school": "Evocation",
     "source": [
       "PHB",
       255
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -12070,12 +12070,12 @@
     "level": 2,
     "name": "Locate Animals or Plants",
     "range": "Self",
-    "school": "D",
+    "school": "Divination",
     "source": [
       "PHB",
       256
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": true,
     "is_verbal": true,
@@ -12116,12 +12116,12 @@
     "level": 4,
     "name": "Locate Creature",
     "range": "Self",
-    "school": "D",
+    "school": "Divination",
     "source": [
       "PHB",
       256
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -12162,12 +12162,12 @@
     "level": 2,
     "name": "Locate Object",
     "range": "Self",
-    "school": "D",
+    "school": "Divination",
     "source": [
       "PHB",
       256
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -12200,12 +12200,12 @@
     "level": 1,
     "name": "Longstrider",
     "range": "Touch",
-    "school": "T",
+    "school": "Transmutation",
     "source": [
       "PHB",
       256
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -12230,12 +12230,12 @@
     "level": 1,
     "name": "Mage Armor",
     "range": "Touch",
-    "school": "A",
+    "school": "Abjuration",
     "source": [
       "PHB",
       256
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -12276,12 +12276,12 @@
     "level": 0,
     "name": "Mage Hand",
     "range": "30 feet",
-    "school": "C",
+    "school": "Conjuration",
     "source": [
       "PHB",
       256
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -12346,12 +12346,12 @@
     "level": 3,
     "name": "Magic Circle",
     "range": "10 feet",
-    "school": "A",
+    "school": "Abjuration",
     "source": [
       "PHB",
       256
     ],
-    "time": ", or Minute",
+    "time": "Minute",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -12424,12 +12424,12 @@
     "level": 6,
     "name": "Magic Jar",
     "range": "Self",
-    "school": "N",
+    "school": "Necromancy",
     "source": [
       "PHB",
       257
     ],
-    "time": ", or Minute",
+    "time": "Minute",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -12462,12 +12462,12 @@
     "level": 1,
     "name": "Magic Missile",
     "range": "120 feet",
-    "school": "V",
+    "school": "Evocation",
     "source": [
       "PHB",
       257
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -12508,12 +12508,12 @@
     "level": 2,
     "name": "Magic Mouth",
     "range": "30 feet",
-    "school": "I",
+    "school": "Illusion",
     "source": [
       "PHB",
       257
     ],
-    "time": ", or Minute",
+    "time": "Minute",
     "additional_sources": [],
     "is_ritual": true,
     "is_verbal": true,
@@ -12546,12 +12546,12 @@
     "level": 2,
     "name": "Magic Weapon",
     "range": "Touch",
-    "school": "T",
+    "school": "Transmutation",
     "source": [
       "PHB",
       257
     ],
-    "time": ", or Bonus Action",
+    "time": "Bonus Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -12600,12 +12600,12 @@
     "level": 3,
     "name": "Major Image",
     "range": "120 feet",
-    "school": "I",
+    "school": "Illusion",
     "source": [
       "PHB",
       258
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -12638,12 +12638,12 @@
     "level": 5,
     "name": "Mass Cure Wounds",
     "range": "60 feet",
-    "school": "V",
+    "school": "Evocation",
     "source": [
       "PHB",
       258
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -12668,12 +12668,12 @@
     "level": 9,
     "name": "Mass Heal",
     "range": "60 feet",
-    "school": "V",
+    "school": "Evocation",
     "source": [
       "PHB",
       258
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -12706,12 +12706,12 @@
     "level": 3,
     "name": "Mass Healing Word",
     "range": "60 feet",
-    "school": "V",
+    "school": "Evocation",
     "source": [
       "PHB",
       258
     ],
-    "time": ", or Bonus Action",
+    "time": "Bonus Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -12768,12 +12768,12 @@
     "level": 6,
     "name": "Mass Suggestion",
     "range": "60 feet",
-    "school": "E",
+    "school": "Enchantment",
     "source": [
       "PHB",
       258
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -12814,12 +12814,12 @@
     "level": 8,
     "name": "Maze",
     "range": "60 feet",
-    "school": "C",
+    "school": "Conjuration",
     "source": [
       "PHB",
       258
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -12860,12 +12860,12 @@
     "level": 3,
     "name": "Meld into Stone",
     "range": "Touch",
-    "school": "T",
+    "school": "Transmutation",
     "source": [
       "PHB",
       259
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": true,
     "is_verbal": true,
@@ -12898,12 +12898,12 @@
     "level": 2,
     "name": "Melf's Acid Arrow",
     "range": "90 feet",
-    "school": "V",
+    "school": "Evocation",
     "source": [
       "PHB",
       259
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -12936,12 +12936,12 @@
     "level": 0,
     "name": "Mending",
     "range": "Touch",
-    "school": "T",
+    "school": "Transmutation",
     "source": [
       "PHB",
       259
     ],
-    "time": ", or Minute",
+    "time": "Minute",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -12974,12 +12974,12 @@
     "level": 0,
     "name": "Message",
     "range": "120 feet",
-    "school": "T",
+    "school": "Transmutation",
     "source": [
       "PHB",
       259
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -13012,12 +13012,12 @@
     "level": 9,
     "name": "Meteor Swarm",
     "range": "1 miles",
-    "school": "V",
+    "school": "Evocation",
     "source": [
       "PHB",
       259
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -13042,12 +13042,12 @@
     "level": 8,
     "name": "Mind Blank",
     "range": "Touch",
-    "school": "A",
+    "school": "Abjuration",
     "source": [
       "PHB",
       259
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -13096,12 +13096,12 @@
     "level": 0,
     "name": "Minor Illusion",
     "range": "30 feet",
-    "school": "I",
+    "school": "Illusion",
     "source": [
       "PHB",
       260
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": false,
@@ -13150,12 +13150,12 @@
     "level": 7,
     "name": "Mirage Arcane",
     "range": "Sight",
-    "school": "I",
+    "school": "Illusion",
     "source": [
       "PHB",
       260
     ],
-    "time": ", or 10 Minutes",
+    "time": "10 Minutes",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -13212,12 +13212,12 @@
     "level": 2,
     "name": "Mirror Image",
     "range": "Self",
-    "school": "I",
+    "school": "Illusion",
     "source": [
       "PHB",
       260
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -13258,12 +13258,12 @@
     "level": 5,
     "name": "Mislead",
     "range": "Self",
-    "school": "I",
+    "school": "Illusion",
     "source": [
       "PHB",
       260
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": false,
@@ -13288,12 +13288,12 @@
     "level": 2,
     "name": "Misty Step",
     "range": "Self",
-    "school": "C",
+    "school": "Conjuration",
     "source": [
       "PHB",
       260
     ],
-    "time": ", or Bonus Action",
+    "time": "Bonus Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -13358,12 +13358,12 @@
     "level": 5,
     "name": "Modify Memory",
     "range": "30 feet",
-    "school": "E",
+    "school": "Enchantment",
     "source": [
       "PHB",
       261
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -13420,12 +13420,12 @@
     "level": 2,
     "name": "Moonbeam",
     "range": "120 feet",
-    "school": "V",
+    "school": "Evocation",
     "source": [
       "PHB",
       261
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -13466,12 +13466,12 @@
     "level": 4,
     "name": "Mordenkainen's Faithful Hound",
     "range": "30 feet",
-    "school": "C",
+    "school": "Conjuration",
     "source": [
       "PHB",
       261
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -13512,12 +13512,12 @@
     "level": 7,
     "name": "Mordenkainen's Magnificent Mansion",
     "range": "300 feet",
-    "school": "C",
+    "school": "Conjuration",
     "source": [
       "PHB",
       261
     ],
-    "time": ", or Minute",
+    "time": "Minute",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -13591,12 +13591,12 @@
     "level": 4,
     "name": "Mordenkainen's Private Sanctum",
     "range": "120 feet",
-    "school": "A",
+    "school": "Abjuration",
     "source": [
       "PHB",
       262
     ],
-    "time": ", or 10 Minutes",
+    "time": "10 Minutes",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -13629,12 +13629,12 @@
     "level": 7,
     "name": "Mordenkainen's Sword",
     "range": "60 feet",
-    "school": "V",
+    "school": "Evocation",
     "source": [
       "PHB",
       262
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -13691,12 +13691,12 @@
     "level": 6,
     "name": "Move Earth",
     "range": "120 feet",
-    "school": "T",
+    "school": "Transmutation",
     "source": [
       "PHB",
       263
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -13721,12 +13721,12 @@
     "level": 3,
     "name": "Nondetection",
     "range": "Touch",
-    "school": "A",
+    "school": "Abjuration",
     "source": [
       "PHB",
       263
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -13775,12 +13775,12 @@
     "level": 2,
     "name": "Nystul's Magic Aura",
     "range": "Touch",
-    "school": "I",
+    "school": "Illusion",
     "source": [
       "PHB",
       263
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -13829,12 +13829,12 @@
     "level": 6,
     "name": "Otiluke's Freezing Sphere",
     "range": "300 feet",
-    "school": "V",
+    "school": "Evocation",
     "source": [
       "PHB",
       263
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -13883,12 +13883,12 @@
     "level": 4,
     "name": "Otiluke's Resilient Sphere",
     "range": "30 feet",
-    "school": "V",
+    "school": "Evocation",
     "source": [
       "PHB",
       264
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -13921,12 +13921,12 @@
     "level": 6,
     "name": "Otto's Irresistible Dance",
     "range": "30 feet",
-    "school": "E",
+    "school": "Enchantment",
     "source": [
       "PHB",
       264
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -13951,12 +13951,12 @@
     "level": 2,
     "name": "Pass without Trace",
     "range": "Self",
-    "school": "A",
+    "school": "Abjuration",
     "source": [
       "PHB",
       264
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -13989,12 +13989,12 @@
     "level": 5,
     "name": "Passwall",
     "range": "30 feet",
-    "school": "T",
+    "school": "Transmutation",
     "source": [
       "PHB",
       264
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -14051,12 +14051,12 @@
     "level": 2,
     "name": "Phantasmal Force",
     "range": "60 feet",
-    "school": "I",
+    "school": "Illusion",
     "source": [
       "PHB",
       264
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -14089,12 +14089,12 @@
     "level": 4,
     "name": "Phantasmal Killer",
     "range": "120 feet",
-    "school": "I",
+    "school": "Illusion",
     "source": [
       "PHB",
       265
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -14127,12 +14127,12 @@
     "level": 3,
     "name": "Phantom Steed",
     "range": "30 feet",
-    "school": "I",
+    "school": "Illusion",
     "source": [
       "PHB",
       265
     ],
-    "time": ", or Minute",
+    "time": "Minute",
     "additional_sources": [],
     "is_ritual": true,
     "is_verbal": true,
@@ -14197,12 +14197,12 @@
     "level": 6,
     "name": "Planar Ally",
     "range": "60 feet",
-    "school": "C",
+    "school": "Conjuration",
     "source": [
       "PHB",
       265
     ],
-    "time": ", or 10 Minutes",
+    "time": "10 Minutes",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -14243,12 +14243,12 @@
     "level": 5,
     "name": "Planar Binding",
     "range": "60 feet",
-    "school": "A",
+    "school": "Abjuration",
     "source": [
       "PHB",
       265
     ],
-    "time": ", or Hour",
+    "time": "Hour",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -14289,12 +14289,12 @@
     "level": 7,
     "name": "Plane Shift",
     "range": "Touch",
-    "school": "C",
+    "school": "Conjuration",
     "source": [
       "PHB",
       266
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -14343,7 +14343,7 @@
     "level": 3,
     "name": "Plant Growth",
     "range": "150 feet",
-    "school": "T",
+    "school": "Transmutation",
     "source": [
       "PHB",
       266
@@ -14381,12 +14381,12 @@
     "level": 0,
     "name": "Poison Spray",
     "range": "10 feet",
-    "school": "C",
+    "school": "Conjuration",
     "source": [
       "PHB",
       266
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -14443,12 +14443,12 @@
     "level": 4,
     "name": "Polymorph",
     "range": "60 feet",
-    "school": "T",
+    "school": "Transmutation",
     "source": [
       "PHB",
       266
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -14473,12 +14473,12 @@
     "level": 9,
     "name": "Power Word Heal",
     "range": "Touch",
-    "school": "V",
+    "school": "Evocation",
     "source": [
       "PHB",
       266
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -14503,12 +14503,12 @@
     "level": 9,
     "name": "Power Word Kill",
     "range": "60 feet",
-    "school": "E",
+    "school": "Enchantment",
     "source": [
       "PHB",
       266
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -14541,12 +14541,12 @@
     "level": 8,
     "name": "Power Word Stun",
     "range": "60 feet",
-    "school": "E",
+    "school": "Enchantment",
     "source": [
       "PHB",
       267
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -14579,12 +14579,12 @@
     "level": 2,
     "name": "Prayer of Healing",
     "range": "30 feet",
-    "school": "V",
+    "school": "Evocation",
     "source": [
       "PHB",
       267
     ],
-    "time": ", or 10 Minutes",
+    "time": "10 Minutes",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -14642,12 +14642,12 @@
     "level": 0,
     "name": "Prestidigitation",
     "range": "10 feet",
-    "school": "T",
+    "school": "Transmutation",
     "source": [
       "PHB",
       267
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -14736,12 +14736,12 @@
     "level": 7,
     "name": "Prismatic Spray",
     "range": "Self (60-foot cone)",
-    "school": "V",
+    "school": "Evocation",
     "source": [
       "PHB",
       267
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -14847,12 +14847,12 @@
     "level": 9,
     "name": "Prismatic Wall",
     "range": "60 feet",
-    "school": "A",
+    "school": "Abjuration",
     "source": [
       "PHB",
       267
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -14893,12 +14893,12 @@
     "level": 0,
     "name": "Produce Flame",
     "range": "Self",
-    "school": "C",
+    "school": "Conjuration",
     "source": [
       "PHB",
       269
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -14947,12 +14947,12 @@
     "level": 6,
     "name": "Programmed Illusion",
     "range": "120 feet",
-    "school": "I",
+    "school": "Illusion",
     "source": [
       "PHB",
       269
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -15001,12 +15001,12 @@
     "level": 7,
     "name": "Project Image",
     "range": "500 miles",
-    "school": "I",
+    "school": "Illusion",
     "source": [
       "PHB",
       270
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -15031,12 +15031,12 @@
     "level": 3,
     "name": "Protection from Energy",
     "range": "Touch",
-    "school": "A",
+    "school": "Abjuration",
     "source": [
       "PHB",
       270
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -15069,12 +15069,12 @@
     "level": 1,
     "name": "Protection from Evil and Good",
     "range": "Touch",
-    "school": "A",
+    "school": "Abjuration",
     "source": [
       "PHB",
       270
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -15107,12 +15107,12 @@
     "level": 2,
     "name": "Protection from Poison",
     "range": "Touch",
-    "school": "A",
+    "school": "Abjuration",
     "source": [
       "PHB",
       270
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -15137,12 +15137,12 @@
     "level": 1,
     "name": "Purify Food and Drink",
     "range": "10 feet",
-    "school": "T",
+    "school": "Transmutation",
     "source": [
       "PHB",
       270
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": true,
     "is_verbal": true,
@@ -15191,12 +15191,12 @@
     "level": 5,
     "name": "Raise Dead",
     "range": "Touch",
-    "school": "N",
+    "school": "Necromancy",
     "source": [
       "PHB",
       270
     ],
-    "time": ", or Hour",
+    "time": "Hour",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -15229,12 +15229,12 @@
     "level": 5,
     "name": "Rary's Telepathic Bond",
     "range": "30 feet",
-    "school": "D",
+    "school": "Divination",
     "source": [
       "PHB",
       270
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": true,
     "is_verbal": true,
@@ -15267,12 +15267,12 @@
     "level": 2,
     "name": "Ray of Enfeeblement",
     "range": "60 feet",
-    "school": "N",
+    "school": "Necromancy",
     "source": [
       "PHB",
       271
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -15305,12 +15305,12 @@
     "level": 0,
     "name": "Ray of Frost",
     "range": "60 feet",
-    "school": "V",
+    "school": "Evocation",
     "source": [
       "PHB",
       271
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -15343,12 +15343,12 @@
     "level": 1,
     "name": "Ray of Sickness",
     "range": "60 feet",
-    "school": "N",
+    "school": "Necromancy",
     "source": [
       "PHB",
       271
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -15381,12 +15381,12 @@
     "level": 7,
     "name": "Regenerate",
     "range": "Touch",
-    "school": "T",
+    "school": "Transmutation",
     "source": [
       "PHB",
       271
     ],
-    "time": ", or Minute",
+    "time": "Minute",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -15587,12 +15587,12 @@
     "level": 5,
     "name": "Reincarnate",
     "range": "Touch",
-    "school": "T",
+    "school": "Transmutation",
     "source": [
       "PHB",
       271
     ],
-    "time": ", or Hour",
+    "time": "Hour",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -15617,12 +15617,12 @@
     "level": 3,
     "name": "Remove Curse",
     "range": "Touch",
-    "school": "A",
+    "school": "Abjuration",
     "source": [
       "PHB",
       271
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -15647,12 +15647,12 @@
     "level": 0,
     "name": "Resistance",
     "range": "Touch",
-    "school": "A",
+    "school": "Abjuration",
     "source": [
       "PHB",
       272
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -15709,12 +15709,12 @@
     "level": 7,
     "name": "Resurrection",
     "range": "Touch",
-    "school": "N",
+    "school": "Necromancy",
     "source": [
       "PHB",
       272
     ],
-    "time": ", or Hour",
+    "time": "Hour",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -15755,12 +15755,12 @@
     "level": 7,
     "name": "Reverse Gravity",
     "range": "100 feet",
-    "school": "T",
+    "school": "Transmutation",
     "source": [
       "PHB",
       272
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -15785,12 +15785,12 @@
     "level": 3,
     "name": "Revivify",
     "range": "Touch",
-    "school": "N",
+    "school": "Necromancy",
     "source": [
       "PHB",
       272
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -15839,12 +15839,12 @@
     "level": 2,
     "name": "Rope Trick",
     "range": "Touch",
-    "school": "T",
+    "school": "Transmutation",
     "source": [
       "PHB",
       272
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -15877,12 +15877,12 @@
     "level": 0,
     "name": "Sacred Flame",
     "range": "60 feet",
-    "school": "V",
+    "school": "Evocation",
     "source": [
       "PHB",
       272
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -15915,12 +15915,12 @@
     "level": 1,
     "name": "Sanctuary",
     "range": "30 feet",
-    "school": "A",
+    "school": "Abjuration",
     "source": [
       "PHB",
       272
     ],
-    "time": ", or Bonus Action",
+    "time": "Bonus Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -15961,12 +15961,12 @@
     "level": 2,
     "name": "Scorching Ray",
     "range": "120 feet",
-    "school": "V",
+    "school": "Evocation",
     "source": [
       "PHB",
       273
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -16073,12 +16073,12 @@
     "level": 5,
     "name": "Scrying",
     "range": "Self",
-    "school": "D",
+    "school": "Divination",
     "source": [
       "PHB",
       273
     ],
-    "time": ", or 10 Minutes",
+    "time": "10 Minutes",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -16111,12 +16111,12 @@
     "level": 1,
     "name": "Searing Smite",
     "range": "Self",
-    "school": "V",
+    "school": "Evocation",
     "source": [
       "PHB",
       274
     ],
-    "time": ", or Bonus Action",
+    "time": "Bonus Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -16141,12 +16141,12 @@
     "level": 2,
     "name": "See Invisibility",
     "range": "Self",
-    "school": "D",
+    "school": "Divination",
     "source": [
       "PHB",
       274
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -16195,12 +16195,12 @@
     "level": 5,
     "name": "Seeming",
     "range": "30 feet",
-    "school": "I",
+    "school": "Illusion",
     "source": [
       "PHB",
       274
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -16233,12 +16233,12 @@
     "level": 3,
     "name": "Sending",
     "range": "Unlimited",
-    "school": "V",
+    "school": "Evocation",
     "source": [
       "PHB",
       274
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -16279,12 +16279,12 @@
     "level": 7,
     "name": "Sequester",
     "range": "Touch",
-    "school": "T",
+    "school": "Transmutation",
     "source": [
       "PHB",
       274
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -16349,12 +16349,12 @@
     "level": 9,
     "name": "Shapechange",
     "range": "Self",
-    "school": "T",
+    "school": "Transmutation",
     "source": [
       "PHB",
       274
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -16395,12 +16395,12 @@
     "level": 2,
     "name": "Shatter",
     "range": "60 feet",
-    "school": "V",
+    "school": "Evocation",
     "source": [
       "PHB",
       275
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -16425,12 +16425,12 @@
     "level": 1,
     "name": "Shield",
     "range": "Self",
-    "school": "A",
+    "school": "Abjuration",
     "source": [
       "PHB",
       275
     ],
-    "time": ", or Reaction",
+    "time": "Reaction",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -16455,12 +16455,12 @@
     "level": 1,
     "name": "Shield of Faith",
     "range": "60 feet",
-    "school": "A",
+    "school": "Abjuration",
     "source": [
       "PHB",
       275
     ],
-    "time": ", or Bonus Action",
+    "time": "Bonus Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -16485,12 +16485,12 @@
     "level": 0,
     "name": "Shillelagh",
     "range": "Touch",
-    "school": "T",
+    "school": "Transmutation",
     "source": [
       "PHB",
       275
     ],
-    "time": ", or Bonus Action",
+    "time": "Bonus Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -16523,12 +16523,12 @@
     "level": 0,
     "name": "Shocking Grasp",
     "range": "Touch",
-    "school": "V",
+    "school": "Evocation",
     "source": [
       "PHB",
       275
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -16553,12 +16553,12 @@
     "level": 2,
     "name": "Silence",
     "range": "120 feet",
-    "school": "I",
+    "school": "Illusion",
     "source": [
       "PHB",
       275
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": true,
     "is_verbal": true,
@@ -16599,12 +16599,12 @@
     "level": 1,
     "name": "Silent Image",
     "range": "60 feet",
-    "school": "I",
+    "school": "Illusion",
     "source": [
       "PHB",
       276
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -16653,12 +16653,12 @@
     "level": 7,
     "name": "Simulacrum",
     "range": "Touch",
-    "school": "I",
+    "school": "Illusion",
     "source": [
       "PHB",
       276
     ],
-    "time": ", or 12 Hours",
+    "time": "12 Hours",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -16707,12 +16707,12 @@
     "level": 1,
     "name": "Sleep",
     "range": "90 feet",
-    "school": "E",
+    "school": "Enchantment",
     "source": [
       "PHB",
       276
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -16753,12 +16753,12 @@
     "level": 3,
     "name": "Sleet Storm",
     "range": "150 feet",
-    "school": "C",
+    "school": "Conjuration",
     "source": [
       "PHB",
       276
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -16807,12 +16807,12 @@
     "level": 3,
     "name": "Slow",
     "range": "120 feet",
-    "school": "T",
+    "school": "Transmutation",
     "source": [
       "PHB",
       277
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -16837,12 +16837,12 @@
     "level": 0,
     "name": "Spare the Dying",
     "range": "Touch",
-    "school": "N",
+    "school": "Necromancy",
     "source": [
       "PHB",
       277
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -16867,12 +16867,12 @@
     "level": 1,
     "name": "Speak with Animals",
     "range": "Self",
-    "school": "D",
+    "school": "Divination",
     "source": [
       "PHB",
       277
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": true,
     "is_verbal": true,
@@ -16905,12 +16905,12 @@
     "level": 3,
     "name": "Speak with Dead",
     "range": "10 feet",
-    "school": "N",
+    "school": "Necromancy",
     "source": [
       "PHB",
       277
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -16967,12 +16967,12 @@
     "level": 3,
     "name": "Speak with Plants",
     "range": "Self (30-foot radius)",
-    "school": "T",
+    "school": "Transmutation",
     "source": [
       "PHB",
       277
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -16997,12 +16997,12 @@
     "level": 2,
     "name": "Spider Climb",
     "range": "Touch",
-    "school": "T",
+    "school": "Transmutation",
     "source": [
       "PHB",
       277
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -17035,12 +17035,12 @@
     "level": 2,
     "name": "Spike Growth",
     "range": "150 feet",
-    "school": "T",
+    "school": "Transmutation",
     "source": [
       "PHB",
       277
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -17081,12 +17081,12 @@
     "level": 3,
     "name": "Spirit Guardians",
     "range": "Self (15-foot radius)",
-    "school": "C",
+    "school": "Conjuration",
     "source": [
       "PHB",
       278
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -17135,12 +17135,12 @@
     "level": 2,
     "name": "Spiritual Weapon",
     "range": "60 feet",
-    "school": "V",
+    "school": "Evocation",
     "source": [
       "PHB",
       278
     ],
-    "time": ", or Bonus Action",
+    "time": "Bonus Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -17165,12 +17165,12 @@
     "level": 4,
     "name": "Staggering Smite",
     "range": "Self",
-    "school": "V",
+    "school": "Evocation",
     "source": [
       "PHB",
       278
     ],
-    "time": ", or Bonus Action",
+    "time": "Bonus Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -17211,12 +17211,12 @@
     "level": 3,
     "name": "Stinking Cloud",
     "range": "90 feet",
-    "school": "C",
+    "school": "Conjuration",
     "source": [
       "PHB",
       278
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -17241,12 +17241,12 @@
     "level": 4,
     "name": "Stone Shape",
     "range": "Touch",
-    "school": "T",
+    "school": "Transmutation",
     "source": [
       "PHB",
       278
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -17271,12 +17271,12 @@
     "level": 4,
     "name": "Stoneskin",
     "range": "Touch",
-    "school": "A",
+    "school": "Abjuration",
     "source": [
       "PHB",
       278
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -17341,12 +17341,12 @@
     "level": 9,
     "name": "Storm of Vengeance",
     "range": "Sight",
-    "school": "C",
+    "school": "Conjuration",
     "source": [
       "PHB",
       279
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -17395,12 +17395,12 @@
     "level": 2,
     "name": "Suggestion",
     "range": "30 feet",
-    "school": "E",
+    "school": "Enchantment",
     "source": [
       "PHB",
       279
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -17441,12 +17441,12 @@
     "level": 6,
     "name": "Sunbeam",
     "range": "Self (60-foot line)",
-    "school": "V",
+    "school": "Evocation",
     "source": [
       "PHB",
       279
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -17487,12 +17487,12 @@
     "level": 8,
     "name": "Sunburst",
     "range": "150 feet",
-    "school": "V",
+    "school": "Evocation",
     "source": [
       "PHB",
       279
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -17525,12 +17525,12 @@
     "level": 5,
     "name": "Swift Quiver",
     "range": "Touch",
-    "school": "T",
+    "school": "Transmutation",
     "source": [
       "PHB",
       279
     ],
-    "time": ", or Bonus Action",
+    "time": "Bonus Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -17651,12 +17651,12 @@
     "level": 7,
     "name": "Symbol",
     "range": "Touch",
-    "school": "A",
+    "school": "Abjuration",
     "source": [
       "PHB",
       280
     ],
-    "time": ", or Minute",
+    "time": "Minute",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -17689,12 +17689,12 @@
     "level": 1,
     "name": "Tasha's Hideous Laughter",
     "range": "30 feet",
-    "school": "E",
+    "school": "Enchantment",
     "source": [
       "PHB",
       280
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -17738,12 +17738,12 @@
     "level": 5,
     "name": "Telekinesis",
     "range": "60 feet",
-    "school": "T",
+    "school": "Transmutation",
     "source": [
       "PHB",
       280
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -17776,12 +17776,12 @@
     "level": 8,
     "name": "Telepathy",
     "range": "Unlimited",
-    "school": "V",
+    "school": "Evocation",
     "source": [
       "PHB",
       281
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -17942,12 +17942,12 @@
     "level": 7,
     "name": "Teleport",
     "range": "10 feet",
-    "school": "C",
+    "school": "Conjuration",
     "source": [
       "PHB",
       281
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -17988,12 +17988,12 @@
     "level": 5,
     "name": "Teleportation Circle",
     "range": "10 feet",
-    "school": "C",
+    "school": "Conjuration",
     "source": [
       "PHB",
       282
     ],
-    "time": ", or Minute",
+    "time": "Minute",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -18034,12 +18034,12 @@
     "level": 1,
     "name": "Tenser's Floating Disk",
     "range": "30 feet",
-    "school": "C",
+    "school": "Conjuration",
     "source": [
       "PHB",
       282
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": true,
     "is_verbal": true,
@@ -18097,12 +18097,12 @@
     "level": 0,
     "name": "Thaumaturgy",
     "range": "30 feet",
-    "school": "T",
+    "school": "Transmutation",
     "source": [
       "PHB",
       282
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -18135,12 +18135,12 @@
     "level": 0,
     "name": "Thorn Whip",
     "range": "30 feet",
-    "school": "T",
+    "school": "Transmutation",
     "source": [
       "PHB",
       282
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -18165,12 +18165,12 @@
     "level": 1,
     "name": "Thunderous Smite",
     "range": "Self",
-    "school": "V",
+    "school": "Evocation",
     "source": [
       "PHB",
       282
     ],
-    "time": ", or Bonus Action",
+    "time": "Bonus Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -18211,12 +18211,12 @@
     "level": 1,
     "name": "Thunderwave",
     "range": "Self (15-foot cube)",
-    "school": "V",
+    "school": "Evocation",
     "source": [
       "PHB",
       282
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -18249,12 +18249,12 @@
     "level": 9,
     "name": "Time Stop",
     "range": "Self",
-    "school": "T",
+    "school": "Transmutation",
     "source": [
       "PHB",
       283
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -18279,12 +18279,12 @@
     "level": 3,
     "name": "Tongues",
     "range": "Touch",
-    "school": "D",
+    "school": "Divination",
     "source": [
       "PHB",
       283
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -18309,12 +18309,12 @@
     "level": 6,
     "name": "Transport via Plants",
     "range": "10 feet",
-    "school": "C",
+    "school": "Conjuration",
     "source": [
       "PHB",
       283
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -18347,12 +18347,12 @@
     "level": 5,
     "name": "Tree Stride",
     "range": "Self",
-    "school": "C",
+    "school": "Conjuration",
     "source": [
       "PHB",
       283
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -18441,12 +18441,12 @@
     "level": 9,
     "name": "True Polymorph",
     "range": "30 feet",
-    "school": "T",
+    "school": "Transmutation",
     "source": [
       "PHB",
       283
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -18487,12 +18487,12 @@
     "level": 9,
     "name": "True Resurrection",
     "range": "Touch",
-    "school": "N",
+    "school": "Necromancy",
     "source": [
       "PHB",
       284
     ],
-    "time": ", or Hour",
+    "time": "Hour",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -18517,12 +18517,12 @@
     "level": 6,
     "name": "True Seeing",
     "range": "Touch",
-    "school": "D",
+    "school": "Divination",
     "source": [
       "PHB",
       284
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -18547,12 +18547,12 @@
     "level": 0,
     "name": "True Strike",
     "range": "30 feet",
-    "school": "D",
+    "school": "Divination",
     "source": [
       "PHB",
       284
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": false,
@@ -18601,12 +18601,12 @@
     "level": 8,
     "name": "Tsunami",
     "range": "Sight",
-    "school": "C",
+    "school": "Conjuration",
     "source": [
       "PHB",
       284
     ],
-    "time": ", or Minute",
+    "time": "Minute",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -18647,12 +18647,12 @@
     "level": 1,
     "name": "Unseen Servant",
     "range": "60 feet",
-    "school": "C",
+    "school": "Conjuration",
     "source": [
       "PHB",
       284
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": true,
     "is_verbal": true,
@@ -18685,12 +18685,12 @@
     "level": 3,
     "name": "Vampiric Touch",
     "range": "Self",
-    "school": "N",
+    "school": "Necromancy",
     "source": [
       "PHB",
       285
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -18723,12 +18723,12 @@
     "level": 0,
     "name": "Vicious Mockery",
     "range": "60 feet",
-    "school": "E",
+    "school": "Enchantment",
     "source": [
       "PHB",
       285
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -18777,12 +18777,12 @@
     "level": 4,
     "name": "Wall of Fire",
     "range": "120 feet",
-    "school": "V",
+    "school": "Evocation",
     "source": [
       "PHB",
       285
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -18815,12 +18815,12 @@
     "level": 5,
     "name": "Wall of Force",
     "range": "120 feet",
-    "school": "V",
+    "school": "Evocation",
     "source": [
       "PHB",
       285
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -18869,12 +18869,12 @@
     "level": 6,
     "name": "Wall of Ice",
     "range": "120 feet",
-    "school": "V",
+    "school": "Evocation",
     "source": [
       "PHB",
       285
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -18939,12 +18939,12 @@
     "level": 5,
     "name": "Wall of Stone",
     "range": "120 feet",
-    "school": "V",
+    "school": "Evocation",
     "source": [
       "PHB",
       287
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -18993,12 +18993,12 @@
     "level": 6,
     "name": "Wall of Thorns",
     "range": "120 feet",
-    "school": "C",
+    "school": "Conjuration",
     "source": [
       "PHB",
       287
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -19031,12 +19031,12 @@
     "level": 2,
     "name": "Warding Bond",
     "range": "Touch",
-    "school": "A",
+    "school": "Abjuration",
     "source": [
       "PHB",
       287
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -19061,12 +19061,12 @@
     "level": 3,
     "name": "Water Breathing",
     "range": "30 feet",
-    "school": "T",
+    "school": "Transmutation",
     "source": [
       "PHB",
       287
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": true,
     "is_verbal": true,
@@ -19099,12 +19099,12 @@
     "level": 3,
     "name": "Water Walk",
     "range": "30 feet",
-    "school": "T",
+    "school": "Transmutation",
     "source": [
       "PHB",
       287
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": true,
     "is_verbal": true,
@@ -19161,12 +19161,12 @@
     "level": 2,
     "name": "Web",
     "range": "60 feet",
-    "school": "C",
+    "school": "Conjuration",
     "source": [
       "PHB",
       287
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -19191,12 +19191,12 @@
     "level": 9,
     "name": "Weird",
     "range": "120 feet",
-    "school": "I",
+    "school": "Illusion",
     "source": [
       "PHB",
       288
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -19229,12 +19229,12 @@
     "level": 6,
     "name": "Wind Walk",
     "range": "30 feet",
-    "school": "T",
+    "school": "Transmutation",
     "source": [
       "PHB",
       288
     ],
-    "time": ", or Minute",
+    "time": "Minute",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -19275,12 +19275,12 @@
     "level": 3,
     "name": "Wind Wall",
     "range": "120 feet",
-    "school": "V",
+    "school": "Evocation",
     "source": [
       "PHB",
       288
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -19351,12 +19351,12 @@
     "level": 9,
     "name": "Wish",
     "range": "Self",
-    "school": "C",
+    "school": "Conjuration",
     "source": [
       "PHB",
       288
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -19389,12 +19389,12 @@
     "level": 1,
     "name": "Witch Bolt",
     "range": "30 feet",
-    "school": "V",
+    "school": "Evocation",
     "source": [
       "PHB",
       289
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -19427,12 +19427,12 @@
     "level": 6,
     "name": "Word of Recall",
     "range": "5 feet",
-    "school": "C",
+    "school": "Conjuration",
     "source": [
       "PHB",
       289
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -19457,12 +19457,12 @@
     "level": 1,
     "name": "Wrathful Smite",
     "range": "Self",
-    "school": "V",
+    "school": "Evocation",
     "source": [
       "PHB",
       289
     ],
-    "time": ", or Bonus Action",
+    "time": "Bonus Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -19495,12 +19495,12 @@
     "level": 2,
     "name": "Zone of Truth",
     "range": "60 feet",
-    "school": "E",
+    "school": "Enchantment",
     "source": [
       "PHB",
       289
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -19525,12 +19525,12 @@
     "level": 2,
     "name": "Borrowed Knowledge",
     "range": "Self",
-    "school": "D",
+    "school": "Divination",
     "source": [
       "SCC",
       37
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -19571,12 +19571,12 @@
     "level": 2,
     "name": "Kinetic Jaunt",
     "range": "Self",
-    "school": "T",
+    "school": "Transmutation",
     "source": [
       "SCC",
       37
     ],
-    "time": ", or Bonus Action",
+    "time": "Bonus Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": false,
@@ -19609,12 +19609,12 @@
     "level": 1,
     "name": "Silvery Barbs",
     "range": "60 feet",
-    "school": "E",
+    "school": "Enchantment",
     "source": [
       "SCC",
       38
     ],
-    "time": ", or Reaction",
+    "time": "Reaction",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -19647,12 +19647,12 @@
     "level": 2,
     "name": "Vortex Warp",
     "range": "90 feet",
-    "school": "C",
+    "school": "Conjuration",
     "source": [
       "SCC",
       38
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -19693,12 +19693,12 @@
     "level": 2,
     "name": "Wither and Bloom",
     "range": "60 feet",
-    "school": "N",
+    "school": "Necromancy",
     "source": [
       "SCC",
       38
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -19739,12 +19739,12 @@
     "level": 9,
     "name": "Blade of Disaster",
     "range": "60 feet",
-    "school": "C",
+    "school": "Conjuration",
     "source": [
       "TCE",
       106
     ],
-    "time": ", or Bonus Action",
+    "time": "Bonus Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -19777,12 +19777,12 @@
     "level": 0,
     "name": "Booming Blade",
     "range": "Self (5-foot radius)",
-    "school": "V",
+    "school": "Evocation",
     "source": [
       "TCE",
       106
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": false,
@@ -19823,12 +19823,12 @@
     "level": 7,
     "name": "Dream of the Blue Veil",
     "range": "20 feet",
-    "school": "C",
+    "school": "Conjuration",
     "source": [
       "TCE",
       106
     ],
-    "time": ", or 10 Minutes",
+    "time": "10 Minutes",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -19861,12 +19861,12 @@
     "level": 0,
     "name": "Green-Flame Blade",
     "range": "Self (5-foot radius)",
-    "school": "V",
+    "school": "Evocation",
     "source": [
       "TCE",
       107
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": false,
@@ -19899,12 +19899,12 @@
     "level": 3,
     "name": "Intellect Fortress",
     "range": "30 feet",
-    "school": "A",
+    "school": "Abjuration",
     "source": [
       "TCE",
       107
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -19937,12 +19937,12 @@
     "level": 0,
     "name": "Lightning Lure",
     "range": "Self (15-foot radius)",
-    "school": "V",
+    "school": "Evocation",
     "source": [
       "TCE",
       107
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -19975,12 +19975,12 @@
     "level": 0,
     "name": "Mind Sliver",
     "range": "60 feet",
-    "school": "E",
+    "school": "Enchantment",
     "source": [
       "TCE",
       108
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -20029,12 +20029,12 @@
     "level": 3,
     "name": "Spirit Shroud",
     "range": "Self",
-    "school": "N",
+    "school": "Necromancy",
     "source": [
       "TCE",
       108
     ],
-    "time": ", or Bonus Action",
+    "time": "Bonus Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -20075,12 +20075,12 @@
     "level": 4,
     "name": "Summon Aberration",
     "range": "90 feet",
-    "school": "C",
+    "school": "Conjuration",
     "source": [
       "TCE",
       109
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -20121,12 +20121,12 @@
     "level": 2,
     "name": "Summon Beast",
     "range": "90 feet",
-    "school": "C",
+    "school": "Conjuration",
     "source": [
       "TCE",
       109
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -20167,12 +20167,12 @@
     "level": 5,
     "name": "Summon Celestial",
     "range": "90 feet",
-    "school": "C",
+    "school": "Conjuration",
     "source": [
       "TCE",
       110
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -20213,12 +20213,12 @@
     "level": 4,
     "name": "Summon Construct",
     "range": "90 feet",
-    "school": "C",
+    "school": "Conjuration",
     "source": [
       "TCE",
       111
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -20259,12 +20259,12 @@
     "level": 4,
     "name": "Summon Elemental",
     "range": "90 feet",
-    "school": "C",
+    "school": "Conjuration",
     "source": [
       "TCE",
       111
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -20305,12 +20305,12 @@
     "level": 3,
     "name": "Summon Fey",
     "range": "90 feet",
-    "school": "C",
+    "school": "Conjuration",
     "source": [
       "TCE",
       112
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -20351,12 +20351,12 @@
     "level": 6,
     "name": "Summon Fiend",
     "range": "90 feet",
-    "school": "C",
+    "school": "Conjuration",
     "source": [
       "TCE",
       112
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -20397,12 +20397,12 @@
     "level": 3,
     "name": "Summon Shadowspawn",
     "range": "90 feet",
-    "school": "C",
+    "school": "Conjuration",
     "source": [
       "TCE",
       113
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -20443,12 +20443,12 @@
     "level": 3,
     "name": "Summon Undead",
     "range": "90 feet",
-    "school": "N",
+    "school": "Necromancy",
     "source": [
       "TCE",
       114
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -20481,12 +20481,12 @@
     "level": 0,
     "name": "Sword Burst",
     "range": "Self (5-foot radius)",
-    "school": "C",
+    "school": "Conjuration",
     "source": [
       "TCE",
       115
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -20519,12 +20519,12 @@
     "level": 1,
     "name": "Tasha's Caustic Brew",
     "range": "Self (30-foot line)",
-    "school": "V",
+    "school": "Evocation",
     "source": [
       "TCE",
       115
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -20557,12 +20557,12 @@
     "level": 2,
     "name": "Tasha's Mind Whip",
     "range": "90 feet",
-    "school": "E",
+    "school": "Enchantment",
     "source": [
       "TCE",
       115
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -20612,12 +20612,12 @@
     "level": 6,
     "name": "Tasha's Otherworldly Guise",
     "range": "Self",
-    "school": "T",
+    "school": "Transmutation",
     "source": [
       "TCE",
       116
     ],
-    "time": ", or Bonus Action",
+    "time": "Bonus Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -20650,12 +20650,12 @@
     "level": 8,
     "name": "Abi-Dalzim's Horrid Wilting",
     "range": "150 feet",
-    "school": "N",
+    "school": "Necromancy",
     "source": [
       "XGE",
       150
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -20688,12 +20688,12 @@
     "level": 1,
     "name": "Absorb Elements",
     "range": "Self",
-    "school": "A",
+    "school": "Abjuration",
     "source": [
       "XGE",
       150
     ],
-    "time": ", or Reaction",
+    "time": "Reaction",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": false,
@@ -20726,12 +20726,12 @@
     "level": 2,
     "name": "Aganazzar's Scorcher",
     "range": "30 feet",
-    "school": "V",
+    "school": "Evocation",
     "source": [
       "XGE",
       150
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -20756,12 +20756,12 @@
     "level": 1,
     "name": "Beast Bond",
     "range": "Touch",
-    "school": "D",
+    "school": "Divination",
     "source": [
       "XGE",
       150
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -20810,12 +20810,12 @@
     "level": 6,
     "name": "Bones of the Earth",
     "range": "120 feet",
-    "school": "T",
+    "school": "Transmutation",
     "source": [
       "XGE",
       150
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -20848,12 +20848,12 @@
     "level": 1,
     "name": "Catapult",
     "range": "60 feet",
-    "school": "T",
+    "school": "Transmutation",
     "source": [
       "XGE",
       150
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": false,
@@ -20886,12 +20886,12 @@
     "level": 3,
     "name": "Catnap",
     "range": "30 feet",
-    "school": "E",
+    "school": "Enchantment",
     "source": [
       "XGE",
       151
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": false,
@@ -20924,12 +20924,12 @@
     "level": 1,
     "name": "Cause Fear",
     "range": "60 feet",
-    "school": "N",
+    "school": "Necromancy",
     "source": [
       "XGE",
       151
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -21002,12 +21002,12 @@
     "level": 1,
     "name": "Ceremony",
     "range": "Touch",
-    "school": "A",
+    "school": "Abjuration",
     "source": [
       "XGE",
       151
     ],
-    "time": ", or Hour",
+    "time": "Hour",
     "additional_sources": [],
     "is_ritual": true,
     "is_verbal": true,
@@ -21145,12 +21145,12 @@
     "level": 1,
     "name": "Chaos Bolt",
     "range": "120 feet",
-    "school": "V",
+    "school": "Evocation",
     "source": [
       "XGE",
       151
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -21183,12 +21183,12 @@
     "level": 4,
     "name": "Charm Monster",
     "range": "30 feet",
-    "school": "E",
+    "school": "Enchantment",
     "source": [
       "XGE",
       151
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -21240,12 +21240,12 @@
     "level": 0,
     "name": "Control Flames",
     "range": "60 feet",
-    "school": "T",
+    "school": "Transmutation",
     "source": [
       "XGE",
       152
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": false,
@@ -21294,12 +21294,12 @@
     "level": 5,
     "name": "Control Winds",
     "range": "300 feet",
-    "school": "T",
+    "school": "Transmutation",
     "source": [
       "XGE",
       152
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -21340,12 +21340,12 @@
     "level": 0,
     "name": "Create Bonfire",
     "range": "60 feet",
-    "school": "C",
+    "school": "Conjuration",
     "source": [
       "XGE",
       152
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -21386,12 +21386,12 @@
     "level": 6,
     "name": "Create Homunculus",
     "range": "Touch",
-    "school": "T",
+    "school": "Transmutation",
     "source": [
       "XGE",
       152
     ],
-    "time": ", or Hour",
+    "time": "Hour",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -21432,12 +21432,12 @@
     "level": 7,
     "name": "Crown of Stars",
     "range": "Self",
-    "school": "V",
+    "school": "Evocation",
     "source": [
       "XGE",
       152
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -21486,12 +21486,12 @@
     "level": 5,
     "name": "Danse Macabre",
     "range": "60 feet",
-    "school": "N",
+    "school": "Necromancy",
     "source": [
       "XGE",
       153
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -21532,12 +21532,12 @@
     "level": 5,
     "name": "Dawn",
     "range": "60 feet",
-    "school": "V",
+    "school": "Evocation",
     "source": [
       "XGE",
       153
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -21570,12 +21570,12 @@
     "level": 2,
     "name": "Dragon's Breath",
     "range": "Touch",
-    "school": "T",
+    "school": "Transmutation",
     "source": [
       "XGE",
       154
     ],
-    "time": ", or Bonus Action",
+    "time": "Bonus Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -21672,12 +21672,12 @@
     "level": 6,
     "name": "Druid Grove",
     "range": "Touch",
-    "school": "A",
+    "school": "Abjuration",
     "source": [
       "XGE",
       154
     ],
-    "time": ", or 10 Minutes",
+    "time": "10 Minutes",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -21726,12 +21726,12 @@
     "level": 2,
     "name": "Dust Devil",
     "range": "60 feet",
-    "school": "C",
+    "school": "Conjuration",
     "source": [
       "XGE",
       154
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -21764,12 +21764,12 @@
     "level": 1,
     "name": "Earth Tremor",
     "range": "10 feet",
-    "school": "V",
+    "school": "Evocation",
     "source": [
       "XGE",
       155
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -21794,12 +21794,12 @@
     "level": 2,
     "name": "Earthbind",
     "range": "300 feet",
-    "school": "T",
+    "school": "Transmutation",
     "source": [
       "XGE",
       154
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -21832,12 +21832,12 @@
     "level": 4,
     "name": "Elemental Bane",
     "range": "90 feet",
-    "school": "T",
+    "school": "Transmutation",
     "source": [
       "XGE",
       155
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -21870,12 +21870,12 @@
     "level": 3,
     "name": "Enemies Abound",
     "range": "120 feet",
-    "school": "E",
+    "school": "Enchantment",
     "source": [
       "XGE",
       155
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -21916,12 +21916,12 @@
     "level": 5,
     "name": "Enervation",
     "range": "60 feet",
-    "school": "N",
+    "school": "Necromancy",
     "source": [
       "XGE",
       155
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -21954,12 +21954,12 @@
     "level": 3,
     "name": "Erupting Earth",
     "range": "120 feet",
-    "school": "T",
+    "school": "Transmutation",
     "source": [
       "XGE",
       155
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -21984,12 +21984,12 @@
     "level": 5,
     "name": "Far Step",
     "range": "Self",
-    "school": "C",
+    "school": "Conjuration",
     "source": [
       "XGE",
       155
     ],
-    "time": ", or Bonus Action",
+    "time": "Bonus Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -22056,12 +22056,12 @@
     "level": 4,
     "name": "Find Greater Steed",
     "range": "30 feet",
-    "school": "C",
+    "school": "Conjuration",
     "source": [
       "XGE",
       156
     ],
-    "time": ", or 10 Minutes",
+    "time": "10 Minutes",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -22094,12 +22094,12 @@
     "level": 3,
     "name": "Flame Arrows",
     "range": "Touch",
-    "school": "T",
+    "school": "Transmutation",
     "source": [
       "XGE",
       156
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -22132,12 +22132,12 @@
     "level": 0,
     "name": "Frostbite",
     "range": "60 feet",
-    "school": "V",
+    "school": "Evocation",
     "source": [
       "XGE",
       156
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -22216,12 +22216,12 @@
     "level": 4,
     "name": "Guardian of Nature",
     "range": "Self",
-    "school": "T",
+    "school": "Transmutation",
     "source": [
       "XGE",
       157
     ],
-    "time": ", or Bonus Action",
+    "time": "Bonus Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -22262,12 +22262,12 @@
     "level": 0,
     "name": "Gust",
     "range": "30 feet",
-    "school": "T",
+    "school": "Transmutation",
     "source": [
       "XGE",
       157
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -22316,12 +22316,12 @@
     "level": 2,
     "name": "Healing Spirit",
     "range": "60 feet",
-    "school": "C",
+    "school": "Conjuration",
     "source": [
       "XGE",
       157
     ],
-    "time": ", or Bonus Action",
+    "time": "Bonus Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -22354,12 +22354,12 @@
     "level": 5,
     "name": "Holy Weapon",
     "range": "Touch",
-    "school": "V",
+    "school": "Evocation",
     "source": [
       "XGE",
       157
     ],
-    "time": ", or Bonus Action",
+    "time": "Bonus Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -22392,12 +22392,12 @@
     "level": 1,
     "name": "Ice Knife",
     "range": "60 feet",
-    "school": "C",
+    "school": "Conjuration",
     "source": [
       "XGE",
       157
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": false,
@@ -22446,12 +22446,12 @@
     "level": 8,
     "name": "Illusory Dragon",
     "range": "120 feet",
-    "school": "I",
+    "school": "Illusion",
     "source": [
       "XGE",
       157
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": false,
@@ -22484,12 +22484,12 @@
     "level": 5,
     "name": "Immolation",
     "range": "90 feet",
-    "school": "V",
+    "school": "Evocation",
     "source": [
       "XGE",
       158
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -22554,12 +22554,12 @@
     "level": 5,
     "name": "Infernal Calling",
     "range": "90 feet",
-    "school": "C",
+    "school": "Conjuration",
     "source": [
       "XGE",
       158
     ],
-    "time": ", or Minute",
+    "time": "Minute",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -22592,12 +22592,12 @@
     "level": 0,
     "name": "Infestation",
     "range": "30 feet",
-    "school": "C",
+    "school": "Conjuration",
     "source": [
       "XGE",
       158
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -22638,12 +22638,12 @@
     "level": 6,
     "name": "Investiture of Flame",
     "range": "Self",
-    "school": "T",
+    "school": "Transmutation",
     "source": [
       "XGE",
       159
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -22687,12 +22687,12 @@
     "level": 6,
     "name": "Investiture of Ice",
     "range": "Self",
-    "school": "T",
+    "school": "Transmutation",
     "source": [
       "XGE",
       159
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -22733,12 +22733,12 @@
     "level": 6,
     "name": "Investiture of Stone",
     "range": "Self",
-    "school": "T",
+    "school": "Transmutation",
     "source": [
       "XGE",
       159
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -22779,12 +22779,12 @@
     "level": 6,
     "name": "Investiture of Wind",
     "range": "Self",
-    "school": "T",
+    "school": "Transmutation",
     "source": [
       "XGE",
       160
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -22809,12 +22809,12 @@
     "level": 9,
     "name": "Invulnerability",
     "range": "Self",
-    "school": "A",
+    "school": "Abjuration",
     "source": [
       "XGE",
       160
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -22847,12 +22847,12 @@
     "level": 3,
     "name": "Life Transference",
     "range": "30 feet",
-    "school": "N",
+    "school": "Necromancy",
     "source": [
       "XGE",
       160
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -22885,12 +22885,12 @@
     "level": 8,
     "name": "Maddening Darkness",
     "range": "150 feet",
-    "school": "V",
+    "school": "Evocation",
     "source": [
       "XGE",
       160
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -22915,12 +22915,12 @@
     "level": 5,
     "name": "Maelstrom",
     "range": "120 feet",
-    "school": "V",
+    "school": "Evocation",
     "source": [
       "XGE",
       160
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -22953,12 +22953,12 @@
     "level": 0,
     "name": "Magic Stone",
     "range": "Touch",
-    "school": "T",
+    "school": "Transmutation",
     "source": [
       "XGE",
       160
     ],
-    "time": ", or Bonus Action",
+    "time": "Bonus Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -23015,12 +23015,12 @@
     "level": 9,
     "name": "Mass Polymorph",
     "range": "120 feet",
-    "school": "T",
+    "school": "Transmutation",
     "source": [
       "XGE",
       160
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -23069,12 +23069,12 @@
     "level": 2,
     "name": "Maximilian's Earthen Grasp",
     "range": "30 feet",
-    "school": "T",
+    "school": "Transmutation",
     "source": [
       "XGE",
       161
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -23107,12 +23107,12 @@
     "level": 3,
     "name": "Melf's Minute Meteors",
     "range": "Self",
-    "school": "V",
+    "school": "Evocation",
     "source": [
       "XGE",
       161
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -23137,12 +23137,12 @@
     "level": 6,
     "name": "Mental Prison",
     "range": "60 feet",
-    "school": "I",
+    "school": "Illusion",
     "source": [
       "XGE",
       161
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": false,
@@ -23215,12 +23215,12 @@
     "level": 8,
     "name": "Mighty Fortress",
     "range": "1 miles",
-    "school": "C",
+    "school": "Conjuration",
     "source": [
       "XGE",
       161
     ],
-    "time": ", or Minute",
+    "time": "Minute",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -23253,12 +23253,12 @@
     "level": 2,
     "name": "Mind Spike",
     "range": "60 feet",
-    "school": "D",
+    "school": "Divination",
     "source": [
       "XGE",
       162
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": false,
@@ -23307,12 +23307,12 @@
     "level": 0,
     "name": "Mold Earth",
     "range": "30 feet",
-    "school": "T",
+    "school": "Transmutation",
     "source": [
       "XGE",
       162
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": false,
@@ -23345,12 +23345,12 @@
     "level": 5,
     "name": "Negative Energy Flood",
     "range": "60 feet",
-    "school": "N",
+    "school": "Necromancy",
     "source": [
       "XGE",
       163
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -23391,12 +23391,12 @@
     "level": 7,
     "name": "Power Word Pain",
     "range": "60 feet",
-    "school": "E",
+    "school": "Enchantment",
     "source": [
       "XGE",
       163
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -23429,12 +23429,12 @@
     "level": 0,
     "name": "Primal Savagery",
     "range": "Self",
-    "school": "T",
+    "school": "Transmutation",
     "source": [
       "XGE",
       163
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": false,
@@ -23467,12 +23467,12 @@
     "level": 6,
     "name": "Primordial Ward",
     "range": "Self",
-    "school": "A",
+    "school": "Abjuration",
     "source": [
       "XGE",
       163
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -23513,12 +23513,12 @@
     "level": 9,
     "name": "Psychic Scream",
     "range": "90 feet",
-    "school": "E",
+    "school": "Enchantment",
     "source": [
       "XGE",
       163
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": false,
@@ -23559,12 +23559,12 @@
     "level": 2,
     "name": "Pyrotechnics",
     "range": "60 feet",
-    "school": "T",
+    "school": "Transmutation",
     "source": [
       "XGE",
       163
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -23589,12 +23589,12 @@
     "level": 6,
     "name": "Scatter",
     "range": "30 feet",
-    "school": "C",
+    "school": "Conjuration",
     "source": [
       "XGE",
       164
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -23635,12 +23635,12 @@
     "level": 2,
     "name": "Shadow Blade",
     "range": "Self",
-    "school": "I",
+    "school": "Illusion",
     "source": [
       "XGE",
       164
     ],
-    "time": ", or Bonus Action",
+    "time": "Bonus Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -23673,12 +23673,12 @@
     "level": 4,
     "name": "Shadow of Moil",
     "range": "Self",
-    "school": "N",
+    "school": "Necromancy",
     "source": [
       "XGE",
       164
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -23730,12 +23730,12 @@
     "level": 0,
     "name": "Shape Water",
     "range": "30 feet",
-    "school": "T",
+    "school": "Transmutation",
     "source": [
       "XGE",
       164
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": false,
@@ -23768,12 +23768,12 @@
     "level": 4,
     "name": "Sickening Radiance",
     "range": "120 feet",
-    "school": "V",
+    "school": "Evocation",
     "source": [
       "XGE",
       164
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -23806,12 +23806,12 @@
     "level": 5,
     "name": "Skill Empowerment",
     "range": "Touch",
-    "school": "T",
+    "school": "Transmutation",
     "source": [
       "XGE",
       165
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -23836,12 +23836,12 @@
     "level": 2,
     "name": "Skywrite",
     "range": "Sight",
-    "school": "T",
+    "school": "Transmutation",
     "source": [
       "XGE",
       165
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": true,
     "is_verbal": true,
@@ -23898,12 +23898,12 @@
     "level": 1,
     "name": "Snare",
     "range": "Touch",
-    "school": "A",
+    "school": "Abjuration",
     "source": [
       "XGE",
       165
     ],
-    "time": ", or Minute",
+    "time": "Minute",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": false,
@@ -23936,12 +23936,12 @@
     "level": 2,
     "name": "Snilloc's Snowball Swarm",
     "range": "90 feet",
-    "school": "V",
+    "school": "Evocation",
     "source": [
       "XGE",
       165
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -24006,12 +24006,12 @@
     "level": 6,
     "name": "Soul Cage",
     "range": "60 feet",
-    "school": "N",
+    "school": "Necromancy",
     "source": [
       "XGE",
       165
     ],
-    "time": ", or Reaction",
+    "time": "Reaction",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -24044,12 +24044,12 @@
     "level": 5,
     "name": "Steel Wind Strike",
     "range": "30 feet",
-    "school": "C",
+    "school": "Conjuration",
     "source": [
       "XGE",
       166
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": false,
@@ -24098,12 +24098,12 @@
     "level": 4,
     "name": "Storm Sphere",
     "range": "150 feet",
-    "school": "V",
+    "school": "Evocation",
     "source": [
       "XGE",
       166
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -24160,12 +24160,12 @@
     "level": 4,
     "name": "Summon Greater Demon",
     "range": "60 feet",
-    "school": "C",
+    "school": "Conjuration",
     "source": [
       "XGE",
       166
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -24269,12 +24269,12 @@
     "level": 3,
     "name": "Summon Lesser Demons",
     "range": "60 feet",
-    "school": "C",
+    "school": "Conjuration",
     "source": [
       "XGE",
       167
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -24307,12 +24307,12 @@
     "level": 5,
     "name": "Synaptic Static",
     "range": "120 feet",
-    "school": "E",
+    "school": "Enchantment",
     "source": [
       "XGE",
       167
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -24393,12 +24393,12 @@
     "level": 7,
     "name": "Temple of the Gods",
     "range": "120 feet",
-    "school": "C",
+    "school": "Conjuration",
     "source": [
       "XGE",
       167
     ],
-    "time": ", or Hour",
+    "time": "Hour",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -24456,12 +24456,12 @@
     "level": 6,
     "name": "Tenser's Transformation",
     "range": "Self",
-    "school": "T",
+    "school": "Transmutation",
     "source": [
       "XGE",
       168
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -24502,12 +24502,12 @@
     "level": 3,
     "name": "Thunder Step",
     "range": "90 feet",
-    "school": "C",
+    "school": "Conjuration",
     "source": [
       "XGE",
       168
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -24540,12 +24540,12 @@
     "level": 0,
     "name": "Thunderclap",
     "range": "5 feet",
-    "school": "V",
+    "school": "Evocation",
     "source": [
       "XGE",
       168
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": false,
@@ -24570,12 +24570,12 @@
     "level": 3,
     "name": "Tidal Wave",
     "range": "120 feet",
-    "school": "C",
+    "school": "Conjuration",
     "source": [
       "XGE",
       168
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -24624,12 +24624,12 @@
     "level": 3,
     "name": "Tiny Servant",
     "range": "Touch",
-    "school": "T",
+    "school": "Transmutation",
     "source": [
       "XGE",
       168
     ],
-    "time": ", or Minute",
+    "time": "Minute",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -24662,12 +24662,12 @@
     "level": 0,
     "name": "Toll the Dead",
     "range": "60 feet",
-    "school": "N",
+    "school": "Necromancy",
     "source": [
       "XGE",
       169
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -24724,12 +24724,12 @@
     "level": 5,
     "name": "Transmute Rock",
     "range": "120 feet",
-    "school": "T",
+    "school": "Transmutation",
     "source": [
       "XGE",
       169
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -24762,12 +24762,12 @@
     "level": 4,
     "name": "Vitriolic Sphere",
     "range": "150 feet",
-    "school": "V",
+    "school": "Evocation",
     "source": [
       "XGE",
       170
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -24824,12 +24824,12 @@
     "level": 5,
     "name": "Wall of Light",
     "range": "120 feet",
-    "school": "V",
+    "school": "Evocation",
     "source": [
       "XGE",
       170
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -24854,12 +24854,12 @@
     "level": 3,
     "name": "Wall of Sand",
     "range": "90 feet",
-    "school": "V",
+    "school": "Evocation",
     "source": [
       "XGE",
       170
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -24892,12 +24892,12 @@
     "level": 3,
     "name": "Wall of Water",
     "range": "60 feet",
-    "school": "V",
+    "school": "Evocation",
     "source": [
       "XGE",
       170
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -24952,12 +24952,12 @@
     "level": 2,
     "name": "Warding Wind",
     "range": "Self",
-    "school": "V",
+    "school": "Evocation",
     "source": [
       "XGE",
       170
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -25014,12 +25014,12 @@
     "level": 4,
     "name": "Watery Sphere",
     "range": "90 feet",
-    "school": "C",
+    "school": "Conjuration",
     "source": [
       "XGE",
       170
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -25060,12 +25060,12 @@
     "level": 7,
     "name": "Whirlwind",
     "range": "300 feet",
-    "school": "V",
+    "school": "Evocation",
     "source": [
       "XGE",
       171
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -25098,12 +25098,12 @@
     "level": 0,
     "name": "Word of Radiance",
     "range": "5 feet",
-    "school": "V",
+    "school": "Evocation",
     "source": [
       "XGE",
       171
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -25160,12 +25160,12 @@
     "level": 5,
     "name": "Wrath of Nature",
     "range": "120 feet",
-    "school": "V",
+    "school": "Evocation",
     "source": [
       "XGE",
       171
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -25198,12 +25198,12 @@
     "level": 1,
     "name": "Zephyr Strike",
     "range": "Self",
-    "school": "T",
+    "school": "Transmutation",
     "source": [
       "XGE",
       171
     ],
-    "time": ", or Bonus Action",
+    "time": "Bonus Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -25236,12 +25236,12 @@
     "level": 3,
     "name": "Freedom of the Waves",
     "range": "120 feet",
-    "school": "C",
+    "school": "Conjuration",
     "source": [
       "TDCSR",
       176
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -25274,12 +25274,12 @@
     "level": 5,
     "name": "Freedom of the Winds",
     "range": "Self",
-    "school": "A",
+    "school": "Abjuration",
     "source": [
       "TDCSR",
       176
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -25312,12 +25312,12 @@
     "level": 3,
     "name": "Antagonize",
     "range": "30 feet",
-    "school": "E",
+    "school": "Enchantment",
     "source": [
       "BMT",
       50
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -25358,12 +25358,12 @@
     "level": 4,
     "name": "Spirit of Death",
     "range": "60 feet",
-    "school": "N",
+    "school": "Necromancy",
     "source": [
       "BMT",
       50
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -25396,12 +25396,12 @@
     "level": 2,
     "name": "Spray of Cards",
     "range": "Self (15-foot cone)",
-    "school": "C",
+    "school": "Conjuration",
     "source": [
       "BMT",
       50
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -25434,12 +25434,12 @@
     "level": 4,
     "name": "Gate Seal",
     "range": "60 feet",
-    "school": "A",
+    "school": "Abjuration",
     "source": [
       "SatO",
       12
     ],
-    "time": ", or Minute",
+    "time": "Minute",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
@@ -25480,12 +25480,12 @@
     "level": 2,
     "name": "Warp Sense",
     "range": "Self",
-    "school": "D",
+    "school": "Divination",
     "source": [
       "SatO",
       12
     ],
-    "time": ", or Action",
+    "time": "Action",
     "additional_sources": [],
     "is_ritual": false,
     "is_verbal": true,
