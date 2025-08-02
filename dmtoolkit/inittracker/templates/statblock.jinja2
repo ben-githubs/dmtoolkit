@@ -2,10 +2,10 @@
     <h1>{{ monster.name }}</h1>
     <em>{{ monster.size_str }} {{ monster.maintype | title }}, {{ monster.alignment | default("Unaligned") }}</em>
     <hr/>
-    <strong>Armor Class</strong> {{ monster.ac[0] }}
+    <strong>Armor Class</strong> {{ monster.ac[0] | macro5e }}
     {% for ac in monster.ac[1:] %}
         {% if not ac.__str__().startswith("(") %}, {% endif %}
-        {{ ac }}
+        {{ ac | macro5e }}
     {% endfor %}
     <br/>
     <strong>Hit Points</strong> {{ monster.hp.average }} ({{ monster.hp.formula }}) <br/>
