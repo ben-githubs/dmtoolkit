@@ -10,12 +10,12 @@ class Macro5e:
     condition = re.compile(r"\{@condition (\w+)\}")
     dc = re.compile(r"\{@dc (\d+)\}")
     spell = re.compile(r"\{@spell (.*?)\}")
-    dice = re.compile(r"\{@dice (\d+d\d+)\}")
+    dice = re.compile(r"\{@dice (\d+)?d(\d+)\}")
     status = re.compile(r"\{@status (\w+)(?:\s*\|\|\s*(\w+))?}")
     skill = re.compile(r"{@skill (.*?)}")
     italics = re.compile(r"{@i (.*?)}")
 
-
+    @staticmethod
     def render_macros(text: str) -> str:
         """Turns the 5etools macros (like {@spell magic missile}) into the appropriate HTML elements."""
         text = str(text) # Just in case
@@ -26,14 +26,14 @@ class Macro5e:
         text = Macro5e.condition.sub(Macro5e.render_condition, text)
         text = Macro5e.dc.sub(r"DC \1", text)
         text = Macro5e.spell.sub(Macro5e.render_spell, text)
-        text = Macro5e.dice.sub(r"\1", text)
+        text = Macro5e.dice.sub(Macro5e.render_dice, text)
         text = Macro5e.status.sub(Macro5e.render_status, text)
         text = Macro5e.skill.sub(Macro5e.render_skill, text)
         text = Macro5e.italics.sub(r"<em>\1</em>", text)
 
         return text
-    
 
+    @staticmethod
     def render_atk(match: re.Match) -> str:
         atk_type = match.group(1)
         atk_str = {
@@ -42,12 +42,8 @@ class Macro5e:
             "mw,rw": "Melee or Ranged Weapon Attack",
         }.get(atk_type, "Attack")
         return f"<em>{atk_str}:</em>"
-    
 
-    def render_hit(match: re.Match) -> str:
-        hit_mod = match.group(1)
-        return f"{int(hit_mod):+d}"
-
+    @staticmethod
     def render_condition(match: re.Match) -> str:
         """Return a link to the appripriate entry in Roll20."""
         condition = match.group(1)
@@ -71,9 +67,19 @@ class Macro5e:
         ]
         index = headers.index(condition.casefold()) + 1
         url = f"https://roll20.net/compendium/dnd5e/Conditions#toc_{index}"
-
         return f"""<a href="{url}">{condition}</a>"""
 
+    @staticmethod
+    def render_dice(match: re.Match) -> str:
+        groups = match.groups(default="1")
+        return "d".join(groups)
+
+    @staticmethod
+    def render_hit(match: re.Match) -> str:
+        hit_mod = match.group(1)
+        return f"{int(hit_mod):+d}"
+
+    @staticmethod
     def render_skill(match: re.Match) -> str:
         """Return a link to the appripriate entry in Roll20."""
         skill = match.group(1)
@@ -82,6 +88,7 @@ class Macro5e:
 
         return f"""<a href="{url}">{skill}</a>"""
     
+    @staticmethod
     def render_spell(match: re.Match) -> str:
         """Convert spell references to Roll20 links."""
         spell = match.group(1).title()
@@ -92,6 +99,7 @@ class Macro5e:
         
         return f"""<span onmouseenter="{func}" onmouseleave="hideTooltip(event)"><a href="{url}">{spell}</a></span>"""
 
+    @staticmethod
     def render_status(match: re.Match) -> str:
         """Handle references to thr surpriused and concentration statuses."""
         # I haven't seen any references to other kinds of statuses, just these two.
