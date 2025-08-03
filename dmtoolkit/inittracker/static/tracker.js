@@ -154,6 +154,17 @@ function togglePlayer(button) {
     }
 }
 
+function setContentAjax(target, url) {
+    // Set the HTML content of an element as the response of a GET request to a URL
+    $.ajax({
+        url: url,
+        method: 'GET',
+        success: function(response) {
+            target.html(response);
+        }
+    })
+}
+
 function updateStatblockTarget(event) {
     self = $(event.target);
     if (!(self.is('tr') || self.is('td'))) {
@@ -300,4 +311,44 @@ function saveEncounter() {
             refreshEncounters();
         }
     })
+}
+
+function showTooltip(event) {
+    // Show a tooltip over/under the element which triggered the event
+    if ($('#tooltip').is(":visible")) {
+        return // Don't trigger a new popup inside the existing one
+    }
+    $('#tooltip').show();
+    target = $(event.target);
+    target.append($('#tooltip-sleeve'));
+    bounds = event.target.getBoundingClientRect();
+    offset = target.offset();
+    // Set sleeve coordinates
+    $('#tooltip-sleeve').css({left: offset.left+bounds.width, top: offset.top});
+    if ((offset.top / $(window).height()) < 0.5) {
+        $('#tooltip').css({top: bounds.height, bottom: ""});
+    } else {
+        $('#tooltip').css({bottom: 0, top: ""});
+    }
+}
+
+function hideTooltip(event) {
+    // Don't trigger if triggered from inside a tooltip
+    if ($(event.target).parents('#tooltip').length) {
+        return;
+    }
+    // Stop displaying a tooltip
+    $('#tooltip').hide();
+    $('#content').append($('#tooltip-sleeve'));
+}
+
+function showNewTooltip(event, url) {
+    // Displays the tooltip and sets it's content to the value returned by the URL
+    
+    // Don't do anythign if this function is triggered from inside the tooltip
+    if ($(event.target).parents('#tooltip').length) {
+        return;
+    }
+    showTooltip(event);
+    setContentAjax($('#tooltip'), url);
 }

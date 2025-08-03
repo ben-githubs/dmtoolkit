@@ -6,6 +6,7 @@ from dmtoolkit.api.classes import get_class
 from dmtoolkit.api.monsters import get_monster, get_monster_names
 from dmtoolkit.api.players import list_players, get_player
 from dmtoolkit.api.races import get_race
+from dmtoolkit.api.spells import get_spell
 
 tracker_bp = Blueprint(
     "tracker_bp",
@@ -99,3 +100,8 @@ def get_statblock_html(id: str):
         return f"Unable to find data for '{id}'"
     
     return render_template("statblock.jinja2", monster=monster)
+
+@tracker_bp.route("/tooltips/spells/<spell_name>", methods=["GET"])
+def get_spell_tooltip(spell_name: str):
+    spell = get_spell(spell_name)
+    return render_template("spell-statblock.jinja2", spell=spell)

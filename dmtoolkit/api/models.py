@@ -479,7 +479,7 @@ class Table(Entry):
             for label, styles in zip(self.col_labels, self.col_styles):
                 dtags.th(label, cls=styles)
         for idx, row in enumerate(self.rows):
-            cls = "oddrow" if idx % 2 else ""
+            cls = "" if idx % 2 else "oddrow" # note: due to 0-indexing
             with table.add(dtags.tr(cls=cls)):
                 for content, styles in zip(row, self.col_styles):
                     dtags.td(content, cls=styles)
@@ -733,3 +733,38 @@ class Subclass:
 @dataclass
 class ClassFeature(Entry):
     level: int = 0
+
+@dataclass
+class Spell:
+    entries: list[Entry]
+    duration: str
+    level: int
+    name: str
+    range: str
+    school: str
+    source: tuple[str, int]
+    time: str
+    
+    
+    additional_sources: list[tuple[str, int]] = field(default_factory=list)
+    is_ritual: bool = False
+    is_verbal: bool = False
+    is_material: bool = False
+    is_cocnentration: bool = False
+    is_somatic: bool = False
+    material_components: str = ""
+
+    def components_string(self):
+        """Returns a string of the format 'V, S, M (materials)'"""
+        components = []
+        if self.is_verbal:
+            components.append("V")
+        if self.is_somatic:
+            components.append("S")
+        if self.is_material:
+            components.append("M")
+        component_str = ", ".join(components)
+        if self.material_components:
+            component_str += f" ({self.material_components})"
+        
+        return component_str
