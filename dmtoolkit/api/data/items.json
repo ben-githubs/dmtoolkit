@@ -1,0 +1,1872 @@
+[
+  {
+    "name": "Antimatter Rifle",
+    "source": [
+      "DMG",
+      268
+    ],
+    "rarity": "none",
+    "weight": 10,
+    "entries": [],
+    "value": 0,
+    "item_type": "",
+    "properties": [
+      "Ammunition"
+    ],
+    "category": "martial",
+    "weapon_type": "Ranged Weapon",
+    "attunement": "",
+    "range": "120/360",
+    "__dataclass__": "ItemWeapon"
+  },
+  {
+    "name": "Arrow",
+    "source": [
+      "PHB",
+      150
+    ],
+    "rarity": "none",
+    "weight": 0.05,
+    "entries": [],
+    "value": 5,
+    "item_type": "Ammunition",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Arrows (20)",
+    "source": [
+      "PHB",
+      150
+    ],
+    "rarity": "none",
+    "weight": 1,
+    "entries": [],
+    "value": 100,
+    "item_type": "Ammunition",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Automatic Pistol",
+    "source": [
+      "DMG",
+      268
+    ],
+    "rarity": "none",
+    "weight": 3,
+    "entries": [],
+    "value": 0,
+    "item_type": "",
+    "properties": [
+      "Ammunition"
+    ],
+    "category": "martial",
+    "weapon_type": "Ranged Weapon",
+    "attunement": "",
+    "range": "50/150",
+    "__dataclass__": "ItemWeapon"
+  },
+  {
+    "name": "Automatic Rifle",
+    "source": [
+      "DMG",
+      268
+    ],
+    "rarity": "none",
+    "weight": 8,
+    "entries": [],
+    "value": 0,
+    "item_type": "",
+    "properties": [
+      "Ammunition",
+      "Burst Fire"
+    ],
+    "category": "martial",
+    "weapon_type": "Ranged Weapon",
+    "attunement": "",
+    "range": "80/240",
+    "__dataclass__": "ItemWeapon"
+  },
+  {
+    "name": "Bagpipes",
+    "source": [
+      "PHB",
+      154
+    ],
+    "rarity": "none",
+    "weight": 6,
+    "entries": [],
+    "value": 3000,
+    "item_type": "Instrument",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Battleaxe",
+    "source": [
+      "PHB",
+      149
+    ],
+    "rarity": "none",
+    "weight": 4,
+    "entries": [],
+    "value": 1000,
+    "item_type": "",
+    "properties": [],
+    "category": "martial",
+    "weapon_type": "Melee Weapon",
+    "attunement": "",
+    "range": "",
+    "__dataclass__": "ItemWeapon"
+  },
+  {
+    "name": "Birdpipes",
+    "source": [
+      "SCAG",
+      124
+    ],
+    "rarity": "none",
+    "weight": 0,
+    "entries": [
+      "Pan pipes or satyr pipes, also known as the shalm, these are sacred to {@deity Lliira|Faer\u00fbnian|scag} and popular with wood elf and wild elf bards."
+    ],
+    "value": 0,
+    "item_type": "Instrument",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Blowgun",
+    "source": [
+      "PHB",
+      149
+    ],
+    "rarity": "none",
+    "weight": 1,
+    "entries": [],
+    "value": 1000,
+    "item_type": "",
+    "properties": [],
+    "category": "martial",
+    "weapon_type": "Ranged Weapon",
+    "attunement": "",
+    "range": "25/100",
+    "__dataclass__": "ItemWeapon"
+  },
+  {
+    "name": "Blowgun Needle",
+    "source": [
+      "PHB",
+      150
+    ],
+    "rarity": "none",
+    "weight": 0.02,
+    "entries": [],
+    "value": 2,
+    "item_type": "Ammunition",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Blowgun Needles (50)",
+    "source": [
+      "PHB",
+      150
+    ],
+    "rarity": "none",
+    "weight": 1,
+    "entries": [],
+    "value": 100,
+    "item_type": "Ammunition",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Breastplate",
+    "source": [
+      "PHB",
+      145
+    ],
+    "rarity": "none",
+    "weight": 20,
+    "entries": [
+      "This armor consists of a fitted metal chest piece worn with supple leather. Although it leaves the legs and arms relatively unprotected, this armor provides good protection for the wearer's vital organs while leaving the wearer relatively unencumbered."
+    ],
+    "value": 40000,
+    "item_type": "",
+    "properties": [],
+    "ac": 14,
+    "armor_type": "Medium Armor",
+    "min_strength": 0,
+    "affects_stealth": false,
+    "__dataclass__": "ItemArmor"
+  },
+  {
+    "name": "Chain Mail",
+    "source": [
+      "PHB",
+      145
+    ],
+    "rarity": "none",
+    "weight": 55,
+    "entries": [
+      "Made of interlocking metal rings, chain mail includes a layer of quilted fabric worn underneath the mail to prevent chafing and to cushion the impact of blows. The suit includes gauntlets."
+    ],
+    "value": 7500,
+    "item_type": "",
+    "properties": [],
+    "ac": 16,
+    "armor_type": "Heavy Armor",
+    "min_strength": 13,
+    "affects_stealth": true,
+    "__dataclass__": "ItemArmor"
+  },
+  {
+    "name": "Chain Shirt",
+    "source": [
+      "PHB",
+      144
+    ],
+    "rarity": "none",
+    "weight": 20,
+    "entries": [
+      "Made of interlocking metal rings, a chain shirt is worn between layers of clothing or leather. This armor offers modest protection to the wearer's upper body and allows the sound of the rings rubbing against one another to be muffled by outer layers."
+    ],
+    "value": 5000,
+    "item_type": "",
+    "properties": [],
+    "ac": 13,
+    "armor_type": "Medium Armor",
+    "min_strength": 0,
+    "affects_stealth": false,
+    "__dataclass__": "ItemArmor"
+  },
+  {
+    "name": "Club",
+    "source": [
+      "PHB",
+      149
+    ],
+    "rarity": "none",
+    "weight": 2,
+    "entries": [],
+    "value": 10,
+    "item_type": "",
+    "properties": [],
+    "category": "simple",
+    "weapon_type": "Melee Weapon",
+    "attunement": "",
+    "range": "",
+    "__dataclass__": "ItemWeapon"
+  },
+  {
+    "name": "Crossbow Bolt",
+    "source": [
+      "PHB",
+      150
+    ],
+    "rarity": "none",
+    "weight": 0.075,
+    "entries": [],
+    "value": 5,
+    "item_type": "Ammunition",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Crossbow Bolts (20)",
+    "source": [
+      "PHB",
+      150
+    ],
+    "rarity": "none",
+    "weight": 1.5,
+    "entries": [],
+    "value": 100,
+    "item_type": "Ammunition",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Crystal",
+    "source": [
+      "PHB",
+      151
+    ],
+    "rarity": "none",
+    "weight": 1,
+    "entries": [],
+    "value": 1000,
+    "item_type": "Spellcasting Focus",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Dagger",
+    "source": [
+      "PHB",
+      149
+    ],
+    "rarity": "none",
+    "weight": 1,
+    "entries": [],
+    "value": 200,
+    "item_type": "",
+    "properties": [],
+    "category": "simple",
+    "weapon_type": "Melee Weapon",
+    "attunement": "",
+    "range": "20/60",
+    "__dataclass__": "ItemWeapon"
+  },
+  {
+    "name": "Dart",
+    "source": [
+      "PHB",
+      149
+    ],
+    "rarity": "none",
+    "weight": 0.25,
+    "entries": [],
+    "value": 5,
+    "item_type": "",
+    "properties": [],
+    "category": "simple",
+    "weapon_type": "Ranged Weapon",
+    "attunement": "",
+    "range": "20/60",
+    "__dataclass__": "ItemWeapon"
+  },
+  {
+    "name": "Double-Bladed Scimitar",
+    "source": [
+      "ERLW",
+      21
+    ],
+    "rarity": "none",
+    "weight": 6,
+    "entries": [
+      {
+        "type": "entries",
+        "name": "Special",
+        "entries": [
+          "If you attack with a double-bladed scimitar as part of the {@action Attack} action on your turn, you can use a bonus action immediately after to make a melee attack with it. This attack deals {@damage 1d4} slashing damage on a hit, instead of {@damage 2d4}."
+        ]
+      }
+    ],
+    "value": 10000,
+    "item_type": "",
+    "properties": [],
+    "category": "martial",
+    "weapon_type": "Melee Weapon",
+    "attunement": "",
+    "range": "",
+    "__dataclass__": "ItemWeapon"
+  },
+  {
+    "name": "Drum",
+    "source": [
+      "PHB",
+      154
+    ],
+    "rarity": "none",
+    "weight": 3,
+    "entries": [],
+    "value": 600,
+    "item_type": "Instrument",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Dulcimer",
+    "source": [
+      "PHB",
+      154
+    ],
+    "rarity": "none",
+    "weight": 10,
+    "entries": [],
+    "value": 2500,
+    "item_type": "Instrument",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Energy Cell",
+    "source": [
+      "DMG",
+      268
+    ],
+    "rarity": "none",
+    "weight": 0.3125,
+    "entries": [],
+    "value": 0,
+    "item_type": "Ammunition",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Flail",
+    "source": [
+      "PHB",
+      149
+    ],
+    "rarity": "none",
+    "weight": 2,
+    "entries": [],
+    "value": 1000,
+    "item_type": "",
+    "properties": [],
+    "category": "martial",
+    "weapon_type": "Melee Weapon",
+    "attunement": "",
+    "range": "",
+    "__dataclass__": "ItemWeapon"
+  },
+  {
+    "name": "Flute",
+    "source": [
+      "PHB",
+      154
+    ],
+    "rarity": "none",
+    "weight": 1,
+    "entries": [],
+    "value": 200,
+    "item_type": "Instrument",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Glaive",
+    "source": [
+      "PHB",
+      149
+    ],
+    "rarity": "none",
+    "weight": 6,
+    "entries": [],
+    "value": 2000,
+    "item_type": "",
+    "properties": [],
+    "category": "martial",
+    "weapon_type": "Melee Weapon",
+    "attunement": "",
+    "range": "",
+    "__dataclass__": "ItemWeapon"
+  },
+  {
+    "name": "Glaur",
+    "source": [
+      "SCAG",
+      124
+    ],
+    "rarity": "none",
+    "weight": 0,
+    "entries": [
+      "Short, curved horns like a cornucopia. Played with valves, glaur sound like trumpets, while those without valves, known as gloon, have a more mournful sound."
+    ],
+    "value": 0,
+    "item_type": "Instrument",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Greataxe",
+    "source": [
+      "PHB",
+      149
+    ],
+    "rarity": "none",
+    "weight": 7,
+    "entries": [],
+    "value": 3000,
+    "item_type": "",
+    "properties": [],
+    "category": "martial",
+    "weapon_type": "Melee Weapon",
+    "attunement": "",
+    "range": "",
+    "__dataclass__": "ItemWeapon"
+  },
+  {
+    "name": "Greatclub",
+    "source": [
+      "PHB",
+      149
+    ],
+    "rarity": "none",
+    "weight": 10,
+    "entries": [],
+    "value": 20,
+    "item_type": "",
+    "properties": [],
+    "category": "simple",
+    "weapon_type": "Melee Weapon",
+    "attunement": "",
+    "range": "",
+    "__dataclass__": "ItemWeapon"
+  },
+  {
+    "name": "Greatsword",
+    "source": [
+      "PHB",
+      149
+    ],
+    "rarity": "none",
+    "weight": 6,
+    "entries": [],
+    "value": 5000,
+    "item_type": "",
+    "properties": [],
+    "category": "martial",
+    "weapon_type": "Melee Weapon",
+    "attunement": "",
+    "range": "",
+    "__dataclass__": "ItemWeapon"
+  },
+  {
+    "name": "Halberd",
+    "source": [
+      "PHB",
+      149
+    ],
+    "rarity": "none",
+    "weight": 6,
+    "entries": [],
+    "value": 2000,
+    "item_type": "",
+    "properties": [],
+    "category": "martial",
+    "weapon_type": "Melee Weapon",
+    "attunement": "",
+    "range": "",
+    "__dataclass__": "ItemWeapon"
+  },
+  {
+    "name": "Half Plate Armor",
+    "source": [
+      "PHB",
+      145
+    ],
+    "rarity": "none",
+    "weight": 40,
+    "entries": [
+      "Half plate consists of shaped metal plates that cover most of the wearer's body. It does not include leg protection beyond simple greaves that are attached with leather straps."
+    ],
+    "value": 75000,
+    "item_type": "",
+    "properties": [],
+    "ac": 15,
+    "armor_type": "Medium Armor",
+    "min_strength": 0,
+    "affects_stealth": true,
+    "__dataclass__": "ItemArmor"
+  },
+  {
+    "name": "Hand Crossbow",
+    "source": [
+      "PHB",
+      149
+    ],
+    "rarity": "none",
+    "weight": 3,
+    "entries": [],
+    "value": 7500,
+    "item_type": "",
+    "properties": [],
+    "category": "martial",
+    "weapon_type": "Ranged Weapon",
+    "attunement": "",
+    "range": "30/120",
+    "__dataclass__": "ItemWeapon"
+  },
+  {
+    "name": "Hand Drum",
+    "source": [
+      "SCAG",
+      124
+    ],
+    "rarity": "none",
+    "weight": 0,
+    "entries": [
+      "A double-headed skin drum fitted with handles along its side."
+    ],
+    "value": 0,
+    "item_type": "Instrument",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Handaxe",
+    "source": [
+      "PHB",
+      149
+    ],
+    "rarity": "none",
+    "weight": 2,
+    "entries": [],
+    "value": 500,
+    "item_type": "",
+    "properties": [],
+    "category": "simple",
+    "weapon_type": "Melee Weapon",
+    "attunement": "",
+    "range": "20/60",
+    "__dataclass__": "ItemWeapon"
+  },
+  {
+    "name": "Heavy Crossbow",
+    "source": [
+      "PHB",
+      149
+    ],
+    "rarity": "none",
+    "weight": 18,
+    "entries": [],
+    "value": 5000,
+    "item_type": "",
+    "properties": [],
+    "category": "martial",
+    "weapon_type": "Ranged Weapon",
+    "attunement": "",
+    "range": "100/400",
+    "__dataclass__": "ItemWeapon"
+  },
+  {
+    "name": "Hide Armor",
+    "source": [
+      "PHB",
+      144
+    ],
+    "rarity": "none",
+    "weight": 12,
+    "entries": [
+      "This crude armor consists of thick furs and pelts. It is commonly worn by barbarian tribes, evil humanoids, and other folk who lack access to the tools and materials needed to create better armor."
+    ],
+    "value": 1000,
+    "item_type": "",
+    "properties": [],
+    "ac": 12,
+    "armor_type": "Medium Armor",
+    "min_strength": 0,
+    "affects_stealth": false,
+    "__dataclass__": "ItemArmor"
+  },
+  {
+    "name": "Hooked Shortspear",
+    "source": [
+      "OotA",
+      224
+    ],
+    "rarity": "unknown",
+    "weight": 2,
+    "entries": [
+      "On a hit with this weapon, the wielder can forgo dealing damage and attempt to trip the target, in which case the target must succeed on a Strength saving throw or fall {@condition prone}. The DC is 8 + the wielder's Strength modifier + the wielder's proficiency bonus."
+    ],
+    "value": 0,
+    "item_type": "",
+    "properties": [],
+    "category": "martial",
+    "weapon_type": "Melee Weapon",
+    "attunement": "",
+    "range": "",
+    "__dataclass__": "ItemWeapon"
+  },
+  {
+    "name": "Hoopak",
+    "source": [
+      "DSotDQ",
+      188
+    ],
+    "rarity": "none",
+    "weight": 2,
+    "entries": [
+      "A hoopak is a sturdy stick with a sling at one end and a pointed tip at the other.",
+      {
+        "type": "entries",
+        "name": "Special",
+        "entries": [
+          "When you make a melee attack with this weapon, you ignore its ammunition property. You can use the hoopak as a martial ranged weapon. If you do, it uses the ammunition property, uses sling bullets, and deals {@damage 1d4} bludgeoning damage on a hit."
+        ]
+      }
+    ],
+    "value": 10,
+    "item_type": "",
+    "properties": [],
+    "category": "martial",
+    "weapon_type": "Melee Weapon",
+    "attunement": "",
+    "range": "40/160",
+    "__dataclass__": "ItemWeapon"
+  },
+  {
+    "name": "Horn",
+    "source": [
+      "PHB",
+      154
+    ],
+    "rarity": "none",
+    "weight": 2,
+    "entries": [],
+    "value": 300,
+    "item_type": "Instrument",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Hunting Rifle",
+    "source": [
+      "DMG",
+      268
+    ],
+    "rarity": "none",
+    "weight": 8,
+    "entries": [],
+    "value": 0,
+    "item_type": "",
+    "properties": [
+      "Ammunition"
+    ],
+    "category": "martial",
+    "weapon_type": "Ranged Weapon",
+    "attunement": "",
+    "range": "80/240",
+    "__dataclass__": "ItemWeapon"
+  },
+  {
+    "name": "Javelin",
+    "source": [
+      "PHB",
+      149
+    ],
+    "rarity": "none",
+    "weight": 2,
+    "entries": [],
+    "value": 50,
+    "item_type": "",
+    "properties": [],
+    "category": "simple",
+    "weapon_type": "Melee Weapon",
+    "attunement": "",
+    "range": "30/120",
+    "__dataclass__": "ItemWeapon"
+  },
+  {
+    "name": "Lance",
+    "source": [
+      "PHB",
+      149
+    ],
+    "rarity": "none",
+    "weight": 6,
+    "entries": [
+      {
+        "type": "entries",
+        "name": "Special",
+        "entries": [
+          "You have disadvantage when you use a lance to attack a target within 5 feet of you. Also, a lance requires two hands to wield when you aren't mounted."
+        ]
+      }
+    ],
+    "value": 1000,
+    "item_type": "",
+    "properties": [],
+    "category": "martial",
+    "weapon_type": "Melee Weapon",
+    "attunement": "",
+    "range": "",
+    "__dataclass__": "ItemWeapon"
+  },
+  {
+    "name": "Laser Pistol",
+    "source": [
+      "DMG",
+      268
+    ],
+    "rarity": "none",
+    "weight": 2,
+    "entries": [],
+    "value": 0,
+    "item_type": "",
+    "properties": [
+      "Ammunition"
+    ],
+    "category": "martial",
+    "weapon_type": "Ranged Weapon",
+    "attunement": "",
+    "range": "40/120",
+    "__dataclass__": "ItemWeapon"
+  },
+  {
+    "name": "Laser Rifle",
+    "source": [
+      "DMG",
+      268
+    ],
+    "rarity": "none",
+    "weight": 7,
+    "entries": [],
+    "value": 0,
+    "item_type": "",
+    "properties": [
+      "Ammunition"
+    ],
+    "category": "martial",
+    "weapon_type": "Ranged Weapon",
+    "attunement": "",
+    "range": "100/300",
+    "__dataclass__": "ItemWeapon"
+  },
+  {
+    "name": "Leather Armor",
+    "source": [
+      "PHB",
+      144
+    ],
+    "rarity": "none",
+    "weight": 10,
+    "entries": [
+      "The breastplate and shoulder protectors of this armor are made of leather that has been stiffened by being boiled in oil. The rest of the armor is made of softer and more flexible materials."
+    ],
+    "value": 1000,
+    "item_type": "",
+    "properties": [],
+    "ac": 11,
+    "armor_type": "Light Armor",
+    "min_strength": 0,
+    "affects_stealth": false,
+    "__dataclass__": "ItemArmor"
+  },
+  {
+    "name": "Light Crossbow",
+    "source": [
+      "PHB",
+      149
+    ],
+    "rarity": "none",
+    "weight": 5,
+    "entries": [],
+    "value": 2500,
+    "item_type": "",
+    "properties": [],
+    "category": "simple",
+    "weapon_type": "Ranged Weapon",
+    "attunement": "",
+    "range": "80/320",
+    "__dataclass__": "ItemWeapon"
+  },
+  {
+    "name": "Light Hammer",
+    "source": [
+      "PHB",
+      149
+    ],
+    "rarity": "none",
+    "weight": 2,
+    "entries": [],
+    "value": 200,
+    "item_type": "",
+    "properties": [],
+    "category": "simple",
+    "weapon_type": "Melee Weapon",
+    "attunement": "",
+    "range": "20/60",
+    "__dataclass__": "ItemWeapon"
+  },
+  {
+    "name": "Light Repeating Crossbow",
+    "source": [
+      "OotA",
+      224
+    ],
+    "rarity": "unknown",
+    "weight": 5,
+    "entries": [
+      "This crossbow is fitted with a cartridge that can hold up to six crossbow bolts. It automatically reloads after firing until the cartridge runs out of ammunition. Reloading the cartridge takes an action."
+    ],
+    "value": 0,
+    "item_type": "",
+    "properties": [],
+    "category": "simple",
+    "weapon_type": "Ranged Weapon",
+    "attunement": "",
+    "range": "40/160",
+    "__dataclass__": "ItemWeapon"
+  },
+  {
+    "name": "Longbow",
+    "source": [
+      "PHB",
+      149
+    ],
+    "rarity": "none",
+    "weight": 2,
+    "entries": [],
+    "value": 5000,
+    "item_type": "",
+    "properties": [],
+    "category": "martial",
+    "weapon_type": "Ranged Weapon",
+    "attunement": "",
+    "range": "150/600",
+    "__dataclass__": "ItemWeapon"
+  },
+  {
+    "name": "Longhorn",
+    "source": [
+      "SCAG",
+      124
+    ],
+    "rarity": "none",
+    "weight": 0,
+    "entries": [
+      "A Faer\u00fbnian flute of sophisticated make, found only in areas with skilled artisans, as in great cities or elven enclaves."
+    ],
+    "value": 0,
+    "item_type": "Instrument",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Longsword",
+    "source": [
+      "PHB",
+      149
+    ],
+    "rarity": "none",
+    "weight": 3,
+    "entries": [],
+    "value": 1500,
+    "item_type": "",
+    "properties": [],
+    "category": "martial",
+    "weapon_type": "Melee Weapon",
+    "attunement": "",
+    "range": "",
+    "__dataclass__": "ItemWeapon"
+  },
+  {
+    "name": "Lute",
+    "source": [
+      "PHB",
+      154
+    ],
+    "rarity": "none",
+    "weight": 2,
+    "entries": [],
+    "value": 3500,
+    "item_type": "Instrument",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Lyre",
+    "source": [
+      "PHB",
+      154
+    ],
+    "rarity": "none",
+    "weight": 2,
+    "entries": [],
+    "value": 3000,
+    "item_type": "Instrument",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Mace",
+    "source": [
+      "PHB",
+      149
+    ],
+    "rarity": "none",
+    "weight": 4,
+    "entries": [],
+    "value": 500,
+    "item_type": "",
+    "properties": [],
+    "category": "simple",
+    "weapon_type": "Melee Weapon",
+    "attunement": "",
+    "range": "",
+    "__dataclass__": "ItemWeapon"
+  },
+  {
+    "name": "Maul",
+    "source": [
+      "PHB",
+      149
+    ],
+    "rarity": "none",
+    "weight": 10,
+    "entries": [],
+    "value": 1000,
+    "item_type": "",
+    "properties": [],
+    "category": "martial",
+    "weapon_type": "Melee Weapon",
+    "attunement": "",
+    "range": "",
+    "__dataclass__": "ItemWeapon"
+  },
+  {
+    "name": "Modern Bullet",
+    "source": [
+      "DMG",
+      268
+    ],
+    "rarity": "none",
+    "weight": 0.1,
+    "entries": [],
+    "value": 0,
+    "item_type": "Ammunition",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Modern Bullets (10)",
+    "source": [
+      "DMG",
+      268
+    ],
+    "rarity": "none",
+    "weight": 1,
+    "entries": [],
+    "value": 0,
+    "item_type": "Ammunition",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Morningstar",
+    "source": [
+      "PHB",
+      149
+    ],
+    "rarity": "none",
+    "weight": 4,
+    "entries": [],
+    "value": 1500,
+    "item_type": "",
+    "properties": [],
+    "category": "martial",
+    "weapon_type": "Melee Weapon",
+    "attunement": "",
+    "range": "",
+    "__dataclass__": "ItemWeapon"
+  },
+  {
+    "name": "Musket",
+    "source": [
+      "DMG",
+      268
+    ],
+    "rarity": "none",
+    "weight": 10,
+    "entries": [],
+    "value": 50000,
+    "item_type": "",
+    "properties": [
+      "Ammunition"
+    ],
+    "category": "martial",
+    "weapon_type": "Ranged Weapon",
+    "attunement": "",
+    "range": "40/120",
+    "__dataclass__": "ItemWeapon"
+  },
+  {
+    "name": "Net",
+    "source": [
+      "PHB",
+      149
+    ],
+    "rarity": "none",
+    "weight": 3,
+    "entries": [
+      {
+        "type": "entries",
+        "name": "Special",
+        "entries": [
+          "A Large or smaller creature hit by a net is {@condition restrained} until it is freed. A net has no effect on creatures that are formless, or creatures that are Huge or larger. A creature can use its action to make a {@dc 10} Strength check, freeing itself or another creature within its reach on a success. Dealing 5 slashing damage to the net (AC 10) also frees the creature without harming it, ending the effect and destroying the net. When you use an action, bonus action, or reaction to attack with a net, you can make only one attack regardless of the number of attacks you can normally make."
+        ]
+      }
+    ],
+    "value": 100,
+    "item_type": "",
+    "properties": [],
+    "category": "martial",
+    "weapon_type": "Ranged Weapon",
+    "attunement": "",
+    "range": "5/15",
+    "__dataclass__": "ItemWeapon"
+  },
+  {
+    "name": "Orb",
+    "source": [
+      "PHB",
+      151
+    ],
+    "rarity": "none",
+    "weight": 3,
+    "entries": [],
+    "value": 2000,
+    "item_type": "Spellcasting Focus",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Padded Armor",
+    "source": [
+      "PHB",
+      144
+    ],
+    "rarity": "none",
+    "weight": 8,
+    "entries": [
+      "Padded armor consists of quilted layers of cloth and batting."
+    ],
+    "value": 500,
+    "item_type": "",
+    "properties": [],
+    "ac": 11,
+    "armor_type": "Light Armor",
+    "min_strength": 0,
+    "affects_stealth": true,
+    "__dataclass__": "ItemArmor"
+  },
+  {
+    "name": "Pan Flute",
+    "source": [
+      "PHB",
+      154
+    ],
+    "rarity": "none",
+    "weight": 2,
+    "entries": [],
+    "value": 1200,
+    "item_type": "Instrument",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Pike",
+    "source": [
+      "PHB",
+      149
+    ],
+    "rarity": "none",
+    "weight": 18,
+    "entries": [],
+    "value": 500,
+    "item_type": "",
+    "properties": [],
+    "category": "martial",
+    "weapon_type": "Melee Weapon",
+    "attunement": "",
+    "range": "",
+    "__dataclass__": "ItemWeapon"
+  },
+  {
+    "name": "Pistol",
+    "source": [
+      "DMG",
+      268
+    ],
+    "rarity": "none",
+    "weight": 3,
+    "entries": [],
+    "value": 25000,
+    "item_type": "",
+    "properties": [
+      "Ammunition"
+    ],
+    "category": "martial",
+    "weapon_type": "Ranged Weapon",
+    "attunement": "",
+    "range": "30/90",
+    "__dataclass__": "ItemWeapon"
+  },
+  {
+    "name": "Plate Armor",
+    "source": [
+      "PHB",
+      145
+    ],
+    "rarity": "none",
+    "weight": 65,
+    "entries": [
+      "Plate consists of shaped, interlocking metal plates to cover the entire body. A suit of plate includes gauntlets, heavy leather boots, a visored helmet, and thick layers of padding underneath the armor. Buckles and straps distribute the weight over the body."
+    ],
+    "value": 150000,
+    "item_type": "",
+    "properties": [],
+    "ac": 18,
+    "armor_type": "Heavy Armor",
+    "min_strength": 15,
+    "affects_stealth": true,
+    "__dataclass__": "ItemArmor"
+  },
+  {
+    "name": "Quarterstaff",
+    "source": [
+      "PHB",
+      149
+    ],
+    "rarity": "none",
+    "weight": 4,
+    "entries": [],
+    "value": 20,
+    "item_type": "",
+    "properties": [],
+    "category": "simple",
+    "weapon_type": "Melee Weapon",
+    "attunement": "",
+    "range": "",
+    "__dataclass__": "ItemWeapon"
+  },
+  {
+    "name": "Rapier",
+    "source": [
+      "PHB",
+      149
+    ],
+    "rarity": "none",
+    "weight": 2,
+    "entries": [],
+    "value": 2500,
+    "item_type": "",
+    "properties": [],
+    "category": "martial",
+    "weapon_type": "Melee Weapon",
+    "attunement": "",
+    "range": "",
+    "__dataclass__": "ItemWeapon"
+  },
+  {
+    "name": "Renaissance Bullet",
+    "source": [
+      "DMG",
+      268
+    ],
+    "rarity": "none",
+    "weight": 0.2,
+    "entries": [],
+    "value": 30,
+    "item_type": "Ammunition",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Renaissance Bullets (10)",
+    "source": [
+      "DMG",
+      268
+    ],
+    "rarity": "none",
+    "weight": 2,
+    "entries": [],
+    "value": 300,
+    "item_type": "Ammunition",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Revolver",
+    "source": [
+      "DMG",
+      268
+    ],
+    "rarity": "none",
+    "weight": 3,
+    "entries": [],
+    "value": 0,
+    "item_type": "",
+    "properties": [
+      "Ammunition"
+    ],
+    "category": "martial",
+    "weapon_type": "Ranged Weapon",
+    "attunement": "",
+    "range": "40/120",
+    "__dataclass__": "ItemWeapon"
+  },
+  {
+    "name": "Ring Mail",
+    "source": [
+      "PHB",
+      145
+    ],
+    "rarity": "none",
+    "weight": 40,
+    "entries": [
+      "This armor is leather armor with heavy rings sewn into it. The rings help reinforce the armor against blows from swords and axes. Ring mail is inferior to chain mail, and it's usually worn only by those who can't afford better armor."
+    ],
+    "value": 3000,
+    "item_type": "",
+    "properties": [],
+    "ac": 14,
+    "armor_type": "Heavy Armor",
+    "min_strength": 0,
+    "affects_stealth": true,
+    "__dataclass__": "ItemArmor"
+  },
+  {
+    "name": "Rod",
+    "source": [
+      "PHB",
+      151
+    ],
+    "rarity": "none",
+    "weight": 2,
+    "entries": [],
+    "value": 1000,
+    "item_type": "Spellcasting Focus",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Scale Mail",
+    "source": [
+      "PHB",
+      144
+    ],
+    "rarity": "none",
+    "weight": 45,
+    "entries": [
+      "This armor consists of a coat and leggings (and perhaps a separate skirt) of leather covered with overlapping pieces of metal, much like the scales of a fish. The suit includes gauntlets."
+    ],
+    "value": 5000,
+    "item_type": "",
+    "properties": [],
+    "ac": 14,
+    "armor_type": "Medium Armor",
+    "min_strength": 0,
+    "affects_stealth": true,
+    "__dataclass__": "ItemArmor"
+  },
+  {
+    "name": "Scimitar",
+    "source": [
+      "PHB",
+      149
+    ],
+    "rarity": "none",
+    "weight": 3,
+    "entries": [],
+    "value": 2500,
+    "item_type": "",
+    "properties": [],
+    "category": "martial",
+    "weapon_type": "Melee Weapon",
+    "attunement": "",
+    "range": "",
+    "__dataclass__": "ItemWeapon"
+  },
+  {
+    "name": "Shawm",
+    "source": [
+      "PHB",
+      154
+    ],
+    "rarity": "none",
+    "weight": 1,
+    "entries": [],
+    "value": 200,
+    "item_type": "Instrument",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Shawm",
+    "source": [
+      "SCAG",
+      124
+    ],
+    "rarity": "none",
+    "weight": 0,
+    "entries": [
+      "A double-reed instrument similar to an oboe or a bassoon, popular with gnomes, who have developed some bellows-powered versions."
+    ],
+    "value": 0,
+    "item_type": "Instrument",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Shield",
+    "source": [
+      "PHB",
+      144
+    ],
+    "rarity": "none",
+    "weight": 6,
+    "entries": [
+      "A shield is made from wood or metal and is carried in one hand. Wielding a shield increases your Armor Class by 2. You can benefit from only one shield at a time."
+    ],
+    "value": 1000,
+    "item_type": "Shield",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Shortbow",
+    "source": [
+      "PHB",
+      149
+    ],
+    "rarity": "none",
+    "weight": 2,
+    "entries": [],
+    "value": 2500,
+    "item_type": "",
+    "properties": [],
+    "category": "simple",
+    "weapon_type": "Ranged Weapon",
+    "attunement": "",
+    "range": "80/320",
+    "__dataclass__": "ItemWeapon"
+  },
+  {
+    "name": "Shortsword",
+    "source": [
+      "PHB",
+      149
+    ],
+    "rarity": "none",
+    "weight": 2,
+    "entries": [],
+    "value": 1000,
+    "item_type": "",
+    "properties": [],
+    "category": "martial",
+    "weapon_type": "Melee Weapon",
+    "attunement": "",
+    "range": "",
+    "__dataclass__": "ItemWeapon"
+  },
+  {
+    "name": "Shotgun",
+    "source": [
+      "DMG",
+      268
+    ],
+    "rarity": "none",
+    "weight": 7,
+    "entries": [],
+    "value": 0,
+    "item_type": "",
+    "properties": [
+      "Ammunition"
+    ],
+    "category": "martial",
+    "weapon_type": "Ranged Weapon",
+    "attunement": "",
+    "range": "30/90",
+    "__dataclass__": "ItemWeapon"
+  },
+  {
+    "name": "Sickle",
+    "source": [
+      "PHB",
+      149
+    ],
+    "rarity": "none",
+    "weight": 2,
+    "entries": [],
+    "value": 100,
+    "item_type": "",
+    "properties": [],
+    "category": "simple",
+    "weapon_type": "Melee Weapon",
+    "attunement": "",
+    "range": "",
+    "__dataclass__": "ItemWeapon"
+  },
+  {
+    "name": "Sling",
+    "source": [
+      "PHB",
+      149
+    ],
+    "rarity": "none",
+    "weight": 0,
+    "entries": [],
+    "value": 10,
+    "item_type": "",
+    "properties": [],
+    "category": "simple",
+    "weapon_type": "Ranged Weapon",
+    "attunement": "",
+    "range": "30/120",
+    "__dataclass__": "ItemWeapon"
+  },
+  {
+    "name": "Sling Bullet",
+    "source": [
+      "PHB",
+      150
+    ],
+    "rarity": "none",
+    "weight": 0.075,
+    "entries": [],
+    "value": 0.2,
+    "item_type": "Ammunition",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Sling Bullets (20)",
+    "source": [
+      "PHB",
+      150
+    ],
+    "rarity": "none",
+    "weight": 1.5,
+    "entries": [],
+    "value": 4,
+    "item_type": "Ammunition",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Songhorn",
+    "source": [
+      "SCAG",
+      124
+    ],
+    "rarity": "none",
+    "weight": 0,
+    "entries": [
+      "A recorder, a simple type of flute, usually carved from wood."
+    ],
+    "value": 0,
+    "item_type": "Instrument",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Spear",
+    "source": [
+      "PHB",
+      149
+    ],
+    "rarity": "none",
+    "weight": 3,
+    "entries": [],
+    "value": 100,
+    "item_type": "",
+    "properties": [],
+    "category": "simple",
+    "weapon_type": "Melee Weapon",
+    "attunement": "",
+    "range": "20/60",
+    "__dataclass__": "ItemWeapon"
+  },
+  {
+    "name": "Spiked Armor",
+    "source": [
+      "SCAG",
+      121
+    ],
+    "rarity": "unknown",
+    "weight": 45,
+    "entries": [
+      "Spiked armor is a rare type of medium armor made by dwarves. It consists of a leather coat and leggings covered with spikes that are usually made of metal."
+    ],
+    "value": 7500,
+    "item_type": "",
+    "properties": [],
+    "ac": 14,
+    "armor_type": "Medium Armor",
+    "min_strength": 0,
+    "affects_stealth": true,
+    "__dataclass__": "ItemArmor"
+  },
+  {
+    "name": "Splint Armor",
+    "source": [
+      "PHB",
+      145
+    ],
+    "rarity": "none",
+    "weight": 60,
+    "entries": [
+      "This armor is made of narrow vertical strips of metal riveted to a backing of leather that is worn over cloth padding. Flexible chain mail protects the joints."
+    ],
+    "value": 20000,
+    "item_type": "",
+    "properties": [],
+    "ac": 17,
+    "armor_type": "Heavy Armor",
+    "min_strength": 15,
+    "affects_stealth": true,
+    "__dataclass__": "ItemArmor"
+  },
+  {
+    "name": "Staff",
+    "source": [
+      "PHB",
+      151
+    ],
+    "rarity": "none",
+    "weight": 4,
+    "entries": [],
+    "value": 500,
+    "item_type": "Spellcasting Focus",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Studded Leather Armor",
+    "source": [
+      "PHB",
+      144
+    ],
+    "rarity": "none",
+    "weight": 13,
+    "entries": [
+      "Made from tough but flexible leather, studded leather is reinforced with close-set rivets or spikes."
+    ],
+    "value": 4500,
+    "item_type": "",
+    "properties": [],
+    "ac": 12,
+    "armor_type": "Light Armor",
+    "min_strength": 0,
+    "affects_stealth": false,
+    "__dataclass__": "ItemArmor"
+  },
+  {
+    "name": "Tantan",
+    "source": [
+      "SCAG",
+      124
+    ],
+    "rarity": "none",
+    "weight": 0,
+    "entries": [
+      "A tambourine, a popular instrument with halflings and humans south of the Dalelands."
+    ],
+    "value": 0,
+    "item_type": "Instrument",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Thelarr",
+    "source": [
+      "SCAG",
+      124
+    ],
+    "rarity": "none",
+    "weight": 0,
+    "entries": [
+      "Also known as a whistlecane, a simple and easy-to-make wind instrument cut from a reed. They are so simple, in fact, that skilled bards frequently make and give them away to children\u2014to the parents' delight or regret."
+    ],
+    "value": 0,
+    "item_type": "Instrument",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Tocken",
+    "source": [
+      "SCAG",
+      124
+    ],
+    "rarity": "none",
+    "weight": 0,
+    "entries": [
+      "A hanging set of carved oval bells, usually played with a pair of light wooden hammers (or open handed). They are most common in underground cultures, where the resonant tones can carry."
+    ],
+    "value": 0,
+    "item_type": "Instrument",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Trident",
+    "source": [
+      "PHB",
+      149
+    ],
+    "rarity": "none",
+    "weight": 4,
+    "entries": [],
+    "value": 500,
+    "item_type": "",
+    "properties": [],
+    "category": "martial",
+    "weapon_type": "Melee Weapon",
+    "attunement": "",
+    "range": "20/60",
+    "__dataclass__": "ItemWeapon"
+  },
+  {
+    "name": "Viol",
+    "source": [
+      "PHB",
+      154
+    ],
+    "rarity": "none",
+    "weight": 1,
+    "entries": [],
+    "value": 3000,
+    "item_type": "Instrument",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Wand",
+    "source": [
+      "PHB",
+      151
+    ],
+    "rarity": "none",
+    "weight": 1,
+    "entries": [],
+    "value": 1000,
+    "item_type": "Spellcasting Focus",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "War Pick",
+    "source": [
+      "PHB",
+      149
+    ],
+    "rarity": "none",
+    "weight": 2,
+    "entries": [],
+    "value": 500,
+    "item_type": "",
+    "properties": [],
+    "category": "martial",
+    "weapon_type": "Melee Weapon",
+    "attunement": "",
+    "range": "",
+    "__dataclass__": "ItemWeapon"
+  },
+  {
+    "name": "Wargong",
+    "source": [
+      "SCAG",
+      124
+    ],
+    "rarity": "none",
+    "weight": 0,
+    "entries": [
+      "A metal gong, traditionally made from a shield, particularly the shield of an enemy. Both goblins and dwarves make and play wargongs, their sound echoing through tunnels in the Underdark."
+    ],
+    "value": 0,
+    "item_type": "Instrument",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Warhammer",
+    "source": [
+      "PHB",
+      149
+    ],
+    "rarity": "none",
+    "weight": 2,
+    "entries": [],
+    "value": 1500,
+    "item_type": "",
+    "properties": [],
+    "category": "martial",
+    "weapon_type": "Melee Weapon",
+    "attunement": "",
+    "range": "",
+    "__dataclass__": "ItemWeapon"
+  },
+  {
+    "name": "Whip",
+    "source": [
+      "PHB",
+      149
+    ],
+    "rarity": "none",
+    "weight": 3,
+    "entries": [],
+    "value": 200,
+    "item_type": "",
+    "properties": [],
+    "category": "martial",
+    "weapon_type": "Melee Weapon",
+    "attunement": "",
+    "range": "",
+    "__dataclass__": "ItemWeapon"
+  },
+  {
+    "name": "Wooden Staff",
+    "source": [
+      "PHB",
+      151
+    ],
+    "rarity": "none",
+    "weight": 4,
+    "entries": [],
+    "value": 500,
+    "item_type": "Spellcasting Focus",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Yarting",
+    "source": [
+      "SCAG",
+      124
+    ],
+    "rarity": "none",
+    "weight": 0,
+    "entries": [
+      "A southern instrument from Amn and Calimshan that is a Faer\u00fbnian analog to the guitar. Numerous variations have spread across the continent."
+    ],
+    "value": 0,
+    "item_type": "Instrument",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Yklwa",
+    "source": [
+      "ToA",
+      32
+    ],
+    "rarity": "none",
+    "weight": 3,
+    "entries": [
+      "A yklwa (pronounced YICK-ul-wah) is a simple melee weapon that is the traditional weapon of Chultan warriors. A yklwa consists of a 3-foot wooden shaft with a steel or stone blade up to 18 inches long. Although it has the thrown weapon property, the yklwa is not well balanced for throwing."
+    ],
+    "value": 100,
+    "item_type": "",
+    "properties": [],
+    "category": "simple",
+    "weapon_type": "Melee Weapon",
+    "attunement": "",
+    "range": "10/30",
+    "__dataclass__": "ItemWeapon"
+  },
+  {
+    "name": "Zulkoon",
+    "source": [
+      "SCAG",
+      124
+    ],
+    "rarity": "none",
+    "weight": 0,
+    "entries": [
+      "A complex pump organ that originated with the zulkirs of Thay, who use it in the casting of their spells. It is considered to have a dramatic, but sinister, sound."
+    ],
+    "value": 0,
+    "item_type": "Instrument",
+    "properties": [],
+    "__dataclass__": "Item"
+  }
+]

@@ -1,7 +1,7 @@
 from __future__ import annotations
 
-from dataclasses import dataclass, field
-from typing import Any, Optional, TypeVar, Generic
+from dataclasses import dataclass, field, fields
+from typing import Any, Optional, TypeVar, Generic, Type
 
 import dominate.tags as dtags
 from flask import render_template_string
@@ -768,3 +768,70 @@ class Spell:
             component_str += f" ({self.material_components})"
         
         return component_str
+
+@dataclass(kw_only=True)
+class Item:
+    name: str
+    source: tuple[str, int]
+    rarity: str = "common"
+    weight: int = 0
+    entries: list[Entry] = field(default_factory=list)
+    value: int = 0 # Value in CP
+    item_type: str = ""
+    properties: list[str] = field(default_factory=list)
+
+    @classmethod
+    def from_spec(cls: type, spec: dict[str, Any]) -> Item:
+        # Return a subclass if relevant
+        if cls is Item:
+            if spec.get("weapon"):
+                return ItemWeapon.from_spec(spec)
+            if spec.get("armor"):
+                return ItemArmor.from_spec(spec)
+        
+        return cls(**cls._filter_spec(spec))
+    
+    @classmethod
+    def _from_spec(cls: Type, spec: dict[str, Any]) -> Item:
+        return cls(**cls._filter_spec(spec))
+
+    @classmethod
+    def _filter_spec(cls: Type, spec: dict[str, Any]) -> dict[str, Any]:
+        allowed_fields = {field.name for field in fields(cls)}
+        return {k: spec[k] for k in spec.keys() if k in allowed_fields}
+
+
+    def id(self):
+        return f"{self.name}|{self.source[0]}".lower()
+
+@dataclass(kw_only=True)
+class ItemWeapon(Item):
+    category: str
+    weapon_type: str
+    properties: list[str] = field(default_factory=list)
+    attunement: str = ""
+    range: str = ""
+
+    @classmethod
+    def from_spec(cls: Type[ItemWeapon], spec: dict[str, Any]) -> Item:
+        # Do some field conversion
+        spec["weapon_type"] = spec.pop("item_type")
+        spec["category"] = spec.pop("weaponCategory")
+
+        return cls._from_spec(spec)
+
+@dataclass(kw_only=True)
+class ItemArmor(Item):
+    ac: int
+    armor_type: str
+    min_strength: int = 0
+    affects_stealth: bool = False
+
+    @classmethod
+    def from_spec(cls: Type[ItemArmor], spec: dict[str, Any]) -> Item:
+        # Do some field conversion
+        spec["armor_type"] = spec.pop("item_type")
+        spec["min_strength"] = int(spec.pop("strength", 0))
+        spec["affects_stealth"] = spec.pop("stealth", False)
+
+        return cls._from_spec(spec)

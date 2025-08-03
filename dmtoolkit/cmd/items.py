@@ -4,7 +4,7 @@ from typing import Any
 
 from dmtoolkit.cmd._util import ConverterError, browser_fetch, pluralize, singularize, deep_get
 from dmtoolkit.constants import ROOT_DIR
-from dmtoolkit.api.models import Spell, Subclass, ClassFeature, Entry
+from dmtoolkit.api.models import Item, Entry
 from dmtoolkit.api.serialize import dump_json, load_json
 
 
@@ -31,68 +31,62 @@ def fetch_items(outfile: Path):
     with outfile.open("w") as f:
         json.dump(items, f)
 
-# def convert(infile: Path, outfile: Path) -> list[Spell]:
-#     raw_spell_specs: list[dict[str, Any]] = []
-#     spells: list[Spell] = []
-#     with infile.open("r") as f:
-#         raw_spell_specs = json.load(f)
+def convert(infile: Path, outfile: Path):
+    raw_item_specs: dict[str, list[dict[str, Any]]] = []
+    items: list[Item] = []
+    with infile.open("r") as f:
+        raw_item_specs = json.load(f)
     
-#     for group in raw_spell_specs:
-#         for spell_spec in group["spell"]:
-#             if "name" not in spell_spec:
-#                 print(spell_spec)
-#                 raise Exception
-#             spell_name = spell_spec["name"]
-#             spell_params = {
-#                 "entries": [],
-#                 "duration": "",
-#                 "level": spell_spec["level"],
-#                 "name": spell_name,
-#                 "range": "",
-#                 "school": SCHOOLS[spell_spec["school"]],
-#                 "source": (spell_spec["source"], int(spell_spec["page"])),
-#                 "time": "",
-#             }
-
-#             for entry in spell_spec["entries"]:
-#                 spell_params["entries"].append(Entry.from_spec(entry))
-#             for entry in spell_spec.get("entriesHigherLevel", []):
-#                 spell_params["entries"].append(Entry.from_spec(entry))
-
-#             try:
-#                 duration_spec = spell_spec["duration"][0] # Only ever has one entry
-#                 spell_params["duration"] = _fmt_duration(duration_spec) 
-#                 spell_params["range"] = _fmt_range(spell_spec["range"])
-#                 spell_params["time"] = _fmt_time(spell_spec["time"])
-#             except BaseException as e:
-#                 raise ConverterError(f"{spell_name}: {e}") from e
-#             if spell_params["duration"].startswith("Concentration"):
-#                 spell_params["is_concentration"] = True
+    # -- Load some metadata stuff first --
+    # Properties
+    item_properties: dict[str, dict[str, Any]] = {}
+    for prop in deep_get(raw_item_specs, "base", "itemProperty", default=[]):
+        if prop.get("source", "").startswith("X"):
+            # Something from 5.5e; ignore it
+            continue
+        # Infer the name of the property
+        if "name" not in prop:
+            # Set a sensible default
+            prop["name"] = prop["abbreviation"]
+            # Override default if there's an entry with a name
+            if "entries" in prop:
+                if name := prop["entries"][0].get("name"):
+                    prop["name"] = name
             
-#             for additional_source in spell_spec.get("additional_sources", []):
-#                 if "additional_sources" not in spell_params:
-#                     spell_params["additional_sources"] = []
-#                 spell_params["additional_sources"].append(
-#                     (additional_source["source"], additional_source["page"])
-#                 )
-            
-#             if deep_get(spell_spec, "components", "v"):
-#                 spell_params["is_verbal"] = True
-#             if deep_get(spell_spec, "components", "s"):
-#                 spell_params["is_somatic"] = True
-#             if material_component_spec := deep_get(spell_spec, "components", "m"):
-#                 spell_params["is_material"] = True
-#                 if isinstance(material_component_spec, dict):
-#                     spell_params["material_components"] = material_component_spec["text"]
-#                 else:
-#                     spell_params["material_components"] = str(material_component_spec)
-            
-#             spell_params["is_ritual"] = deep_get(spell_spec, "meta", "ritual", default=False)
+        item_properties[f"{prop['abbreviation']}|{prop['source']}"] = prop
 
-#             try:
-#                 spells.append(Spell(**spell_params))
-#             except BaseException as e:
-#                 raise ConverterError(f"{spell_name}: Unable to convert: {e}") from e
+    # Item Types
+    item_types: dict[str, dict[str, Any]] = {}
+    for item_type in deep_get(raw_item_specs, "base", "itemType", default=[]):
+        if item_type.get("source", "").startswith("X"):
+            # Something from 5.5e; ignore it
+            continue
+        item_types[f"{item_type['abbreviation']}|{item_type['source']}"] = item_type["name"]
+        item_types[item_type["abbreviation"]] = item_type["name"]
     
-#     with outfile.open("w") as f:
-#         dump_json(spells, f)
+    # -- Load base items --
+    for item_spec in deep_get(raw_item_specs, "base", "baseitem"):
+        if item_spec.get("source", "").startswith("X"):
+            # Something from 5.5e; ignore it
+            continue
+        name = item_spec["name"]
+        try:
+            kwargs = item_spec.copy()
+            kwargs["source"] = (item_spec["source"], item_spec["page"])
+            
+            if "type" in kwargs:
+                kwargs["item_type"] = item_types.get(kwargs["type"])
+            
+            if "property" in kwargs:
+                kwargs["properties"] = []
+                for prop in kwargs["property"]:
+                    if _prop := item_properties.get(prop):
+                        kwargs["properties"].append(_prop["name"])
+            
+            items.append(Item.from_spec(kwargs))
+        except Exception as e:
+            raise ConverterError(f"Unable to convert item {name}: {e}") from e
+    
+    
+    with outfile.open("w") as f:
+        dump_json(items, f)

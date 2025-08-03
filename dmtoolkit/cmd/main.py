@@ -85,3 +85,9 @@ def items():
 @click.option("--outfile", "-o", default=cmd_i.DEFAULT_RAW, type=click.Path(writable=True, path_type=Path))
 def fetch_items(outfile):
     cmd_i.fetch_items(outfile)
+
+@items.command("convert")
+@click.option("--infile", "-i", default=cmd_i.DEFAULT_RAW, type=click.Path(exists=True, path_type=Path))
+@click.option("--outfile", "-o", default=cmd_i.DEFAULT_CONV, type=click.Path(writable=True, path_type=Path))
+def convert_items(infile: Path, outfile: Path):
+    cmd_i.convert(infile, outfile)
