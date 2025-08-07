@@ -12,8 +12,6 @@ def get_monsters() -> dict[str, Monster]:
         with DEFAULT_MONSTERS_FILE.open("r") as f:
             monster_list: list[Monster] = load_json(f)
         for monster in monster_list:
-            if not monster:
-                breakpoint()
             MONSTERS[monster.key] = monster
     
     return MONSTERS
