@@ -5,9 +5,17 @@ from uuid import uuid4
 
 from flask import request, Response
 
+DEFAULT_ENCOUNTERS = {
+    "sample1": {
+        "title": "(Sample) Bandits",
+        "desc": "A group of bandits ambushes the party.",
+        "monsters": ["Bandit-MM", "Bandit-MM", "Bandit-MM", "Bandit Captain-MM"]
+    }
+}
+
 def getall():
     """Return all encounters."""
-    return json.loads(request.cookies.get("encounters", "{}"))
+    return json.loads(request.cookies.get("encounters", "{}")) or DEFAULT_ENCOUNTERS
 
 
 def get(eid: str):
