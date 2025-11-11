@@ -69,6 +69,22 @@ def get_monster_combat_overview():
             item = get_item(item_id.group(1))
             if item:
                 item_set[item.id] = item
+    
+    # Grab weapon
+    for entry in monster.actions or []:
+        # Only drop usable item 1 in 10 times
+        if random.random() > 1/10:
+            continue
+        if item := get_item(entry.title):
+            item_set[item.id] = item
+    
+    # Grab Armor
+    for ac_entry in monster.ac:
+        for item_id in re.finditer(r"{@item (.*?)}", str(ac_entry.note)):
+            if random.random() > 1/10:
+                continue
+            if item := get_item(item_id.group(1)):
+                item_set[item.id] = item
 
     return json.dumps({
         "name": monster.name,
