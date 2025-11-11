@@ -393,6 +393,9 @@ class Entry:
                 case "refFeat":
                     # Reference to a Feat
                     body.append("{{@feat {0}}}".format(spec["feat"]))
+                case "section":
+                    body.append(f"<h2>{spec['entries'][0]['name']}")
+                    body.extend([Entry.from_spec(subentry) for subentry in spec["entries"][0]["entries"]])
                 case _:
                     raise ValueError(f"Unexpected type '{spec['type']}'")
 
@@ -782,6 +785,11 @@ class Item:
 
     @classmethod
     def from_spec(cls: type, spec: dict[str, Any]) -> Item:
+        # Convert entries, if needed
+        for idx, entry in enumerate(spec.get("entries", [])):
+            if not isinstance(entry, Entry):
+                spec["entries"][idx] = Entry.from_spec(entry)
+
         # Return a subclass if relevant
         if cls is Item:
             if spec.get("weapon"):

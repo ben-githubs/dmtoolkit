@@ -70,16 +70,3 @@ div.saved-encounter-list-item:hover {
 div.saved-encounter-list div.selected {
     background-color: #eeeeee;
 }
-
-div.tooltip {
-    display: none;
-    position: absolute;
-    box-shadow: 2px 2px 6px #4d4d4d77;
-    width: 480px;
-    right: 0;
-    background: url('/inittracker/static/seamless-parchment.jpg');
-    border-top: 2px solid #e69a28;
-    border-bottom: 2px solid #e69a28;
-    max-height: 50vh;
-    overflow: scroll;
-}

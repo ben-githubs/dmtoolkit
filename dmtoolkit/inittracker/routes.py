@@ -3,6 +3,7 @@ import json
 from flask import Blueprint, render_template, request
 
 from dmtoolkit.api.classes import get_class
+from dmtoolkit.api.items import get_item
 from dmtoolkit.api.monsters import get_monster, get_monster_names
 from dmtoolkit.api.players import list_players, get_player
 from dmtoolkit.api.races import get_race
@@ -105,3 +106,9 @@ def get_statblock_html(id: str):
 def get_spell_tooltip(spell_name: str):
     spell = get_spell(spell_name)
     return render_template("spell-statblock.jinja2", spell=spell)
+
+@tracker_bp.route("/tooltips/items/<item_name>", methods=["GET"])
+def get_item_tooltip(item_name: str):
+    item = get_item(item_name)
+    print(item)
+    return render_template("item-statblock.jinja2", item=item)

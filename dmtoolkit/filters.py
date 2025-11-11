@@ -1,6 +1,7 @@
 import re
 from urllib.parse import quote
 from flask import url_for
+from dmtoolkit.api import items
 
 class Macro5e:
     damage = re.compile(r"{@damage (.*?)}")
@@ -14,6 +15,7 @@ class Macro5e:
     status = re.compile(r"\{@status (\w+)(?:\s*\|\|\s*(\w+))?}")
     skill = re.compile(r"{@skill (.*?)}")
     italics = re.compile(r"{@i (.*?)}")
+    item = re.compile(r"\{@item (.*?)\}")
 
     @staticmethod
     def render_macros(text: str) -> str:
@@ -30,6 +32,7 @@ class Macro5e:
         text = Macro5e.status.sub(Macro5e.render_status, text)
         text = Macro5e.skill.sub(Macro5e.render_skill, text)
         text = Macro5e.italics.sub(r"<em>\1</em>", text)
+        text = Macro5e.item.sub(Macro5e.render_item, text)
 
         return text
 
@@ -78,6 +81,18 @@ class Macro5e:
     def render_hit(match: re.Match) -> str:
         hit_mod = match.group(1)
         return f"{int(hit_mod):+d}"
+    
+    @staticmethod
+    def render_item(match: re.Match) -> str:
+        item_id = match.group(1)
+        url = f"https://roll20.net/compendium/dnd5e/{quote(item_id, safe='')}"
+
+        item_url = url_for("tracker_bp.get_item_tooltip", item_name=item_id)
+        item_url = item_url.replace("'", r"\'").replace('"', r"\"")
+        func = f"showNewTooltip(event, '{item_url}')"
+        item = items.get_item(item_id)
+        
+        return f"""<span class="tooltip" onmouseenter="{func}" onmouseleave="hideTooltip(event)"><a href="{url}">{item.name}</a></span>"""
 
     @staticmethod
     def render_skill(match: re.Match) -> str:
@@ -97,7 +112,7 @@ class Macro5e:
         spell_url = url_for("tracker_bp.get_spell_tooltip", spell_name=spell)
         func = f"showNewTooltip(event, '{spell_url}')"
         
-        return f"""<span onmouseenter="{func}" onmouseleave="hideTooltip(event)"><a href="{url}">{spell}</a></span>"""
+        return f"""<span class="tooltip" onmouseenter="{func}" onmouseleave="hideTooltip(event)"><a href="{url}">{spell}</a></span>"""
 
     @staticmethod
     def render_status(match: re.Match) -> str:

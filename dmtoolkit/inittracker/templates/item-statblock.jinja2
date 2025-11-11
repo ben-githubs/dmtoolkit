@@ -1,0 +1,22 @@
+<div id="item-statblock" class="statblock">
+    <h1>{{ item.name }}</h1>
+    <div style="display: flex; width: 100%; justify-content: space-between">
+        <div><em>{{ item.item_type or "Wonderous Item"}}</em></div>
+        <div>{{ item.rarity | title }}</div>
+    </div>
+    <div style="display: flex; width: 100%; justify-content: space-between">
+        <div>{{ item.weight }} lb.</div>
+        <div>
+            {% if item.ac is defined %}
+                AC {{ item.ac }}
+                {%- if item.armor_type == "Light Armor" %} + Dex{% elif item.armor_type == "Medium Armor" %} + Dex (max 2){% endif %}
+            {% endif %}
+        </div>
+    </div>
+
+    <hr/>
+
+    {% for entry in item.entries %}
+        {{ entry.html() | macro5e }}
+    {% endfor %}
+</div>

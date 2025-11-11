@@ -136,3 +136,29 @@
 #statblock table.entry .text-right {
     text-align: right;
 }
+
+span.tooltip {
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+}
+
+div.tooltip {
+    display: none;
+    position: absolute;
+    box-shadow: 2px 2px 6px #4d4d4d77;
+    width: 480px;
+    right: 0;
+    background: url('/inittracker/static/seamless-parchment.jpg');
+    border-top: 2px solid #e69a28;
+    border-bottom: 2px solid #e69a28;
+    max-height: 50vh;
+    overflow: scroll;
+}
+
+div.tooltip h1 {
+    font-size: 24px;
+}
+
+div.tooltip h2 {
+    font-size: 19px;
+}
