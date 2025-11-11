@@ -91,8 +91,10 @@ class Macro5e:
         item_url = item_url.replace("'", r"\'").replace('"', r"\"")
         func = f"showNewTooltip(event, '{item_url}')"
         item = items.get_item(item_id)
+
+        item_string = item.name if len(item_id.split("|")) < 3 else item_id.split("|")[2]
         
-        return f"""<span class="tooltip" onmouseenter="{func}" onmouseleave="hideTooltip(event)"><a href="{url}">{item.name}</a></span>"""
+        return f"""<span class="tooltip" onmouseenter="{func}" onmouseleave="hideTooltip(event)"><a href="{url}">{item_string}</a></span>"""
 
     @staticmethod
     def render_skill(match: re.Match) -> str:

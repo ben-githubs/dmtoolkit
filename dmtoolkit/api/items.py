@@ -30,7 +30,7 @@ def get_item(name: str) -> Item:
     norm_name = normalize_name(name)
     # If the key also has the source, we need to normalize differently
     if "|" in name:
-        norm_name = "|".join(normalize_name(part) for part in name.split("|"))
+        norm_name = "|".join(normalize_name(part) for part in name.split("|")[:2])
     try:
         return ITEMS[norm_name]
     except:
