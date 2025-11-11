@@ -1,5 +1,6 @@
 import json
 import random
+import re
 
 from flask import Blueprint, render_template, render_template_string, request
 
@@ -62,7 +63,12 @@ def get_monster_combat_overview():
     sp = (total - gp*100) // 10
     cp = total % 10
 
-    items = [get_item("dagger|phb")]
+    item_set = {}
+    for entry in (monster.traits or []):
+        for item_id in re.finditer(r"{@item (.*?)}", str(entry.body)):
+            item = get_item(item_id.group(1))
+            if item:
+                item_set[item.id] = item
 
     return json.dumps({
         "name": monster.name,
@@ -77,7 +83,7 @@ def get_monster_combat_overview():
             "cp": cp,
             "sp": sp,
             "gp": gp,
-            "items": [{"name": item.name, "html": render_template_string("""{{ "{@item """ + item.id() + """}" | macro5e }}""")} for item in items]
+            "items": [{"name": item.name, "html": render_template_string("""{{ "{@item """ + item.id() + """}" | macro5e }}""")} for item in item_set.values()]
         }
     })
 
@@ -129,5 +135,4 @@ def get_spell_tooltip(spell_name: str):
 @tracker_bp.route("/tooltips/items/<item_name>", methods=["GET"])
 def get_item_tooltip(item_name: str):
     item = get_item(item_name)
-    print(item)
     return render_template("item-statblock.jinja2", item=item)
