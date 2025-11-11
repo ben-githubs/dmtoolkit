@@ -377,6 +377,11 @@ function showTooltip(event) {
     } else {
         $('#tooltip').css({bottom: 0, top: ""});
     }
+    if ((offset.left / $(window).width()) < 0.5) {
+        $('#tooltip').css({left: bounds.width, right: ""});
+    } else {
+        $('#tooltip').css({right: 0, left: ""});
+    }
 }
 
 function hideTooltip(event) {

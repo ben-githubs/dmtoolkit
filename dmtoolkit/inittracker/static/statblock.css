@@ -12,7 +12,7 @@
     font-family: "Convergence", Arial, sans-serif;
 }
 
-#statblock h1, h4 {
+.statblock h1, h4 {
     font-variant: small-caps;
     color: #822000;
     font-family: 'Times New Roman', Times, serif;
@@ -20,51 +20,51 @@
     line-height: 1.35;
 }
 
-#statblock h4 {
+.statblock h4 {
     border-bottom: 2px solid #822000;
 }
 
-#statblock p {
+.statblock p {
     margin-top: 0;
     margin-bottom: 5px;
 }
 
-#statblock hr {
+.statblock hr {
     border-top: 2px solid #822000;
     margin-top: 8px;
     padding-bottom: 8px;
     margin-bottom: 0;
 }
 
-#statblock strong {
+.statblock strong {
     font-weight: 700;
     font-family: Arial, sans-serif;
 }
 
-#statblock #ability-scores {
+.statblock #ability-scores {
     display: flex;
     justify-content: space-around;
     text-align: center;
 }
 
-#statblock a {
+.statblock a {
     text-decoration: none;
     color: #337ab7;;
 }
 
-#statblock a:hover {
+.statblock a:hover {
     color: #23527c;
     text-decoration: underline;
 }
 
-#statblock table.entry {
+.statblock table.entry {
     background-color: rgba(0,0,0,0);
     width: 100%;
     border-collapse: collapse;
     border: 0;
 }
 
-#statblock table.entry caption {
+.statblock table.entry caption {
     text-align: left;
     margin-left: 5px;
     padding: 0;
@@ -73,67 +73,67 @@
     color: #777;
 }
 
-#statblock table.entry tr.oddrow {
+.statblock table.entry tr.oddrow {
     background: rgba(192, 192, 192, 0.376);
 }
 
-#statblock table.entry .col-1 {
+.statblock table.entry .col-1 {
     width: 8% !important;
 }
 
-#statblock table.entry .col-2 {
+.statblock table.entry .col-2 {
     width: 17% !important;
 }
 
-#statblock table.entry .col-3 {
+.statblock table.entry .col-3 {
     width: 25% !important;
 }
 
-#statblock table.entry .col-4 {
+.statblock table.entry .col-4 {
     width: 33% !important;
 }
 
-#statblock table.entry .col-5 {
+.statblock table.entry .col-5 {
     width: 42% !important;
 }
 
-#statblock table.entry .col-6 {
+.statblock table.entry .col-6 {
     width: 50% !important;
 }
 
-#statblock table.entry .col-7 {
+.statblock table.entry .col-7 {
     width: 58% !important;
 }
 
-#statblock table.entry .col-8 {
+.statblock table.entry .col-8 {
     width: 67% !important;
 }
 
-#statblock table.entry .col-9 {
+.statblock table.entry .col-9 {
     width: 75% !important;
 }
 
-#statblock table.entry .col-10 {
+.statblock table.entry .col-10 {
     width: 83% !important;
 }
 
-#statblock table.entry .col-22 {
+.statblock table.entry .col-22 {
     width: 92% !important;
 }
 
-#statblock table.entry .col-12 {
+.statblock table.entry .col-12 {
     width: 100% !important;
 }
 
-#statblock table.entry .text-left {
+.statblock table.entry .text-left {
     text-align: left;
 }
 
-#statblock table.entry .text-center {
+.statblock table.entry .text-center {
     text-align: center;
 }
 
-#statblock table.entry .text-right {
+.statblock table.entry .text-right {
     text-align: right;
 }
 
