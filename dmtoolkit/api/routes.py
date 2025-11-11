@@ -1,7 +1,7 @@
 from dataclasses import asdict
 import json
 
-from flask import Blueprint, request, abort, make_response
+from flask import Blueprint, request, make_response
 
 import dmtoolkit.api.players as players_api
 from dmtoolkit.api.models import Class

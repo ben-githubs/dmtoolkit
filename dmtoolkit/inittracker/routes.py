@@ -1,4 +1,5 @@
 import json
+import random
 
 from flask import Blueprint, render_template, request
 
@@ -53,13 +54,28 @@ def get_monster_combat_overview():
         else:
             wis_mod = int(monster.wisdom) // 2 - 5
             pp = 10 + wis_mod
+        
+    # Very basic initial approach: we just convert XP to money
+    total = random.gauss(monster.xp, monster.xp/4)
+    # Exchange copper pieces for silver and gold
+    gp = total // 100
+    sp = (total - gp*100) // 10
+    cp = total % 10
+
     return json.dumps({
         "name": monster.name,
         "ac": ac,
         "hp": hp,
         "initMod": init_mod,
         "xp": monster.xp,
-        "pp": pp
+        "pp": pp,
+        "treasure": {
+            "total": total,
+            "cp": cp,
+            "sp": sp,
+            "gp": gp,
+            "items": []
+        }
     })
 
 @tracker_bp.app_template_filter("ordinal")
