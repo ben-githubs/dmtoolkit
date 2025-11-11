@@ -1,7 +1,7 @@
 import json
 import random
 
-from flask import Blueprint, render_template, request
+from flask import Blueprint, render_template, render_template_string, request
 
 from dmtoolkit.api.classes import get_class
 from dmtoolkit.api.items import get_item
@@ -56,11 +56,13 @@ def get_monster_combat_overview():
             pp = 10 + wis_mod
         
     # Very basic initial approach: we just convert XP to money
-    total = random.gauss(monster.xp, monster.xp/4)
+    total = int(random.gauss(monster.xp, monster.xp/4))
     # Exchange copper pieces for silver and gold
     gp = total // 100
     sp = (total - gp*100) // 10
     cp = total % 10
+
+    items = [get_item("dagger|phb")]
 
     return json.dumps({
         "name": monster.name,
@@ -69,12 +71,13 @@ def get_monster_combat_overview():
         "initMod": init_mod,
         "xp": monster.xp,
         "pp": pp,
-        "treasure": {
+        "dead": False,
+        "loot": {
             "total": total,
             "cp": cp,
             "sp": sp,
             "gp": gp,
-            "items": []
+            "items": [{"name": item.name, "html": render_template_string("""{{ "{@item """ + item.id() + """}" | macro5e }}""")} for item in items]
         }
     })
 

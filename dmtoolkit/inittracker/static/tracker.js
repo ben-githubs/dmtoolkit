@@ -70,6 +70,15 @@ function updateHP(self) {
     }
     self.attr('placeholder', hp);
     self.val('');
+
+    monster = self.closest('tr').data();
+    if (hp <= 0 && monster.dead == false) {
+        monster.dead = true;
+        refreshLoot();
+    } else if (hp > 0 && monster.dead == true) {
+        monster.dead = false;
+        refreshLoot();
+    }
 }
 
 function addMonster(monsterId) {
@@ -98,6 +107,8 @@ function addMonster(monsterId) {
             trow.data("type", "npc");
             trow.data("initMod", data.initMod);
             trow.data("xp", data.xp);
+            trow.data("dead", data.dead);
+            trow.data("loot", data.loot);
 
             trow.click(function(event) { updateStatblockTarget(event); });
 
@@ -212,6 +223,42 @@ function refreshXP() {
         }
     });
     $("#xp-to-award").text(xp);
+}
+
+function refreshLoot() {
+    // Update the loot totals at the bottom of the tracker
+    tbody = $("#turntracker").children().eq(0);
+    console.log("Recalculating loot...");
+    total = 0; // Total loot in CP
+    items = [];
+    tbody.children().each(function() {
+        data = $(this).data();
+        console.log(data);
+        if (data.type == 'npc' && data.dead == true) {
+            console.log(total);
+            total += data.loot.total;
+            items = items.concat(data.loot.items);
+            console.log(data.loot.items)
+        }
+    });
+    console.log(items);
+
+    cp = total % 10;
+    sp = Math.floor((total % 100) / 10);
+    gp = Math.floor((total % 1000) / 100);
+    pp = Math.floor(total / 1000);
+
+    $("#loot-cp").text(`${cp} CP`);
+    $("#loot-sp").text(`${sp} SP`);
+    $("#loot-gp").text(`${gp} GP`);
+    $("#loot-pp").text(`${pp} PP`);
+
+    $("#loot-items").empty();
+    $(items).each(function() {
+        node = $('<li>')
+        node.append($('<div>').html(this.html).text());
+        $("#loot-items").append(node);
+    });
 }
 
 function updateAddPlayerButtons() {
