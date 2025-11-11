@@ -21,6 +21,14 @@ tr.selected {
     border-right: 3px solid #f44336 !important;
 }
 
+tr.dead {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/8/85/Dead.png");
+    background-color: black;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
 td.remove-btn {
     width: 24px;
     padding: 4px 4px !important;
@@ -69,17 +77,4 @@ div.saved-encounter-list-item:hover {
 
 div.saved-encounter-list div.selected {
     background-color: #eeeeee;
-}
-
-div.tooltip {
-    display: none;
-    position: absolute;
-    box-shadow: 2px 2px 6px #4d4d4d77;
-    width: 480px;
-    right: 0;
-    background: url('/inittracker/static/seamless-parchment.jpg');
-    border-top: 2px solid #e69a28;
-    border-bottom: 2px solid #e69a28;
-    max-height: 50vh;
-    overflow: scroll;
 }

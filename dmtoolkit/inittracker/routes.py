@@ -1,8 +1,11 @@
 import json
+import random
+import re
 
-from flask import Blueprint, render_template, request
+from flask import Blueprint, render_template, render_template_string, request
 
 from dmtoolkit.api.classes import get_class
+from dmtoolkit.api.items import get_item
 from dmtoolkit.api.monsters import get_monster, get_monster_names
 from dmtoolkit.api.players import list_players, get_player
 from dmtoolkit.api.races import get_race
@@ -52,13 +55,52 @@ def get_monster_combat_overview():
         else:
             wis_mod = int(monster.wisdom) // 2 - 5
             pp = 10 + wis_mod
+        
+    # Very basic initial approach: we just convert XP to money
+    total = int(random.gauss(monster.xp, monster.xp/4))
+    # Exchange copper pieces for silver and gold
+    gp = total // 100
+    sp = (total - gp*100) // 10
+    cp = total % 10
+
+    item_set = {}
+    for entry in (monster.traits or []):
+        for item_id in re.finditer(r"{@item (.*?)}", str(entry.body)):
+            item = get_item(item_id.group(1))
+            if item:
+                item_set[item.id] = item
+    
+    # Grab weapon
+    for entry in monster.actions or []:
+        # Only drop usable item 1 in 10 times
+        if random.random() > 1/10:
+            continue
+        if item := get_item(entry.title):
+            item_set[item.id] = item
+    
+    # Grab Armor
+    for ac_entry in monster.ac:
+        for item_id in re.finditer(r"{@item (.*?)}", str(ac_entry.note)):
+            if random.random() > 1/10:
+                continue
+            if item := get_item(item_id.group(1)):
+                item_set[item.id] = item
+
     return json.dumps({
         "name": monster.name,
         "ac": ac,
         "hp": hp,
         "initMod": init_mod,
         "xp": monster.xp,
-        "pp": pp
+        "pp": pp,
+        "dead": False,
+        "loot": {
+            "total": total,
+            "cp": cp,
+            "sp": sp,
+            "gp": gp,
+            "items": [{"name": item.name, "html": render_template_string("""{{ "{@item """ + item.id() + """}" | macro5e }}""")} for item in item_set.values()]
+        }
     })
 
 @tracker_bp.app_template_filter("ordinal")
@@ -105,3 +147,8 @@ def get_statblock_html(id: str):
 def get_spell_tooltip(spell_name: str):
     spell = get_spell(spell_name)
     return render_template("spell-statblock.jinja2", spell=spell)
+
+@tracker_bp.route("/tooltips/items/<item_name>", methods=["GET"])
+def get_item_tooltip(item_name: str):
+    item = get_item(item_name)
+    return render_template("item-statblock.jinja2", item=item)

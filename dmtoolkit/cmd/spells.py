@@ -55,7 +55,7 @@ def fetch_spells(outfile: Path):
     with outfile.open("w") as f:
         json.dump(spells, f)
 
-def convert(infile: Path, outfile: Path) -> list[Spell]:
+def convert(infile: Path, outfile: Path):
     raw_spell_specs: list[dict[str, Any]] = []
     spells: list[Spell] = []
     with infile.open("r") as f:

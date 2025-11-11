@@ -1,23 +1,39 @@
 function nextCombatant() {
+    cycleCombatants(1);
+}
+
+function prevCombatant() {
+    cycleCombatants(-1);
+}
+
+function cycleCombatants(step) {
+    combatants = $("table#turntracker").children().eq(0).children();
+    next = $("tr.selected");
     current = $("tr.selected");
-    next = current.next();
-    if (next.length == 0) {
-        next = $("table#turntracker").children().eq(0).children().eq(1);
+
+    for (let i = 0; i < Math.abs(step); i++) {
+        nRetries = 0; // Track how many times we've moved to another entry because of a dead person
+        do {
+            nRetries += 1;
+            if (step < 0) {
+                next = next.prev();
+                // Loop to bottom if needed
+                if (next.attr("id") == "tracker-header") {
+                    next = $("table#turntracker").children().eq(0).children().last();
+                }
+            } else {
+                next = next.next();
+                // Loop back to top if needed
+                if (next.length == 0) {
+                    next = $("table#turntracker").children().eq(0).children().eq(1);
+                }
+            }
+        } while (nRetries < combatants.length && (next.data("type") == "npc" && next.data("dead") == true))
     }
     next.addClass("selected");
     current.removeClass("selected");
 }
 
-function prevCombatant() {
-    current = $("tr.selected");
-    next = current.prev();
-    if (next.attr("id") == "tracker-header") {
-        // Don't want to select header row, so just go back another space
-        next = $("table#turntracker").children().eq(0).children().last();
-    }
-    next.addClass("selected");
-    current.removeClass("selected");
-}
 
 function sortInitiativeTable() {
     table = $('#turntracker');
@@ -56,6 +72,7 @@ function deleteRow(event) {
     }
     row.remove();
     refreshXP();
+    refreshLoot();
 }
 
 function updateHP(self) {
@@ -70,6 +87,18 @@ function updateHP(self) {
     }
     self.attr('placeholder', hp);
     self.val('');
+
+    monster = self.closest('tr').data();
+    if ((hp <= 0 && monster.dead == false) || (hp > 0 && monster.dead == true)) {
+        monster.dead = !monster.dead;
+        refreshLoot();
+        refreshXP();
+        if (monster.dead) {
+            self.closest('tr').addClass("dead");
+        } else {
+            self.closest('tr').removeClass("dead");
+        }
+    }
 }
 
 function addMonster(monsterId) {
@@ -98,6 +127,8 @@ function addMonster(monsterId) {
             trow.data("type", "npc");
             trow.data("initMod", data.initMod);
             trow.data("xp", data.xp);
+            trow.data("dead", data.dead);
+            trow.data("loot", data.loot);
 
             trow.click(function(event) { updateStatblockTarget(event); });
 
@@ -205,13 +236,57 @@ function refreshXP() {
     // Update the XP totals at the bottom of the tracker
     tbody = $("#turntracker").children().eq(0);
     xp = 0;
+    total_xp = 0;
     tbody.children().each(function() {
         data = $(this).data();
         if (data.type == "npc") {
-            xp += data.xp;
+            if (data.dead == true) {
+                xp += data.xp;
+            }
+            total_xp += data.xp;
         }
     });
     $("#xp-to-award").text(xp);
+    $("#xp-total").text(total_xp);
+}
+
+function refreshLoot() {
+    // Update the loot totals at the bottom of the tracker
+    tbody = $("#turntracker").children().eq(0);
+    console.log("Recalculating loot...");
+    total = 0; // Total loot in CP
+    items = [];
+    tbody.children().each(function() {
+        data = $(this).data();
+        console.log(data);
+        if (data.type == 'npc' && data.dead == true) {
+            console.log(total);
+            total += data.loot.total;
+            items = items.concat(data.loot.items);
+            console.log(data.loot.items)
+        }
+    });
+    console.log(items);
+
+    cp = total % 10;
+    sp = Math.floor((total % 100) / 10);
+    gp = Math.floor((total % 1000) / 100);
+    pp = Math.floor(total / 1000);
+
+    loot_str = "";
+    if (cp > 0) { loot_str += `${cp} CP, `; }
+    if (sp > 0) { loot_str += `${sp} SP, `; }
+    if (gp > 0) { loot_str += `${gp} GP, `; }
+    if (pp > 0) { loot_str += `${pp} PP, `; }
+    loot_str = loot_str.slice(0, -2);
+    $("#loot-total").text(loot_str);
+
+    $("#loot-items").empty();
+    $(items).each(function() {
+        node = $('<li>')
+        node.append($('<div>').html(this.html).text());
+        $("#loot-items").append(node);
+    });
 }
 
 function updateAddPlayerButtons() {
@@ -329,6 +404,11 @@ function showTooltip(event) {
         $('#tooltip').css({top: bounds.height, bottom: ""});
     } else {
         $('#tooltip').css({bottom: 0, top: ""});
+    }
+    if ((offset.left / $(window).width()) < 0.5) {
+        $('#tooltip').css({left: bounds.width, right: ""});
+    } else {
+        $('#tooltip').css({right: 0, left: ""});
     }
 }
 

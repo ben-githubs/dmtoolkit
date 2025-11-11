@@ -1,5 +1,4 @@
 """Random utility stuff."""
-import string
 
 def normalize_name(name: str) -> str:
     """Normalizes a string for use as an ID."""
@@ -10,5 +9,4 @@ def normalize_name(name: str) -> str:
             finalstring += char
         elif char.isalnum():
             finalstring += char.lower()
-    
     return finalstring
