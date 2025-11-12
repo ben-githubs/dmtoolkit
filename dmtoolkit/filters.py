@@ -1,7 +1,12 @@
+import string
 import re
 from urllib.parse import quote
 from flask import url_for
 from dmtoolkit.api import items
+
+def sanitize_names(name: str) -> str:
+    """Sanitize the names for use in a javascript string."""
+    return name.replace("'", r"\'").replace('"', r"\"")
 
 class Macro5e:
     damage = re.compile(r"{@damage (.*?)}")
@@ -88,9 +93,13 @@ class Macro5e:
         url = f"https://roll20.net/compendium/dnd5e/{quote(item_id, safe='')}"
 
         item_url = url_for("tracker_bp.get_item_tooltip", item_name=item_id)
-        item_url = item_url.replace("'", r"\'").replace('"', r"\"")
+        item_url = sanitize_names(item_url)
         func = f"showNewTooltip(event, '{item_url}')"
         item = items.get_item(item_id)
+
+        # If we can't find an item, just print the item name.
+        if not item:
+            return match.group(1).split("|")[0]
 
         item_string = item.name if len(item_id.split("|")) < 3 else item_id.split("|")[2]
         
@@ -100,7 +109,7 @@ class Macro5e:
     def render_skill(match: re.Match) -> str:
         """Return a link to the appripriate entry in Roll20."""
         skill = match.group(1)
-        skill = skill.title()
+        skill = string.capwords(skill)
         url = f"https://roll20.net/compendium/dnd5e/{skill}#content"
 
         return f"""<a href="{url}">{skill}</a>"""
@@ -108,10 +117,11 @@ class Macro5e:
     @staticmethod
     def render_spell(match: re.Match) -> str:
         """Convert spell references to Roll20 links."""
-        spell = match.group(1).title()
+        spell = string.capwords(match.group(1))
         url = f"https://roll20.net/compendium/dnd5e/{quote(spell, safe='')}"
 
         spell_url = url_for("tracker_bp.get_spell_tooltip", spell_name=spell)
+        spell_url = sanitize_names(spell_url)
         func = f"showNewTooltip(event, '{spell_url}')"
         
         return f"""<span class="tooltip" onmouseenter="{func}" onmouseleave="hideTooltip(event)"><a href="{url}">{spell}</a></span>"""
