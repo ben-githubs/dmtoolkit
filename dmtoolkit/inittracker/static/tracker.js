@@ -215,7 +215,7 @@ function updateStatblockTarget(event) {
         url: `/statblock/${monsterId}`,
         method: 'GET',
         success: function(response) {
-            $('#statblock').html(response);
+            $('#statblock-div').html(response);
         }
     })
 }
@@ -287,6 +287,29 @@ function refreshLoot() {
         node.append($('<div>').html(this.html).text());
         $("#loot-items").append(node);
     });
+
+    $.ajax({
+        url: `/lootblock`,
+        data: JSON.stringify({items: items, coinage: total}),
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+            'Accepts': 'application/json'
+        },
+        success: function(response) {
+            $('#lootblock-div').html(response)
+        }
+    })
+}
+
+function showTab(elem) {
+    $("#tab-pages").children().each(function() {
+        if ($(this).is(elem)) {
+            $(this).show();
+        } else {
+            $(this).hide();
+        }
+    })
 }
 
 function updateAddPlayerButtons() {

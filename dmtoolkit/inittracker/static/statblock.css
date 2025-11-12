@@ -12,7 +12,7 @@
     font-family: "Convergence", Arial, sans-serif;
 }
 
-.statblock h1, h4 {
+.statblock h1, h2, h3, h4 {
     font-variant: small-caps;
     color: #822000;
     font-family: 'Times New Roman', Times, serif;
@@ -161,4 +161,8 @@ div.tooltip h1 {
 
 div.tooltip h2 {
     font-size: 19px;
+}
+
+#tab-bar button {
+    border-radius: 10px 10px 0 0;
 }

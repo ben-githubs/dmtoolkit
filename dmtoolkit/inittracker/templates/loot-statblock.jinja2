@@ -1,0 +1,21 @@
+<div id="statblock" class="statblock">
+    <h1>Encounter Loot</h1>
+    <hr/>
+    <h3>Coinage</h3>
+    <p>Approximately {{ loot.approximate_coinage }} in coinage:</p>
+    <ul>
+        {% for denomination, coinage in loot.coinage.items() %}
+            <li>{{ coinage }} {{ denomination }}</li>
+        {% endfor %}
+    </ul>
+    {% if loot['items'] | length > 0 %}
+        <h3>Items</h3>
+        The following items are lootable:
+        <ul>
+            {% for item in loot['items'] %}
+                <li>{{ item | macro5e }}</li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+    <br/>
+</div>

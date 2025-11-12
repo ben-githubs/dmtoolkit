@@ -99,7 +99,7 @@ def get_monster_combat_overview():
             "cp": cp,
             "sp": sp,
             "gp": gp,
-            "items": [{"name": item.name, "html": render_template_string("""{{ "{@item """ + item.id() + """}" | macro5e }}""")} for item in item_set.values()]
+            "items": [item.id() for item in item_set.values()]
         }
     })
 
@@ -142,6 +142,26 @@ def get_statblock_html(id: str):
         return f"Unable to find data for '{id}'"
     
     return render_template("statblock.jinja2", monster=monster)
+
+@tracker_bp.route("/lootblock", methods=["POST"])
+def get_loot_statblock():
+    raw_loot = request.json or {}
+    loot = {
+        "coinage": {},
+        "items": [f"{{@item {item}}}" for item in raw_loot["items"]]
+    }
+    gp = raw_loot["coinage"] // 100
+    sp = (raw_loot["coinage"] % 100) // 10 
+    cp = raw_loot["coinage"] % 10
+    if gp > 0:
+        loot["coinage"]["GP"] = gp
+    if sp > 0:
+        loot["coinage"]["SP"] = sp
+    if cp > 0:
+        loot["coinage"]["CP"] = sp
+    loot["approximate_coinage"] = f"{gp} GP" if gp > 0 else f"{sp} SP" if sp > 0 else f"{cp} CP"
+    return render_template("loot-statblock.jinja2", loot=loot)
+
 
 @tracker_bp.route("/tooltips/spells/<spell_name>", methods=["GET"])
 def get_spell_tooltip(spell_name: str):
