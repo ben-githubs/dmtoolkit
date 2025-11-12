@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+from collections.abc import Sequence
 from dataclasses import dataclass, field, fields
 from typing import Any, Optional, TypeVar, Generic, Type
 
@@ -125,9 +126,15 @@ class Scalar:
     note: Optional[str] = ""
 
     def __str__(self):
+        value_str = str(self.value)
+        if isinstance(self.value, Sequence) and not isinstance(self.value, str):
+            if len(self.value) > 1:
+                value_str = ", ".join(self.value[:-1]) + ", and " + self.value[-1]
+            else:
+                value_str = str(self.value[0])
         if self.note:
-            return f"{self.value} ({self.note})"
-        return str(self.value)
+            return f"{value_str} ({self.note})"
+        return str(value_str)
     
 
     def __bool__(self):
