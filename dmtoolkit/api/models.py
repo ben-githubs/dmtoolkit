@@ -753,7 +753,7 @@ class Spell:
     is_ritual: bool = False
     is_verbal: bool = False
     is_material: bool = False
-    is_cocnentration: bool = False
+    is_concentration: bool = False
     is_somatic: bool = False
     material_components: str = ""
 

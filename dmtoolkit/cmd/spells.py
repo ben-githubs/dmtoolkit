@@ -123,36 +123,37 @@ def convert(infile: Path, outfile: Path):
 
 
 def _fmt_duration(duration: dict[str, Any]) -> str:
-    match duration["type"]:
-        case "instant":
-            return "Instantaneous"
-        case "permanent":
-            end_conditions = []
-            for end_cond in duration["ends"]:
-                match end_cond:
-                    case "dispel":
-                        end_conditions.append("dispelled")
-                    case "trigger":
-                        end_conditions.append("triggered")
-                    case _:
-                        raise ConverterError(f"Unknown end condition '{end_cond}'")
-            if len(end_conditions) == 1:
-                return "Until " + end_conditions[0]
-            else:
-                return "Until " + ", ".join(end_conditions[:-1]) + ", or " + end_conditions[-1]
-        case "special":
-            return "Special"
-        case "timed":
-            mag = duration["duration"]["amount"]
-            unit = duration["duration"]["type"]
-            return f"{mag} {unit}"
-        case _:
-            raise ConverterError(f"Unexpected type name '{duration['type']}'")
+    def basic_fmt():
+        match duration["type"]:
+            case "instant":
+                return "Instantaneous"
+            case "permanent":
+                end_conditions = []
+                for end_cond in duration["ends"]:
+                    match end_cond:
+                        case "dispel":
+                            end_conditions.append("dispelled")
+                        case "trigger":
+                            end_conditions.append("triggered")
+                        case _:
+                            raise ConverterError(f"Unknown end condition '{end_cond}'")
+                if len(end_conditions) == 1:
+                    return "Until " + end_conditions[0]
+                else:
+                    return "Until " + ", ".join(end_conditions[:-1]) + ", or " + end_conditions[-1]
+            case "special":
+                return "Special"
+            case "timed":
+                mag = duration["duration"]["amount"]
+                unit = duration["duration"]["type"]
+                return f"{mag} {unit}"
+            case _:
+                raise ConverterError(f"Unexpected type name '{duration['type']}'")
+    base_duration = basic_fmt()
     if duration.get("concentration"):
-        return "Concentration, up to " + spell_params["duration"]
-    
-    # Raise an error if we have a duration which isn't resolved by the above logic
-    raise ConverterError("No logic to resolve duration spec.")
+        return "Concentration, up to " + base_duration
+    else:
+        return base_duration
 
 
 def _fmt_range(range_spec: dict[str, Any]) -> str:
