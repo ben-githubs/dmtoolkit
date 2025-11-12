@@ -1,6 +1,6 @@
 /* Most of this comes from 5e.tools or is inspired by it. Credit were credit is due! */
 
-#statblock {
+div.statblock {
     background: url('https://5e.tools/img/bestiary/stat-block-top-texture.webp') no-repeat, repeat top center, #fdf1dc;
     border-top: 3px solid #e69a28;
 }

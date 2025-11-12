@@ -297,7 +297,7 @@ function refreshLoot() {
             'Accepts': 'application/json'
         },
         success: function(response) {
-            $('#lootblock-div').html(response)
+            $('#lootblock').html(response)
         }
     })
 }
