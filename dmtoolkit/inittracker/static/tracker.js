@@ -215,7 +215,7 @@ function updateStatblockTarget(event) {
         url: `/statblock/${monsterId}`,
         method: 'GET',
         success: function(response) {
-            $('#statblock').html(response);
+            $('#statblock-div').html(response);
         }
     })
 }
@@ -297,13 +297,19 @@ function refreshLoot() {
             'Accepts': 'application/json'
         },
         success: function(response) {
-            $('#statblock').html(response)
+            $('#lootblock-div').html(response)
         }
     })
 }
 
 function showTab(elem) {
-    
+    $("#tab-pages").children().each(function() {
+        if ($(this).is(elem)) {
+            $(this).show();
+        } else {
+            $(this).hide();
+        }
+    })
 }
 
 function updateAddPlayerButtons() {

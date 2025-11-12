@@ -79,14 +79,19 @@
                 <div id="encounter-stats">
                     <div style="display: flex; width: 100; justify-content: space-between">
                         <div class="w3-large"><span>XP to Award</span> <span class="w3-xlarge" id="xp-to-award">0</span> / <span id="xp-total">0</span></div>
-                        <button class="w3-button w3-white w3-border w3-ripple" style="margin-right: 32px;" onclick="refreshLoot()">View Loot</button>
                     </div>
                 </div>
             </div>
         </div>
         <div style="flex-basis: 560px; flex-grow: 0; flex-shrink: 0; display: flex; flex-direction: column;">
-            <h1>Monster Stats!</h1>
-            <div id="statblock" style="flex-grow: 1; overflow-y: scroll;"></div>
+            <div id="tab-bar" class="w3-bar" style="flex-direction: row">
+                <button class="w3-bar-item w3-button w3-white w3-ripple w3-border" onclick="showTab('#statblock-div')">Stats</button>
+                <button class="w3-bar-item w3-button w3-white w3-ripple w3-border" onclick="showTab('#lootblock-div')">Encounter Loot</button>
+            </div>
+            <div id="tab-pages" style="flex-grow: 1; overflow-y: scroll; height: 100px">
+                <div id="statblock-div"></div>
+                <div id="lootblock-div" style="display: none"></div>
+            </div>
         </div>
     </div>
 </div>
