@@ -5,7 +5,7 @@ from flask import Blueprint, request, make_response
 
 import dmtoolkit.api.players as players_api
 from dmtoolkit.api.models import Class
-from dmtoolkit.api import encounters, races, classes
+from dmtoolkit.api import races, classes
 from dmtoolkit.api.serialize import dump_json_string
 
 
@@ -31,27 +31,6 @@ def get_player(player_name: str):
 def list_players():
     player_list = [asdict(player) for player in players_api.list_players()]
     return json.dumps(player_list)
-
-
-@api_bp.route("/encounters", methods=["GET"])
-def list_encounters():
-    return json.dumps(encounters.getall())
-
-
-@api_bp.route("/encounters/<eid>", methods=["GET"])
-def get_encounter(eid: str):
-    return json.dumps(encounters.get(eid))
-
-
-@api_bp.route("/encounters", methods=["POST", "PUT"])
-def create_encounter():
-    encounter = request.json
-    if not encounter or not isinstance(encounter, dict):
-        return json.dumps({"error": "Invalid or null encounter value"}), 403
-    resp = make_response()
-    eid = encounters.create_or_update(resp, encounter)
-    resp.data = json.dumps({"eid": eid})
-    return resp
 
 
 @api_bp.route("/races/<rid>", methods=["GET"])
