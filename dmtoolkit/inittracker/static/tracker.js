@@ -90,9 +90,9 @@ function updateHP(self) {
         refreshLoot();
         refreshXP();
         if (monster.dead) {
-            self.closest('tr').addClass("dead");
+            addStatus(self, 'incapacitated', prepend=true);
         } else {
-            self.closest('tr').removeClass("dead");
+            removeStatus(self, 'incapacitated');
         }
     }
 }
@@ -119,6 +119,9 @@ function addMonster(monsterId, params={}) {
             
             trow.append(`<td></td>`);
             trow.append(`<td>${data.pp}</td>`);
+            statusCell = $(`<td style="vertical-align: middle; width: 140px;"></td>`);
+            statusCell.html(getAddStatusWidget());
+            trow.append(statusCell);
             trow.data("id", monsterId);
             trow.data("type", "npc");
             trow.data("initMod", data.initMod);
@@ -127,6 +130,7 @@ function addMonster(monsterId, params={}) {
             trow.data("loot", data.loot);
             trow.data('hasXp', data.flag_xp);
             trow.data('hasLoot', data.flag_loot);
+            trow.data('statuses', data.statuses);
 
             // Some functions might provide some overrides we should use
             if ('hasXp' in params) {
@@ -168,9 +172,13 @@ function togglePlayer(button) {
                 trow.append(td);
                 
                 trow.append(`<td style="vertical-align: middle"><input class="w3-input w3-border" type="text" value=""></td>`);
-                trow.append(`<td style="vertical-align: middle">${data.pp}</td>`)
+                trow.append(`<td style="vertical-align: middle">${data.pp}</td>`);
+                statusCell = $(`<td style="vertical-align: middle; width: 140px;"></td>`);
+                statusCell.html(getAddStatusWidget());
+                trow.append(statusCell);
                 
                 trow.data("id", `${playerName}.player`);
+                trow.data("statuses", []);
 
                 trow.click(function(event) { updateStatblockTarget(event); });
 
@@ -304,6 +312,81 @@ function refreshLoot() {
             $('#lootblock').html(response)
         }
     })
+}
+
+function refreshStatus(tr) {
+    if (!tr.is('tr')) {
+        tr = tr.closest('tr');
+    }
+
+    // Get unique statuses
+    statuses = [...new Set(tr.data('statuses'))]
+
+    statusCell = tr.children().eq(6);
+    if (statuses.length == 0) {
+        statusCell.html(getAddStatusWidget());
+    } else {
+        statusCell.empty();
+        height = 40;
+        if (statuses.length > 3) {
+            height = 20;
+        }
+        $.each(statuses, function(_, status) {
+            console.log(status);
+            image = $(`<img src="inittracker/static/status-markers/${status}.png" style="height:${height}px" alt="blinded">`);
+            image.click(function(event) {
+                removeStatus(event.target, status);
+            })
+            statusCell.append(image);
+        });
+    }
+}
+
+function addStatus(elem, status, prepend=false) {
+    // Get root table row
+    tr = $(elem);
+    if (!tr.is('tr')) {
+        tr = tr.closest('tr');
+    }
+
+    // Add status
+    statuses = tr.data("statuses");
+    if (prepend) {
+        statuses = [status, ...statuses];
+    } else {
+        statuses.append(status);
+    }
+    tr.data("statuses", statuses);
+    refreshStatus(tr);
+}
+
+function removeStatus(elem, status) {
+    // Get root table row
+    tr = $(elem);
+    if (!tr.is('tr')) {
+        tr = tr.closest('tr');
+    }
+
+    // Remove status
+    oldStatuses = tr.data("statuses");
+    newStatuses = $.grep(oldStatuses, function(val) {
+        return val !== status;
+    })
+    tr.data("statuses", newStatuses);
+    refreshStatus(tr);
+}
+
+function getAddStatusWidget() {
+    elem = $('<span class="w3-button w3-white w3-ripple">Add Status</span>');
+    elem.click(function (event) {
+        tr = $(event.target);
+        if (!tr.is('tr')) {
+            tr = tr.closest('tr');
+        }
+        tr.data('statuses', ['blinded', 'bleeding-out', 'blessed']);
+        refreshStatus(tr);
+    })
+    return elem
 }
 
 function showTab(elem) {

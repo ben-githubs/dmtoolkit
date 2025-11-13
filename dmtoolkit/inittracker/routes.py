@@ -102,7 +102,8 @@ def get_monster_combat_overview():
             "sp": sp,
             "gp": gp,
             "items": [item.id() for item in item_set.values()]
-        }
+        },
+        "statuses": []
     })
 
 @tracker_bp.app_template_filter("ordinal")
