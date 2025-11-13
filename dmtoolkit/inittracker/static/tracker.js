@@ -40,15 +40,11 @@ function sortInitiativeTable() {
     rows = table.find('tr:gt(0)').toArray().sort(compareRows).reverse();
     for (i = 0; i < rows.length; i++) {
         table.append(rows[i]);
-        console.log(i);
     }
 }
 
 function compareRows(r1, r2) {
     v1 = getInitiative(r1), v2 = getInitiative(r2);
-    console.log(v1);
-    console.log(v2);
-    console.log(v1-v2);
     return v1 - v2;
 }
 
@@ -129,8 +125,11 @@ function addMonster(monsterId) {
             trow.data("xp", data.xp);
             trow.data("dead", data.dead);
             trow.data("loot", data.loot);
+            trow.data('hasXp', data.flag_xp);
+            trow.data('hasLoot', data.flag_loot);
 
             trow.click(function(event) { updateStatblockTarget(event); });
+            trow.on('contextmenu', trackerContextMenu);
 
             tbody.append(trow);
             refreshXP();
@@ -176,7 +175,6 @@ function togglePlayer(button) {
         $('#turntracker').find('tr').each( function(event) {
             n = $(this).children().eq(1).find("strong").first().text();
             if ($(this).find("td:gt(0)").first().find("strong").first().text() == playerName) {
-                console.log("Found it!")
                 // deleteRow(event);
                 $(this).find(".remove-btn").trigger("click");
                 updateAddPlayerButtons();
@@ -210,7 +208,6 @@ function updateStatblockTarget(event) {
     row = self.closest('tr');
 
     monsterId = row.data("id");
-    console.log(row);
     $.ajax({
         url: `/statblock/${monsterId}`,
         method: 'GET',
@@ -223,13 +220,17 @@ function updateStatblockTarget(event) {
 function rollInitiative() {
     tbody = $("#turntracker").children().eq(0);
     tbody.children().each(function() {
-        data = $(this).data();
-        if (data.type == "npc") {
-            initMod = parseInt(data.initMod);
-            initCell = $(this).children().eq(4);
-            initCell.text(1 + Math.floor(Math.random()*20) + initMod);
-        }
+        rollInitiativeSingle(this);
     })
+}
+
+function rollInitiativeSingle(elem) {
+    data = $(elem).data();
+    if (data.type == "npc") {
+        initMod = parseInt(data.initMod);
+        initCell = $(elem).children().eq(4);
+        initCell.text(1 + Math.floor(Math.random()*20) + initMod);
+    }
 }
 
 function refreshXP() {
@@ -239,7 +240,7 @@ function refreshXP() {
     total_xp = 0;
     tbody.children().each(function() {
         data = $(this).data();
-        if (data.type == "npc") {
+        if (data.type == "npc" && data.hasXp) {
             if (data.dead == true) {
                 xp += data.xp;
             }
@@ -253,20 +254,15 @@ function refreshXP() {
 function refreshLoot() {
     // Update the loot totals at the bottom of the tracker
     tbody = $("#turntracker").children().eq(0);
-    console.log("Recalculating loot...");
     total = 0; // Total loot in CP
     items = [];
     tbody.children().each(function() {
         data = $(this).data();
-        console.log(data);
-        if (data.type == 'npc' && data.dead == true) {
-            console.log(total);
+        if (data.type == 'npc' && data.dead == true && data.hasLoot) {
             total += data.loot.total;
             items = items.concat(data.loot.items);
-            console.log(data.loot.items)
         }
     });
-    console.log(items);
 
     cp = total % 10;
     sp = Math.floor((total % 100) / 10);
@@ -297,7 +293,7 @@ function refreshLoot() {
             'Accepts': 'application/json'
         },
         success: function(response) {
-            $('#lootblock-div').html(response)
+            $('#lootblock').html(response)
         }
     })
 }
@@ -351,7 +347,6 @@ function refreshEncounters() {
                 item.append($(`<span>${enc.title}</span>`));
                 item.append($(`<span>${enc.desc}<span>`));
                 $('.saved-encounter-list').append(item);
-                console.log("Added encounter.");
             })
         }
     })
@@ -368,7 +363,6 @@ function loadEncounter(encounterItem) {
     });
 
     // Add rows for new creatures
-    console.log($(encounterItem).data("monsters"));
     $($(encounterItem).data("monsters")).each(function (i, monsterId) {
         addMonster(monsterId);
     })
@@ -454,4 +448,52 @@ function showNewTooltip(event, url) {
     }
     showTooltip(event);
     setContentAjax($('#tooltip'), url);
+}
+
+function trackerContextMenu(event) {
+    // Override default browser context menu
+    event.preventDefault();
+
+    // Get references to objects of interest
+    tr = $(event.target).closest("tr");
+    cm = $("#contextmenu");
+    checkXp = $('#tracker-context-has-xp');
+    checkLoot = $('#tracker-context-has-loot');
+    rerollInitBtn = $('#tracker-context-reroll-init');
+    deleteBtn = $('#tracker-context-delete-item');
+
+    // Update checkboxe states
+    checkXp.prop('checked', tr.data('hasXp')); //tr.data('hasXp');
+    checkLoot.prop('checked', tr.data('hasLoot'));
+
+    // Add Event Listeners
+    checkXp.off('change');
+    checkXp.change(function() {
+        if (tr.data('type') == 'npc') {
+            tr.data('hasXp', checkXp.is(':checked'));
+            refreshXP();
+        }
+    });
+
+    checkLoot.off('change');
+    checkLoot.change(function() {
+        if (tr.data('type') == 'npc') {
+            tr.data('hasLoot', checkLoot.is(':checked'));
+            refreshLoot();
+        }
+    });
+
+    rerollInitBtn.off('click');
+    rerollInitBtn.click(function() {
+        rollInitiativeSingle(tr);
+    })
+
+    deleteBtn.off('click');
+    deleteBtn.click(function() {
+        deleteRow(event);
+        cm.hide();
+    })
+
+    cm.css({left: event.pageX, top: event.pageY});
+    cm.show();
 }
