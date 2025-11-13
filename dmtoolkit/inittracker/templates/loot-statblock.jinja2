@@ -1,16 +1,21 @@
-<h3>Coinage</h3>
-<p>Approximately {{ loot.approximate_coinage }} in coinage:</p>
-<ul>
-    {% for denomination, coinage in loot.coinage.items() %}
-        <li>{{ coinage }} {{ denomination }}</li>
-    {% endfor %}
-</ul>
-{% if loot['items'] | length > 0 %}
-    <h3>Items</h3>
-    The following items are lootable:
+<h3>Loot</h3>
+{% if loot is defined %}
+    <h4>Coinage</h4>
+    <p>Approximately {{ loot.approximate_coinage }} in coinage:</p>
     <ul>
-        {% for item in loot['items'] %}
-            <li>{{ item | macro5e }}</li>
+        {% for denomination, coinage in loot.coinage.items() %}
+            <li>{{ coinage }} {{ denomination }}</li>
         {% endfor %}
     </ul>
+    {% if loot['items'] | length > 0 %}
+        <h4>Items</h4>
+        The following items are lootable:
+        <ul>
+            {% for item in loot['items'] %}
+                <li>{{ item | macro5e }}</li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+{% else %}
+    Earned loot will appear here once an enemy loses all their hit point.
 {% endif %}

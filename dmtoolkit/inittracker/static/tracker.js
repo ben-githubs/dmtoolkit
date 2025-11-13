@@ -97,7 +97,7 @@ function updateHP(self) {
     }
 }
 
-function addMonster(monsterId) {
+function addMonster(monsterId, params={}) {
     $.ajax({
         url: `/api/monsters-combat-overview?name=${monsterId}`,
         method: 'GET',
@@ -127,6 +127,14 @@ function addMonster(monsterId) {
             trow.data("loot", data.loot);
             trow.data('hasXp', data.flag_xp);
             trow.data('hasLoot', data.flag_loot);
+
+            // Some functions might provide some overrides we should use
+            if ('hasXp' in params) {
+                trow.data('hasXp', params.hasXp);
+            }
+            if ('hasLoot' in params) {
+                trow.data('hasLoot', params.hasLoot);
+            }
 
             trow.click(function(event) { updateStatblockTarget(event); });
             trow.on('contextmenu', trackerContextMenu);
@@ -332,24 +340,88 @@ function updateAddPlayerButtons() {
     })
 }
 
+function listEncounters() {
+    // Fetches the encounter list from localStorage.
+    savedEncounters = localStorage.getItem('savedEncounters');
+    if (savedEncounters === null || Object.keys(JSON.parse(savedEncounters)).length == 0) {
+        console.info("No saved encounters found; adding defaults")
+        return {
+            'Mines of Moria': {
+                'monsters': [
+                    {'id': 'Balor-MM', 'hasLoot': false},
+                    {'id': 'Goblin-MM'},
+                    {'id': 'Goblin-MM'},
+                    {'id': 'Hobgoblin-MM'}
+                ],
+                'title': 'Mines of Moria',
+                'desc': 'The mines are home to goblins, and something worse...'
+            },
+            'March on Isengard': {
+                'monsters': [
+                    {'id': 'Treant-MM', 'hasLoot': false},
+                    {'id': 'Treant-MM', 'hasLoot': false},
+                    {'id': 'Twig Blight-MM', 'hasLoot': false},
+                    {'id': 'Twig Blight-MM', 'hasLoot': false},
+                    {'id': 'Twig Blight-MM', 'hasLoot': false},
+                    {'id': 'Archmage-MM'}
+                ],
+                'title': 'March on Isengard',
+                'desc': 'The ents move against Saruman the White'
+            }
+        }
+    }
+    return JSON.parse(savedEncounters);
+}
+
+function updateEncounters(encounters) {
+    // Updates the encounter list saved in localStorage.
+    localStorage.setItem('savedEncounters', JSON.stringify(encounters));
+}
+
 function refreshEncounters() {
     // Get encounter info
-    $.ajax({
-        url: `/api/encounters`,
-        method: 'GET',
-        success: function(response) {
-            $('.saved-encounter-list').html('');
-            data = $.parseJSON(response)
-            $.each(data, function(id, enc) {
-                item = $('<div class="saved-encounter-list-item"></div>');
-                item.data("monsters", enc.monsters);
-                item.dblclick(function() { loadEncounter(this); });
-                item.append($(`<span>${enc.title}</span>`));
-                item.append($(`<span>${enc.desc}<span>`));
-                $('.saved-encounter-list').append(item);
-            })
-        }
-    })
+    encounters = listEncounters();
+
+    numEncounters = Object.keys(encounters).length;
+    console.log(`Found ${numEncounters} saved encounters in localStorage.`);
+    if (numEncounters > 0) {
+        // Remove default encounters
+        $('.saved-encounter-list').empty();
+    } else {
+        console.log('No encounters loaded; using default placeholders.')
+    }
+
+    $.each(encounters, function(eid, enc) {
+        item = $('<div class="saved-encounter-list-item"></div>');
+        item.data("monsters", enc.monsters);
+        item.data("encounter", enc);
+        item.data("id", eid);
+        item.dblclick(function() { loadEncounter(this); });
+        item.append($(`<div>${enc.title}</div>`));
+        item.append($(`<div>${enc.desc}<div>`));
+        closeButton = ($(`<div class="w3-button w3-ripple">&times</div>`));
+        closeButton.click(function(event) {
+            deleteEncounter(event);
+        })
+        item.append(closeButton);
+        $('.saved-encounter-list').append(item);
+    });
+}
+
+function deleteEncounter(event) {
+    self = $(event.target);
+    encounterItem = self;
+    if (!self.hasClass('saved-encounter-list-item')) {
+        encounterItem = self.closest(".saved-encounter-list-item");
+    }
+    encounterId = $(encounterItem).data("id");
+    console.log($(encounterItem).data("encounter"));
+    console.log(`Removing encounter '${encounterId}'`);
+
+    savedEncounters = listEncounters();
+    delete savedEncounters[encounterId];
+    updateEncounters(savedEncounters);
+    refreshEncounters();
 }
 
 function loadEncounter(encounterItem) {
@@ -363,8 +435,8 @@ function loadEncounter(encounterItem) {
     });
 
     // Add rows for new creatures
-    $($(encounterItem).data("monsters")).each(function (i, monsterId) {
-        addMonster(monsterId);
+    $($(encounterItem).data("monsters")).each(function (_, monster) {
+        addMonster(monster.id, monster);
     })
 
     // Selection CSS
@@ -381,8 +453,18 @@ function saveEncounter() {
 
     monsters = [];
 
+    // Copy monster data from the initative tracker
     $('#turntracker tr:gt(0)').each(function () {
-        monsters.push($(this).data("id"));
+        data = $(this).data();
+        if (data.type != 'npc') {
+            return
+        }
+        entry = {
+            'id': data.id,
+            'hasXp': data.hasXp,
+            'hasLoot': data.hasLoot,
+        }
+        monsters.push(entry);
     })
 
     encounter = {
@@ -391,18 +473,22 @@ function saveEncounter() {
         "monsters": monsters
     }
 
-    $.ajax({
-        url: `/api/encounters`,
-        method: 'POST',
-        data: JSON.stringify(encounter),
-        headers: {
-            'Content-Type': 'application/json',
-            'Accepts': 'application/json'
-        },
-        success: function(response) {
-            refreshEncounters();
-        }
-    })
+    // Update Encounter List
+    encounters = listEncounters();
+    numEncounters = Object.keys(encounters).length;
+
+    encounterId = encounterTitle;
+    encounters[encounterId] = encounter;
+    updateEncounters(encounters);
+
+    if (Object.keys(encounters).length == numEncounters) {
+        console.log(`Updated encounter: '${encounterId}'`);
+    } else {
+        console.log(`Saved new encounter: '${encounterId}'`);
+    }
+
+    // Refresh encounter list UI
+    refreshEncounters();
 }
 
 function showTooltip(event) {

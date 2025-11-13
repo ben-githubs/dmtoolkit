@@ -29,31 +29,11 @@
             <h1>Initiative Tracker</h1>
             <h5>Saved Encounters</h5>
             <div class="saved-encounter-list-header w3-small" style="width: 100%">
-                <span><strong>Title</strong></span>
-                <span><strong>Description</strong></span>
+                <div><strong>Title</strong></div>
+                <div><strong>Description</strong></div>
+                <div></div>
             </div>
-            <div class="saved-encounter-list w3-small">
-                <div class="saved-encounter-list-item">
-                    <span>Encounter 1</span>
-                    <span>Lorem Ipsum Dolar...</span>
-                </div>
-                <div class="saved-encounter-list-item">
-                    <span>Encounter 2</span>
-                    <span>Lorem Ipsum Dolar...</span>
-                </div>
-                <div class="saved-encounter-list-item selected">
-                    <span>Encounter 3</span>
-                    <span>Lorem Ipsum Dolar...</span>
-                </div>
-                <div class="saved-encounter-list-item">
-                    <span>Encounter 4</span>
-                    <span>Lorem Ipsum Dolar...</span>
-                </div>
-                <div class="saved-encounter-list-item">
-                    <span>Encounter 5</span>
-                    <span>Lorem Ipsum Dolar...</span>
-                </div>
-            </div>
+            <div class="saved-encounter-list w3-small"></div>
 
             <table id="turntracker" class="w3-table w3-bordered w3-border">
                 <tr id="tracker-header">
@@ -91,7 +71,9 @@
                             <div class="w3-large"><span>XP to Award</span> <span class="w3-xlarge" id="xp-to-award">0</span> / <span id="xp-total">0</span></div>
                         </div>
                     </div>
-                    <div id="lootblock"></div>
+                    <div id="lootblock">
+                        {% include 'loot-statblock.jinja2' %}
+                    </div>
                 </div>
             </div>
         </div>
