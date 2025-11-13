@@ -20,8 +20,8 @@ Alongside statblock rendering, the tracker also has the following features of no
   * Because we already have the statblock information for every creature, we can dynamically roll initiaitve for all creatures with the appropriate modifiers!
 * Encounter Saving
   * DM's can set up their encounters ahead of a session and quickly load them up if/when their players trigger them. This helps streamline combat during a session as you aren't wasting time adding in a bunch of enemies to the tracker.
-* XP Totalling
-  * The tracker keeps count of the total XP to award for each encounter!
+* XP & Loot Totalling
+  * The tracker keeps count of the total XP and loot to award for each encounter!
 * Persistant Players
   * You can input specific players to your encounters and have them persist across encounters.
 * HP Calculation
