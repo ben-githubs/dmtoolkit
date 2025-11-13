@@ -334,22 +334,28 @@ function updateAddPlayerButtons() {
 
 function refreshEncounters() {
     // Get encounter info
-    $.ajax({
-        url: `/api/encounters`,
-        method: 'GET',
-        success: function(response) {
-            $('.saved-encounter-list').html('');
-            data = $.parseJSON(response)
-            $.each(data, function(id, enc) {
-                item = $('<div class="saved-encounter-list-item"></div>');
-                item.data("monsters", enc.monsters);
-                item.dblclick(function() { loadEncounter(this); });
-                item.append($(`<span>${enc.title}</span>`));
-                item.append($(`<span>${enc.desc}<span>`));
-                $('.saved-encounter-list').append(item);
-            })
-        }
-    })
+    encounters = $.parseJSON(localStorage.getItem("savedEncounters"));
+    if (encounters === null) {
+        encounters = {};
+    }
+
+    numEncounters = Object.keys(encounters).length;
+    console.log(`Found ${numEncounters} saved encounters in localStorage.`);
+    if (numEncounters > 0) {
+        // Remove default encounters
+        $('.saved-encounter-list').empty();
+    } else {
+        console.log('No encounters loaded; using default placeholders.')
+    }
+
+    $.each(encounters, function(_, enc) {
+        item = $('<div class="saved-encounter-list-item"></div>');
+        item.data("monsters", enc.monsters);
+        item.dblclick(function() { loadEncounter(this); });
+        item.append($(`<span>${enc.title}</span>`));
+        item.append($(`<span>${enc.desc}<span>`));
+        $('.saved-encounter-list').append(item);
+    });
 }
 
 function loadEncounter(encounterItem) {
