@@ -55,20 +55,34 @@ div.saved-encounter-list {
 
 div.saved-encounter-list-item {
     border-top: 1px solid #ddd;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
 }
 
 div.saved-encounter-list-header {
     border: 1px solid #ddd;
     border-bottom: 0;
+    display: flex;
+    flex-direction: row;
 }
 
-div.saved-encounter-list-item span:first-child, div.saved-encounter-list-header span:first-child {
-    display: inline-block;
+div.saved-encounter-list-item div:first-child, div.saved-encounter-list-header div:first-child {
     width: 225px;
+    flex-grow: 0;
 }
 
-div.saved-encounter-list-item span {
-    display: inline-block;
+div.saved-encounter-list-item div {
+    width: 100%;
+    text-wrap: wrap;
+}
+
+div.saved-encounter-list-item div:last-child {
+    margin-left: auto;
+    width: 32px;
+    flex-grow: 0;
+    padding: 0;
+    height: 100%;
 }
 
 div.saved-encounter-list-item:hover {

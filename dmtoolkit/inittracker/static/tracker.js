@@ -340,12 +340,47 @@ function updateAddPlayerButtons() {
     })
 }
 
+function listEncounters() {
+    // Fetches the encounter list from localStorage.
+    savedEncounters = localStorage.getItem('savedEncounters');
+    if (savedEncounters === null || Object.keys(JSON.parse(savedEncounters)).length == 0) {
+        console.info("No saved encounters found; adding defaults")
+        return {
+            'Mines of Moria': {
+                'monsters': [
+                    {'id': 'Balor-MM', 'hasLoot': false},
+                    {'id': 'Goblin-MM'},
+                    {'id': 'Goblin-MM'},
+                    {'id': 'Hobgoblin-MM'}
+                ],
+                'title': 'Mines of Moria',
+                'desc': 'The mines are home to goblins, and something worse...'
+            },
+            'March on Isengard': {
+                'monsters': [
+                    {'id': 'Treant-MM', 'hasLoot': false},
+                    {'id': 'Treant-MM', 'hasLoot': false},
+                    {'id': 'Twig Blight-MM', 'hasLoot': false},
+                    {'id': 'Twig Blight-MM', 'hasLoot': false},
+                    {'id': 'Twig Blight-MM', 'hasLoot': false},
+                    {'id': 'Archmage-MM'}
+                ],
+                'title': 'March on Isengard',
+                'desc': 'The ents move against Saruman the White'
+            }
+        }
+    }
+    return JSON.parse(savedEncounters);
+}
+
+function updateEncounters(encounters) {
+    // Updates the encounter list saved in localStorage.
+    localStorage.setItem('savedEncounters', JSON.stringify(encounters));
+}
+
 function refreshEncounters() {
     // Get encounter info
-    encounters = JSON.parse(localStorage.getItem("savedEncounters"));
-    if (encounters === null) {
-        encounters = {};
-    }
+    encounters = listEncounters();
 
     numEncounters = Object.keys(encounters).length;
     console.log(`Found ${numEncounters} saved encounters in localStorage.`);
@@ -356,14 +391,37 @@ function refreshEncounters() {
         console.log('No encounters loaded; using default placeholders.')
     }
 
-    $.each(encounters, function(_, enc) {
+    $.each(encounters, function(eid, enc) {
         item = $('<div class="saved-encounter-list-item"></div>');
         item.data("monsters", enc.monsters);
+        item.data("encounter", enc);
+        item.data("id", eid);
         item.dblclick(function() { loadEncounter(this); });
-        item.append($(`<span>${enc.title}</span>`));
-        item.append($(`<span>${enc.desc}<span>`));
+        item.append($(`<div>${enc.title}</div>`));
+        item.append($(`<div>${enc.desc}<div>`));
+        closeButton = ($(`<div class="w3-button w3-ripple">&times</div>`));
+        closeButton.click(function(event) {
+            deleteEncounter(event);
+        })
+        item.append(closeButton);
         $('.saved-encounter-list').append(item);
     });
+}
+
+function deleteEncounter(event) {
+    self = $(event.target);
+    encounterItem = self;
+    if (!self.hasClass('saved-encounter-list-item')) {
+        encounterItem = self.closest(".saved-encounter-list-item");
+    }
+    encounterId = $(encounterItem).data("id");
+    console.log($(encounterItem).data("encounter"));
+    console.log(`Removing encounter '${encounterId}'`);
+
+    savedEncounters = listEncounters();
+    delete savedEncounters[encounterId];
+    updateEncounters(savedEncounters);
+    refreshEncounters();
 }
 
 function loadEncounter(encounterItem) {
@@ -416,15 +474,12 @@ function saveEncounter() {
     }
 
     // Update Encounter List
-    encounters = JSON.parse(localStorage.getItem("savedEncounters"));
-    if (encounters === null) {
-        encounters = {};
-    }
+    encounters = listEncounters();
     numEncounters = Object.keys(encounters).length;
 
     encounterId = encounterTitle;
     encounters[encounterId] = encounter;
-    localStorage.setItem("savedEncounters", JSON.stringify(encounters));
+    updateEncounters(encounters);
 
     if (Object.keys(encounters).length == numEncounters) {
         console.log(`Updated encounter: '${encounterId}'`);
