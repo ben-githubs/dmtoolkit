@@ -97,7 +97,7 @@ function updateHP(self) {
     }
 }
 
-function addMonster(monsterId) {
+function addMonster(monsterId, params={}) {
     $.ajax({
         url: `/api/monsters-combat-overview?name=${monsterId}`,
         method: 'GET',
@@ -127,6 +127,14 @@ function addMonster(monsterId) {
             trow.data("loot", data.loot);
             trow.data('hasXp', data.flag_xp);
             trow.data('hasLoot', data.flag_loot);
+
+            // Some functions might provide some overrides we should use
+            if ('hasXp' in params) {
+                trow.data('hasXp', params.hasXp);
+            }
+            if ('hasLoot' in params) {
+                trow.data('hasLoot', params.hasLoot);
+            }
 
             trow.click(function(event) { updateStatblockTarget(event); });
             trow.on('contextmenu', trackerContextMenu);
@@ -334,7 +342,7 @@ function updateAddPlayerButtons() {
 
 function refreshEncounters() {
     // Get encounter info
-    encounters = $.parseJSON(localStorage.getItem("savedEncounters"));
+    encounters = JSON.parse(localStorage.getItem("savedEncounters"));
     if (encounters === null) {
         encounters = {};
     }
@@ -369,8 +377,8 @@ function loadEncounter(encounterItem) {
     });
 
     // Add rows for new creatures
-    $($(encounterItem).data("monsters")).each(function (i, monsterId) {
-        addMonster(monsterId);
+    $($(encounterItem).data("monsters")).each(function (_, monster) {
+        addMonster(monster.id, monster);
     })
 
     // Selection CSS
@@ -387,8 +395,18 @@ function saveEncounter() {
 
     monsters = [];
 
+    // Copy monster data from the initative tracker
     $('#turntracker tr:gt(0)').each(function () {
-        monsters.push($(this).data("id"));
+        data = $(this).data();
+        if (data.type != 'npc') {
+            return
+        }
+        entry = {
+            'id': data.id,
+            'hasXp': data.hasXp,
+            'hasLoot': data.hasLoot,
+        }
+        monsters.push(entry);
     })
 
     encounter = {
@@ -397,18 +415,25 @@ function saveEncounter() {
         "monsters": monsters
     }
 
-    $.ajax({
-        url: `/api/encounters`,
-        method: 'POST',
-        data: JSON.stringify(encounter),
-        headers: {
-            'Content-Type': 'application/json',
-            'Accepts': 'application/json'
-        },
-        success: function(response) {
-            refreshEncounters();
-        }
-    })
+    // Update Encounter List
+    encounters = JSON.parse(localStorage.getItem("savedEncounters"));
+    if (encounters === null) {
+        encounters = {};
+    }
+    numEncounters = Object.keys(encounters).length;
+
+    encounterId = encounterTitle;
+    encounters[encounterId] = encounter;
+    localStorage.setItem("savedEncounters", JSON.stringify(encounters));
+
+    if (Object.keys(encounters).length == numEncounters) {
+        console.log(`Updated encounter: '${encounterId}'`);
+    } else {
+        console.log(`Saved new encounter: '${encounterId}'`);
+    }
+
+    // Refresh encounter list UI
+    refreshEncounters();
 }
 
 function showTooltip(event) {
