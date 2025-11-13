@@ -129,8 +129,11 @@ function addMonster(monsterId) {
             trow.data("xp", data.xp);
             trow.data("dead", data.dead);
             trow.data("loot", data.loot);
+            trow.data('hasXp', data.flag_xp);
+            trow.data('hasLoot', data.flag_loot);
 
             trow.click(function(event) { updateStatblockTarget(event); });
+            trow.on('contextmenu', trackerContextMenu);
 
             tbody.append(trow);
             refreshXP();
@@ -239,7 +242,7 @@ function refreshXP() {
     total_xp = 0;
     tbody.children().each(function() {
         data = $(this).data();
-        if (data.type == "npc") {
+        if (data.type == "npc" && data.hasXp) {
             if (data.dead == true) {
                 xp += data.xp;
             }
@@ -259,7 +262,7 @@ function refreshLoot() {
     tbody.children().each(function() {
         data = $(this).data();
         console.log(data);
-        if (data.type == 'npc' && data.dead == true) {
+        if (data.type == 'npc' && data.dead == true && data.hasLoot) {
             console.log(total);
             total += data.loot.total;
             items = items.concat(data.loot.items);
@@ -454,4 +457,34 @@ function showNewTooltip(event, url) {
     }
     showTooltip(event);
     setContentAjax($('#tooltip'), url);
+}
+
+function trackerContextMenu(event) {
+    event.preventDefault();
+    tr = $(event.target).closest("tr");
+    cm = $("#contextmenu");
+
+    // Update checkboxes
+    checkXp = $('#tracker-context-has-xp');
+    checkLoot = $('#tracker-context-has-loot');
+    checkXp.prop('checked', tr.data('hasXp')); //tr.data('hasXp');
+    checkLoot.prop('checked', tr.data('hasLoot'));
+
+    checkXp.off('change');
+    checkXp.change(function() {
+        if (tr.data('type') == 'npc') {
+            tr.data('hasXp', checkXp.is(':checked'));
+            refreshXP();
+        }
+    });
+    checkLoot.off('change');
+    checkLoot.change(function() {
+        if (tr.data('type') == 'npc') {
+            tr.data('hasLoot', checkLoot.is(':checked'));
+            refreshLoot();
+        }
+    });
+
+    cm.css({left: event.pageX, top: event.pageY});
+    cm.show();
 }

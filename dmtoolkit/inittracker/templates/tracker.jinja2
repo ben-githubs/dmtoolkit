@@ -102,6 +102,25 @@
     <div id="tooltip" class="tooltip"></div>
 </div>
 
+<div id="contextmenu" style="postion: absolute">
+    <div class="contextmenu">
+        <div>
+            <input id="tracker-context-has-xp" name="tracker-context-has-xp" class="w3-check" type="checkbox" checked="checked">
+            <label for="tracker-context-has-xp">Gives XP?</label>
+        </div>
+        <div>
+            <input id="tracker-context-has-loot" name="tracker-context-has-loot" class="w3-check" type="checkbox" checked="checked">
+            <label for="tracker-context-has-loot">Drops Loot?</label>
+        </div>
+        <div class="w3-button w3-white w3-ripple">
+            Reroll Initiative
+        </div>
+        <div class="w3-button w3-white w3-ripple">
+            Delete Combatant
+        </div>
+    </div>
+</div>
+
 <script>
     $('.remove-btn').click(function() { deleteRow($(this)); });
     $('.hpbox').change(function() { updateHP($(this)); });
@@ -124,6 +143,14 @@
         $('#statblock').css('max-height', `${statblock_height}px`)
         refreshEncounters();
     })
+
+    $(document).on("click", function(event) {
+        contextmenu = $("#contextmenu");
+        if (!contextmenu.is(event.target) && contextmenu.has(event.target).length === 0) {
+            contextmenu.hide();
+        }
+    })
+
 </script>
 
 {% endblock %}

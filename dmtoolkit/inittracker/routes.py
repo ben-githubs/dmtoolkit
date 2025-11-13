@@ -94,6 +94,8 @@ def get_monster_combat_overview():
         "xp": monster.xp,
         "pp": pp,
         "dead": False,
+        "flag_xp": True,
+        "flag_loot": True,
         "loot": {
             "total": total,
             "cp": cp,
