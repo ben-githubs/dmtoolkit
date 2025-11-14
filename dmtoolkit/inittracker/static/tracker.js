@@ -328,17 +328,18 @@ function refreshStatus(tr) {
     } else {
         statusCell.empty();
         height = 40;
-        if (statuses.length > 3) {
+        if (statuses.length + 1 > 3) {
             height = 20;
         }
         $.each(statuses, function(_, status) {
             console.log(status);
-            image = $(`<img src="inittracker/static/status-markers/${status}.png" style="height:${height}px" alt="blinded">`);
+            image = $(`<img class="w3-button" src="inittracker/static/status-markers/${status}.png" style="height:${height}px; padding:0px;" alt="blinded">`);
             image.click(function(event) {
                 removeStatus(event.target, status);
             })
             statusCell.append(image);
         });
+        statusCell.append(getAddStatusWidget(height));
     }
 }
 
@@ -354,7 +355,7 @@ function addStatus(elem, status, prepend=false) {
     if (prepend) {
         statuses = [status, ...statuses];
     } else {
-        statuses.append(status);
+        statuses = [...statuses, status];
     }
     tr.data("statuses", statuses);
     refreshStatus(tr);
@@ -376,15 +377,21 @@ function removeStatus(elem, status) {
     refreshStatus(tr);
 }
 
-function getAddStatusWidget() {
-    elem = $('<span class="w3-button w3-white w3-ripple">Add Status</span>');
+function getAddStatusWidget(height=40) {
+    elem = $(`<img class="w3-button" src="inittracker/static/plus-button-icon.png" style="height: ${height}px; padding: 0px;">`);
     elem.click(function (event) {
         tr = $(event.target);
         if (!tr.is('tr')) {
             tr = tr.closest('tr');
         }
-        tr.data('statuses', ['blinded', 'bleeding-out', 'blessed']);
-        refreshStatus(tr);
+        $('#status-add-modal').show();
+        $('#status-search').val('');
+        $('#status-search').focus();
+        $('#modal-add-status-button').click(function() {
+            $('#status-add-modal').hide();
+            addStatus(tr, $('#status-search').val());
+            refreshStatus(tr);
+        })
     })
     return elem
 }

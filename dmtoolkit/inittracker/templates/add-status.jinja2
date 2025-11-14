@@ -1,0 +1,81 @@
+{% from "modal.jinja2" import render_modal %}
+
+{% call render_modal("status-add-modal") %}
+    <h1>Add Status</h1>
+    <div style="display: flex; flex-direction: row; gap: 15px; margin-bottom: 15px; align-items: baseline">
+        <input id="status-search" class="w3-input" list="status-list" type="text" placeholder="Search for status...">
+        <datalist id="status-list">
+            <option value="advantage">Advantage</option>
+            <option value="ancenstral-protectors">Ancenstral Protectors</option>
+            <option value="armor-of-agathys">Armor of Agathys</option>
+            <option value="baned">Baned</option>
+            <option value="bears-endurance">Bear's Endurance</option>
+            <option value="bleeding-out">Bleeding Out</option>
+            <option value="blessed">Blessed</option>
+            <option value="blinded">Blinded</option>
+            <option value="blink">Blink</option>
+            <option value="blur">Blur</option>
+            <option value="bulls-strength">Bull's Strength</option>
+            <option value="cats-grace">Cat's Grace</option>
+            <option value="cause-of-fear">Cause Of Fear</option>
+            <option value="charmed">Charmed</option>
+            <option value="compelled-duel">Compelled Duel</option>
+            <option value="concentration">Concentration</option>
+            <option value="confused">Confused</option>
+            <option value="deafened">Deafened</option>
+            <option value="disadvantage">Disadvantage</option>
+            <option value="divine-favour">Divine Favour</option>
+            <option value="dodge-action">Dodge Action</option>
+            <option value="eagles-splendor">Eagle's Splendor</option>
+            <option value="exhausted">Exhausted</option>
+            <option value="flying">Flying</option>
+            <option value="foxs-cunning">Fox's Cunning</option>
+            <option value="frightened">Frightened</option>
+            <option value="grappled">Grappled</option>
+            <option value="hasted">Hasted</option>
+            <option value="hex">Hex</option>
+            <option value="hexblades-curse">Hexblade's Curse</option>
+            <option value="highlighted">Highlighted</option>
+            <option value="holding-action">Holding Action</option>
+            <option value="incapacitated">Incapacitated</option>
+            <option value="insightful-fighting">Insightful Fighting</option>
+            <option value="inspired">Inspired</option>
+            <option value="invisible">Invisible</option>
+            <option value="mage-armor">Mage Armor</option>
+            <option value="mark">Mark</option>
+            <option value="mirror-image">Mirror Image</option>
+            <option value="on-fire">On Fire</option>
+            <option value="owls-wisdom">Owl's Wisdom</option>
+            <option value="paralyzed">Paralyzed</option>
+            <option value="petrified">Petrified</option>
+            <option value="poisoned">Poisoned</option>
+            <option value="possessed">Possessed</option>
+            <option value="prone">Prone</option>
+            <option value="raging">Raging</option>
+            <option value="reaction-used">Reaction Used</option>
+            <option value="restrained">Restrained</option>
+            <option value="sanctuary">Sanctuary</option>
+            <option value="shell-defense">Shell Defense</option>
+            <option value="shield-of-faith">Shield of Faith</option>
+            <option value="shifted">Shifted</option>
+            <option value="slayers-prey">Slayer's Prey</option>
+            <option value="spirit-guardians">Spirit Guardians</option>
+            <option value="stabilized">Stabilized</option>
+            <option value="stunned">Stunned</option>
+            <option value="summoning">Summoning</option>
+            <option value="symbio">Symbiosis</option>
+            <option value="truesight">Truesight</option>
+            <option value="unconcious">Unconcious</option>
+            <option value="warding-bond">Warding Bond</option>
+        </datalist>
+
+        <label>Expires: </label>
+        <select id="status-search" class="w3-select" style="width: 100px;" value="never">
+            <option value="never">Never</option>
+            <option value="start">Start of Next Turn</option>
+            <option value="end">End of Next Turn</option>
+        </select>
+
+        <button id="modal-add-status-button" class="w3-button w3-white w3-ripple" style="width: 150px;">Add Status</button>
+    </div>
+{% endcall %}
