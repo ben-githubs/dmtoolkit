@@ -333,11 +333,18 @@ function refreshStatus(tr) {
         }
         $.each(statuses, function(_, status) {
             console.log(status);
-            image = $(`<img class="w3-button" src="inittracker/static/status-markers/${status}.png" style="height:${height}px; padding:0px;" alt="blinded">`);
-            image.click(function(event) {
+            image = $(`<img src="inittracker/static/status-markers/${status}.png" style="height:${height}px;; pointer-events: none;" alt="${status}">`);
+            wrapper = $(`<div class="w3-button" style="display: inline-block; width: ${height}px; padding:0;"></div>`);
+            wrapper.on('mouseleave', hideTooltip);
+            wrapper.mouseenter(function(event) {
+                console.log(event);
+                showNewTooltip(event, `/tooltips/conditions/${status}`);
+            })
+            wrapper.click(function(event) {
                 removeStatus(event.target, status);
             })
-            statusCell.append(image);
+            wrapper.append(image);
+            statusCell.append(wrapper);
         });
         statusCell.append(getAddStatusWidget(height));
     }
@@ -588,6 +595,9 @@ function showTooltip(event) {
     }
     $('#tooltip').show();
     target = $(event.target);
+    if (target.is('img')) {
+        target = target.parents()[0];
+    }
     target.append($('#tooltip-sleeve'));
     bounds = event.target.getBoundingClientRect();
     offset = target.offset();
@@ -618,7 +628,7 @@ function hideTooltip(event) {
 function showNewTooltip(event, url) {
     // Displays the tooltip and sets it's content to the value returned by the URL
     
-    // Don't do anythign if this function is triggered from inside the tooltip
+    // Don't do anything if this function is triggered from inside the tooltip
     if ($(event.target).parents('#tooltip').length) {
         return;
     }

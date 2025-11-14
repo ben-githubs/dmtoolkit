@@ -175,3 +175,7 @@ def get_spell_tooltip(spell_name: str):
 def get_item_tooltip(item_name: str):
     item = get_item(item_name)
     return render_template("item-statblock.jinja2", item=item)
+
+@tracker_bp.route("/tooltips/conditions/<condition>")
+def get_condition_tooltip(condition: str):
+    return "A condition " + condition
