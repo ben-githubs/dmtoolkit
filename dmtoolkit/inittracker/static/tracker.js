@@ -339,6 +339,11 @@ function refreshStatus(tr) {
                 showNewTooltip(event, `/tooltips/conditions/${status}`);
             })
             wrapper.click(function(event) {
+                if ($(event.target).parents('#tooltip').length) {
+                    // If the click happens in the tooltip, do nothing
+                    return;
+                }
+                hideTooltip(event, overrideTargetCheck=true);
                 removeStatus(event.target, status);
             })
             statusCell.append(wrapper);
@@ -612,9 +617,9 @@ function showTooltip(event) {
     }
 }
 
-function hideTooltip(event) {
+function hideTooltip(event, overrideTargetCheck=false) {
     // Don't trigger if triggered from inside a tooltip
-    if ($(event.target).parents('#tooltip').length) {
+    if (!overrideTargetCheck && $(event.target).parents('#tooltip').length) {
         console.log("Inside tooltip");
         return;
     }
