@@ -1,0 +1,9 @@
+<div id="condition-statblock" class="statblock" style="text-align: left;">
+    <h1>{{ condition.title }}</h1>
+    <hr/>
+    <ul style="text-wrap: wrap">
+        {% for note in condition.notes %}
+            <li>{{ note | macro5e }}</li>
+        {% endfor %}
+    </ul>
+</div>

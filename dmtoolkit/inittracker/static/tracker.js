@@ -333,9 +333,7 @@ function refreshStatus(tr) {
         }
         $.each(statuses, function(_, status) {
             console.log(status);
-            image = $(`<img src="inittracker/static/status-markers/${status}.png" style="height:${height}px;; pointer-events: none;" alt="${status}">`);
-            wrapper = $(`<div class="w3-button" style="display: inline-block; width: ${height}px; padding:0;"></div>`);
-            wrapper.on('mouseleave', hideTooltip);
+            wrapper = $(`<div class="w3-button" style="display: inline-block; width: ${height}px; height: ${height}px; padding:0; background-size: 40px 40px; background-image: url('inittracker/static/status-markers/${status}.png')" onmouseleave="hideTooltip(event)"></div>`);
             wrapper.mouseenter(function(event) {
                 console.log(event);
                 showNewTooltip(event, `/tooltips/conditions/${status}`);
@@ -343,7 +341,6 @@ function refreshStatus(tr) {
             wrapper.click(function(event) {
                 removeStatus(event.target, status);
             })
-            wrapper.append(image);
             statusCell.append(wrapper);
         });
         statusCell.append(getAddStatusWidget(height));
@@ -618,6 +615,7 @@ function showTooltip(event) {
 function hideTooltip(event) {
     // Don't trigger if triggered from inside a tooltip
     if ($(event.target).parents('#tooltip').length) {
+        console.log("Inside tooltip");
         return;
     }
     // Stop displaying a tooltip
