@@ -90,9 +90,9 @@ function updateHP(self) {
         refreshLoot();
         refreshXP();
         if (monster.dead) {
-            self.closest('tr').addClass("dead");
+            addStatus(self, 'incapacitated', prepend=true);
         } else {
-            self.closest('tr').removeClass("dead");
+            removeStatus(self, 'incapacitated');
         }
     }
 }
@@ -119,6 +119,9 @@ function addMonster(monsterId, params={}) {
             
             trow.append(`<td></td>`);
             trow.append(`<td>${data.pp}</td>`);
+            statusCell = $(`<td style="vertical-align: middle; width: 140px;"></td>`);
+            statusCell.html(getAddStatusWidget());
+            trow.append(statusCell);
             trow.data("id", monsterId);
             trow.data("type", "npc");
             trow.data("initMod", data.initMod);
@@ -127,6 +130,7 @@ function addMonster(monsterId, params={}) {
             trow.data("loot", data.loot);
             trow.data('hasXp', data.flag_xp);
             trow.data('hasLoot', data.flag_loot);
+            trow.data('statuses', data.statuses);
 
             // Some functions might provide some overrides we should use
             if ('hasXp' in params) {
@@ -168,9 +172,13 @@ function togglePlayer(button) {
                 trow.append(td);
                 
                 trow.append(`<td style="vertical-align: middle"><input class="w3-input w3-border" type="text" value=""></td>`);
-                trow.append(`<td style="vertical-align: middle">${data.pp}</td>`)
+                trow.append(`<td style="vertical-align: middle">${data.pp}</td>`);
+                statusCell = $(`<td style="vertical-align: middle; width: 140px;"></td>`);
+                statusCell.html(getAddStatusWidget());
+                trow.append(statusCell);
                 
                 trow.data("id", `${playerName}.player`);
+                trow.data("statuses", []);
 
                 trow.click(function(event) { updateStatblockTarget(event); });
 
@@ -304,6 +312,97 @@ function refreshLoot() {
             $('#lootblock').html(response)
         }
     })
+}
+
+function refreshStatus(tr) {
+    if (!tr.is('tr')) {
+        tr = tr.closest('tr');
+    }
+
+    // Get unique statuses
+    statuses = [...new Set(tr.data('statuses'))]
+
+    statusCell = tr.children().eq(6);
+    if (statuses.length == 0) {
+        statusCell.html(getAddStatusWidget());
+    } else {
+        statusCell.empty();
+        height = 40;
+        if (statuses.length + 1 > 3) {
+            height = 20;
+        }
+        $.each(statuses, function(_, status) {
+            console.log(status);
+            wrapper = $(`<div class="w3-button" style="display: inline-block; width: ${height}px; height: ${height}px; padding:0; background-size: 40px 40px; background-image: url('inittracker/static/status-markers/${status}.png')" onmouseleave="hideTooltip(event)"></div>`);
+            wrapper.mouseenter(function(event) {
+                console.log(event);
+                showNewTooltip(event, `/tooltips/conditions/${status}`);
+            })
+            wrapper.click(function(event) {
+                if ($(event.target).parents('#tooltip').length) {
+                    // If the click happens in the tooltip, do nothing
+                    return;
+                }
+                hideTooltip(event, overrideTargetCheck=true);
+                removeStatus(event.target, status);
+            })
+            statusCell.append(wrapper);
+        });
+        statusCell.append(getAddStatusWidget(height));
+    }
+}
+
+function addStatus(elem, status, prepend=false) {
+    // Get root table row
+    tr = $(elem);
+    if (!tr.is('tr')) {
+        tr = tr.closest('tr');
+    }
+
+    // Add status
+    statuses = tr.data("statuses");
+    if (prepend) {
+        statuses = [status, ...statuses];
+    } else {
+        statuses = [...statuses, status];
+    }
+    tr.data("statuses", statuses);
+    refreshStatus(tr);
+}
+
+function removeStatus(elem, status) {
+    // Get root table row
+    tr = $(elem);
+    if (!tr.is('tr')) {
+        tr = tr.closest('tr');
+    }
+
+    // Remove status
+    oldStatuses = tr.data("statuses");
+    newStatuses = $.grep(oldStatuses, function(val) {
+        return val !== status;
+    })
+    tr.data("statuses", newStatuses);
+    refreshStatus(tr);
+}
+
+function getAddStatusWidget(height=40) {
+    elem = $(`<img class="w3-button" src="inittracker/static/plus-button-icon.png" style="height: ${height}px; padding: 0px;">`);
+    elem.click(function (event) {
+        tr = $(event.target);
+        if (!tr.is('tr')) {
+            tr = tr.closest('tr');
+        }
+        $('#status-add-modal').show();
+        $('#status-search').val('');
+        $('#status-search').focus();
+        $('#modal-add-status-button').click(function() {
+            $('#status-add-modal').hide();
+            addStatus(tr, $('#status-search').val());
+            refreshStatus(tr);
+        })
+    })
+    return elem
 }
 
 function showTab(elem) {
@@ -498,6 +597,9 @@ function showTooltip(event) {
     }
     $('#tooltip').show();
     target = $(event.target);
+    if (target.is('img')) {
+        target = target.parents()[0];
+    }
     target.append($('#tooltip-sleeve'));
     bounds = event.target.getBoundingClientRect();
     offset = target.offset();
@@ -515,9 +617,10 @@ function showTooltip(event) {
     }
 }
 
-function hideTooltip(event) {
+function hideTooltip(event, overrideTargetCheck=false) {
     // Don't trigger if triggered from inside a tooltip
-    if ($(event.target).parents('#tooltip').length) {
+    if (!overrideTargetCheck && $(event.target).parents('#tooltip').length) {
+        console.log("Inside tooltip");
         return;
     }
     // Stop displaying a tooltip
@@ -528,7 +631,7 @@ function hideTooltip(event) {
 function showNewTooltip(event, url) {
     // Displays the tooltip and sets it's content to the value returned by the URL
     
-    // Don't do anythign if this function is triggered from inside the tooltip
+    // Don't do anything if this function is triggered from inside the tooltip
     if ($(event.target).parents('#tooltip').length) {
         return;
     }

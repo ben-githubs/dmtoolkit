@@ -11,9 +11,11 @@
 
 {% include "add-player.jinja2" %}
 
+{% include "add-status.jinja2" %}
+
 {% include "save-encounter.jinja2" %}
 
-<div style="margin: auto; width:1200px; height: 100%; display: flex; flex-direction: column;">
+<div style="margin: auto; width:1400px; height: 100%; display: flex; flex-direction: column;">
     <div style="display: flex; margin: 0; width: 100%;">
         <input id="monstersearch" list="monsterlist" class="w3-input" type="text" placeholder="Search for monsters...">
         <datalist id="monsterlist">
@@ -43,6 +45,7 @@
                     <th>HP</th>
                     <th>Initiative</th>
                     <th>PP</th>
+                    <th>Status</th>
                 </tr>
             </table>
             <div style="margin-top: 12px; display: flex; justify-content: space-evenly">

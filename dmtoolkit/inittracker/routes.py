@@ -5,6 +5,7 @@ import re
 from flask import Blueprint, render_template, render_template_string, request
 
 from dmtoolkit.api.classes import get_class
+from dmtoolkit.api.conditions import get_condition
 from dmtoolkit.api.items import get_item
 from dmtoolkit.api.monsters import get_monster, get_monster_names
 from dmtoolkit.api.players import list_players, get_player
@@ -102,7 +103,8 @@ def get_monster_combat_overview():
             "sp": sp,
             "gp": gp,
             "items": [item.id() for item in item_set.values()]
-        }
+        },
+        "statuses": []
     })
 
 @tracker_bp.app_template_filter("ordinal")
@@ -174,3 +176,13 @@ def get_spell_tooltip(spell_name: str):
 def get_item_tooltip(item_name: str):
     item = get_item(item_name)
     return render_template("item-statblock.jinja2", item=item)
+
+@tracker_bp.route("/tooltips/conditions/<name>")
+def get_condition_tooltip(name: str):
+    condition = get_condition(name)
+    if not condition:
+        condition = {
+            "title": name,
+            "notes": ["This condition doesn't have a description yet."]
+        }
+    return render_template("condition-statblock.jinja2", condition=condition)
