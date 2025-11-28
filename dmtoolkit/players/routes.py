@@ -132,7 +132,12 @@ def update_player_page(player_name: str):
     form.class_.data = player.class_id
     if player.class_id:
         form.subclass.choices = [(str(x), y) for x, y in enumerate([c.name for c in get_class(player.class_id).subclasses])]
-        idx = list(x[1] for x in form.subclass.choices).index(player.subclass_id)
+        if player.subclass_id.isdigit():
+            # Previous bug wrote the index of the subclass in the list as the subclass_id; this 
+            #   fix allows those older saved characters to be loaded correctly in most cases.
+            idx = int(player.subclass_id)
+        else:
+            idx = list(x[1] for x in form.subclass.choices).index(player.subclass_id)
         form.subclass.data = str(idx)
     
     page = {
