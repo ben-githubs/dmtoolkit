@@ -41,21 +41,21 @@ def tracker():
 
 @tracker_bp.route("/api/monsters", methods=["GET"])
 def get_monster_page():
-    name = request.args.get("name")
+    name = str(request.args.get("name"))
     monster = get_monster(name)
     return json.dumps(monster)
 
 @tracker_bp.route("/api/monsters-combat-overview", methods=["GET"])
 def get_monster_combat_overview():
-    name = request.args.get("name")
+    name = str(request.args.get("name"))
     monster = get_monster(name)
     ac = monster.ac[0].value
     hp = monster.hp.average
     init_mod = int(monster.dexterity) // 2 - 5
     pp = monster.passive
     if not pp:
-        if perception_mod := monster.skills.get("perception"):
-            pp = 10 + perception_mod
+        if perception_mod := (monster.skills or {}).get("perception", 0):
+            pp = 10 + int(perception_mod)
         else:
             wis_mod = int(monster.wisdom) // 2 - 5
             pp = 10 + wis_mod
