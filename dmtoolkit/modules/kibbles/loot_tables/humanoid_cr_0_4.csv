@@ -1,0 +1,16 @@
+min,max,item,amt,gp,sp,cp
+1,15,wood scraps,1,,,2d4
+1,15,length of string,1,,,
+16,30,metal scraps,1d4,,1d4,
+31,40,leather scraps,1d4,,1d4,
+41,40,hide scraps,1,,,
+41,60,cooking supplies,1,,1d6,2d4
+61,70,parts,1d2,1d6,2d4,
+71,75,uncommon cooking supplies,1,1,1d10,
+76,80,common poisonous reagent,1,,2d4,
+81,85,common curative reagent,1,,2d4,
+86,90,common reactive reagent,1,,2d4,
+91,94,common magical ink,1,1d6,1d10,
+95,96,common divine essence,1,,1d6,1d10
+97,98,common primal essence,1,,1d6,1d10
+99,100,common arcane essence,1,,1d6,1d10

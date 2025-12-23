@@ -58,6 +58,18 @@ files = [
 ]
 
 [[package]]
+name = "cachetools"
+version = "6.2.2"
+description = "Extensible memoizing collections and decorators"
+optional = false
+python-versions = ">=3.9"
+groups = ["main"]
+files = [
+    {file = "cachetools-6.2.2-py3-none-any.whl", hash = "sha256:6c09c98183bf58560c97b2abfcedcbaf6a896a490f534b031b661d3723b45ace"},
+    {file = "cachetools-6.2.2.tar.gz", hash = "sha256:8e6d266b25e539df852251cfd6f990b4bc3a141db73b939058d809ebd2590fc6"},
+]
+
+[[package]]
 name = "certifi"
 version = "2025.1.31"
 description = "Python package for providing Mozilla's CA Bundle."
@@ -281,6 +293,22 @@ files = [
 ]
 
 [[package]]
+name = "d20"
+version = "1.1.2"
+description = "A formal grammar-based dice parser and roller for D&D and other dice systems."
+optional = false
+python-versions = ">=3.6"
+groups = ["main"]
+files = [
+    {file = "d20-1.1.2-py3-none-any.whl", hash = "sha256:1195bfc643aa4bd984bf6d26327491795272bfab8b19ac15108b4352a9de3166"},
+    {file = "d20-1.1.2.tar.gz", hash = "sha256:53bc0ac375deeb84bcbb736ef5b3a72656a265732720fa3e5548dd5b38cb20f5"},
+]
+
+[package.dependencies]
+cachetools = ">=3.1.0"
+lark-parser = ">=0.9.0,<0.10.0"
+
+[[package]]
 name = "dominate"
 version = "2.9.1"
 description = "Dominate is a Python library for creating and manipulating HTML documents using an elegant DOM API."
@@ -416,6 +444,20 @@ MarkupSafe = ">=2.0"
 
 [package.extras]
 i18n = ["Babel (>=2.7)"]
+
+[[package]]
+name = "lark-parser"
+version = "0.9.0"
+description = "a modern parsing library"
+optional = false
+python-versions = "*"
+groups = ["main"]
+files = [
+    {file = "lark-parser-0.9.0.tar.gz", hash = "sha256:9e7589365d6b6de1cca40b0eaec31104a3fb96a37a11a9dfd5098e95b50aa6cd"},
+]
+
+[package.extras]
+regex = ["regex"]
 
 [[package]]
 name = "markupsafe"
@@ -823,4 +865,4 @@ email = ["email-validator"]
 [metadata]
 lock-version = "2.1"
 python-versions = "^3.11"
-content-hash = "0cb64a8965fe5cb47996424eb9884f3ba033e95bba767a4ca486e4ff2b46874a"
+content-hash = "4deec33604b5873b4e4413c1d9e75bd0be0cdbd22be1a4b1194d376fa88a7fc0"

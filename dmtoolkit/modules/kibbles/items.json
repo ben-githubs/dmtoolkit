@@ -1,0 +1,4426 @@
+[
+  {
+    "name": "Draught of Damnation",
+    "source": [
+      "KCG",
+      32
+    ],
+    "rarity": "rare",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "This sticky red liquid has a living viscosity to it, churning slowly within the flask. When you drink this potion, you become a fiend (as if by the spell shapechange for 1 hour). The type of fiend you become is determined by your level. The new form is a random fiend with a Challenge Rating equal to your level, up to a maximum of 10. If there are multiple options at that Challenge Rating, roll to determine which option is selected.",
+          "When the effect ends and you revert to your normal form, you take 1d6 necrotic damage equal to the CR of the fiend who's form you assumed as the toxins of pure evil attempt to destroy your body before relinquishing control of it. If this damage kills you, your soul is dragged to the realm of the fiends by the malignant will of the fiend."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 68000,
+    "item_type": "Potion",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Panacea",
+    "source": [
+      "KCG",
+      32
+    ],
+    "rarity": "legendary",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "When you drink this potion, you regain all lost hit points, all status effects are removed, all reductions to ability scores are removed, any missing limbs are restored, all diseases are cured, all curses are removed, and all levels of exhaustions are removed, and you cease to age for 1 year. This potion can remove effects that can otherwise only be removed by wish.",
+          "If you ever drink a second panacea potion, make a DC 30 Constitution saving throw. On failure, you gain no benefits from it and die."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 5400000,
+    "item_type": "Potion",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Alchemical Acid",
+    "source": [
+      "KCG",
+      34
+    ],
+    "rarity": "common",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "A small flask of burbling acid, a strange hissing green viscous liquid. It deals 4d4 acid damage when poured on an object. Can be used as a simple ranged weapon with the thrown (20/60) property, dealing 4d4 acid damage on hit. You do not add your modifier to the damage roll."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 5000,
+    "item_type": "Concoction",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Alchemical Fire",
+    "source": [
+      "KCG",
+      34
+    ],
+    "rarity": "common",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "A small flask of volatile orange liquid. It deals 2d10 fire damage when poured on an object. Can be used as a simple ranged weapon with the thrown (20/60) property, dealing 2d10 fire damage on hit. You do not add your modifier to the damage roll."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 5000,
+    "item_type": "Concoction",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Alchemical Napalm",
+    "source": [
+      "KCG",
+      34
+    ],
+    "rarity": "common",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "A vicious sticky flammable substance. It deals 3d4 fire damage when poured on an object. Can be used as a simple ranged weapon with the thrown (20/60) property, dealing 3d4 fire damage on hit. You do not add your modifier to the damage roll.",
+          "On hit, the target creature or object continues to burn for one minute, taking 1d4 fire damage at the start of their turn (or at the start of your turn for an object without a turn) until a creature spends an action to put the flames out."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 70000,
+    "item_type": "Concoction",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Bottled Wind",
+    "source": [
+      "KCG",
+      34
+    ],
+    "rarity": "common",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "As an action, you can open this casting gust without verbal or somatic components. Alternatively, you can breath from it, letting out only a little bit at a time, breathing directly from the bottle, but each time you must make a DC 5 athletics checks. On failure, you cast gust as above and all the air is lost. You can get 10 minutes of breathable air from one bottle."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 4000,
+    "item_type": "Concoction",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Potent Alchemical Acid",
+    "source": [
+      "KCG",
+      34
+    ],
+    "rarity": "uncommon",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "A small flask of burbling acid, a strange hissing green viscous liquid. It deals 4d4 acid damage when poured on an object. Can be used as a simple ranged weapon with the thrown (20/60) property, dealing 6d4 acid damage on hit. You do not add your modifier to the damage roll."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 14000,
+    "item_type": "Concoction",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Potent Alchemical Fire",
+    "source": [
+      "KCG",
+      34
+    ],
+    "rarity": "uncommon",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "A small flask of volatile orange liquid. It deals 2d10 fire damage when poured on an object. Can be used as a simple ranged weapon with the thrown (20/60) property, dealing 3d10 fire damage on hit. You do not add your modifier to the damage roll."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 14000,
+    "item_type": "Concoction",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Sticky Goo Potion",
+    "source": [
+      "KCG",
+      34
+    ],
+    "rarity": "uncommon",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "When broken and exposed to air, it creates a very sticky rapidly expanding web like foam, with the effect of the spell web centered on where the flask breaks. You can reliably throw the flask to a target point within 30 feet, shattering it on impact."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 14000,
+    "item_type": "Concoction",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Powerful Alchemical Acid",
+    "source": [
+      "KCG",
+      34
+    ],
+    "rarity": "rare",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "A small flask of burbling acid, a strange hissing green viscous liquid. It deals 4d4 acid damage when poured on an object. Can be used as a simple ranged weapon with the thrown (20/60) property, dealing 8d4 acid damage on hit. You do not add your modifier to the damage roll."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 69000,
+    "item_type": "Concoction",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Powerful Alchemical Fire",
+    "source": [
+      "KCG",
+      34
+    ],
+    "rarity": "rare",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "A small flask of volatile orange liquid. It deals 2d10 fire damage when poured on an object. Can be used as a simple ranged weapon with the thrown (20/60) property, dealing 4d10 fire damage on hit. You do not add your modifier to the damage roll."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 69000,
+    "item_type": "Concoction",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Liquid Lightning",
+    "source": [
+      "KCG",
+      34
+    ],
+    "rarity": "rare",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "Drinking this potion allows you to zip around for 1 minute as pure electricity. As a bonus action on each of your turns before the effect ends, you can transform into a bolt of lightning and instantly travel in a straight line to an unoccupied space you can see within 30 feet. This movement doesn't provoke opportunity attacks and you are immune to lightning damage while in this form.",
+          "You can pass through small holes, narrow openings, and even mere cracks, as well as through conductive materials such as metal. Each creature in your travel path must succeed on a DC 15 Dexterity saving throw, or take 3d6 lightning damage. You immediately revert to your normal form upon reaching the destination. This potion’s stormy liquid arcs with tiny bolts of lightning and it numbs the tongue when sipped."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 64000,
+    "item_type": "Concoction",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Burning Oil",
+    "source": [
+      "KCG",
+      35
+    ],
+    "rarity": "common",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "As an action, you can coat a weapon in this oil and ignite it. For 1 minute, the ignited weapon burns, dealing an extra 1d4 fire to attacks made with it, and providing bright light in a 20-foot radius and dim light for an additional 20 feet."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 4000,
+    "item_type": "Oil",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Frost Oil",
+    "source": [
+      "KCG",
+      35
+    ],
+    "rarity": "common",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "As an action, you can coat a weapon in this oil, causing it freeze over, covered in icy crystals. For 1 minute, the weapon deals an extra 1d6 cold damage on hit."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 7500,
+    "item_type": "Oil",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Silver Oil",
+    "source": [
+      "KCG",
+      29
+    ],
+    "rarity": "common",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "A sparkling chromatic oil. The oil can coat one slashing or piercing weapon or up to 5 pieces of slashing or piercing ammunition. Applying the oil takes 1 minute. For 1 hour, the coated item is considered silvered."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 2000,
+    "item_type": "Oil",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Flametongue Oil",
+    "source": [
+      "KCG",
+      35
+    ],
+    "rarity": "uncommon",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "As an action, you can coat a weapon in this oil and ignite it. For 1 minute, the ignited weapon burns, dealing an extra 2d6 fire to attacks made with it, and providing bright light in a 20-foot radius and dim light for an additional 20 feet."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 17000,
+    "item_type": "Oil",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Dizzying Touch",
+    "source": [
+      "KCG",
+      40
+    ],
+    "rarity": "common",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "Applied to an object. The first creature that touches must make a Constitution saving throw with a DC equal to the crafter's Poison DC. On failure, the  reature becomes poisoned for 1 minute. While poisoned in this way, they must succeed a Wisdom saving throw at the end of each of their turns or fall prone."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 4500,
+    "item_type": "Adventuring Gear",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Simple Injury Poison",
+    "source": [
+      "KCG",
+      42
+    ],
+    "rarity": "common",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "Applied to a melee weapon or up to 5 pieces of ammunition. A creature subjected to this poison must succeed a Constitution saving throw with a DC equal to the crafter's Poison DC or take 2d4 Poison damage.",
+          "Once applied, the poison retains potency for 1 minute before drying, and wears off of a weapon after that weapon has delivered the effect 5 times."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 4000,
+    "item_type": "Adventuring Gear",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Simple Inhaled Poison",
+    "source": [
+      "KCG",
+      42
+    ],
+    "rarity": "common",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "When released, this poison fills a 10-foot radius around the source. You can accurately throw a vial of it (shattering on impact) at a point up to 30 feet away, or release it by other means. A creature subjected to this poison must make a Constitution saving throw with a DC equal to the crafter's Poison DC. On failure, they take 2d4 Poison damage."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 6000,
+    "item_type": "Adventuring Gear",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Simple Contact Poison",
+    "source": [
+      "KCG",
+      42
+    ],
+    "rarity": "common",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "Applied to an object. The first creature that touches must make a Constitution saving throw with a DC equal to the crafter's Poison DC or take 2d4 Poison damage, after which the poison is rubbed off."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 4000,
+    "item_type": "Adventuring Gear",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Simple Ingested Poison",
+    "source": [
+      "KCG",
+      41
+    ],
+    "rarity": "common",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "Applied to food or beverage. A creature that consumes this poison must make a Constitution saving throw with a DC equal to the crafter's Poison DC. On failure, they take 2d6 Poison damage and suffer the poisoned condition for 1 hour."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 3500,
+    "item_type": "Adventuring Gear",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Burning Wound",
+    "source": [
+      "KCG",
+      40
+    ],
+    "rarity": "uncommon",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "Applied to a melee weapon or up to 5 pieces of ammunition. A creature subjected to this poison must make a Constitution saving throw with a DC equal to the crafter's Poison DC.",
+          "On failure, the target becomes poisoned for 1 minute. While poisoned this way, a creature takes 1d6 fire damage at the end of each of its turns, and any hit points regained is reduced by half. At the end of each of their turns, they can repeat the saving throw, ending the effect on success.",
+          "Once applied, the poison retains potency for 1 minute before drying, and wears off of a weapon after that weapon has delivered the effect 5 times."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 15000,
+    "item_type": "Adventuring Gear",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Old Reliable",
+    "source": [
+      "KCG",
+      41
+    ],
+    "rarity": "uncommon",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "Applied to a melee weapon or up to 5 pieces of ammunition. This poison is exceptionally durable, lasting on a weapon for 1 hour and an unlimited number of hits during that time. On hit, weapons with this poison applied deal 1d4 additional poison damage."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 7000,
+    "item_type": "Adventuring Gear",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Potent Injury Poison",
+    "source": [
+      "KCG",
+      41
+    ],
+    "rarity": "uncommon",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "Applied to a melee weapon or up to 5 pieces of ammunition. A creature subjected to this poison must make a Constitution saving throw with a DC equal to the crafter's Poison DC.",
+          "On failure, they take 2d6 Poison damage and become Poisoned for 1 hour. At the end of a poisoned creature’s turn, it can repeat the saving throw, ending the condition on success.",
+          "Once applied, the poison retains potency for 1 minute before drying, and wears off of a weapon after that weapon has delivered the effect 5 times."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 10000,
+    "item_type": "Adventuring Gear",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Potent Inhaled Poison",
+    "source": [
+      "KCG",
+      41
+    ],
+    "rarity": "uncommon",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "When released, this poison fills a 10-foot radius around the source. You can accurately throw a vial of it (shattering on impact) at a point up to 30 feet away, or release it by other means. A creature subjected to this poison must make a Constitution saving throw with a DC equal to the crafter's Poison DC.",
+          "On failure, they take 2d4 Poison damage and become Poisoned for 1 hour. At the end of a poisoned creature’s turn, it can repeat the saving throw, ending the condition on success.",
+          "This effect lingers in the area it was released for 1d4 rounds. A strong wind will clear away and disperse the poison. A creature that enters the area for the first time must save against the poison."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 14000,
+    "item_type": "Adventuring Gear",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Potent Contact Poison",
+    "source": [
+      "KCG",
+      41
+    ],
+    "rarity": "uncommon",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "Applied to an object. The first creature that touches that object after it is applied must make a Constitution saving throw with a DC equal to the crafter's Poison DC",
+          "On failure, they take 4d4 Poison damage and become Poisoned for 1 hour. At the end of a poisoned creature’s turn, it can repeat the saving throw, ending the condition on success."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 10000,
+    "item_type": "Adventuring Gear",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Potent Ingested Poison",
+    "source": [
+      "KCG",
+      41
+    ],
+    "rarity": "uncommon",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "Applied to food or beverage. A creature that consumes this poison must make a Constitution saving throw with a DC equal to the crafter's Poison DC. On failure, they take 3d6 Poison damage and suffer the poisoned condition for 1 hour."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 9500,
+    "item_type": "Adventuring Gear",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Withering Soul",
+    "source": [
+      "KCG",
+      42
+    ],
+    "rarity": "uncommon",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "Applied to a melee weapon or up to 5 pieces of ammunition. A creature subjected to this poison must make a Constitution saving throw with a DC equal to the crafter's Poison DC.",
+          "On failure, they become Poisoned for 1 minute. While poisoned in this way, a creatures takes 1d4 necrotic damage at the start of their turn, and are under the effect of bane. At the end of a poisoned creature’s turn, it can repeat the saving throw, ending the condition on success.",
+          "Once applied, the poison retains potency for 1 minute before drying, and wears off of a weapon after that weapon has delivered the effect 5 times."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 10000,
+    "item_type": "Adventuring Gear",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Knockout Poison",
+    "source": [
+      "KCG",
+      41
+    ],
+    "rarity": "rare",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "Applied to a melee weapon or up to 5 pieces of ammunition. A creature subjected to this poison must make a Constitution saving throw with a DC equal to the crafter's Poison DC.",
+          "On failure, the target becomes poisoned for 1 hour. If the saving throw fails by 5 or more, the creature is also unconscious while poisoned in this way. The creature wakes up if it takes damage or if another creature takes an action to shake it awake.",
+          "Once applied, the poison retains potency for 1 minute before drying, and wears off of a weapon after that weapon has delivered the effect 5 times."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 760,
+    "item_type": "Adventuring Gear",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Fainting Fumes",
+    "source": [
+      "KCG",
+      40
+    ],
+    "rarity": "rare",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "When released, this poison fills a 10-foot radius around the source. You can accurately throw a vial of it (shattering on impact) at a point up to 30 feet away, or release it by other means. A creature subjected to this poison must make a Constitution saving throw with a DC equal to the crafter's Poison DC. On failure, the target becomes poisoned for 1 hour. If the saving throw fails by 5 or more, the creature is also unconscious while poisoned in this way. The  creature wakes up if it takes damage or if another creature takes an action to shake it awake."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 41500,
+    "item_type": "Adventuring Gear",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Paralyzing Poison",
+    "source": [
+      "KCG",
+      41
+    ],
+    "rarity": "rare",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "Applied to a melee weapon or up to 5 pieces of ammunition. A creature subjected to this poison must make a Constitution saving throw with a DC equal to the crafter's Poison DC.",
+          "On failure, the target becomes poisoned for 1 minute. A creature is paralyzed while poisoned this way. At the end of each of the creature’s turns, it can repeat the saving throw, ending the effect on success.",
+          "Once applied, the poison retains potency for 1 minute before drying, and wears off of a weapon after that weapon has delivered the effect 5 times."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 59000,
+    "item_type": "Adventuring Gear",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Veins of Tar",
+    "source": [
+      "KCG",
+      42
+    ],
+    "rarity": "rare",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "Applied to food or beverage. A creature that consumes this poison must make a Constitution saving throw with a DC equal to the crafter's Poison DC. On failure, they are under the effect of the slow spell for 8 hours. This effect can be removed by effects that remove poison."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 30000,
+    "item_type": "Adventuring Gear",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Whispers of Madness",
+    "source": [
+      "KCG",
+      42
+    ],
+    "rarity": "rare",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "Applied to an object. The first creature that touches must make a Constitution saving throw with a DC equal to the crafter's Poison DC. On failure, the character becomes poisoned for 10 minutes, and rolls on the short term madness table. They are under the effect of the rolled madness while poisoned."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 45000,
+    "item_type": "Adventuring Gear",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Grevious Injury Poison",
+    "source": [
+      "KCG",
+      40
+    ],
+    "rarity": "very rare",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "Applied to a melee weapon or up to 5 pieces of ammunition.",
+          "A creature subjected to this poison must make a Constitution saving throw with a DC equal to the crafter's Poison DC, taking 6d6 poison damage on a failed save, or half as much damage on a successful save.",
+          "Once applied, the poison retains potency for 1 minute before drying, and wears off of a weapon after that weapon has delivered the effect 5 times."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 238000,
+    "item_type": "Adventuring Gear",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Slow Death",
+    "source": [
+      "KCG",
+      42
+    ],
+    "rarity": "very rare",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "Applied to food or beverage. A creature that consumes this poison begins to slowly die if they aren’t immune to poison. Each time that creature finishes a long rest, its hit point maximum is reduced by 1. If the creature’s hit point maximum hit is reduced to 0 by this effect, it dies. While its hit points are less than half of its original maximum, it is poisoned. This effect can be removed by effects that remove the poisoned condition, and can be only be identified by magic or a DC 15 Wisdom (Medicine) check.",
+          "If a creature is cured, it regains its lost hit points after it finishes a long rest."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 680000,
+    "item_type": "Adventuring Gear",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Endless Dreams",
+    "source": [
+      "KCG",
+      40
+    ],
+    "rarity": "legendary",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "Applied to food or beverage. A creature that consumes this poison must make a Constitution saving throw with a DC equal to the crafter's Poison DC. On failure, the next time the creature falls asleep they enter endless slumber in stasis. They do not wake and can’t be roused by any normal means. A creature sleeping in this way doesn’t require food or drink, and doesn’t age.",
+          "This effect can only be ended by greater restoration cast at 7th level or higher, or wish."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 11000,
+    "item_type": "Adventuring Gear",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Tower Shield",
+    "source": [
+      "KCG",
+      52
+    ],
+    "rarity": "common",
+    "weight": 12,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "This is a massive unwieldy shield. While carrying it, your speed is reduced by 10 feet. At the end of each of your turns, pick a direction . You have half cover from attacks in a cone that direction. Alternatively, you can pick a single target, tracking the movement. You have half cover against attacks from that target (and only that target)"
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 5000,
+    "item_type": "Shield",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Spiked Shield",
+    "source": [
+      "KCG",
+      52
+    ],
+    "rarity": "common",
+    "weight": 6,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "Your shield is considered a martial melee weapon, dealing 1d4 damage on hit."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 4000,
+    "item_type": "Shield",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Bracers",
+    "source": [
+      "KCG",
+      52
+    ],
+    "rarity": "common",
+    "weight": 1,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "While wearing bracers and not using a shield, as a reaction to being hit by an attack, you can attempt to parry the attack with your bracer, adding +2 AC bonus against the triggering attack."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 1500,
+    "item_type": "Shield",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Adamantine Bracers",
+    "source": [
+      "KCG",
+      52
+    ],
+    "rarity": "uncommon",
+    "weight": 3,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "While wearing bracers and not using a shield, as a reaction to being hit by an attack, you can attempt to parry the attack with your bracer, adding +2 AC bonus against the triggering attack. If this causes your AC to be exactly equal to the attack roll and the attacking weapon is made of a common metal, the attacking weapon is destroyed."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 13500,
+    "item_type": "Shield",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Thunder Cannon",
+    "source": [
+      "KCG",
+      52
+    ],
+    "rarity": "uncommon",
+    "weight": 30,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "The principle weapon of a Thundersmith. Deals 1d12 piercing damage, and has the Ammunition (60/180), Two-Handed, Loud, and Stormcharged properties."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      },
+      {
+        "title": "Stormcharged",
+        "body": [
+          "When you use an action, bonus action, or reaction to attack with a Stormcharged Weapon, you can make only one Attack regardless of the number of attacks you can normally make. If you could otherwise make additional attacks with that action, the weapon deals an extra 3d6 lightning or thunder damage per attack that was foregone."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      },
+      {
+        "title": "Loud",
+        "body": [
+          "Your weapon rings with thunder that is audible within 300 feet of you whenever it makes an attack."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 100000,
+    "item_type": "",
+    "properties": [
+      "Ammunition",
+      "Two-Handed",
+      "Loud",
+      "Stormcharged"
+    ],
+    "category": "martial",
+    "weapon_type": "Ranged Weapon",
+    "attunement": "requires attunement",
+    "range": "60/180",
+    "__dataclass__": "ItemWeapon"
+  },
+  {
+    "name": "Common Feast",
+    "source": [
+      "KCG",
+      58
+    ],
+    "rarity": "common",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "Up to 5 creatures can consume this feast within an hour of it being prepared. After consuming this hearty meal, you become satiated for the next 24 hours. This is a hearty meal well surpassing the benefits of normal meals or rations, and each creature that consumes it regains an additional Hit Die during the next long rest.",
+          "If cooked by a creature with proficiency in cook’s utensils, creatures that consume this feast regain additional Hit Dice equal to the cook’s proficiency bonus during the next long rest instead."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 300,
+    "item_type": "Feast",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Enchanting Feast",
+    "source": [
+      "KCG",
+      58
+    ],
+    "rarity": "uncommon",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "Up to 5 creatures can consume this feast within an hour of it being prepared. After consuming this hearty meal, you become satiated for the next 24 hours. You gain the benefits for a common feast, but can gain additional benefits by trading in Hit Dice that would be gained as part of your next long rest after consuming this meal. These Hit Dice are consumed after calculating how many you would have after the rest (including the benefits of the feast), but you can trade Hit Dice in this way you would normally lose if you have more than your maximum Hit Dice.",
+          "You can trade Hit Dice in this way up to a number equal to your proficiency bonus. The benefits scale based on the rarity on the feast.",
+          "Roll 1d4 per Hit Dice traded and gain temporary hit points equal to the value rolled.",
+          "Trade three Hit Dice for an additional spell slot of 1st level.",
+          "Gain a point that can be expended like Inspiration by trading 5 Hit Dice per point."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 1500,
+    "item_type": "Feast",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Meat Feast",
+    "source": [
+      "KCG",
+      58
+    ],
+    "rarity": "uncommon",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "Up to 5 creatures can consume this feast within an hour of it being prepared. After consuming this hearty meal, you become satiated for the next 24 hours. Consuming the essence of a properly prepared creature of great power confers some of its power to you while satiated by the feast.",
+          "You can add +1/+2/+3/+4 to ability checks and saving throws of the prepared creatures highest stat (if multiple stats are tied, the cook chooses which when preparing the meal). Alternatively, the cook can bring forth exotic properties of the creature, conferring one trait of the cooked animal to those that consume it as per the following table (this replaces the benefit to ability checks and saves):"
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      },
+      {
+        "title": "",
+        "body": [],
+        "style": {},
+        "caption": "",
+        "col_labels": [
+          "Minimum Rarity",
+          "Creature Boon"
+        ],
+        "col_styles": [
+          "col-5 text-center",
+          "col-7 text-center"
+        ],
+        "rows": [
+          [
+            "uncommon",
+            "Hold Breath, Keen Senses, Pounce, Stone Camouflage"
+          ],
+          [
+            "rare",
+            "Amphibious/Water Breathing, Web Walker"
+          ],
+          [
+            "very rare",
+            "Pack Tactics, Spider Climb"
+          ],
+          [
+            "legendary",
+            "Magic Resistance, Regeneration, Shapechanger (Mimic)"
+          ]
+        ],
+        "__dataclass__": "Table"
+      },
+      {
+        "title": "",
+        "body": [
+          "The details from the creature boon can be found on the creature stat block. The cook must be aware of the creature’s property to make the meal imbue that property, and the GM may adjust the property in cases where it would not work for players or be too powerful as written. At the GM’s discretion, any ability can be added to this list"
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 1500,
+    "item_type": "Feast",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "What Doesn't Kill You... Feast",
+    "source": [
+      "KCG",
+      59
+    ],
+    "rarity": "uncommon",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "Up to 5 creatures can consume this feast within an hour of it being prepared. After consuming this dubious meal, you gain resistance to poison damage, and gain advantage on saving throws against being poisoned for 24 hours",
+          "If the source of a poison saving throw is the same as the source of the meat or poisonous reagent used to make the feast, the advantage against being poisoned by that creature or effect lasts one week"
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 11000,
+    "item_type": "Feast",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Seaworthy Bouillabaisse",
+    "source": [
+      "KCG",
+      58
+    ],
+    "rarity": "uncommon",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "Up to 5 creatures can consume this feast within an hour of it being prepared. After consuming this hearty meal, you become satiated for the next 24 hours. The magical properties of the meal grant you immunity to sea sickness as well as advantage on Dexterity or Constitution saving throws involving the motion of sea vessels.",
+          "Additionally, if you do not have proficiency in Water Vehicles, you can add half your proficiency bonus (rounded down) to any check involving them for the duration."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 2500,
+    "item_type": "Feast",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Woundroud Feast",
+    "source": [
+      "KCG",
+      58
+    ],
+    "rarity": "rare",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "Up to 5 creatures can consume this feast within an hour of it being prepared. After consuming this hearty meal, you become satiated for the next 24 hours. You gain the benefits for a common feast, but can gain additional benefits by trading in Hit Dice that would be gained as part of your next long rest after consuming this meal. These Hit Dice are consumed after calculating how many you would have after the rest (including the benefits of the feast), but you can trade Hit Dice in this way you would normally lose if you have more than your maximum Hit Dice.",
+          "You can trade Hit Dice in this way up to a number equal to your proficiency bonus. The benefits scale based on the rarity on the feast.",
+          "Roll 1d6 per Hit Dice traded and gain temporary hit points equal to the value rolled.",
+          "Trade three Hit Dice for an additional spell slot of 2nd level.",
+          "Gain a point that can be expended like Inspiration by trading 4 Hit Dice per point."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 15000,
+    "item_type": "Feast",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Hearty Meat Feast",
+    "source": [
+      "KCG",
+      58
+    ],
+    "rarity": "rare",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "Up to 5 creatures can consume this feast within an hour of it being prepared. After consuming this hearty meal, you become satiated for the next 24 hours. Consuming the essence of a properly prepared creature of great power confers some of its power to you while satiated by the feast.",
+          "You can add +1/+2/+3/+4 to ability checks and saving throws of the prepared creatures highest stat (if multiple stats are tied, the cook chooses which when preparing the meal). Alternatively, the cook can bring forth exotic properties of the creature, conferring one trait of the cooked animal to those that consume it as per the following table (this replaces the benefit to ability checks and saves):"
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      },
+      {
+        "title": "",
+        "body": [],
+        "style": {},
+        "caption": "",
+        "col_labels": [
+          "Minimum Rarity",
+          "Creature Boon"
+        ],
+        "col_styles": [
+          "col-5 text-center",
+          "col-7 text-center"
+        ],
+        "rows": [
+          [
+            "uncommon",
+            "Hold Breath, Keen Senses, Pounce, Stone Camouflage"
+          ],
+          [
+            "rare",
+            "Amphibious/Water Breathing, Web Walker"
+          ],
+          [
+            "very rare",
+            "Pack Tactics, Spider Climb"
+          ],
+          [
+            "legendary",
+            "Magic Resistance, Regeneration, Shapechanger (Mimic)"
+          ]
+        ],
+        "__dataclass__": "Table"
+      },
+      {
+        "title": "",
+        "body": [
+          "The details from the creature boon can be found on the creature stat block. The cook must be aware of the creature’s property to make the meal imbue that property, and the GM may adjust the property in cases where it would not work for players or be too powerful as written. At the GM’s discretion, any ability can be added to this list"
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 15000,
+    "item_type": "Feast",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Elementally Fortifying Feast",
+    "source": [
+      "KCG",
+      58
+    ],
+    "rarity": "rare",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "Up to 5 creatures can consume this feast within an hour of it being prepared. After consuming this hearty meal, you become satiated for the next 24 hours. The magical properties of the meal confer the following special benefits:"
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      },
+      {
+        "title": "",
+        "body": [],
+        "style": {},
+        "caption": "",
+        "col_labels": [
+          "Element",
+          "Benefit"
+        ],
+        "col_styles": [
+          "col-3 text-center",
+          "col-9 text-center"
+        ],
+        "rows": [
+          [
+            "Cold",
+            "Advantage on saves against cold climates and resistance to cold damage."
+          ],
+          [
+            "Fire",
+            "Advantage on saves against hot climates and resistance to fire damage."
+          ],
+          [
+            "Lightning",
+            "Advantage on Constitution saving throws against the stunned condition and resistance to lightning damage."
+          ]
+        ],
+        "__dataclass__": "Table"
+      },
+      {
+        "title": "",
+        "body": [
+          "These benefits fade after 24 hours. You can’t gain the benefits of another feast until these benefits fade and you are no longer satiated."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 32500,
+    "item_type": "Feast",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Heroes' Feast",
+    "source": [
+      "KCG",
+      59
+    ],
+    "rarity": "rare",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "A magnificent spread of food. Cooking this has the effect of casting the spell heroes’ feast, except it’s made of real food and not poofed into existence by strange magics."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 150000,
+    "item_type": "Feast",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Superb Feast",
+    "source": [
+      "KCG",
+      58
+    ],
+    "rarity": "very rare",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "Up to 5 creatures can consume this feast within an hour of it being prepared. After consuming this hearty meal, you become satiated for the next 24 hours. You gain the benefits for a common feast, but can gain additional benefits by trading in Hit Dice that would be gained as part of your next long rest after consuming this meal. These Hit Dice are consumed after calculating how many you would have after the rest (including the benefits of the feast), but you can trade Hit Dice in this way you would normally lose if you have more than your maximum Hit Dice.",
+          "You can trade Hit Dice in this way up to a number equal to your proficiency bonus. The benefits scale based on the rarity on the feast.",
+          "Roll 1d8 per Hit Dice traded and gain temporary hit points equal to the value rolled.",
+          "Trade three Hit Dice for an additional spell slot of 3rd level.",
+          "Gain a point that can be expended like Inspiration by trading 3 Hit Dice per point."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 30000,
+    "item_type": "Feast",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Superb Meat Feast",
+    "source": [
+      "KCG",
+      58
+    ],
+    "rarity": "very rare",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "Up to 5 creatures can consume this feast within an hour of it being prepared. After consuming this hearty meal, you become satiated for the next 24 hours. Consuming the essence of a properly prepared creature of great power confers some of its power to you while satiated by the feast.",
+          "You can add +1/+2/+3/+4 to ability checks and saving throws of the prepared creatures highest stat (if multiple stats are tied, the cook chooses which when preparing the meal). Alternatively, the cook can bring forth exotic properties of the creature, conferring one trait of the cooked animal to those that consume it as per the following table (this replaces the benefit to ability checks and saves):"
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      },
+      {
+        "title": "",
+        "body": [],
+        "style": {},
+        "caption": "",
+        "col_labels": [
+          "Minimum Rarity",
+          "Creature Boon"
+        ],
+        "col_styles": [
+          "col-5 text-center",
+          "col-7 text-center"
+        ],
+        "rows": [
+          [
+            "uncommon",
+            "Hold Breath, Keen Senses, Pounce, Stone Camouflage"
+          ],
+          [
+            "rare",
+            "Amphibious/Water Breathing, Web Walker"
+          ],
+          [
+            "very rare",
+            "Pack Tactics, Spider Climb"
+          ],
+          [
+            "legendary",
+            "Magic Resistance, Regeneration, Shapechanger (Mimic)"
+          ]
+        ],
+        "__dataclass__": "Table"
+      },
+      {
+        "title": "",
+        "body": [
+          "The details from the creature boon can be found on the creature stat block. The cook must be aware of the creature’s property to make the meal imbue that property, and the GM may adjust the property in cases where it would not work for players or be too powerful as written. At the GM’s discretion, any ability can be added to this list"
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 30000,
+    "item_type": "Feast",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Legendary Feast",
+    "source": [
+      "KCG",
+      58
+    ],
+    "rarity": "legendary",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "Up to 5 creatures can consume this feast within an hour of it being prepared. After consuming this hearty meal, you become satiated for the next 24 hours. You gain the benefits for a common feast, but can gain additional benefits by trading in Hit Dice that would be gained as part of your next long rest after consuming this meal. These Hit Dice are consumed after calculating how many you would have after the rest (including the benefits of the feast), but you can trade Hit Dice in this way you would normally lose if you have more than your maximum Hit Dice.",
+          "You can trade Hit Dice in this way up to a number equal to your proficiency bonus. The benefits scale based on the rarity on the feast.",
+          "Roll 1d12 per Hit Dice traded and gain temporary hit points equal to the value rolled.",
+          "Trade three Hit Dice for an additional spell slot of 4th level.",
+          "Gain a point that can be expended like Inspiration by trading 2 Hit Dice per point."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 300000,
+    "item_type": "Feast",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Legendary Meat Feast",
+    "source": [
+      "KCG",
+      58
+    ],
+    "rarity": "legendary",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "Up to 5 creatures can consume this feast within an hour of it being prepared. After consuming this hearty meal, you become satiated for the next 24 hours. Consuming the essence of a properly prepared creature of great power confers some of its power to you while satiated by the feast.",
+          "You can add +1/+2/+3/+4 to ability checks and saving throws of the prepared creatures highest stat (if multiple stats are tied, the cook chooses which when preparing the meal). Alternatively, the cook can bring forth exotic properties of the creature, conferring one trait of the cooked animal to those that consume it as per the following table (this replaces the benefit to ability checks and saves):"
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      },
+      {
+        "title": "",
+        "body": [],
+        "style": {},
+        "caption": "",
+        "col_labels": [
+          "Minimum Rarity",
+          "Creature Boon"
+        ],
+        "col_styles": [
+          "col-5 text-center",
+          "col-7 text-center"
+        ],
+        "rows": [
+          [
+            "uncommon",
+            "Hold Breath, Keen Senses, Pounce, Stone Camouflage"
+          ],
+          [
+            "rare",
+            "Amphibious/Water Breathing, Web Walker"
+          ],
+          [
+            "very rare",
+            "Pack Tactics, Spider Climb"
+          ],
+          [
+            "legendary",
+            "Magic Resistance, Regeneration, Shapechanger (Mimic)"
+          ]
+        ],
+        "__dataclass__": "Table"
+      },
+      {
+        "title": "",
+        "body": [
+          "The details from the creature boon can be found on the creature stat block. The cook must be aware of the creature’s property to make the meal imbue that property, and the GM may adjust the property in cases where it would not work for players or be too powerful as written. At the GM’s discretion, any ability can be added to this list"
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 300000,
+    "item_type": "Feast",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Flame Breathing Jerky",
+    "source": [
+      "KCG",
+      59
+    ],
+    "rarity": "uncommon",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "A tough jerky with exotic flavoring. Very spicy, uncomfortably so. After a creature consumes this snack as an action, they gain the following benefits for the next 10 minutes:"
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      },
+      {
+        "title": "",
+        "body": [
+          "<ul><li>You can’t be put to sleep by magical means.</li><li>You have disadvantage on Wisdom checks.</li><li>You have disadvantage on Constitution saving throws to maintain concentration on a spell.</li><li>You can use a bonus action to exhale fire at a target within 10 feet of you. The target must make a DC 13 Dexterity saving throw, taking 2d6 fire damage on a failed save, or half as much damage on a successful one.</li></ul>"
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      },
+      {
+        "title": "",
+        "body": [
+          "You can eat a number of pieces of this jerky equal to your Constitution modifier per day."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 5000,
+    "item_type": "Snack",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Mint Chew",
+    "source": [
+      "KCG",
+      58
+    ],
+    "rarity": "uncommon",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "A chewy minty candy. You can pop one into your mouth as a bonus action. While being chewed (for up to 10 minutes), you are energized and can ignore the effects of up to 3 levels of Exhaustion for the duration, and can’t be put to sleep by magical means.",
+          "You can only gain this benefit once per day, after which consuming additional pieces of the candy has no effect until you finish a long rest."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 2000,
+    "item_type": "Snack",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Morph Cookies",
+    "source": [
+      "KCG",
+      58
+    ],
+    "rarity": "uncommon",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "Consuming one of these has the effects of casting alter self, however you can’t change the adaptation unless you consume another cookie. This effect doesn’t require concentration to maintain, and can be extended by consuming an additional morph cookie.",
+          "If the ingredient came from a mimic, you can additionally transform your appearance to creatures with a different basic shape than you, though you remain the same size."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 2500,
+    "item_type": "Snack",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Seeing Sticks",
+    "source": [
+      "KCG",
+      66
+    ],
+    "rarity": "uncommon",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "A stick of hard tacky substance. You can pop one into your mouth as a bonus action. While being sucked (for up to 10 minutes), you gain expanded senses and have advantage on Wisdom (Perception) checks, saving throws against Illusion spells, and Intelligence (Investigation) checks to see through illusions, though because of the bad taste inherent to the formulation, continuing to suck on the seeing stick requires concentration, as if concentrating on a spell.",
+          "By adding the optional common supplies ingredient, they can be sweetened, granting you advantage on Constitution saving throws made to maintain your concentration against spitting them out; this increases the DC of the recipe by 1."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 3000,
+    "item_type": "Snack",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Quickening Candies",
+    "source": [
+      "KCG",
+      59
+    ],
+    "rarity": "rare",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "A small hard candy ball, with extreme caffineated properties. When you pop one of these into your mouth as a bonus action, you are under the effect of haste for 1d4 rounds. You still suffer the normal effect of haste ending when the effect ends."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 100000,
+    "item_type": "Snack",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Elvish Bread",
+    "source": [
+      "KCG",
+      58
+    ],
+    "rarity": "uncommon",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "A creature can use its action to eat one bite of this bread (1 ration of it). Eating a piece restores 1 hit point, and the bread provides enough nourishment to sustain a creature for one day."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 600,
+    "item_type": "Ration",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Iron Ration",
+    "source": [
+      "KCG",
+      58
+    ],
+    "rarity": "common",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "Iron rations refers to field rations involving dried and perserved food. A basic food ration that will keep you from starving for a day after consuming them. Common side effects include a craving for real food after prolonged exposure."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 20,
+    "item_type": "Ration",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Figurine of Wondrous Power, Onyx Panther",
+    "source": [
+      "KCG",
+      66
+    ],
+    "rarity": "rare",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "A figurine of wondrous power is a statuette of a beast small enough to fit in a pocket. If you use an action to speak the command word and throw the figurine to a point on the ground within 60 feet of you, the figurine becomes a living creature. If the space where the creature would appear is occupied by other creatures or objects, or if there isn't enough space for the creature, the figurine doesn't become a creature."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      },
+      {
+        "title": "",
+        "body": [
+          "The creature is friendly to you and your companions. It understands your languages and obeys your spoken commands. If you issue no commands, the creature defends itself but takes no other actions."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      },
+      {
+        "title": "",
+        "body": [
+          "The creature exists for a duration specific to each figurine. At the end of the duration, the creature reverts to its figurine form. It reverts to a figurine early if it drops to 0 hit points or if you use an action to speak the command word again while touching it. When the creature becomes a figurine again, its property can't be used again until a certain amount of time has passed, as specified in the figurine's description."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      },
+      {
+        "title": "{@creature griffon||Bronze Griffon}",
+        "body": [
+          "This bronze statuette is of a {@creature griffon} rampant. It can become a {@creature griffon} for up to 6 hours. Once it has been used, it can't be used again until 5 days have passed."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 51500,
+    "item_type": "wondroud item",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Boarding Party",
+    "source": [
+      "KCG",
+      84
+    ],
+    "rarity": "uncommon",
+    "weight": 0.075,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "This is a magical piece of ammunition carved with pirate motifs. This piece of ammunition changes size to fit the size of the weapon used (becoming large when loaded into a large weapon). You can use this piece of ammunition to cast translocating shotK once without expending a spell, targeting this piece of ammunition. Once used in this way, it can’t be used again until the next dawn."
+        ]
+      }
+    ],
+    "value": 0.2,
+    "item_type": "Ammunition",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Castcade Catalyst",
+    "source": [
+      "KCG",
+      86
+    ],
+    "rarity": "rare",
+    "weight": 3,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "While holding this catalyst, you can use it as spell casting focus for your spells. When you roll damage for a spell, for each die that rolls its highest value, you can roll one additional die of the same type and add it to the damage dealt."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 0,
+    "item_type": "wondroud item",
+    "properties": [],
+    "attunement": "requires attunement",
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Crystal Key",
+    "source": [
+      "KCG",
+      86
+    ],
+    "rarity": "very rare",
+    "weight": 3,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "An intricate crystaline doorknob with intricate carved patterns. This crystal contains a psionically constructed space that can be manifested by placing it against any flat vertical surface large enough for a Medium-sized door to appear on, and speaking the command word. It creates a door that leads into this interdimensional space. The size of this space depends on the size of the object the doorknob is placed again. If the space is at least 10 feet long by 10 feet wide, it creates a simply furnished bedroom with a bed, light, chair and desk. The atmosphere in the room is comfortable and the air is breathable.",
+          "For each additional 10 cubic feet of space in the object the door knob is placed in, additional rooms appear, in the following order:",
+          "<ul><li>A bathroom furnished with wash tub and running water (the water is potable).</li><li>A comfortable study furnished with a writing table, chair, bookshelves and fireplace.</li><li>A workshop with basic artisan tools and work benches.</li><li>A kitchen that contains no food, but all basic cooking tools, and an always hot oven.</li><li>Additional bed rooms, up to four additional rooms.</li><li>Anything created by the extradimensional space can’t leave the extradimensional space.</li></ul>",
+          "These rooms are extradimensional and do not truly exist within the object, and can’t be accessed by any means other than through the door (they do not structurally effect the object, or allow you to access entraces or areas within the object)."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 0,
+    "item_type": "wondroud item",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Decombobulator",
+    "source": [
+      "KCG",
+      87
+    ],
+    "rarity": "rare",
+    "weight": 3,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "This small mysterious device can emit a projected field within 5 feet of it that heats matter until it undergoes a state change, from a solid to a liquid, or from a liquid to a gas. It has no effect on gas. The target area is always in the shape of a cube, and can be as small as a 1 inch cube or as large as a 5 foot cube. The process takes 1 minute. If a creature ends its turn in the projected field, it takes 2d6 fire damage. This damage doubles each consecutive turn it ends in the area. This damage is also taken by any creature attempting to hold or touch something in the area of effect. This field may burn away the effects of some spells that would be subject to its effects at the discretion of the GM."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 0,
+    "item_type": "wondroud item",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Essence Crystal",
+    "source": [
+      "KCG",
+      88
+    ],
+    "rarity": "rare",
+    "weight": 3,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "A translucent crystal capsule that contains a small amount of a mysterious dark colored liquid."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      },
+      {
+        "title": "",
+        "body": [],
+        "style": {},
+        "caption": "",
+        "col_labels": [
+          "d6",
+          "Essence Color",
+          "Attribute"
+        ],
+        "col_styles": [
+          "col-2 text-center",
+          "col-5",
+          "col-5"
+        ],
+        "rows": [
+          [
+            "1",
+            "Deep Crimson",
+            "Strength"
+          ],
+          [
+            "2",
+            "Forest Green",
+            "Dexterity"
+          ],
+          [
+            "3",
+            "Amber Orange",
+            "Constitution"
+          ],
+          [
+            "4",
+            "Honey Yellow",
+            "Wisdom"
+          ],
+          [
+            "5",
+            "Azure Blue",
+            "Intelligence"
+          ],
+          [
+            "6",
+            "Rich Purple",
+            "Charisma"
+          ]
+        ],
+        "__dataclass__": "Table"
+      },
+      {
+        "title": "",
+        "body": [
+          "While in possession of this crystal, an attuned creature gains a +1 bonus to to ability checks and saving throws of the crystals attribute type.",
+          "These crystals can be cracked, and the liquid inside makes a potent essence for forging powerful runes."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      },
+      {
+        "title": "Curse",
+        "body": [
+          "While attuned to the crystal, you have vivid dreams of lives that are not your own, seeing glimpses of the souls that contributed their essence to the liquid within the crystal."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 0,
+    "item_type": "wondroud item",
+    "properties": [],
+    "attunement": "requires attunement",
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Galvanic Spine",
+    "source": [
+      "KCG",
+      89
+    ],
+    "rarity": "rare",
+    "weight": 3,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "A segmented metallic whip that crackles with lightning. You have a +1 bonus to attack and damage rolls made with this magic whip, and it deals an extra 1d4 lightning damage on hit.",
+          "This whip is highly articulated and can move with surgical precision, allowing it to serve as an extended reach for certain tasks. As an action, you can attempt to grapple a creature, entangling with the whip. When you do so, you can make a Dexterity (Athletics) check to initiate and maintain the grapple (instead of Strength). A creature that starts its turn while grappled with this whip takes 1d4 lightning damage.",
+          "Additionally, you can pick up objects weighing 10 pounds or less within 10 feet, pulling them toward you, or interact with objects within 10 feet. You can use as a set of thieves’ tools +1 when interacting with objects within 10 feet."
+        ]
+      }
+    ],
+    "value": 200,
+    "item_type": "wondroud item",
+    "properties": [],
+    "category": "martial",
+    "weapon_type": "Melee Weapon",
+    "attunement": "requires attunement",
+    "range": "",
+    "__dataclass__": "ItemWeapon"
+  },
+  {
+    "name": "Hero's Sheath",
+    "source": [
+      "KCG",
+      89
+    ],
+    "rarity": "rare",
+    "weight": 5,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "An ornate sheath built for a longsword, this sheath infuses a blade stored within with divine power. When you draw a weapon stored in this sheath, the first attack you make with it after drawing it forth has a range of 30/60 (using the weapons normal attack modifier), and deals radiant damage instead of slashing damage.",
+          "If you expend a spell slot to empower this special attack using your Divine Smite feature, the blade emits a holy blast that deals damage equal to the Divine Smite targeting all creatures within 15 feet. The range of the cone increases by 15 feet for each level of spell slot expended on the Divine Smite. The target of the attack takes the Divine Smite damage as normal if the attack hits, while all other creatures in the area must make a Dexterity saving throw with a DC of 16. On failure, they take radiant damage equal to the damage dice of the Divine Smite damage (this is not doubled if the attack is a critical hit), or half as much damage on a successful saving throw.",
+          "A longsword that is sheathed in this sheath for at least 24 hours is infused with divine power. Its damage die is increased by one step (from a d8 to a d10, and its versatile damage from a d10 to a d12) and it counts as magical for the purposes of overcoming resistance to damage. This bonus lasts until another weapon is sheathed in this sheathed."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 0,
+    "item_type": "wondroud item",
+    "properties": [],
+    "attunement": "requires attunement by a paladin",
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Holy Symbol of the Arcane",
+    "source": [
+      "KCG",
+      89
+    ],
+    "rarity": "rare",
+    "weight": 1,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "This is a special holy symbol often belonging to the order of a god dedicated to knowledge or magic, imbued with special power by the god or their agents with the ability to confer arcane magic to a disciple.",
+          "When an attuned user is preparing spells for the day, they can prepare spells from the wizard spell list in addition to the cleric spell list, but any spell prepared in this way is prepared at one level higher than it normally would be. For example, if they were to use this holy symbol to prepare the fireball spell from the wizard list, it would be prepared as if were normally a 4th-level spell (not gaining benefits from being up casted as a 4th-level spell).",
+          "An attuned cleric can have a number of spells prepared this way equal to their Wisdom modifier."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      },
+      {
+        "title": "",
+        "body": [
+          "While you wear this amulet, you can use your Channel Divinity feature without expending one of the feature's uses. Once this property is used, it can't be used again until the next dawn."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 0,
+    "item_type": "wondroud item",
+    "properties": [],
+    "attunement": "requires attunement by a cleric",
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Hulking Bracers",
+    "source": [
+      "KCG",
+      89
+    ],
+    "rarity": "uncommon",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "While wearing these bracers, as an action you can gain the Enlarge effect from the enlarge/reduce spell without requiring a spell slot or concentration. The effect lasts until deactivated as a bonus action. You can remain enlarged for up to 1 hour per day, all at once or in several shorter uses. If you run out of time while enlarged, you shrink to your normal size. The bracers regain their 1 hour of usage at dawn each day."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 0,
+    "item_type": "",
+    "properties": [],
+    "attunement": "requires attunement",
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Savage Talisman",
+    "source": [
+      "KCG",
+      92
+    ],
+    "rarity": "uncommon",
+    "weight": 1,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "While wearing the talisman, you gain a +1 bonus to the attack rolls and the damage rolls you make with unarmed strikes and natural weapons. Such attacks are considered to be magical."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      },
+      {
+        "title": "",
+        "body": [
+          "If you are an evil cleric or paladin, you can use the talisman as a holy symbol, and you gain a +2 bonus to spell attack rolls while you wear or hold it."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      },
+      {
+        "title": "",
+        "body": [
+          "The talisman has 6 charges. If you are wearing or holding it, you can use an action to expend 1 charge from the talisman and choose one creature you can see on the ground within 120 feet of you. If the target is of good alignment, a flaming fissure opens under it. The target must succeed on a {@dc 20} Dexterity saving throw or fall into the fissure and be destroyed, leaving no remains. The fissure then closes, leaving no trace of its existence. When you expend the last charge, the talisman dissolves into foul-smelling slime and is destroyed."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 0,
+    "item_type": "wondroud item",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Theurge's Librum",
+    "source": [
+      "KCG",
+      92
+    ],
+    "rarity": "very rare",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "This hefty ornate spell book remains pristine in all conditions, its cover depicting detailed sacred inscriptions. After studying the contents of this book for 8 hours, the user can comprehend a unifying theory of divine and arcane power, though such a comprehension mystically fades from the mind if they ever lose possession or unattune from the librum, until they are once more in possession and attuned to the librum.",
+          "When found, the librum contains the following spells: cure wounds, bless, lesser restoration, gentle repose, revivify, spirit guardians, commune, guardian of faith, dawn, and mass cure wounds. The spells contained within can be prepared as Wizard spells for the attuned user, but can’t be copied out of the spell book. Casting these divine spells exerts a special strain on a wizard, however, and they can only cast a total number of spell slots of spells that do not appear on the Wizard list from this book equal to their Wizard level, after which they must finish a long rest, refreshing the number of spells they can cast.",
+          "In addition, it contains 10 empty pages, each of which can contain one additional spell from the cleric list. If you come across a cleric spell in written form (such as a scroll) the spell can be permenantly copied into the librum, expending one of the empty pages. The process of copying the spell into your ritual book takes 2 hours per level of the spell, and costs 50 gp per level. The cost represents the material components you expend as you experiment with the spell to master it, as well as the fine inks you need to record it."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 0,
+    "item_type": "wondrous item",
+    "properties": [],
+    "attunement": "requires attunement by a wizard",
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Quantum Chaos Box",
+    "source": [
+      "KCG",
+      92
+    ],
+    "rarity": "rare",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "This is a mysterious box that harnesses primordial chaos to manipulate aspects of reality within it, creating random chaotic things. When opening this box, roll a 1d12 to determine the results. If opened again, the box is empty until the next dawn."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      },
+      {
+        "title": "",
+        "body": [],
+        "style": {},
+        "caption": "",
+        "col_labels": [
+          "1d12",
+          "Contents of Box"
+        ],
+        "col_styles": [
+          "col-2 text-center",
+          "col-10"
+        ],
+        "rows": [
+          [
+            "1",
+            "1d4 hostile swarms of rats under the effect of fire shield."
+          ],
+          [
+            "2",
+            "1d12 berries created by the goodberry spell."
+          ],
+          [
+            "3",
+            "A small piece of a star. It explodes violently. All creatures within 20 feet must make a DC 15 Dexterity saving throw or take 3d12 fire damage, or half as much on a successful save."
+          ],
+          [
+            "4",
+            "The last consumable item you used, of uncommon rarity or less, or a potion of healing (if no consumable item applies)"
+          ],
+          [
+            "5",
+            "A small wooden toy. It looks quite old."
+          ],
+          [
+            "6",
+            "A key. Someone probably lost it."
+          ],
+          [
+            "7",
+            "1d4 delicious looking fresh fish. Cooking and eating them gives a creature up to 10 temporary hit points, as long as they are cooked within 1 hour of opening the box."
+          ],
+          [
+            "8",
+            "A diamond worth 1d100 gp."
+          ],
+          [
+            "9",
+            "Another box that looks identical to the Quantum Chaos Box, just very slightly smaller. It is a hostile mimic."
+          ],
+          [
+            "10",
+            "A letter written in an incomprehensible language. If somehow decoded it might be a mundane letter, or a spell scroll for a spell on the Warlock spell list of 3rd level or lower."
+          ],
+          [
+            "11",
+            "Nothing."
+          ],
+          [
+            "12",
+            "A single bean from a magical bag of beans."
+          ]
+        ],
+        "__dataclass__": "Table"
+      }
+    ],
+    "value": 75000,
+    "item_type": "wondrous item",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Brilliant Diamond",
+    "source": [
+      "KCG",
+      93
+    ],
+    "rarity": "common",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "This diamond gives off 5 feet of dim light when not socketed. When socketed into a weapon, ring, or necklace, a creature holding that weapon or wearing the piece of jewelry can use their action to cast the light spell, targeting the item the gem is socketed into."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 50000,
+    "item_type": "Gemstone",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Effervescent Emerald",
+    "source": [
+      "KCG",
+      93
+    ],
+    "rarity": "common",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "This emerald has a swirling light within. When socketed into a weapon, checks to apply poison to that weapon automatically succeed. When socketed into a ring or necklece, a creature wearing that piece of jewelry can use their action to cast the poison spray cantrip."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 50000,
+    "item_type": "Gemstone",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Flickering Ruby",
+    "source": [
+      "KCG",
+      93
+    ],
+    "rarity": "common",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "This ruby flickers like a torch, giving off 5 feet a bright light and an additional 5 feet of dim light when not socketed. When socketed into a weapon, as an action you can cause the weapon to burst into flames, dealing an extra 1d4 fire damage for 1 minute. Once used in this way it can’t be used again until dawn. When socketed into a ring or necklace, a creature wearing that piece of jewelry can use their action to cast the produce flame cantrip."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 50000,
+    "item_type": "Gemstone",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Glittering Garnet",
+    "source": [
+      "KCG",
+      93
+    ],
+    "rarity": "uncommon",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "This blood red gem glitters like blood in the dark. When socket into a melee weapon, any time a creature deals more than 10 slashing or piecing damage to a target with blood, the wielder regains 1 hit point. When socketed into a ring or necklace, the wearer regains and additional hit point when they spend a Hit Die."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 50000,
+    "item_type": "Gemstone",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Magic Diamond",
+    "source": [
+      "KCG",
+      93
+    ],
+    "rarity": "uncommon",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "This diamond gives off 5 feet of bright light and 5 feet of dim light when not socketed. When socketed into a weapon, the weapon becomes magical for the purposes of overcoming resistance. When socketed into a ring or necklace, a creature wearing that piece of jewelry can use their action to cast the force boltK cantrip."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 50000,
+    "item_type": "Gemstone",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Sparkling Saphire",
+    "source": [
+      "KCG",
+      93
+    ],
+    "rarity": "uncommon",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "This sapphire sparkles dimly with an internal light. A creature can infuse a 1st-level spell or cantrip into this gem, causing it to sparkle more brilliant. Subsequently, a creature hold the gem, a weapon the gem is socketed into, or a piece of jewelry the gem is socketed into, can cast the spell as if they are casting the spell. If the creature has a spellcasting feature, they can use it to cast the spell without expending a spell slot, discharging the power in the gem. If a creature doesn’t have the spellcasting feature, their spell attack modifier is +3 and their spell save DC is 11 for any spell cast. The effects of a spell cast using this sapphire can’t persist for more than 10 minute (for example, a familiar summoned with it would last 10 minutes rather than indefinitely)."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 50000,
+    "item_type": "Gemstone",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Perfect Infusion",
+    "source": [
+      "KCG",
+      93
+    ],
+    "rarity": "common",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "A gem infused so perfectly that it readily accepts power. You can activate this gem as a reaction when you take acid, cold, fire, lightning or thunder damage. The gem grants you resistance to the triggering damage type until the start of your next turn. After triggering it, the first time you hit with a melee attack on your next turn, the target takes an extra 1d6 elemental damage of the triggering type. Once activated, it can’t be activated again until you finish a long rest."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 50000,
+    "item_type": "Gemstone",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Vision Stone",
+    "source": [
+      "KCG",
+      93
+    ],
+    "rarity": "common",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "A creature holding this crystal can view or record a single scene within in, viewed as if by the recording creatures eyes. This memory can be up to 1 minute long, and includes sights, sounds, and faint emotions. A memory can be faked, but doing so requires exceptional deception to make it seem accurate. When storing a fake memory make an Intelligence (Deception) check. A viewer can detect a fake memory with a Wisdom (Insight) check equal to or higher than to the deception check minus 5."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 0,
+    "item_type": "wondrous item",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Amplifying Crystal",
+    "source": [
+      "KCG",
+      93
+    ],
+    "rarity": "uncommon",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "While holding this crystal, you gain a bonus to psionics attack rolls and to the psionic saving throw DCs of your psionic abilities. The bonus is determined by the crystal’s rarity.",
+          "In addition, when you use a psionic power, you can gain add a number of psi points determined by the crystal’s rarity; these points can only be used on psionic powers, but can exceed your normal psi limit. You can’t use this property again until you finish a long rest."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      },
+      {
+        "title": "",
+        "body": [],
+        "style": {},
+        "caption": "",
+        "col_labels": [
+          "Rarity",
+          "Modifier",
+          "Points Added"
+        ],
+        "col_styles": [
+          "col-4 text-center",
+          "col-4 text-center",
+          "col-4 text-center"
+        ],
+        "rows": [
+          [
+            "Uncommon",
+            "+1",
+            "1"
+          ],
+          [
+            "Rare",
+            "+2",
+            "2"
+          ],
+          [
+            "Very Rare",
+            "+3",
+            "3"
+          ]
+        ],
+        "__dataclass__": "Table"
+      }
+    ],
+    "value": 0,
+    "item_type": "wondrous item",
+    "properties": [],
+    "attunement": "requires attunement by a psionic character with one or more psi points",
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Blasting Crystal",
+    "source": [
+      "KCG",
+      94
+    ],
+    "rarity": "uncommon",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "While holding this crystal, an attuned user can focus their psionic powers into it emit a powerful psionic blast. It emits a ray of concentrated psionic power blasts toward a creature or object you can see within 60 feet. Make a ranged spell attack. On hit, it deals 1d10 + your Psionics modifier force damage."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      },
+      {
+        "title": "",
+        "body": [
+          "You can spend psi points add the following modifiers to (you can add multiple modifiers). The points must be spent when choosing the target of the power. If you have the Psionic Mastery feature, you can spend mastery points on this as if was a psionic power."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      },
+      {
+        "title": "Amplified Blast (1-3 points)",
+        "body": [
+          "The target takes an extra 1d10 force damage."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      },
+      {
+        "title": "Omni Blast (1+ points)",
+        "body": [
+          "The blast targets a number of additional creatures equal to the psi points spents."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      },
+      {
+        "title": "Soul Blast (1 point)",
+        "body": [
+          "The blast damage becomes psychic damage, and treats the targets AC as 10 + their Dexterity modifier."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 0,
+    "item_type": "wondrous item",
+    "properties": [],
+    "attunement": "requires attunement by a psionic character with one or more psi points",
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Focusing Crystal",
+    "source": [
+      "KCG",
+      94
+    ],
+    "rarity": "uncommon",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "While holding this crystal, you can use it to focus your mind, more perfectly opening your psionic senses. You can use this spell to cast clairvoyance without expending psi points. Once while the effect is active, you can use a Psionic ability (power, spell or talent) that doesn’t deal damage on a creature within range of the sensor as if it was in range and sight of you. You can’t use this property again until you finish a long rest.",
+          "At the start of your turn, you can focus this crystal (as if concentrating on a spell) and reduce your speed to 0. When you do so, until the end of your turn the range of all psionic abilities with a range other than touch are doubled."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 0,
+    "item_type": "wondrous item",
+    "properties": [],
+    "attunement": "requires attunement by a psionic character with one or more psi points",
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Psi Blade Crystal",
+    "source": [
+      "KCG",
+      94
+    ],
+    "rarity": "uncommon/rare/very rare",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "Embedded in a ring, braclet, bladeless sword hilt, or similar item, this small gem seems to have minimal value to the casual observer, but has perfect psionic resonance.",
+          "While carried by a Way of the Soul Knife Monk, that monk can use this crystal to focus a purer Soul Knife, adding +1/+2/+3 (based on rarity) to attack and damage rolls with their Soul Knife.",
+          "Some crystals come in various colors, and change the hue of your psi blade to match the color of the crystal."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 0,
+    "item_type": "wondrous item",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Psionically Attuned Weapon",
+    "source": [
+      "KCG",
+      94
+    ],
+    "rarity": "uncommon",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "This weapon is perfectly attuned to conducting psionic energy. While wielding it, you gain the Psionic Weapon talent, but it can only be used when targeting this weapon. When you use Psionic Weapon, the weapons gains a bonus to attack and damage rolls equal to the number of psi points spent, up to a maximum of +3 with three psi points spent"
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 0,
+    "item_type": "wondrous item",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Resonating Crystal",
+    "source": [
+      "KCG",
+      94
+    ],
+    "rarity": "uncommon",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "This is a crystal that has been fundamentally warped by exposure to psionic powers. It now holds the perfect resonance to trap and hold psionic energy, though it doesn’t naturally generate it.",
+          "While holding this crystal, as an action you can imbue up to 4 psi points into it. While it is imbued it gives off 10 feet of bright light and 10 feet of dim light with a eerie purple hue.",
+          "If it has one or more points imbued in it, as an action you can reclaim the psi points stored in it, regaining expended psi points from it up to your maximum psi points."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 0,
+    "item_type": "wondrous item",
+    "properties": [],
+    "attunement": "requires attunement by a psionic character with one or more psi points",
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Imprint Crystal",
+    "source": [
+      "KCG",
+      94
+    ],
+    "rarity": "rare",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "While attuned, you gain one psionic talent from the Psion class. It can’t be one with any prerequisites."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 0,
+    "item_type": "wondrous item",
+    "properties": [],
+    "attunement": "requires attunement",
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Purity of Mind",
+    "source": [
+      "KCG",
+      94
+    ],
+    "rarity": "rare",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "A blindfold made of heavy silken cloth, it is emblazoned with strange patterns. When worn, you are lose any normal vision that relies on your eyes and are blinded but gain several benefits as your mind is cleared of visual distractions.",
+          "• You gain a mindsight of 60 feet, allowing you to see creatures with an intelligence of 6 or higher within range as if by blindsight. A creature you are unaware of can still be hidden from you.",
+          "• You gain a blindsight of 10 feet. If you already have a blindsight, its range is increased by 10 feet.",
+          "• You are immune to effects that require you to see the target or effect, even if they are within your mindsight or blindsight."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 0,
+    "item_type": "wondrous item",
+    "properties": [],
+    "attunement": "requires attunement by a psionic character with one or more psi points",
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Mind Shard",
+    "source": [
+      "KCG",
+      94
+    ],
+    "rarity": "very rare",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "A crystalized beacon of pure telepathic power. A holder of this stone can cast command and charm person at will. The stone has 8 charges, regaining 1d6 + 2 at dawn. You can expend 2 charges to cast suggestion, 5 charges to cast dominate person, or 8 charges to cast dominate monster."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 0,
+    "item_type": "wondrous item",
+    "properties": [],
+    "attunement": "requires attunement",
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Soul Shard",
+    "source": [
+      "KCG",
+      94
+    ],
+    "rarity": "legendary",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "A crystalized fragment of a dead psionic creature. How these form, few know. Many suspect dark secrets at their origin. These shards can be driven into the flesh of another psionic creature, dealing 1d4 piercing damage and 4d12 psychic damage and causing them to instantly become attuned to it. When you do so, you gain access to a Psionic Discipline that the creature it was formed from presumably had, along with one flaw formed from the fragment of their soul within the shard.",
+          "When you find a soul shard, the GM can determine the Discipline it contains and the flaw it confers while attuned, you can roll on the following table to determine them.",
+          "To unattune to it, must spend an action to try to rip it free. You must succeed a DC 15 Charsma saving throw. Each time you fail this this save, you take 4d12 psychic damage."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      },
+      {
+        "title": "",
+        "body": [],
+        "style": {},
+        "caption": "",
+        "col_labels": [
+          "d6",
+          "Discipline"
+        ],
+        "col_styles": [
+          "col-2 text-center",
+          "col-10 text-center"
+        ],
+        "rows": [
+          [
+            "1",
+            "Telekinesis"
+          ],
+          [
+            "2",
+            "Telepathy"
+          ],
+          [
+            "3",
+            "Enhancement"
+          ],
+          [
+            "4",
+            "Psychokinetics"
+          ],
+          [
+            "5",
+            "Transposition"
+          ],
+          [
+            "6",
+            "Precognition"
+          ]
+        ],
+        "__dataclass__": "Table"
+      },
+      {
+        "title": "",
+        "body": [],
+        "style": {},
+        "caption": "",
+        "col_labels": [
+          "d6",
+          "Flaw"
+        ],
+        "col_styles": [
+          "col-2 text-center",
+          "col-10 text-center"
+        ],
+        "rows": [
+          [
+            "1",
+            "Your anger grows harder to control, your eyes change color and start glowing when you become angry."
+          ],
+          [
+            "2",
+            "You hear a faint screaming at all times. It sounds almost... familiar."
+          ],
+          [
+            "3",
+            "A strange swirling tattoo-like scar very slowly grows from where it pierces you that burns painfully."
+          ],
+          [
+            "4",
+            "When you sleep, you have nightmares about another life filled with horror, fear and revulsion."
+          ],
+          [
+            "5",
+            "You cannot remember your own name, even when told."
+          ],
+          [
+            "6",
+            "You grow small vestigial tentacles along your jawline like a strange beard after being attuned to it for 1d4 days."
+          ]
+        ],
+        "__dataclass__": "Table"
+      }
+    ],
+    "value": 0,
+    "item_type": "wondrous item",
+    "properties": [],
+    "attunement": "requires attunement",
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Lesser Wand",
+    "source": [
+      "KCG",
+      102
+    ],
+    "rarity": "varies",
+    "weight": 1,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "This wand has 3 charges. While holding it, you can use an action to expend 1 or more of its charges to cast the spell infused in it it. For 1 charge, you cast the base version of the spell. You can increase the spell slot level by one for each additional charge you expend (if applicable for the spell). The DC of the spell is crafter’s Wand DC.",
+          "The wand doesn’t regain charges naturally, but can be recharged (see recharge rules for Lesser Wands).",
+          "Lesser wands that cast 3rd-level spells or higher require attunement to use."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 0,
+    "item_type": "Wand",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Black Stick",
+    "source": [
+      "KCG",
+      102
+    ],
+    "rarity": "common",
+    "weight": 1,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "This wand has an 20 charges. This wand is considered a ranged weapon with a range of 60/180, and the Light property. It deals 1d6 force damage on hit. Each time you make an attack with it, it expends one charge. If you have a spellcasting modifier, you can use your spellcasting ability in place of your Dexterity modifier when making an attack with this wand.",
+          "The wand regains 1d10 + 10 expended charges daily at dawn. If you expend the wand’s last charge, roll a d20. On a 1, the wand breaks."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 0,
+    "item_type": "Wand",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Goodberry Dispenser",
+    "source": [
+      "KCG",
+      102
+    ],
+    "rarity": "common",
+    "weight": 1,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "This wand has 10 charges. While holding it as an an action you can tap the tip to your palm and expend 1 of its charges to create a single berry as if from the goodberry spell in your hand.",
+          "The wand regains 1d10 expended charges daily at dawn. If you expend the wand’s last charge, roll a d20. On a 1, the wand explodes, producing a splattering burst of sticky and sour juice."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 0,
+    "item_type": "Wand",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Magician's Wand",
+    "source": [
+      "KCG",
+      102
+    ],
+    "rarity": "common",
+    "weight": 1,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "This wand has has 6 charges. While holding it, you can use an action to expend 1 of its charges to cast minor illusion. When you cast minor illusion using this wand, you have advantage on Dexterity (Sleight of Hand) checks involving tricks or illusions until the end of your turn.",
+          "The wand regains 1d4 + 2 expended charges daily at dawn. If you expend the wand’s last charge, roll a d20. On a 1, the wand breaks."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 0,
+    "item_type": "Wand",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Wand of Chores",
+    "source": [
+      "KCG",
+      102
+    ],
+    "rarity": "common",
+    "weight": 1,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "This wand has 6 charges. While holding it, you can use an action to expend 1 of its charges to cast prestidigitation.",
+          "The wand regains 1d4 + 2 expended charges daily at dawn. If you expend the wand’s last charge, roll a d20. On a 1, the wand breaks, dumping the last 10 instances of filth it has cleaned up."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 0,
+    "item_type": "Wand",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Whisperstick",
+    "source": [
+      "KCG",
+      102
+    ],
+    "rarity": "common",
+    "weight": 1,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "This wand has 6 charges. While holding it, you can use an action to expend 1 of its charges to cast {@spell message}. You need to point the wand at the target to cast it in this way.",
+          "The wand regains 1d4 + 2 expended charges daily at dawn. If you expend the wand’s last charge, roll a d20. On a 1, the wand breaks, making a loud bang audible up to 100 feet."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 0,
+    "item_type": "Wand",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Leather Buckler",
+    "source": [
+      "KCG",
+      105
+    ],
+    "rarity": "common",
+    "weight": 6,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "A small, simple, and light shield. Wielding this shield increases your armor class by 1. You can benefit from only one shield at a time. You can hold items in the same hand as this light buckler, but any weapon wielded with the same hand has disadvantage on weapon attacks, and any grappling attempts with that hand are made with disadvantage."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 1000,
+    "item_type": "Shield",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Scourge",
+    "source": [
+      "KCG",
+      105
+    ],
+    "rarity": "common",
+    "weight": 3,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "This heavy metal-tipped whip is a martial weapon with the reach property. It deals 2d4 slashing damage on a hit. Due to its unwieldy nature, you have disadvantage when you use a scourge to attack a target within 5 feet of you."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 4000,
+    "item_type": "",
+    "properties": [],
+    "category": "martial",
+    "weapon_type": "Melee Weapon",
+    "attunement": "",
+    "range": "",
+    "__dataclass__": "ItemWeapon"
+  },
+  {
+    "name": "Throwing Bandolier",
+    "source": [
+      "KCG",
+      105
+    ],
+    "rarity": "none",
+    "weight": 5,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "This is a quick access bandolier that can old weapons with the thrown property. It can be configured to hold 2 javalins, handaxes, or light hammers, or 4 daggers or darts. Weapons held in it can drawn as part of making an attack with them without using an object interaction to draw them as long as you have a free hand to draw them."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 2000,
+    "item_type": "Adventuring Gear",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Autoloader",
+    "source": [
+      "KCG",
+      112
+    ],
+    "rarity": "common",
+    "weight": 1,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "An attachment to crossbows. When equipped, the crossbow no longer has the loading property, though gains a “reload 5” feature, and must be reloaded as an action or a bonus action after firing 5 times."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 25000,
+    "item_type": "Item",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Basic Leg Prothetic",
+    "source": [
+      "KCG",
+      112
+    ],
+    "rarity": "common",
+    "weight": 5,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "A functional replacement leg. While using this in replacement for one of your legs, your speed is reduced by 10 feet and you have disadvantage on Dexterity saving throws and Dexterity (Acrobatics) checks."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 500,
+    "item_type": "Item",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Clockwork Toy",
+    "source": [
+      "KCG",
+      112
+    ],
+    "rarity": "common",
+    "weight": 1,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "This toy is a clockwork animal, monster, or person, such as a frog, mouse, bird, Dragon, or Soldier. When placed on the ground, the toy moves 5 feet across the ground on each of your turns in a random direction. It makes Noises as appropriate to the creature it represents."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 1000,
+    "item_type": "Item",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Bola Shot",
+    "source": [
+      "KCG",
+      112
+    ],
+    "rarity": "common",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "This special piece of ammunition entangles a target it hits. On hit, a Large or smaller target must make a DC 12 Dexterity saving throw, or become restrained, as if by a net."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 1500,
+    "item_type": "Ammunition",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Drill",
+    "source": [
+      "KCG",
+      112
+    ],
+    "rarity": "common",
+    "weight": 1,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "Can make holes in things. Can destroy a lock with a DC of 14 or lower to pick or break with 10 minutes of work."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 500,
+    "item_type": "Item",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Mechanical Arm",
+    "source": [
+      "KCG",
+      112
+    ],
+    "rarity": "common",
+    "weight": 10,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "A functional mechanical arm that can replace a missing one. This works for either a biological creature or a construct. This item follows the rules for attunement, but doesn’t require an attunement slot once attuned. While attuned in this way, it functions the same as the limb it replaces."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 12500,
+    "item_type": "wondrous item",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Mechanical Leg",
+    "source": [
+      "KCG",
+      112
+    ],
+    "rarity": "common",
+    "weight": 10,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "A functional mechanical leg that can replace a missing one. This works for either a biological creature or a construct. This item follows the rules for attunement, but doesn’t require an attunement slot once attuned. While attuned in this way, it functions the same as the limb it replaces."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 12500,
+    "item_type": "wondrous item",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Propelled Shot",
+    "source": [
+      "KCG",
+      112
+    ],
+    "rarity": "common",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "This is a special shot that contains a dangerous rocket like propellant accelerating it to greater speed and distance. This shot can be fired at a weapon’s long range without disadvantage, and does an additional weapon die of damage on hit. However, targets gain twice the bonus to AC from cover against this shot as they are difficult to arc."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 800,
+    "item_type": "Ammunition",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Watch",
+    "source": [
+      "KCG",
+      112
+    ],
+    "rarity": "common",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "A small time piece that accurately tracks time. Must be wound up every day or it will cease to track time."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 15000,
+    "item_type": "Item",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Sprint Loaded Leg",
+    "source": [
+      "KCG",
+      112
+    ],
+    "rarity": "common",
+    "weight": 10,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "A functional mechanical leg that can replace a missing one. While attuned in this way, it functions the same as the limb it replaces. Additionally, it can absorb a great deal of impact when falling and spring to new heights. You can reduce all falling damage by 20 feet, and your jumping distance is doubled. After falling, your jumping distance is further increased by a quarter of the distance fallen."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 30000,
+    "item_type": "wondrous item",
+    "properties": [],
+    "attunement": "requires attunement",
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Specialized Mechanical Arm",
+    "source": [
+      "KCG",
+      112
+    ],
+    "rarity": "common",
+    "weight": 10,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "A functional mechanical arm that can replace a missing one. This works for either a biological creature or a construct. This item follows the rules for attunement, but doesn’t require an attunement slot once attuned. While attuned in this way, it functions the same as the limb it replaces. Additionally, this arm can house a tool of your choice."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 27000,
+    "item_type": "wondrous item",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Underwater Breathing Aparatus",
+    "source": [
+      "KCG",
+      112
+    ],
+    "rarity": "uncommon",
+    "weight": 5,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "The wearer can breath underwater for up to 1 hour. You can’t (intelligibly) speak or perform verbal spell components while wearing this device."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 30000,
+    "item_type": "wondrous item",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Weaponized Arm",
+    "source": [
+      "KCG",
+      112
+    ],
+    "rarity": "common",
+    "weight": 10,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "A functional mechanical arm that can replace a missing one. This works for either a biological creature or a construct. This item follows the rules for attunement, but doesn’t require an attunement slot once attuned. While attuned in this way, it functions the same as the limb it replaces. Additionally, this arm can house a one-handed melee weapon of your choice. This weapon can be swapped out as part of a short or long rest."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 18000,
+    "item_type": "wondrous item",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Windup Timer",
+    "source": [
+      "KCG",
+      113
+    ],
+    "rarity": "common",
+    "weight": 1,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "A small timer that can be set to accurately count down time, up to 4 hours, making a clanging noise at the end of the time."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      },
+      {
+        "title": "Advanced Timers",
+        "body": [
+          "If players wish to make a timer that does something other than make a noise at the completion, they likely can, but the GM can determine if additional challenge is involved (such as a timer that lights a fuse upon completion)."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 500,
+    "item_type": "Item",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Spell Shot",
+    "source": [
+      "KCG",
+      113
+    ],
+    "rarity": "uncommon",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "A magically infused arrow. It comes in three different types, based on what kind of magic is infused in it.",
+          "• Fog Cloud. You can target a creature or a point within the normal range of your weapon with this arrow. This functions as a normal piece of ammunition, but casts fog cloud at the point of impact. The spell lasts 1d4 rounds and doesn’t require concentration.",
+          "• Entangle. You can target a creature or a point within the normal range of your weapon with this arrow. This functions as a normal piece of ammunition, but casts entangle at the point of impact. The spell lasts 1d4 rounds and doesn’t require concentration.",
+          "• Multishot. When you fire this arrow, you cast multishot.",
+          "Once the magic effect is discharged by firing it, the magic of the arrow is expended, and it becomes a mundane arrow."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 8000,
+    "item_type": "Item",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Adaptable Shot",
+    "source": [
+      "KCG",
+      113
+    ],
+    "rarity": "common",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "You can select a different damage type for the attack from bludgeoning, piercing, slashing, acid, cold, fire, or lightning when firing this shot.",
+          "When you recover this arrow, roll a d6. On a 1, it is broken."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 1300,
+    "item_type": "Item",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Bouncing Shot",
+    "source": [
+      "KCG",
+      113
+    ],
+    "rarity": "common",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "If you hit an attack roll with it, you can make another attack roll against another target within 10 feet of the first as part of the same attack when firing this shot.",
+          "When you recover this arrow, roll a d6. On a 1, it is broken."
+
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 3000,
+    "item_type": "Item",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Payload Shot",
+    "source": [
+      "KCG",
+      113
+    ],
+    "rarity": "common",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "SAMPThis shot can be fired at half the normal range of the weapon firing it. You can deliever any object less than 2 inches in any dimension weighing less than 2 pounds to a target creature or point within that range.",
+          "When you recover this arrow, roll a d6. On a 1, it is broken."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 3500,
+    "item_type": "Item",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Whistling Shot",
+    "source": [
+      "KCG",
+      112
+    ],
+    "rarity": "common",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "When fired, this shot emits a shrill whistle that can be heard from up to 500 feet from where it is fired and its target point."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 800,
+    "item_type": "Item",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Composite Bow",
+    "source": [
+      "KCG",
+      117
+    ],
+    "rarity": "common",
+    "weight": 5,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "A bow made from laminated layers of horn, wood, and sinew. Deals 2d4 piercing damage on hit."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 5000,
+    "item_type": "weapon",
+    "properties": [
+      "Ammunition",
+      "Heavy",
+      "Two-Handed"
+    ],
+    "category": "martial",
+    "weapon_type": "Ranged Weapon",
+    "attunement": "",
+    "range": "150/600",
+    "__dataclass__": "ItemWeapon"
+  },
+  {
+    "name": "Light",
+    "source": [
+      "KCG",
+      121
+    ],
+    "rarity": "common",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "A simple circular rune the shines a constant white light. A creature that touches an item bearing this rune can cast the light spell targeting that item."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 7000,
+    "item_type": "rune",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Fire",
+    "source": [
+      "KCG",
+      121
+    ],
+    "rarity": "uncommon",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "An chaotic flowing rune with no straight lines. It pulses with a flickering orange energy."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      },
+      {
+        "title": "Passive Effect",
+        "body": [
+          "When marked on armor or an item, an attuned wearer gains resistance to fire damage. When marked on a weapon, an attuned wielder deals deals 1d4 additional fire damage on hit with that weapon."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      },
+      {
+        "title": "Active Effect",
+        "body": [
+          "While attuned to an item with this rune, you can use that item to cast burning hands (2nd level) as a bonus action without expending a spell slot. This uses the crafter’s Rune DC (set at the time of carving the rune). Once a rune’s power is used, the rune’s active can’t be used again until the next dawn."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 32000,
+    "item_type": "rune",
+    "properties": [],
+    "attunement": "requires attunement",
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Lightning",
+    "source": [
+      "KCG",
+      121
+    ],
+    "rarity": "uncommon",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "A jagged rune that flashes and crackles with blue light."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      },
+      {
+        "title": "Passive Effect",
+        "body": [
+          "When marked on armor or an item, the wearer’s speed is increased by 10 feet. When marked on a weapon, an attuned wielder deals an extra 1d4 lightning damage on hit with that weapon."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      },
+      {
+        "title": "Active Effect",
+        "body": [
+          "While attuned to an item with this rune, you can use that item to cast crackeK as a bonus action without expending a spell slot. This uses the crafter’s Rune Attack Modifier and Rune DC (set at the time of carving the rune). Once a rune’s power is used, the rune’s active can’t be used again until the next dawn."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 33000,
+    "item_type": "rune",
+    "properties": [],
+    "attunement": "requires attunement",
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Frost",
+    "source": [
+      "KCG",
+      121
+    ],
+    "rarity": "uncommon",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "An angular geometric rune that softly pulses with a faint white light."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      },
+      {
+        "title": "Passive Effect",
+        "body": [
+          "When marked on armor or an item, an attuned wearer gains resistance to cold damage. When marked on a weapon, an attuned wielder deals deals 1d4 additional cold damage on hit with that weapon."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      },
+      {
+        "title": "Active Effect",
+        "body": [
+          "While attuned to an item with this rune, you can grant yourself 10 temporary hit points as a bonus action, lasting for 1 hour. If a creature hits you with a melee attack while you have these hit points, the creature takes 5 cold damage. Once a rune’s power is used, the rune’s active can’t be used again until the next dawn."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 33000,
+    "item_type": "rune",
+    "properties": [],
+    "attunement": "requires attunement",
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Vision",
+    "source": [
+      "KCG",
+      121
+    ],
+    "rarity": "uncommon",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "An eye shaped rune the dimly pulses a faint purple light."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      },
+      {
+        "title": "Passive Effect",
+        "body": [
+          "When marked on armor or an item, an attuned wearer grains dark vision with a range of 30 feet. If the the attuned wearer already has darkvision, the range of the darkvision increases by 30 feet."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      },
+      {
+        "title": "Active Effect",
+        "body": [
+          "While attuned to an item with this rune, you can grant yourself 60 feet of blindsight as a bonus action. This lasts until the start of your next turn. Once a rune’s power is used, the rune’s active can’t be used again until the next dawn."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 33000,
+    "item_type": "rune",
+    "properties": [],
+    "attunement": "requires attunement",
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Size",
+    "source": [
+      "KCG",
+      121
+    ],
+    "rarity": "uncommon",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "A rune of layered circles with a pale green light flowing through them."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      },
+      {
+        "title": "Passive Effect",
+        "body": [
+          "When marked on armor or an item, an attuned wearer grows 1 foot, counts as one size larger when determining your carrying capacity and the weight you can push, drag, or lift. When marked on a weapon, the weapon grows larger when wielded by an attuned wielder and gains the heavy property if it doesn’t already have it (losing the light property if it has the light property)."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      },
+      {
+        "title": "Active Effect",
+        "body": [
+          "While attuned to an item with this rune, you can use that item to cast enlarge/reduce as a bonus action without expending a spell slot. Once a rune’s power is used, the rune’s active can’t be used again until the next dawn."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 32000,
+    "item_type": "rune",
+    "properties": [],
+    "attunement": "requires attunement",
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Brutality",
+    "source": [
+      "KCG",
+      121
+    ],
+    "rarity": "rare",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "A rune made of large chaotic interlocking pattern that burns with a dull orange light."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      },
+      {
+        "title": "Passive Effect",
+        "body": [
+          "When marked on a weapon, an attuned wielder of the weapon is healed for 1d12 hit points when deal a critical strike with the marked weapon."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      },
+      {
+        "title": "Active Effect",
+        "body": [
+          "An attuned wielder can activate the rune (no action required) during their turn. Until the end of their turn, whenever they miss an attack roll against a target within their reach, the attack still deals half damage to the target. Once activated, it can’t be activated until the next dawn."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 330000,
+    "item_type": "rune",
+    "properties": [],
+    "attunement": "requires attunement",
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Destruction",
+    "source": [
+      "KCG",
+      121
+    ],
+    "rarity": "rare",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "A simple rune with bold slashing struct that glow with vibrant and pulsing red light."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      },
+      {
+        "title": "Passive Effect",
+        "body": [
+          "When marked on a weapon, the weapon deals an extra 1d6 damage on hit when wielded by an attuned wearer. Its damage overcomes all resistance to damage."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      },
+      {
+        "title": "Active Effect",
+        "body": [
+          "When the attuned wielder makes an attack with a weapon marked with this rune, they can make the attack a critical hit. Once activated, it can’t be activated again until the next dawn."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 350000,
+    "item_type": "rune",
+    "properties": [],
+    "attunement": "requires attunement",
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Vigor",
+    "source": [
+      "KCG",
+      122
+    ],
+    "rarity": "rare",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "A bold rune with intertwined lines that hums slightly, beating with a faint red light."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      },
+      {
+        "title": "Passive Effect",
+        "body": [
+          "When marked on armor or an item, an attuned wearer can spend a Hit Die as a bonus action, rolling it and regaining hit points as normal. When marked on a weapon, an attuned wielder gains temporary hit points equal to the Constitution modifier when dealing damage to a living target."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      },
+      {
+        "title": "Active Effect",
+        "body": [
+          "While attuned to an item with this rune, you can use that item to cast cure wounds (2nd level) as a bonus action without expending a spell slot. Once a rune’s power is used, the rune’s active can’t be used again until the next dawn."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 190000,
+    "item_type": "rune",
+    "properties": [],
+    "attunement": "requires attunement",
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Wrath",
+    "source": [
+      "KCG",
+      122
+    ],
+    "rarity": "very rare",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "A jagged chaotic rune that spreads out in all directions and flashes with angry red light."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      },
+      {
+        "title": "Passive Effect",
+        "body": [
+          "When marked on an item, the attuned wearer can use their reaction to inflict 1d6 lightning damage on any creature within 30 feet of them that deals damage to them."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      },
+      {
+        "title": "Active Effect",
+        "body": [
+          "While attuned to an item with this rune, you can use that item to cast chain lightning without expending a spell slot. Once activated, it can’t be activated again until the next dawn."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 1200000,
+    "item_type": "rune",
+    "properties": [],
+    "attunement": "requires attunement",
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Death",
+    "source": [
+      "KCG",
+      122
+    ],
+    "rarity": "legendary",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "A rune of ominous complexity wreathed in shadows."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      },
+      {
+        "title": "Passive Effect",
+        "body": [
+          " While marked on armor or any item, the attuned wearer can’t die unless the rune is removed from the possession. They are still incapacitated and unconcious when reduced to 0 hit points, but reaching 3 death saving throws has no effect while the rune is being worn or carried on their person. While attuned to this rune, undead of CR 5 or lower treat you as another undead, and only attack you if otherwise commanded to by a controlling entity or attacked by you."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      },
+      {
+        "title": "Active Effect",
+        "body": [
+          "While attuned to an item with this rune, you can use item to cast power word kill without expending a spell slot. Once this rune’s power is used, you can’t use it again until the next dawn."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 6500000,
+    "item_type": "rune",
+    "properties": [],
+    "attunement": "requires attunement",
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Color",
+    "source": [
+      "KCG",
+      122
+    ],
+    "rarity": "common",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "A multifaced rune the glimmers a shifting color. A creature that touches an item with this rune can change the color of that item as an action."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 2000,
+    "item_type": "rune",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Protection",
+    "source": [
+      "KCG",
+      122
+    ],
+    "rarity": "uncommon",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "A complicated rune with twisting multilayered geometric markings that glimmers a dull grey."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      },
+      {
+        "title": "Passive Effect",
+        "body": [
+          "When marked on armor or an item, any time an attuned wearer takes damage, that damage is reduced by 1."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      },
+      {
+        "title": "Active Effect",
+        "body": [
+          "While attuned to an item with this rune, you can use that item to cast shield without expending a spell slot. Once a rune’s power is used, the rune’s active can’t be used again until the next dawn."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 35000,
+    "item_type": "rune",
+    "properties": [],
+    "attunement": "requires attunement",
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Gravity",
+    "source": [
+      "KCG",
+      122
+    ],
+    "rarity": "uncommon",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "An rune formed of detailed concentric circles that faintly glimmers with soft purple glow."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      },
+      {
+        "title": "Passive Effect",
+        "body": [
+          "When marked on armor or an item, or a weapon, an attuned wielder takes no falling damage."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      },
+      {
+        "title": "Active Effect",
+        "body": [
+          "While attuned to an item with this rune, you can use that item to cast levitate as a bonus action without expending a spell slot. This uses the creator’s Rune DC (set at the time of carving the rune). Once a rune’s power is used, the rune’s active can’t be used again until the next dawn."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 32000,
+    "item_type": "rune",
+    "properties": [],
+    "attunement": "requires attunement",
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Comprehension",
+    "source": [
+      "KCG",
+      122
+    ],
+    "rarity": "uncommon",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "A rune that resembles a script that no one can determine the nature of, glowing a steady white-blue light."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      },
+      {
+        "title": "Passive Effect",
+        "body": [
+          "When marked on armor or an item, the attuned wearer can read all writing, even if it is not in a language they would normally understand. This confers only the literal meaning of the text, and doesn’t break a cipher or code."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      },
+      {
+        "title": "Active Effect",
+        "body": [
+          "While attuned to an item with this rune, you can cast comprehend languages without expending a spell slot. Once activated, it can’t be activated again until the next dawn."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 35000,
+    "item_type": "rune",
+    "properties": [],
+    "attunement": "requires attunement",
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Connection",
+    "source": [
+      "KCG",
+      122
+    ],
+    "rarity": "uncommon",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "A rune made up of an interlocking square, circle, and triangle, that courses with pure white light."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      },
+      {
+        "title": "Passive Effect",
+        "body": [
+          "When marked on an item, an attuned wearer can spend an action to gain supernatural insight into other sentient creatures for 10 minutes. You gain advantage on all Wisdom (Insight) checks, but dealing damage to another sentient creature while in this heightened state of awareness causes you to take 1 psychic damage."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      },
+      {
+        "title": "Active Effect",
+        "body": [
+          "While attuned to an item with this rune, you can force another creature to experience a brief flash of connection to your state of mind. The effects of this may vary, but most often allows you to gain advantage on a Charisma (Persuasion) check with them. If used as a reaction to taking damage, you can force the creature that dealt the damage to you to take psychic damage equal to half the damage dealt. Once activated, it can’t be activated again until the next dawn."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 39000,
+    "item_type": "rune",
+    "properties": [],
+    "attunement": "requires attunement",
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Skill",
+    "source": [
+      "KCG",
+      123
+    ],
+    "rarity": "uncommon",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "An intricate rune that pulses with swirling lights, varying in design to incorporate a mark of the skill granted."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      },
+      {
+        "title": "Passive Effect",
+        "body": [
+          "When marked on an item, an attuned wearer gains proficiency in one skill, selected when the rune is marked by the creator of the rune."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      },
+      {
+        "title": "Active Effect",
+        "body": [
+          "While attuned to an item with this rune, you can activate this rune gain advantage on an ability check for the skill granted by this rune. Once activated, it can’t be activated again until the next dawn."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 49000,
+    "item_type": "rune",
+    "properties": [],
+    "attunement": "rare",
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Blood",
+    "source": [
+      "KCG",
+      123
+    ],
+    "rarity": "rare",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "A swirling rune with repeating spiraling patterns that pulses with a deep red light."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      },
+      {
+        "title": "Passive Effect",
+        "body": [
+          "When marked on a weapon, if an attuned wielder deals damage with that weapon to a living creature of CR 1/4 or higher, the weapon deals an extra 1d4 necrotic damage, and the wielder regains hit points equal to the necrotic damage dealt."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      },
+      {
+        "title": "Active Effect",
+        "body": [
+          "After dealing necrotic damage with this weapon, an attuned wielder can use their bonus action to activate the rune, drawing the blood of the creature dealing an extra 3d4 necrotic damage, and regainin hit points equal to the additional necrotic damage dealt. Once a rune’s power is used, the rune’s active can’t be used again until the next dawn."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 140000,
+    "item_type": "rune",
+    "properties": [],
+    "attunement": "requires attunement",
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Power",
+    "source": [
+      "KCG",
+      123
+    ],
+    "rarity": "rare",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "A vibrant rune with intricate line work that shines a bright cyan."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      },
+      {
+        "title": "Passive Effect",
+        "body": [
+          "When wearing armor or an item marked with this rune, once per turn when the wearer rolls for damage with a spell, they can maximize one die of the damage roll. When wielding a weapon marked with this rune, the damage of that weapon is considered magical, and once per turn, when the wielder rolls damage for an attack with that weapon, they can maximize one damage die."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      },
+      {
+        "title": "Active Effect",
+        "body": [
+          "While attuned to an item with this rune, when you cast a spell, you can use this rune to empower it, casting it as if it was one level higher. Once activated, it can’t be activated again until the next dawn"
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 160000,
+    "item_type": "rune",
+    "properties": [],
+    "attunement": "requires attunement",
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Speed",
+    "source": [
+      "KCG",
+      123
+    ],
+    "rarity": "rare",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "A flickering white rune with jagged lines."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      },
+      {
+        "title": "Passive Effect",
+        "body": [
+          "When marked on armor or an item, an attuned wearer can take the dash action as a bonus action on their turn. When marked on a weapon with light property, an attuned wearer can make a single weapon attack with the bonus action on their turn."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      },
+      {
+        "title": "Active Effect",
+        "body": [
+          "While attuned to an item with this rune, you can use that item to cast haste without expending a spell slot. Once activated, it can’t be activated again until the next dawn."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 1050000,
+    "item_type": "rune",
+    "properties": [],
+    "attunement": "requires attunement",
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Space",
+    "source": [
+      "KCG",
+      123
+    ],
+    "rarity": "rare",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "A deceptively simply rune made of up lines of varying lengths in an odd arrangement that glows a steady dim grey light."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      },
+      {
+        "title": "Passive Effect",
+        "body": [
+          "On your turn, you can replace your movement by teleporting 10 feet in any direction to an empty space you can see."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      },
+      {
+        "title": "Active Effect",
+        "body": [
+          "You can cast dimension door without expending a spell slot. Once activated, it can’t be activated again until the next dawn."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 200000,
+    "item_type": "rune",
+    "properties": [],
+    "attunement": "rare",
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Reality",
+    "source": [
+      "KCG",
+      123
+    ],
+    "rarity": "very rare",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "A fanciful twisting rune that confuses the eye with ever shifting patterns of colors."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      },
+      {
+        "title": "Passive Effect",
+        "body": [
+          "When marked on an item, an attuned wearer can cast ever more convincing illusions. Creatures have disadvantage on their first Intelligence (Investigation) check to determine if a spell you cast is an illusion (the first check it makes against that spell)."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      },
+      {
+        "title": "Active Effect",
+        "body": [
+          "You can cause one illusion you’ve made to become real. This effects a 10 foot by 10 foot cube of the illusion if it is larger than that. This can’t create an object worth more than 100 gp, lasts 1 hour, and can’t create a creature of a CR greater than 5 (when attempting to, it may create a weakened version of that creature, or simply fail). If the illusion directly causes damage (from falling on a creature, or otherwise being harmful) it can deal a maximum of 8d8 damage (potentially split across multiple creatures). This limit doesn’t apply to creatures created through it. Once activated, it can’t be activated again until the next dawn."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 1400000,
+    "item_type": "rune",
+    "properties": [],
+    "attunement": "requires attunement",
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Time",
+    "source": [
+      "KCG",
+      123
+    ],
+    "rarity": "legendary",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "A complicated geometric rune that slowly pulses with pale grey light."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      },
+      {
+        "title": "Passive Effect",
+        "body": [
+          "When marked on armor or an item, your speed increases by 20 feet, you gain a +2 bonus to AC and Dexterity saving throws, and you can take two reactions per round, though you can’t take multiple reactions on the same turn. You age twice as fast while attuned to this rune."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      },
+      {
+        "title": "Active Effect",
+        "body": [
+          "While attuned to an item with this rune, you can use that item to cast time stop without expending a spell slot. Alternatively, you can use this rune as a reaction failing a Dexterity saving throw or being hit by an attack to automatically pass a Dexterity saving throw, or cause an attack to miss. You can use this ability after the roll to change its outcome. Once activated, it can’t be activated again until the next dawn."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 10000000,
+    "item_type": "rune",
+    "properties": [],
+    "attunement": "requires attunement",
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Essence Rune",
+    "source": [
+      "KCG",
+      123
+    ],
+    "rarity": "very rare",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "A special rune forged with the liquid of an essence crystal. This rune empowers an item or creature it is marked on, increasing the Ability Score and maximum for the Ability Score associated with the Essence Crystal used by 2."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 0,
+    "item_type": "rune",
+    "properties": [],
+    "attunement": "requires attunement",
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Cooking Supplies",
+    "source": [
+      "KCG",
+      12
+    ],
+    "rarity": "common",
+    "weight": 8,
+    "entries": [],
+    "value": 100,
+    "item_type": "Artisan's Tools",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Uncommon Cooking Supplies",
+    "source": [
+      "KCG",
+      12
+    ],
+    "rarity": "uncommon",
+    "weight": 8,
+    "entries": [],
+    "value": 1000,
+    "item_type": "Artisan's Tools",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Rare Cooking Supplies",
+    "source": [
+      "KCG",
+      12
+    ],
+    "rarity": "rare",
+    "weight": 8,
+    "entries": [],
+    "value": 10000,
+    "item_type": "Artisan's Tools",
+    "properties": [],
+    "__dataclass__": "Item"
+  }
+]

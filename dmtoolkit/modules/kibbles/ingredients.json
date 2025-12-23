@@ -1,0 +1,1427 @@
+[
+  {
+    "name": "Common Curative Reagent",
+    "source": [
+      "KCG",
+      28
+    ],
+    "rarity": "common",
+    "weight": 0,
+    "entries": [],
+    "value": 0,
+    "item_type": "ingredient",
+    "ingredient_type": "reagent",
+    "properties": ["curative"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Uncommon Curative Reagent",
+    "source": [
+      "KCG",
+      28
+    ],
+    "rarity": "uncommon",
+    "weight": 0,
+    "entries": [],
+    "value": 0,
+    "item_type": "ingredient",
+    "ingredient_type": "reagent",
+    "properties": ["curative"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Rare Curative Reagent",
+    "source": [
+      "KCG",
+      28
+    ],
+    "rarity": "rare",
+    "weight": 0,
+    "entries": [],
+    "value": 0,
+    "item_type": "ingredient",
+    "ingredient_type": "reagent",
+    "properties": ["curative"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Very Rare Curative Reagent",
+    "source": [
+      "KCG",
+      28
+    ],
+    "rarity": "rare",
+    "weight": 0,
+    "entries": [],
+    "value": 0,
+    "item_type": "ingredient",
+    "ingredient_type": "reagent",
+    "properties": ["curative"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Legendary Curative Reagent",
+    "source": [
+      "KCG",
+      28
+    ],
+    "rarity": "legendary",
+    "weight": 0,
+    "entries": [],
+    "value": 0,
+    "item_type": "ingredient",
+    "ingredient_type": "reagent",
+    "properties": ["curative"],
+    "__dataclass__": "KibblesIngredient"
+  },{
+    "name": "Common Poisonous Reagent",
+    "source": [
+      "KCG",
+      28
+    ],
+    "rarity": "common",
+    "weight": 0,
+    "entries": [],
+    "value": 0,
+    "item_type": "ingredient",
+    "ingredient_type": "reagent",
+    "properties": ["poisonous"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Uncommon Poisonous Reagent",
+    "source": [
+      "KCG",
+      28
+    ],
+    "rarity": "uncommon",
+    "weight": 0,
+    "entries": [],
+    "value": 0,
+    "item_type": "ingredient",
+    "ingredient_type": "reagent",
+    "properties": ["poisonous"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Rare Poisonous Reagent",
+    "source": [
+      "KCG",
+      28
+    ],
+    "rarity": "rare",
+    "weight": 0,
+    "entries": [],
+    "value": 0,
+    "item_type": "ingredient",
+    "ingredient_type": "reagent",
+    "properties": ["poisonous"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Very Rare Poisonous Reagent",
+    "source": [
+      "KCG",
+      28
+    ],
+    "rarity": "rare",
+    "weight": 0,
+    "entries": [],
+    "value": 0,
+    "item_type": "ingredient",
+    "ingredient_type": "reagent",
+    "properties": ["poisonous"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Legendary Poisonous Reagent",
+    "source": [
+      "KCG",
+      28
+    ],
+    "rarity": "legendary",
+    "weight": 0,
+    "entries": [],
+    "value": 0,
+    "item_type": "ingredient",
+    "ingredient_type": "reagent",
+    "properties": ["poisonous"],
+    "__dataclass__": "KibblesIngredient"
+  },{
+    "name": "Common Reactive Reagent",
+    "source": [
+      "KCG",
+      28
+    ],
+    "rarity": "common",
+    "weight": 0,
+    "entries": [],
+    "value": 0,
+    "item_type": "ingredient",
+    "ingredient_type": "reagent",
+    "properties": ["reactive"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Uncommon Reactive Reagent",
+    "source": [
+      "KCG",
+      28
+    ],
+    "rarity": "uncommon",
+    "weight": 0,
+    "entries": [],
+    "value": 0,
+    "item_type": "ingredient",
+    "ingredient_type": "reagent",
+    "properties": ["reactive"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Rare Reactive Reagent",
+    "source": [
+      "KCG",
+      28
+    ],
+    "rarity": "rare",
+    "weight": 0,
+    "entries": [],
+    "value": 0,
+    "item_type": "ingredient",
+    "ingredient_type": "reagent",
+    "properties": ["reactive"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Very Rare Reactive Reagent",
+    "source": [
+      "KCG",
+      28
+    ],
+    "rarity": "rare",
+    "weight": 0,
+    "entries": [],
+    "value": 0,
+    "item_type": "ingredient",
+    "ingredient_type": "reagent",
+    "properties": ["reactive"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Legendary Reactive Reagent",
+    "source": [
+      "KCG",
+      28
+    ],
+    "rarity": "legendary",
+    "weight": 0,
+    "entries": [],
+    "value": 0,
+    "item_type": "ingredient",
+    "ingredient_type": "reagent",
+    "properties": ["reactive"],
+    "__dataclass__": "KibblesIngredient"
+  },{
+    "name": "Common Alchemical Reagent",
+    "source": [
+      "KCG",
+      28
+    ],
+    "rarity": "common",
+    "weight": 0,
+    "entries": [],
+    "value": 0,
+    "item_type": "ingredient",
+    "ingredient_type": "reagent",
+    "properties": ["alchemical"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Uncommon Alchemical Reagent",
+    "source": [
+      "KCG",
+      28
+    ],
+    "rarity": "uncommon",
+    "weight": 0,
+    "entries": [],
+    "value": 0,
+    "item_type": "ingredient",
+    "ingredient_type": "reagent",
+    "properties": ["alchemical"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Rare Alchemical Reagent",
+    "source": [
+      "KCG",
+      28
+    ],
+    "rarity": "rare",
+    "weight": 0,
+    "entries": [],
+    "value": 0,
+    "item_type": "ingredient",
+    "ingredient_type": "reagent",
+    "properties": ["alchemical"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Very Rare Alchemical Reagent",
+    "source": [
+      "KCG",
+      28
+    ],
+    "rarity": "rare",
+    "weight": 0,
+    "entries": [],
+    "value": 0,
+    "item_type": "ingredient",
+    "ingredient_type": "reagent",
+    "properties": ["alchemical"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Legendary Alchemical Reagent",
+    "source": [
+      "KCG",
+      28
+    ],
+    "rarity": "legendary",
+    "weight": 0,
+    "entries": [],
+    "value": 0,
+    "item_type": "ingredient",
+    "ingredient_type": "reagent",
+    "properties": ["alchemical"],
+    "__dataclass__": "KibblesIngredient"
+  },{
+    "name": "Common Magical Ink",
+    "source": [
+      "KCG",
+      28
+    ],
+    "rarity": "common",
+    "weight": 0,
+    "entries": [],
+    "value": 0,
+    "item_type": "ingredient",
+    "ingredient_type": "magical ink",
+    "properties": ["magical ink"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Uncommon Magical Ink",
+    "source": [
+      "KCG",
+      28
+    ],
+    "rarity": "uncommon",
+    "weight": 0,
+    "entries": [],
+    "value": 0,
+    "item_type": "ingredient",
+    "ingredient_type": "magical ink",
+    "properties": ["magical ink"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Rare Magical Ink",
+    "source": [
+      "KCG",
+      28
+    ],
+    "rarity": "rare",
+    "weight": 0,
+    "entries": [],
+    "value": 0,
+    "item_type": "ingredient",
+    "ingredient_type": "magical ink",
+    "properties": ["magical ink"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Very Rare Magical Ink",
+    "source": [
+      "KCG",
+      28
+    ],
+    "rarity": "rare",
+    "weight": 0,
+    "entries": [],
+    "value": 0,
+    "item_type": "ingredient",
+    "ingredient_type": "magical ink",
+    "properties": ["magical ink"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Legendary Magical Ink",
+    "source": [
+      "KCG",
+      28
+    ],
+    "rarity": "legendary",
+    "weight": 0,
+    "entries": [],
+    "value": 0,
+    "item_type": "ingredient",
+    "ingredient_type": "magical ink",
+    "properties": ["magical ink"],
+    "__dataclass__": "KibblesIngredient"
+  },{
+    "name": "Common Arcane Essence",
+    "source": [
+      "KCG",
+      28
+    ],
+    "rarity": "common",
+    "weight": 0,
+    "entries": [],
+    "value": 0,
+    "item_type": "ingredient",
+    "ingredient_type": "essence",
+    "properties": ["arcane"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Uncommon Arcane Essence",
+    "source": [
+      "KCG",
+      28
+    ],
+    "rarity": "uncommon",
+    "weight": 0,
+    "entries": [],
+    "value": 0,
+    "item_type": "ingredient",
+    "ingredient_type": "essence",
+    "properties": ["arcane"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Rare Arcane Essence",
+    "source": [
+      "KCG",
+      28
+    ],
+    "rarity": "rare",
+    "weight": 0,
+    "entries": [],
+    "value": 0,
+    "item_type": "ingredient",
+    "ingredient_type": "essence",
+    "properties": ["arcane"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Very Rare Arcane Essence",
+    "source": [
+      "KCG",
+      28
+    ],
+    "rarity": "rare",
+    "weight": 0,
+    "entries": [],
+    "value": 0,
+    "item_type": "ingredient",
+    "ingredient_type": "essence",
+    "properties": ["arcane"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Legendary Arcane Essence",
+    "source": [
+      "KCG",
+      28
+    ],
+    "rarity": "legendary",
+    "weight": 0,
+    "entries": [],
+    "value": 0,
+    "item_type": "ingredient",
+    "ingredient_type": "essence",
+    "properties": ["arcane"],
+    "__dataclass__": "KibblesIngredient"
+  },{
+    "name": "Common Divine Essence",
+    "source": [
+      "KCG",
+      28
+    ],
+    "rarity": "common",
+    "weight": 0,
+    "entries": [],
+    "value": 0,
+    "item_type": "ingredient",
+    "ingredient_type": "essence",
+    "properties": ["divine"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Uncommon Divine Essence",
+    "source": [
+      "KCG",
+      28
+    ],
+    "rarity": "uncommon",
+    "weight": 0,
+    "entries": [],
+    "value": 0,
+    "item_type": "ingredient",
+    "ingredient_type": "essence",
+    "properties": ["divine"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Rare Divine Essence",
+    "source": [
+      "KCG",
+      28
+    ],
+    "rarity": "rare",
+    "weight": 0,
+    "entries": [],
+    "value": 0,
+    "item_type": "ingredient",
+    "ingredient_type": "essence",
+    "properties": ["divine"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Very Rare Divine Essence",
+    "source": [
+      "KCG",
+      28
+    ],
+    "rarity": "rare",
+    "weight": 0,
+    "entries": [],
+    "value": 0,
+    "item_type": "ingredient",
+    "ingredient_type": "essence",
+    "properties": ["divine"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Legendary Divine Essence",
+    "source": [
+      "KCG",
+      28
+    ],
+    "rarity": "legendary",
+    "weight": 0,
+    "entries": [],
+    "value": 0,
+    "item_type": "ingredient",
+    "ingredient_type": "essence",
+    "properties": ["divine"],
+    "__dataclass__": "KibblesIngredient"
+  },{
+    "name": "Common Primal Essence",
+    "source": [
+      "KCG",
+      28
+    ],
+    "rarity": "common",
+    "weight": 0,
+    "entries": [],
+    "value": 0,
+    "item_type": "ingredient",
+    "ingredient_type": "essence",
+    "properties": ["primal"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Uncommon Primal Essence",
+    "source": [
+      "KCG",
+      28
+    ],
+    "rarity": "uncommon",
+    "weight": 0,
+    "entries": [],
+    "value": 0,
+    "item_type": "ingredient",
+    "ingredient_type": "essence",
+    "properties": ["primal"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Rare Primal Essence",
+    "source": [
+      "KCG",
+      28
+    ],
+    "rarity": "rare",
+    "weight": 0,
+    "entries": [],
+    "value": 0,
+    "item_type": "ingredient",
+    "ingredient_type": "essence",
+    "properties": ["primal"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Very Rare Primal Essence",
+    "source": [
+      "KCG",
+      28
+    ],
+    "rarity": "rare",
+    "weight": 0,
+    "entries": [],
+    "value": 0,
+    "item_type": "ingredient",
+    "ingredient_type": "essence",
+    "properties": ["primal"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Legendary Primal Essence",
+    "source": [
+      "KCG",
+      28
+    ],
+    "rarity": "legendary",
+    "weight": 0,
+    "entries": [],
+    "value": 0,
+    "item_type": "ingredient",
+    "ingredient_type": "essence",
+    "properties": ["primal"],
+    "__dataclass__": "KibblesIngredient"
+  },{
+    "name": "Common Psionic Essence",
+    "source": [
+      "KCG",
+      28
+    ],
+    "rarity": "common",
+    "weight": 0,
+    "entries": [],
+    "value": 0,
+    "item_type": "ingredient",
+    "ingredient_type": "essence",
+    "properties": ["psionic"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Uncommon Psionic Essence",
+    "source": [
+      "KCG",
+      28
+    ],
+    "rarity": "uncommon",
+    "weight": 0,
+    "entries": [],
+    "value": 0,
+    "item_type": "ingredient",
+    "ingredient_type": "essence",
+    "properties": ["psionic"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Rare Psionic Essence",
+    "source": [
+      "KCG",
+      28
+    ],
+    "rarity": "rare",
+    "weight": 0,
+    "entries": [],
+    "value": 0,
+    "item_type": "ingredient",
+    "ingredient_type": "essence",
+    "properties": ["psionic"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Very Rare Psionic Essence",
+    "source": [
+      "KCG",
+      28
+    ],
+    "rarity": "rare",
+    "weight": 0,
+    "entries": [],
+    "value": 0,
+    "item_type": "ingredient",
+    "ingredient_type": "essence",
+    "properties": ["psionic"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Legendary Psionic Essence",
+    "source": [
+      "KCG",
+      28
+    ],
+    "rarity": "legendary",
+    "weight": 0,
+    "entries": [],
+    "value": 0,
+    "item_type": "ingredient",
+    "ingredient_type": "essence",
+    "properties": ["psionic"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Metal Scraps",
+    "source": [
+      "KCG",
+      12
+    ],
+    "rarity": "trivial",
+    "weight": 2,
+    "entries": [],
+    "value": 10,
+    "item_type": "ingredient",
+    "ingredient_type": "metal",
+    "properties": [""],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Silver Scraps",
+    "source": [
+      "KCG",
+      12
+    ],
+    "rarity": "trivial",
+    "weight": 2,
+    "entries": [],
+    "value": 10,
+    "item_type": "ingredient",
+    "ingredient_type": "metal",
+    "properties": [""],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Gold Scraps",
+    "source": [
+      "KCG",
+      12
+    ],
+    "rarity": "common",
+    "weight": 2,
+    "entries": [],
+    "value": 100,
+    "item_type": "ingredient",
+    "ingredient_type": "metal",
+    "properties": [""],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Iron Ingot",
+    "source": [
+      "KCG",
+      12
+    ],
+    "rarity": "common",
+    "weight": 2,
+    "entries": [],
+    "value": 100,
+    "item_type": "ingredient",
+    "ingredient_type": "metal",
+    "properties": [""],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Steel Chain (2 ft)",
+    "source": [
+      "KCG",
+      12
+    ],
+    "rarity": "common",
+    "weight": 2,
+    "entries": [],
+    "value": 100,
+    "item_type": "ingredient",
+    "ingredient_type": "metal",
+    "properties": [""],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Steel Ingot",
+    "source": [
+      "KCG",
+      12
+    ],
+    "rarity": "common",
+    "weight": 2,
+    "entries": [],
+    "value": 200,
+    "item_type": "ingredient",
+    "ingredient_type": "metal",
+    "properties": [""],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Mithril Ingot",
+    "source": [
+      "KCG",
+      12
+    ],
+    "rarity": "uncommon",
+    "weight": 2,
+    "entries": [],
+    "value": 3000,
+    "item_type": "ingredient",
+    "ingredient_type": "metal",
+    "properties": [""],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Adamant Ingot",
+    "source": [
+      "KCG",
+      12
+    ],
+    "rarity": "uncommon",
+    "weight": 2,
+    "entries": [],
+    "value": 4000,
+    "item_type": "ingredient",
+    "ingredient_type": "metal",
+    "properties": [""],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Adamantine Ingot",
+    "source": [
+      "KCG",
+      12
+    ],
+    "rarity": "uncommon",
+    "weight": 2,
+    "entries": [],
+    "value": 6000,
+    "item_type": "ingredient",
+    "ingredient_type": "metal",
+    "properties": [""],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Hide Scraps",
+    "source": [
+      "KCG",
+      12
+    ],
+    "rarity": "trivial",
+    "weight": 2,
+    "entries": [],
+    "value": 10,
+    "item_type": "ingredient",
+    "ingredient_type": "leather",
+    "properties": [""],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Leather Scraps",
+    "source": [
+      "KCG",
+      12
+    ],
+    "rarity": "trivial",
+    "weight": 2,
+    "entries": [],
+    "value": 10,
+    "item_type": "ingredient",
+    "ingredient_type": "leather",
+    "properties": [""],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Boiled Leather",
+    "source": [
+      "KCG",
+      12
+    ],
+    "rarity": "common",
+    "weight": 2,
+    "entries": [],
+    "value": 300,
+    "item_type": "ingredient",
+    "ingredient_type": "leather",
+    "properties": [""],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Hide",
+    "source": [
+      "KCG",
+      12
+    ],
+    "rarity": "common",
+    "weight": 2,
+    "entries": [],
+    "value": 200,
+    "item_type": "ingredient",
+    "ingredient_type": "leather",
+    "properties": [""],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Rawhide Leather",
+    "source": [
+      "KCG",
+      12
+    ],
+    "rarity": "common",
+    "weight": 2,
+    "entries": [],
+    "value": 200,
+    "item_type": "ingredient",
+    "ingredient_type": "leather",
+    "properties": [""],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Scales",
+    "source": [
+      "KCG",
+      12
+    ],
+    "rarity": "common",
+    "weight": 2,
+    "entries": [],
+    "value": 100,
+    "item_type": "ingredient",
+    "ingredient_type": "leather",
+    "properties": [""],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Tanned Leather",
+    "source": [
+      "KCG",
+      12
+    ],
+    "rarity": "common",
+    "weight": 2,
+    "entries": [],
+    "value": 300,
+    "item_type": "ingredient",
+    "ingredient_type": "leather",
+    "properties": [""],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Medium Carapace",
+    "source": [
+      "KCG",
+      12
+    ],
+    "rarity": "common",
+    "weight": 2,
+    "entries": [],
+    "value": 400,
+    "item_type": "ingredient",
+    "ingredient_type": "leather",
+    "properties": [""],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Large Carapace",
+    "source": [
+      "KCG",
+      12
+    ],
+    "rarity": "common",
+    "weight": 2,
+    "entries": [],
+    "value": 3000,
+    "item_type": "ingredient",
+    "ingredient_type": "leather",
+    "properties": [""],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Tough Hide",
+    "source": [
+      "KCG",
+      12
+    ],
+    "rarity": "uncommon",
+    "weight": 2,
+    "entries": [],
+    "value": 50000,
+    "item_type": "ingredient",
+    "ingredient_type": "leather",
+    "properties": [""],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Resistant Hide",
+    "source": [
+      "KCG",
+      12
+    ],
+    "rarity": "uncommon",
+    "weight": 2,
+    "entries": [],
+    "value": 50000,
+    "item_type": "ingredient",
+    "ingredient_type": "leather",
+    "properties": [""],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Tough Leather",
+    "source": [
+      "KCG",
+      12
+    ],
+    "rarity": "uncommon",
+    "weight": 2,
+    "entries": [],
+    "value": 6000,
+    "item_type": "ingredient",
+    "ingredient_type": "leather",
+    "properties": [""],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Resistant Leather",
+    "source": [
+      "KCG",
+      12
+    ],
+    "rarity": "uncommon",
+    "weight": 2,
+    "entries": [],
+    "value": 60000,
+    "item_type": "ingredient",
+    "ingredient_type": "leather",
+    "properties": [""],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Firewood",
+    "source": [
+      "KCG",
+      12
+    ],
+    "rarity": "trivial",
+    "weight": 2,
+    "entries": [],
+    "value": 1,
+    "item_type": "ingredient",
+    "ingredient_type": "wood",
+    "properties": [""],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Wood Scraps",
+    "source": [
+      "KCG",
+      12
+    ],
+    "rarity": "trivial",
+    "weight": 2,
+    "entries": [],
+    "value": 2,
+    "item_type": "ingredient",
+    "ingredient_type": "wood",
+    "properties": [""],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Common Branch",
+    "source": [
+      "KCG",
+      12
+    ],
+    "rarity": "common",
+    "weight": 2,
+    "entries": [],
+    "value": 10,
+    "item_type": "ingredient",
+    "ingredient_type": "wood",
+    "properties": [""],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Wooden Stock",
+    "source": [
+      "KCG",
+      12
+    ],
+    "rarity": "common",
+    "weight": 2,
+    "entries": [],
+    "value": 50,
+    "item_type": "ingredient",
+    "ingredient_type": "wood",
+    "properties": [""],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Short Haft",
+    "source": [
+      "KCG",
+      12
+    ],
+    "rarity": "common",
+    "weight": 2,
+    "entries": [],
+    "value": 10,
+    "item_type": "ingredient",
+    "ingredient_type": "wood",
+    "properties": [""],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Long Haft",
+    "source": [
+      "KCG",
+      12
+    ],
+    "rarity": "common",
+    "weight": 2,
+    "entries": [],
+    "value": 20,
+    "item_type": "ingredient",
+    "ingredient_type": "wood",
+    "properties": [""],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Quality Branch",
+    "source": [
+      "KCG",
+      12
+    ],
+    "rarity": "common",
+    "weight": 2,
+    "entries": [],
+    "value": 200,
+    "item_type": "ingredient",
+    "ingredient_type": "wood",
+    "properties": [""],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Uncommon Branch",
+    "source": [
+      "KCG",
+      12
+    ],
+    "rarity": "uncommon",
+    "weight": 2,
+    "entries": [],
+    "value": 2500,
+    "item_type": "ingredient",
+    "ingredient_type": "wood",
+    "properties": [""],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Rare Branch",
+    "source": [
+      "KCG",
+      12
+    ],
+    "rarity": "rare",
+    "weight": 2,
+    "entries": [],
+    "value": 8000,
+    "item_type": "ingredient",
+    "ingredient_type": "wood",
+    "properties": [""],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Very Rare Branch",
+    "source": [
+      "KCG",
+      12
+    ],
+    "rarity": "very rare",
+    "weight": 2,
+    "entries": [],
+    "value": 80000,
+    "item_type": "ingredient",
+    "ingredient_type": "leather",
+    "properties": [""],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Legendary Branch",
+    "source": [
+      "KCG",
+      12
+    ],
+    "rarity": "legendary",
+    "weight": 2,
+    "entries": [],
+    "value": 200000,
+    "item_type": "ingredient",
+    "ingredient_type": "wood",
+    "properties": [""],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Glass Vial",
+    "source": [
+      "KCG",
+      13
+    ],
+    "rarity": "common",
+    "weight": 2,
+    "entries": [],
+    "value": 100,
+    "item_type": "ingredient",
+    "ingredient_type": "misc",
+    "properties": [""],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Glass Flask",
+    "source": [
+      "KCG",
+      13
+    ],
+    "rarity": "common",
+    "weight": 2,
+    "entries": [],
+    "value": 100,
+    "item_type": "ingredient",
+    "ingredient_type": "misc",
+    "properties": [""],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Crystal Vial",
+    "source": [
+      "KCG",
+      13
+    ],
+    "rarity": "common",
+    "weight": 2,
+    "entries": [],
+    "value": 1000,
+    "item_type": "ingredient",
+    "ingredient_type": "misc",
+    "properties": [""],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Normal Ink",
+    "source": [
+      "KCG",
+      13
+    ],
+    "rarity": "common",
+    "weight": 2,
+    "entries": [],
+    "value": 500,
+    "item_type": "ingredient",
+    "ingredient_type": "misc",
+    "properties": [""],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Parchment",
+    "source": [
+      "KCG",
+      13
+    ],
+    "rarity": "common",
+    "weight": 2,
+    "entries": [],
+    "value": 10,
+    "item_type": "ingredient",
+    "ingredient_type": "misc",
+    "properties": [""],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Uncommon Parchment",
+    "source": [
+      "KCG",
+      13
+    ],
+    "rarity": "uncommon",
+    "weight": 2,
+    "entries": [],
+    "value": 4000,
+    "item_type": "ingredient",
+    "ingredient_type": "misc",
+    "properties": [""],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Rare Parchment",
+    "source": [
+      "KCG",
+      13
+    ],
+    "rarity": "rare",
+    "weight": 2,
+    "entries": [],
+    "value": 20000,
+    "item_type": "ingredient",
+    "ingredient_type": "misc",
+    "properties": [""],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Very Rare Parchment",
+    "source": [
+      "KCG",
+      13
+    ],
+    "rarity": "very rare",
+    "weight": 2,
+    "entries": [],
+    "value": 200000,
+    "item_type": "ingredient",
+    "ingredient_type": "misc",
+    "properties": [""],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Legendary Parchment",
+    "source": [
+      "KCG",
+      13
+    ],
+    "rarity": "legendary",
+    "weight": 2,
+    "entries": [],
+    "value": 500000,
+    "item_type": "ingredient",
+    "ingredient_type": "misc",
+    "properties": [""],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Buckle",
+    "source": [
+      "KCG",
+      13
+    ],
+    "rarity": "trivial",
+    "weight": 2,
+    "entries": [],
+    "value": 20,
+    "item_type": "ingredient",
+    "ingredient_type": "misc",
+    "properties": [""],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Fletching",
+    "source": [
+      "KCG",
+      13
+    ],
+    "rarity": "trivial",
+    "weight": 2,
+    "entries": [],
+    "value": 5,
+    "item_type": "ingredient",
+    "ingredient_type": "misc",
+    "properties": [""],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Length of String",
+    "source": [
+      "KCG",
+      13
+    ],
+    "rarity": "trivial",
+    "weight": 2,
+    "entries": [],
+    "value": 5,
+    "item_type": "ingredient",
+    "ingredient_type": "misc",
+    "properties": [""],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Armor Padding",
+    "source": [
+      "KCG",
+      13
+    ],
+    "rarity": "common",
+    "weight": 2,
+    "entries": [],
+    "value": 500,
+    "item_type": "ingredient",
+    "ingredient_type": "misc",
+    "properties": [""],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Parts",
+    "source": [
+      "KCG",
+      13
+    ],
+    "rarity": "common",
+    "weight": 2,
+    "entries": [],
+    "value": 200,
+    "item_type": "ingredient",
+    "ingredient_type": "misc",
+    "properties": [""],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Fancy Parts",
+    "source": [
+      "KCG",
+      13
+    ],
+    "rarity": "common",
+    "weight": 2,
+    "entries": [],
+    "value": 1000,
+    "item_type": "ingredient",
+    "ingredient_type": "misc",
+    "properties": [""],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Esoteric Parts",
+    "source": [
+      "KCG",
+      13
+    ],
+    "rarity": "uncommon",
+    "weight": 2,
+    "entries": [],
+    "value": 10000,
+    "item_type": "ingredient",
+    "ingredient_type": "misc",
+    "properties": [""],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Dragon Scales",
+    "source": [
+      "KCG",
+      19
+    ],
+    "rarity": "rare",
+    "weight": 2,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "Armor crafted has +1 AC and Resistance to related element."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }],
+    "value": 10000,
+    "item_type": "ingredient",
+    "ingredient_type": "misc",
+    "properties": [],
+    "__dataclass__": "KibblesIngredient"
+  }
+]
