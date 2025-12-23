@@ -2,15 +2,18 @@ import json
 import random
 import re
 
-from flask import Blueprint, render_template, render_template_string, request
+from flask import Blueprint, render_template, request
 
 from dmtoolkit.api.classes import get_class
 from dmtoolkit.api.conditions import get_condition
 from dmtoolkit.api.items import get_item
+from dmtoolkit.api.models import Item
 from dmtoolkit.api.monsters import get_monster, get_monster_names
 from dmtoolkit.api.players import list_players, get_player
 from dmtoolkit.api.races import get_race
 from dmtoolkit.api.spells import get_spell
+from dmtoolkit.inittracker.loot import loot as generate_loot
+from dmtoolkit.modules import flatten_modules
 
 tracker_bp = Blueprint(
     "tracker_bp",
@@ -57,35 +60,19 @@ def get_monster_combat_overview():
             wis_mod = int(monster.wisdom) // 2 - 5
             pp = 10 + wis_mod
         
-    # Very basic initial approach: we just convert XP to money
-    total = int(random.gauss(monster.xp, monster.xp/4))
-    # Exchange copper pieces for silver and gold
-    gp = total // 100
-    sp = (total - gp*100) // 10
-    cp = total % 10
+    func = flatten_modules([]).generate_loot or generate_loot
+    loot = func(monster)
 
-    item_set = {}
-    for entry in (monster.traits or []):
-        for item_id in re.finditer(r"{@item (.*?)}", str(entry.body)):
-            item = get_item(item_id.group(1))
-            if item:
-                item_set[item.id] = item
-    
-    # Grab weapon
-    for entry in monster.actions or []:
-        # Only drop usable item 1 in 10 times
-        if random.random() > 1/10:
-            continue
-        if item := get_item(entry.title):
-            item_set[item.id] = item
-    
-    # Grab Armor
-    for ac_entry in monster.ac:
-        for item_id in re.finditer(r"{@item (.*?)}", str(ac_entry.note)):
-            if random.random() > 1/10:
-                continue
-            if item := get_item(item_id.group(1)):
-                item_set[item.id] = item
+    # Exchange copper pieces for silver and gold
+    gp = loot.coinage // 100
+    sp = (loot.coinage - gp*100) // 10
+    cp = loot.coinage % 10
+
+    # Flatten item list
+    item_list: list[Item] = []
+    for item_wrapper in loot.items:
+        for _ in range(item_wrapper.quantity):
+            item_list.append(item_wrapper.item)
 
     return json.dumps({
         "name": monster.name,
@@ -98,11 +85,11 @@ def get_monster_combat_overview():
         "flag_xp": True,
         "flag_loot": True,
         "loot": {
-            "total": total,
+            "total": loot.coinage,
             "cp": cp,
             "sp": sp,
             "gp": gp,
-            "items": [item.id() for item in item_set.values()]
+            "items": [item.id() for item in item_list]
         },
         "statuses": []
     })
