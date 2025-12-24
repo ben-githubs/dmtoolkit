@@ -1,8 +1,9 @@
 from __future__ import annotations
 
 from dataclasses import dataclass
+from typing import Callable, Optional
 
-from dmtoolkit.api.models import Item
+from dmtoolkit.api.models import Item, Monster
 
 
 @dataclass
@@ -39,3 +40,17 @@ class ItemWrapper:
     item: Item
     quantity: int
     note: str = ""
+
+
+class Module:
+    """Provides a framework modules can use to define their various functionalities."""
+    def __init__(self, module_id: str, name: str, description: str):
+        self.module_id = module_id
+        self.name = name
+        self.description = description
+        
+        self.generate_loot: Optional[Callable[[Monster], LootResponse]] = None
+    
+
+    def register_loot_generator(self, func: Callable[[Monster], LootResponse]) -> None:
+        self.generate_loot = func

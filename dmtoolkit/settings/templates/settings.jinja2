@@ -22,22 +22,24 @@
                     {{ form.use_new_content.label }}
                 </div>
             </fieldset>
+            <p>
+            Where possible, use the 2025 versions of spells and monsters.
+            </p>
         </div>
         <h2>Modules/Plugins</h2>
         <div>
-            <fieldset>
-                <div style="display:flex; align-items:center">
-                    <label for="module_kcg" class="switch">
-                        {{ form.module_kcg }}
-                        <span class="slider round"></span>
-                    </label>
-                    {{ form.module_kcg.label }}
-                </div>
-            </fieldset>
-            <p>
-            Kibble's Crafting Guide contains a set of recipes, items, and loot tables to implement a full crafting system within your game. The Guide defines a wide array of item types players can make, ranging from potions and poisons, to spell scrolls and wands, to weapons and armour, to finely cooked meals. Enabling this module will override the default encounter loot tables to drop crafting materials instead.
-            </p>
-            <p><a href="https://irp.cdn-website.com/8e7079c7/files/uploaded/Crafting%2B1.0.7%2B-%2Bcompressed.pdf">For more information, review the Guide itself here.</a></p>
+            {% for name, data in module_form_data.items() %}
+                <h3>{{ data.module.name }}</h3>
+                <fieldset>
+                    <div style="display:flex; align-items:center">
+                        <label for="{{ 'module_' + name }}" class="switch">
+                            {{ form['module_' + name] }}
+                            <span class="slider round"></span>
+                        </label>
+                        {{ form['module_' + name].label(style="width:100%") }}
+                    </div>
+                </fieldset>
+            {% endfor %}
 
         {{ form.submit(class_="w3-button w3-white w3-border w3-ripple") }}
     </form>
