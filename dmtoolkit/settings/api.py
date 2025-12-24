@@ -29,3 +29,11 @@ def sanitize_settings(settings: dict[str, Any]) -> dict[str, Any]:
     for field in settings_blacklist:
         settings.pop(field, None)
     return settings
+
+def get_active_modules() -> list[str]:
+    """Returns the name of all active modules."""
+    active_modules: list[str] = []
+    for key, val in get_settings().items():
+        if key.startswith("module_") and val:
+            active_modules.append(key[7:])
+    return active_modules

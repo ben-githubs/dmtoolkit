@@ -28,7 +28,7 @@ class RangeDict:
         for lbound, rbound, item in self.spec:
             if lbound <= index <= rbound:
                 return item
-            raise IndexError
+        raise IndexError
 
 @dataclass
 class ItemSlot:
@@ -51,6 +51,12 @@ def loot(monster: Monster) -> LootResponse:
             return loot_harvest(monster)
         case "elemental" | "celestial" | "fiend":
             return loot_remnants(monster)
+        case "undead":
+            # Undead either leave remnants (if they are incorporeal) or regular harvestable items
+            if any("incorporeal" in entry.title.lower() for entry in monster.traits or []):
+                return loot_remnants(monster)
+            else:
+                return loot_harvest(monster)
         case "humanoid":
             return loot_humanoid(monster)
         case _:

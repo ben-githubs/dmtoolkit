@@ -14,6 +14,7 @@ from dmtoolkit.api.races import get_race
 from dmtoolkit.api.spells import get_spell
 from dmtoolkit.inittracker.loot import loot as generate_loot
 from dmtoolkit.modules import flatten_modules
+from dmtoolkit.settings.api import get_active_modules
 
 tracker_bp = Blueprint(
     "tracker_bp",
@@ -60,7 +61,7 @@ def get_monster_combat_overview():
             wis_mod = int(monster.wisdom) // 2 - 5
             pp = 10 + wis_mod
         
-    func = flatten_modules([]).generate_loot or generate_loot
+    func = flatten_modules(get_active_modules()).generate_loot or generate_loot
     loot = func(monster)
 
     # Exchange copper pieces for silver and gold
