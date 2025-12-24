@@ -69,11 +69,13 @@ def get_monster_combat_overview():
     sp = (loot.coinage - gp*100) // 10
     cp = loot.coinage % 10
 
-    # Flatten item list
-    item_list: list[Item] = []
+    item_specs = []
     for item_wrapper in loot.items:
-        for _ in range(item_wrapper.quantity):
-            item_list.append(item_wrapper.item)
+        item_specs.append({
+            "id": item_wrapper.item.id(),
+            "quantity": item_wrapper.quantity,
+            "note": ". ".join(note for note in [item_wrapper.note, loot.note] if note)
+        })
 
     return json.dumps({
         "name": monster.name,
@@ -90,7 +92,7 @@ def get_monster_combat_overview():
             "cp": cp,
             "sp": sp,
             "gp": gp,
-            "items": [item.id() for item in item_list]
+            "items": item_specs
         },
         "statuses": []
     })
@@ -138,9 +140,16 @@ def get_statblock_html(id: str):
 @tracker_bp.route("/lootblock", methods=["POST"])
 def get_loot_statblock():
     raw_loot = request.json or {}
+    print(raw_loot)
+    items = []
+    for item_wrapper in raw_loot["items"]:
+        item_str = f"{item_wrapper['quantity']} x {{@item {item_wrapper['id']}}}"
+        if item_wrapper['note']:
+            item_str += f" <em>({item_wrapper['note']})</em>"
+        items.append(item_str)
     loot = {
         "coinage": {},
-        "items": [f"{{@item {item}}}" for item in raw_loot["items"]]
+        "items": items
     }
     gp = raw_loot["coinage"] // 100
     sp = (raw_loot["coinage"] % 100) // 10 
