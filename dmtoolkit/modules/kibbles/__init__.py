@@ -1,7 +1,7 @@
 """Modules for Kibble's Crafting Guide"""
 
 from dmtoolkit.modules.models import Module
-from dmtoolkit.modules.kibbles.loot import loot
+from dmtoolkit.modules.kibbles.loot import loot as generate_loot
 
 kcg_module = Module(
     module_id = "kcg",
@@ -12,4 +12,4 @@ kcg_module = Module(
     "weapons and armour, to finely cooked meals. Enabling this module will override the default "
     "encounter loot tables to drop crafting materials instead."
 )
-kcg_module.register_loot_generator(loot)
+kcg_module.register_loot_generator(generate_loot)

@@ -4,7 +4,7 @@ import pytest
 
 from dmtoolkit.api.items import get_item
 from dmtoolkit.api.models import Item
-from dmtoolkit.modules.kibbles import loot
+import dmtoolkit.modules.kibbles.loot as loot
 
 LOOT_TABLE_DIR = Path(__file__).parent.parent.parent.parent / "dmtoolkit/modules/kibbles/loot_tables"
 
