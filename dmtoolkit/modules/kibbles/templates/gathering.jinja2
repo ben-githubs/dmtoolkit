@@ -1,5 +1,12 @@
 {% extends "base.jinja2" %}
 
+{% block header %}
+    <link rel=stylesheet type="text/css" href="{{ url_for('tracker_bp.static', filename='tracker.css') }}">
+    <link rel=stylesheet type="text/css" href="{{ url_for('tracker_bp.static', filename='statblock.css') }}">
+    <script src="{{url_for('tracker_bp.static', filename='tracker.js')}}"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Convergence">
+{% endblock %}
+
 {% block content %}
 
 <div style="width: 1200px; margin: auto">
@@ -39,5 +46,9 @@
         });
     });
 </script>
+
+<div id="tooltip-sleeve" style="position: absolute; width: 0; height: 0;">
+    <div id="tooltip" class="tooltip"></div>
+</div>
 
 {% endblock %}
