@@ -12,6 +12,7 @@ ITEM_DATA_PATHS = (
     DATADIR / "items.json",
     KIBBLES_DIR / "items.json",
     KIBBLES_DIR / "ingredients.json",
+    KIBBLES_DIR / "variants.json",
 )
 
 ITEMS: dict[str, Item] = {}

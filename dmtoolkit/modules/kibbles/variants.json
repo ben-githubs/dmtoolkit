@@ -1,0 +1,2279 @@
+[
+  {
+    "name": "Cold Snaps",
+    "source": [
+      "KCG",
+      134
+    ],
+    "rarity": "common",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "Frozen berries that burst violently when broken."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }],
+    "value": 2000,
+    "item_type": "ingredient",
+    "ingredient_type": "reagent",
+    "properties": ["reactive"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Ice Bamboo",
+    "source": [
+      "KCG",
+      134
+    ],
+    "rarity": "common",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "Bamboo formed entirely out of ice, and which does not melt."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }],
+    "value": 1500,
+    "item_type": "ingredient",
+    "ingredient_type": "reagent",
+    "properties": ["curative"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Snake Tracks",
+    "source": [
+      "KCG",
+      134
+    ],
+    "rarity": "rare",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "A dead looking weed found beneath layers of snow and ice."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }],
+    "value": 1500,
+    "item_type": "ingredient",
+    "ingredient_type": "reagent",
+    "properties": ["poisonous"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Blizzard Bones",
+    "source": [
+      "KCG",
+      134
+    ],
+    "rarity": "common",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "Bones that have been through three blizzards."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }],
+    "value": 1500,
+    "item_type": "ingredient",
+    "ingredient_type": "reagent",
+    "properties": ["curative"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Yeti Droppings",
+    "source": [
+      "KCG",
+      134
+    ],
+    "rarity": "common",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "Particularly potent yeti droppings."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }],
+    "value": 1500,
+    "item_type": "ingredient",
+    "ingredient_type": "reagent",
+    "properties": ["poisonous"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Snowmelt Flower",
+    "source": [
+      "KCG",
+      134
+    ],
+    "rarity": "uncommon",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "A strange flower that grows up through the snow, melting a patch of it."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }],
+    "value": 0,
+    "item_type": "ingredient",
+    "ingredient_type": "reagent",
+    "properties": ["reactive"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Unicorn Fur",
+    "source": [
+      "KCG",
+      134
+    ],
+    "rarity": "rare",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "Glistening pure white stalks that grow in sheltered spots."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }],
+    "value": 20000,
+    "item_type": "ingredient",
+    "ingredient_type": "reagent",
+    "properties": ["curative"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "White Lotus",
+    "source": [
+      "KCG",
+      134
+    ],
+    "rarity": "rare",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "A glistening white flower."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }],
+    "value": 30000,
+    "item_type": "ingredient",
+    "ingredient_type": "reagent",
+    "properties": ["curative", "poisonous"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Dry Cough",
+    "source": [
+      "KCG",
+      134
+    ],
+    "rarity": "common",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "A gnarled plant that looks inedible."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }],
+    "value": 1500,
+    "item_type": "ingredient",
+    "ingredient_type": "reagent",
+    "properties": ["poisonous"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Lighning Sand",
+    "source": [
+      "KCG",
+      134
+    ],
+    "rarity": "common",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "Burned sand that has been struck by lightning."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }],
+    "value": 1500,
+    "item_type": "ingredient",
+    "ingredient_type": "reagent",
+    "properties": ["reactive"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Popping Tar",
+    "source": [
+      "KCG",
+      134
+    ],
+    "rarity": "common",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "A black tar-like substance that burns violent with crackling pops."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }],
+    "value": 1500,
+    "item_type": "ingredient",
+    "ingredient_type": "reagent",
+    "properties": ["reactive"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Waterdrop Cactus",
+    "source": [
+      "KCG",
+      134
+    ],
+    "rarity": "common",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "A tiny cactus containing a single drop of water."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }],
+    "value": 1500,
+    "item_type": "ingredient",
+    "ingredient_type": "reagent",
+    "properties": ["curative"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Morninglord",
+    "source": [
+      "KCG",
+      134
+    ],
+    "rarity": "uncommon",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "A cactus that produces little white flowers in the dawn’s light."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }],
+    "value": 4000,
+    "item_type": "ingredient",
+    "ingredient_type": "reagent",
+    "properties": ["curative"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Oasis Bane",
+    "source": [
+      "KCG",
+      134
+    ],
+    "rarity": "uncommon",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "A small root which sucks up water and looks edible."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }],
+    "value": 4000,
+    "item_type": "ingredient",
+    "ingredient_type": "reagent",
+    "properties": ["poisonous"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Blacksand",
+    "source": [
+      "KCG",
+      134
+    ],
+    "rarity": "uncommon",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "A strange black sand, known for it's particularly fine grains with an odd smell."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }],
+    "value": 4000,
+    "item_type": "ingredient",
+    "ingredient_type": "reagent",
+    "properties": ["reactive"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Elemental Glass",
+    "source": [
+      "KCG",
+      134
+    ],
+    "rarity": "rare",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "Fused glass flickering with primal power."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }],
+    "value": 20000,
+    "item_type": "ingredient",
+    "ingredient_type": "reagent",
+    "properties": ["reactive"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Elfmarks",
+    "source": [
+      "KCG",
+      134
+    ],
+    "rarity": "common",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "Small twisting vines with pale flowers."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }],
+    "value": 1500,
+    "item_type": "ingredient",
+    "ingredient_type": "reagent",
+    "properties": ["curative"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Fairy Steps",
+    "source": [
+      "KCG",
+      134
+    ],
+    "rarity": "common",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "Tiny white flowers in the shape of fairy wings."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }],
+    "value": 1500,
+    "item_type": "ingredient",
+    "ingredient_type": "reagent",
+    "properties": ["curative"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "King's Salvation",
+    "source": [
+      "KCG",
+      134
+    ],
+    "rarity": "common",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "A golden brown root."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }],
+    "value": 1500,
+    "item_type": "ingredient",
+    "ingredient_type": "reagent",
+    "properties": ["curative"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "King's Damnation",
+    "source": [
+      "KCG",
+      134
+    ],
+    "rarity": "common",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "A reddish brown root."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }],
+    "value": 1500,
+    "item_type": "ingredient",
+    "ingredient_type": "reagent",
+    "properties": ["poisonous"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Catfern",
+    "source": [
+      "KCG",
+      134
+    ],
+    "rarity": "common",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "Green cattail fern."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }],
+    "value": 1500,
+    "item_type": "ingredient",
+    "ingredient_type": "reagent",
+    "properties": ["exotic"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Silverscale",
+    "source": [
+      "KCG",
+      134
+    ],
+    "rarity": "uncommon",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "Silvery tree bark with a scale like texture."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }],
+    "value": 4000,
+    "item_type": "ingredient",
+    "ingredient_type": "reagent",
+    "properties": ["curative"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Sweetpetal",
+    "source": [
+      "KCG",
+      134
+    ],
+    "rarity": "uncommon",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "Rose-like flower petals found on the forest floor."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }],
+    "value": 4000,
+    "item_type": "ingredient",
+    "ingredient_type": "reagent",
+    "properties": ["Poisonous"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Dryadtears",
+    "source": [
+      "KCG",
+      134
+    ],
+    "rarity": "rare",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "Small blue flowers that grow near dead trees."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }],
+    "value": 20000,
+    "item_type": "ingredient",
+    "ingredient_type": "reagent",
+    "properties": ["curative"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Divine Laurel",
+    "source": [
+      "KCG",
+      134
+    ],
+    "rarity": "very rare",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "Golden leaves that glimmer as if gilded."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }],
+    "value": 200000,
+    "item_type": "ingredient",
+    "ingredient_type": "reagent",
+    "properties": ["curative"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Goldbane",
+    "source": [
+      "KCG",
+      134
+    ],
+    "rarity": "common",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "Clumpy yellow powder."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }],
+    "value": 1500,
+    "item_type": "ingredient",
+    "ingredient_type": "reagent",
+    "properties": ["reactive"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Rare Earth Powder",
+    "source": [
+      "KCG",
+      134
+    ],
+    "rarity": "common",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "Dirt with traces of rare vitamins."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }],
+    "value": 1500,
+    "item_type": "ingredient",
+    "ingredient_type": "reagent",
+    "properties": ["curative"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Crevice Spider Eggs",
+    "source": [
+      "KCG",
+      134
+    ],
+    "rarity": "common",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "Dried egg sacs from a small reclusive spider."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }],
+    "value": 1500,
+    "item_type": "ingredient",
+    "ingredient_type": "reagent",
+    "properties": ["poisonous"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Dragongrass",
+    "source": [
+      "KCG",
+      135
+    ],
+    "rarity": "uncommon",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "Red leafy grass."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }],
+    "value": 4000,
+    "item_type": "ingredient",
+    "ingredient_type": "reagent",
+    "properties": ["reactive, exotic"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Minebane",
+    "source": [
+      "KCG",
+      135
+    ],
+    "rarity": "uncommon",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "Long black roots that give off smoke."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }],
+    "value": 4000,
+    "item_type": "ingredient",
+    "ingredient_type": "reagent",
+    "properties": ["reactive"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Crystal Spider Webbing",
+    "source": [
+      "KCG",
+      135
+    ],
+    "rarity": "uncommon",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "Crystalline Webs."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }],
+    "value": 4000,
+    "item_type": "ingredient",
+    "ingredient_type": "reagent",
+    "properties": ["poisonous"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Lightning Roots",
+    "source": [
+      "KCG",
+      135
+    ],
+    "rarity": "common",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "Still living roots from a tree hit by lightning that have captured a fragment of primal power."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }],
+    "value": 1500,
+    "item_type": "ingredient",
+    "ingredient_type": "reagent",
+    "properties": ["reactive"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Hoof Thistle",
+    "source": [
+      "KCG",
+      135
+    ],
+    "rarity": "common",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "Small snaring weeds with an unpleasant thistle."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }],
+    "value": 1500,
+    "item_type": "ingredient",
+    "ingredient_type": "reagent",
+    "properties": ["curative"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Humming Berries",
+    "source": [
+      "KCG",
+      135
+    ],
+    "rarity": "common",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "Small red berries the hum slightly when held."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }],
+    "value": 1500,
+    "item_type": "ingredient",
+    "ingredient_type": "reagent",
+    "properties": ["reactive"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Lich Fingers",
+    "source": [
+      "KCG",
+      135
+    ],
+    "rarity": "common",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "A small spindly white tuber root."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }],
+    "value": 1500,
+    "item_type": "ingredient",
+    "ingredient_type": "reagent",
+    "properties": ["poisonous"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Dried Tar",
+    "source": [
+      "KCG",
+      135
+    ],
+    "rarity": "common",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "Black flakes of sludge like substance."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }],
+    "value": 1500,
+    "item_type": "ingredient",
+    "ingredient_type": "reagent",
+    "properties": ["reactive"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Goldshine Grass",
+    "source": [
+      "KCG",
+      135
+    ],
+    "rarity": "uncommon",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "Strange grass that looks like it is gilded."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }],
+    "value": 4000,
+    "item_type": "ingredient",
+    "ingredient_type": "reagent",
+    "properties": ["poisonous"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Centaur Droppings",
+    "source": [
+      "KCG",
+      135
+    ],
+    "rarity": "uncommon",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "Strange foul-smelling mud."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }],
+    "value": 4000,
+    "item_type": "ingredient",
+    "ingredient_type": "reagent",
+    "properties": ["curative"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Burned Belladonna",
+    "source": [
+      "KCG",
+      135
+    ],
+    "rarity": "uncommon",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "A strange plant that looks like it is burned."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }],
+    "value": 6000,
+    "item_type": "ingredient",
+    "ingredient_type": "reagent",
+    "properties": ["reactive", "poisonous"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Drooping Death",
+    "source": [
+      "KCG",
+      135
+    ],
+    "rarity": "common",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "Drooping, dead-looking ferns."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }],
+    "value": 1500,
+    "item_type": "ingredient",
+    "ingredient_type": "reagent",
+    "properties": ["curative"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Wartflower",
+    "source": [
+      "KCG",
+      135
+    ],
+    "rarity": "common",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "A sickly yellow flower with strange growths."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }],
+    "value": 1500,
+    "item_type": "ingredient",
+    "ingredient_type": "reagent",
+    "properties": ["curative"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Swamp Oil",
+    "source": [
+      "KCG",
+      135
+    ],
+    "rarity": "common",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "A rainbow sheened oily substance."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }],
+    "value": 1500,
+    "item_type": "ingredient",
+    "ingredient_type": "reagent",
+    "properties": ["reactive"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Whisp Fruit",
+    "source": [
+      "KCG",
+      135
+    ],
+    "rarity": "common",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "A slightly glowing pale round fruit."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }],
+    "value": 1500,
+    "item_type": "ingredient",
+    "ingredient_type": "reagent",
+    "properties": ["poisonous"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Hag Trail",
+    "source": [
+      "KCG",
+      135
+    ],
+    "rarity": "uncommon",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "Wilted plants that grow on corpses."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }],
+    "value": 4000,
+    "item_type": "ingredient",
+    "ingredient_type": "reagent",
+    "properties": ["poisonous"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Sad Salvation",
+    "source": [
+      "KCG",
+      135
+    ],
+    "rarity": "uncommon",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "A brilliantly blue flower that grows in decay."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }],
+    "value": 4000,
+    "item_type": "ingredient",
+    "ingredient_type": "reagent",
+    "properties": ["curative"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Burning Sludge",
+    "source": [
+      "KCG",
+      135
+    ],
+    "rarity": "uncommon",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "Watery sludge that seems to be burning hot and slightly smokes."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }],
+    "value": 4000,
+    "item_type": "ingredient",
+    "ingredient_type": "reagent",
+    "properties": ["reactive"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Hag Fruit",
+    "source": [
+      "KCG",
+      135
+    ],
+    "rarity": "rare",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "A pleasantly apple-looking fruit that grows on gnarled trees."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }],
+    "value": 20000,
+    "item_type": "ingredient",
+    "ingredient_type": "reagent",
+    "properties": ["poisonous"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Shambling Seedling",
+    "source": [
+      "KCG",
+      135
+    ],
+    "rarity": "rare",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "A seedling that sprouted on a {@monster shambling mound|mm}."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }],
+    "value": 20000,
+    "item_type": "ingredient",
+    "ingredient_type": "reagent",
+    "properties": ["curative"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Fetid Gas",
+    "source": [
+      "KCG",
+      135
+    ],
+    "rarity": "rare",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "Rare swap gas that smells of sulfur."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }],
+    "value": 30000,
+    "item_type": "ingredient",
+    "ingredient_type": "reagent",
+    "properties": ["reactive", "poisonous"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Merweed",
+    "source": [
+      "KCG",
+      135
+    ],
+    "rarity": "common",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "Always damp blue leaves."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }],
+    "value": 1500,
+    "item_type": "ingredient",
+    "ingredient_type": "reagent",
+    "properties": ["curative"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Rotweed",
+    "source": [
+      "KCG",
+      135
+    ],
+    "rarity": "common",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "Seaweed like weeds that give off an unpleasant smell."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }],
+    "value": 1500,
+    "item_type": "ingredient",
+    "ingredient_type": "reagent",
+    "properties": ["poisonous"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Infused Ambergris",
+    "source": [
+      "KCG",
+      135
+    ],
+    "rarity": "common",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "Whale snot from a whale that’s been dining on too many magical meals."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }],
+    "value": 1500,
+    "item_type": "ingredient",
+    "ingredient_type": "reagent",
+    "properties": ["reactive"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Oyster Flowers",
+    "source": [
+      "KCG",
+      135
+    ],
+    "rarity": "uncommon",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "Oyster-shaped white and blue flowers with an odd smell"
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }],
+    "value": 1500,
+    "item_type": "ingredient",
+    "ingredient_type": "reagent",
+    "properties": ["curative"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Crystal Crustations Shells",
+    "source": [
+      "KCG",
+      135
+    ],
+    "rarity": "uncommon",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "Broken pieces shell from rare crystaline crustrations."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }],
+    "value": 4000,
+    "item_type": "ingredient",
+    "ingredient_type": "reagent",
+    "properties": ["reactive"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Lunar Tracks",
+    "source": [
+      "KCG",
+      135
+    ],
+    "rarity": "uncommon",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "Small flowers that bloom only in a freshly receded tide."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }],
+    "value": 4000,
+    "item_type": "ingredient",
+    "ingredient_type": "reagent",
+    "properties": ["curative"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Elemental Earth",
+    "source": [
+      "KCG",
+      136
+    ],
+    "rarity": "rare",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "Loose soil."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }],
+    "value": 20000,
+    "item_type": "ingredient",
+    "ingredient_type": "reagent",
+    "properties": ["poisonous"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Elemental Fire",
+    "source": [
+      "KCG",
+      136
+    ],
+    "rarity": "rare",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "Ever-burning flames."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }],
+    "value": 20000,
+    "item_type": "ingredient",
+    "ingredient_type": "reagent",
+    "properties": ["reactive"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Elemental Water",
+    "source": [
+      "KCG",
+      136
+    ],
+    "rarity": "rare",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "Water."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }],
+    "value": 20000,
+    "item_type": "ingredient",
+    "ingredient_type": "reagent",
+    "properties": ["curative"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Apple of Arborea",
+    "source": [
+      "KCG",
+      136
+    ],
+    "rarity": "legendary",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "A golden apple."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }],
+    "value": 500000,
+    "item_type": "ingredient",
+    "ingredient_type": "reagent",
+    "properties": ["curative", "exotic"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Spider Queen's Steps",
+    "source": [
+      "KCG",
+      136
+    ],
+    "rarity": "legendary",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "Dark pruple flowers."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }],
+    "value": 500000,
+    "item_type": "ingredient",
+    "ingredient_type": "reagent",
+    "properties": ["poisonous"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Ankheg Acid Gland",
+    "source": [
+      "KCG",
+      136
+    ],
+    "rarity": "common",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "Squishy brown organ prone to leaking green stuff."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }],
+    "value": 1500,
+    "item_type": "ingredient",
+    "ingredient_type": "reagent",
+    "properties": ["poisonous", "reactive"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Basilisk Eye",
+    "source": [
+      "KCG",
+      136
+    ],
+    "rarity": "uncommon",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "Beedy and hard, almost rocklike in texture."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }],
+    "value": 4000,
+    "item_type": "ingredient",
+    "ingredient_type": "reagent",
+    "properties": ["exotic"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Pristine Behir Scale",
+    "source": [
+      "KCG",
+      136
+    ],
+    "rarity": "rare",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "Humming with static charge, grinding it can be a hazardous process."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }],
+    "value": 20000,
+    "item_type": "ingredient",
+    "ingredient_type": "reagent",
+    "properties": ["reactive"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Bulette Liver Fat",
+    "source": [
+      "KCG",
+      136
+    ],
+    "rarity": "uncommon",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "A giggling gelatin like substance with a grey hue."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }],
+    "value": 4000,
+    "item_type": "ingredient",
+    "ingredient_type": "reagent",
+    "properties": ["curative"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Ram Horn Marrow",
+    "source": [
+      "KCG",
+      136
+    ],
+    "rarity": "uncommon",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "Scrapped from the inside of the ram’s horn."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }],
+    "value": 4000,
+    "item_type": "ingredient",
+    "ingredient_type": "reagent",
+    "properties": ["curative"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Cockatrice Tongue",
+    "source": [
+      "KCG",
+      136
+    ],
+    "rarity": "common",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "A hideous worm-like thing that is very tough."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }],
+    "value": 1500,
+    "item_type": "ingredient",
+    "ingredient_type": "reagent",
+    "properties": ["exotic"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Darkmantle Pigment Sac",
+    "source": [
+      "KCG",
+      136
+    ],
+    "rarity": "common",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "A small gland that changes color to whatever surface it is on."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }],
+    "value": 1500,
+    "item_type": "ingredient",
+    "ingredient_type": "reagent",
+    "properties": ["exotic"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Unbroken Fang",
+    "source": [
+      "KCG",
+      136
+    ],
+    "rarity": "common",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "Jagged foul smelling fangs."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }],
+    "value": 1500,
+    "item_type": "ingredient",
+    "ingredient_type": "reagent",
+    "properties": ["poisonous"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Webbing Mass",
+    "source": [
+      "KCG",
+      136
+    ],
+    "rarity": "common",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "A sticky white substance that must be carefully handled."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }],
+    "value": 1000,
+    "item_type": "ingredient",
+    "ingredient_type": "reagent",
+    "properties": ["special"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Metalized Gorgon Heart",
+    "source": [
+      "KCG",
+      136
+    ],
+    "rarity": "uncommon",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "A heart that has started to turn metallic with iron shot through it"
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }],
+    "value": 4000,
+    "item_type": "ingredient",
+    "ingredient_type": "reagent",
+    "properties": ["curative"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Grick Beak",
+    "source": [
+      "KCG",
+      136
+    ],
+    "rarity": "common",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "Incredibly hard surface; shiny when polished."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }],
+    "value": 1500,
+    "item_type": "ingredient",
+    "ingredient_type": "reagent",
+    "properties": ["poisonous"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Harpy Claws",
+    "source": [
+      "KCG",
+      136
+    ],
+    "rarity": "common",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "Sort of like very large chicken feet."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }],
+    "value": 1500,
+    "item_type": "ingredient",
+    "ingredient_type": "reagent",
+    "properties": ["poisonous"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Hydra Blood",
+    "source": [
+      "KCG",
+      136
+    ],
+    "rarity": "uncommon",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "Syrupy black liquid with a swamp gas smell"
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }],
+    "value": 4000,
+    "item_type": "ingredient",
+    "ingredient_type": "reagent",
+    "properties": ["curative", "poisonous"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Astray Grey Matter",
+    "source": [
+      "KCG",
+      136
+    ],
+    "rarity": "legendary",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "A slimy material with strange properties."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }],
+    "value": 500000,
+    "item_type": "ingredient",
+    "ingredient_type": "reagent",
+    "properties": ["reactive"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Pristine Tail Spike",
+    "source": [
+      "KCG",
+      136
+    ],
+    "rarity": "common",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "A long vicious looking thing that must be carefulyl ground."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }],
+    "value": 1000,
+    "item_type": "ingredient",
+    "ingredient_type": "reagent",
+    "properties": ["poisonous"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Hair Snake Fangs",
+    "source": [
+      "KCG",
+      136
+    ],
+    "rarity": "uncommon",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "Tiny fangs from the snakes of a medusa’s hair."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }],
+    "value": 4000,
+    "item_type": "ingredient",
+    "ingredient_type": "reagent",
+    "properties": ["poisonous"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Mimic's Heart",
+    "source": [
+      "KCG",
+      136
+    ],
+    "rarity": "common",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "An odd organ that keeps changing shape."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }],
+    "value": 1500,
+    "item_type": "ingredient",
+    "ingredient_type": "reagent",
+    "properties": ["exotic"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Fang Venom",
+    "source": [
+      "KCG",
+      136
+    ],
+    "rarity": "very rare",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "Poison extracted from a Purple Worm’s maw."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }],
+    "value": 200000,
+    "item_type": "ingredient",
+    "ingredient_type": "reagent",
+    "properties": ["poisonous"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Foul Dust",
+    "source": [
+      "KCG",
+      137
+    ],
+    "rarity": "common",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "The crusty dried remains of its head."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }],
+    "value": 1500,
+    "item_type": "ingredient",
+    "ingredient_type": "reagent",
+    "properties": ["poisonous"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Swirling Soot",
+    "source": [
+      "KCG",
+      137
+    ],
+    "rarity": "common",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "Little flecks of ash that never quite settle."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }],
+    "value": 1500,
+    "item_type": "ingredient",
+    "ingredient_type": "reagent",
+    "properties": ["reactive"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Steaming Droplets",
+    "source": [
+      "KCG",
+      137
+    ],
+    "rarity": "common",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "Droplets of water that are never quite cool."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }],
+    "value": 1500,
+    "item_type": "ingredient",
+    "ingredient_type": "reagent",
+    "properties": ["reactive"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Frozen Droplets",
+    "source": [
+      "KCG",
+      137
+    ],
+    "rarity": "common",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "Droplets of water that never quite thaw."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }],
+    "value": 1500,
+    "item_type": "ingredient",
+    "ingredient_type": "reagent",
+    "properties": ["curative"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Burning Rocks",
+    "source": [
+      "KCG",
+      137
+    ],
+    "rarity": "common",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "Small rock chips that are painfully hot to the touch."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }],
+    "value": 1500,
+    "item_type": "ingredient",
+    "ingredient_type": "reagent",
+    "properties": ["reactive"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Magmin Charcoal",
+    "source": [
+      "KCG",
+      137
+    ],
+    "rarity": "common",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "Small pieces of ever warm charcoal."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }],
+    "value": 1500,
+    "item_type": "ingredient",
+    "ingredient_type": "reagent",
+    "properties": ["reactive"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Fire Snake Scales",
+    "source": [
+      "KCG",
+      137
+    ],
+    "rarity": "common",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "Small red scales that are warm to the touch"
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }],
+    "value": 1500,
+    "item_type": "ingredient",
+    "ingredient_type": "reagent",
+    "properties": ["reactive"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Flaming Beard Hairs",
+    "source": [
+      "KCG",
+      137
+    ],
+    "rarity": "common",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "Small beard hairs made of fire; smells faintly like burning hair."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }],
+    "value": 1500,
+    "item_type": "ingredient",
+    "ingredient_type": "reagent",
+    "properties": ["reactive"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Gargoyle's Stone Heart",
+    "source": [
+      "KCG",
+      137
+    ],
+    "rarity": "common",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "A gem like heart."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }],
+    "value": 1500,
+    "item_type": "ingredient",
+    "ingredient_type": "reagent",
+    "properties": ["exotic"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Essence of Tainted Water",
+    "source": [
+      "KCG",
+      137
+    ],
+    "rarity": "common",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "Brackish water with high surface tension."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }],
+    "value": 1500,
+    "item_type": "ingredient",
+    "ingredient_type": "reagent",
+    "properties": ["poisonous"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Salamander's Toungue",
+    "source": [
+      "KCG",
+      137
+    ],
+    "rarity": "uncommon",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "A long leathery tongue."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }],
+    "value": 4000,
+    "item_type": "ingredient",
+    "ingredient_type": "reagent",
+    "properties": ["exotic"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Xorn's Stomach Acid",
+    "source": [
+      "KCG",
+      137
+    ],
+    "rarity": "uncommon",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "A burbling very acidic substance."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }],
+    "value": 4000,
+    "item_type": "ingredient",
+    "ingredient_type": "reagent",
+    "properties": ["reactive", "poisonous"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Duhrian Heart",
+    "source": [
+      "KCG",
+      137
+    ],
+    "rarity": "uncommon",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "A strange rock with veins of crystal throughout."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }],
+    "value": 4000,
+    "item_type": "ingredient",
+    "ingredient_type": "reagent",
+    "properties": ["curative"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Pseudodragon Stinger",
+    "source": [
+      "KCG",
+      137
+    ],
+    "rarity": "common",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "A small sharp barb."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }],
+    "value": 1500,
+    "item_type": "ingredient",
+    "ingredient_type": "reagent",
+    "properties": ["poisonous"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Wyrmling Heart",
+    "source": [
+      "KCG",
+      137
+    ],
+    "rarity": "common",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "A heart in the color of the wyrmling."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }],
+    "value": 3000,
+    "item_type": "ingredient",
+    "ingredient_type": "reagent",
+    "properties": ["reactive"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Faerie Dragon Heart",
+    "source": [
+      "KCG",
+      137
+    ],
+    "rarity": "common",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "A small sparkling liver."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }],
+    "value": 1500,
+    "item_type": "ingredient",
+    "ingredient_type": "reagent",
+    "properties": ["poisonous"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Wyvern Stinger",
+    "source": [
+      "KCG",
+      137
+    ],
+    "rarity": "uncommon",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "Pieces of the wyvern’s tail singer."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }],
+    "value": 4000,
+    "item_type": "ingredient",
+    "ingredient_type": "reagent",
+    "properties": ["poisonous"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Young Dragon Heart",
+    "source": [
+      "KCG",
+      138
+    ],
+    "rarity": "rare",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "A large heart flaring with elemental power."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }],
+    "value": 30000,
+    "item_type": "ingredient",
+    "ingredient_type": "reagent",
+    "properties": ["reactive"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Adult Dragon Heart",
+    "source": [
+      "KCG",
+      138
+    ],
+    "rarity": "very rare",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "A huge heart flaring with elemental power"
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }],
+    "value": 300000,
+    "item_type": "ingredient",
+    "ingredient_type": "reagent",
+    "properties": ["reactive"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Dragon Turtle Lungs",
+    "source": [
+      "KCG",
+      138
+    ],
+    "rarity": "very rare",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "The rubbery flesh from the lung tubes."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }],
+    "value": 200000,
+    "item_type": "ingredient",
+    "ingredient_type": "reagent",
+    "properties": ["curative"],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Ancient Dragon Heart",
+    "source": [
+      "KCG",
+      138
+    ],
+    "rarity": "legendary",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "A massive heart flaring with elemental power."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }],
+    "value": 750000,
+    "item_type": "ingredient",
+    "ingredient_type": "reagent",
+    "properties": ["reactive"],
+    "__dataclass__": "KibblesIngredient"
+  }
+]
