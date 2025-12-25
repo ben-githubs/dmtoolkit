@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 from dataclasses import dataclass
+from types import MappingProxyType
 from typing import Callable, Optional
 
 from dmtoolkit.api.models import Item, Monster
@@ -48,9 +49,17 @@ class Module:
         self.module_id = module_id
         self.name = name
         self.description = description
+
+        self._main_routes: dict[str, str] = {}
+        self.main_routes: MappingProxyType[str, str] = MappingProxyType(self._main_routes)
         
         self.generate_loot: Optional[Callable[[Monster], LootResponse]] = None
     
 
     def register_loot_generator(self, func: Callable[[Monster], LootResponse]) -> None:
         self.generate_loot = func
+    
+    def register_nav_page(self, title: str, flask_route_name: str) -> None:
+        """Registers a page that should be visible in the top navbar. The name passed should be
+        able to used with Flask's url_for."""
+        self._main_routes[title] = flask_route_name

@@ -13,3 +13,4 @@ kcg_module = Module(
     "encounter loot tables to drop crafting materials instead."
 )
 kcg_module.register_loot_generator(generate_loot)
+kcg_module.register_nav_page("Gathering", "kibbles.gathering")

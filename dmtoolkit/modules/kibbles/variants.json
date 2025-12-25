@@ -20,6 +20,7 @@
     "item_type": "ingredient",
     "ingredient_type": "reagent",
     "properties": ["reactive"],
+    "locales": ["arctic"],
     "__dataclass__": "KibblesIngredient"
   },
   {
@@ -43,6 +44,7 @@
     "item_type": "ingredient",
     "ingredient_type": "reagent",
     "properties": ["curative"],
+    "locales": ["arctic"],
     "__dataclass__": "KibblesIngredient"
   },
   {
@@ -66,6 +68,7 @@
     "item_type": "ingredient",
     "ingredient_type": "reagent",
     "properties": ["poisonous"],
+    "locales": ["arctic"],
     "__dataclass__": "KibblesIngredient"
   },
   {
@@ -89,6 +92,7 @@
     "item_type": "ingredient",
     "ingredient_type": "reagent",
     "properties": ["curative"],
+    "locales": ["arctic"],
     "__dataclass__": "KibblesIngredient"
   },
   {
@@ -112,6 +116,7 @@
     "item_type": "ingredient",
     "ingredient_type": "reagent",
     "properties": ["poisonous"],
+    "locales": ["arctic"],
     "__dataclass__": "KibblesIngredient"
   },
   {
@@ -135,6 +140,7 @@
     "item_type": "ingredient",
     "ingredient_type": "reagent",
     "properties": ["reactive"],
+    "locales": ["arctic"],
     "__dataclass__": "KibblesIngredient"
   },
   {
@@ -158,6 +164,7 @@
     "item_type": "ingredient",
     "ingredient_type": "reagent",
     "properties": ["curative"],
+    "locales": ["arctic"],
     "__dataclass__": "KibblesIngredient"
   },
   {
@@ -181,6 +188,7 @@
     "item_type": "ingredient",
     "ingredient_type": "reagent",
     "properties": ["curative", "poisonous"],
+    "locales": ["arctic"],
     "__dataclass__": "KibblesIngredient"
   },
   {
@@ -204,6 +212,7 @@
     "item_type": "ingredient",
     "ingredient_type": "reagent",
     "properties": ["poisonous"],
+    "locales": ["desert"],
     "__dataclass__": "KibblesIngredient"
   },
   {
@@ -227,6 +236,7 @@
     "item_type": "ingredient",
     "ingredient_type": "reagent",
     "properties": ["reactive"],
+    "locales": ["desert"],
     "__dataclass__": "KibblesIngredient"
   },
   {
@@ -250,6 +260,7 @@
     "item_type": "ingredient",
     "ingredient_type": "reagent",
     "properties": ["reactive"],
+    "locales": ["desert"],
     "__dataclass__": "KibblesIngredient"
   },
   {
@@ -273,6 +284,7 @@
     "item_type": "ingredient",
     "ingredient_type": "reagent",
     "properties": ["curative"],
+    "locales": ["desert"],
     "__dataclass__": "KibblesIngredient"
   },
   {
@@ -296,6 +308,7 @@
     "item_type": "ingredient",
     "ingredient_type": "reagent",
     "properties": ["curative"],
+    "locales": ["desert"],
     "__dataclass__": "KibblesIngredient"
   },
   {
@@ -319,6 +332,7 @@
     "item_type": "ingredient",
     "ingredient_type": "reagent",
     "properties": ["poisonous"],
+    "locales": ["desert"],
     "__dataclass__": "KibblesIngredient"
   },
   {
@@ -342,6 +356,7 @@
     "item_type": "ingredient",
     "ingredient_type": "reagent",
     "properties": ["reactive"],
+    "locales": ["desert"],
     "__dataclass__": "KibblesIngredient"
   },
   {
@@ -365,6 +380,7 @@
     "item_type": "ingredient",
     "ingredient_type": "reagent",
     "properties": ["reactive"],
+    "locales": ["desert"],
     "__dataclass__": "KibblesIngredient"
   },
   {
@@ -388,6 +404,7 @@
     "item_type": "ingredient",
     "ingredient_type": "reagent",
     "properties": ["curative"],
+    "locales": ["forest"],
     "__dataclass__": "KibblesIngredient"
   },
   {
@@ -411,6 +428,7 @@
     "item_type": "ingredient",
     "ingredient_type": "reagent",
     "properties": ["curative"],
+    "locales": ["forest"],
     "__dataclass__": "KibblesIngredient"
   },
   {
@@ -434,6 +452,7 @@
     "item_type": "ingredient",
     "ingredient_type": "reagent",
     "properties": ["curative"],
+    "locales": ["forest"],
     "__dataclass__": "KibblesIngredient"
   },
   {
@@ -457,6 +476,7 @@
     "item_type": "ingredient",
     "ingredient_type": "reagent",
     "properties": ["poisonous"],
+    "locales": ["forest"],
     "__dataclass__": "KibblesIngredient"
   },
   {
@@ -480,6 +500,7 @@
     "item_type": "ingredient",
     "ingredient_type": "reagent",
     "properties": ["exotic"],
+    "locales": ["forest"],
     "__dataclass__": "KibblesIngredient"
   },
   {
@@ -503,6 +524,7 @@
     "item_type": "ingredient",
     "ingredient_type": "reagent",
     "properties": ["curative"],
+    "locales": ["forest"],
     "__dataclass__": "KibblesIngredient"
   },
   {
@@ -526,6 +548,7 @@
     "item_type": "ingredient",
     "ingredient_type": "reagent",
     "properties": ["Poisonous"],
+    "locales": ["forest"],
     "__dataclass__": "KibblesIngredient"
   },
   {
@@ -549,6 +572,7 @@
     "item_type": "ingredient",
     "ingredient_type": "reagent",
     "properties": ["curative"],
+    "locales": ["forest"],
     "__dataclass__": "KibblesIngredient"
   },
   {
@@ -572,6 +596,7 @@
     "item_type": "ingredient",
     "ingredient_type": "reagent",
     "properties": ["curative"],
+    "locales": ["forest"],
     "__dataclass__": "KibblesIngredient"
   },
   {
@@ -595,6 +620,7 @@
     "item_type": "ingredient",
     "ingredient_type": "reagent",
     "properties": ["reactive"],
+    "locales": ["mountains", "caves"],
     "__dataclass__": "KibblesIngredient"
   },
   {
@@ -618,6 +644,7 @@
     "item_type": "ingredient",
     "ingredient_type": "reagent",
     "properties": ["curative"],
+    "locales": ["mountains", "caves"],
     "__dataclass__": "KibblesIngredient"
   },
   {
@@ -641,6 +668,7 @@
     "item_type": "ingredient",
     "ingredient_type": "reagent",
     "properties": ["poisonous"],
+    "locales": ["mountains", "caves"],
     "__dataclass__": "KibblesIngredient"
   },
   {
@@ -664,6 +692,7 @@
     "item_type": "ingredient",
     "ingredient_type": "reagent",
     "properties": ["reactive, exotic"],
+    "locales": ["mountains", "caves"],
     "__dataclass__": "KibblesIngredient"
   },
   {
@@ -687,6 +716,7 @@
     "item_type": "ingredient",
     "ingredient_type": "reagent",
     "properties": ["reactive"],
+    "locales": ["mountains", "caves"],
     "__dataclass__": "KibblesIngredient"
   },
   {
@@ -710,6 +740,7 @@
     "item_type": "ingredient",
     "ingredient_type": "reagent",
     "properties": ["poisonous"],
+    "locales": ["mountains", "caves"],
     "__dataclass__": "KibblesIngredient"
   },
   {
@@ -733,6 +764,7 @@
     "item_type": "ingredient",
     "ingredient_type": "reagent",
     "properties": ["reactive"],
+    "locales": ["grassland"],
     "__dataclass__": "KibblesIngredient"
   },
   {
@@ -756,6 +788,7 @@
     "item_type": "ingredient",
     "ingredient_type": "reagent",
     "properties": ["curative"],
+    "locales": ["grassland"],
     "__dataclass__": "KibblesIngredient"
   },
   {
@@ -779,6 +812,7 @@
     "item_type": "ingredient",
     "ingredient_type": "reagent",
     "properties": ["reactive"],
+    "locales": ["grassland"],
     "__dataclass__": "KibblesIngredient"
   },
   {
@@ -802,6 +836,7 @@
     "item_type": "ingredient",
     "ingredient_type": "reagent",
     "properties": ["poisonous"],
+    "locales": ["grassland"],
     "__dataclass__": "KibblesIngredient"
   },
   {
@@ -825,6 +860,7 @@
     "item_type": "ingredient",
     "ingredient_type": "reagent",
     "properties": ["reactive"],
+    "locales": ["grassland"],
     "__dataclass__": "KibblesIngredient"
   },
   {
@@ -848,6 +884,7 @@
     "item_type": "ingredient",
     "ingredient_type": "reagent",
     "properties": ["poisonous"],
+    "locales": ["grassland"],
     "__dataclass__": "KibblesIngredient"
   },
   {
@@ -871,6 +908,7 @@
     "item_type": "ingredient",
     "ingredient_type": "reagent",
     "properties": ["curative"],
+    "locales": ["grassland"],
     "__dataclass__": "KibblesIngredient"
   },
   {
@@ -894,6 +932,7 @@
     "item_type": "ingredient",
     "ingredient_type": "reagent",
     "properties": ["reactive", "poisonous"],
+    "locales": ["grassland"],
     "__dataclass__": "KibblesIngredient"
   },
   {
@@ -917,6 +956,7 @@
     "item_type": "ingredient",
     "ingredient_type": "reagent",
     "properties": ["curative"],
+    "locales": ["marsh"],
     "__dataclass__": "KibblesIngredient"
   },
   {
@@ -940,6 +980,7 @@
     "item_type": "ingredient",
     "ingredient_type": "reagent",
     "properties": ["curative"],
+    "locales": ["marsh"],
     "__dataclass__": "KibblesIngredient"
   },
   {
@@ -963,6 +1004,7 @@
     "item_type": "ingredient",
     "ingredient_type": "reagent",
     "properties": ["reactive"],
+    "locales": ["marsh"],
     "__dataclass__": "KibblesIngredient"
   },
   {
@@ -986,6 +1028,7 @@
     "item_type": "ingredient",
     "ingredient_type": "reagent",
     "properties": ["poisonous"],
+    "locales": ["marsh"],
     "__dataclass__": "KibblesIngredient"
   },
   {
@@ -1009,6 +1052,7 @@
     "item_type": "ingredient",
     "ingredient_type": "reagent",
     "properties": ["poisonous"],
+    "locales": ["marsh"],
     "__dataclass__": "KibblesIngredient"
   },
   {
@@ -1032,6 +1076,7 @@
     "item_type": "ingredient",
     "ingredient_type": "reagent",
     "properties": ["curative"],
+    "locales": ["marsh"],
     "__dataclass__": "KibblesIngredient"
   },
   {
@@ -1055,6 +1100,7 @@
     "item_type": "ingredient",
     "ingredient_type": "reagent",
     "properties": ["reactive"],
+    "locales": ["marsh"],
     "__dataclass__": "KibblesIngredient"
   },
   {
@@ -1078,6 +1124,7 @@
     "item_type": "ingredient",
     "ingredient_type": "reagent",
     "properties": ["poisonous"],
+    "locales": ["marsh"],
     "__dataclass__": "KibblesIngredient"
   },
   {
@@ -1101,6 +1148,7 @@
     "item_type": "ingredient",
     "ingredient_type": "reagent",
     "properties": ["curative"],
+    "locales": ["marsh"],
     "__dataclass__": "KibblesIngredient"
   },
   {
@@ -1124,6 +1172,7 @@
     "item_type": "ingredient",
     "ingredient_type": "reagent",
     "properties": ["reactive", "poisonous"],
+    "locales": ["marsh"],
     "__dataclass__": "KibblesIngredient"
   },
   {
@@ -1147,6 +1196,7 @@
     "item_type": "ingredient",
     "ingredient_type": "reagent",
     "properties": ["curative"],
+    "locales": ["coastal"],
     "__dataclass__": "KibblesIngredient"
   },
   {
@@ -1170,6 +1220,7 @@
     "item_type": "ingredient",
     "ingredient_type": "reagent",
     "properties": ["poisonous"],
+    "locales": ["coastal"],
     "__dataclass__": "KibblesIngredient"
   },
   {
@@ -1193,6 +1244,7 @@
     "item_type": "ingredient",
     "ingredient_type": "reagent",
     "properties": ["reactive"],
+    "locales": ["coastal"],
     "__dataclass__": "KibblesIngredient"
   },
   {
@@ -1216,6 +1268,7 @@
     "item_type": "ingredient",
     "ingredient_type": "reagent",
     "properties": ["curative"],
+    "locales": ["coastal"],
     "__dataclass__": "KibblesIngredient"
   },
   {
@@ -1239,6 +1292,7 @@
     "item_type": "ingredient",
     "ingredient_type": "reagent",
     "properties": ["reactive"],
+    "locales": ["coastal"],
     "__dataclass__": "KibblesIngredient"
   },
   {
@@ -1262,6 +1316,7 @@
     "item_type": "ingredient",
     "ingredient_type": "reagent",
     "properties": ["curative"],
+    "locales": ["coastal"],
     "__dataclass__": "KibblesIngredient"
   },
   {
@@ -1377,6 +1432,7 @@
     "item_type": "ingredient",
     "ingredient_type": "reagent",
     "properties": ["poisonous"],
+    "locales": ["underground"],
     "__dataclass__": "KibblesIngredient"
   },
   {

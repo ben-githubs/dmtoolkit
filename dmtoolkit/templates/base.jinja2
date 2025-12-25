@@ -27,6 +27,9 @@
         <a class="w3-bar-item w3-button" href="{{ url_for('settings_bp.settings') }}"><i class="fa-solid fa-gear"></i></a>
         <a class="w3-bar-item w3-button" href="{{ url_for('tracker_bp.tracker') }}">Tracker</a>
         <a class="w3-bar-item w3-button" href="{{ url_for('players_bp.list_players_page') }}">Manage Players</a>
+        {% for title, route in get_main_routes().items() %}
+            <a class="w3-bar-item w3-button" href="{{ url_for(route) }}">{{ title }}</a>
+        {% endfor %}
     </div>
 
     {% with messages = get_flashed_messages(with_categories=True) %}

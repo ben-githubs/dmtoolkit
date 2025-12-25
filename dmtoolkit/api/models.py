@@ -836,6 +836,10 @@ class Item:
     
     def __hash__(self):
         return hash(self.id())
+    
+    @classmethod
+    def __post_init__(cls):
+        cls.__hash__ = Item.__hash__
 
 @dataclass(kw_only=True)
 class ItemWeapon(Item):
@@ -872,3 +876,4 @@ class ItemArmor(Item):
 @dataclass(kw_only=True)
 class KibblesIngredient(Item):
     ingredient_type: str
+    locales: list[str] = field(default_factory=list)

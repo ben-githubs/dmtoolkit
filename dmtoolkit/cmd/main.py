@@ -7,6 +7,7 @@ import dmtoolkit.cmd.items as cmd_i
 import dmtoolkit.cmd.get_monsters as cmd_m
 import dmtoolkit.cmd.spells as cmd_sp
 import dmtoolkit.cmd.races as cmd_r
+import dmtoolkit.cmd.kcg_gathering as cmd_kcg_g
 
 @click.group
 def main():
@@ -91,3 +92,11 @@ def fetch_items(outfile):
 @click.option("--outfile", "-o", default=cmd_i.DEFAULT_CONV, type=click.Path(writable=True, path_type=Path))
 def convert_items(infile: Path, outfile: Path):
     cmd_i.convert(infile, outfile)
+
+@main.group()
+def kcg_gathering():
+    pass
+
+@kcg_gathering.command("convert")
+def kcg_gathering_convert():
+    cmd_kcg_g.convert()

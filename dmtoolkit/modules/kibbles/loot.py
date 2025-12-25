@@ -4,20 +4,33 @@ from __future__ import annotations
 from collections import defaultdict
 import csv
 from dataclasses import dataclass
+from enum import StrEnum
 from pathlib import Path
-from random import randint
+from random import randint, choice
 from typing import Any
 
 from d20 import roll
 
-from dmtoolkit.api.models import Monster, Item
-from dmtoolkit.api.items import get_item
+from dmtoolkit.api.models import Monster, Item, KibblesIngredient
+from dmtoolkit.api.items import get_item, list_items
 from dmtoolkit.util import get_logger
 from dmtoolkit.modules.models import LootResponse, ItemWrapper
 
 log = get_logger(__name__)
 
 LOOT_TABLE_DIR = Path(__file__).parent / "loot_tables"
+
+class Locales(StrEnum):
+    FOREST = "forest"
+    DESERT = "desert"
+    GRASSLAND = "grassland"
+    MARSH = "marsh"
+    MOUNTAINS = "mountains"
+    CAVES = "caves"
+    UNDERGROUND = "underground"
+    JUNGLE = "jungle"
+    COASTAL = "coastal"
+    ARCTIC = "arctic"
 
 class RangeDict:
     """Really quick way to represent non-overlapping ranges."""
@@ -42,6 +55,20 @@ def _resolve(value: int | str) -> int:
         return roll(value).total
     else:
         return value
+
+
+def gather(locale: Locales) -> LootResponse:
+    results = gathering_tables[locale].roll()
+    
+    dc = 10 # Default DC
+    if locale in (Locales.CAVES, Locales.UNDERGROUND, Locales.JUNGLE, Locales.COASTAL, Locales.ARCTIC):
+        dc = 12
+
+    return LootResponse(
+        items = [ItemWrapper(r[0], r[1]) for r in results],
+        coinage = 0,
+        note = f"requires DC {dc} Wisdom (Herbalism kit) check."
+    )
 
 
 def loot(monster: Monster) -> LootResponse:
@@ -125,6 +152,29 @@ def loot_coinage(monster: Monster) -> int:
     """Default loot for cases where we cannot determine an appropriate looting table. Just assigns 
     coinage based on the CR of the creature."""
     return monster.xp * 100
+
+
+def get_gathering_variant(locale: Locales, item: Item) -> Item:
+    """Given a generic item (like 'Common Reactive Reagent') and a locale, returns a variant Item
+    specific to the locale itself."""
+    global gathering_variants
+    # Lazy-load variants
+    if not gathering_variants:
+        for item in list_items():
+            if not isinstance(item, KibblesIngredient):
+                continue
+            for locale_name in item.locales:
+                for property in item.properties:
+                    gathering_variants[Locales(locale_name)][item.rarity][property].append(item)
+    
+    # Fetch random replacement
+    if item.properties:
+        print(gathering_variants[locale][item.rarity][item.properties[0]])
+        if sample_list := gathering_variants[locale][item.rarity][item.properties[0]]:
+            return choice(sample_list)
+    
+    return item # Return original generic item if there is no replacement
+
 
 
 class LootItem:
@@ -333,3 +383,6 @@ incorporeal_undead_loot_tables = RangeDict([
     (11, 16, LootTable.load_from_csv(LOOT_TABLE_DIR / "incorporeal_undead_cr_11_16.csv")),
     (17, 99, LootTable.load_from_csv(LOOT_TABLE_DIR / "incorporeal_undead_cr_17+.csv")),
 ])
+
+gathering_tables = {enum: LootTable.load_from_csv(LOOT_TABLE_DIR / f"gathering_{enum}.csv") for enum in Locales}
+gathering_variants: dict[str, dict[str, dict[str, list[Item]]]] = defaultdict(lambda: defaultdict(lambda: defaultdict(list)))
