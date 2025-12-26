@@ -1,0 +1,431 @@
+[
+    {
+        "craft": "alchemy",
+        "result": "antitoxin (vial)|phb",
+        "materials": [
+            [2, "common curative reagent"],
+            "common poisonous reagent",
+            "glass vial"
+        ],
+        "time": "2 hours",
+        "num_checks": 1,
+        "dc": 13
+    },
+    {
+        "craft": "alchemy",
+        "result": "potion of climbing|dmg",
+        "materials": [
+            "common reactive reagent",
+            "common poisonous reagent",
+            "uncommon reactive reagent",
+            "glass vial"
+        ],
+        "time": "2 hours",
+        "num_checks": 1,
+        "dc": 14
+    },
+    {
+        "craft": "alchemy",
+        "result": "potion of healing|dmg",
+        "materials": [
+            [3, "common curative reagent"],
+            "glass vial"
+        ],
+        "time": "2 hours",
+        "num_checks": 1,
+        "dc": 13
+    },
+    {
+        "craft": "alchemy",
+        "result": "potion of animal friendship|dmg",
+        "materials": [
+            [2, "common reactive reagent"],
+            "common poisonous reagent",
+            "uncommon curative reagent",
+            "common primal essence",
+            "glass vial"
+        ],
+        "time": "2 hours",
+        "num_checks": 1,
+        "dc": 13
+    },
+    {
+        "craft": "alchemy",
+        "result": "potion of fire breath|dmg",
+        "materials": [
+            "common reactive reagent",
+            "uncommon reactive reagent",
+            "glass vial"
+        ],
+        "time": "2 hours",
+        "num_checks": 1,
+        "dc": 15
+    },
+    {
+        "craft": "alchemy",
+        "result": "potion of growth|dmg",
+        "materials": [
+            "common reactive reagent",
+            "uncommon curative reagent",
+            "uncommon reactive reagent",
+            "glass vial"
+        ],
+        "time": "2 hours",
+        "num_checks": 1,
+        "dc": 14
+    },
+    {
+        "craft": "alchemy",
+        "result": "potion of greater healing|dmg",
+        "materials": [
+            "common curative reagent",
+            [2, "uncommon curative reagent"],
+            "glass vial"
+        ],
+        "time": "2 hours",
+        "num_checks": 1,
+        "dc": 14
+    },
+    {
+        "craft": "alchemy",
+        "result": "potion of poison|dmg",
+        "materials": [
+            "common poisonous reagent",
+            "uncommon poisonous reagent",
+            "glass vial"
+        ],
+        "time": "2 hours",
+        "num_checks": 1,
+        "dc": 13
+    },
+    {
+        "craft": "alchemy",
+        "result": "potion of acid resistance|dmg",
+        "materials": [
+            "uncommon primal essence",
+            "uncommon reactive reagent",
+            "common curative reagent",
+            "glass vial"
+        ],
+        "time": "2 hours",
+        "num_checks": 1,
+        "dc": 15
+    },
+    {
+        "craft": "alchemy",
+        "result": "potion of cold resistance|dmg",
+        "materials": [
+            "uncommon primal essence",
+            "uncommon reactive reagent",
+            "common curative reagent",
+            "glass vial"
+        ],
+        "time": "2 hours",
+        "num_checks": 1,
+        "dc": 15
+    },
+    {
+        "craft": "alchemy",
+        "result": "potion of fire resistance|dmg",
+        "materials": [
+            "uncommon primal essence",
+            "uncommon reactive reagent",
+            "common curative reagent",
+            "glass vial"
+        ],
+        "time": "2 hours",
+        "num_checks": 1,
+        "dc": 15
+    },
+    {
+        "craft": "alchemy",
+        "result": "potion of force resistance|dmg",
+        "materials": [
+            "uncommon primal essence",
+            "uncommon reactive reagent",
+            "common curative reagent",
+            "glass vial"
+        ],
+        "time": "2 hours",
+        "num_checks": 1,
+        "dc": 15
+    },
+    {
+        "craft": "alchemy",
+        "result": "potion of lightning resistance|dmg",
+        "materials": [
+            "uncommon primal essence",
+            "uncommon reactive reagent",
+            "common curative reagent",
+            "glass vial"
+        ],
+        "time": "2 hours",
+        "num_checks": 1,
+        "dc": 15
+    },
+    {
+        "craft": "alchemy",
+        "result": "potion of necrotic resistance|dmg",
+        "materials": [
+            "uncommon primal essence",
+            "uncommon reactive reagent",
+            "common curative reagent",
+            "glass vial"
+        ],
+        "time": "2 hours",
+        "num_checks": 1,
+        "dc": 15
+    },
+    {
+        "craft": "alchemy",
+        "result": "potion of poison resistance|dmg",
+        "materials": [
+            "uncommon primal essence",
+            "uncommon reactive reagent",
+            "common curative reagent",
+            "glass vial"
+        ],
+        "time": "2 hours",
+        "num_checks": 1,
+        "dc": 15
+    },
+    {
+        "craft": "alchemy",
+        "result": "potion of psychic resistance|dmg",
+        "materials": [
+            "uncommon primal essence",
+            "uncommon reactive reagent",
+            "common curative reagent",
+            "glass vial"
+        ],
+        "time": "2 hours",
+        "num_checks": 1,
+        "dc": 15
+    },
+    {
+        "craft": "alchemy",
+        "result": "potion of radiant resistance|dmg",
+        "materials": [
+            "uncommon primal essence",
+            "uncommon reactive reagent",
+            "common curative reagent",
+            "glass vial"
+        ],
+        "time": "2 hours",
+        "num_checks": 1,
+        "dc": 15
+    },
+    {
+        "craft": "alchemy",
+        "result": "potion of thunder resistance|dmg",
+        "materials": [
+            "uncommon primal essence",
+            "uncommon reactive reagent",
+            "common curative reagent",
+            "glass vial"
+        ],
+        "time": "2 hours",
+        "num_checks": 1,
+        "dc": 15
+    },
+    {
+        "craft": "alchemy",
+        "result": "potion of water breathing|dmg",
+        "materials": [
+            "common reactive reagent",
+            "uncommon poisonous reagent",
+            "uncommon reactive reagent",
+            "glass vial"
+        ],
+        "time": "2 hours",
+        "num_checks": 1,
+        "dc": 15
+    },
+    {
+        "craft": "alchemy",
+        "result": "potion of hill giant strength|dmg",
+        "materials": [
+            "uncommon primal essence",
+            "uncommon reactive reagent",
+            "uncommon curative reagent"
+        ],
+        "time": "4 hours",
+        "num_checks": 2,
+        "dc": 15
+    },
+    {
+        "craft": "alchemy",
+        "result": "potion of clairvoyance|dmg",
+        "materials": [
+            "uncommon reactive reagent",
+            "uncommon poisonous reagent",
+            [2, "rare reactive reagent"],
+            "common arcane essence",
+            "glass vial"
+        ],
+        "time": "2 hours",
+        "num_checks": 1,
+        "dc": 16
+    },
+    {
+        "craft": "alchemy",
+        "result": "potion of gaseous form|dmg",
+        "materials": [
+            [2, "uncommon reactive reagent"],
+            "rare curative reagent",
+            "rare reactive reagent",
+            "glass vial"
+        ],
+        "time": "2 hours",
+        "num_checks": 1,
+        "dc": 16
+    },
+    {
+        "craft": "alchemy",
+        "result": "potion of diminution|dmg",
+        "materials": [
+            "uncommon reactive reagent",
+            "rare curative reagent",
+            "rare poisonous reagent",
+            "glass vial"
+        ],
+        "time": "2 hours",
+        "num_checks": 1,
+        "dc": 15
+    },
+    {
+        "craft": "alchemy",
+        "result": "Potion of Heroism|dmg",
+        "materials": [
+            "uncommon curative reagent",
+            "uncommon reactive reagent",
+            [2, "rare curative reagent"],
+            "common divine essence",
+            "glass vial"
+        ],
+        "time": "2 hours",
+        "num_checks": 1,
+        "dc": 15
+    },
+    {
+        "craft": "alchemy",
+        "result": "potion of mind reading|dmg",
+        "materials": [
+            "uncommon poisonous reagent",
+            "uncommon reactive reagent",
+            "rare poisonous reagent",
+            "rare reactive reagent",
+            "glass vial"
+        ],
+        "time": "2 hours",
+        "num_checks": 1,
+        "dc": 16
+    },
+    {
+        "craft": "alchemy",
+        "result": "potion of superior healing|dmg",
+        "materials": [
+            [2, "uncommon curative reagent"],
+            [2, "rare curative reagent"],
+            "glass vial"
+        ],
+        "time": "4 hours",
+        "num_checks": 2,
+        "dc": 15
+    },
+    {
+        "craft": "alchemy",
+        "result": "draught of damnation|kcg",
+        "materials": [
+            "rare reactive reagent",
+            "rare poisonous reagent",
+            "uncommon arcane essence"
+        ],
+        "time": "4 hours",
+        "num_checks": 2,
+        "dc": 16
+    },
+    {
+        "craft": "alchemy",
+        "result": "potion of supreme healing|dmg",
+        "materials": [
+            "uncommon curative reagent",
+            "rare curative reagent",
+            [2, "very rare curative reagent"],
+            "uncommon divine essence",
+            "crystal vial"
+        ],
+        "time": "4 hours",
+        "num_checks": 2,
+        "dc": 18
+    },
+    {
+        "craft": "alchemy",
+        "result": "potion of flying|dmg",
+        "materials": [
+            [2, "uncommon reactive reagent"],
+            [2, "rare curative reagent"],
+            [2, "very rare reactive reagent"],
+            "uncommon primal essence",
+            "uncommon arcane essence",
+            "crystal vial"
+        ],
+        "time": "4 hours",
+        "num_checks": 2,
+        "dc": 19
+    },
+    {
+        "craft": "alchemy",
+        "result": "potion of invisibility|dmg",
+        "materials": [
+            [2, "uncommon reactive reagent"],
+            [2, "rare curative reagent"],
+            "very rare reactive reagent",
+            "very rare curative reagent",
+            "crystal vial"
+        ],
+        "time": "4 hours",
+        "num_checks": 2,
+        "dc": 19
+    },
+    {
+        "craft": "alchemy",
+        "result": "potion of speed|dmg",
+        "materials": [
+            [2, "uncommon reactive reagent"],
+            [2, "rare reactive reagent"],
+            "very rare reactive reagent",
+            "very rare curative reagent",
+            "crystal vial"
+        ],
+        "time": "4 hours",
+        "num_checks": 2,
+        "dc": 20
+    },
+    {
+        "craft": "alchemy",
+        "result": "panacea|kcg",
+        "materials": [
+            "legendary curative reagent",
+            [2, "very rare curative reagent"],
+            "legendary divine essence",
+            "crystal vial"
+        ],
+        "time": "8 hours",
+        "num_checks": 4,
+        "dc": 24
+    },
+    {
+        "craft": "alchemy",
+        "result": "potion of storm giant strength|dmg",
+        "materials": [
+            "legendary reactive reagent",
+            "legendary curative reagent",
+            "very rare primal essence",
+            "crystal vial"
+        ],
+        "time": "8 hours",
+        "num_checks": 4,
+        "dc": 23
+    }
+]

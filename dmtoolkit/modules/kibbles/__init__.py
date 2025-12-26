@@ -14,3 +14,4 @@ kcg_module = Module(
 )
 kcg_module.register_loot_generator(generate_loot)
 kcg_module.register_nav_page("Gathering", "kibbles.gathering")
+kcg_module.register_nav_page("Crafting", "kibbles.crafting_view")

@@ -5,6 +5,8 @@ import pytest
 from dmtoolkit.api.items import get_item
 from dmtoolkit.api.models import Item
 import dmtoolkit.modules.kibbles.loot as loot
+import dmtoolkit.modules.kibbles.crafting as crafting
+
 
 LOOT_TABLE_DIR = Path(__file__).parent.parent.parent.parent / "dmtoolkit/modules/kibbles/loot_tables"
 
@@ -128,3 +130,7 @@ def test_loot_table_contents(fname: Path):
     loot_table = loot.LootTable.load_from_csv(fname)
     for _, _, item in loot_table.rows:
         item()
+
+def test_load_recipes():
+    # Make sure this doesn't raise an error
+    crafting.list_recipes()

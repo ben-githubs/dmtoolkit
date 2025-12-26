@@ -2,9 +2,11 @@
 from dataclasses import asdict
 import json
 
-from flask import Blueprint, render_template
+from flask import Blueprint, abort, render_template, request
 
+from dmtoolkit.api.items import get_item
 from dmtoolkit.modules.kibbles.loot import Locales, gather, get_gathering_variant, ItemWrapper
+from dmtoolkit.modules.kibbles.crafting import list_recipes, get_recipe
 
 kibbles_bp = Blueprint(
     "kibbles",
@@ -33,3 +35,20 @@ def roll_gathering(locale_name: str):
         ItemWrapper(get_gathering_variant(locale, item_wrapper.item), item_wrapper.quantity) for item_wrapper in results.items
     ]
     return render_template("gathering.jinja2", page=page, locales=Locales, loot_response=results, default_locale=locale)
+
+@kibbles_bp.route("/crafting", methods=["GET"])
+def crafting_view():
+    page = {
+        "title": "Crafting"
+    }
+    recipes = list_recipes()
+    return render_template("crafting.jinja2", page=page, items=recipes.keys())
+
+@kibbles_bp.route("/crafting/recipe")
+def get_crafting_recipe_view():
+    item_id = request.args.get("item_id", "")
+    item = get_item(item_id)
+    if not item:
+        return f"No item named {item_id}", 404
+    
+    return render_template("_recipe.jinja2", item=item, recipes=get_recipe(item))

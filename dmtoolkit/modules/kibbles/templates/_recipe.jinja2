@@ -1,0 +1,40 @@
+<div id="recipe-statblock" class="statblock">
+    <h1>{{ item.name }}</h1>
+    <div style="display: flex; width: 100%; justify-content: space-between">
+        <div><em>{{ item.item_type or "Wonderous Item"}}</em></div>
+        <div>{{ item.rarity | title }}</div>
+    </div>
+    <div style="display: flex; width: 100%; justify-content: space-between">
+        <div>{{ item.weight }} lb.</div>
+        <div>
+            {% if item.ac is defined %}
+                AC {{ item.ac }}
+                {%- if item.armor_type == "Light Armor" %} + Dex{% elif item.armor_type == "Medium Armor" %} + Dex (max 2){% endif %}
+            {% endif %}
+            {% if item.properties %}
+                {{ item.properties | join(', ') | title }}
+            {% endif %}
+            {% if item.ingredient_type %}
+                ({{ item.ingredient_type | title}})
+            {% endif %}
+        </div>
+    </div>
+
+    <hr/>
+
+    {% for entry in item.entries %}
+        {{ entry.html() | macro5e }}
+    {% endfor %}
+
+    <hr/>
+
+    {% for recipe in recipes %}
+        <h3>Recipe #{{loop.index}}</h3>
+        <em>Requires DC {{ recipe.dc }} {{ recipe.crafting_type | title }} check and takes {{ recipe.crafting_time }}</em>
+        <ul>
+            {% for ingredient_wrapper in recipe.materials %}
+                <li>{{ ingredient_wrapper.quantity }} x {{ ('{@item ' + ingredient_wrapper.item.id() + '}') | macro5e }}</li>
+            {% endfor%}
+        </ul>
+    {% endfor %}
+</div>

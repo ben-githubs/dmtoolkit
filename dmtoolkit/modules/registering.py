@@ -46,7 +46,8 @@ def register_module(module: Module):
         _MODULES[module.module_id] = module
 
 # Make 'get_main_routes' callable from within jinja template
-app.jinja_env.globals.update(get_main_routes=get_main_routes)
+if app:
+    app.jinja_env.globals.update(get_main_routes=get_main_routes)
 
 
 # REGISTER MODULES
