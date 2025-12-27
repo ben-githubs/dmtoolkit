@@ -2123,6 +2123,48 @@
     "__dataclass__": "Item"
   },
   {
+    "name": "Thunder Cannon Ammo",
+    "source": [
+      "KCG",
+      47
+    ],
+    "rarity": "common",
+    "weight": 2,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "Ammunition for the {@item thunder cannon|kcg}"
+        ]
+      }
+    ],
+    "value": 2000,
+    "item_type": "Ammunition",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Firearm Ammunition",
+    "source": [
+      "KCG",
+      47
+    ],
+    "rarity": "uncommon",
+    "weight": 0.5,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "Ammunition for a generic firearm."
+        ]
+      }
+    ],
+    "value": 2000,
+    "item_type": "Ammunition",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
     "name": "Castcade Catalyst",
     "source": [
       "KCG",
@@ -3294,6 +3336,29 @@
       }
     ],
     "value": 1000,
+    "item_type": "Shield",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Helmet",
+    "source": [
+      "KCG",
+      46
+    ],
+    "rarity": "common",
+    "weight": 2,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "The effects of a helmet are included in armor, this entry is largely to allow for standalone helmet creation for enchanters."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 1200,
     "item_type": "Shield",
     "properties": [],
     "__dataclass__": "Item"
@@ -4782,6 +4847,34 @@
     "entries": [],
     "value": 10000,
     "item_type": "Artisan's Tools",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Horseshoe",
+    "source": [
+      "KCG",
+      46
+    ],
+    "rarity": "common",
+    "weight": 1,
+    "entries": [],
+    "value": 10,
+    "item_type": "Adventuring Gear",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Chain",
+    "source": [
+      "KCG",
+      46
+    ],
+    "rarity": "common",
+    "weight": 5,
+    "entries": [],
+    "value": 10,
+    "item_type": "Adventuring Gear",
     "properties": [],
     "__dataclass__": "Item"
   }

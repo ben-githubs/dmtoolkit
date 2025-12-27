@@ -787,12 +787,87 @@
     "__dataclass__": "KibblesIngredient"
   },
   {
+    "name": "Icesteel Ingot",
+    "source": [
+      "KCG",
+      44
+    ],
+    "rarity": "uncommon",
+    "weight": 2,
+    "entries": [],
+    "value": 6000,
+    "item_type": "ingredient",
+    "ingredient_type": "metal",
+    "properties": [""],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Darksteel Ingot",
+    "source": [
+      "KCG",
+      44
+    ],
+    "rarity": "uncommon",
+    "weight": 2,
+    "entries": [],
+    "value": 6000,
+    "item_type": "ingredient",
+    "ingredient_type": "metal",
+    "properties": [""],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Firesteel Ingot",
+    "source": [
+      "KCG",
+      44
+    ],
+    "rarity": "uncommon",
+    "weight": 2,
+    "entries": [],
+    "value": 6000,
+    "item_type": "ingredient",
+    "ingredient_type": "metal",
+    "properties": [""],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
     "name": "Adamantine Ingot",
     "source": [
       "KCG",
-      12
+      44
     ],
     "rarity": "uncommon",
+    "weight": 2,
+    "entries": [],
+    "value": 6000,
+    "item_type": "ingredient",
+    "ingredient_type": "metal",
+    "properties": [""],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Silver Ingot",
+    "source": [
+      "KCG",
+      47
+    ],
+    "rarity": "uncommon",
+    "weight": 2,
+    "entries": [],
+    "value": 3000,
+    "item_type": "ingredient",
+    "ingredient_type": "metal",
+    "properties": [""],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Gold Ingot",
+    "source": [
+      "KCG",
+      47
+    ],
+    "rarity": "rare",
     "weight": 2,
     "entries": [],
     "value": 6000,

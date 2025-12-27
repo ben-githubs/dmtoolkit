@@ -2,6 +2,7 @@
   {
     "craft": "alchemy",
     "result": "antitoxin (vial)|phb",
+    "quantity": "1",
     "materials": [
       [
         2,
@@ -18,11 +19,13 @@
     ],
     "time": "2 hours",
     "num_checks": 1,
-    "dc": 13
+    "dc": 13,
+    "note": ""
   },
   {
     "craft": "alchemy",
     "result": "potion of climbing|dmg",
+    "quantity": "1",
     "materials": [
       [
         1,
@@ -43,11 +46,13 @@
     ],
     "time": "2 hours",
     "num_checks": 1,
-    "dc": 14
+    "dc": 14,
+    "note": ""
   },
   {
     "craft": "alchemy",
     "result": "potion of healing|dmg",
+    "quantity": "1",
     "materials": [
       [
         3,
@@ -60,11 +65,13 @@
     ],
     "time": "2 hours",
     "num_checks": 1,
-    "dc": 13
+    "dc": 13,
+    "note": ""
   },
   {
     "craft": "alchemy",
     "result": "potion of animal friendship|dmg",
+    "quantity": "1",
     "materials": [
       [
         2,
@@ -89,11 +96,13 @@
     ],
     "time": "2 hours",
     "num_checks": 1,
-    "dc": 13
+    "dc": 13,
+    "note": ""
   },
   {
     "craft": "alchemy",
     "result": "potion of fire breath|dmg",
+    "quantity": "1",
     "materials": [
       [
         1,
@@ -110,11 +119,13 @@
     ],
     "time": "2 hours",
     "num_checks": 1,
-    "dc": 15
+    "dc": 15,
+    "note": ""
   },
   {
     "craft": "alchemy",
     "result": "potion of growth|dmg",
+    "quantity": "1",
     "materials": [
       [
         1,
@@ -135,11 +146,13 @@
     ],
     "time": "2 hours",
     "num_checks": 1,
-    "dc": 14
+    "dc": 14,
+    "note": ""
   },
   {
     "craft": "alchemy",
     "result": "potion of greater healing|dmg",
+    "quantity": "1",
     "materials": [
       [
         1,
@@ -156,11 +169,13 @@
     ],
     "time": "2 hours",
     "num_checks": 1,
-    "dc": 15
+    "dc": 15,
+    "note": ""
   },
   {
     "craft": "alchemy",
     "result": "potion of poison|dmg",
+    "quantity": "1",
     "materials": [
       [
         1,
@@ -177,11 +192,13 @@
     ],
     "time": "2 hours",
     "num_checks": 1,
-    "dc": 13
+    "dc": 13,
+    "note": ""
   },
   {
     "craft": "alchemy",
     "result": "potion of acid resistance|dmg",
+    "quantity": "1",
     "materials": [
       [
         1,
@@ -202,11 +219,13 @@
     ],
     "time": "2 hours",
     "num_checks": 1,
-    "dc": 15
+    "dc": 15,
+    "note": ""
   },
   {
     "craft": "alchemy",
     "result": "potion of cold resistance|dmg",
+    "quantity": "1",
     "materials": [
       [
         1,
@@ -227,11 +246,13 @@
     ],
     "time": "2 hours",
     "num_checks": 1,
-    "dc": 15
+    "dc": 15,
+    "note": ""
   },
   {
     "craft": "alchemy",
     "result": "potion of fire resistance|dmg",
+    "quantity": "1",
     "materials": [
       [
         1,
@@ -252,11 +273,13 @@
     ],
     "time": "2 hours",
     "num_checks": 1,
-    "dc": 15
+    "dc": 15,
+    "note": ""
   },
   {
     "craft": "alchemy",
     "result": "potion of force resistance|dmg",
+    "quantity": "1",
     "materials": [
       [
         1,
@@ -277,11 +300,13 @@
     ],
     "time": "2 hours",
     "num_checks": 1,
-    "dc": 15
+    "dc": 15,
+    "note": ""
   },
   {
     "craft": "alchemy",
     "result": "potion of lightning resistance|dmg",
+    "quantity": "1",
     "materials": [
       [
         1,
@@ -302,11 +327,13 @@
     ],
     "time": "2 hours",
     "num_checks": 1,
-    "dc": 15
+    "dc": 15,
+    "note": ""
   },
   {
     "craft": "alchemy",
     "result": "potion of necrotic resistance|dmg",
+    "quantity": "1",
     "materials": [
       [
         1,
@@ -327,11 +354,13 @@
     ],
     "time": "2 hours",
     "num_checks": 1,
-    "dc": 15
+    "dc": 15,
+    "note": ""
   },
   {
     "craft": "alchemy",
     "result": "potion of poison resistance|dmg",
+    "quantity": "1",
     "materials": [
       [
         1,
@@ -352,11 +381,13 @@
     ],
     "time": "2 hours",
     "num_checks": 1,
-    "dc": 15
+    "dc": 15,
+    "note": ""
   },
   {
     "craft": "alchemy",
     "result": "potion of psychic resistance|dmg",
+    "quantity": "1",
     "materials": [
       [
         1,
@@ -377,11 +408,13 @@
     ],
     "time": "2 hours",
     "num_checks": 1,
-    "dc": 15
+    "dc": 15,
+    "note": ""
   },
   {
     "craft": "alchemy",
     "result": "potion of radiant resistance|dmg",
+    "quantity": "1",
     "materials": [
       [
         1,
@@ -402,11 +435,13 @@
     ],
     "time": "2 hours",
     "num_checks": 1,
-    "dc": 15
+    "dc": 15,
+    "note": ""
   },
   {
     "craft": "alchemy",
     "result": "potion of thunder resistance|dmg",
+    "quantity": "1",
     "materials": [
       [
         1,
@@ -427,11 +462,13 @@
     ],
     "time": "2 hours",
     "num_checks": 1,
-    "dc": 15
+    "dc": 15,
+    "note": ""
   },
   {
     "craft": "alchemy",
     "result": "potion of water breathing|dmg",
+    "quantity": "1",
     "materials": [
       [
         1,
@@ -452,11 +489,13 @@
     ],
     "time": "2 hours",
     "num_checks": 1,
-    "dc": 15
+    "dc": 15,
+    "note": ""
   },
   {
     "craft": "alchemy",
     "result": "potion of hill giant strength|dmg",
+    "quantity": "1",
     "materials": [
       [
         1,
@@ -473,11 +512,13 @@
     ],
     "time": "4 hours",
     "num_checks": 2,
-    "dc": 15
+    "dc": 15,
+    "note": ""
   },
   {
     "craft": "alchemy",
     "result": "potion of clairvoyance|dmg",
+    "quantity": "1",
     "materials": [
       [
         1,
@@ -502,11 +543,13 @@
     ],
     "time": "2 hours",
     "num_checks": 1,
-    "dc": 16
+    "dc": 16,
+    "note": ""
   },
   {
     "craft": "alchemy",
     "result": "potion of gaseous form|dmg",
+    "quantity": "1",
     "materials": [
       [
         2,
@@ -527,11 +570,13 @@
     ],
     "time": "2 hours",
     "num_checks": 1,
-    "dc": 16
+    "dc": 16,
+    "note": ""
   },
   {
     "craft": "alchemy",
     "result": "potion of diminution|dmg",
+    "quantity": "1",
     "materials": [
       [
         1,
@@ -552,11 +597,13 @@
     ],
     "time": "2 hours",
     "num_checks": 1,
-    "dc": 15
+    "dc": 15,
+    "note": ""
   },
   {
     "craft": "alchemy",
     "result": "potion of heroism|dmg",
+    "quantity": "1",
     "materials": [
       [
         1,
@@ -581,11 +628,13 @@
     ],
     "time": "2 hours",
     "num_checks": 1,
-    "dc": 15
+    "dc": 15,
+    "note": ""
   },
   {
     "craft": "alchemy",
     "result": "potion of mind reading|dmg",
+    "quantity": "1",
     "materials": [
       [
         1,
@@ -610,11 +659,13 @@
     ],
     "time": "2 hours",
     "num_checks": 1,
-    "dc": 16
+    "dc": 16,
+    "note": ""
   },
   {
     "craft": "alchemy",
     "result": "potion of superior healing|dmg",
+    "quantity": "1",
     "materials": [
       [
         2,
@@ -631,11 +682,13 @@
     ],
     "time": "4 hours",
     "num_checks": 2,
-    "dc": 15
+    "dc": 15,
+    "note": ""
   },
   {
     "craft": "alchemy",
     "result": "Draught of Damnation|kcg",
+    "quantity": "1",
     "materials": [
       [
         1,
@@ -652,11 +705,13 @@
     ],
     "time": "4 hours",
     "num_checks": 2,
-    "dc": 16
+    "dc": 16,
+    "note": ""
   },
   {
     "craft": "alchemy",
     "result": "potion of supreme healing|dmg",
+    "quantity": "1",
     "materials": [
       [
         1,
@@ -681,11 +736,13 @@
     ],
     "time": "4 hours",
     "num_checks": 2,
-    "dc": 18
+    "dc": 18,
+    "note": ""
   },
   {
     "craft": "alchemy",
     "result": "potion of flying|dmg",
+    "quantity": "1",
     "materials": [
       [
         2,
@@ -714,11 +771,13 @@
     ],
     "time": "4 hours",
     "num_checks": 2,
-    "dc": 19
+    "dc": 19,
+    "note": ""
   },
   {
     "craft": "alchemy",
     "result": "potion of invisibility|dmg",
+    "quantity": "1",
     "materials": [
       [
         2,
@@ -743,11 +802,13 @@
     ],
     "time": "4 hours",
     "num_checks": 2,
-    "dc": 19
+    "dc": 19,
+    "note": ""
   },
   {
     "craft": "alchemy",
     "result": "potion of speed|dmg",
+    "quantity": "1",
     "materials": [
       [
         2,
@@ -776,11 +837,13 @@
     ],
     "time": "4 hours",
     "num_checks": 2,
-    "dc": 20
+    "dc": 20,
+    "note": ""
   },
   {
     "craft": "alchemy",
     "result": "Panacea|kcg",
+    "quantity": "1",
     "materials": [
       [
         1,
@@ -801,11 +864,13 @@
     ],
     "time": "8 hours",
     "num_checks": 4,
-    "dc": 24
+    "dc": 24,
+    "note": ""
   },
   {
     "craft": "alchemy",
     "result": "potion of storm giant strength|dmg",
+    "quantity": "1",
     "materials": [
       [
         1,
@@ -826,11 +891,13 @@
     ],
     "time": "8 hours",
     "num_checks": 4,
-    "dc": 23
+    "dc": 23,
+    "note": ""
   },
   {
     "craft": "alchemy",
     "result": "Alchemical Acid|kcg",
+    "quantity": "1",
     "materials": [
       [
         2,
@@ -847,11 +914,13 @@
     ],
     "time": "2 hours",
     "num_checks": 1,
-    "dc": 13
+    "dc": 13,
+    "note": ""
   },
   {
     "craft": "alchemy",
     "result": "Alchemical Fire|kcg",
+    "quantity": "1",
     "materials": [
       [
         3,
@@ -864,11 +933,13 @@
     ],
     "time": "2 hours",
     "num_checks": 1,
-    "dc": 13
+    "dc": 13,
+    "note": ""
   },
   {
     "craft": "alchemy",
     "result": "Alchemical Napalm|kcg",
+    "quantity": "1",
     "materials": [
       [
         3,
@@ -885,11 +956,13 @@
     ],
     "time": "2 hours",
     "num_checks": 1,
-    "dc": 14
+    "dc": 14,
+    "note": ""
   },
   {
     "craft": "alchemy",
     "result": "Bottled Wind|kcg",
+    "quantity": "1",
     "materials": [
       [
         2,
@@ -902,11 +975,13 @@
     ],
     "time": "2 hours",
     "num_checks": 1,
-    "dc": 14
+    "dc": 14,
+    "note": ""
   },
   {
     "craft": "alchemy",
     "result": "Potent Alchemical Acid|kcg",
+    "quantity": "1",
     "materials": [
       [
         2,
@@ -923,11 +998,13 @@
     ],
     "time": "2 hours",
     "num_checks": 1,
-    "dc": 15
+    "dc": 15,
+    "note": ""
   },
   {
     "craft": "alchemy",
     "result": "Potent Alchemical Fire|kcg",
+    "quantity": "1",
     "materials": [
       [
         3,
@@ -940,11 +1017,13 @@
     ],
     "time": "2 hours",
     "num_checks": 1,
-    "dc": 15
+    "dc": 15,
+    "note": ""
   },
   {
     "craft": "alchemy",
     "result": "Powerful Alchemical Acid|kcg",
+    "quantity": "1",
     "materials": [
       [
         2,
@@ -961,11 +1040,13 @@
     ],
     "time": "2 hours",
     "num_checks": 1,
-    "dc": 17
+    "dc": 17,
+    "note": ""
   },
   {
     "craft": "alchemy",
     "result": "Powerful Alchemical Fire|kcg",
+    "quantity": "1",
     "materials": [
       [
         3,
@@ -978,11 +1059,13 @@
     ],
     "time": "2 hours",
     "num_checks": 1,
-    "dc": 17
+    "dc": 17,
+    "note": ""
   },
   {
     "craft": "alchemy",
     "result": "dust of disappearance|dmg",
+    "quantity": "1",
     "materials": [
       [
         1,
@@ -1003,11 +1086,13 @@
     ],
     "time": "4 hours",
     "num_checks": 2,
-    "dc": 15
+    "dc": 15,
+    "note": ""
   },
   {
     "craft": "alchemy",
     "result": "dust of dryness|dmg",
+    "quantity": "1",
     "materials": [
       [
         1,
@@ -1028,11 +1113,13 @@
     ],
     "time": "4 hours",
     "num_checks": 2,
-    "dc": 14
+    "dc": 14,
+    "note": ""
   },
   {
     "craft": "alchemy",
     "result": "dust of sneezing and choking|dmg",
+    "quantity": "1",
     "materials": [
       [
         1,
@@ -1049,11 +1136,13 @@
     ],
     "time": "4 hours",
     "num_checks": 2,
-    "dc": 14
+    "dc": 14,
+    "note": ""
   },
   {
     "craft": "alchemy",
     "result": "Dwarven Alcohol|kcg",
+    "quantity": "1",
     "materials": [
       [
         1,
@@ -1070,11 +1159,13 @@
     ],
     "time": "8 hours",
     "num_checks": 4,
-    "dc": 12
+    "dc": 12,
+    "note": ""
   },
   {
     "craft": "alchemy",
     "result": "Packet of Blasting Powder|kcg",
+    "quantity": "1",
     "materials": [
       [
         2,
@@ -1083,11 +1174,13 @@
     ],
     "time": "2 hours",
     "num_checks": 1,
-    "dc": 14
+    "dc": 14,
+    "note": ""
   },
   {
     "craft": "alchemy",
     "result": "Smoke Powder|kcg",
+    "quantity": "1",
     "materials": [
       [
         2,
@@ -1096,11 +1189,13 @@
     ],
     "time": "2 hours",
     "num_checks": 1,
-    "dc": 15
+    "dc": 15,
+    "note": ""
   },
   {
     "craft": "alchemy",
     "result": "Simple Explosive|kcg",
+    "quantity": "1",
     "materials": [
       [
         2,
@@ -1113,11 +1208,13 @@
     ],
     "time": "2 hours",
     "num_checks": 1,
-    "dc": 15
+    "dc": 15,
+    "note": ""
   },
   {
     "craft": "alchemy",
     "result": "Grenade Casing|kcg",
+    "quantity": "1",
     "materials": [
       [
         2,
@@ -1134,11 +1231,13 @@
     ],
     "time": "4 hours",
     "num_checks": 1,
-    "dc": 15
+    "dc": 15,
+    "note": ""
   },
   {
     "craft": "alchemy",
     "result": "Potent Explosive|kcg",
+    "quantity": "1",
     "materials": [
       [
         4,
@@ -1151,11 +1250,13 @@
     ],
     "time": "2 hours",
     "num_checks": 1,
-    "dc": 17
+    "dc": 17,
+    "note": ""
   },
   {
     "craft": "alchemy",
     "result": "Nail Bomb|kcg",
+    "quantity": "1",
     "materials": [
       [
         3,
@@ -1172,11 +1273,13 @@
     ],
     "time": "2 hours",
     "num_checks": 1,
-    "dc": 17
+    "dc": 17,
+    "note": ""
   },
   {
     "craft": "alchemy",
     "result": "Powerful Explosive|kcg",
+    "quantity": "1",
     "materials": [
       [
         8,
@@ -1189,11 +1292,13 @@
     ],
     "time": "4 hours",
     "num_checks": 2,
-    "dc": 19
+    "dc": 19,
+    "note": ""
   },
   {
     "craft": "alchemy",
     "result": "common magical ink|kcg",
+    "quantity": "1",
     "materials": [
       [
         1,
@@ -1206,11 +1311,13 @@
     ],
     "time": "2 hours",
     "num_checks": 1,
-    "dc": 10
+    "dc": 10,
+    "note": ""
   },
   {
     "craft": "alchemy",
     "result": "uncommon magical ink|kcg",
+    "quantity": "1",
     "materials": [
       [
         1,
@@ -1223,11 +1330,13 @@
     ],
     "time": "2 hours",
     "num_checks": 1,
-    "dc": 12
+    "dc": 12,
+    "note": ""
   },
   {
     "craft": "alchemy",
     "result": "rare magical ink|kcg",
+    "quantity": "1",
     "materials": [
       [
         1,
@@ -1240,11 +1349,13 @@
     ],
     "time": "2 hours",
     "num_checks": 1,
-    "dc": 14
+    "dc": 14,
+    "note": ""
   },
   {
     "craft": "alchemy",
     "result": "very rare magical ink|kcg",
+    "quantity": "1",
     "materials": [
       [
         1,
@@ -1257,11 +1368,13 @@
     ],
     "time": "4 hours",
     "num_checks": 2,
-    "dc": 16
+    "dc": 16,
+    "note": ""
   },
   {
     "craft": "alchemy",
     "result": "legendary magical ink|kcg",
+    "quantity": "1",
     "materials": [
       [
         1,
@@ -1274,11 +1387,13 @@
     ],
     "time": "8 hours",
     "num_checks": 4,
-    "dc": 18
+    "dc": 18,
+    "note": ""
   },
   {
     "craft": "alchemy",
     "result": "Burning Oil|kcg",
+    "quantity": "1",
     "materials": [
       [
         2,
@@ -1291,11 +1406,13 @@
     ],
     "time": "2 hours",
     "num_checks": 1,
-    "dc": 13
+    "dc": 13,
+    "note": ""
   },
   {
     "craft": "alchemy",
     "result": "Frost Oil|kcg",
+    "quantity": "1",
     "materials": [
       [
         1,
@@ -1312,11 +1429,13 @@
     ],
     "time": "2 hours",
     "num_checks": 1,
-    "dc": 14
+    "dc": 14,
+    "note": ""
   },
   {
     "craft": "alchemy",
     "result": "Silver Oil|kcg",
+    "quantity": "1",
     "materials": [
       [
         4,
@@ -1333,11 +1452,13 @@
     ],
     "time": "2 hours",
     "num_checks": 1,
-    "dc": 12
+    "dc": 12,
+    "note": ""
   },
   {
     "craft": "alchemy",
     "result": "Flametongue Oil|kcg",
+    "quantity": "1",
     "materials": [
       [
         2,
@@ -1354,11 +1475,13 @@
     ],
     "time": "2 hours",
     "num_checks": 1,
-    "dc": 16
+    "dc": 16,
+    "note": ""
   },
   {
     "craft": "alchemy",
     "result": "oil of sharpness|dmg",
+    "quantity": "1",
     "materials": [
       [
         1,
@@ -1379,11 +1502,13 @@
     ],
     "time": "4 hours",
     "num_checks": 2,
-    "dc": 19
+    "dc": 19,
+    "note": ""
   },
   {
     "craft": "alchemy",
     "result": "restorative ointment|srd",
+    "quantity": "1",
     "materials": [
       [
         1,
@@ -1400,11 +1525,13 @@
     ],
     "time": "8 hours",
     "num_checks": 4,
-    "dc": 15
+    "dc": 15,
+    "note": ""
   },
   {
     "craft": "alchemy",
     "result": "sovereign glue|dmg",
+    "quantity": "1",
     "materials": [
       [
         1,
@@ -1421,11 +1548,13 @@
     ],
     "time": "16 hours (2 days)",
     "num_checks": 8,
-    "dc": 22
+    "dc": 22,
+    "note": ""
   },
   {
     "craft": "alchemy",
     "result": "universal solvent|dmg",
+    "quantity": "1",
     "materials": [
       [
         1,
@@ -1442,11 +1571,13 @@
     ],
     "time": "16 hours (2 days)",
     "num_checks": 8,
-    "dc": 22
+    "dc": 22,
+    "note": ""
   },
   {
     "craft": "poisoncraft",
     "result": "Dizzying Touch|kcg",
+    "quantity": "1",
     "materials": [
       [
         1,
@@ -1463,11 +1594,13 @@
     ],
     "time": "2 hours",
     "num_checks": 1,
-    "dc": 14
+    "dc": 14,
+    "note": ""
   },
   {
     "craft": "poisoncraft",
     "result": "Simple Injury Poison|kcg",
+    "quantity": "1",
     "materials": [
       [
         2,
@@ -1480,11 +1613,13 @@
     ],
     "time": "2 hour",
     "num_checks": 1,
-    "dc": 14
+    "dc": 14,
+    "note": ""
   },
   {
     "craft": "poisoncraft",
     "result": "Simple Inhaled Poison|kcg",
+    "quantity": "1",
     "materials": [
       [
         2,
@@ -1501,11 +1636,13 @@
     ],
     "time": "2 hour",
     "num_checks": 1,
-    "dc": 14
+    "dc": 14,
+    "note": ""
   },
   {
     "craft": "poisoncraft",
     "result": "Simple Contact Poison|kcg",
+    "quantity": "1",
     "materials": [
       [
         2,
@@ -1518,11 +1655,13 @@
     ],
     "time": "2 hour",
     "num_checks": 1,
-    "dc": 14
+    "dc": 14,
+    "note": ""
   },
   {
     "craft": "poisoncraft",
     "result": "Simple Ingested Poison|kcg",
+    "quantity": "1",
     "materials": [
       [
         2,
@@ -1535,11 +1674,13 @@
     ],
     "time": "2 hour",
     "num_checks": 1,
-    "dc": 12
+    "dc": 12,
+    "note": ""
   },
   {
     "craft": "poisoncraft",
     "result": "Burning Wound|kcg",
+    "quantity": "1",
     "materials": [
       [
         1,
@@ -1560,11 +1701,13 @@
     ],
     "time": "2 hours",
     "num_checks": 1,
-    "dc": 16
+    "dc": 16,
+    "note": ""
   },
   {
     "craft": "poisoncraft",
     "result": "Old Reliable|kcg",
+    "quantity": "1",
     "materials": [
       [
         1,
@@ -1581,11 +1724,13 @@
     ],
     "time": "2 hours",
     "num_checks": 1,
-    "dc": 14
+    "dc": 14,
+    "note": ""
   },
   {
     "craft": "poisoncraft",
     "result": "Potent Injury Poison|kcg",
+    "quantity": "1",
     "materials": [
       [
         2,
@@ -1598,11 +1743,13 @@
     ],
     "time": "2 hours",
     "num_checks": 1,
-    "dc": 15
+    "dc": 15,
+    "note": ""
   },
   {
     "craft": "poisoncraft",
     "result": "Potent Inhaled Poison|kcg",
+    "quantity": "1",
     "materials": [
       [
         2,
@@ -1619,11 +1766,13 @@
     ],
     "time": "2 hours",
     "num_checks": 1,
-    "dc": 15
+    "dc": 15,
+    "note": ""
   },
   {
     "craft": "poisoncraft",
     "result": "Potent Contact Poison|kcg",
+    "quantity": "1",
     "materials": [
       [
         2,
@@ -1636,11 +1785,13 @@
     ],
     "time": "2 hours",
     "num_checks": 1,
-    "dc": 15
+    "dc": 15,
+    "note": ""
   },
   {
     "craft": "poisoncraft",
     "result": "Potent Ingested Poison|kcg",
+    "quantity": "1",
     "materials": [
       [
         2,
@@ -1653,11 +1804,13 @@
     ],
     "time": "2 hour",
     "num_checks": 1,
-    "dc": 14
+    "dc": 14,
+    "note": ""
   },
   {
     "craft": "poisoncraft",
     "result": "Withering Soul|kcg",
+    "quantity": "1",
     "materials": [
       [
         1,
@@ -1674,11 +1827,13 @@
     ],
     "time": "2 hours",
     "num_checks": 1,
-    "dc": 14
+    "dc": 14,
+    "note": ""
   },
   {
     "craft": "poisoncraft",
     "result": "crawler mucus|kcg",
+    "quantity": "1",
     "materials": [
       [
         1,
@@ -1691,11 +1846,13 @@
     ],
     "time": "2 hours",
     "num_checks": 1,
-    "dc": 16
+    "dc": 16,
+    "note": ""
   },
   {
     "craft": "poisoncraft",
     "result": "Fainting Fumes|kcg",
+    "quantity": "1",
     "materials": [
       [
         1,
@@ -1716,11 +1873,13 @@
     ],
     "time": "4 hours",
     "num_checks": 2,
-    "dc": 16
+    "dc": 16,
+    "note": ""
   },
   {
     "craft": "poisoncraft",
     "result": "essence of ether|dmg",
+    "quantity": "1",
     "materials": [
       [
         1,
@@ -1733,11 +1892,13 @@
     ],
     "time": "2 hours",
     "num_checks": 1,
-    "dc": 17
+    "dc": 17,
+    "note": ""
   },
   {
     "craft": "poisoncraft",
     "result": "malice|dmg",
+    "quantity": "1",
     "materials": [
       [
         1,
@@ -1746,11 +1907,13 @@
     ],
     "time": "2 hours",
     "num_checks": 1,
-    "dc": 16
+    "dc": 16,
+    "note": ""
   },
   {
     "craft": "poisoncraft",
     "result": "knockout poison|kcg",
+    "quantity": "1",
     "materials": [
       [
         3,
@@ -1763,11 +1926,13 @@
     ],
     "time": "4 hour",
     "num_checks": 2,
-    "dc": 17
+    "dc": 17,
+    "note": ""
   },
   {
     "craft": "poisoncraft",
     "result": "Paralyzing Poison|kcg",
+    "quantity": "1",
     "materials": [
       [
         2,
@@ -1784,11 +1949,13 @@
     ],
     "time": "4 hours",
     "num_checks": 2,
-    "dc": 16
+    "dc": 16,
+    "note": ""
   },
   {
     "craft": "poisoncraft",
     "result": "Veins of Tar|kcg",
+    "quantity": "1",
     "materials": [
       [
         1,
@@ -1809,11 +1976,13 @@
     ],
     "time": "4 hours",
     "num_checks": 2,
-    "dc": 15
+    "dc": 15,
+    "note": ""
   },
   {
     "craft": "poisoncraft",
     "result": "Whispers of Madness|kcg",
+    "quantity": "1",
     "materials": [
       [
         1,
@@ -1830,11 +1999,13 @@
     ],
     "time": "4 hours",
     "num_checks": 2,
-    "dc": 16
+    "dc": 16,
+    "note": ""
   },
   {
     "craft": "poisoncraft",
     "result": "midnight tears|dmg",
+    "quantity": "1",
     "materials": [
       [
         1,
@@ -1847,11 +2018,1350 @@
     ],
     "time": "4 hours",
     "num_checks": 2,
-    "dc": 16
+    "dc": 16,
+    "note": ""
+  },
+  {
+    "craft": "blacksmithing",
+    "result": "dagger|phb",
+    "quantity": "1",
+    "materials": [
+      [
+        5,
+        "ingot"
+      ],
+      [
+        2,
+        "hours"
+      ],
+      [
+        1,
+        "DC"
+      ],
+      [
+        10,
+        "Common"
+      ],
+      [
+        1,
+        "3 gp Handaxe"
+      ],
+      [
+        1,
+        "ingot"
+      ],
+      [
+        1,
+        "short haft"
+      ],
+      [
+        2,
+        "hours"
+      ],
+      [
+        1,
+        "DC"
+      ],
+      [
+        11,
+        "Common"
+      ],
+      [
+        1,
+        "5 gp Javelin"
+      ],
+      [
+        1,
+        "ingot"
+      ],
+      [
+        1,
+        "short haft"
+      ],
+      [
+        2,
+        "hours"
+      ],
+      [
+        1,
+        "DC"
+      ],
+      [
+        9,
+        "Common"
+      ],
+      [
+        1,
+        "3 gp Light Hammer"
+      ],
+      [
+        1,
+        "ingot"
+      ],
+      [
+        1,
+        "short haft"
+      ],
+      [
+        2,
+        "hours"
+      ],
+      [
+        1,
+        "DC"
+      ],
+      [
+        9,
+        "Common"
+      ],
+      [
+        1,
+        "3 gp Mace"
+      ],
+      [
+        2,
+        "ingots"
+      ],
+      [
+        1,
+        "short haft"
+      ],
+      [
+        2,
+        "hours"
+      ],
+      [
+        1,
+        "DC"
+      ],
+      [
+        9,
+        "Common"
+      ],
+      [
+        1,
+        "5 gp Sickle"
+      ],
+      [
+        1,
+        "ingot"
+      ],
+      [
+        1,
+        "short haft"
+      ],
+      [
+        2,
+        "hours"
+      ],
+      [
+        1,
+        "DC"
+      ],
+      [
+        10,
+        "Common"
+      ],
+      [
+        1,
+        "4 gp Spear"
+      ],
+      [
+        1,
+        "ingot"
+      ],
+      [
+        1,
+        "long haft"
+      ],
+      [
+        2,
+        "hours"
+      ],
+      [
+        1,
+        "DC"
+      ],
+      [
+        9,
+        "Common"
+      ],
+      [
+        1,
+        "3 gp Battleaxe"
+      ],
+      [
+        3,
+        "ingots"
+      ],
+      [
+        1,
+        "short haft"
+      ],
+      [
+        4,
+        "hours"
+      ],
+      [
+        2,
+        "DC"
+      ],
+      [
+        12,
+        "Common"
+      ],
+      [
+        1,
+        "10 gp Flail"
+      ],
+      [
+        2,
+        "ingots"
+      ],
+      [
+        1,
+        "short haft"
+      ],
+      [
+        1,
+        "short chain"
+      ],
+      [
+        4,
+        "hours"
+      ],
+      [
+        2,
+        "DC"
+      ],
+      [
+        12,
+        "Common"
+      ],
+      [
+        1,
+        "10 gp Glaive"
+      ],
+      [
+        4,
+        "ingots"
+      ],
+      [
+        1,
+        "long haft"
+      ],
+      [
+        4,
+        "hours"
+      ],
+      [
+        2,
+        "DC"
+      ],
+      [
+        13,
+        "Common"
+      ],
+      [
+        1,
+        "20 gp Greataxe"
+      ],
+      [
+        8,
+        "ingots"
+      ],
+      [
+        1,
+        "short haft"
+      ],
+      [
+        4,
+        "hours"
+      ],
+      [
+        2,
+        "DC"
+      ],
+      [
+        13,
+        "Common"
+      ],
+      [
+        1,
+        "30 gp Greatsword"
+      ],
+      [
+        10,
+        "ingots"
+      ],
+      [
+        4,
+        "hours"
+      ],
+      [
+        2,
+        "DC"
+      ],
+      [
+        15,
+        "Common"
+      ],
+      [
+        1,
+        "50 gp Halberd"
+      ],
+      [
+        4,
+        "ingots"
+      ],
+      [
+        1,
+        "long haft"
+      ],
+      [
+        4,
+        "hours"
+      ],
+      [
+        2,
+        "DC"
+      ],
+      [
+        13,
+        "Common"
+      ],
+      [
+        1,
+        "20 gp Longsword"
+      ],
+      [
+        4,
+        "ingots"
+      ],
+      [
+        4,
+        "hours"
+      ],
+      [
+        2,
+        "DC"
+      ],
+      [
+        14,
+        "Common"
+      ],
+      [
+        1,
+        "15 gp Maul"
+      ],
+      [
+        8,
+        "ingots"
+      ],
+      [
+        1,
+        "short haft"
+      ],
+      [
+        4,
+        "hours"
+      ],
+      [
+        2,
+        "DC"
+      ],
+      [
+        12,
+        "Common"
+      ],
+      [
+        1,
+        "25 gp Morning Star"
+      ],
+      [
+        4,
+        "ingots"
+      ],
+      [
+        1,
+        "short haft"
+      ],
+      [
+        4,
+        "hours"
+      ],
+      [
+        2,
+        "DC"
+      ],
+      [
+        14,
+        "Common"
+      ],
+      [
+        1,
+        "15 gp Pike"
+      ],
+      [
+        3,
+        "ingots"
+      ],
+      [
+        1,
+        "long haft"
+      ],
+      [
+        4,
+        "hours"
+      ],
+      [
+        2,
+        "DC"
+      ],
+      [
+        12,
+        "Common"
+      ],
+      [
+        1,
+        "15 gp Rapier"
+      ],
+      [
+        1,
+        "ingot"
+      ],
+      [
+        4,
+        "hours"
+      ],
+      [
+        2,
+        "DC"
+      ],
+      [
+        15,
+        "Common"
+      ],
+      [
+        1,
+        "25 gp Scimitar"
+      ],
+      [
+        2,
+        "ingots"
+      ],
+      [
+        4,
+        "hours"
+      ],
+      [
+        2,
+        "DC"
+      ],
+      [
+        14,
+        "Common"
+      ],
+      [
+        1,
+        "25 gp Shortsword"
+      ],
+      [
+        2,
+        "ingots"
+      ],
+      [
+        4,
+        "hours"
+      ],
+      [
+        2,
+        "DC"
+      ],
+      [
+        12,
+        "Common"
+      ],
+      [
+        1,
+        "10 gp War Pick"
+      ],
+      [
+        2,
+        "ingots"
+      ],
+      [
+        1,
+        "short haft"
+      ],
+      [
+        4,
+        "hours"
+      ],
+      [
+        2,
+        "DC"
+      ],
+      [
+        12,
+        "Common"
+      ],
+      [
+        1,
+        "10 gp War Hammer"
+      ],
+      [
+        4,
+        "ingots"
+      ],
+      [
+        1,
+        "short haft"
+      ],
+      [
+        4,
+        "hours"
+      ],
+      [
+        2,
+        "DC"
+      ],
+      [
+        12,
+        "Common"
+      ],
+      [
+        1,
+        "15 gp Chain Shirt"
+      ],
+      [
+        5,
+        "ingots"
+      ]
+    ],
+    "time": "14 hours",
+    "num_checks": 7,
+    "dc": 13,
+    "note": ""
+  },
+  {
+    "craft": "blacksmithing",
+    "result": "scale mail|phb",
+    "quantity": "1",
+    "materials": [
+      [
+        8,
+        "ingots"
+      ],
+      [
+        1,
+        "armor padding"
+      ]
+    ],
+    "time": "14 hours",
+    "num_checks": 7,
+    "dc": 12,
+    "note": ""
+  },
+  {
+    "craft": "blacksmithing",
+    "result": "breastplate|phb",
+    "quantity": "1",
+    "materials": [
+      [
+        10,
+        "ingots"
+      ]
+    ],
+    "time": "16 hours",
+    "num_checks": 8,
+    "dc": 16,
+    "note": ""
+  },
+  {
+    "craft": "blacksmithing",
+    "result": "half plate armor|phb",
+    "quantity": "1",
+    "materials": [
+      [
+        16,
+        "ingots"
+      ],
+      [
+        1,
+        "armor padding"
+      ]
+    ],
+    "time": "28 hours",
+    "num_checks": 14,
+    "dc": 17,
+    "note": ""
+  },
+  {
+    "craft": "blacksmithing",
+    "result": "ring mail|phb",
+    "quantity": "1",
+    "materials": [
+      [
+        4,
+        "ingots"
+      ],
+      [
+        1,
+        "armor padding"
+      ]
+    ],
+    "time": "10 hours",
+    "num_checks": 5,
+    "dc": 11,
+    "note": ""
+  },
+  {
+    "craft": "blacksmithing",
+    "result": "chain mail|phb",
+    "quantity": "1",
+    "materials": [
+      [
+        9,
+        "ingots"
+      ],
+      [
+        1,
+        "armor padding"
+      ]
+    ],
+    "time": "14 hours",
+    "num_checks": 7,
+    "dc": 13,
+    "note": ""
+  },
+  {
+    "craft": "blacksmithing",
+    "result": "splint armor|phb",
+    "quantity": "1",
+    "materials": [
+      [
+        12,
+        "ingots"
+      ],
+      [
+        1,
+        "armor padding"
+      ]
+    ],
+    "time": "28 hours",
+    "num_checks": 14,
+    "dc": 14,
+    "note": ""
+  },
+  {
+    "craft": "blacksmithing",
+    "result": "plate armor|phb",
+    "quantity": "1",
+    "materials": [
+      [
+        30,
+        "ingots"
+      ],
+      [
+        1,
+        "armor padding"
+      ]
+    ],
+    "time": "56 hours",
+    "num_checks": 28,
+    "dc": 17,
+    "note": ""
+  },
+  {
+    "craft": "blacksmithing",
+    "result": "shield|phb",
+    "quantity": "1",
+    "materials": [
+      [
+        2,
+        "ingots"
+      ]
+    ],
+    "time": "6 hours",
+    "num_checks": 3,
+    "dc": 10,
+    "note": ""
+  },
+  {
+    "craft": "blacksmithing",
+    "result": "Tower Shield|kcg",
+    "quantity": "1",
+    "materials": [
+      [
+        8,
+        "ingots"
+      ]
+    ],
+    "time": "10 hours",
+    "num_checks": 5,
+    "dc": 13,
+    "note": ""
+  },
+  {
+    "craft": "blacksmithing",
+    "result": "Spiked Shield|kcg",
+    "quantity": "1",
+    "materials": [
+      [
+        3,
+        "ingots"
+      ]
+    ],
+    "time": "8 hours",
+    "num_checks": 4,
+    "dc": 14,
+    "note": ""
+  },
+  {
+    "craft": "blacksmithing",
+    "result": "Bracers|kcg",
+    "quantity": "1",
+    "materials": [
+      [
+        2,
+        "ingots"
+      ]
+    ],
+    "time": "4 hours",
+    "num_checks": 2,
+    "dc": 13,
+    "note": ""
+  },
+  {
+    "craft": "blacksmithing",
+    "result": "bell|phb",
+    "quantity": "1",
+    "materials": [
+      [
+        2,
+        "metal scraps"
+      ]
+    ],
+    "time": "2 hours",
+    "num_checks": 1,
+    "dc": 9,
+    "note": ""
+  },
+  {
+    "craft": "blacksmithing",
+    "result": "bucket|phb",
+    "quantity": "1",
+    "materials": [
+      [
+        4,
+        "metal scraps"
+      ],
+      [
+        2,
+        "hours"
+      ],
+      [
+        1,
+        "DC"
+      ],
+      [
+        5,
+        "common"
+      ],
+      [
+        3,
+        "sp Ring"
+      ],
+      [
+        1,
+        "ingot"
+      ]
+    ],
+    "time": "2 hours",
+    "num_checks": 1,
+    "dc": 8,
+    "note": ""
+  },
+  {
+    "craft": "blacksmithing",
+    "result": "horseshoe|kcg",
+    "quantity": "4",
+    "materials": [
+      [
+        2,
+        "ingots"
+      ]
+    ],
+    "time": "4 hours",
+    "num_checks": 2,
+    "dc": 10,
+    "note": ""
+  },
+  {
+    "craft": "blacksmithing",
+    "result": "chain|kcg",
+    "quantity": "5 ft",
+    "materials": [
+      [
+        1,
+        "ingot"
+      ]
+    ],
+    "time": "4 hours",
+    "num_checks": 2,
+    "dc": 10,
+    "note": ""
+  },
+  {
+    "craft": "blacksmithing",
+    "result": "caltrop|phb",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "iron ingot"
+      ]
+    ],
+    "time": "2 hours",
+    "num_checks": 1,
+    "dc": 8,
+    "note": ""
+  },
+  {
+    "craft": "blacksmithing",
+    "result": "ball bearing|phb",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "iron ingot"
+      ]
+    ],
+    "time": "2 hours",
+    "num_checks": 1,
+    "dc": 8,
+    "note": ""
+  },
+  {
+    "craft": "blacksmithing",
+    "result": "iron pot|phb",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "iron ingot"
+      ]
+    ],
+    "time": "2 hours",
+    "num_checks": 1,
+    "dc": 9,
+    "note": ""
+  },
+  {
+    "craft": "blacksmithing",
+    "result": "piton|phb",
+    "quantity": "20",
+    "materials": [
+      [
+        1,
+        "iron ingot"
+      ]
+    ],
+    "time": "2 hours",
+    "num_checks": 1,
+    "dc": 8,
+    "note": ""
+  },
+  {
+    "craft": "blacksmithing",
+    "result": "iron spike|phb",
+    "quantity": "10",
+    "materials": [
+      [
+        2,
+        "iron ingots"
+      ]
+    ],
+    "time": "2 hours",
+    "num_checks": 1,
+    "dc": 8,
+    "note": ""
+  },
+  {
+    "craft": "blacksmithing",
+    "result": "helmet|kcg",
+    "quantity": "1",
+    "materials": [
+      [
+        2,
+        "ingots"
+      ]
+    ],
+    "time": "8 hours",
+    "num_checks": 4,
+    "dc": 12,
+    "note": ""
+  },
+  {
+    "craft": "blacksmithing",
+    "result": "smith's tools|phb",
+    "quantity": "1",
+    "materials": [
+      [
+        4,
+        "ingots"
+      ],
+      [
+        2,
+        "parts"
+      ]
+    ],
+    "time": "8 hours",
+    "num_checks": 4,
+    "dc": 11,
+    "note": ""
+  },
+  {
+    "craft": "blacksmithing",
+    "result": "carpenter's tools|phb",
+    "quantity": "1",
+    "materials": [
+      [
+        2,
+        "ingots"
+      ],
+      [
+        1,
+        "parts"
+      ]
+    ],
+    "time": "6 hours",
+    "num_checks": 3,
+    "dc": 12,
+    "note": ""
+  },
+  {
+    "craft": "blacksmithing",
+    "result": "adamantine ingot|kcg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "steel ingot"
+      ],
+      [
+        1,
+        "adamant ingot requires magical forge"
+      ]
+    ],
+    "time": "2 hours",
+    "num_checks": 1,
+    "dc": 15,
+    "note": ""
+  },
+  {
+    "craft": "blacksmithing",
+    "result": "parts|kcg",
+    "quantity": "1",
+    "materials": [
+      [
+        5,
+        "metal scraps"
+      ]
+    ],
+    "time": "4 hours",
+    "num_checks": 2,
+    "dc": 9,
+    "note": ""
+  },
+  {
+    "craft": "blacksmithing",
+    "result": "buckle|kcg",
+    "quantity": "5",
+    "materials": [
+      [
+        5,
+        "metal scraps"
+      ]
+    ],
+    "time": "2 hours",
+    "num_checks": 1,
+    "dc": 8,
+    "note": ""
+  },
+  {
+    "craft": "blacksmithing",
+    "result": "metal scraps|kcg",
+    "quantity": "20",
+    "materials": [
+      [
+        1,
+        "ingot"
+      ]
+    ],
+    "time": "2 hours",
+    "num_checks": 1,
+    "dc": 5,
+    "note": ""
+  },
+  {
+    "craft": "blacksmithing",
+    "result": "iron ingot|kcg",
+    "quantity": "1",
+    "materials": [
+      [
+        20,
+        "metal scraps"
+      ]
+    ],
+    "time": "2 hours",
+    "num_checks": 1,
+    "dc": 5,
+    "note": ""
+  },
+  {
+    "craft": "blacksmithing",
+    "result": "iron ingot|kcg",
+    "quantity": "10",
+    "materials": [
+      [
+        10,
+        "iron ore"
+      ]
+    ],
+    "time": "4 hours",
+    "num_checks": 2,
+    "dc": 5,
+    "note": "Smelting ore requires specialized factilities. This can usually be accomplished in a fully equiped smithy, but consult your GM for where it might be appropriate. Adventurers rarely smelt their own ore, these are included primarily for informational purposes. Smelting magical ores may require more specialized facilities or locations."
+  },
+  {
+    "craft": "blacksmithing",
+    "result": "steel ingot|kcg",
+    "quantity": "10",
+    "materials": [
+      [
+        10,
+        "iron ore"
+      ],
+      [
+        1,
+        "supplies"
+      ]
+    ],
+    "time": "4 hours",
+    "num_checks": 2,
+    "dc": 8,
+    "note": "Smelting ore requires specialized factilities. This can usually be accomplished in a fully equiped smithy, but consult your GM for where it might be appropriate. Adventurers rarely smelt their own ore, these are included primarily for informational purposes. Smelting magical ores may require more specialized facilities or locations."
+  },
+  {
+    "craft": "blacksmithing",
+    "result": "silver ingot|kcg",
+    "quantity": "1",
+    "materials": [
+      [
+        20,
+        "silver scraps"
+      ]
+    ],
+    "time": "2 hours",
+    "num_checks": 1,
+    "dc": 5,
+    "note": ""
+  },
+  {
+    "craft": "blacksmithing",
+    "result": "silver scraps|kcg",
+    "quantity": "20",
+    "materials": [
+      [
+        1,
+        "silver ingot"
+      ]
+    ],
+    "time": "2 hours",
+    "num_checks": 1,
+    "dc": 5,
+    "note": ""
+  },
+  {
+    "craft": "blacksmithing",
+    "result": "fancy parts|kcg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "ingot"
+      ]
+    ],
+    "time": "4 hours",
+    "num_checks": 2,
+    "dc": 12,
+    "note": ""
+  },
+  {
+    "craft": "blacksmithing",
+    "result": "gold ingot|kcg",
+    "quantity": "1",
+    "materials": [
+      [
+        20,
+        "gold scraps"
+      ]
+    ],
+    "time": "2 hours",
+    "num_checks": 1,
+    "dc": 5,
+    "note": ""
+  },
+  {
+    "craft": "blacksmithing",
+    "result": "gold scraps|kcg",
+    "quantity": "20",
+    "materials": [
+      [
+        1,
+        "gold ingot"
+      ]
+    ],
+    "time": "2 hours",
+    "num_checks": 1,
+    "dc": 5,
+    "note": ""
+  },
+  {
+    "craft": "blacksmithing",
+    "result": "mithril ingot|kcg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "mithril ore"
+      ]
+    ],
+    "time": "2 hours",
+    "num_checks": 1,
+    "dc": 15,
+    "note": "Smelting ore requires specialized factilities. This can usually be accomplished in a fully equiped smithy, but consult your GM for where it might be appropriate. Adventurers rarely smelt their own ore, these are included primarily for informational purposes. Smelting magical ores may require more specialized facilities or locations."
+  },
+  {
+    "craft": "blacksmithing",
+    "result": "adamantine ingot|kcg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "admant ore"
+      ]
+    ],
+    "time": "2 hours",
+    "num_checks": 1,
+    "dc": 16,
+    "note": "Smelting ore requires specialized factilities. This can usually be accomplished in a fully equiped smithy, but consult your GM for where it might be appropriate. Adventurers rarely smelt their own ore, these are included primarily for informational purposes. Smelting magical ores may require more specialized facilities or locations."
+  },
+  {
+    "craft": "blacksmithing",
+    "result": "icesteel ingot|kcg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "icesteel ore"
+      ],
+      [
+        1,
+        "common primal essence"
+      ]
+    ],
+    "time": "2 hours",
+    "num_checks": 1,
+    "dc": 16,
+    "note": "Smelting ore requires specialized factilities. This can usually be accomplished in a fully equiped smithy, but consult your GM for where it might be appropriate. Adventurers rarely smelt their own ore, these are included primarily for informational purposes. Smelting magical ores may require more specialized facilities or locations."
+  },
+  {
+    "craft": "blacksmithing",
+    "result": "firesteel ingot|kcg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "firesteel ore"
+      ],
+      [
+        1,
+        "common primal essence"
+      ]
+    ],
+    "time": "2 hours",
+    "num_checks": 1,
+    "dc": 16,
+    "note": "Smelting ore requires specialized factilities. This can usually be accomplished in a fully equiped smithy, but consult your GM for where it might be appropriate. Adventurers rarely smelt their own ore, these are included primarily for informational purposes. Smelting magical ores may require more specialized facilities or locations."
+  },
+  {
+    "craft": "blacksmithing",
+    "result": "darksteel ingot|kcg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "darksteel ore"
+      ],
+      [
+        1,
+        "common arcane essence"
+      ]
+    ],
+    "time": "2 hours",
+    "num_checks": 1,
+    "dc": 16,
+    "note": "Smelting ore requires specialized factilities. This can usually be accomplished in a fully equiped smithy, but consult your GM for where it might be appropriate. Adventurers rarely smelt their own ore, these are included primarily for informational purposes. Smelting magical ores may require more specialized facilities or locations."
+  },
+  {
+    "craft": "blacksmithing",
+    "result": "thunder cannon ammo|kcg",
+    "quantity": "10",
+    "materials": [
+      [
+        2,
+        "ingots"
+      ]
+    ],
+    "time": "2 hours",
+    "num_checks": 1,
+    "dc": 15,
+    "note": ""
+  },
+  {
+    "craft": "blacksmithing",
+    "result": "firearm ammunition|kcg",
+    "quantity": "20",
+    "materials": [
+      [
+        2,
+        "lead ingots"
+      ],
+      [
+        1,
+        "packet of blasting powder"
+      ]
+    ],
+    "time": "4 hours",
+    "num_checks": 2,
+    "dc": 15,
+    "note": ""
+  },
+  {
+    "craft": "blacksmithing",
+    "result": "pistol|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        3,
+        "ingots"
+      ],
+      [
+        4,
+        "parts"
+      ],
+      [
+        2,
+        "fancy parts"
+      ]
+    ],
+    "time": "16 hours",
+    "num_checks": 8,
+    "dc": 16,
+    "note": ""
+  },
+  {
+    "craft": "blacksmithing",
+    "result": "musket|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        6,
+        "ingots"
+      ],
+      [
+        4,
+        "parts"
+      ],
+      [
+        2,
+        "fancy parts"
+      ]
+    ],
+    "time": "16 hours",
+    "num_checks": 8,
+    "dc": 17,
+    "note": ""
+  },
+  {
+    "craft": "blacksmithing",
+    "result": "shotgun|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        8,
+        "ingots"
+      ],
+      [
+        4,
+        "parts"
+      ],
+      [
+        2,
+        "fancy parts"
+      ],
+      [
+        2,
+        "esoteric parts"
+      ]
+    ],
+    "time": "32 hours",
+    "num_checks": 16,
+    "dc": 19,
+    "note": ""
+  },
+  {
+    "craft": "blacksmithing",
+    "result": "Thunder Cannon|kcg",
+    "quantity": "1",
+    "materials": [
+      [
+        6,
+        "ingots"
+      ],
+      [
+        2,
+        "uncommon primal essence"
+      ],
+      [
+        2,
+        "uncommon arcane essence"
+      ],
+      [
+        4,
+        "parts"
+      ],
+      [
+        2,
+        "fancy parts"
+      ],
+      [
+        1,
+        "esoteric part"
+      ]
+    ],
+    "time": "8 hours",
+    "num_checks": 4,
+    "dc": 17,
+    "note": ""
   },
   {
     "craft": "alchemy",
     "result": "sticky goo potion|kcg",
+    "quantity": 1,
     "materials": [
       [
         1,
@@ -1873,6 +3383,7 @@
   {
     "craft": "alchemy",
     "result": "sticky goo potion|kcg",
+    "quantity": 1,
     "materials": [
       [
         2,
@@ -1885,6 +3396,28 @@
       [
         1,
         "glass flask"
+      ]
+    ],
+    "time": "2 hours",
+    "num_checks": 1,
+    "dc": 14
+  },
+  {
+    "craft": "blacksmithing",
+    "result": "manacles|phb",
+    "quantity": 1,
+    "materials": [
+      [
+        1,
+        "chain (5 feet)"
+      ],
+      [
+        5,
+        "iron ingot"
+      ],
+      [
+        1,
+        "lock"
       ]
     ],
     "time": "2 hours",

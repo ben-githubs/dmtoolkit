@@ -16,6 +16,7 @@ _RECIPES: dict[Item, list[Recipe]] = defaultdict(list)
 class CraftingType(StrEnum):
     Alchemy = auto()
     Poisoncraft = auto()
+    Blacksmithing = auto()
 
 @dataclass
 class Recipe:
@@ -25,6 +26,8 @@ class Recipe:
     dc: int
     num_checks: int
     crafting_time: str = ""
+    note: str = ""
+    quantity: int = 1
 
     @staticmethod
     def from_spec(spec: dict[str, Any]) -> Recipe:
@@ -41,14 +44,21 @@ class Recipe:
             if item:
                 materials.append(ItemWrapper(item, quantity))
             else:
-                materials.append(material)
+                materials.append(f"{str(quantity) + ' x ' if quantity != 1 else ''}{material}")
+
+        kwargs = {}
+        for optarg in ("quantity", "note"):
+            if val := spec.get(optarg):
+                kwargs[optarg] = val
+
         recipe = Recipe(
             crafting_type = CraftingType(spec["craft"]),
             result = result,
             materials = materials,
             dc = spec["dc"],
             num_checks = spec["num_checks"],
-            crafting_time = spec["time"]
+            crafting_time = spec["time"],
+            **kwargs
         )
         
         global _RECIPES
