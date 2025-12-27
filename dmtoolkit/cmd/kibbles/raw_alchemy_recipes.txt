@@ -272,14 +272,14 @@ Dwarven AlcoholK
 Packet of Blasting
 PowderK 2 common reactive reagent 2 hours 1 DC 14 common 40 gp
 Smoke PowderK 2 common reactive reagent 2 hours 1 DC 15 common 40 gp
-Simple ExplosiveK 2 packet ofing powder
+Simple ExplosiveK 2 packet of blasting powder
 1 common reactive reagent 2 hours 1 DC 15 common 120 gp
 Grenade CasingK
 2 parts
 1 fancy parts
 1 glass flask
 4 hours 1 DC 15 uncommon 50 gp
-Potent ExplosiveK 4 packet ofing powder
+Potent ExplosiveK 4 packet of blasting powder
 1 common reactive reagent 2 hours 1 DC 17 uncommon 250 gp
 Nail BombK
 3 parts

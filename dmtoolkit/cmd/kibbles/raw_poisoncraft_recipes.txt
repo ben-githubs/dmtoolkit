@@ -1,0 +1,96 @@
+Dizzying TouchK
+1 common poisonous reagent
+1 common arcane essence
+1 glass vial
+2 hours 1 DC 14 common 45 gp
+Simple Injury
+PoisonK
+2 common poisonous reagent
+1 glass vial 2 hour 1 DC 14 common 40 gp
+Simple Inhaled
+PoisonK
+2 common poisonous reagent
+1 common reactive reagent
+1 glass vial
+2 hour 1 DC 14 common 60 gp
+Simple Contact
+PoisonK
+2 common poisonous reagent
+1 glass vial 2 hour 1 DC 14 common 40 gp
+Simple Ingested
+PoisonK
+2 common poisonous reagent
+1 glass vial 2 hour 1 DC 12 common 35 gp
+Burning
+WoundK
+1 uncommon poisonous reagent
+1 uncommon reactive reagent
+2 common reactive reagent
+1 glass vial
+2 hours 1 DC 16 uncommon 150 gp
+Old ReliableK
+1 uncommon poisonous reagent
+1 common curative reagent
+1 glass vial
+2 hours 1 DC 14 uncommon 70 gp
+Potent Injury
+PoisonK
+2 uncommon poisonous reagent
+1 glass vial 2 hours 1 DC 15 uncommon 100 gp
+Potent Inhaled
+PoisonK
+2 uncommon poisonous reagent
+1 uncommon reactive reagent
+1 glass vial
+2 hours 1 DC 15 uncommon 140 gp
+Potent Contact
+PoisonK
+2 uncommon poisonous reagent
+1 glass vial 2 hours 1 DC 15 uncommon 100 gp
+Potent Ingested
+PoisonK
+2 uncommon poisonous reagent
+1 glass vial 2 hour 1 DC 14 uncommon 95 gp
+Withering SoulK
+1 uncommon poisonous reagent
+1 common arcane essence
+1 glass vial
+2 hours 1 DC 14 uncommon 100 gp
+Crawler Mucus 1 rare poisonous reagent
+1 glass vial 2 hours 1 DC 16 rare 250 gp
+Fainting
+FumesK
+1 rare poisonous reagent
+1 uncommon reactive regeant
+2 uncommon poisonous reagent
+1 glass vial
+4 hours 2 DC 16 rare 415 gp
+Essence of
+Ether
+1 rare poisonous reagent
+1 glass vial 2 hours 1 DC 17 rare 270 gp
+Malice 1 rare poisonous reagent 2 hours 1 DC 16 rare 250 gp
+Knockout
+Poison
+3 rare poisonous reagent
+1 glass vial 4 hour 2 DC 17 rare 760 gp
+Paralyzing
+PoisonK
+2 rare poisonous reagent
+2 uncommon poisonous reagent
+1 glass vial
+4 hours 2 DC 16 rare 590 gp
+Veins of TarK
+1 rare poisonous reagent
+1 uncommon reactive reagent
+1 uncommon supplies
+1 glass vial
+4 hours 2 DC 15 rare 300 gp
+Whispers of
+MadnessK
+1 rare poisonous reagent
+1 uncommon psionic essence
+1 glass vial
+4 hours 2 DC 16 rare 450 gp
+Midnight Tears 1 very rare poisonous reagent
+1 crystal vial 4 hours 2 DC 16 very rare 2,300 gp

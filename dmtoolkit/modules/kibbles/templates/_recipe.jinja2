@@ -1,4 +1,4 @@
-<div id="recipe-statblock" class="statblock">
+<div id="recipe-statblock" class="statblock" style="max-width: 850px; flex-grow: 1">
     <h1>{{ item.name }}</h1>
     <div style="display: flex; width: 100%; justify-content: space-between">
         <div><em>{{ item.item_type or "Wonderous Item"}}</em></div>
@@ -30,11 +30,39 @@
 
     {% for recipe in recipes %}
         <h3>Recipe #{{loop.index}}</h3>
-        <em>Requires DC {{ recipe.dc }} {{ recipe.crafting_type | title }} check and takes {{ recipe.crafting_time }}</em>
+        <em>Requires {{ recipe.num_checks }} successful DC {{ recipe.dc }} {{ recipe.crafting_type | title }} check{{ 's' if recipe.num_checks != 1 }} and takes {{ recipe.crafting_time }}</em>
         <ul>
             {% for ingredient_wrapper in recipe.materials %}
                 <li>{{ ingredient_wrapper | macro5e }}</li>
             {% endfor%}
         </ul>
     {% endfor %}
+</div>
+<div style="flex-grow: 1">
+    <h3>Crafting Quick Guide</h3>
+    {% if recipes %}
+        {% if recipes[0].crafting_type == 'alchemy' %}
+            <ul>
+                <li>Acquire the items listed in the materials section for your chosen potion.</li>
+                <li>Use your alchemist’s supplies tool to craft the potion using the number of hours listed in the Crafting Time column, or during a long rest using the crafting camp action if the crafting time is 2 hours or less. Alchemy items must be crafted in a single session.</li>
+                <li>For every 2 hours, make a crafting roll of 1d20 + your Intelligence or Wisdom modifier (your choice) + your proficiency bonus with alchemist’s supplies. You can abort the craft after a bad crafting roll if you wish, this counts as a failure.</li>
+                <li>On success, you mark 2 hours of completed time. Once the completed time is equal to the crafting time, the magic item is complete. On failure, the crafting time is lost and no progress has been made during the 2 hours. If you fail 3 times in a row, the crafting is a failure and all materials are lost.</li>
+            </ul>
+        {% elif recipes[0].crafting_type == 'poisoncraft' %}
+            <ul>
+                <li>Acquire the items listed in the materials section for your chosen poison.</li>
+                <li>Use your Poisoner’s Kit tool to craft the option using the number of hours listed in the Crafting Time column, or during a long rest using the crafting camp action if the crafting time is 2 hours or less. Poisoncraft items must be crafted in a single session.</li>
+                <li>For every 2 hours, make a crafting roll of 1d20 + your Intelligence or Wisdom modifier (your choice) + your proficiency bonus with a Poisoner’s Kit. You can abort the craft after a bad crafting roll if you wish, this counts as a failure.</li>
+                <li>On success, you mark 2 hours of completed time. Once the completed time is equal to the crafting time, the magic item is complete. On failure, the crafting time is lost and no progress has been made during the 2 hours. If you fail 3 times in a row, the crafting is a failure and all materials are lost.</li>
+            </ul>
+        {% elif recipes[0].crafting_type == "blackmsithing"%}
+            <ul>
+                <li>Acquire the items listed in the materials section for your chosen item.</li>
+                <li>Use your blacksmith’s tools to craft the option using the number of hours listed in the Crafting Time column.</li>
+                <li>For every 2 hours, make a crafting roll of 1d20 + your Strength modifier + your proficiency bonus with blacksmith’s tools.</li>
+                <li>On success, you mark 2 hours of completed time. Once the completed time is equal to the crafting time, the item is complete.</li>
+                <li>On failure, the crafting time is lost and no progress has been made during the 2 hours. If you fail 3 times in a row, the crafting is a failure and all materials are lost.</li>
+            </ul>
+        {% endif %}
+    {% endif %}
 </div>

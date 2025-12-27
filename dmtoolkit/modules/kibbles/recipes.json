@@ -1104,7 +1104,7 @@
     "materials": [
       [
         2,
-        "packet ofing powder"
+        "packet of blasting powder"
       ],
       [
         1,
@@ -1142,7 +1142,7 @@
     "materials": [
       [
         4,
-        "packet ofing powder"
+        "packet of blasting powder"
       ],
       [
         1,
@@ -1445,6 +1445,411 @@
     "dc": 22
   },
   {
+    "craft": "poisoncraft",
+    "result": "Dizzying Touch|kcg",
+    "materials": [
+      [
+        1,
+        "common poisonous reagent"
+      ],
+      [
+        1,
+        "common arcane essence"
+      ],
+      [
+        1,
+        "glass vial"
+      ]
+    ],
+    "time": "2 hours",
+    "num_checks": 1,
+    "dc": 14
+  },
+  {
+    "craft": "poisoncraft",
+    "result": "Simple Injury Poison|kcg",
+    "materials": [
+      [
+        2,
+        "common poisonous reagent"
+      ],
+      [
+        1,
+        "glass vial"
+      ]
+    ],
+    "time": "2 hour",
+    "num_checks": 1,
+    "dc": 14
+  },
+  {
+    "craft": "poisoncraft",
+    "result": "Simple Inhaled Poison|kcg",
+    "materials": [
+      [
+        2,
+        "common poisonous reagent"
+      ],
+      [
+        1,
+        "common reactive reagent"
+      ],
+      [
+        1,
+        "glass vial"
+      ]
+    ],
+    "time": "2 hour",
+    "num_checks": 1,
+    "dc": 14
+  },
+  {
+    "craft": "poisoncraft",
+    "result": "Simple Contact Poison|kcg",
+    "materials": [
+      [
+        2,
+        "common poisonous reagent"
+      ],
+      [
+        1,
+        "glass vial"
+      ]
+    ],
+    "time": "2 hour",
+    "num_checks": 1,
+    "dc": 14
+  },
+  {
+    "craft": "poisoncraft",
+    "result": "Simple Ingested Poison|kcg",
+    "materials": [
+      [
+        2,
+        "common poisonous reagent"
+      ],
+      [
+        1,
+        "glass vial"
+      ]
+    ],
+    "time": "2 hour",
+    "num_checks": 1,
+    "dc": 12
+  },
+  {
+    "craft": "poisoncraft",
+    "result": "Burning Wound|kcg",
+    "materials": [
+      [
+        1,
+        "uncommon poisonous reagent"
+      ],
+      [
+        1,
+        "uncommon reactive reagent"
+      ],
+      [
+        2,
+        "common reactive reagent"
+      ],
+      [
+        1,
+        "glass vial"
+      ]
+    ],
+    "time": "2 hours",
+    "num_checks": 1,
+    "dc": 16
+  },
+  {
+    "craft": "poisoncraft",
+    "result": "Old Reliable|kcg",
+    "materials": [
+      [
+        1,
+        "uncommon poisonous reagent"
+      ],
+      [
+        1,
+        "common curative reagent"
+      ],
+      [
+        1,
+        "glass vial"
+      ]
+    ],
+    "time": "2 hours",
+    "num_checks": 1,
+    "dc": 14
+  },
+  {
+    "craft": "poisoncraft",
+    "result": "Potent Injury Poison|kcg",
+    "materials": [
+      [
+        2,
+        "uncommon poisonous reagent"
+      ],
+      [
+        1,
+        "glass vial"
+      ]
+    ],
+    "time": "2 hours",
+    "num_checks": 1,
+    "dc": 15
+  },
+  {
+    "craft": "poisoncraft",
+    "result": "Potent Inhaled Poison|kcg",
+    "materials": [
+      [
+        2,
+        "uncommon poisonous reagent"
+      ],
+      [
+        1,
+        "uncommon reactive reagent"
+      ],
+      [
+        1,
+        "glass vial"
+      ]
+    ],
+    "time": "2 hours",
+    "num_checks": 1,
+    "dc": 15
+  },
+  {
+    "craft": "poisoncraft",
+    "result": "Potent Contact Poison|kcg",
+    "materials": [
+      [
+        2,
+        "uncommon poisonous reagent"
+      ],
+      [
+        1,
+        "glass vial"
+      ]
+    ],
+    "time": "2 hours",
+    "num_checks": 1,
+    "dc": 15
+  },
+  {
+    "craft": "poisoncraft",
+    "result": "Potent Ingested Poison|kcg",
+    "materials": [
+      [
+        2,
+        "uncommon poisonous reagent"
+      ],
+      [
+        1,
+        "glass vial"
+      ]
+    ],
+    "time": "2 hour",
+    "num_checks": 1,
+    "dc": 14
+  },
+  {
+    "craft": "poisoncraft",
+    "result": "Withering Soul|kcg",
+    "materials": [
+      [
+        1,
+        "uncommon poisonous reagent"
+      ],
+      [
+        1,
+        "common arcane essence"
+      ],
+      [
+        1,
+        "glass vial"
+      ]
+    ],
+    "time": "2 hours",
+    "num_checks": 1,
+    "dc": 14
+  },
+  {
+    "craft": "poisoncraft",
+    "result": "crawler mucus|kcg",
+    "materials": [
+      [
+        1,
+        "rare poisonous reagent"
+      ],
+      [
+        1,
+        "glass vial"
+      ]
+    ],
+    "time": "2 hours",
+    "num_checks": 1,
+    "dc": 16
+  },
+  {
+    "craft": "poisoncraft",
+    "result": "Fainting Fumes|kcg",
+    "materials": [
+      [
+        1,
+        "rare poisonous reagent"
+      ],
+      [
+        1,
+        "uncommon reactive regeant"
+      ],
+      [
+        2,
+        "uncommon poisonous reagent"
+      ],
+      [
+        1,
+        "glass vial"
+      ]
+    ],
+    "time": "4 hours",
+    "num_checks": 2,
+    "dc": 16
+  },
+  {
+    "craft": "poisoncraft",
+    "result": "essence of ether|dmg",
+    "materials": [
+      [
+        1,
+        "rare poisonous reagent"
+      ],
+      [
+        1,
+        "glass vial"
+      ]
+    ],
+    "time": "2 hours",
+    "num_checks": 1,
+    "dc": 17
+  },
+  {
+    "craft": "poisoncraft",
+    "result": "malice|dmg",
+    "materials": [
+      [
+        1,
+        "rare poisonous reagent"
+      ]
+    ],
+    "time": "2 hours",
+    "num_checks": 1,
+    "dc": 16
+  },
+  {
+    "craft": "poisoncraft",
+    "result": "knockout poison|kcg",
+    "materials": [
+      [
+        3,
+        "rare poisonous reagent"
+      ],
+      [
+        1,
+        "glass vial"
+      ]
+    ],
+    "time": "4 hour",
+    "num_checks": 2,
+    "dc": 17
+  },
+  {
+    "craft": "poisoncraft",
+    "result": "Paralyzing Poison|kcg",
+    "materials": [
+      [
+        2,
+        "rare poisonous reagent"
+      ],
+      [
+        2,
+        "uncommon poisonous reagent"
+      ],
+      [
+        1,
+        "glass vial"
+      ]
+    ],
+    "time": "4 hours",
+    "num_checks": 2,
+    "dc": 16
+  },
+  {
+    "craft": "poisoncraft",
+    "result": "Veins of Tar|kcg",
+    "materials": [
+      [
+        1,
+        "rare poisonous reagent"
+      ],
+      [
+        1,
+        "uncommon reactive reagent"
+      ],
+      [
+        1,
+        "uncommon supplies"
+      ],
+      [
+        1,
+        "glass vial"
+      ]
+    ],
+    "time": "4 hours",
+    "num_checks": 2,
+    "dc": 15
+  },
+  {
+    "craft": "poisoncraft",
+    "result": "Whispers of Madness|kcg",
+    "materials": [
+      [
+        1,
+        "rare poisonous reagent"
+      ],
+      [
+        1,
+        "uncommon psionic essence"
+      ],
+      [
+        1,
+        "glass vial"
+      ]
+    ],
+    "time": "4 hours",
+    "num_checks": 2,
+    "dc": 16
+  },
+  {
+    "craft": "poisoncraft",
+    "result": "midnight tears|dmg",
+    "materials": [
+      [
+        1,
+        "very rare poisonous reagent"
+      ],
+      [
+        1,
+        "crystal vial"
+      ]
+    ],
+    "time": "4 hours",
+    "num_checks": 2,
+    "dc": 16
+  },
+  {
     "craft": "alchemy",
     "result": "sticky goo potion|kcg",
     "materials": [
@@ -1471,7 +1876,7 @@
     "materials": [
       [
         2,
-        "uncommon poisonous reagents"
+        "uncommon poisonous reagent"
       ],
       [
         1,

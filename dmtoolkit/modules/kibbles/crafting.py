@@ -15,6 +15,7 @@ _RECIPES: dict[Item, list[Recipe]] = defaultdict(list)
 
 class CraftingType(StrEnum):
     Alchemy = auto()
+    Poisoncraft = auto()
 
 @dataclass
 class Recipe:

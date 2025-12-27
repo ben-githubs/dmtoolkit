@@ -734,6 +734,29 @@
     "__dataclass__": "Item"
   },
   {
+    "name": "Crawler Mucus",
+    "source": [
+      "KCG",
+      40
+    ],
+    "rarity": "uncommon",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "Applied to an object. The first creature that touches must make a Constitution saving throw with a DC equal to the crafter's Poison DC or be Poisoned for 1 minute. The Poisoned creature is Paralyzed. The creature can repeat the saving throw at the end of each of its turns, Ending the Effect on itself on a success., after which the poison is rubbed off."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 25000,
+    "item_type": "Adventuring Gear",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
     "name": "Simple Injury Poison",
     "source": [
       "KCG",

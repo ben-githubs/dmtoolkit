@@ -13,8 +13,8 @@ IGNORE_NAMES = [
     "Sticky Goo PotionK"
 ]
 
-def convert_alchemy():
-    with (DATA_DIR / "raw_alchemy_recipes.txt").open("r") as f:
+def read_file(fname: Path, crafting_type: str) -> list[dict]:
+    with fname.open("r") as f:
         contents = " ".join([s.strip() for s in f.readlines()])
         contents = re.sub(r"\x01", "", contents)
     lines = re.sub(r"((?:common|uncommon|rare|very rare|legendary) [\d,]+ )(gp)", r"\1gp\n", contents).split("\n")
@@ -61,7 +61,7 @@ def convert_alchemy():
         dc = int(groups.get("dc", "10"))
 
         recipe = {
-            "craft": "alchemy",
+            "craft": crafting_type,
             "result": item_id,
             "materials": materials,
             "time": time,
@@ -71,6 +71,12 @@ def convert_alchemy():
         recipes.append(recipe)
     
     return recipes
+
+def convert_alchemy():
+    return read_file(DATA_DIR / "raw_alchemy_recipes.txt", "alchemy")
+
+def convert_poisoncraft():
+    return read_file(DATA_DIR / "raw_poisoncraft_recipes.txt", "poisoncraft")
 
 def hard_coded_recipes():
     return [
@@ -90,7 +96,7 @@ def hard_coded_recipes():
             "craft": "alchemy",
             "result": "sticky goo potion|kcg",
             "materials": [
-                [2, "uncommon poisonous reagents"],
+                [2, "uncommon poisonous reagent"],
                 [1, "uncommon reactive reagent"],
                 [1, "glass flask"]
             ],
@@ -101,6 +107,6 @@ def hard_coded_recipes():
     ]
 
 def convert():
-    recipes = convert_alchemy() + hard_coded_recipes()
+    recipes = convert_alchemy() + convert_poisoncraft() + hard_coded_recipes()
     with TARGET_FILE.open("w") as f:
         json.dump(recipes, f, indent=2)
