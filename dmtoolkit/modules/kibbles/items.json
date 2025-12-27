@@ -1376,7 +1376,7 @@
     "__dataclass__": "Item"
   },
   {
-    "name": "Enchanting Feast",
+    "name": "Enhancing Feast",
     "source": [
       "KCG",
       58
@@ -1392,6 +1392,87 @@
           "Roll 1d4 per Hit Dice traded and gain temporary hit points equal to the value rolled.",
           "Trade three Hit Dice for an additional spell slot of 1st level.",
           "Gain a point that can be expended like Inspiration by trading 5 Hit Dice per point."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 1500,
+    "item_type": "Feast",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Wondrous Feast",
+    "source": [
+      "KCG",
+      58
+    ],
+    "rarity": "uncommon",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "Up to 5 creatures can consume this feast within an hour of it being prepared. After consuming this hearty meal, you become satiated for the next 24 hours. You gain the benefits for a common feast, but can gain additional benefits by trading in Hit Dice that would be gained as part of your next long rest after consuming this meal. These Hit Dice are consumed after calculating how many you would have after the rest (including the benefits of the feast), but you can trade Hit Dice in this way you would normally lose if you have more than your maximum Hit Dice.",
+          "You can trade Hit Dice in this way up to a number equal to your proficiency bonus. The benefits scale based on the rarity on the feast.",
+          "Roll 1d6 per Hit Dice traded and gain temporary hit points equal to the value rolled.",
+          "Trade three Hit Dice for an additional spell slot of 2nd level.",
+          "Gain a point that can be expended like Inspiration by trading 4 Hit Dice per point."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 1500,
+    "item_type": "Feast",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Supurb Feast",
+    "source": [
+      "KCG",
+      58
+    ],
+    "rarity": "very rare",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "Up to 5 creatures can consume this feast within an hour of it being prepared. After consuming this hearty meal, you become satiated for the next 24 hours. You gain the benefits for a common feast, but can gain additional benefits by trading in Hit Dice that would be gained as part of your next long rest after consuming this meal. These Hit Dice are consumed after calculating how many you would have after the rest (including the benefits of the feast), but you can trade Hit Dice in this way you would normally lose if you have more than your maximum Hit Dice.",
+          "You can trade Hit Dice in this way up to a number equal to your proficiency bonus. The benefits scale based on the rarity on the feast.",
+          "Roll 1d8 per Hit Dice traded and gain temporary hit points equal to the value rolled.",
+          "Trade three Hit Dice for an additional spell slot of 3rd level.",
+          "Gain a point that can be expended like Inspiration by trading 3 Hit Dice per point."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 1500,
+    "item_type": "Feast",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Legendary Feast",
+    "source": [
+      "KCG",
+      58
+    ],
+    "rarity": "legendary",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "Up to 5 creatures can consume this feast within an hour of it being prepared. After consuming this hearty meal, you become satiated for the next 24 hours. You gain the benefits for a common feast, but can gain additional benefits by trading in Hit Dice that would be gained as part of your next long rest after consuming this meal. These Hit Dice are consumed after calculating how many you would have after the rest (including the benefits of the feast), but you can trade Hit Dice in this way you would normally lose if you have more than your maximum Hit Dice.",
+          "You can trade Hit Dice in this way up to a number equal to your proficiency bonus. The benefits scale based on the rarity on the feast.",
+          "Roll 1d12 per Hit Dice traded and gain temporary hit points equal to the value rolled.",
+          "Trade three Hit Dice for an additional spell slot of 4th level.",
+          "Gain a point that can be expended like Inspiration by trading 2 Hit Dice per point."
         ],
         "style": {},
         "__dataclass__": "Entry"
@@ -4809,7 +4890,7 @@
     "__dataclass__": "Item"
   },
   {
-    "name": "Cooking Supplies",
+    "name": "Common Cooking Supplies",
     "source": [
       "KCG",
       12

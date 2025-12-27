@@ -69,6 +69,14 @@
                 <li>On success, you mark 2 hours of completed time. Once the completed time is equal to the crafting time, the item is complete.</li>
                 <li>On failure, the crafting time is lost and no progress has been made during the 2 hours. If you fail 3 times in a row, the crafting is a failure and all materials are lost.</li>
             </ul>
+        {% elif recipes[0].crafting_type == 'cooking' %}
+            <ul>
+                <li>Acquire a fresh ingredient by harvesting or finding it.</li>
+                <li>Review the Recipe Tables for Feasts, Snacks or Rations that ingredient would qualify for, and gather the other materials needed listed in the Materials column.</li>
+                <li>Use your {{ "{@item cook's utensils|PHB}" | macro5e }} to craft the option using the number of hours listed in the Crafting Time column, or use the crafting camp action, during a long rest, if the crafting time is 2 hours or less. Meals must be crafted in a single crafting session. All meals require a heat source (such as a campfire).</li>
+                <li>For every 2 hours, make a crafting roll of 1d20 + your Wisdom modifier + your proficiency bonus with {{ "{@item cook's utensils|PHB}" | macro5e }}. You can abort the craft after a bad crafting roll if you wish, this counts as a failure.</li>
+            </ul>
         {% endif %}
+        
     {% endif %}
 </div>

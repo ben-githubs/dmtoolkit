@@ -20,7 +20,7 @@ def read_file(fname: Path, crafting_type: str) -> list[dict]:
         contents = re.sub(r"\x01", "", contents)
     lines = re.sub(r"((?:common|uncommon|rare|very rare|legendary) [\d,]+ )(gp)", r"\1gp\n", contents).split("\n")
 
-    line_pattern = re.compile(r"(?:(?P<item_amt1>\d+) x )?(?P<item_name>[^\s\d]+(?:\s[^\s\d]+)*)(?: \((?P<item_amt2>[\w\s]+)\))?\s(?P<materials>(?:[\.\d]+\s[A-Za-z\s]+)+)(?P<time>\d+\s\w+(?:\s*\(\d*\s\w+\))?)\s*(?P<num_checks>\d+)\s*DC (?P<dc>\d+)\s*(?P<rarity>(?:[A-Za-z]+\s)+)\s*(?P<value>[\d,]+)\s?gp\s?")
+    line_pattern = re.compile(r"(?:(?P<item_amt1>\d+) x )?(?P<item_name>[^\s\d]+(?:\s[^\s\d]+)*)(?: \((?P<item_amt2>[\w\s]+)\))?\s(?P<materials>(?:[\.\d]+\s[A-Za-z\(\)\s]+)+)(?P<time>\d+\s\w+(?:\s*\(\d*\s\w+\))?)\s*(?P<num_checks>\d+)\s*DC (?P<dc>\d+)\s*(?P<rarity>(?:[A-Za-z]+\s)+)\s*(?P<value>[\d,]+)\s?gp\s?")
     # Split each line up
     recipes = []
     for idx, line in enumerate(lines):
@@ -91,6 +91,9 @@ def convert_poisoncraft():
 def convert_blacksmithing():
     return read_file(DATA_DIR / "raw_blacksmithing_recipes.txt", "blacksmithing")
 
+def convert_cooking():
+    return read_file(DATA_DIR / "raw_cooking_recipes.txt", "cooking")
+
 def hard_coded_recipes():
     return [
         {
@@ -135,6 +138,6 @@ def hard_coded_recipes():
     ]
 
 def convert():
-    recipes = convert_alchemy() + convert_poisoncraft() + convert_blacksmithing() + hard_coded_recipes()
+    recipes = convert_alchemy() + convert_poisoncraft() + convert_blacksmithing() + convert_cooking() + hard_coded_recipes()
     with TARGET_FILE.open("w") as f:
         json.dump(recipes, f, indent=2)

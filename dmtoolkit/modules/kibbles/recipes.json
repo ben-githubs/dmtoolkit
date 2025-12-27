@@ -3359,6 +3359,531 @@
     "note": ""
   },
   {
+    "craft": "cooking",
+    "result": "Common Feast|kcg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "common fresh ingredient"
+      ],
+      [
+        1,
+        "common cooking supplies"
+      ]
+    ],
+    "time": "1 hour",
+    "num_checks": 1,
+    "dc": 8,
+    "note": ""
+  },
+  {
+    "craft": "cooking",
+    "result": "Enhancing Feast|kcg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "uncommon fresh ingredient"
+      ],
+      [
+        1,
+        "uncommon cooking supplies"
+      ],
+      [
+        2,
+        "common cooking supplies"
+      ]
+    ],
+    "time": "2 hours",
+    "num_checks": 1,
+    "dc": 14,
+    "note": ""
+  },
+  {
+    "craft": "cooking",
+    "result": "Meat Feast|kcg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "uncommon meat"
+      ],
+      [
+        1,
+        "uncommon cooking supplies"
+      ],
+      [
+        2,
+        "common cooking supplies"
+      ]
+    ],
+    "time": "2 hours",
+    "num_checks": 1,
+    "dc": 14,
+    "note": ""
+  },
+  {
+    "craft": "cooking",
+    "result": "What Doesn\u2019t Kill You... Feast|kcg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "uncommon meat from a creature that deals poison damage"
+      ],
+      [
+        2,
+        "uncommon poisonous reagents"
+      ],
+      [
+        1,
+        "uncommon cooking supplies"
+      ],
+      [
+        2,
+        "common cooking supplies"
+      ]
+    ],
+    "time": "2 hours",
+    "num_checks": 1,
+    "dc": 16,
+    "note": ""
+  },
+  {
+    "craft": "cooking",
+    "result": "Seaworthy Bouillabaisse|kcg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "uncommon meat from a creature with a swimming speed greater than its walking speed"
+      ],
+      [
+        2,
+        "uncommon cooking supplies"
+      ],
+      [
+        2,
+        "common cooking supplies"
+      ]
+    ],
+    "time": "2 hours",
+    "num_checks": 1,
+    "dc": 12,
+    "note": ""
+  },
+  {
+    "craft": "cooking",
+    "result": "Wondrous Feast|kcg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "rare fresh ingredient"
+      ],
+      [
+        1,
+        "uncommon reagent"
+      ],
+      [
+        1,
+        "rare cooking supplies"
+      ],
+      [
+        1,
+        "uncommon cooking supplies"
+      ],
+      [
+        2,
+        "common cooking supplies"
+      ]
+    ],
+    "time": "2 hours",
+    "num_checks": 1,
+    "dc": 16,
+    "note": ""
+  },
+  {
+    "craft": "cooking",
+    "result": "Hearty Meat Feast|kcg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "rare meat"
+      ],
+      [
+        1,
+        "uncommon reagent"
+      ],
+      [
+        1,
+        "rare cooking supplies"
+      ],
+      [
+        1,
+        "uncommon cooking supplies"
+      ],
+      [
+        2,
+        "common cooking supplies"
+      ]
+    ],
+    "time": "2 hours",
+    "num_checks": 1,
+    "dc": 16,
+    "note": ""
+  },
+  {
+    "craft": "cooking",
+    "result": "Elementally Fortifying Feast|kcg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "rare meat from a creature with an elemental resistance or immunity"
+      ],
+      [
+        2,
+        "uncommon reactive reagent"
+      ],
+      [
+        1,
+        "common primal essence"
+      ],
+      [
+        2,
+        "rare cooking supplies"
+      ],
+      [
+        2,
+        "uncommon cooking supplies"
+      ],
+      [
+        2,
+        "common cooking supplies"
+      ]
+    ],
+    "time": "2 hours",
+    "num_checks": 1,
+    "dc": 16,
+    "note": ""
+  },
+  {
+    "craft": "cooking",
+    "result": "Heroes\u2019 Feast|kcg",
+    "quantity": "1",
+    "materials": [
+      [
+        4,
+        "rare curative reagent"
+      ],
+      [
+        2,
+        "uncommon divine essence"
+      ],
+      [
+        4,
+        "rare cooking supplies"
+      ],
+      [
+        4,
+        "cooking supplies"
+      ]
+    ],
+    "time": "4 hours",
+    "num_checks": 2,
+    "dc": 18,
+    "note": ""
+  },
+  {
+    "craft": "cooking",
+    "result": "Superb Feast|kcg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "very rare fresh ingredient"
+      ],
+      [
+        1,
+        "rare reagent"
+      ],
+      [
+        2,
+        "rare cooking supplies"
+      ],
+      [
+        2,
+        "uncommon cooking supplies"
+      ],
+      [
+        2,
+        "common cooking supplies"
+      ]
+    ],
+    "time": "4 hours",
+    "num_checks": 2,
+    "dc": 18,
+    "note": ""
+  },
+  {
+    "craft": "cooking",
+    "result": "Superb Meat Feast|kcg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "very rare meat"
+      ],
+      [
+        1,
+        "rare reagent"
+      ],
+      [
+        2,
+        "rare cooking supplies"
+      ],
+      [
+        2,
+        "uncommon cooking supplies"
+      ],
+      [
+        2,
+        "common cooking supplies"
+      ]
+    ],
+    "time": "4 hours",
+    "num_checks": 2,
+    "dc": 18,
+    "note": ""
+  },
+  {
+    "craft": "cooking",
+    "result": "Legendary Meat Feast|kcg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "legendary meat"
+      ],
+      [
+        1,
+        "very rare reagent"
+      ],
+      [
+        3,
+        "rare cooking supplies"
+      ],
+      [
+        3,
+        "uncommon cooking supplies"
+      ],
+      [
+        1,
+        "common cooking supplies"
+      ]
+    ],
+    "time": "6 hours",
+    "num_checks": 3,
+    "dc": 20,
+    "note": ""
+  },
+  {
+    "craft": "cooking",
+    "result": "Legendary Feast|kcg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "legendary fresh ingredient"
+      ],
+      [
+        1,
+        "very rare reagent"
+      ],
+      [
+        3,
+        "rare cooking supplies"
+      ],
+      [
+        3,
+        "uncommon cooking supplies"
+      ],
+      [
+        1,
+        "common cooking supplies"
+      ]
+    ],
+    "time": "6 hours",
+    "num_checks": 3,
+    "dc": 20,
+    "note": ""
+  },
+  {
+    "craft": "cooking",
+    "result": "Flame Breathing Jerky|kcg",
+    "quantity": "5",
+    "materials": [
+      [
+        1,
+        "uncommon or rarer meat from a creature that is immune to fire damage"
+      ],
+      [
+        2,
+        "uncommon reactive reagents"
+      ],
+      [
+        1,
+        "rare cooking supplies"
+      ]
+    ],
+    "time": "6 hours",
+    "num_checks": 3,
+    "dc": 15,
+    "note": ""
+  },
+  {
+    "craft": "cooking",
+    "result": "Mint Chew|kcg",
+    "quantity": "5",
+    "materials": [
+      [
+        2,
+        "uncommon curative reagent"
+      ],
+      [
+        1,
+        "uncommon cooking supplies"
+      ]
+    ],
+    "time": "4 hours",
+    "num_checks": 2,
+    "dc": 14,
+    "note": ""
+  },
+  {
+    "craft": "cooking",
+    "result": "Morph Cookies|kcg",
+    "quantity": "5",
+    "materials": [
+      [
+        1,
+        "ingredient harvested from a shapeshifter"
+      ],
+      [
+        1,
+        "rare cooking supplies"
+      ],
+      [
+        1,
+        "uncommon cooking supplies"
+      ],
+      [
+        1,
+        "common cooking supplies"
+      ]
+    ],
+    "time": "2 hours",
+    "num_checks": 2,
+    "dc": 15,
+    "note": ""
+  },
+  {
+    "craft": "cooking",
+    "result": "Seeing Sticks|kcg",
+    "quantity": "5",
+    "materials": [
+      [
+        1,
+        "ingredient from a creature with blindsight or tremorsense"
+      ],
+      [
+        1,
+        "uncommon reactive reagent"
+      ],
+      [
+        1,
+        "rare cooking supplies"
+      ],
+      [
+        1,
+        "common cooking supplies"
+      ]
+    ],
+    "time": "4 hours",
+    "num_checks": 2,
+    "dc": 15,
+    "note": ""
+  },
+  {
+    "craft": "cooking",
+    "result": "Quickening Candies|kcg",
+    "quantity": "5",
+    "materials": [
+      [
+        1,
+        "rare cooking supplies"
+      ],
+      [
+        2,
+        "uncommon cooking supplies"
+      ],
+      [
+        1,
+        "common cooking supplies"
+      ],
+      [
+        4,
+        "hours"
+      ],
+      [
+        2,
+        "DC"
+      ],
+      [
+        18,
+        "rare"
+      ],
+      [
+        10,
+        "x Elvish BreadK"
+      ],
+      [
+        1,
+        "uncommon curative reagent"
+      ],
+      [
+        1,
+        "uncommon cooking supplies"
+      ],
+      [
+        1,
+        "common cooking supplies"
+      ]
+    ],
+    "time": "6 hours",
+    "num_checks": 3,
+    "dc": 15,
+    "note": ""
+  },
+  {
+    "craft": "cooking",
+    "result": "iron ration|kcg",
+    "quantity": "10",
+    "materials": [
+      [
+        2,
+        "common cooking supplies"
+      ]
+    ],
+    "time": "1 hour",
+    "num_checks": 1,
+    "dc": 8,
+    "note": ""
+  },
+  {
     "craft": "alchemy",
     "result": "sticky goo potion|kcg",
     "quantity": 1,
