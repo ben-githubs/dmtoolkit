@@ -20,7 +20,7 @@ class CraftingType(StrEnum):
 class Recipe:
     crafting_type: CraftingType
     result: Item
-    materials: list[ItemWrapper]
+    materials: list[ItemWrapper|str]
     dc: int
     num_checks: int
     crafting_time: str = ""
@@ -33,10 +33,14 @@ class Recipe:
         materials = []
         for material in spec["materials"]:
             if isinstance(material, str):
-                item = get_item(material)
-                if not item:
-                    raise ValueError(f"Unknown item: {material}")
-                materials.append(ItemWrapper(item, 1))
+                quantity = 1
+            else:
+                quantity, material = material
+            item = get_item(material)
+            if item:
+                materials.append(ItemWrapper(item, quantity))
+            else:
+                materials.append(material)
         recipe = Recipe(
             crafting_type = CraftingType(spec["craft"]),
             result = result,

@@ -33,7 +33,7 @@
         <em>Requires DC {{ recipe.dc }} {{ recipe.crafting_type | title }} check and takes {{ recipe.crafting_time }}</em>
         <ul>
             {% for ingredient_wrapper in recipe.materials %}
-                <li>{{ ingredient_wrapper.quantity }} x {{ ('{@item ' + ingredient_wrapper.item.id() + '}') | macro5e }}</li>
+                <li>{{ ingredient_wrapper | macro5e }}</li>
             {% endfor%}
         </ul>
     {% endfor %}

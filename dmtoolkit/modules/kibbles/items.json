@@ -372,6 +372,321 @@
     "__dataclass__": "Item"
   },
   {
+    "name": "Dwarven Alcohol",
+    "source": [
+      "KCG",
+      35
+    ],
+    "rarity": "common",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "Only dwarves really know if the name of this liquid explosive is a joke or not, but must assume it is an acquired taste. An explosively flammable liquid that comes in a flask, this flask can be splashed across a 5 foot square within 5 feet. Once splashed, it can be ignited by 1 or more fire or lightning damage. When ignited it explodes in a plume of fire, dealing 2d4 fire damage to all creatures within 5 feet of the container, or within a square that has been soaked with it."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 2000,
+    "item_type": "Explosive",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Packet of Blasting Powder",
+    "source": [
+      "KCG",
+      35
+    ],
+    "rarity": "common",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "A fine grey powder with large grains and the faint smell of sulfur and charcoal that comes in small packets weighing 1/2 pound.",
+          "When ignited by 1 or more fire or lightning damage, it explodes violently. All creatures within 10 feet of it must make a DC 14 Dexterity saving throw. On failure, they take 1d4 fire + 1d4 thunder damage, or half as much on a success. The amount of damage increases by 1d4 (both the fire and thunder) and the radius increases by 5 feet for each additional packet of Blasting Powder detonated in the same spot, up to a maximum of five packets. Deals double damage to buildings and structures. Creatures in range of more than one stack of up to 5 explosives at the same time take damage only from the highest damage effect.",
+          "Frequently used for mining and other responsible things... until adventurers get their hands on it."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 4000,
+    "item_type": "Explosive",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Smoke Powder",
+    "source": [
+      "KCG",
+      36
+    ],
+    "rarity": "common",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "A fine grey powder with large grains and the faint smell of sulfur and charcoal that comes in small packets weighing 1/2 pound.",
+          "When ignited by 1 or more fire or lightning damage, it releases a blast of thick black smoke that fills a 20-foot radius. Everything in this smoke is heavily obscured for 2d4 rounds. At the start of your next turn after the number of rounds rolled, the smoke begins to fade leaving everything within the radius lightly obscured, and it clears completely at the start of your next turn after that.",
+          "Additional uses of the smoke powder extend the duration of heavy obscurement for an extra 1d4 rounds."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 4000,
+    "item_type": "Explosive",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Simple Explosive",
+    "source": [
+      "KCG",
+      35
+    ],
+    "rarity": "common",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "A bundled explosive alchemical preparation. It can be detonated by dealing 1 fire or lightning damage to it. As an action, a packet of this explosive can be accurately thrown 20 feet, but will not detonate on impact (usually). When it detonates, all creatures within 10 feet (for common) of the target point must make a Dexterity saving throw with a DC equal to the crafter’s Alchemy DC. On failure, they take 1d8 fire + 1d8 thunder damage, or half as much on a success. Creatures in range of more than one explosive take damage only from the highest damage effect."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      },
+      {
+        "title": "",
+        "body": [],
+        "style": {},
+        "caption": "",
+        "col_labels": [
+          "Name",
+          "Range",
+          "Damage"
+        ],
+        "col_styles": [
+          "col-4 text-center",
+          "col-4 text-center",
+          "col-4 text-center"
+        ],
+        "rows": [
+          [
+            "Simple",
+            "10 feet",
+            "1d8 fire + 1d8 thunder"
+          ],
+          [
+            "Potent",
+            "15 feet",
+            "2d8 fire + 2d8 thunder"
+          ],
+          [
+            "Powerful",
+            "20 feet",
+            "4d8 fire + 4d8 thunder"
+          ]
+        ],
+        "__dataclass__": "Table"
+      },
+      {
+        "title": "",
+        "body": [
+          "You can fuse your explosives. When fused, intentionally dealing fire damage to the explosives (or otherwise lighting the fuse) causes it to detonate on a delay, selected from: short (the end of your turn), medium (the start of your next turn), and long (2 rounds, at the start of your turn)."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 12000,
+    "item_type": "Explosive",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Grenade Casing",
+    "source": [
+      "KCG",
+      35
+    ],
+    "rarity": "uncommon",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "A simple construction of a two chambered projectile (typically made of glass). When you add an Alchemist Fire and an Explosive to its separate compartments, it becomes an incredibly dangerous device. As an action, a character can light this bomb and throw it at a point up to 60 feet away. Creatures within the range of the explosive used must make a Dexterity saving throw against the DC of the explosive used, or take damage equal to the explosion + 1d4 piercing samage + 1d4 fire damage."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 5000,
+    "item_type": "Explosive",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Potent Explosive",
+    "source": [
+      "KCG",
+      35
+    ],
+    "rarity": "uncommon",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "A bundled explosive alchemical preparation. It can be detonated by dealing 1 fire or lightning damage to it. As an action, a packet of this explosive can be accurately thrown 20 feet, but will not detonate on impact (usually). When it detonates, all creatures within 10 feet (for common) of the target point must make a Dexterity saving throw with a DC equal to the crafter’s Alchemy DC. On failure, they take 1d8 fire + 1d8 thunder damage, or half as much on a success. Creatures in range of more than one explosive take damage only from the highest damage effect."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      },
+      {
+        "title": "",
+        "body": [],
+        "style": {},
+        "caption": "",
+        "col_labels": [
+          "Name",
+          "Range",
+          "Damage"
+        ],
+        "col_styles": [
+          "col-4 text-center",
+          "col-4 text-center",
+          "col-4 text-center"
+        ],
+        "rows": [
+          [
+            "Simple",
+            "10 feet",
+            "1d8 fire + 1d8 thunder"
+          ],
+          [
+            "Potent",
+            "15 feet",
+            "2d8 fire + 2d8 thunder"
+          ],
+          [
+            "Powerful",
+            "20 feet",
+            "4d8 fire + 4d8 thunder"
+          ]
+        ],
+        "__dataclass__": "Table"
+      },
+      {
+        "title": "",
+        "body": [
+          "You can fuse your explosives. When fused, intentionally dealing fire damage to the explosives (or otherwise lighting the fuse) causes it to detonate on a delay, selected from: short (the end of your turn), medium (the start of your next turn), and long (2 rounds, at the start of your turn)."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 25000,
+    "item_type": "Explosive",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Nail Bomb",
+    "source": [
+      "KCG",
+      36
+    ],
+    "rarity": "uncommon",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "A brutal instrument, this mixes explosive powder and nails to create a devastating fragmentation device. An exceedingly dangerous device. Heavier and more deadly than other explosives, the primary damage comes from the metal shrapnel (nails) flung in all directions. It can be detonated by dealing 1 fire or lightning damage to it. As an action, a packet of this explosive can be accurately thrown 20 feet, but will not detonate on impact (usually). When it detonates, all creatures within 20 feet of the target point must make a Dexterity saving throw with a DC equal to the crafter’s Alchemy DC. On failure, they take 8d4 piercing damage, or half as much on a success..",
+          "You can fuse your explosives. When fused, intentionally dealing fire damage to the explosives (or otherwise lighting the fuse) causes it to detonate on a delay, selected from: short (the end of your turn), medium (the start of your next turn), and long (2 rounds, at the start of your turn)."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 27500,
+    "item_type": "Explosive",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Powerful Explosive",
+    "source": [
+      "KCG",
+      35
+    ],
+    "rarity": "rare",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "A bundled explosive alchemical preparation. It can be detonated by dealing 1 fire or lightning damage to it. As an action, a packet of this explosive can be accurately thrown 20 feet, but will not detonate on impact (usually). When it detonates, all creatures within 10 feet (for common) of the target point must make a Dexterity saving throw with a DC equal to the crafter’s Alchemy DC. On failure, they take 1d8 fire + 1d8 thunder damage, or half as much on a success. Creatures in range of more than one explosive take damage only from the highest damage effect."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      },
+      {
+        "title": "",
+        "body": [],
+        "style": {},
+        "caption": "",
+        "col_labels": [
+          "Name",
+          "Range",
+          "Damage"
+        ],
+        "col_styles": [
+          "col-4 text-center",
+          "col-4 text-center",
+          "col-4 text-center"
+        ],
+        "rows": [
+          [
+            "Simple",
+            "10 feet",
+            "1d8 fire + 1d8 thunder"
+          ],
+          [
+            "Potent",
+            "15 feet",
+            "2d8 fire + 2d8 thunder"
+          ],
+          [
+            "Powerful",
+            "20 feet",
+            "4d8 fire + 4d8 thunder"
+          ]
+        ],
+        "__dataclass__": "Table"
+      },
+      {
+        "title": "",
+        "body": [
+          "You can fuse your explosives. When fused, intentionally dealing fire damage to the explosives (or otherwise lighting the fuse) causes it to detonate on a delay, selected from: short (the end of your turn), medium (the start of your next turn), and long (2 rounds, at the start of your turn)."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 75000,
+    "item_type": "Explosive",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
     "name": "Dizzying Touch",
     "source": [
       "KCG",
@@ -384,6 +699,30 @@
         "title": "",
         "body": [
           "Applied to an object. The first creature that touches must make a Constitution saving throw with a DC equal to the crafter's Poison DC. On failure, the  reature becomes poisoned for 1 minute. While poisoned in this way, they must succeed a Wisdom saving throw at the end of each of their turns or fall prone."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 4500,
+    "item_type": "Adventuring Gear",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Restorative Ointment",
+    "source": [
+      "SRD",
+      1
+    ],
+    "rarity": "uncommon",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "This glass jar, 3 inches in diameter, contains 1d4 + 1 doses of a thick mixture that smells faintly of aloe. The jar and its contents weigh 1/2 pound.",
+          "As an action, one dose of the ointment can be swallowed or applied to the skin. The creature that receives it regains 2d8 + 2 hit points, ceases to be poisoned, and is cured of any disease."
         ],
         "style": {},
         "__dataclass__": "Entry"

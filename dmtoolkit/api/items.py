@@ -49,6 +49,19 @@ def get_item(name: str) -> Item | None:
     except:
         log.warning(f"Unable to find item {norm_name}")
 
+
+def find_item_by_name(name: str) -> list[Item]:
+    """Finds all items with the same name."""
+    norm_name = normalize_name(name)
+    matches = set()
+    for item in ITEMS.values():
+        item_name = normalize_name(item.name)
+        if item_name == norm_name or (norm_name.endswith("s") and item_name == norm_name[:-1]):
+            matches.add(item)
+
+    return list(matches)
+
+
 # Make sure we load the items dict at least once on load
 if not ITEMS:
     _load_items()

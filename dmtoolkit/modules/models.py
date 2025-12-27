@@ -42,6 +42,9 @@ class ItemWrapper:
     quantity: int
     note: str = ""
 
+    def __str__(self):
+        return f"{self.quantity} x {{@item {self.item.id()}}}"
+
 
 class Module:
     """Provides a framework modules can use to define their various functionalities."""
