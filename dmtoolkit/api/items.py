@@ -10,6 +10,7 @@ DATADIR = Path(__file__).parent / "data"
 KIBBLES_DIR = DATADIR.parent.parent / "modules/kibbles/"
 ITEM_DATA_PATHS = (
     DATADIR / "items.json",
+    DATADIR / "srd_items.json",
     KIBBLES_DIR / "items.json",
     KIBBLES_DIR / "ingredients.json",
     KIBBLES_DIR / "variants.json",

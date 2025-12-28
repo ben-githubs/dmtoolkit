@@ -2857,12 +2857,130 @@
     "__dataclass__": "Item"
   },
   {
-    "name": "Amplifying Crystal",
+    "name": "+1 Amplifying Crystal",
     "source": [
       "KCG",
       93
     ],
     "rarity": "uncommon",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "While holding this crystal, you gain a bonus to psionics attack rolls and to the psionic saving throw DCs of your psionic abilities. The bonus is determined by the crystal’s rarity.",
+          "In addition, when you use a psionic power, you can gain add a number of psi points determined by the crystal’s rarity; these points can only be used on psionic powers, but can exceed your normal psi limit. You can’t use this property again until you finish a long rest."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      },
+      {
+        "title": "",
+        "body": [],
+        "style": {},
+        "caption": "",
+        "col_labels": [
+          "Rarity",
+          "Modifier",
+          "Points Added"
+        ],
+        "col_styles": [
+          "col-4 text-center",
+          "col-4 text-center",
+          "col-4 text-center"
+        ],
+        "rows": [
+          [
+            "Uncommon",
+            "+1",
+            "1"
+          ],
+          [
+            "Rare",
+            "+2",
+            "2"
+          ],
+          [
+            "Very Rare",
+            "+3",
+            "3"
+          ]
+        ],
+        "__dataclass__": "Table"
+      }
+    ],
+    "value": 0,
+    "item_type": "wondrous item",
+    "properties": [],
+    "attunement": "requires attunement by a psionic character with one or more psi points",
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "+2 Amplifying Crystal",
+    "source": [
+      "KCG",
+      93
+    ],
+    "rarity": "rare",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "While holding this crystal, you gain a bonus to psionics attack rolls and to the psionic saving throw DCs of your psionic abilities. The bonus is determined by the crystal’s rarity.",
+          "In addition, when you use a psionic power, you can gain add a number of psi points determined by the crystal’s rarity; these points can only be used on psionic powers, but can exceed your normal psi limit. You can’t use this property again until you finish a long rest."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      },
+      {
+        "title": "",
+        "body": [],
+        "style": {},
+        "caption": "",
+        "col_labels": [
+          "Rarity",
+          "Modifier",
+          "Points Added"
+        ],
+        "col_styles": [
+          "col-4 text-center",
+          "col-4 text-center",
+          "col-4 text-center"
+        ],
+        "rows": [
+          [
+            "Uncommon",
+            "+1",
+            "1"
+          ],
+          [
+            "Rare",
+            "+2",
+            "2"
+          ],
+          [
+            "Very Rare",
+            "+3",
+            "3"
+          ]
+        ],
+        "__dataclass__": "Table"
+      }
+    ],
+    "value": 0,
+    "item_type": "wondrous item",
+    "properties": [],
+    "attunement": "requires attunement by a psionic character with one or more psi points",
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "+3 Amplifying Crystal",
+    "source": [
+      "KCG",
+      93
+    ],
+    "rarity": "very rare",
     "weight": 0,
     "entries": [
       {
@@ -2997,12 +3115,62 @@
     "__dataclass__": "Item"
   },
   {
-    "name": "Psi Blade Crystal",
+    "name": "+1 Psi Blade Crystal",
     "source": [
       "KCG",
       94
     ],
-    "rarity": "uncommon/rare/very rare",
+    "rarity": "uncommon",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "Embedded in a ring, braclet, bladeless sword hilt, or similar item, this small gem seems to have minimal value to the casual observer, but has perfect psionic resonance.",
+          "While carried by a Way of the Soul Knife Monk, that monk can use this crystal to focus a purer Soul Knife, adding +1/+2/+3 (based on rarity) to attack and damage rolls with their Soul Knife.",
+          "Some crystals come in various colors, and change the hue of your psi blade to match the color of the crystal."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 0,
+    "item_type": "wondrous item",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "+2 Psi Blade Crystal",
+    "source": [
+      "KCG",
+      94
+    ],
+    "rarity": "rare",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "Embedded in a ring, braclet, bladeless sword hilt, or similar item, this small gem seems to have minimal value to the casual observer, but has perfect psionic resonance.",
+          "While carried by a Way of the Soul Knife Monk, that monk can use this crystal to focus a purer Soul Knife, adding +1/+2/+3 (based on rarity) to attack and damage rolls with their Soul Knife.",
+          "Some crystals come in various colors, and change the hue of your psi blade to match the color of the crystal."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 0,
+    "item_type": "wondrous item",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "+3 Psi Blade Crystal",
+    "source": [
+      "KCG",
+      94
+    ],
+    "rarity": "very rare",
     "weight": 0,
     "entries": [
       {

@@ -9,3 +9,8 @@
     flex-direction: row;
     gap: 10px;
 }
+
+#recipe-statblock {
+    min-width: 650px;
+    max-width: 850px;
+}

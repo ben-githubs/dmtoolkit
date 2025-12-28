@@ -18,6 +18,7 @@ class CraftingType(StrEnum):
     Poisoncraft = auto()
     Blacksmithing = auto()
     Cooking = auto()
+    Enchanting = auto()
 
 @dataclass
 class Recipe:

@@ -20,7 +20,7 @@
     "time": "2 hours",
     "num_checks": 1,
     "dc": 13,
-    "note": ""
+    "note": null
   },
   {
     "craft": "alchemy",
@@ -47,7 +47,7 @@
     "time": "2 hours",
     "num_checks": 1,
     "dc": 14,
-    "note": ""
+    "note": null
   },
   {
     "craft": "alchemy",
@@ -66,7 +66,7 @@
     "time": "2 hours",
     "num_checks": 1,
     "dc": 13,
-    "note": ""
+    "note": null
   },
   {
     "craft": "alchemy",
@@ -97,7 +97,7 @@
     "time": "2 hours",
     "num_checks": 1,
     "dc": 13,
-    "note": ""
+    "note": null
   },
   {
     "craft": "alchemy",
@@ -120,7 +120,7 @@
     "time": "2 hours",
     "num_checks": 1,
     "dc": 15,
-    "note": ""
+    "note": null
   },
   {
     "craft": "alchemy",
@@ -147,7 +147,7 @@
     "time": "2 hours",
     "num_checks": 1,
     "dc": 14,
-    "note": ""
+    "note": null
   },
   {
     "craft": "alchemy",
@@ -170,7 +170,7 @@
     "time": "2 hours",
     "num_checks": 1,
     "dc": 15,
-    "note": ""
+    "note": null
   },
   {
     "craft": "alchemy",
@@ -193,7 +193,7 @@
     "time": "2 hours",
     "num_checks": 1,
     "dc": 13,
-    "note": ""
+    "note": null
   },
   {
     "craft": "alchemy",
@@ -220,7 +220,7 @@
     "time": "2 hours",
     "num_checks": 1,
     "dc": 15,
-    "note": ""
+    "note": null
   },
   {
     "craft": "alchemy",
@@ -247,7 +247,7 @@
     "time": "2 hours",
     "num_checks": 1,
     "dc": 15,
-    "note": ""
+    "note": null
   },
   {
     "craft": "alchemy",
@@ -274,7 +274,7 @@
     "time": "2 hours",
     "num_checks": 1,
     "dc": 15,
-    "note": ""
+    "note": null
   },
   {
     "craft": "alchemy",
@@ -301,7 +301,7 @@
     "time": "2 hours",
     "num_checks": 1,
     "dc": 15,
-    "note": ""
+    "note": null
   },
   {
     "craft": "alchemy",
@@ -328,7 +328,7 @@
     "time": "2 hours",
     "num_checks": 1,
     "dc": 15,
-    "note": ""
+    "note": null
   },
   {
     "craft": "alchemy",
@@ -355,7 +355,7 @@
     "time": "2 hours",
     "num_checks": 1,
     "dc": 15,
-    "note": ""
+    "note": null
   },
   {
     "craft": "alchemy",
@@ -382,7 +382,7 @@
     "time": "2 hours",
     "num_checks": 1,
     "dc": 15,
-    "note": ""
+    "note": null
   },
   {
     "craft": "alchemy",
@@ -409,7 +409,7 @@
     "time": "2 hours",
     "num_checks": 1,
     "dc": 15,
-    "note": ""
+    "note": null
   },
   {
     "craft": "alchemy",
@@ -436,7 +436,7 @@
     "time": "2 hours",
     "num_checks": 1,
     "dc": 15,
-    "note": ""
+    "note": null
   },
   {
     "craft": "alchemy",
@@ -463,7 +463,7 @@
     "time": "2 hours",
     "num_checks": 1,
     "dc": 15,
-    "note": ""
+    "note": null
   },
   {
     "craft": "alchemy",
@@ -490,7 +490,7 @@
     "time": "2 hours",
     "num_checks": 1,
     "dc": 15,
-    "note": ""
+    "note": null
   },
   {
     "craft": "alchemy",
@@ -513,7 +513,7 @@
     "time": "4 hours",
     "num_checks": 2,
     "dc": 15,
-    "note": ""
+    "note": null
   },
   {
     "craft": "alchemy",
@@ -544,7 +544,7 @@
     "time": "2 hours",
     "num_checks": 1,
     "dc": 16,
-    "note": ""
+    "note": null
   },
   {
     "craft": "alchemy",
@@ -571,7 +571,7 @@
     "time": "2 hours",
     "num_checks": 1,
     "dc": 16,
-    "note": ""
+    "note": null
   },
   {
     "craft": "alchemy",
@@ -598,7 +598,7 @@
     "time": "2 hours",
     "num_checks": 1,
     "dc": 15,
-    "note": ""
+    "note": null
   },
   {
     "craft": "alchemy",
@@ -629,7 +629,7 @@
     "time": "2 hours",
     "num_checks": 1,
     "dc": 15,
-    "note": ""
+    "note": null
   },
   {
     "craft": "alchemy",
@@ -660,7 +660,7 @@
     "time": "2 hours",
     "num_checks": 1,
     "dc": 16,
-    "note": ""
+    "note": null
   },
   {
     "craft": "alchemy",
@@ -683,7 +683,7 @@
     "time": "4 hours",
     "num_checks": 2,
     "dc": 15,
-    "note": ""
+    "note": null
   },
   {
     "craft": "alchemy",
@@ -706,7 +706,7 @@
     "time": "4 hours",
     "num_checks": 2,
     "dc": 16,
-    "note": ""
+    "note": null
   },
   {
     "craft": "alchemy",
@@ -737,7 +737,7 @@
     "time": "4 hours",
     "num_checks": 2,
     "dc": 18,
-    "note": ""
+    "note": null
   },
   {
     "craft": "alchemy",
@@ -772,7 +772,7 @@
     "time": "4 hours",
     "num_checks": 2,
     "dc": 19,
-    "note": ""
+    "note": null
   },
   {
     "craft": "alchemy",
@@ -803,7 +803,7 @@
     "time": "4 hours",
     "num_checks": 2,
     "dc": 19,
-    "note": ""
+    "note": null
   },
   {
     "craft": "alchemy",
@@ -838,7 +838,7 @@
     "time": "4 hours",
     "num_checks": 2,
     "dc": 20,
-    "note": ""
+    "note": null
   },
   {
     "craft": "alchemy",
@@ -865,7 +865,7 @@
     "time": "8 hours",
     "num_checks": 4,
     "dc": 24,
-    "note": ""
+    "note": null
   },
   {
     "craft": "alchemy",
@@ -892,7 +892,7 @@
     "time": "8 hours",
     "num_checks": 4,
     "dc": 23,
-    "note": ""
+    "note": null
   },
   {
     "craft": "alchemy",
@@ -915,7 +915,7 @@
     "time": "2 hours",
     "num_checks": 1,
     "dc": 13,
-    "note": ""
+    "note": null
   },
   {
     "craft": "alchemy",
@@ -934,7 +934,7 @@
     "time": "2 hours",
     "num_checks": 1,
     "dc": 13,
-    "note": ""
+    "note": null
   },
   {
     "craft": "alchemy",
@@ -957,7 +957,7 @@
     "time": "2 hours",
     "num_checks": 1,
     "dc": 14,
-    "note": ""
+    "note": null
   },
   {
     "craft": "alchemy",
@@ -976,7 +976,7 @@
     "time": "2 hours",
     "num_checks": 1,
     "dc": 14,
-    "note": ""
+    "note": null
   },
   {
     "craft": "alchemy",
@@ -999,7 +999,7 @@
     "time": "2 hours",
     "num_checks": 1,
     "dc": 15,
-    "note": ""
+    "note": null
   },
   {
     "craft": "alchemy",
@@ -1018,7 +1018,7 @@
     "time": "2 hours",
     "num_checks": 1,
     "dc": 15,
-    "note": ""
+    "note": null
   },
   {
     "craft": "alchemy",
@@ -1041,7 +1041,7 @@
     "time": "2 hours",
     "num_checks": 1,
     "dc": 17,
-    "note": ""
+    "note": null
   },
   {
     "craft": "alchemy",
@@ -1060,7 +1060,7 @@
     "time": "2 hours",
     "num_checks": 1,
     "dc": 17,
-    "note": ""
+    "note": null
   },
   {
     "craft": "alchemy",
@@ -1087,7 +1087,7 @@
     "time": "4 hours",
     "num_checks": 2,
     "dc": 15,
-    "note": ""
+    "note": null
   },
   {
     "craft": "alchemy",
@@ -1114,7 +1114,7 @@
     "time": "4 hours",
     "num_checks": 2,
     "dc": 14,
-    "note": ""
+    "note": null
   },
   {
     "craft": "alchemy",
@@ -1137,7 +1137,7 @@
     "time": "4 hours",
     "num_checks": 2,
     "dc": 14,
-    "note": ""
+    "note": null
   },
   {
     "craft": "alchemy",
@@ -1160,7 +1160,7 @@
     "time": "8 hours",
     "num_checks": 4,
     "dc": 12,
-    "note": ""
+    "note": null
   },
   {
     "craft": "alchemy",
@@ -1175,7 +1175,7 @@
     "time": "2 hours",
     "num_checks": 1,
     "dc": 14,
-    "note": ""
+    "note": null
   },
   {
     "craft": "alchemy",
@@ -1190,7 +1190,7 @@
     "time": "2 hours",
     "num_checks": 1,
     "dc": 15,
-    "note": ""
+    "note": null
   },
   {
     "craft": "alchemy",
@@ -1209,7 +1209,7 @@
     "time": "2 hours",
     "num_checks": 1,
     "dc": 15,
-    "note": ""
+    "note": null
   },
   {
     "craft": "alchemy",
@@ -1232,7 +1232,7 @@
     "time": "4 hours",
     "num_checks": 1,
     "dc": 15,
-    "note": ""
+    "note": null
   },
   {
     "craft": "alchemy",
@@ -1251,7 +1251,7 @@
     "time": "2 hours",
     "num_checks": 1,
     "dc": 17,
-    "note": ""
+    "note": null
   },
   {
     "craft": "alchemy",
@@ -1274,7 +1274,7 @@
     "time": "2 hours",
     "num_checks": 1,
     "dc": 17,
-    "note": ""
+    "note": null
   },
   {
     "craft": "alchemy",
@@ -1293,7 +1293,7 @@
     "time": "4 hours",
     "num_checks": 2,
     "dc": 19,
-    "note": ""
+    "note": null
   },
   {
     "craft": "alchemy",
@@ -1312,7 +1312,7 @@
     "time": "2 hours",
     "num_checks": 1,
     "dc": 10,
-    "note": ""
+    "note": null
   },
   {
     "craft": "alchemy",
@@ -1331,7 +1331,7 @@
     "time": "2 hours",
     "num_checks": 1,
     "dc": 12,
-    "note": ""
+    "note": null
   },
   {
     "craft": "alchemy",
@@ -1350,7 +1350,7 @@
     "time": "2 hours",
     "num_checks": 1,
     "dc": 14,
-    "note": ""
+    "note": null
   },
   {
     "craft": "alchemy",
@@ -1369,7 +1369,7 @@
     "time": "4 hours",
     "num_checks": 2,
     "dc": 16,
-    "note": ""
+    "note": null
   },
   {
     "craft": "alchemy",
@@ -1388,7 +1388,7 @@
     "time": "8 hours",
     "num_checks": 4,
     "dc": 18,
-    "note": ""
+    "note": null
   },
   {
     "craft": "alchemy",
@@ -1407,7 +1407,7 @@
     "time": "2 hours",
     "num_checks": 1,
     "dc": 13,
-    "note": ""
+    "note": null
   },
   {
     "craft": "alchemy",
@@ -1430,7 +1430,7 @@
     "time": "2 hours",
     "num_checks": 1,
     "dc": 14,
-    "note": ""
+    "note": null
   },
   {
     "craft": "alchemy",
@@ -1453,7 +1453,7 @@
     "time": "2 hours",
     "num_checks": 1,
     "dc": 12,
-    "note": ""
+    "note": null
   },
   {
     "craft": "alchemy",
@@ -1476,7 +1476,7 @@
     "time": "2 hours",
     "num_checks": 1,
     "dc": 16,
-    "note": ""
+    "note": null
   },
   {
     "craft": "alchemy",
@@ -1503,7 +1503,7 @@
     "time": "4 hours",
     "num_checks": 2,
     "dc": 19,
-    "note": ""
+    "note": null
   },
   {
     "craft": "alchemy",
@@ -1526,7 +1526,7 @@
     "time": "8 hours",
     "num_checks": 4,
     "dc": 15,
-    "note": ""
+    "note": null
   },
   {
     "craft": "alchemy",
@@ -1549,7 +1549,7 @@
     "time": "16 hours (2 days)",
     "num_checks": 8,
     "dc": 22,
-    "note": ""
+    "note": null
   },
   {
     "craft": "alchemy",
@@ -1572,7 +1572,7 @@
     "time": "16 hours (2 days)",
     "num_checks": 8,
     "dc": 22,
-    "note": ""
+    "note": null
   },
   {
     "craft": "poisoncraft",
@@ -1595,7 +1595,7 @@
     "time": "2 hours",
     "num_checks": 1,
     "dc": 14,
-    "note": ""
+    "note": null
   },
   {
     "craft": "poisoncraft",
@@ -1614,7 +1614,7 @@
     "time": "2 hour",
     "num_checks": 1,
     "dc": 14,
-    "note": ""
+    "note": null
   },
   {
     "craft": "poisoncraft",
@@ -1637,7 +1637,7 @@
     "time": "2 hour",
     "num_checks": 1,
     "dc": 14,
-    "note": ""
+    "note": null
   },
   {
     "craft": "poisoncraft",
@@ -1656,7 +1656,7 @@
     "time": "2 hour",
     "num_checks": 1,
     "dc": 14,
-    "note": ""
+    "note": null
   },
   {
     "craft": "poisoncraft",
@@ -1675,7 +1675,7 @@
     "time": "2 hour",
     "num_checks": 1,
     "dc": 12,
-    "note": ""
+    "note": null
   },
   {
     "craft": "poisoncraft",
@@ -1702,7 +1702,7 @@
     "time": "2 hours",
     "num_checks": 1,
     "dc": 16,
-    "note": ""
+    "note": null
   },
   {
     "craft": "poisoncraft",
@@ -1725,7 +1725,7 @@
     "time": "2 hours",
     "num_checks": 1,
     "dc": 14,
-    "note": ""
+    "note": null
   },
   {
     "craft": "poisoncraft",
@@ -1744,7 +1744,7 @@
     "time": "2 hours",
     "num_checks": 1,
     "dc": 15,
-    "note": ""
+    "note": null
   },
   {
     "craft": "poisoncraft",
@@ -1767,7 +1767,7 @@
     "time": "2 hours",
     "num_checks": 1,
     "dc": 15,
-    "note": ""
+    "note": null
   },
   {
     "craft": "poisoncraft",
@@ -1786,7 +1786,7 @@
     "time": "2 hours",
     "num_checks": 1,
     "dc": 15,
-    "note": ""
+    "note": null
   },
   {
     "craft": "poisoncraft",
@@ -1805,7 +1805,7 @@
     "time": "2 hour",
     "num_checks": 1,
     "dc": 14,
-    "note": ""
+    "note": null
   },
   {
     "craft": "poisoncraft",
@@ -1828,7 +1828,7 @@
     "time": "2 hours",
     "num_checks": 1,
     "dc": 14,
-    "note": ""
+    "note": null
   },
   {
     "craft": "poisoncraft",
@@ -1847,7 +1847,7 @@
     "time": "2 hours",
     "num_checks": 1,
     "dc": 16,
-    "note": ""
+    "note": null
   },
   {
     "craft": "poisoncraft",
@@ -1874,7 +1874,7 @@
     "time": "4 hours",
     "num_checks": 2,
     "dc": 16,
-    "note": ""
+    "note": null
   },
   {
     "craft": "poisoncraft",
@@ -1893,7 +1893,7 @@
     "time": "2 hours",
     "num_checks": 1,
     "dc": 17,
-    "note": ""
+    "note": null
   },
   {
     "craft": "poisoncraft",
@@ -1908,7 +1908,7 @@
     "time": "2 hours",
     "num_checks": 1,
     "dc": 16,
-    "note": ""
+    "note": null
   },
   {
     "craft": "poisoncraft",
@@ -1927,7 +1927,7 @@
     "time": "4 hour",
     "num_checks": 2,
     "dc": 17,
-    "note": ""
+    "note": null
   },
   {
     "craft": "poisoncraft",
@@ -1950,7 +1950,7 @@
     "time": "4 hours",
     "num_checks": 2,
     "dc": 16,
-    "note": ""
+    "note": null
   },
   {
     "craft": "poisoncraft",
@@ -1977,7 +1977,7 @@
     "time": "4 hours",
     "num_checks": 2,
     "dc": 15,
-    "note": ""
+    "note": null
   },
   {
     "craft": "poisoncraft",
@@ -2000,7 +2000,7 @@
     "time": "4 hours",
     "num_checks": 2,
     "dc": 16,
-    "note": ""
+    "note": null
   },
   {
     "craft": "poisoncraft",
@@ -2019,7 +2019,7 @@
     "time": "4 hours",
     "num_checks": 2,
     "dc": 16,
-    "note": ""
+    "note": null
   },
   {
     "craft": "blacksmithing",
@@ -2542,7 +2542,7 @@
     "time": "14 hours",
     "num_checks": 7,
     "dc": 13,
-    "note": ""
+    "note": null
   },
   {
     "craft": "blacksmithing",
@@ -2561,7 +2561,7 @@
     "time": "14 hours",
     "num_checks": 7,
     "dc": 12,
-    "note": ""
+    "note": null
   },
   {
     "craft": "blacksmithing",
@@ -2576,7 +2576,7 @@
     "time": "16 hours",
     "num_checks": 8,
     "dc": 16,
-    "note": ""
+    "note": null
   },
   {
     "craft": "blacksmithing",
@@ -2595,7 +2595,7 @@
     "time": "28 hours",
     "num_checks": 14,
     "dc": 17,
-    "note": ""
+    "note": null
   },
   {
     "craft": "blacksmithing",
@@ -2614,7 +2614,7 @@
     "time": "10 hours",
     "num_checks": 5,
     "dc": 11,
-    "note": ""
+    "note": null
   },
   {
     "craft": "blacksmithing",
@@ -2633,7 +2633,7 @@
     "time": "14 hours",
     "num_checks": 7,
     "dc": 13,
-    "note": ""
+    "note": null
   },
   {
     "craft": "blacksmithing",
@@ -2652,7 +2652,7 @@
     "time": "28 hours",
     "num_checks": 14,
     "dc": 14,
-    "note": ""
+    "note": null
   },
   {
     "craft": "blacksmithing",
@@ -2671,7 +2671,7 @@
     "time": "56 hours",
     "num_checks": 28,
     "dc": 17,
-    "note": ""
+    "note": null
   },
   {
     "craft": "blacksmithing",
@@ -2686,7 +2686,7 @@
     "time": "6 hours",
     "num_checks": 3,
     "dc": 10,
-    "note": ""
+    "note": null
   },
   {
     "craft": "blacksmithing",
@@ -2701,7 +2701,7 @@
     "time": "10 hours",
     "num_checks": 5,
     "dc": 13,
-    "note": ""
+    "note": null
   },
   {
     "craft": "blacksmithing",
@@ -2716,7 +2716,7 @@
     "time": "8 hours",
     "num_checks": 4,
     "dc": 14,
-    "note": ""
+    "note": null
   },
   {
     "craft": "blacksmithing",
@@ -2731,7 +2731,7 @@
     "time": "4 hours",
     "num_checks": 2,
     "dc": 13,
-    "note": ""
+    "note": null
   },
   {
     "craft": "blacksmithing",
@@ -2746,7 +2746,7 @@
     "time": "2 hours",
     "num_checks": 1,
     "dc": 9,
-    "note": ""
+    "note": null
   },
   {
     "craft": "blacksmithing",
@@ -2781,7 +2781,7 @@
     "time": "2 hours",
     "num_checks": 1,
     "dc": 8,
-    "note": ""
+    "note": null
   },
   {
     "craft": "blacksmithing",
@@ -2796,7 +2796,7 @@
     "time": "4 hours",
     "num_checks": 2,
     "dc": 10,
-    "note": ""
+    "note": null
   },
   {
     "craft": "blacksmithing",
@@ -2811,7 +2811,7 @@
     "time": "4 hours",
     "num_checks": 2,
     "dc": 10,
-    "note": ""
+    "note": null
   },
   {
     "craft": "blacksmithing",
@@ -2826,7 +2826,7 @@
     "time": "2 hours",
     "num_checks": 1,
     "dc": 8,
-    "note": ""
+    "note": null
   },
   {
     "craft": "blacksmithing",
@@ -2841,7 +2841,7 @@
     "time": "2 hours",
     "num_checks": 1,
     "dc": 8,
-    "note": ""
+    "note": null
   },
   {
     "craft": "blacksmithing",
@@ -2856,7 +2856,7 @@
     "time": "2 hours",
     "num_checks": 1,
     "dc": 9,
-    "note": ""
+    "note": null
   },
   {
     "craft": "blacksmithing",
@@ -2871,7 +2871,7 @@
     "time": "2 hours",
     "num_checks": 1,
     "dc": 8,
-    "note": ""
+    "note": null
   },
   {
     "craft": "blacksmithing",
@@ -2886,7 +2886,7 @@
     "time": "2 hours",
     "num_checks": 1,
     "dc": 8,
-    "note": ""
+    "note": null
   },
   {
     "craft": "blacksmithing",
@@ -2901,7 +2901,7 @@
     "time": "8 hours",
     "num_checks": 4,
     "dc": 12,
-    "note": ""
+    "note": null
   },
   {
     "craft": "blacksmithing",
@@ -2920,7 +2920,7 @@
     "time": "8 hours",
     "num_checks": 4,
     "dc": 11,
-    "note": ""
+    "note": null
   },
   {
     "craft": "blacksmithing",
@@ -2939,7 +2939,7 @@
     "time": "6 hours",
     "num_checks": 3,
     "dc": 12,
-    "note": ""
+    "note": null
   },
   {
     "craft": "blacksmithing",
@@ -2958,7 +2958,7 @@
     "time": "2 hours",
     "num_checks": 1,
     "dc": 15,
-    "note": ""
+    "note": null
   },
   {
     "craft": "blacksmithing",
@@ -2973,7 +2973,7 @@
     "time": "4 hours",
     "num_checks": 2,
     "dc": 9,
-    "note": ""
+    "note": null
   },
   {
     "craft": "blacksmithing",
@@ -2988,7 +2988,7 @@
     "time": "2 hours",
     "num_checks": 1,
     "dc": 8,
-    "note": ""
+    "note": null
   },
   {
     "craft": "blacksmithing",
@@ -3003,7 +3003,7 @@
     "time": "2 hours",
     "num_checks": 1,
     "dc": 5,
-    "note": ""
+    "note": null
   },
   {
     "craft": "blacksmithing",
@@ -3018,7 +3018,7 @@
     "time": "2 hours",
     "num_checks": 1,
     "dc": 5,
-    "note": ""
+    "note": null
   },
   {
     "craft": "blacksmithing",
@@ -3033,7 +3033,7 @@
     "time": "4 hours",
     "num_checks": 2,
     "dc": 5,
-    "note": "Smelting ore requires specialized factilities. This can usually be accomplished in a fully equiped smithy, but consult your GM for where it might be appropriate. Adventurers rarely smelt their own ore, these are included primarily for informational purposes. Smelting magical ores may require more specialized facilities or locations."
+    "note": null
   },
   {
     "craft": "blacksmithing",
@@ -3052,7 +3052,7 @@
     "time": "4 hours",
     "num_checks": 2,
     "dc": 8,
-    "note": "Smelting ore requires specialized factilities. This can usually be accomplished in a fully equiped smithy, but consult your GM for where it might be appropriate. Adventurers rarely smelt their own ore, these are included primarily for informational purposes. Smelting magical ores may require more specialized facilities or locations."
+    "note": null
   },
   {
     "craft": "blacksmithing",
@@ -3067,7 +3067,7 @@
     "time": "2 hours",
     "num_checks": 1,
     "dc": 5,
-    "note": ""
+    "note": null
   },
   {
     "craft": "blacksmithing",
@@ -3082,7 +3082,7 @@
     "time": "2 hours",
     "num_checks": 1,
     "dc": 5,
-    "note": ""
+    "note": null
   },
   {
     "craft": "blacksmithing",
@@ -3097,7 +3097,7 @@
     "time": "4 hours",
     "num_checks": 2,
     "dc": 12,
-    "note": ""
+    "note": null
   },
   {
     "craft": "blacksmithing",
@@ -3112,7 +3112,7 @@
     "time": "2 hours",
     "num_checks": 1,
     "dc": 5,
-    "note": ""
+    "note": null
   },
   {
     "craft": "blacksmithing",
@@ -3127,7 +3127,7 @@
     "time": "2 hours",
     "num_checks": 1,
     "dc": 5,
-    "note": ""
+    "note": null
   },
   {
     "craft": "blacksmithing",
@@ -3142,7 +3142,7 @@
     "time": "2 hours",
     "num_checks": 1,
     "dc": 15,
-    "note": "Smelting ore requires specialized factilities. This can usually be accomplished in a fully equiped smithy, but consult your GM for where it might be appropriate. Adventurers rarely smelt their own ore, these are included primarily for informational purposes. Smelting magical ores may require more specialized facilities or locations."
+    "note": null
   },
   {
     "craft": "blacksmithing",
@@ -3157,7 +3157,7 @@
     "time": "2 hours",
     "num_checks": 1,
     "dc": 16,
-    "note": "Smelting ore requires specialized factilities. This can usually be accomplished in a fully equiped smithy, but consult your GM for where it might be appropriate. Adventurers rarely smelt their own ore, these are included primarily for informational purposes. Smelting magical ores may require more specialized facilities or locations."
+    "note": null
   },
   {
     "craft": "blacksmithing",
@@ -3176,7 +3176,7 @@
     "time": "2 hours",
     "num_checks": 1,
     "dc": 16,
-    "note": "Smelting ore requires specialized factilities. This can usually be accomplished in a fully equiped smithy, but consult your GM for where it might be appropriate. Adventurers rarely smelt their own ore, these are included primarily for informational purposes. Smelting magical ores may require more specialized facilities or locations."
+    "note": null
   },
   {
     "craft": "blacksmithing",
@@ -3195,7 +3195,7 @@
     "time": "2 hours",
     "num_checks": 1,
     "dc": 16,
-    "note": "Smelting ore requires specialized factilities. This can usually be accomplished in a fully equiped smithy, but consult your GM for where it might be appropriate. Adventurers rarely smelt their own ore, these are included primarily for informational purposes. Smelting magical ores may require more specialized facilities or locations."
+    "note": null
   },
   {
     "craft": "blacksmithing",
@@ -3214,7 +3214,7 @@
     "time": "2 hours",
     "num_checks": 1,
     "dc": 16,
-    "note": "Smelting ore requires specialized factilities. This can usually be accomplished in a fully equiped smithy, but consult your GM for where it might be appropriate. Adventurers rarely smelt their own ore, these are included primarily for informational purposes. Smelting magical ores may require more specialized facilities or locations."
+    "note": null
   },
   {
     "craft": "blacksmithing",
@@ -3229,7 +3229,7 @@
     "time": "2 hours",
     "num_checks": 1,
     "dc": 15,
-    "note": ""
+    "note": null
   },
   {
     "craft": "blacksmithing",
@@ -3248,7 +3248,7 @@
     "time": "4 hours",
     "num_checks": 2,
     "dc": 15,
-    "note": ""
+    "note": null
   },
   {
     "craft": "blacksmithing",
@@ -3271,7 +3271,7 @@
     "time": "16 hours",
     "num_checks": 8,
     "dc": 16,
-    "note": ""
+    "note": null
   },
   {
     "craft": "blacksmithing",
@@ -3294,7 +3294,7 @@
     "time": "16 hours",
     "num_checks": 8,
     "dc": 17,
-    "note": ""
+    "note": null
   },
   {
     "craft": "blacksmithing",
@@ -3321,7 +3321,7 @@
     "time": "32 hours",
     "num_checks": 16,
     "dc": 19,
-    "note": ""
+    "note": null
   },
   {
     "craft": "blacksmithing",
@@ -3356,7 +3356,7 @@
     "time": "8 hours",
     "num_checks": 4,
     "dc": 17,
-    "note": ""
+    "note": null
   },
   {
     "craft": "cooking",
@@ -3375,7 +3375,7 @@
     "time": "1 hour",
     "num_checks": 1,
     "dc": 8,
-    "note": ""
+    "note": null
   },
   {
     "craft": "cooking",
@@ -3398,7 +3398,7 @@
     "time": "2 hours",
     "num_checks": 1,
     "dc": 14,
-    "note": ""
+    "note": null
   },
   {
     "craft": "cooking",
@@ -3421,7 +3421,7 @@
     "time": "2 hours",
     "num_checks": 1,
     "dc": 14,
-    "note": ""
+    "note": null
   },
   {
     "craft": "cooking",
@@ -3448,7 +3448,7 @@
     "time": "2 hours",
     "num_checks": 1,
     "dc": 16,
-    "note": ""
+    "note": null
   },
   {
     "craft": "cooking",
@@ -3471,7 +3471,7 @@
     "time": "2 hours",
     "num_checks": 1,
     "dc": 12,
-    "note": ""
+    "note": null
   },
   {
     "craft": "cooking",
@@ -3502,7 +3502,7 @@
     "time": "2 hours",
     "num_checks": 1,
     "dc": 16,
-    "note": ""
+    "note": null
   },
   {
     "craft": "cooking",
@@ -3533,7 +3533,7 @@
     "time": "2 hours",
     "num_checks": 1,
     "dc": 16,
-    "note": ""
+    "note": null
   },
   {
     "craft": "cooking",
@@ -3568,7 +3568,7 @@
     "time": "2 hours",
     "num_checks": 1,
     "dc": 16,
-    "note": ""
+    "note": null
   },
   {
     "craft": "cooking",
@@ -3595,7 +3595,7 @@
     "time": "4 hours",
     "num_checks": 2,
     "dc": 18,
-    "note": ""
+    "note": null
   },
   {
     "craft": "cooking",
@@ -3626,7 +3626,7 @@
     "time": "4 hours",
     "num_checks": 2,
     "dc": 18,
-    "note": ""
+    "note": null
   },
   {
     "craft": "cooking",
@@ -3657,7 +3657,7 @@
     "time": "4 hours",
     "num_checks": 2,
     "dc": 18,
-    "note": ""
+    "note": null
   },
   {
     "craft": "cooking",
@@ -3688,7 +3688,7 @@
     "time": "6 hours",
     "num_checks": 3,
     "dc": 20,
-    "note": ""
+    "note": null
   },
   {
     "craft": "cooking",
@@ -3719,7 +3719,7 @@
     "time": "6 hours",
     "num_checks": 3,
     "dc": 20,
-    "note": ""
+    "note": null
   },
   {
     "craft": "cooking",
@@ -3742,7 +3742,7 @@
     "time": "6 hours",
     "num_checks": 3,
     "dc": 15,
-    "note": ""
+    "note": null
   },
   {
     "craft": "cooking",
@@ -3761,7 +3761,7 @@
     "time": "4 hours",
     "num_checks": 2,
     "dc": 14,
-    "note": ""
+    "note": null
   },
   {
     "craft": "cooking",
@@ -3788,7 +3788,7 @@
     "time": "2 hours",
     "num_checks": 2,
     "dc": 15,
-    "note": ""
+    "note": null
   },
   {
     "craft": "cooking",
@@ -3815,7 +3815,7 @@
     "time": "4 hours",
     "num_checks": 2,
     "dc": 15,
-    "note": ""
+    "note": null
   },
   {
     "craft": "cooking",
@@ -3866,7 +3866,7 @@
     "time": "6 hours",
     "num_checks": 3,
     "dc": 15,
-    "note": ""
+    "note": null
   },
   {
     "craft": "cooking",
@@ -3881,7 +3881,8113 @@
     "time": "1 hour",
     "num_checks": 1,
     "dc": 8,
-    "note": ""
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "bag of beans|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "bag of beans"
+      ],
+      [
+        1,
+        "scroll of plant growth"
+      ],
+      [
+        1,
+        "scroll of conjure animals"
+      ],
+      [
+        1,
+        "uncommon primal essence"
+      ],
+      [
+        6,
+        "common primal essence"
+      ]
+    ],
+    "time": "24 hours (3 days)",
+    "num_checks": 12,
+    "dc": 15,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "bag of holding|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "bag"
+      ],
+      [
+        1,
+        "scroll of secret chest"
+      ],
+      [
+        2,
+        "uncommon arcane essence"
+      ]
+    ],
+    "time": "16 hours (2 days)",
+    "num_checks": 8,
+    "dc": 16,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "bag of tricks, tan|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "bag"
+      ],
+      [
+        4,
+        "common arcane essence"
+      ],
+      [
+        1,
+        "scroll of conjure animals"
+      ]
+    ],
+    "time": "12 hours (1.5 days)",
+    "num_checks": 6,
+    "dc": 14,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "bag of tricks, gray|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "bag"
+      ],
+      [
+        4,
+        "common arcane essence"
+      ],
+      [
+        1,
+        "scroll of conjure animals"
+      ]
+    ],
+    "time": "12 hours (1.5 days)",
+    "num_checks": 6,
+    "dc": 14,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "bag of tricks, rust|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "bag"
+      ],
+      [
+        4,
+        "common arcane essence"
+      ],
+      [
+        1,
+        "scroll of conjure animals"
+      ]
+    ],
+    "time": "12 hours (1.5 days)",
+    "num_checks": 6,
+    "dc": 14,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "boots of elvenkind|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "boots worth at least"
+      ],
+      [
+        1,
+        "50 gp"
+      ],
+      [
+        1,
+        "scroll of silence"
+      ],
+      [
+        1,
+        "scroll of pass without a trace"
+      ],
+      [
+        1,
+        "uncommon primal essence"
+      ],
+      [
+        1,
+        "common primal essence"
+      ]
+    ],
+    "time": "8 hours",
+    "num_checks": 4,
+    "dc": 14,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "boots of striding and springing|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "boots worth at least"
+      ],
+      [
+        1,
+        "50 gp"
+      ],
+      [
+        1,
+        "common arcane essence"
+      ],
+      [
+        1,
+        "common primal essence"
+      ],
+      [
+        1,
+        "scroll of longstrider"
+      ],
+      [
+        1,
+        "scroll of jump"
+      ]
+    ],
+    "time": "8 hours",
+    "num_checks": 4,
+    "dc": 15,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "boots of the winterlands|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "boots"
+      ],
+      [
+        1,
+        "scroll of protection from energy"
+      ],
+      [
+        1,
+        "scroll of arctic breathK"
+      ],
+      [
+        2,
+        "uncommon primal essence"
+      ]
+    ],
+    "time": "12 hours (1.5 days)",
+    "num_checks": 6,
+    "dc": 15,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "bracers of archery|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "set of bracers"
+      ],
+      [
+        1,
+        "scroll of seeking shotK"
+      ],
+      [
+        1,
+        "uncommon primal essence"
+      ],
+      [
+        1,
+        "uncommon arcane essence"
+      ]
+    ],
+    "time": "12 hours (1.5 days)",
+    "num_checks": 6,
+    "dc": 15,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "broom of flying|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "broom"
+      ],
+      [
+        1,
+        "scroll of levitate"
+      ],
+      [
+        1,
+        "scroll of fly"
+      ],
+      [
+        1,
+        "scroll of animate objectK"
+      ],
+      [
+        2,
+        "uncommon primal essence"
+      ]
+    ],
+    "time": "16 hours (2 days)",
+    "num_checks": 8,
+    "dc": 16,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "cap of water breathing|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "leather cap"
+      ],
+      [
+        1,
+        "scroll of water breathing"
+      ],
+      [
+        1,
+        "common arcane essence"
+      ],
+      [
+        2,
+        "commom primal essence"
+      ]
+    ],
+    "time": "8 hours",
+    "num_checks": 4,
+    "dc": 14,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "cloak of the manta ray|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "cloak"
+      ],
+      [
+        1,
+        "scroll of water breathing"
+      ],
+      [
+        1,
+        "scroll of alter self"
+      ],
+      [
+        2,
+        "common primal essence"
+      ]
+    ],
+    "time": "8 hours",
+    "num_checks": 4,
+    "dc": 14,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "cloak of protection|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "cloak"
+      ],
+      [
+        1,
+        "scroll of shield of faith"
+      ],
+      [
+        1,
+        "scroll of mage armor"
+      ],
+      [
+        1,
+        "scroll of protection from energy"
+      ],
+      [
+        1,
+        "scroll of shield"
+      ],
+      [
+        1,
+        "scroll of false life"
+      ],
+      [
+        1,
+        "uncommon arcane essence"
+      ],
+      [
+        1,
+        "uncommon divine essence"
+      ]
+    ],
+    "time": "16 hours",
+    "num_checks": 8,
+    "dc": 16,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "circlet of blasting|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "circlet worth at least"
+      ],
+      [
+        1,
+        "50 gp"
+      ],
+      [
+        1,
+        "scroll of scorching ray"
+      ],
+      [
+        1,
+        "common arcane essence"
+      ],
+      [
+        1,
+        "common primal essence"
+      ]
+    ],
+    "time": "8 hours",
+    "num_checks": 4,
+    "dc": 12,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "goggles of night|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "pair of goggles"
+      ],
+      [
+        1,
+        "scroll of darkvision"
+      ],
+      [
+        1,
+        "common primal essence"
+      ],
+      [
+        1,
+        "uncommon arcane essence"
+      ]
+    ],
+    "time": "8 hours",
+    "num_checks": 4,
+    "dc": 13,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "pearl of power|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "pearl worth at least"
+      ],
+      [
+        1,
+        "100 gp"
+      ],
+      [
+        5,
+        "common arcane essence"
+      ]
+    ],
+    "time": "8 hours",
+    "num_checks": 4,
+    "dc": 12,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "cloak of elvenkind|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "cloak"
+      ],
+      [
+        1,
+        "scroll of pass without a trace"
+      ],
+      [
+        1,
+        "uncommon primal essence"
+      ],
+      [
+        1,
+        "common primal essence"
+      ]
+    ],
+    "time": "8 hours",
+    "num_checks": 4,
+    "dc": 14,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "decanter of endless water|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "decanter"
+      ],
+      [
+        1,
+        "scroll of create or destroy water"
+      ],
+      [
+        1,
+        "uncommon primal essence"
+      ],
+      [
+        1,
+        "common divine essence"
+      ]
+    ],
+    "time": "8 hours",
+    "num_checks": 4,
+    "dc": 14,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "deck of illusions|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        34,
+        "cards"
+      ],
+      [
+        1,
+        "scroll of major image"
+      ],
+      [
+        1,
+        "scroll of silent image"
+      ],
+      [
+        34,
+        "common arcane essences"
+      ]
+    ],
+    "time": "8 hours",
+    "num_checks": 4,
+    "dc": 15,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "efficient quiver|srd",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "quiver worth 25 gp "
+      ],
+      [
+        1,
+        "scroll of secret chest"
+      ],
+      [
+        1,
+        "common arcane essence"
+      ]
+    ],
+    "time": "8 hours",
+    "num_checks": 4,
+    "dc": 15,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "eversmoking bottle|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "bottle"
+      ],
+      [
+        1,
+        "scroll of fog cloud"
+      ],
+      [
+        1,
+        "scroll of produce flame"
+      ],
+      [
+        1,
+        "common arcane essence"
+      ],
+      [
+        1,
+        "common primal essence"
+      ]
+    ],
+    "time": "8 hours",
+    "num_checks": 4,
+    "dc": 13,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "eyes of charming|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "crystal lenses"
+      ],
+      [
+        1,
+        "50 gp"
+      ],
+      [
+        1,
+        "scroll of charm person"
+      ],
+      [
+        1,
+        "uncommon arcane essence"
+      ]
+    ],
+    "time": "4 hours",
+    "num_checks": 2,
+    "dc": 14,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "eyes of minute seeing|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "crystal lenses"
+      ],
+      [
+        1,
+        "50 gp"
+      ],
+      [
+        1,
+        "scroll of identify"
+      ],
+      [
+        1,
+        "common arcane essence"
+      ]
+    ],
+    "time": "4 hours",
+    "num_checks": 2,
+    "dc": 14,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "eyes of the eagle|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "crystal lenses"
+      ],
+      [
+        1,
+        "scroll of far sightK"
+      ],
+      [
+        1,
+        "common primal essence"
+      ]
+    ],
+    "time": "4 hours",
+    "num_checks": 2,
+    "dc": 14,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "figurine of wondrous power, silver raven|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "figurine of a raven worth at least"
+      ],
+      [
+        1,
+        "10 gp"
+      ],
+      [
+        1,
+        "scroll of find familiar"
+      ],
+      [
+        1,
+        "scroll of animal messenger"
+      ],
+      [
+        1,
+        "common primal essence"
+      ],
+      [
+        1,
+        "common arcane essence"
+      ]
+    ],
+    "time": "8 hours",
+    "num_checks": 4,
+    "dc": 13,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "gauntlets of ogre power|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "gauntlets worth 50 gp "
+      ],
+      [
+        1,
+        "scroll of enlarge"
+      ],
+      [
+        1,
+        "scroll of enhance ability"
+      ],
+      [
+        1,
+        "uncommon primal essence"
+      ],
+      [
+        1,
+        "common arcane essence"
+      ]
+    ],
+    "time": "12 hours (1.5 days)",
+    "num_checks": 6,
+    "dc": 14,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "gem of brightness|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "cut gem worth at least"
+      ],
+      [
+        1,
+        "50 gp"
+      ],
+      [
+        1,
+        "scroll of light"
+      ],
+      [
+        1,
+        "scroll of daylight"
+      ],
+      [
+        1,
+        "uncommon divine essence"
+      ],
+      [
+        1,
+        "common arcane essence"
+      ]
+    ],
+    "time": "8 hours",
+    "num_checks": 4,
+    "dc": 14,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "gloves of missile snaring|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "pair of gloves"
+      ],
+      [
+        1,
+        "scroll of attract"
+      ],
+      [
+        1,
+        "uncommon arcane essence"
+      ],
+      [
+        1,
+        "common primal essence"
+      ]
+    ],
+    "time": "8 hours",
+    "num_checks": 4,
+    "dc": 15,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "gloves of swimming and climbing|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "pair of gloves"
+      ],
+      [
+        1,
+        "scroll of enhance ability"
+      ],
+      [
+        1,
+        "common arcane essence"
+      ],
+      [
+        1,
+        "common primal essence"
+      ]
+    ],
+    "time": "8 hours",
+    "num_checks": 4,
+    "dc": 14,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "hat of disguise|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "hat"
+      ],
+      [
+        1,
+        "scroll of disguise self"
+      ],
+      [
+        1,
+        "scroll of minor illusion"
+      ],
+      [
+        1,
+        "uncommon arcane essence"
+      ],
+      [
+        1,
+        "common arcane essence"
+      ]
+    ],
+    "time": "8 hours",
+    "num_checks": 4,
+    "dc": 14,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "headband of intellect|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "headband worth at least"
+      ],
+      [
+        1,
+        "25 gp"
+      ],
+      [
+        1,
+        "scroll of enhance ability"
+      ],
+      [
+        2,
+        "uncommon arcane essence"
+      ],
+      [
+        1,
+        "common divine essence"
+      ]
+    ],
+    "time": "12 hours (1.5 days)",
+    "num_checks": 6,
+    "dc": 14,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "helm of comprehending languages|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "helm worth at least"
+      ],
+      [
+        1,
+        "25 gp"
+      ],
+      [
+        1,
+        "scroll of comprhend languages"
+      ],
+      [
+        1,
+        "common arcane essence"
+      ],
+      [
+        1,
+        "common divine essence"
+      ]
+    ],
+    "time": "16 hours (2 days)",
+    "num_checks": 8,
+    "dc": 14,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "helm of telepathy|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "helm worth at least"
+      ],
+      [
+        1,
+        "50 gp"
+      ],
+      [
+        1,
+        "scroll of detect thoughts"
+      ],
+      [
+        1,
+        "scroll of suggestion"
+      ],
+      [
+        1,
+        "uncommon arcane essence"
+      ],
+      [
+        1,
+        "common arcane essence"
+      ]
+    ],
+    "time": "16 hours (2 days)",
+    "num_checks": 8,
+    "dc": 15,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "stone of good luck|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "polished agate worth 50 gp "
+      ],
+      [
+        1,
+        "scroll of imbue luckK"
+      ],
+      [
+        1,
+        "uncommon divine essence"
+      ],
+      [
+        1,
+        "common primal essence"
+      ]
+    ],
+    "time": "8 hours",
+    "num_checks": 4,
+    "dc": 15,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "lantern of revealing|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "lantern"
+      ],
+      [
+        1,
+        "scroll of light"
+      ],
+      [
+        1,
+        "scroll of see invisible"
+      ],
+      [
+        1,
+        "uncommon arcane essence"
+      ],
+      [
+        1,
+        "uncommon divine essence"
+      ]
+    ],
+    "time": "8 hours",
+    "num_checks": 4,
+    "dc": 15,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "pipes of haunting|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "pipes worth at least"
+      ],
+      [
+        1,
+        "25 gp"
+      ],
+      [
+        1,
+        "scroll of frightenK"
+      ],
+      [
+        1,
+        "uncommon arcane essence"
+      ],
+      [
+        1,
+        "uncommon divine essence"
+      ]
+    ],
+    "time": "8 hour",
+    "num_checks": 4,
+    "dc": 15,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "pipes of the sewers|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "pipes worth at least"
+      ],
+      [
+        1,
+        "25 gp"
+      ],
+      [
+        1,
+        "scroll of animal friendship"
+      ],
+      [
+        1,
+        "uncommon primal essence"
+      ],
+      [
+        1,
+        "common primal essence"
+      ]
+    ],
+    "time": "8 hours",
+    "num_checks": 4,
+    "dc": 14,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "robe of useful items|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "robe"
+      ],
+      [
+        1,
+        "100 gp"
+      ],
+      [
+        1,
+        "silver coffer worth 500 gp "
+      ],
+      [
+        1,
+        "iron door"
+      ],
+      [
+        10,
+        "gems worth 100 gp each "
+      ],
+      [
+        1,
+        "wooden ladder"
+      ],
+      [
+        1,
+        "picture of a horse worth 75 gp "
+      ],
+      [
+        1,
+        "saddle bag"
+      ],
+      [
+        1,
+        "scroll of create holeK"
+      ],
+      [
+        4,
+        "potions of healing"
+      ],
+      [
+        1,
+        "rowboat"
+      ],
+      [
+        1,
+        "picture of mastiffs worth at least"
+      ],
+      [
+        1,
+        "25 gp"
+      ],
+      [
+        1,
+        "window"
+      ],
+      [
+        1,
+        "portable ram"
+      ],
+      [
+        13,
+        "common arcane essences"
+      ]
+    ],
+    "time": "8 hours",
+    "num_checks": 4,
+    "dc": 14,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "rope of climbing|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "scroll of awaken ropeK"
+      ],
+      [
+        1,
+        "uncommon arcane essence"
+      ],
+      [
+        1,
+        "common arcane essence"
+      ]
+    ],
+    "time": "4 hours",
+    "num_checks": 2,
+    "dc": 14,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "Sending Stones|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "set of the same kind of stones"
+      ],
+      [
+        1,
+        "scroll of sending"
+      ],
+      [
+        2,
+        "common arcane essence"
+      ]
+    ],
+    "time": "4 hours",
+    "num_checks": 2,
+    "dc": 14,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "slippers of spider climbing|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "slippers"
+      ],
+      [
+        1,
+        "scroll of spider climbing"
+      ],
+      [
+        1,
+        "common arcane essence"
+      ],
+      [
+        1,
+        "common primal essence"
+      ]
+    ],
+    "time": "8 hours",
+    "num_checks": 4,
+    "dc": 14,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "winged boots|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "boots worth at least"
+      ],
+      [
+        1,
+        "50 gp"
+      ],
+      [
+        1,
+        "scroll of fly"
+      ],
+      [
+        1,
+        "scroll of levitate"
+      ],
+      [
+        1,
+        "scroll of feather fall"
+      ],
+      [
+        1,
+        "uncommon arcane essence"
+      ],
+      [
+        1,
+        "uncommon primal essence"
+      ]
+    ],
+    "time": "16 hours (2 days)",
+    "num_checks": 8,
+    "dc": 15,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "bead of force|dmg",
+    "quantity": "8 beads",
+    "materials": [
+      [
+        8,
+        "scrolls of resilient sphere"
+      ]
+    ],
+    "time": "16 hours (2 days)",
+    "num_checks": 8,
+    "dc": 16,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "belt of dwarvenkind|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "belt worth at least"
+      ],
+      [
+        1,
+        "200 gp"
+      ],
+      [
+        1,
+        "200 gp worth of quality ale"
+      ],
+      [
+        1,
+        "rare primal essence"
+      ],
+      [
+        2,
+        "uncommon primal essences"
+      ],
+      [
+        1,
+        "scroll of stoneskin"
+      ],
+      [
+        1,
+        "scroll of alter self"
+      ]
+    ],
+    "time": "16 hours (2 days)",
+    "num_checks": 8,
+    "dc": 17,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "belt of hill giant strength|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "belt"
+      ],
+      [
+        1,
+        "scroll of enhance ability"
+      ],
+      [
+        1,
+        "scroll of enlarge"
+      ],
+      [
+        3,
+        "rare primal essence"
+      ]
+    ],
+    "time": "16 hours (2 days)",
+    "num_checks": 8,
+    "dc": 18,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "boots of levitation|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "boots worth at least"
+      ],
+      [
+        1,
+        "50 gp"
+      ],
+      [
+        1,
+        "scroll of levitate"
+      ],
+      [
+        2,
+        "rare arcane essence"
+      ],
+      [
+        2,
+        "uncommon primal essence"
+      ]
+    ],
+    "time": "16 hours (2 days)",
+    "num_checks": 8,
+    "dc": 17,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "boots of speed|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "boots worth at least"
+      ],
+      [
+        1,
+        "200 gp"
+      ],
+      [
+        1,
+        "scroll of haste"
+      ],
+      [
+        1,
+        "rare primal essence"
+      ],
+      [
+        2,
+        "rare arcane essence"
+      ],
+      [
+        2,
+        "uncommon arcane essence"
+      ]
+    ],
+    "time": "16 hours (2 days)",
+    "num_checks": 8,
+    "dc": 16,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "bracers of defense|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "set of bracers worth at least"
+      ],
+      [
+        1,
+        "200 gp"
+      ],
+      [
+        1,
+        "scroll of shield"
+      ],
+      [
+        1,
+        "scroll of shield of faith"
+      ],
+      [
+        1,
+        "rare divine essence"
+      ],
+      [
+        1,
+        "rare arcane essence"
+      ]
+    ],
+    "time": "16 hours",
+    "num_checks": 8,
+    "dc": 17,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "brazier of commanding fire elementals|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "brazier worth 200 gp "
+      ],
+      [
+        1,
+        "scroll of conjure elemental"
+      ],
+      [
+        2,
+        "rare primal essences"
+      ],
+      [
+        2,
+        "rare reactive reagents"
+      ]
+    ],
+    "time": "16 hours (2 days)",
+    "num_checks": 8,
+    "dc": 17,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "bowl of commanding water elementals|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "bowl worth 200 gp "
+      ],
+      [
+        1,
+        "scroll of conjure elemental"
+      ],
+      [
+        2,
+        "rare primal essences"
+      ],
+      [
+        2,
+        "rare curative reagents"
+      ]
+    ],
+    "time": "16 hours (2 days)",
+    "num_checks": 8,
+    "dc": 17,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "censer of controlling air elementals|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "censer worth 200 gp "
+      ],
+      [
+        1,
+        "scroll of conjure elemental"
+      ],
+      [
+        2,
+        "rare primal essences"
+      ],
+      [
+        1,
+        "rare reactive reagent"
+      ],
+      [
+        1,
+        "uncommon arcane essence"
+      ]
+    ],
+    "time": "16 hours (2 days)",
+    "num_checks": 8,
+    "dc": 17,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "cape of the mountebank|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "cape worth at least"
+      ],
+      [
+        1,
+        "200 gp"
+      ],
+      [
+        1,
+        "scroll of dimension door"
+      ],
+      [
+        1,
+        "scroll of pyrotechnics"
+      ],
+      [
+        1,
+        "rare arcane essence"
+      ],
+      [
+        1,
+        "uncommon primal essence"
+      ]
+    ],
+    "time": "16 hours (2 days)",
+    "num_checks": 8,
+    "dc": 18,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "chime of opening|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "chime worth 50 gp "
+      ],
+      [
+        1,
+        "scroll of knock"
+      ],
+      [
+        10,
+        "common arcane essences"
+      ]
+    ],
+    "time": "10 hours",
+    "num_checks": 5,
+    "dc": 14,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "cloak of displacement|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "cloak worth 50 gp "
+      ],
+      [
+        1,
+        "scroll of mirror image"
+      ],
+      [
+        1,
+        "rare arcane essence"
+      ],
+      [
+        1,
+        "uncommon arcane essence"
+      ]
+    ],
+    "time": "12 hours (1.5 days)",
+    "num_checks": 6,
+    "dc": 16,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "cloak of the bat|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "cloak worth at least"
+      ],
+      [
+        1,
+        "50 gp"
+      ],
+      [
+        1,
+        "scroll of form of the familiarK"
+      ],
+      [
+        1,
+        "scroll of darkness"
+      ],
+      [
+        1,
+        "scroll of fly"
+      ],
+      [
+        1,
+        "rare primal essence"
+      ],
+      [
+        1,
+        "uncommon arcane essence"
+      ]
+    ],
+    "time": "12 hours (1.5 days)",
+    "num_checks": 6,
+    "dc": 15,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "dimensional shackles|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "set of manacles"
+      ],
+      [
+        1,
+        "scroll of hold monster"
+      ],
+      [
+        1,
+        "scroll of forbiddence"
+      ],
+      [
+        1,
+        "rare divine essence"
+      ],
+      [
+        1,
+        "rare arcane essence"
+      ]
+    ],
+    "time": "16 hours (2 days)",
+    "num_checks": 8,
+    "dc": 17,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "quaal's feather token, anchor|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "fletching"
+      ],
+      [
+        1,
+        "scroll of entangle"
+      ],
+      [
+        1,
+        "scroll of web"
+      ],
+      [
+        1,
+        "scroll of binding curseK"
+      ],
+      [
+        1,
+        "uncommon arcane essence"
+      ]
+    ],
+    "time": "6 hours",
+    "num_checks": 3,
+    "dc": 15,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "quaal's feather token, bird|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "fletching"
+      ],
+      [
+        1,
+        "scroll of conjure animals"
+      ],
+      [
+        2,
+        "scrolls of enlarge reduce"
+      ],
+      [
+        1,
+        "uncommon primal essence"
+      ]
+    ],
+    "time": "6 hours",
+    "num_checks": 3,
+    "dc": 17,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "quaal's feather token, fan|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "fletching"
+      ],
+      [
+        1,
+        "scroll of gust of wind"
+      ],
+      [
+        1,
+        "scroll of animate objectK"
+      ],
+      [
+        1,
+        "uncommon arcane essence"
+      ],
+      [
+        1,
+        "uncommon primal essence"
+      ]
+    ],
+    "time": "6 hours",
+    "num_checks": 3,
+    "dc": 15,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "quaal's feather token, swan boat|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "fletching"
+      ],
+      [
+        1,
+        "boat"
+      ],
+      [
+        50,
+        "feet long and"
+      ],
+      [
+        20,
+        "feet wide"
+      ],
+      [
+        1,
+        "scroll of dimension door"
+      ],
+      [
+        1,
+        "uncommon arcane essence"
+      ]
+    ],
+    "time": "8 hours",
+    "num_checks": 4,
+    "dc": 16,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "quaal's feather token, tree|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "fletching"
+      ],
+      [
+        1,
+        "scroll of plant growth"
+      ],
+      [
+        1,
+        "uncommon primal essence"
+      ]
+    ],
+    "time": "6 hours",
+    "num_checks": 3,
+    "dc": 15,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "quaal's feather token, whip|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "fletching"
+      ],
+      [
+        1,
+        "whip"
+      ],
+      [
+        1,
+        "scroll of animate objects"
+      ],
+      [
+        1,
+        "uncommon arcane essence"
+      ]
+    ],
+    "time": "6 hours",
+    "num_checks": 3,
+    "dc": 14,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "figurine of wondrous power, bronze griffon|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "figurine of a griffon worth at least"
+      ],
+      [
+        1,
+        "20 gp"
+      ],
+      [
+        1,
+        "scroll of summon greater steed"
+      ],
+      [
+        1,
+        "rare divine essence"
+      ],
+      [
+        1,
+        "uncommon divine essence"
+      ]
+    ],
+    "time": "16 hours (2 days)",
+    "num_checks": 8,
+    "dc": 17,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "figurine of wondrous power, ebony fly|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "figurine of a fly worth at least"
+      ],
+      [
+        1,
+        "20 gp"
+      ],
+      [
+        1,
+        "scroll of giant insect"
+      ],
+      [
+        1,
+        "rare primal essence"
+      ],
+      [
+        1,
+        "uncommon primal essence"
+      ]
+    ],
+    "time": "8 hours",
+    "num_checks": 4,
+    "dc": 15,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "figurine of wondrous power, golden lions|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        2,
+        "figurines of a lion worth at least"
+      ],
+      [
+        1,
+        "20 gp"
+      ],
+      [
+        1,
+        "scroll of conjure animals"
+      ],
+      [
+        1,
+        "uncommon primal essence"
+      ],
+      [
+        1,
+        "uncommon divine essence"
+      ]
+    ],
+    "time": "12 hours (1.5 days)",
+    "num_checks": 6,
+    "dc": 15,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "figurine of wondrous power, ivory goats|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        3,
+        "figurines of a goat worth at least"
+      ],
+      [
+        1,
+        "20 gp"
+      ],
+      [
+        1,
+        "scroll of conjure animals"
+      ],
+      [
+        1,
+        "rare arcane essence"
+      ],
+      [
+        1,
+        "uncommon divine essence"
+      ],
+      [
+        1,
+        "uncommon arcane essence"
+      ]
+    ],
+    "time": "16 hours",
+    "num_checks": 8,
+    "dc": 16,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "figurine of wondrous power, marble elephant|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "figurine of an elephant worth at least"
+      ],
+      [
+        1,
+        "20 gp"
+      ],
+      [
+        1,
+        "scroll of conjure animals"
+      ],
+      [
+        1,
+        "scroll of enlarge reduce"
+      ],
+      [
+        1,
+        "uncommon primal essence"
+      ]
+    ],
+    "time": "8 hours",
+    "num_checks": 4,
+    "dc": 15,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "figurine of wondrous power, onyx dog|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "figurine of a dog worth at least"
+      ],
+      [
+        1,
+        "20 gp"
+      ],
+      [
+        1,
+        "scroll of conjure animals"
+      ],
+      [
+        1,
+        "uncommon primal essence"
+      ]
+    ],
+    "time": "8 hours",
+    "num_checks": 4,
+    "dc": 15,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "figurine of wondrous power, serpentine owl|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "figurine of an owl worth at least"
+      ],
+      [
+        1,
+        "20 gp"
+      ],
+      [
+        1,
+        "scroll of find familiar"
+      ],
+      [
+        1,
+        "scroll of enlarge reduce"
+      ],
+      [
+        1,
+        "uncommon arcane essence"
+      ]
+    ],
+    "time": "8 hours",
+    "num_checks": 4,
+    "dc": 16,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "Figurine of Wondrous Power, Onyx Panther|kcg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "figurine of a panther worth at least"
+      ],
+      [
+        1,
+        "20 gp"
+      ],
+      [
+        1,
+        "scroll of conjure animals"
+      ],
+      [
+        1,
+        "uncommon primal essence"
+      ]
+    ],
+    "time": "8 hours",
+    "num_checks": 4,
+    "dc": 15,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "gem of seeing|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "cut gem worth at least"
+      ],
+      [
+        1,
+        "50 gp"
+      ],
+      [
+        1,
+        "scroll of true seeing"
+      ],
+      [
+        1,
+        "rare arcane essence"
+      ],
+      [
+        1,
+        "uncommon arcane essence"
+      ]
+    ],
+    "time": "16 hours (2 days)",
+    "num_checks": 8,
+    "dc": 17,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "heward's handy haversack|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "backpack"
+      ],
+      [
+        1,
+        "scroll of secret chest"
+      ],
+      [
+        1,
+        "instant summons"
+      ],
+      [
+        1,
+        "uncommon arcane essence"
+      ],
+      [
+        1,
+        "rare arcane essence"
+      ]
+    ],
+    "time": "16 hours (2 days)",
+    "num_checks": 8,
+    "dc": 18,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "helm of teleportation|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "helm worth at least"
+      ],
+      [
+        1,
+        "200 gp"
+      ],
+      [
+        1,
+        "scroll of teleport"
+      ],
+      [
+        2,
+        "rare arcane essence"
+      ],
+      [
+        1,
+        "rare divine essence"
+      ]
+    ],
+    "time": "24 hours (3 days)",
+    "num_checks": 12,
+    "dc": 18,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "horn of blasting|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "horn worth at least"
+      ],
+      [
+        1,
+        "100 gp"
+      ],
+      [
+        1,
+        "scroll of shockwaveK"
+      ],
+      [
+        1,
+        "scroll of sonic shriekK"
+      ]
+    ],
+    "time": "24 hours (3 days)",
+    "num_checks": 12,
+    "dc": 17,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "horn of valhalla, silver|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "silver horn worth at least"
+      ],
+      [
+        1,
+        "50 gp"
+      ],
+      [
+        1,
+        "scroll of spirit guardians"
+      ],
+      [
+        1,
+        "scroll of guardian of faith"
+      ],
+      [
+        1,
+        "rare primal essence"
+      ],
+      [
+        1,
+        "rare divine essence"
+      ]
+    ],
+    "time": "24 hours (3 days)",
+    "num_checks": 12,
+    "dc": 17,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "horn of valhalla, brass|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "brass horn worth at least"
+      ],
+      [
+        1,
+        "50 gp"
+      ],
+      [
+        1,
+        "scroll of spirit guardians"
+      ],
+      [
+        1,
+        "scroll of guardian of faith"
+      ],
+      [
+        1,
+        "rare primal essence"
+      ],
+      [
+        1,
+        "rare divine essence"
+      ]
+    ],
+    "time": "24 hours (3 days)",
+    "num_checks": 12,
+    "dc": 17,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "horseshoes of speed|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        4,
+        "horseshoes worth 10 gp each "
+      ],
+      [
+        4,
+        "scrolls of longstrider"
+      ],
+      [
+        4,
+        "uncommon arcane essences"
+      ],
+      [
+        4,
+        "common primal essence"
+      ]
+    ],
+    "time": "24 hours (3 days)",
+    "num_checks": 12,
+    "dc": 16,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "iron bands of binding|srd",
+    "quantity": "1",
+    "materials": [
+      [
+        30,
+        "feet of chain"
+      ],
+      [
+        1,
+        "scroll of entangle"
+      ],
+      [
+        1,
+        "scroll of awaken ropeK"
+      ],
+      [
+        1,
+        "rare arcane essence"
+      ],
+      [
+        2,
+        "uncommon divine essence"
+      ]
+    ],
+    "time": "16 hours (2 days)",
+    "num_checks": 8,
+    "dc": 16,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "mantle of spell resistance|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "mantle worth at least"
+      ],
+      [
+        1,
+        "100 gp"
+      ],
+      [
+        1,
+        "scroll of dispel magic"
+      ],
+      [
+        3,
+        "rare arcane essence"
+      ],
+      [
+        1,
+        "uncommon divine essence"
+      ]
+    ],
+    "time": "16 hours (1.5 days)",
+    "num_checks": 8,
+    "dc": 17,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "portable hole|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "large cloth"
+      ],
+      [
+        1,
+        "scroll of rope trick"
+      ],
+      [
+        1,
+        "scroll of passwall"
+      ],
+      [
+        1,
+        "scroll of dimension door"
+      ],
+      [
+        2,
+        "rare arcane essence"
+      ],
+      [
+        1,
+        "rare primal essence"
+      ]
+    ],
+    "time": "16 hours (1.5 days)",
+    "num_checks": 8,
+    "dc": 18,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "robe of eyes|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "robe worth at least"
+      ],
+      [
+        1,
+        "100 gp"
+      ],
+      [
+        1,
+        "scroll of darkvision"
+      ],
+      [
+        1,
+        "scroll of see invisibility"
+      ],
+      [
+        1,
+        "scroll of arcane eye"
+      ],
+      [
+        1,
+        "rare arcane essence"
+      ],
+      [
+        1,
+        "uncommon psionic essence"
+      ]
+    ],
+    "time": "24 hours (3 days)",
+    "num_checks": 12,
+    "dc": 17,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "rope of entanglement|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "scroll of awaken ropeK"
+      ],
+      [
+        1,
+        "scroll of entangle"
+      ],
+      [
+        1,
+        "rare arcane essence"
+      ]
+    ],
+    "time": "16 hours (2 days)",
+    "num_checks": 8,
+    "dc": 17,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "stone of controlling earth elementals|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "stone worth 200 gp "
+      ],
+      [
+        1,
+        "scroll of conjure elemental"
+      ],
+      [
+        2,
+        "rare primal essences"
+      ],
+      [
+        2,
+        "rare poisonous reagent"
+      ]
+    ],
+    "time": "16 hours (2 days)",
+    "num_checks": 8,
+    "dc": 17,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "wings of flying|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "cloak worth 50 gp "
+      ],
+      [
+        1,
+        "scroll of fly"
+      ],
+      [
+        1,
+        "scroll of polymorph"
+      ],
+      [
+        1,
+        "rare arcane essence"
+      ],
+      [
+        1,
+        "uncommon arcane essence"
+      ]
+    ],
+    "time": "16 hours (2 days)",
+    "num_checks": 8,
+    "dc": 17,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "animated shield|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "shield worth at least"
+      ],
+      [
+        1,
+        "200 gp"
+      ],
+      [
+        1,
+        "scroll of animate objects"
+      ],
+      [
+        1,
+        "very rare arcane essence"
+      ],
+      [
+        2,
+        "rare arcane essence"
+      ],
+      [
+        1,
+        "rare divine essence"
+      ]
+    ],
+    "time": "24 hours (3 days)",
+    "num_checks": 12,
+    "dc": 18,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "bag of devouring|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "bag of holding"
+      ],
+      [
+        1,
+        "scroll of plane shift"
+      ],
+      [
+        1,
+        "scroll of hunger of hadar"
+      ]
+    ],
+    "time": "16 hours (2 days)",
+    "num_checks": 8,
+    "dc": 17,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "candle of invocation|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "candle worth 100 gp "
+      ],
+      [
+        4,
+        "rare divine essence"
+      ],
+      [
+        1,
+        "scroll of holy aura"
+      ],
+      [
+        1,
+        "scroll of gate"
+      ]
+    ],
+    "time": "32 hours (4 days)",
+    "num_checks": 16,
+    "dc": 19,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "cloak of arachnida|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "cloak worth 200 gp "
+      ],
+      [
+        1,
+        "scroll of web"
+      ],
+      [
+        1,
+        "scroll of spiderclimb"
+      ],
+      [
+        1,
+        "scroll of protection from poison"
+      ],
+      [
+        1,
+        "very rare arcane essence"
+      ],
+      [
+        1,
+        "rare arcane essence"
+      ]
+    ],
+    "time": "24 hours (3 days)",
+    "num_checks": 12,
+    "dc": 18,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "figurine of wondrous power, obsidian steed|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "figurine of a horse worth at least"
+      ],
+      [
+        1,
+        "50 gp"
+      ],
+      [
+        1,
+        "scroll of summon greater steed"
+      ],
+      [
+        1,
+        "very rare arcane essence"
+      ],
+      [
+        1,
+        "rare divine essence"
+      ]
+    ],
+    "time": "16 hours (2 days)",
+    "num_checks": 8,
+    "dc": 17,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "crystal ball|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "crystal worth at least"
+      ],
+      [
+        1,
+        "000 gp"
+      ],
+      [
+        1,
+        "scroll of scrying"
+      ],
+      [
+        1,
+        "very rare arcane essence"
+      ],
+      [
+        2,
+        "rare arcane essence"
+      ]
+    ],
+    "time": "24 hours (3 days)",
+    "num_checks": 12,
+    "dc": 18,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "crystal ball of mind reading|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "very rare magical crystal ball"
+      ],
+      [
+        1,
+        "scroll of detect thoughts"
+      ],
+      [
+        1,
+        "very rare arcane essence"
+      ]
+    ],
+    "time": "8 hours",
+    "num_checks": 4,
+    "dc": 19,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "crystal ball of telepathy|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "very rare magical crystal ball"
+      ],
+      [
+        1,
+        "scroll of suggestion"
+      ],
+      [
+        1,
+        "very rare psionic essence"
+      ]
+    ],
+    "time": "8 hours",
+    "num_checks": 4,
+    "dc": 20,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "cube of force|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "metal cube of mithril"
+      ],
+      [
+        1,
+        "scroll of wall of force"
+      ],
+      [
+        1,
+        "scroll of antilife shell"
+      ],
+      [
+        1,
+        "scroll of gaseous form"
+      ],
+      [
+        1,
+        "scroll of antimagic field"
+      ],
+      [
+        2,
+        "rare arcane essence"
+      ],
+      [
+        3,
+        "uncommon arcane essence"
+      ]
+    ],
+    "time": "16 hours (2 days)",
+    "num_checks": 8,
+    "dc": 17,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "efreeti bottle|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "brass bottle"
+      ],
+      [
+        1,
+        "scroll of conjure elemental"
+      ],
+      [
+        1,
+        "scroll of planar binding"
+      ],
+      [
+        2,
+        "very rare primal essences"
+      ],
+      [
+        3,
+        "rare primal essences"
+      ],
+      [
+        3,
+        "rare arcane essences"
+      ]
+    ],
+    "time": "32 hours (4 days)",
+    "num_checks": 16,
+    "dc": 18,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "cubic gate|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        3,
+        "inch cube worth at least"
+      ],
+      [
+        1,
+        "500 gp"
+      ],
+      [
+        1,
+        "scroll of gate"
+      ],
+      [
+        1,
+        "scroll of plane shift"
+      ],
+      [
+        1,
+        "very rare arcane essence"
+      ],
+      [
+        1,
+        "very rare divine essence"
+      ]
+    ],
+    "time": "32 hours (4 days)",
+    "num_checks": 16,
+    "dc": 20,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "helm of brilliance|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "helm worth at least"
+      ],
+      [
+        1,
+        "100 gp"
+      ],
+      [
+        5,
+        "diamonds worth 50 gp "
+      ],
+      [
+        10,
+        "rubies worth 20 gp "
+      ],
+      [
+        15,
+        "fire opals worth 10 gp "
+      ],
+      [
+        20,
+        "opals worth 10 gp "
+      ],
+      [
+        1,
+        "scroll of daylight"
+      ],
+      [
+        1,
+        "scroll of fireball"
+      ],
+      [
+        1,
+        "scroll of prismatic spray"
+      ],
+      [
+        1,
+        "wall of fire"
+      ],
+      [
+        1,
+        "rare arcane essence"
+      ],
+      [
+        1,
+        "uncommon arcane essence"
+      ]
+    ],
+    "time": "24 hours (3 days)",
+    "num_checks": 12,
+    "dc": 18,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "horn of valhalla, bronze|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "bronze horn worth at least"
+      ],
+      [
+        1,
+        "100 gp"
+      ],
+      [
+        1,
+        "scroll of spirit guardians"
+      ],
+      [
+        1,
+        "scroll of guardian of faith"
+      ],
+      [
+        1,
+        "scroll of conjure celestial"
+      ],
+      [
+        2,
+        "rare primal essence"
+      ],
+      [
+        2,
+        "rare divine essence"
+      ]
+    ],
+    "time": "32 hours (4 days)",
+    "num_checks": 16,
+    "dc": 19,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "horseshoes of a zephyr|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        4,
+        "horseshoes worth 10 gp each "
+      ],
+      [
+        4,
+        "scrolls of levitate"
+      ],
+      [
+        1,
+        "scroll of fly"
+      ],
+      [
+        1,
+        "scroll of longstrider"
+      ],
+      [
+        4,
+        "rare arcane essences"
+      ],
+      [
+        4,
+        "uncommon primal essences"
+      ]
+    ],
+    "time": "24 hours (3 days)",
+    "num_checks": 12,
+    "dc": 18,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "daern's instant fortress|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "admantine cube"
+      ],
+      [
+        100,
+        "adamantine ingots"
+      ],
+      [
+        1,
+        "scroll of magnificent mansion"
+      ],
+      [
+        2,
+        "very rare arcane essence"
+      ],
+      [
+        4,
+        "rare arcane essence"
+      ],
+      [
+        2,
+        "rare divine essence"
+      ]
+    ],
+    "time": "40 hours (5 days)",
+    "num_checks": 20,
+    "dc": 18,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "mirror of life trapping|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        4,
+        "foot tall mirror worth at least"
+      ],
+      [
+        1,
+        "50 gp"
+      ],
+      [
+        1,
+        "scroll of demiplane"
+      ],
+      [
+        1,
+        "scroll of banishment"
+      ],
+      [
+        1,
+        "very rare arcane essence"
+      ],
+      [
+        2,
+        "rare arcane essence"
+      ]
+    ],
+    "time": "32 hours (4 days)",
+    "num_checks": 16,
+    "dc": 19,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "robe of scintillating colors|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "robe worth at least"
+      ],
+      [
+        1,
+        "200 gp"
+      ],
+      [
+        1,
+        "scroll of daylight"
+      ],
+      [
+        1,
+        "scroll of prismatic spray"
+      ],
+      [
+        1,
+        "scroll of wall of light"
+      ],
+      [
+        1,
+        "very rare arcane essence"
+      ],
+      [
+        1,
+        "rare arcane essence"
+      ],
+      [
+        1,
+        "rare divine essence"
+      ]
+    ],
+    "time": "24 hours (3 days)",
+    "num_checks": 12,
+    "dc": 18,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "robe of stars|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "black or blue robe worth 200 gp "
+      ],
+      [
+        1,
+        "scroll of magic missile"
+      ],
+      [
+        1,
+        "scroll of etherealness"
+      ],
+      [
+        1,
+        "scroll of blink"
+      ],
+      [
+        1,
+        "very rare arcane essence"
+      ],
+      [
+        1,
+        "very rare divine essence"
+      ],
+      [
+        6,
+        "rare arcane essence"
+      ]
+    ],
+    "time": "32 hours (4 days)",
+    "num_checks": 16,
+    "dc": 19,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "belt of stone giant strength|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "belt"
+      ],
+      [
+        1,
+        "scroll of enhance ability"
+      ],
+      [
+        1,
+        "scroll of enlarge"
+      ],
+      [
+        1,
+        "scroll of stoneskin"
+      ],
+      [
+        3,
+        "very rare primal essence"
+      ]
+    ],
+    "time": "24 hours (3 days)",
+    "num_checks": 12,
+    "dc": 20,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "belt of fire giant strength|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "belt"
+      ],
+      [
+        1,
+        "scroll of enhance ability"
+      ],
+      [
+        1,
+        "scroll of transformation"
+      ],
+      [
+        1,
+        "very rare arcane essence"
+      ],
+      [
+        3,
+        "very rare primal essence"
+      ]
+    ],
+    "time": "32 hours (4 days)",
+    "num_checks": 16,
+    "dc": 22,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "iron flask|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "iron flask worth at least"
+      ],
+      [
+        1,
+        "200 gp"
+      ],
+      [
+        1,
+        "scroll of imprisonment"
+      ],
+      [
+        1,
+        "scroll of planar blinding"
+      ],
+      [
+        1,
+        "legendary arcane essence"
+      ],
+      [
+        1,
+        "very rare divine essence"
+      ]
+    ],
+    "time": "40 hours (5 days)",
+    "num_checks": 20,
+    "dc": 21,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "horn of valhalla, iron|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "iron horn worth at least"
+      ],
+      [
+        1,
+        "500 gp"
+      ],
+      [
+        1,
+        "scroll of spirit guardians"
+      ],
+      [
+        1,
+        "scroll of conjure celestial"
+      ],
+      [
+        1,
+        "very rare primal essence"
+      ],
+      [
+        1,
+        "very rare divine essence"
+      ]
+    ],
+    "time": "40 hours (5 days)",
+    "num_checks": 20,
+    "dc": 20,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "Deck of Many Things|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        22,
+        "cards"
+      ],
+      [
+        1,
+        "tears of a dungeon master"
+      ]
+    ],
+    "time": "22 hours",
+    "num_checks": 11,
+    "dc": 100,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "belt of cloud giant strength|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "belt"
+      ],
+      [
+        1,
+        "scroll of enhance ability"
+      ],
+      [
+        1,
+        "scroll of transformation"
+      ],
+      [
+        1,
+        "scroll of investiture of wind"
+      ],
+      [
+        1,
+        "very rare arcane essence"
+      ],
+      [
+        3,
+        "very rare primal essence"
+      ],
+      [
+        1,
+        "legendary primal essence"
+      ]
+    ],
+    "time": "40 hours (5 days)",
+    "num_checks": 16,
+    "dc": 23,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "belt of storm giant strength|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "belt"
+      ],
+      [
+        1,
+        "scroll of enhance ability"
+      ],
+      [
+        1,
+        "scroll of transformation"
+      ],
+      [
+        1,
+        "scroll of invulnerability"
+      ],
+      [
+        1,
+        "very rare arcane essence"
+      ],
+      [
+        3,
+        "very rare primal essence"
+      ],
+      [
+        2,
+        "legendary primal essence"
+      ]
+    ],
+    "time": "48 hours (6 days)",
+    "num_checks": 24,
+    "dc": 25,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "crystal ball of true seeing|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "very rare magical crystal ball"
+      ],
+      [
+        1,
+        "scroll of truesight"
+      ],
+      [
+        1,
+        "legendary arcane essence"
+      ]
+    ],
+    "time": "8 hours",
+    "num_checks": 4,
+    "dc": 21,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "robe of the archmagi|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "white"
+      ],
+      [
+        1,
+        "500 gp"
+      ],
+      [
+        1,
+        "scroll of mage armor"
+      ],
+      [
+        1,
+        "scroll of antimagic field"
+      ],
+      [
+        1,
+        "legendary arcane essence"
+      ],
+      [
+        5,
+        "very rare arcane essence"
+      ]
+    ],
+    "time": "40 hours (5 days)",
+    "num_checks": 20,
+    "dc": 21,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "sphere of annihilation|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "legendary arcane essence"
+      ],
+      [
+        1,
+        "scroll of disintegrate"
+      ],
+      [
+        1,
+        "scroll of levitate"
+      ],
+      [
+        1,
+        "scroll of demiplane"
+      ],
+      [
+        2,
+        "very rare arcane essence"
+      ],
+      [
+        1,
+        "very rare divine essence"
+      ]
+    ],
+    "time": "40 hours (5 days)",
+    "num_checks": 20,
+    "dc": 21,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "well of many worlds|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "fine block cloth worth 100 gp "
+      ],
+      [
+        1,
+        "scroll of plane shift"
+      ],
+      [
+        1,
+        "scroll of demiplane"
+      ],
+      [
+        1,
+        "legendary divine essence"
+      ],
+      [
+        1,
+        "very rare arcane essence"
+      ]
+    ],
+    "time": "40 hours (5 days)",
+    "num_checks": 20,
+    "dc": 20,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "vision stone|kcg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "crystal worth at least"
+      ],
+      [
+        1,
+        "10 gp"
+      ],
+      [
+        1,
+        "common psion essence"
+      ]
+    ],
+    "time": "4 hours",
+    "num_checks": 2,
+    "dc": 13,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "+1 amplifying crystal|kcg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "crystal worth at least"
+      ],
+      [
+        1,
+        "20 gp"
+      ],
+      [
+        2,
+        "uncommon psionic essence"
+      ],
+      [
+        2,
+        "common psionic essence"
+      ]
+    ],
+    "time": "8 hours",
+    "num_checks": 4,
+    "dc": 14,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "+1 psi blade crystal|kcg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "crystal worth at least"
+      ],
+      [
+        1,
+        "20 gp"
+      ],
+      [
+        1,
+        "uncommon psionic essence"
+      ],
+      [
+        1,
+        "common psionic essence"
+      ],
+      [
+        1,
+        "common primal essence"
+      ]
+    ],
+    "time": "8 hours",
+    "num_checks": 4,
+    "dc": 14,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "blasting crystal|kcg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "crystal worth at least"
+      ],
+      [
+        1,
+        "20 gp"
+      ],
+      [
+        1,
+        "uncommon psionic essence"
+      ],
+      [
+        1,
+        "uncommon primal essence"
+      ]
+    ],
+    "time": "8 hours",
+    "num_checks": 4,
+    "dc": 15,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "focusing crystal|kcg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "crystal worth at least"
+      ],
+      [
+        1,
+        "20 gp"
+      ],
+      [
+        2,
+        "uncommon psionic essence"
+      ],
+      [
+        1,
+        "common psionic essence"
+      ]
+    ],
+    "time": "8 hours",
+    "num_checks": 4,
+    "dc": 15,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "psionically attuned weapon|kcg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "weapon"
+      ],
+      [
+        1,
+        "uncommon psionic essence"
+      ],
+      [
+        1,
+        "common psionic essence"
+      ]
+    ],
+    "time": "4 hours",
+    "num_checks": 2,
+    "dc": 13,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "resonating crystal|kcg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "crystal worth at least"
+      ],
+      [
+        1,
+        "20 gp"
+      ],
+      [
+        2,
+        "uncommon psionic essence"
+      ]
+    ],
+    "time": "8 hours",
+    "num_checks": 4,
+    "dc": 15,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "+2 amplifying crystal|kcg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "crystal worth at least"
+      ],
+      [
+        1,
+        "100 gp"
+      ],
+      [
+        2,
+        "rare psionic essence"
+      ],
+      [
+        1,
+        "uncommon psionic essence"
+      ]
+    ],
+    "time": "12 hours",
+    "num_checks": 6,
+    "dc": 16,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "+2 psi blade crystal|kcg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "crystal worth at least"
+      ],
+      [
+        1,
+        "100 gp"
+      ],
+      [
+        1,
+        "rare psionic essence"
+      ],
+      [
+        1,
+        "rare primal essence"
+      ],
+      [
+        2,
+        "uncommon psionic essence"
+      ]
+    ],
+    "time": "12 hours",
+    "num_checks": 6,
+    "dc": 16,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "imprint crystal|kcg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "crystal worth at least"
+      ],
+      [
+        1,
+        "100 gp"
+      ],
+      [
+        2,
+        "rare psionic essences"
+      ],
+      [
+        2,
+        "uncommon psionic essences"
+      ]
+    ],
+    "time": "12 hours",
+    "num_checks": 6,
+    "dc": 16,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "purity of mind|kcg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "blindfold worth 10 gp "
+      ],
+      [
+        2,
+        "rare psionic essence"
+      ],
+      [
+        1,
+        "uncommon divine essence"
+      ]
+    ],
+    "time": "16 hours (2 days)",
+    "num_checks": 8,
+    "dc": 16,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "+3 amplifying crystal|kcg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "crystal worth at least"
+      ],
+      [
+        1,
+        "200 gp"
+      ],
+      [
+        4,
+        "very rare psionic essence"
+      ],
+      [
+        2,
+        "rare psionic essence"
+      ]
+    ],
+    "time": "24 hours (3 days)",
+    "num_checks": 12,
+    "dc": 18,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "+3 psi blade crystal|kcg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "crystal worth at least"
+      ],
+      [
+        1,
+        "200 gp"
+      ],
+      [
+        2,
+        "very rare psionic essence"
+      ],
+      [
+        1,
+        "very rare primal essence"
+      ],
+      [
+        1,
+        "very rare arcane essence"
+      ]
+    ],
+    "time": "24 hours (3 days)",
+    "num_checks": 12,
+    "dc": 18,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "mind shard|kcg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "crystal worth at least"
+      ],
+      [
+        1,
+        "50 gp"
+      ],
+      [
+        3,
+        "very rare psionic essence"
+      ],
+      [
+        2,
+        "rare psionic essences"
+      ]
+    ],
+    "time": "32 hours (4 days)",
+    "num_checks": 16,
+    "dc": 19,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "soul shard|kcg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "crystal worth at least"
+      ],
+      [
+        1,
+        "20 gp"
+      ],
+      [
+        1,
+        "psionic creature of CR"
+      ],
+      [
+        7,
+        "or higher"
+      ],
+      [
+        1,
+        "legendary psion essence"
+      ],
+      [
+        2,
+        "very rare psionic essence"
+      ]
+    ],
+    "time": "40 hours (5 days)",
+    "num_checks": 20,
+    "dc": 20,
+    "note": "[The creature can be alive or dead, but must have died within 24 hours of starting the craft. On success, the creatures soul is consumed, and it can\u2019t be resurrected while the soul shard exists. The discipline and effect can be tailored to the creature used as per the GM\u2019s discretion.]"
+  },
+  {
+    "craft": "enchanting",
+    "result": "+1 ammunition|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "piece of ammunition"
+      ],
+      [
+        1,
+        "common arcane essence"
+      ]
+    ],
+    "time": "2 hours",
+    "num_checks": 1,
+    "dc": 14,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "+1 weapon|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "weapon"
+      ],
+      [
+        1,
+        "scroll of magic weapon"
+      ],
+      [
+        2,
+        "common arcane essence"
+      ],
+      [
+        2,
+        "uncommon arcane essence"
+      ]
+    ],
+    "time": "8 hours",
+    "num_checks": 4,
+    "dc": 14,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "berserker axe|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "axe"
+      ],
+      [
+        1,
+        "scroll of crown of madness"
+      ],
+      [
+        1,
+        "scroll of magic weapon"
+      ],
+      [
+        1,
+        "scroll of aid"
+      ],
+      [
+        2,
+        "uncommon primal essence"
+      ]
+    ],
+    "time": "8 hours",
+    "num_checks": 4,
+    "dc": 14,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "javelin of lightning|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "javalin"
+      ],
+      [
+        1,
+        "scroll of lightning bolt"
+      ],
+      [
+        1,
+        "uncommon primal essence"
+      ]
+    ],
+    "time": "8 hours",
+    "num_checks": 4,
+    "dc": 15,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "trident of fish command|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "trident"
+      ],
+      [
+        1,
+        "scroll of dominate beast"
+      ],
+      [
+        1,
+        "common primal essence"
+      ],
+      [
+        1,
+        "uncommon primal essence"
+      ]
+    ],
+    "time": "8 hours",
+    "num_checks": 4,
+    "dc": 15,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "+2 ammunition|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "piece of ammunition"
+      ],
+      [
+        2,
+        "common arcane essence"
+      ]
+    ],
+    "time": "2 hours",
+    "num_checks": 1,
+    "dc": 16,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "+2 weapon|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "weapon"
+      ],
+      [
+        1,
+        "scroll of magic weapon"
+      ],
+      [
+        2,
+        "uncommon arcane essence"
+      ],
+      [
+        2,
+        "rare arcane essence"
+      ],
+      [
+        2,
+        "rare divine essence"
+      ],
+      [
+        2,
+        "rare primal essence"
+      ]
+    ],
+    "time": "16 hours (2 days)",
+    "num_checks": 8,
+    "dc": 16,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "dagger of venom|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "weapon"
+      ],
+      [
+        1,
+        "potent injury poison"
+      ],
+      [
+        1,
+        "scroll of nauseating poisonK"
+      ],
+      [
+        1,
+        "rare primal essence"
+      ],
+      [
+        1,
+        "rare arcane essence"
+      ]
+    ],
+    "time": "12 hours (1.5 days)",
+    "num_checks": 6,
+    "dc": 16,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "flame tongue|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "weapon"
+      ],
+      [
+        1,
+        "scroll of prismatic weaponK"
+      ],
+      [
+        1,
+        "flametongue oilK"
+      ],
+      [
+        5,
+        "rare primal essence"
+      ],
+      [
+        1,
+        "rare arcane essence"
+      ]
+    ],
+    "time": "16 hours (2 days)",
+    "num_checks": 8,
+    "dc": 18,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "giant slayer|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "weapon worth at least"
+      ],
+      [
+        1,
+        "100 gp"
+      ],
+      [
+        1,
+        "scroll of magic weapon"
+      ],
+      [
+        1,
+        "rare primal essence from a giant"
+      ],
+      [
+        2,
+        "uncommon arcane essence"
+      ],
+      [
+        2,
+        "uncommon primal essence"
+      ]
+    ],
+    "time": "16 hours (2 days)",
+    "num_checks": 8,
+    "dc": 16,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "mace of disruption|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "mace"
+      ],
+      [
+        1,
+        "scroll of banishment"
+      ],
+      [
+        2,
+        "rare divine essence"
+      ],
+      [
+        1,
+        "uncommon divine essence"
+      ],
+      [
+        1,
+        "uncommon arcane essence"
+      ]
+    ],
+    "time": "16 hours (2 days)",
+    "num_checks": 8,
+    "dc": 16,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "dragon slayer|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "sword worth at least"
+      ],
+      [
+        1,
+        "000 gp"
+      ],
+      [
+        2,
+        "rare primal essence"
+      ],
+      [
+        1,
+        "rare divine essence"
+      ],
+      [
+        1,
+        "scroll of bestow curse"
+      ]
+    ],
+    "time": "16 hours (2 days)",
+    "num_checks": 8,
+    "dc": 18,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "mace of smiting|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "mace"
+      ],
+      [
+        1,
+        "scroll of dispel constructK"
+      ],
+      [
+        1,
+        "rare arcane essence"
+      ],
+      [
+        1,
+        "uncommon arcane essence"
+      ],
+      [
+        1,
+        "uncommon divine essence"
+      ]
+    ],
+    "time": "12 hours (1.5 days)",
+    "num_checks": 6,
+    "dc": 16,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "mace of terror|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "mace"
+      ],
+      [
+        1,
+        "scroll of fear"
+      ],
+      [
+        1,
+        "rare arcane essence"
+      ],
+      [
+        2,
+        "uncommon arcane essence"
+      ]
+    ],
+    "time": "12 hours (1.5 days)",
+    "num_checks": 6,
+    "dc": 17,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "sun blade|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "sword hilt worth 200 gp "
+      ],
+      [
+        1,
+        "scroll of vorpal weaponK"
+      ],
+      [
+        1,
+        "scroll of magic weapon"
+      ],
+      [
+        1,
+        "scroll of daylight"
+      ],
+      [
+        3,
+        "rare divine essence"
+      ],
+      [
+        2,
+        "uncommon arcane essence"
+      ],
+      [
+        2,
+        "uncommon primal essence"
+      ]
+    ],
+    "time": "24 hours (3 days)",
+    "num_checks": 12,
+    "dc": 17,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "vicious weapon|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "weapon"
+      ],
+      [
+        1,
+        "scroll of vorpal weapon"
+      ],
+      [
+        3,
+        "uncommon arcane essence"
+      ]
+    ],
+    "time": "8 hours",
+    "num_checks": 4,
+    "dc": 16,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "sword of life stealing|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "sword worth at least"
+      ],
+      [
+        1,
+        "200 gp"
+      ],
+      [
+        1,
+        "scroll of vampiric touch"
+      ],
+      [
+        1,
+        "rare arcane essence"
+      ],
+      [
+        2,
+        "uncommon arcane essence"
+      ]
+    ],
+    "time": "12 hours (1.5 days)",
+    "num_checks": 6,
+    "dc": 16,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "sword of wounding|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "sword worth at least"
+      ],
+      [
+        1,
+        "200 gp"
+      ],
+      [
+        1,
+        "scroll of decaying touchK"
+      ],
+      [
+        1,
+        "scroll of rotting curseK"
+      ],
+      [
+        2,
+        "rare arcane essence"
+      ],
+      [
+        2,
+        "very rare poisonous reagent"
+      ],
+      [
+        1,
+        "rare poisonous reagent"
+      ]
+    ],
+    "time": "12 hours (1.5 days)",
+    "num_checks": 6,
+    "dc": 17,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "+3 ammunition|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "piece of ammunition"
+      ],
+      [
+        1,
+        "uncommon arcane essence"
+      ],
+      [
+        1,
+        "scroll of magic weapon"
+      ]
+    ],
+    "time": "4 hours",
+    "num_checks": 2,
+    "dc": 18,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "+3 weapon|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "weapon worth at least"
+      ],
+      [
+        1,
+        "000 gp"
+      ],
+      [
+        1,
+        "scroll of magic weapon"
+      ],
+      [
+        1,
+        "scroll of prismatic weaponK"
+      ],
+      [
+        1,
+        "scroll of vorpal weaponK"
+      ],
+      [
+        1,
+        "very rare arcane essence"
+      ],
+      [
+        1,
+        "very rare divine essence"
+      ],
+      [
+        1,
+        "very rare primal essence"
+      ]
+    ],
+    "time": "24 hours (3 days)",
+    "num_checks": 12,
+    "dc": 18,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "arrow of slaying|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "arrow"
+      ],
+      [
+        1,
+        "scroll of bestow curse"
+      ],
+      [
+        2,
+        "rare primal essence"
+      ],
+      [
+        2,
+        "uncommon primal essence"
+      ]
+    ],
+    "time": "6 hours",
+    "num_checks": 4,
+    "dc": 18,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "dancing sword|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "sword worth 100 gp "
+      ],
+      [
+        1,
+        "scroll of animate objects"
+      ],
+      [
+        2,
+        "very rare arcane essence"
+      ],
+      [
+        4,
+        "uncommon arcane essence"
+      ]
+    ],
+    "time": "24 hours (3 days)",
+    "num_checks": 12,
+    "dc": 19,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "dwarven thrower|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        3,
+        "warhammer"
+      ],
+      [
+        1,
+        "scroll of weapon of throwing"
+      ],
+      [
+        1,
+        "very rare primal essence"
+      ]
+    ],
+    "time": "16 hours (2 days)",
+    "num_checks": 8,
+    "dc": 18,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "frost brand|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "weapon"
+      ],
+      [
+        1,
+        "scroll of prismatic weaponK"
+      ],
+      [
+        1,
+        "freezing oil"
+      ],
+      [
+        1,
+        "very rare primal essence"
+      ],
+      [
+        3,
+        "rare primal essence"
+      ],
+      [
+        1,
+        "rare arcane essence"
+      ]
+    ],
+    "time": "16 hours (2 days)",
+    "num_checks": 8,
+    "dc": 19,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "nine lives stealer|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "sword worth at least"
+      ],
+      [
+        1,
+        "500 gp"
+      ],
+      [
+        1,
+        "scroll of power word kill"
+      ],
+      [
+        1,
+        "scroll of magic jar"
+      ]
+    ],
+    "time": "16 hours (2 days)",
+    "num_checks": 8,
+    "dc": 17,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "oathbow|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "longbow worth 500 gp "
+      ],
+      [
+        4,
+        "very rare primal essences"
+      ],
+      [
+        1,
+        "scroll of true strike"
+      ],
+      [
+        1,
+        "scroll of hunter"
+      ],
+      [
+        1,
+        "scroll of hex"
+      ]
+    ],
+    "time": "24 hours (3 days)",
+    "num_checks": 12,
+    "dc": 19,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "scimitar of speed|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "scimitar worth 500 gp "
+      ],
+      [
+        1,
+        "scroll of haste"
+      ],
+      [
+        1,
+        "very rare arcane essence"
+      ],
+      [
+        1,
+        "rare primal essence"
+      ]
+    ],
+    "time": "16 hours (2 days)",
+    "num_checks": 8,
+    "dc": 18,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "sword of sharpness|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "sword worth at least"
+      ],
+      [
+        1,
+        "500 gp"
+      ],
+      [
+        1,
+        "scroll of vorpal weapon"
+      ],
+      [
+        1,
+        "very rare arcane essence"
+      ],
+      [
+        1,
+        "rare arcane essence"
+      ]
+    ],
+    "time": "16 hours (2 days)",
+    "num_checks": 8,
+    "dc": 18,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "holy avenger|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "weapon worth at least"
+      ],
+      [
+        1,
+        "000 gp"
+      ],
+      [
+        3,
+        "legendary divine essence"
+      ],
+      [
+        1,
+        "scroll of holy weapon"
+      ],
+      [
+        1,
+        "scroll of holy aura"
+      ],
+      [
+        1,
+        "scroll of magic weapon"
+      ],
+      [
+        3,
+        "very rare divine essence"
+      ]
+    ],
+    "time": "40 hours (5 days)",
+    "num_checks": 20,
+    "dc": 22,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "luck blade|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "sword"
+      ],
+      [
+        2,
+        "scrolls of wish"
+      ]
+    ],
+    "time": "32 hours (4 days)",
+    "num_checks": 16,
+    "dc": 20,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "hammer of thunderbolts|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "maul worth at least"
+      ],
+      [
+        1,
+        "000 gp"
+      ],
+      [
+        1,
+        "legendary primal essence"
+      ],
+      [
+        2,
+        "very rare primal essence"
+      ],
+      [
+        1,
+        "scroll of thunderwave"
+      ]
+    ],
+    "time": "40 hours (5 days)",
+    "num_checks": 20,
+    "dc": 20,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "defender|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "sword worth at least"
+      ],
+      [
+        1,
+        "000 gp"
+      ],
+      [
+        1,
+        "legendary divine essence"
+      ],
+      [
+        1,
+        "scroll of magic weapon"
+      ],
+      [
+        1,
+        "scroll of shield of faith"
+      ],
+      [
+        3,
+        "shield"
+      ]
+    ],
+    "time": "32 hours (4 days)",
+    "num_checks": 16,
+    "dc": 20,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "+1 shield|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "shield"
+      ],
+      [
+        1,
+        "scroll of shield"
+      ],
+      [
+        1,
+        "scroll of shield of faith"
+      ],
+      [
+        1,
+        "uncommon arcane essence"
+      ],
+      [
+        1,
+        "uncommon divine essence"
+      ]
+    ],
+    "time": "8 hours",
+    "num_checks": 4,
+    "dc": 15,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "+1 armor|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "set of armor"
+      ],
+      [
+        1,
+        "scroll of mage armor"
+      ],
+      [
+        1,
+        "scroll of shield"
+      ],
+      [
+        1,
+        "scroll of shield of faith"
+      ],
+      [
+        1,
+        "rare arcane essence"
+      ],
+      [
+        1,
+        "rare divine essence"
+      ],
+      [
+        1,
+        "rare primal essence"
+      ]
+    ],
+    "time": "24 hours (3 days)",
+    "num_checks": 12,
+    "dc": 16,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "armor of resistance|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "set of armor"
+      ],
+      [
+        1,
+        "scroll of protection from energy"
+      ],
+      [
+        2,
+        "rare primal essence"
+      ],
+      [
+        1,
+        "uncommon primal essence"
+      ]
+    ],
+    "time": "16 hours (2 days)",
+    "num_checks": 8,
+    "dc": 17,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "arrow-catching shield|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "shield"
+      ],
+      [
+        1,
+        "scroll of warding wind"
+      ],
+      [
+        1,
+        "rare primal essence"
+      ],
+      [
+        1,
+        "uncommon arcane essence"
+      ]
+    ],
+    "time": "12 hours (1.5 days)",
+    "num_checks": 6,
+    "dc": 17,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "+2 shield|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "shield"
+      ],
+      [
+        1,
+        "scroll of shield"
+      ],
+      [
+        1,
+        "scroll of shield of faith"
+      ],
+      [
+        1,
+        "scroll of glyph of warding"
+      ],
+      [
+        2,
+        "rare arcane essence"
+      ],
+      [
+        1,
+        "rare divine essence"
+      ]
+    ],
+    "time": "16 hours (2 days)",
+    "num_checks": 8,
+    "dc": 17,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "glamoured studded leather|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "studded leather armor"
+      ],
+      [
+        1,
+        "scroll of disguise self"
+      ],
+      [
+        1,
+        "scroll of silent image"
+      ],
+      [
+        1,
+        "rare arcane essence"
+      ]
+    ],
+    "time": "16 hours (2 days)",
+    "num_checks": 8,
+    "dc": 15,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "shield of missile attraction|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "shield"
+      ],
+      [
+        1,
+        "scroll of warding wind"
+      ],
+      [
+        1,
+        "rare arcane essence"
+      ],
+      [
+        1,
+        "uncommon primal essence"
+      ]
+    ],
+    "time": "12 hours (1.5 days)",
+    "num_checks": 6,
+    "dc": 16,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "+2 armor|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "set of armor worth at least"
+      ],
+      [
+        1,
+        "000 gp"
+      ],
+      [
+        1,
+        "scroll of globe of invulnerability"
+      ],
+      [
+        1,
+        "scroll of stoneskin"
+      ],
+      [
+        1,
+        "scroll of mage armor"
+      ],
+      [
+        1,
+        "scroll of shield"
+      ],
+      [
+        1,
+        "scroll of shield of faith"
+      ],
+      [
+        1,
+        "very rare arcane essence"
+      ],
+      [
+        1,
+        "rare divine essence"
+      ],
+      [
+        1,
+        "rare primal essence"
+      ]
+    ],
+    "time": "32 hours (4 days)",
+    "num_checks": 16,
+    "dc": 20,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "+3 shield|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "shield worth at least"
+      ],
+      [
+        1,
+        "000 gp"
+      ],
+      [
+        1,
+        "scroll of wall of stone"
+      ],
+      [
+        1,
+        "scroll of wall of force"
+      ],
+      [
+        1,
+        "scroll of wind wall"
+      ],
+      [
+        1,
+        "scroll of shield"
+      ],
+      [
+        1,
+        "scroll of shield of faith"
+      ],
+      [
+        1,
+        "very rare arcane essence"
+      ],
+      [
+        1,
+        "very rare divine essence"
+      ],
+      [
+        2,
+        "rare arcane essence"
+      ],
+      [
+        2,
+        "rare divine essence"
+      ]
+    ],
+    "time": "24 hours (3 days)",
+    "num_checks": 12,
+    "dc": 20,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "demon armor|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "plate armor worth at least"
+      ],
+      [
+        1,
+        "500 gp"
+      ],
+      [
+        1,
+        "scroll of summon fiend"
+      ],
+      [
+        1,
+        "rare arcane essence"
+      ]
+    ],
+    "time": "16 hours (2 days)",
+    "num_checks": 8,
+    "dc": 15,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "spellguard shield|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "shield worth at least"
+      ],
+      [
+        1,
+        "200 gp"
+      ],
+      [
+        1,
+        "scroll of antimagic field"
+      ],
+      [
+        1,
+        "very rare divine essence"
+      ],
+      [
+        1,
+        "rare arcane essence"
+      ]
+    ],
+    "time": "32 hours (4 days)",
+    "num_checks": 16,
+    "dc": 20,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "dwarven plate|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "plate armor with the dwarven modifier"
+      ],
+      [
+        1,
+        "scroll of globe of invulnerability"
+      ],
+      [
+        1,
+        "scroll of stoneskin"
+      ],
+      [
+        1,
+        "scroll of mage armor"
+      ],
+      [
+        1,
+        "scroll of shield"
+      ],
+      [
+        1,
+        "scroll of shield of faith"
+      ],
+      [
+        1,
+        "very rare arcane essence"
+      ],
+      [
+        1,
+        "rare divine essence"
+      ],
+      [
+        1,
+        "rare primal essence"
+      ]
+    ],
+    "time": "32 hours (4 days)",
+    "num_checks": 16,
+    "dc": 20,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "+3 armor|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "set of armor worth at least"
+      ],
+      [
+        1,
+        "000 gp"
+      ],
+      [
+        1,
+        "scroll of invulnerability"
+      ],
+      [
+        1,
+        "legendary arcane essence"
+      ],
+      [
+        1,
+        "very rare primal essence"
+      ],
+      [
+        1,
+        "very rare divine essence"
+      ]
+    ],
+    "time": "48 hours (6 days)",
+    "num_checks": 24,
+    "dc": 22,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "armor of invulnerability|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "set of plate armor worth at least"
+      ],
+      [
+        1,
+        "000 gp"
+      ],
+      [
+        1,
+        "scroll of invulnerability"
+      ],
+      [
+        1,
+        "scroll of stone skin"
+      ],
+      [
+        1,
+        "legendary divine essence"
+      ],
+      [
+        2,
+        "very rare arcane essence"
+      ]
+    ],
+    "time": "48 hours (6 days)",
+    "num_checks": 24,
+    "dc": 23,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "plate armor of etherealness|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "set of plate armor worth at least"
+      ],
+      [
+        1,
+        "500 gp"
+      ],
+      [
+        1,
+        "scroll of etherealness"
+      ],
+      [
+        1,
+        "legendary arcane essence"
+      ],
+      [
+        1,
+        "very rare arcane essence"
+      ]
+    ],
+    "time": "24 hours (3 days)",
+    "num_checks": 12,
+    "dc": 19,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "ring of jumping|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "ring worth at least"
+      ],
+      [
+        1,
+        "10 gp"
+      ],
+      [
+        1,
+        "scroll of jump"
+      ],
+      [
+        1,
+        "common primal essence"
+      ]
+    ],
+    "time": "8 hours",
+    "num_checks": 4,
+    "dc": 12,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "ring of mind shielding|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "ring worth at least"
+      ],
+      [
+        1,
+        "20 gp"
+      ],
+      [
+        1,
+        "scroll of protection from good and evil"
+      ],
+      [
+        1,
+        "scroll of detect good and evil"
+      ],
+      [
+        1,
+        "scroll of detect thoughts"
+      ],
+      [
+        1,
+        "common psionic essence"
+      ]
+    ],
+    "time": "12 hours (1.5 days)",
+    "num_checks": 6,
+    "dc": 15,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "ring of swimming|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "ring"
+      ],
+      [
+        1,
+        "scroll of alter self"
+      ],
+      [
+        1,
+        "common primal essence"
+      ]
+    ],
+    "time": "4 hours",
+    "num_checks": 2,
+    "dc": 14,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "ring of warmth|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "ring"
+      ],
+      [
+        1,
+        "scroll of create bonfire"
+      ],
+      [
+        1,
+        "scroll of protection from energy"
+      ],
+      [
+        2,
+        "common primal essence"
+      ],
+      [
+        1,
+        "uncommon primal essence"
+      ]
+    ],
+    "time": "16 hours (2 days)",
+    "num_checks": 8,
+    "dc": 14,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "ring of water walking|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "ring worth at least"
+      ],
+      [
+        1,
+        "10 gp"
+      ],
+      [
+        1,
+        "scroll of water walking"
+      ],
+      [
+        2,
+        "common primal essence"
+      ]
+    ],
+    "time": "8 hours",
+    "num_checks": 4,
+    "dc": 14,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "ring of resistance|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "ring"
+      ],
+      [
+        1,
+        "gem worth 50 gp "
+      ],
+      [
+        1,
+        "scroll of protection from energy"
+      ],
+      [
+        1,
+        "common primal essence"
+      ],
+      [
+        1,
+        "uncommon primal essence"
+      ],
+      [
+        1,
+        "rare primal essence"
+      ]
+    ],
+    "time": "16 hours (2 days)",
+    "num_checks": 8,
+    "dc": 16,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "ring of evasion|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "ring worth at least"
+      ],
+      [
+        1,
+        "400 gp"
+      ],
+      [
+        1,
+        "scroll of haste"
+      ],
+      [
+        1,
+        "rare primal essence"
+      ],
+      [
+        1,
+        "rare arcane essence"
+      ]
+    ],
+    "time": "16 hours (2 days)",
+    "num_checks": 8,
+    "dc": 17,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "ring of feather falling|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "ring worth at least"
+      ],
+      [
+        1,
+        "50 gp"
+      ],
+      [
+        1,
+        "scroll of feather fall"
+      ],
+      [
+        1,
+        "scroll of levitate"
+      ],
+      [
+        1,
+        "uncommon primal essence"
+      ],
+      [
+        1,
+        "uncommon arcane essence"
+      ]
+    ],
+    "time": "8 hours",
+    "num_checks": 4,
+    "dc": 14,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "ring of free action|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "ring worth at least"
+      ],
+      [
+        1,
+        "200 gp"
+      ],
+      [
+        1,
+        "scroll of freedom of movement"
+      ],
+      [
+        2,
+        "rare divine essence"
+      ],
+      [
+        2,
+        "rare arcane essence"
+      ],
+      [
+        1,
+        "rare primal essence"
+      ]
+    ],
+    "time": "24 hours (3 days)",
+    "num_checks": 12,
+    "dc": 17,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "ring of protection|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "ring worth at least"
+      ],
+      [
+        1,
+        "400 gp"
+      ],
+      [
+        1,
+        "scroll of shield of faith"
+      ],
+      [
+        1,
+        "scroll of mage armor"
+      ],
+      [
+        1,
+        "scroll of protection from energy"
+      ],
+      [
+        1,
+        "scroll of shield"
+      ],
+      [
+        1,
+        "scroll of false life"
+      ],
+      [
+        1,
+        "rare arcane essence"
+      ],
+      [
+        1,
+        "rare divine essence"
+      ]
+    ],
+    "time": "16 hours (2 days)",
+    "num_checks": 8,
+    "dc": 17,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "ring of animal influence|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "ring worth at least"
+      ],
+      [
+        1,
+        "200 gp"
+      ],
+      [
+        1,
+        "scroll of animal friendship"
+      ],
+      [
+        1,
+        "scroll of fear"
+      ],
+      [
+        1,
+        "scroll of speak with animals"
+      ],
+      [
+        1,
+        "rare primal essence"
+      ]
+    ],
+    "time": "12 hours (1.5 days)",
+    "num_checks": 6,
+    "dc": 16,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "ring of spell storing|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "ring worth at least"
+      ],
+      [
+        1,
+        "400 gp"
+      ],
+      [
+        1,
+        "empty wizard"
+      ],
+      [
+        1,
+        "50 gp"
+      ],
+      [
+        4,
+        "rare arcane essence"
+      ],
+      [
+        4,
+        "uncommon arcane essence"
+      ],
+      [
+        4,
+        "common arcane essence"
+      ]
+    ],
+    "time": "16 hours (2 days)",
+    "num_checks": 8,
+    "dc": 17,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "ring of x-ray vision|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "ring worth at least"
+      ],
+      [
+        1,
+        "200 gp"
+      ],
+      [
+        1,
+        "scroll of true seeing"
+      ],
+      [
+        1,
+        "scroll of find traps"
+      ],
+      [
+        1,
+        "uncommon arcane essence"
+      ]
+    ],
+    "time": "12 hours (1.5 days)",
+    "num_checks": 6,
+    "dc": 16,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "ring of the ram|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "ring worth at least"
+      ],
+      [
+        1,
+        "200 gp"
+      ],
+      [
+        1,
+        "scroll of galeboltK"
+      ],
+      [
+        1,
+        "scroll of shatter"
+      ],
+      [
+        1,
+        "rare arcane essence"
+      ],
+      [
+        1,
+        "uncommon primal essence"
+      ]
+    ],
+    "time": "12 hours (1.5 days)",
+    "num_checks": 6,
+    "dc": 15,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "ring of regeneration|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "ring worth at least"
+      ],
+      [
+        1,
+        "400 gp"
+      ],
+      [
+        1,
+        "scroll of regeneration"
+      ],
+      [
+        1,
+        "rare divine essence"
+      ],
+      [
+        1,
+        "rare arcane essence"
+      ],
+      [
+        1,
+        "rare primal essence"
+      ]
+    ],
+    "time": "16 hours (2 days)",
+    "num_checks": 8,
+    "dc": 18,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "ring of shooting stars|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "ring worth at least"
+      ],
+      [
+        1,
+        "400 gp"
+      ],
+      [
+        1,
+        "scroll of field of starsK"
+      ],
+      [
+        1,
+        "very rare arcane essence"
+      ],
+      [
+        1,
+        "rare divine essence"
+      ]
+    ],
+    "time": "16 hours (2 days)",
+    "num_checks": 8,
+    "dc": 18,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "ring of telekinesis|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "ringer worth at least"
+      ],
+      [
+        1,
+        "400 gp"
+      ],
+      [
+        1,
+        "scroll of telekinesis"
+      ],
+      [
+        1,
+        "very rare arcane essence"
+      ],
+      [
+        1,
+        "very rare psionic essence"
+      ]
+    ],
+    "time": "16 hours (2 days)",
+    "num_checks": 8,
+    "dc": 19,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "ring of spell turning|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "ring worth at least"
+      ],
+      [
+        1,
+        "400 gp"
+      ],
+      [
+        1,
+        "scroll of antimagic field"
+      ],
+      [
+        1,
+        "scroll of counterspell"
+      ],
+      [
+        1,
+        "legendary arcane essence"
+      ]
+    ],
+    "time": "32 hours (4 days)",
+    "num_checks": 16,
+    "dc": 22,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "ring of three wishes|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "ring"
+      ],
+      [
+        3,
+        "scrolls of wish"
+      ]
+    ],
+    "time": "16 hours (2 days)",
+    "num_checks": 8,
+    "dc": 18,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "ring of djinni summoning|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "ring worth at least"
+      ],
+      [
+        1,
+        "400 gp"
+      ],
+      [
+        1,
+        "scroll of gate"
+      ],
+      [
+        1,
+        "scroll of conjure elemental"
+      ],
+      [
+        1,
+        "very rare primal essence the true name of a djinni"
+      ]
+    ],
+    "time": "24 hours (3 days)",
+    "num_checks": 12,
+    "dc": 20,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "ring of elemental command|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "ring worth at least"
+      ],
+      [
+        1,
+        "400 gp"
+      ],
+      [
+        1,
+        "scroll of dominate monster"
+      ],
+      [
+        1,
+        "scroll of conjure elemental"
+      ],
+      [
+        1,
+        "legendary primal essence"
+      ],
+      [
+        3,
+        "very rare primal essence"
+      ]
+    ],
+    "time": "24 hours (3 days)",
+    "num_checks": 12,
+    "dc": 19,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "ring of invisibility|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "ring worth at least"
+      ],
+      [
+        1,
+        "400 gp"
+      ],
+      [
+        1,
+        "scroll of invisbility"
+      ],
+      [
+        1,
+        "legendary arcane essence"
+      ],
+      [
+        1,
+        "very rare arcane essence"
+      ]
+    ],
+    "time": "32 hours (4 days)",
+    "num_checks": 16,
+    "dc": 22,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "amulet of proof against detection and location|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "amulet"
+      ],
+      [
+        1,
+        "scroll of nondetection"
+      ]
+    ],
+    "time": "8 hours",
+    "num_checks": 4,
+    "dc": 14,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "brooch of shielding|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "brooch or amulet worth 10 gp "
+      ],
+      [
+        1,
+        "scroll of magic missile"
+      ],
+      [
+        1,
+        "scroll of shield"
+      ],
+      [
+        1,
+        "scroll of protection from energy"
+      ]
+    ],
+    "time": "6 hours",
+    "num_checks": 3,
+    "dc": 14,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "medallion of thoughts|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "medallion worth 25 gp "
+      ],
+      [
+        1,
+        "scroll of detect thoughts"
+      ],
+      [
+        1,
+        "uncommon arcane essence"
+      ],
+      [
+        1,
+        "uncommon psionic essence"
+      ]
+    ],
+    "time": "8 hours",
+    "num_checks": 4,
+    "dc": 15,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "necklace of adaptation|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "necklace worth at least"
+      ],
+      [
+        1,
+        "25 gp"
+      ],
+      [
+        1,
+        "scroll of protection from poison"
+      ],
+      [
+        1,
+        "common divine essence"
+      ]
+    ],
+    "time": "6 hours",
+    "num_checks": 3,
+    "dc": 12,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "periapt of health|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "necklace worth 50 gp "
+      ],
+      [
+        1,
+        "scroll of purify food and drink"
+      ],
+      [
+        1,
+        "scroll of lesser restoration"
+      ],
+      [
+        2,
+        "common divine essence"
+      ]
+    ],
+    "time": "12 hours (1.5 days)",
+    "num_checks": 6,
+    "dc": 12,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "periapt of wound closure|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "amulet worth at least"
+      ],
+      [
+        1,
+        "50 gp"
+      ],
+      [
+        1,
+        "uncommon divine essence"
+      ],
+      [
+        1,
+        "scroll of cure wounds"
+      ],
+      [
+        1,
+        "scroll of prayer of healing"
+      ]
+    ],
+    "time": "8 hours",
+    "num_checks": 4,
+    "dc": 14,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "Savage Talisman|kcg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "necklace worth at least"
+      ],
+      [
+        1,
+        "10 gp"
+      ],
+      [
+        1,
+        "scroll of alter self"
+      ],
+      [
+        2,
+        "common arcane essence"
+      ],
+      [
+        2,
+        "uncommon arcane essence"
+      ]
+    ],
+    "time": "8 hours",
+    "num_checks": 4,
+    "dc": 14,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "amulet of health|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "amulet worth 200 gp "
+      ],
+      [
+        1,
+        "rare divine essence"
+      ],
+      [
+        1,
+        "rare primal essence"
+      ]
+    ],
+    "time": "16 hours (2 days)",
+    "num_checks": 8,
+    "dc": 18,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "necklace of prayer beads|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        6,
+        "gems worth 50 gp each "
+      ],
+      [
+        1,
+        "scroll of planar ally"
+      ],
+      [
+        1,
+        "scroll of wind walk"
+      ],
+      [
+        1,
+        "scroll of branding smite"
+      ],
+      [
+        1,
+        "greater restoration"
+      ],
+      [
+        1,
+        "cure wounds"
+      ],
+      [
+        1,
+        "scroll of lesser restoration"
+      ],
+      [
+        1,
+        "scroll of bless"
+      ],
+      [
+        6,
+        "rare divine essence"
+      ]
+    ],
+    "time": "12 hours (1.5 days)",
+    "num_checks": 6,
+    "dc": 16,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "amulet of the planes|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "amulet worth 650 gp "
+      ],
+      [
+        1,
+        "scroll of plane shift"
+      ],
+      [
+        1,
+        "rare arcane essence"
+      ],
+      [
+        1,
+        "very rare divine essence"
+      ]
+    ],
+    "time": "24 hours (3 days)",
+    "num_checks": 12,
+    "dc": 18,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "scarab of protection|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "scarab shaped medallion worth at least"
+      ],
+      [
+        1,
+        "500 gp"
+      ],
+      [
+        1,
+        "scroll of holy aura"
+      ],
+      [
+        1,
+        "very rare divine essence"
+      ]
+    ],
+    "time": "24 hours (3 days)",
+    "num_checks": 12,
+    "dc": 19,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "talisman of pure good|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "talisman woth at least"
+      ],
+      [
+        1,
+        "000 gp"
+      ],
+      [
+        1,
+        "legendary divine essence from a good"
+      ],
+      [
+        1,
+        "scroll of fissureK"
+      ],
+      [
+        1,
+        "scroll of gate"
+      ]
+    ],
+    "time": "40 hours (5 days)",
+    "num_checks": 20,
+    "dc": 21,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "talisman of ultimate evil|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "talisman woth at least"
+      ],
+      [
+        1,
+        "000 gp"
+      ],
+      [
+        1,
+        "legendary divine essence from an evil"
+      ],
+      [
+        1,
+        "scroll of fissureK"
+      ],
+      [
+        1,
+        "scroll of gate"
+      ]
+    ],
+    "time": "40 hours (5 days)",
+    "num_checks": 20,
+    "dc": 21,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "talisman of the sphere|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "talisman woth at least"
+      ],
+      [
+        1,
+        "000 gp"
+      ],
+      [
+        1,
+        "legendary arcane essence"
+      ]
+    ],
+    "time": "24 hours (3 days)",
+    "num_checks": 12,
+    "dc": 22,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "staff of the python|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "uncommon branch"
+      ],
+      [
+        1,
+        "scroll of conjure animals"
+      ],
+      [
+        1,
+        "common primal essence"
+      ]
+    ],
+    "time": "8 hours",
+    "num_checks": 4,
+    "dc": 12,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "staff of charming|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "rare branch"
+      ],
+      [
+        2,
+        "rare divine essence"
+      ],
+      [
+        2,
+        "rare primal essence"
+      ],
+      [
+        4,
+        "uncommon arcane essence"
+      ],
+      [
+        1,
+        "scroll of command"
+      ],
+      [
+        1,
+        "scroll of comprehend language"
+      ],
+      [
+        1,
+        "scroll of charm person"
+      ]
+    ],
+    "time": "16 hours (2 days)",
+    "num_checks": 8,
+    "dc": 18,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "staff of healing|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "rare branch"
+      ],
+      [
+        3,
+        "rare divine essence"
+      ],
+      [
+        3,
+        "uncommon divine essence"
+      ],
+      [
+        1,
+        "scroll of mass cure wounds"
+      ],
+      [
+        1,
+        "scroll of cure wounds"
+      ],
+      [
+        1,
+        "scroll of lesser restoration"
+      ]
+    ],
+    "time": "12 hours (1.5 days)",
+    "num_checks": 6,
+    "dc": 18,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "staff of swarming insects|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "rare branch"
+      ],
+      [
+        1,
+        "scroll of giant insect"
+      ],
+      [
+        1,
+        "scroll of insect plague"
+      ],
+      [
+        1,
+        "rare primal essence"
+      ],
+      [
+        2,
+        "uncommon primal essence"
+      ],
+      [
+        1,
+        "uncommone divine essence"
+      ]
+    ],
+    "time": "12 hours (1.5 days)",
+    "num_checks": 6,
+    "dc": 16,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "staff of withering|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "rare branch"
+      ],
+      [
+        1,
+        "uncommon primal essence"
+      ],
+      [
+        1,
+        "uncommon arcane essence"
+      ],
+      [
+        1,
+        "scroll of blight"
+      ]
+    ],
+    "time": "8 hours",
+    "num_checks": 4,
+    "dc": 15,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "staff of the woodlands|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "rare branch"
+      ],
+      [
+        4,
+        "rare primal essence"
+      ],
+      [
+        8,
+        "uncommon primal essence"
+      ]
+    ],
+    "time": "16 hours (2 days)",
+    "num_checks": 8,
+    "dc": 18,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "staff of fire|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "very rare branch"
+      ],
+      [
+        1,
+        "ruby worth 500 gp "
+      ],
+      [
+        3,
+        "very rare primal essence"
+      ],
+      [
+        6,
+        "rare primal essence"
+      ],
+      [
+        1,
+        "scroll of burning hands"
+      ],
+      [
+        1,
+        "scroll of fireball"
+      ],
+      [
+        1,
+        "scroll of wall of fire"
+      ]
+    ],
+    "time": "16 hours (2 days)",
+    "num_checks": 8,
+    "dc": 19,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "staff of frost|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "very rare branch"
+      ],
+      [
+        1,
+        "sapphire worth 500 gp "
+      ],
+      [
+        1,
+        "very rare primal essence"
+      ],
+      [
+        1,
+        "very rare arcane essence"
+      ],
+      [
+        4,
+        "rare primal essences"
+      ],
+      [
+        2,
+        "rare arcane essences"
+      ],
+      [
+        1,
+        "scroll of cone of cold"
+      ],
+      [
+        1,
+        "scroll of fog cloud"
+      ],
+      [
+        1,
+        "scroll of icestorm"
+      ],
+      [
+        1,
+        "scroll of of wall of ice"
+      ]
+    ],
+    "time": "16 hours (2 days)",
+    "num_checks": 8,
+    "dc": 19,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "staff of power|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        2,
+        "quarterstaff"
+      ],
+      [
+        1,
+        "diamond worth 500 gp "
+      ],
+      [
+        1,
+        "legendary arcane essence"
+      ],
+      [
+        1,
+        "scroll of cone of cold"
+      ],
+      [
+        1,
+        "scroll of fireball"
+      ],
+      [
+        1,
+        "scroll of globe of invulnerability"
+      ],
+      [
+        1,
+        "scroll of hold monster"
+      ],
+      [
+        1,
+        "scroll of levitate"
+      ],
+      [
+        1,
+        "scroll of lightning bolt"
+      ],
+      [
+        1,
+        "scroll of magic missile"
+      ],
+      [
+        1,
+        "scroll of ray of enfeeblement"
+      ],
+      [
+        1,
+        "scroll of wall of force"
+      ],
+      [
+        10,
+        "rare arcane essence"
+      ]
+    ],
+    "time": "32 hours (4 days)",
+    "num_checks": 16,
+    "dc": 20,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "staff of striking|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        3,
+        "quarterstaff"
+      ],
+      [
+        10,
+        "rare arcane essence"
+      ]
+    ],
+    "time": "16 hours (2 days)",
+    "num_checks": 8,
+    "dc": 18,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "staff of thunder and lightning|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "very rare branch"
+      ],
+      [
+        1,
+        "very rare primal essence"
+      ],
+      [
+        1,
+        "scroll of lightning bolt"
+      ],
+      [
+        1,
+        "scroll of thunder pulseK"
+      ]
+    ],
+    "time": "16 hours (2 days)",
+    "num_checks": 8,
+    "dc": 16,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "staff of the magi|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "legendary branch"
+      ],
+      [
+        2,
+        "legendary arcane essence"
+      ],
+      [
+        1,
+        "wizard"
+      ],
+      [
+        4,
+        "very rare arcane essence"
+      ]
+    ],
+    "time": "40 hours (5 days)",
+    "num_checks": 20,
+    "dc": 22,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "immovable rod|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "rod worth at least"
+      ],
+      [
+        1,
+        "100 gp"
+      ],
+      [
+        1,
+        "scroll of gravity surgeK"
+      ],
+      [
+        4,
+        "uncommon arcane essence"
+      ]
+    ],
+    "time": "8 hours",
+    "num_checks": 4,
+    "dc": 15,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "+1 rod of the pact keeper|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "rod worth at least"
+      ],
+      [
+        1,
+        "100 gp"
+      ],
+      [
+        1,
+        "entrapped humanoid soul"
+      ],
+      [
+        3,
+        "uncommon arcane essence"
+      ]
+    ],
+    "time": "8 hours",
+    "num_checks": 4,
+    "dc": 15,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "rod of rulership|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "rod worth at least"
+      ],
+      [
+        1,
+        "500 gp"
+      ],
+      [
+        1,
+        "scroll of command"
+      ],
+      [
+        1,
+        "scroll of charm person"
+      ],
+      [
+        1,
+        "scroll of suggestion"
+      ],
+      [
+        1,
+        "scroll of charm monster"
+      ],
+      [
+        2,
+        "rare arcane essence"
+      ]
+    ],
+    "time": "16 hours (2 days)",
+    "num_checks": 8,
+    "dc": 17,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "+2 rod of the pact keeper|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "rod worth at least"
+      ],
+      [
+        1,
+        "500 gp"
+      ],
+      [
+        3,
+        "entrapped humanoid souls of CR"
+      ],
+      [
+        5,
+        "or higher"
+      ],
+      [
+        3,
+        "rare arcane essence"
+      ]
+    ],
+    "time": "16 hours (2 days)",
+    "num_checks": 12,
+    "dc": 17,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "tentacle rod|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "rod worth at least"
+      ],
+      [
+        1,
+        "500 gp"
+      ],
+      [
+        1,
+        "scroll of black tentacle"
+      ],
+      [
+        3,
+        "tentacles at least"
+      ],
+      [
+        5,
+        "feet long"
+      ],
+      [
+        2,
+        "rare arcane essence"
+      ]
+    ],
+    "time": "8 hours",
+    "num_checks": 4,
+    "dc": 16,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "rod of absorption|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "rod worth at least"
+      ],
+      [
+        1,
+        "000 gp"
+      ],
+      [
+        1,
+        "scroll of spelltrapK"
+      ],
+      [
+        1,
+        "scroll of counterspell"
+      ],
+      [
+        2,
+        "rare arcane essence"
+      ]
+    ],
+    "time": "8 hours",
+    "num_checks": 4,
+    "dc": 16,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "rod of alertness|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "rod worth at least"
+      ],
+      [
+        1,
+        "000 gp"
+      ],
+      [
+        1,
+        "scroll of alarm"
+      ],
+      [
+        1,
+        "scroll of detect evil and good"
+      ],
+      [
+        1,
+        "scroll of detect magic"
+      ],
+      [
+        1,
+        "scroll of detect poison and disease"
+      ],
+      [
+        1,
+        "scroll of see invisibility"
+      ],
+      [
+        3,
+        "rare arcane essence"
+      ]
+    ],
+    "time": "16 hours (2 days)",
+    "num_checks": 8,
+    "dc": 17,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "rod of security|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "rod worth at least"
+      ],
+      [
+        1,
+        "000 gp"
+      ],
+      [
+        1,
+        "scroll of demiplane"
+      ],
+      [
+        1,
+        "very rare divine essence"
+      ]
+    ],
+    "time": "24 hours (3 days)",
+    "num_checks": 12,
+    "dc": 18,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "+3 rod of the pact keeper|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "rod worth at least"
+      ],
+      [
+        1,
+        "000 gp"
+      ],
+      [
+        1,
+        "entrapped soul of a devil or demon CR"
+      ],
+      [
+        15,
+        "or higher"
+      ],
+      [
+        2,
+        "very rare arcane essence|kcg"
+      ],
+      [
+        4,
+        "very rare arcane essence"
+      ]
+    ],
+    "time": "24 hours (3 days)",
+    "num_checks": 12,
+    "dc": 19,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "rod of lordly might|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "rod worth at least"
+      ],
+      [
+        1,
+        "000 gp"
+      ],
+      [
+        1,
+        "scroll of magic weapon"
+      ],
+      [
+        1,
+        "scroll of prismatic weaponK"
+      ],
+      [
+        1,
+        "scroll of fear"
+      ],
+      [
+        1,
+        "scroll of hold monster"
+      ],
+      [
+        1,
+        "scroll of vampiric touch"
+      ],
+      [
+        1,
+        "very rare primal essence"
+      ],
+      [
+        1,
+        "very rare arcane essence"
+      ],
+      [
+        1,
+        "very rare divine essence"
+      ],
+      [
+        3,
+        "weapon mace or battleaxe"
+      ]
+    ],
+    "time": "40 hours (5 days)",
+    "num_checks": 20,
+    "dc": 22,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "rod of resurrection|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "rod worth at least"
+      ],
+      [
+        1,
+        "000 gp"
+      ],
+      [
+        1,
+        "scroll of revivify"
+      ],
+      [
+        1,
+        "scroll of raise dead"
+      ],
+      [
+        1,
+        "scroll of resurrection"
+      ],
+      [
+        1,
+        "scroll of true resurrection"
+      ],
+      [
+        1,
+        "very rare divine essence"
+      ],
+      [
+        1,
+        "legendary divine essence"
+      ]
+    ],
+    "time": "80 hours (10 days)",
+    "num_checks": 40,
+    "dc": 24,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "manual of bodily health|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "blank book worth 500 gp "
+      ],
+      [
+        1,
+        "scroll of enhance ability"
+      ],
+      [
+        1,
+        "legendary primal essence"
+      ],
+      [
+        1,
+        "legendary divine essence"
+      ]
+    ],
+    "time": "40 hours (5 days)",
+    "num_checks": 20,
+    "dc": 21,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "manual of gainful exercise|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "blank book worth 500 gp "
+      ],
+      [
+        1,
+        "scroll of enhance ability"
+      ],
+      [
+        2,
+        "legendary primal essence"
+      ]
+    ],
+    "time": "40 hours (5 days)",
+    "num_checks": 20,
+    "dc": 21,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "manual of golems|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "blank book worth 250 gp "
+      ],
+      [
+        1,
+        "scroll of awaken"
+      ],
+      [
+        1,
+        "scroll of scroll of animate objects"
+      ],
+      [
+        2,
+        "very rare arcane essence"
+      ],
+      [
+        1,
+        "rare divine essence"
+      ]
+    ],
+    "time": "24 hours (3 days)",
+    "num_checks": 12,
+    "dc": 19,
+    "note": "[When making a manual of golems in this way, you can pick which golem type it is for.]"
+  },
+  {
+    "craft": "enchanting",
+    "result": "manual of quickness of action|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "blank book worth 500 gp "
+      ],
+      [
+        1,
+        "scroll of enhance ability"
+      ],
+      [
+        1,
+        "legendary arcane essence"
+      ],
+      [
+        1,
+        "legendary divine essence"
+      ]
+    ],
+    "time": "40 hours (5 days)",
+    "num_checks": 20,
+    "dc": 21,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "tome of clear thought|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "blank book worth 500 gp "
+      ],
+      [
+        1,
+        "scroll of enhance ability"
+      ],
+      [
+        2,
+        "legendary arcane essence"
+      ]
+    ],
+    "time": "40 hours (5 days)",
+    "num_checks": 20,
+    "dc": 21,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "tome of leadership and influence|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "blank book worth 500 gp "
+      ],
+      [
+        1,
+        "scroll of enhance ability"
+      ],
+      [
+        2,
+        "legendary divine essence"
+      ]
+    ],
+    "time": "40 hours (5 days)",
+    "num_checks": 20,
+    "dc": 21,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "tome of understanding|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "blank book worth 500 gp "
+      ],
+      [
+        1,
+        "scroll of enhance ability"
+      ],
+      [
+        1,
+        "legendary divine essence"
+      ],
+      [
+        1,
+        "legendary primal essence"
+      ]
+    ],
+    "time": "40 hours (5 days)",
+    "num_checks": 20,
+    "dc": 21,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "ioun stone, protection|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "rose gem worth at least"
+      ],
+      [
+        1,
+        "200 gp"
+      ],
+      [
+        1,
+        "scroll of mage armor"
+      ],
+      [
+        3,
+        "rare arcane essence"
+      ],
+      [
+        1,
+        "rare divine essence"
+      ]
+    ],
+    "time": "16 hours (2 days)",
+    "num_checks": 8,
+    "dc": 17,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "ioun stone, awareness|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "dark blue gem worth at least"
+      ],
+      [
+        1,
+        "200 gp"
+      ],
+      [
+        1,
+        "scroll of enhance ability"
+      ],
+      [
+        1,
+        "rare primal essence"
+      ],
+      [
+        1,
+        "rare arcane essence"
+      ]
+    ],
+    "time": "16 hours (2 days)",
+    "num_checks": 8,
+    "dc": 17,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "ioun stone, sustenance|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "clear gem worth at least"
+      ],
+      [
+        1,
+        "200 gp"
+      ],
+      [
+        1,
+        "scroll of create food and water"
+      ],
+      [
+        2,
+        "rare divine essence"
+      ],
+      [
+        1,
+        "uncommon arcane essence"
+      ]
+    ],
+    "time": "16 hours (2 days)",
+    "num_checks": 8,
+    "dc": 16,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "ioun stone, reserve|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "purple gem worth at least"
+      ],
+      [
+        1,
+        "200 gp"
+      ],
+      [
+        5,
+        "rare arcane essence"
+      ],
+      [
+        4,
+        "uncommon arcane essence"
+      ]
+    ],
+    "time": "16 hours (2 days)",
+    "num_checks": 8,
+    "dc": 17,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "ioun stone, strength|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "pale blue gem at least"
+      ],
+      [
+        1,
+        "500 gp"
+      ],
+      [
+        1,
+        "scroll of enhance ability"
+      ],
+      [
+        4,
+        "very rare primal essence"
+      ]
+    ],
+    "time": "24 hours (3 days)",
+    "num_checks": 12,
+    "dc": 19,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "ioun stone, absorption|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "pale lavender gem worth at least"
+      ],
+      [
+        1,
+        "500 gp"
+      ],
+      [
+        1,
+        "scroll of dispel magic"
+      ],
+      [
+        1,
+        "very rare arcane essence"
+      ],
+      [
+        1,
+        "very rare divine essence"
+      ]
+    ],
+    "time": "24 hours (3 days)",
+    "num_checks": 12,
+    "dc": 19,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "ioun stone, agility|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "deep red gem worth at least"
+      ],
+      [
+        1,
+        "500 gp"
+      ],
+      [
+        1,
+        "scroll of enhance ability"
+      ],
+      [
+        2,
+        "very rare primal essence"
+      ],
+      [
+        2,
+        "very rare divine essence"
+      ]
+    ],
+    "time": "24 hours (3 days)",
+    "num_checks": 12,
+    "dc": 19,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "ioun stone, fortitude|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "pink gem worth at least"
+      ],
+      [
+        1,
+        "500 gp"
+      ],
+      [
+        1,
+        "scroll of enhance ability"
+      ],
+      [
+        2,
+        "very rare divine essence"
+      ],
+      [
+        2,
+        "very rare primal essence"
+      ]
+    ],
+    "time": "24 hours (3 days)",
+    "num_checks": 12,
+    "dc": 19,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "ioun stone, insight|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "incandescent blue worth at least"
+      ],
+      [
+        1,
+        "500 gp"
+      ],
+      [
+        1,
+        "scroll of enhance ability"
+      ],
+      [
+        2,
+        "very rare divine essence"
+      ],
+      [
+        2,
+        "very rare primal essence"
+      ]
+    ],
+    "time": "24 hours (3 days)",
+    "num_checks": 12,
+    "dc": 19,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "ioun stone, intellect|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "incandescent blue worth at least"
+      ],
+      [
+        1,
+        "500 gp"
+      ],
+      [
+        1,
+        "scroll of enhance ability"
+      ],
+      [
+        3,
+        "very rare arcane essence"
+      ],
+      [
+        1,
+        "very rare primal essence"
+      ]
+    ],
+    "time": "24 hours (3 days)",
+    "num_checks": 12,
+    "dc": 19,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "ioun stone, leadership|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "pink gem at least"
+      ],
+      [
+        1,
+        "500 gp"
+      ],
+      [
+        1,
+        "scroll of enhance ability"
+      ],
+      [
+        4,
+        "very rare divine essence"
+      ]
+    ],
+    "time": "24 hours (3 days)",
+    "num_checks": 12,
+    "dc": 19,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "ioun stone, greater absorption|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "lavender gem worth at least"
+      ],
+      [
+        1,
+        "500 gp"
+      ],
+      [
+        1,
+        "green gem worth at least"
+      ],
+      [
+        1,
+        "500 gp"
+      ],
+      [
+        2,
+        "very rare divine essence"
+      ],
+      [
+        2,
+        "very rare arcane essence"
+      ],
+      [
+        1,
+        "scroll of antimagic sphere"
+      ]
+    ],
+    "time": "32 hours (4 days)",
+    "num_checks": 16,
+    "dc": 20,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "ioun stone, mastery|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "green gem worth at least"
+      ],
+      [
+        1,
+        "000 gp"
+      ],
+      [
+        1,
+        "scroll of enhance ability"
+      ],
+      [
+        1,
+        "legendary divine essence"
+      ],
+      [
+        1,
+        "very rare arcane essence"
+      ],
+      [
+        1,
+        "very rare primal essence"
+      ]
+    ],
+    "time": "40 hours (5 days)",
+    "num_checks": 20,
+    "dc": 21,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "ioun stone, regeneration|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "pearl worth at least"
+      ],
+      [
+        1,
+        "000 gp"
+      ],
+      [
+        1,
+        "scroll of regeneration"
+      ],
+      [
+        2,
+        "very rare divine essence"
+      ],
+      [
+        2,
+        "rare divine essence"
+      ],
+      [
+        24,
+        "hours"
+      ],
+      [
+        3,
+        "days"
+      ],
+      [
+        12,
+        "DC"
+      ],
+      [
+        19,
+        "legendary"
+      ],
+      [
+        800,
+        "Brilliant Diamond"
+      ],
+      [
+        1,
+        "diamond worth at least"
+      ],
+      [
+        1,
+        "25 gp"
+      ],
+      [
+        1,
+        "common arcane essence"
+      ],
+      [
+        4,
+        "hours"
+      ],
+      [
+        2,
+        "DC"
+      ],
+      [
+        14,
+        "Common"
+      ],
+      [
+        1,
+        "95 gp Effervescent Emerald"
+      ],
+      [
+        1,
+        "emerald worth at least"
+      ],
+      [
+        1,
+        "25 gp"
+      ],
+      [
+        1,
+        "common primal essence"
+      ],
+      [
+        4,
+        "hours"
+      ],
+      [
+        2,
+        "DC"
+      ],
+      [
+        13,
+        "Common"
+      ],
+      [
+        1,
+        "70 gp Flickering Ruby"
+      ],
+      [
+        1,
+        "ruby worth at least"
+      ],
+      [
+        1,
+        "50 gp"
+      ],
+      [
+        1,
+        "common primal essence"
+      ],
+      [
+        4,
+        "hours"
+      ],
+      [
+        2,
+        "DC"
+      ],
+      [
+        14,
+        "Common"
+      ],
+      [
+        1,
+        "125 gp Sparkling Sapphire"
+      ],
+      [
+        1,
+        "sapphire worth at least"
+      ],
+      [
+        1,
+        "100 gp"
+      ],
+      [
+        1,
+        "uncommon arcane essence"
+      ]
+    ],
+    "time": "6 hours",
+    "num_checks": 3,
+    "dc": 15,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "glittering garnet|kcg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "garnet worth at least"
+      ],
+      [
+        1,
+        "100 gp"
+      ],
+      [
+        1,
+        "common divine essence"
+      ],
+      [
+        1,
+        "uncommon arcane essence"
+      ]
+    ],
+    "time": "6 hours",
+    "num_checks": 3,
+    "dc": 16,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "magic diamond|kcg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "diamond worth at least"
+      ],
+      [
+        1,
+        "100 gp"
+      ],
+      [
+        1,
+        "uncommon arcane essence"
+      ]
+    ],
+    "time": "6 hours",
+    "num_checks": 3,
+    "dc": 16,
+    "note": null
+  },
+  {
+    "craft": "enchanting",
+    "result": "perfect infusion|kcg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "cut gem worth at least"
+      ],
+      [
+        1,
+        "50 gp"
+      ],
+      [
+        1,
+        "common arcane essence"
+      ],
+      [
+        1,
+        "common primal essence"
+      ]
+    ],
+    "time": "6 hours",
+    "num_checks": 3,
+    "dc": 18,
+    "note": null
   },
   {
     "craft": "alchemy",
@@ -3948,5 +12054,39 @@
     "time": "2 hours",
     "num_checks": 1,
     "dc": 14
+  },
+  {
+    "craft": "enchanting",
+    "result": "Carpet of Flying, 4 ft. \u00d7 6 ft.|dmg",
+    "quantity": 1,
+    "materials": [
+      [
+        1,
+        "fancy carpet worth 1000 gp"
+      ],
+      [
+        1,
+        "scroll of fly"
+      ],
+      [
+        1,
+        "scroll of levitate"
+      ],
+      [
+        1,
+        "scroll of animate objects"
+      ],
+      [
+        1,
+        "very rare arcane essence"
+      ],
+      [
+        1,
+        "very rare primal essence"
+      ]
+    ],
+    "time": "32  hours (4 days)",
+    "num_checks": 16,
+    "dc": 19
   }
 ]

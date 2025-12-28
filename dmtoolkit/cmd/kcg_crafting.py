@@ -11,7 +11,9 @@ TARGET_FILE = Path(__file__).parent.parent / "modules/kibbles/recipes.json"
 #   easier to do them manually. We put the names of them here so the code knows to skip them.
 IGNORE_NAMES = [
     "Sticky Goo PotionK", # Has 2 recipes
-    "Manacles" # Material has brackers in it "chain (5 feet) which is just a PITA to code around"
+    "Manacles", # Material has brackers in it "chain (5 feet) which is just a PITA to code around"
+    "Carpet of Flying, 4 ft. × 6 ft.", # Has numbers in the name, regex no like it
+    "Mantle of the Mind", # Doesn't appear to be a real item not; not listed anywhere
 ]
 
 def read_file(fname: Path, crafting_type: str) -> list[dict]:
@@ -20,7 +22,8 @@ def read_file(fname: Path, crafting_type: str) -> list[dict]:
         contents = re.sub(r"\x01", "", contents)
     lines = re.sub(r"((?:common|uncommon|rare|very rare|legendary) [\d,]+ )(gp)", r"\1gp\n", contents).split("\n")
 
-    line_pattern = re.compile(r"(?:(?P<item_amt1>\d+) x )?(?P<item_name>[^\s\d]+(?:\s[^\s\d]+)*)(?: \((?P<item_amt2>[\w\s]+)\))?\s(?P<materials>(?:[\.\d]+\s[A-Za-z\(\)\s]+)+)(?P<time>\d+\s\w+(?:\s*\(\d*\s\w+\))?)\s*(?P<num_checks>\d+)\s*DC (?P<dc>\d+)\s*(?P<rarity>(?:[A-Za-z]+\s)+)\s*(?P<value>[\d,]+)\s?gp\s?")
+    p = r"(?:(?P<item_amt1>\d+) x )?(?P<item_name>(?:\+\d )?[^\s\d]+(?:\s[^\s\d\[]+)*)\s*(?P<note>\[[^\]]*\])?\s*(?: \((?P<item_amt2>[\w\s]+)\))?\s(?P<materials>(?:[\.\d,]+\s\+?[\d,]*[A-Za-z’\-\(\)\/\s]+)+)(?P<time>\d+\shours?(?:\s*\([\.\d]*\s\w+\))?)\s*(?P<num_checks>\d+)\s*(?:DC )?(?P<dc>\d+)\s*(?P<rarity>(?:[A-Za-z]+\s)+)\s*(?P<value>[\d,]+)\s?gp\s?"
+    line_pattern = re.compile(p)
     # Split each line up
     recipes = []
     for idx, line in enumerate(lines):
@@ -29,41 +32,54 @@ def read_file(fname: Path, crafting_type: str) -> list[dict]:
             continue
         match = line_pattern.match(line)
         if not match:
-            raise ValueError(f"Unable to parse item number {idx}: \"{line}\"")
+            raise ValueError(f"Unable to parse item number {idx+1}: \"{line}\"")
         groups = match.groupdict()
 
-        note = ""
+        notes = []
         
         item_name = groups.get("item_name", "")
-        item_id = ""
+        item_id = item_name if "|" in item_name else ""
         if item_name.endswith("K"):
             item_name = item_name[:-1]
             item_id = f"{item_name}|kcg"
         elif item_name.endswith("GS"):
             continue # We don't support GS items yet
+        elif item_name.endswith("TAG"):
+            continue # We don't support TAG items yet
         elif item_name.endswith("DS"):
             continue # We don't support DS items yet
         elif item_name.endswith("S"):
             item_name = item_name[:-1]
-            note = "Smelting ore requires specialized factilities. This can usually be accomplished in a fully equiped smithy, but consult your GM for where it might be appropriate. Adventurers rarely smelt their own ore, these are included primarily for informational purposes. Smelting magical ores may require more specialized facilities or locations."
+            notes.append("Smelting ore requires specialized factilities. This can usually be accomplished in a fully equiped smithy, but consult your GM for where it might be appropriate. Adventurers rarely smelt their own ore, these are included primarily for informational purposes. Smelting magical ores may require more specialized facilities or locations.")
         
         if not item_id:
             item = find_item_by_name(item_name)
             if len(item) != 1:
-                raise ValueError(f"Found {len(item)} matches for '{item_name}' where 1 was expected")
+                raise ValueError(f"Error in item {idx+1} ~ Found {len(item)} matches for '{item_name}' where 1 was expected: {item}")
             item_id = item[0].id()
+        
+        if note := groups.get("note"):
+            notes.append(note)
         
 
         materials = []
         for m in re.finditer(r"(\d+)\s([A-Za-z\s]+)", groups.get("materials", "")):
             quantity, item = m.group(1), m.group(2)
-            if item.startswith("gp"): # Means it's something like "300 gb worth of gems"
-                item = f"{quantity} {item}"
-                quantity = 1
+            if item.startswith("gp"):
+                if materials[-1][1].endswith("worth"):
+                    # Means it's something like "1 diamond worth 100 gp"
+                    materials[-1] = materials[-1][0], f"{materials[-1][1]} {quantity} {item}"
+                    continue
+                else:
+                    # Means it's something like "300 gb worth of gems"
+                    item = f"{quantity} {item}"
+                    quantity = 1
             if item_obj := find_item_by_name(item):
                 if len(item_obj) == 1:
                     item = item_obj[0].id()
             materials.append((int(quantity), item.strip()))
+
+
         time = groups.get("time", "")
         num_checks = int(groups.get("num_checks", "1"))
         dc = int(groups.get("dc", "10"))
@@ -93,6 +109,9 @@ def convert_blacksmithing():
 
 def convert_cooking():
     return read_file(DATA_DIR / "raw_cooking_recipes.txt", "cooking")
+
+def convert_enchanting():
+    return read_file(DATA_DIR / "raw_enchanting_recipes.txt", "enchanting")
 
 def hard_coded_recipes():
     return [
@@ -134,10 +153,32 @@ def hard_coded_recipes():
             "time": "2 hours",
             "num_checks": 1,
             "dc": 14,
+        },
+        {
+            "craft": "enchanting",
+            "result": "Carpet of Flying, 4 ft. × 6 ft.|dmg",
+            "quantity": 1,
+            "materials": [
+                [1, "fancy carpet worth 1000 gp"],
+                [1, "scroll of fly"],
+                [1, "scroll of levitate"],
+                [1, "scroll of animate objects"],
+                [1, "very rare arcane essence"],
+                [1, "very rare primal essence"]
+            ],
+            "time": "32  hours (4 days)",
+            "num_checks": 16,
+            "dc": 19,
         }
     ]
 
 def convert():
-    recipes = convert_alchemy() + convert_poisoncraft() + convert_blacksmithing() + convert_cooking() + hard_coded_recipes()
+    recipes = (
+        convert_alchemy() + 
+        convert_poisoncraft() + 
+        convert_blacksmithing() + 
+        convert_cooking() + 
+        convert_enchanting() + 
+        hard_coded_recipes())
     with TARGET_FILE.open("w") as f:
         json.dump(recipes, f, indent=2)

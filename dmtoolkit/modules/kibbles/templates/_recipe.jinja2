@@ -76,7 +76,22 @@
                 <li>Use your {{ "{@item cook's utensils|PHB}" | macro5e }} to craft the option using the number of hours listed in the Crafting Time column, or use the crafting camp action, during a long rest, if the crafting time is 2 hours or less. Meals must be crafted in a single crafting session. All meals require a heat source (such as a campfire).</li>
                 <li>For every 2 hours, make a crafting roll of 1d20 + your Wisdom modifier + your proficiency bonus with {{ "{@item cook's utensils|PHB}" | macro5e }}. You can abort the craft after a bad crafting roll if you wish, this counts as a failure.</li>
             </ul>
+        {% elif recipes[0].crafting_type == 'enchanting' %}
+            <ul>
+                <li>Select the magic item that you would like to craft from any of the Magic Item Tables.</li>
+                <li>Acquire the items listed in the materials column for that item.</li>
+                <li>Use your Arcana skill to infuse the option using the number of hours listed in the Crafting Time column, or during a long rest using the crafting camp action if the crafting time is 2 hours or less.</li>
+                <li>For every 2 hours, make a crafting roll of 1d20 + your Intelligence modifier + your Arcana proficiency.</li>
+                <li>On success, you mark 2 hours of completed time. Once the completed time is equal to the crafting time, the magic item is complete. On failure, the crafting time is lost and no progress has been made during the 2 hours. If you fail 3 times in a row, the crafting is a failure and all materials are lost.</li>
+            </ul>
         {% endif %}
         
+
+
+
+
+
+
+
     {% endif %}
 </div>
