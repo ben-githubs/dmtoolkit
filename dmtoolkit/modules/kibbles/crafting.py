@@ -19,6 +19,8 @@ class CraftingType(StrEnum):
     Blacksmithing = auto()
     Cooking = auto()
     Enchanting = auto()
+    Scrollscribing = auto()
+    WandWhittling = "wand_whittling"
 
 @dataclass
 class Recipe:

@@ -3447,7 +3447,264 @@
     "__dataclass__": "Item"
   },
   {
-    "name": "Black Stick",
+    "name": "Lesser Wand of Cantrip",
+    "source": [
+      "KCG",
+      102
+    ],
+    "rarity": "common",
+    "weight": 1,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "This wand has 3 charges. While holding it, you can use an action to expend 1 or more of its charges to cast the spell infused in it it. For 1 charge, you cast the base version of the spell. You can increase the spell slot level by one for each additional charge you expend (if applicable for the spell). The DC of the spell is crafter’s Wand DC.",
+          "The wand doesn’t regain charges naturally, but can be recharged (see recharge rules for Lesser Wands).",
+          "Lesser wands that cast 3rd-level spells or higher require attunement to use."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 3000,
+    "item_type": "Wand",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Lesser Wand of 1st-Level Spell",
+    "source": [
+      "KCG",
+      102
+    ],
+    "rarity": "uncommon",
+    "weight": 1,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "This wand has 3 charges. While holding it, you can use an action to expend 1 or more of its charges to cast the spell infused in it it. For 1 charge, you cast the base version of the spell. You can increase the spell slot level by one for each additional charge you expend (if applicable for the spell). The DC of the spell is crafter’s Wand DC.",
+          "The wand doesn’t regain charges naturally, but can be recharged (see recharge rules for Lesser Wands).",
+          "Lesser wands that cast 3rd-level spells or higher require attunement to use."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 10000,
+    "item_type": "Wand",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Lesser Wand of 2nd-Level Spell",
+    "source": [
+      "KCG",
+      102
+    ],
+    "rarity": "uncommon",
+    "weight": 1,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "This wand has 3 charges. While holding it, you can use an action to expend 1 or more of its charges to cast the spell infused in it it. For 1 charge, you cast the base version of the spell. You can increase the spell slot level by one for each additional charge you expend (if applicable for the spell). The DC of the spell is crafter’s Wand DC.",
+          "The wand doesn’t regain charges naturally, but can be recharged (see recharge rules for Lesser Wands).",
+          "Lesser wands that cast 3rd-level spells or higher require attunement to use."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 16000,
+    "item_type": "Wand",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Lesser Wand of 3rd-Level Spell",
+    "source": [
+      "KCG",
+      102
+    ],
+    "rarity": "rare",
+    "weight": 1,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "This wand has 3 charges. While holding it, you can use an action to expend 1 or more of its charges to cast the spell infused in it it. For 1 charge, you cast the base version of the spell. You can increase the spell slot level by one for each additional charge you expend (if applicable for the spell). The DC of the spell is crafter’s Wand DC.",
+          "The wand doesn’t regain charges naturally, but can be recharged (see recharge rules for Lesser Wands).",
+          "Lesser wands that cast 3rd-level spells or higher require attunement to use."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 50000,
+    "item_type": "Wand",
+    "properties": [],
+    "attunement":"requires attunement",
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Lesser Wand of 4th-Level Spell",
+    "source": [
+      "KCG",
+      102
+    ],
+    "rarity": "rare",
+    "weight": 1,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "This wand has 3 charges. While holding it, you can use an action to expend 1 or more of its charges to cast the spell infused in it it. For 1 charge, you cast the base version of the spell. You can increase the spell slot level by one for each additional charge you expend (if applicable for the spell). The DC of the spell is crafter’s Wand DC.",
+          "The wand doesn’t regain charges naturally, but can be recharged (see recharge rules for Lesser Wands).",
+          "Lesser wands that cast 3rd-level spells or higher require attunement to use."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 60000,
+    "item_type": "Wand",
+    "properties": [],
+    "attunement":"requires attunement",
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Lesser Wand of 5th-Level Spell",
+    "source": [
+      "KCG",
+      102
+    ],
+    "rarity": "rare",
+    "weight": 1,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "This wand has 3 charges. While holding it, you can use an action to expend 1 or more of its charges to cast the spell infused in it it. For 1 charge, you cast the base version of the spell. You can increase the spell slot level by one for each additional charge you expend (if applicable for the spell). The DC of the spell is crafter’s Wand DC.",
+          "The wand doesn’t regain charges naturally, but can be recharged (see recharge rules for Lesser Wands).",
+          "Lesser wands that cast 3rd-level spells or higher require attunement to use."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 230000,
+    "item_type": "Wand",
+    "properties": [],
+    "attunement":"requires attunement",
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Lesser Wand of 6th-Level Spell",
+    "source": [
+      "KCG",
+      102
+    ],
+    "rarity": "rare",
+    "weight": 1,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "This wand has 3 charges. While holding it, you can use an action to expend 1 or more of its charges to cast the spell infused in it it. For 1 charge, you cast the base version of the spell. You can increase the spell slot level by one for each additional charge you expend (if applicable for the spell). The DC of the spell is crafter’s Wand DC.",
+          "The wand doesn’t regain charges naturally, but can be recharged (see recharge rules for Lesser Wands).",
+          "Lesser wands that cast 3rd-level spells or higher require attunement to use."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 270000,
+    "item_type": "Wand",
+    "properties": [],
+    "attunement":"requires attunement",
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Lesser Wand of 7th-Level Spell",
+    "source": [
+      "KCG",
+      102
+    ],
+    "rarity": "very rare",
+    "weight": 1,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "This wand has 3 charges. While holding it, you can use an action to expend 1 or more of its charges to cast the spell infused in it it. For 1 charge, you cast the base version of the spell. You can increase the spell slot level by one for each additional charge you expend (if applicable for the spell). The DC of the spell is crafter’s Wand DC.",
+          "The wand doesn’t regain charges naturally, but can be recharged (see recharge rules for Lesser Wands).",
+          "Lesser wands that cast 3rd-level spells or higher require attunement to use."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 2200000,
+    "item_type": "Wand",
+    "properties": [],
+    "attunement":"requires attunement",
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Lesser Wand of 8th-Level Spell",
+    "source": [
+      "KCG",
+      102
+    ],
+    "rarity": "very rare",
+    "weight": 1,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "This wand has 3 charges. While holding it, you can use an action to expend 1 or more of its charges to cast the spell infused in it it. For 1 charge, you cast the base version of the spell. You can increase the spell slot level by one for each additional charge you expend (if applicable for the spell). The DC of the spell is crafter’s Wand DC.",
+          "The wand doesn’t regain charges naturally, but can be recharged (see recharge rules for Lesser Wands).",
+          "Lesser wands that cast 3rd-level spells or higher require attunement to use."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 32000,
+    "item_type": "Wand",
+    "properties": [],
+    "attunement":"requires attunement",
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Lesser Wand of 9th-Level Spell",
+    "source": [
+      "KCG",
+      102
+    ],
+    "rarity": "legendary",
+    "weight": 1,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "This wand has 3 charges. While holding it, you can use an action to expend 1 or more of its charges to cast the spell infused in it it. For 1 charge, you cast the base version of the spell. You can increase the spell slot level by one for each additional charge you expend (if applicable for the spell). The DC of the spell is crafter’s Wand DC.",
+          "The wand doesn’t regain charges naturally, but can be recharged (see recharge rules for Lesser Wands).",
+          "Lesser wands that cast 3rd-level spells or higher require attunement to use."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 7600000,
+    "item_type": "Wand",
+    "properties": [],
+    "attunement":"requires attunement",
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Blast Stick",
     "source": [
       "KCG",
       102

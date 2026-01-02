@@ -113,6 +113,12 @@ def convert_cooking():
 def convert_enchanting():
     return read_file(DATA_DIR / "raw_enchanting_recipes.txt", "enchanting")
 
+def convert_scrollscribing():
+    return read_file(DATA_DIR / "raw_scrollscribing_recipes.txt", "scrollscribing")
+
+def convert_wand_whittling():
+    return read_file(DATA_DIR / "raw_wand_whittling_recipes.txt", "wand_whittling")
+
 def hard_coded_recipes():
     return [
         {
@@ -169,6 +175,123 @@ def hard_coded_recipes():
             "time": "32  hours (4 days)",
             "num_checks": 16,
             "dc": 19,
+        },
+        {
+            "craft": "wand_whittling",
+            "result": "Lesser Wand of 1st-Level Spell",
+            "quantity": 1,
+            "materials": [
+                [1, "common essence"],
+                [1, "scroll of the spell"],
+                [1, "common branch"]
+            ],
+            "time": "4 hours",
+            "num_checks": 2,
+            "dc": 12,
+        },
+        {
+            "craft": "wand_whittling",
+            "result": "Lesser Wand of 2nd-Level Spell",
+            "quantity": 1,
+            "materials": [
+                [1, "common essence"],
+                [1, "scroll of the spell"],
+                [1, "common branch"]
+            ],
+            "time": "4 hours",
+            "num_checks": 2,
+            "dc": 14,
+        },
+        {
+            "craft": "wand_whittling",
+            "result": "Lesser Wand of 3rd-Level Spell",
+            "quantity": 1,
+            "materials": [
+                [1, "uncommon essence"],
+                [1, "scroll of the spell"],
+                [1, "uncommon branch"]
+            ],
+            "time": "4 hours",
+            "num_checks": 2,
+            "dc": 15,
+        },
+        {
+            "craft": "wand_whittling",
+            "result": "Lesser Wand of 4th-Level Spell",
+            "quantity": 1,
+            "materials": [
+                [1, "uncommon essence"],
+                [1, "scroll of the spell"],
+                [1, "uncommon branch"]
+            ],
+            "time": "4 hours",
+            "num_checks": 2,
+            "dc": 16,
+        },
+        {
+            "craft": "wand_whittling",
+            "result": "Lesser Wand of 5th-Level Spell",
+            "quantity": 1,
+            "materials": [
+                [1, "rare essence"],
+                [1, "scroll of the spell"],
+                [1, "rare branch"]
+            ],
+            "time": "8 hours",
+            "num_checks": 4,
+            "dc": 16,
+        },
+        {
+            "craft": "wand_whittling",
+            "result": "Lesser Wand of 6th-Level Spell",
+            "quantity": 1,
+            "materials": [
+                [1, "rare essence"],
+                [1, "scroll of the spell"],
+                [1, "rare branch"]
+            ],
+            "time": "8 hours",
+            "num_checks": 4,
+            "dc": 17,
+        },
+        {
+            "craft": "wand_whittling",
+            "result": "Lesser Wand of 7th-Level Spell",
+            "quantity": 1,
+            "materials": [
+                [1, "very rare essence"],
+                [1, "scroll of the spell"],
+                [1, "very rare branch"]
+            ],
+            "time": "16 hours",
+            "num_checks": 8,
+            "dc": 17,
+        },
+        {
+            "craft": "wand_whittling",
+            "result": "Lesser Wand of 8th-Level Spell",
+            "quantity": 1,
+            "materials": [
+                [1, "very rare essence"],
+                [1, "scroll of the spell"],
+                [1, "very rare branch"]
+            ],
+            "time": "16 hours",
+            "num_checks": 8,
+            "dc": 18,
+        },
+        {
+            "craft": "wand_whittling",
+            "result": "Lesser Wand of 9th-Level Spell",
+            "quantity": 1,
+            "materials": [
+                [1, "legendary essence"],
+                [1, "scroll of the spell"],
+                [1, "legendary branch"]
+            ],
+            "time": "24 hours",
+            "num_checks": 12,
+            "dc": 20,
         }
     ]
 
@@ -179,6 +302,8 @@ def convert():
         convert_blacksmithing() + 
         convert_cooking() + 
         convert_enchanting() + 
+        convert_scrollscribing() + 
+        convert_wand_whittling() + 
         hard_coded_recipes())
     with TARGET_FILE.open("w") as f:
         json.dump(recipes, f, indent=2)

@@ -11990,6 +11990,667 @@
     "note": null
   },
   {
+    "craft": "scrollscribing",
+    "result": "spell scroll (cantrip)|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "common magical ink"
+      ],
+      [
+        1,
+        "common parchment"
+      ]
+    ],
+    "time": "2 hours",
+    "num_checks": 1,
+    "dc": 12,
+    "note": null
+  },
+  {
+    "craft": "scrollscribing",
+    "result": "spell scroll|dmg",
+    "quantity": "2nd Level",
+    "materials": [
+      [
+        1,
+        "common essence"
+      ],
+      [
+        2,
+        "common magical ink"
+      ],
+      [
+        1,
+        "common parchment"
+      ]
+    ],
+    "time": "2 hours",
+    "num_checks": 1,
+    "dc": 14,
+    "note": null
+  },
+  {
+    "craft": "scrollscribing",
+    "result": "spell scroll|dmg",
+    "quantity": "3rd Level",
+    "materials": [
+      [
+        1,
+        "uncommon essence"
+      ],
+      [
+        1,
+        "uncommon magical ink"
+      ],
+      [
+        1,
+        "uncommon parchment"
+      ]
+    ],
+    "time": "4 hours",
+    "num_checks": 2,
+    "dc": 14,
+    "note": null
+  },
+  {
+    "craft": "wand_whittling",
+    "result": "lesser wand of cantrip|kcg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "scroll of the spell"
+      ],
+      [
+        1,
+        "common branch"
+      ]
+    ],
+    "time": "2 hours",
+    "num_checks": 1,
+    "dc": 12,
+    "note": null
+  },
+  {
+    "craft": "wand_whittling",
+    "result": "blast stick|kcg",
+    "quantity": "1",
+    "materials": [
+      [
+        2,
+        "common arcane essence"
+      ],
+      [
+        1,
+        "common branch"
+      ]
+    ],
+    "time": "8 hours",
+    "num_checks": 4,
+    "dc": 14,
+    "note": null
+  },
+  {
+    "craft": "wand_whittling",
+    "result": "Wand of Chores|kcg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "scroll of prestidigitation"
+      ],
+      [
+        1,
+        "common arcane essence"
+      ],
+      [
+        1,
+        "common branch"
+      ]
+    ],
+    "time": "8 hours",
+    "num_checks": 4,
+    "dc": 14,
+    "note": null
+  },
+  {
+    "craft": "wand_whittling",
+    "result": "Magician\u2019s Wand|kcg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "scroll of minor illlusion"
+      ],
+      [
+        1,
+        "hat worth at least"
+      ],
+      [
+        1,
+        "5 gp"
+      ],
+      [
+        2,
+        "common arcane essence"
+      ],
+      [
+        1,
+        "common branch"
+      ]
+    ],
+    "time": "8 hours",
+    "num_checks": 4,
+    "dc": 14,
+    "note": null
+  },
+  {
+    "craft": "wand_whittling",
+    "result": "Goodberry Dispenser|kcg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "scroll of goodberry"
+      ],
+      [
+        2,
+        "common primal essence"
+      ],
+      [
+        1,
+        "common branch"
+      ]
+    ],
+    "time": "8 hours",
+    "num_checks": 4,
+    "dc": 15,
+    "note": null
+  },
+  {
+    "craft": "wand_whittling",
+    "result": "Whisperstick|kcg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "scroll of message"
+      ],
+      [
+        1,
+        "common arcane essence"
+      ],
+      [
+        1,
+        "common psionic essence"
+      ],
+      [
+        1,
+        "common branch"
+      ]
+    ],
+    "time": "8 hours",
+    "num_checks": 4,
+    "dc": 15,
+    "note": null
+  },
+  {
+    "craft": "wand_whittling",
+    "result": "wand of magic detection|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "scroll of detect magic"
+      ],
+      [
+        1,
+        "uncommon arcane essence"
+      ],
+      [
+        1,
+        "uncommon branch"
+      ]
+    ],
+    "time": "8 hours",
+    "num_checks": 4,
+    "dc": 15,
+    "note": null
+  },
+  {
+    "craft": "wand_whittling",
+    "result": "wand of magic missiles|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "scroll of magic missile"
+      ],
+      [
+        3,
+        "uncommon arcane essence"
+      ],
+      [
+        1,
+        "gem worth 50 gp "
+      ],
+      [
+        1,
+        "uncommon branch"
+      ]
+    ],
+    "time": "12 hours",
+    "num_checks": 6,
+    "dc": 17,
+    "note": null
+  },
+  {
+    "craft": "wand_whittling",
+    "result": "wand of secrets|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "scroll of find traps"
+      ],
+      [
+        1,
+        "common arcane essence"
+      ],
+      [
+        1,
+        "common primal essence"
+      ],
+      [
+        1,
+        "uncommon branch"
+      ]
+    ],
+    "time": "8 hours",
+    "num_checks": 4,
+    "dc": 15,
+    "note": null
+  },
+  {
+    "craft": "wand_whittling",
+    "result": "wand of web|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "scroll of web"
+      ],
+      [
+        1,
+        "uncommon arcane essence"
+      ],
+      [
+        1,
+        "uncommon primal essence"
+      ],
+      [
+        1,
+        "uncommon branch"
+      ]
+    ],
+    "time": "12 hours",
+    "num_checks": 6,
+    "dc": 16,
+    "note": null
+  },
+  {
+    "craft": "wand_whittling",
+    "result": "+1 wand of the war mage|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "uncommon arcane essence"
+      ],
+      [
+        1,
+        "uncommon primal essence"
+      ],
+      [
+        1,
+        "uncommon divine essence"
+      ],
+      [
+        1,
+        "jewel worth 150 gp "
+      ],
+      [
+        1,
+        "uncommon branch"
+      ]
+    ],
+    "time": "8 hours",
+    "num_checks": 4,
+    "dc": 16,
+    "note": null
+  },
+  {
+    "craft": "wand_whittling",
+    "result": "wand of binding|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "scroll of hold monster"
+      ],
+      [
+        1,
+        "scroll of hold person"
+      ],
+      [
+        4,
+        "rare arcane essence"
+      ],
+      [
+        1,
+        "rare branch"
+      ]
+    ],
+    "time": "24 hours (3 days)",
+    "num_checks": 12,
+    "dc": 17,
+    "note": null
+  },
+  {
+    "craft": "wand_whittling",
+    "result": "wand of enemy detection|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "scroll of see invisbility"
+      ],
+      [
+        1,
+        "scroll of true seeing"
+      ],
+      [
+        1,
+        "rare arcane essence"
+      ],
+      [
+        1,
+        "rare branch"
+      ]
+    ],
+    "time": "16 hours",
+    "num_checks": 8,
+    "dc": 17,
+    "note": null
+  },
+  {
+    "craft": "wand_whittling",
+    "result": "wand of fear|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "scroll of fear"
+      ],
+      [
+        2,
+        "rare arcane essence"
+      ],
+      [
+        1,
+        "uncommon divine essence"
+      ],
+      [
+        1,
+        "rare branch"
+      ]
+    ],
+    "time": "16 hours (2 days)",
+    "num_checks": 8,
+    "dc": 18,
+    "note": null
+  },
+  {
+    "craft": "wand_whittling",
+    "result": "wand of fireballs|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "scroll of fireball"
+      ],
+      [
+        3,
+        "rare arcane essence"
+      ],
+      [
+        2,
+        "rare primal essence"
+      ],
+      [
+        1,
+        "ruby worth 500 gp "
+      ],
+      [
+        1,
+        "rare branch"
+      ]
+    ],
+    "time": "24 hours (3 days)",
+    "num_checks": 12,
+    "dc": 18,
+    "note": null
+  },
+  {
+    "craft": "wand_whittling",
+    "result": "wand of lightning bolts|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "scroll of lightning bolt"
+      ],
+      [
+        2,
+        "rare arcane essence"
+      ],
+      [
+        3,
+        "rare primal essence"
+      ],
+      [
+        1,
+        "topaz worth 500 gp "
+      ],
+      [
+        1,
+        "rare branch"
+      ]
+    ],
+    "time": "24 hours (3 days)",
+    "num_checks": 12,
+    "dc": 18,
+    "note": null
+  },
+  {
+    "craft": "wand_whittling",
+    "result": "wand of paralysis|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "wand of binding"
+      ],
+      [
+        4,
+        "rare arcane essence"
+      ],
+      [
+        1,
+        "rare branch"
+      ],
+      [
+        24,
+        "hours"
+      ],
+      [
+        3,
+        "days"
+      ],
+      [
+        12,
+        "DC"
+      ],
+      [
+        17,
+        "very rare"
+      ],
+      [
+        1,
+        "000 gp Wand of Wonder"
+      ],
+      [
+        1,
+        "scroll of prestidigitation"
+      ],
+      [
+        1,
+        "scroll of faerie fire"
+      ],
+      [
+        1,
+        "scroll of stinking cloud"
+      ],
+      [
+        1,
+        "scroll of darkness"
+      ],
+      [
+        1,
+        "scroll of enlarge"
+      ],
+      [
+        1,
+        "scroll of invisibility"
+      ],
+      [
+        1,
+        "scroll of lightning bolt A handful of colorful gems worth 250 gp "
+      ],
+      [
+        1,
+        "uncommon primal essence"
+      ],
+      [
+        1,
+        "uncommon divine essence"
+      ],
+      [
+        1,
+        "uncommon arcane essence"
+      ],
+      [
+        1,
+        "rare branch"
+      ]
+    ],
+    "time": "16 hours (2 days)",
+    "num_checks": 8,
+    "dc": 18,
+    "note": null
+  },
+  {
+    "craft": "wand_whittling",
+    "result": "+2 wand of the war mage|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        2,
+        "rare arcane essence"
+      ],
+      [
+        2,
+        "rare primal essence"
+      ],
+      [
+        2,
+        "rare divine essence"
+      ],
+      [
+        1,
+        "jewel worth 300 gp "
+      ],
+      [
+        1,
+        "rare branch"
+      ]
+    ],
+    "time": "24 hours (3 days)",
+    "num_checks": 12,
+    "dc": 19,
+    "note": null
+  },
+  {
+    "craft": "wand_whittling",
+    "result": "wand of polymorph|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "scroll of polymorph"
+      ],
+      [
+        2,
+        "very rare arcane essence"
+      ],
+      [
+        1,
+        "very rare primal essence"
+      ],
+      [
+        1,
+        "very rare branch"
+      ]
+    ],
+    "time": "24 hours (3 days)",
+    "num_checks": 12,
+    "dc": 18,
+    "note": null
+  },
+  {
+    "craft": "wand_whittling",
+    "result": "+3 wand of the war mage|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "legendary arcane essence"
+      ],
+      [
+        1,
+        "very rare primal essence"
+      ],
+      [
+        1,
+        "very rare divine essence"
+      ],
+      [
+        1,
+        "jewel worth 500 gp "
+      ],
+      [
+        1,
+        "very rare branch"
+      ]
+    ],
+    "time": "48 hours (6 days)",
+    "num_checks": 24,
+    "dc": 21,
+    "note": null
+  },
+  {
     "craft": "alchemy",
     "result": "sticky goo potion|kcg",
     "quantity": 1,
@@ -12088,5 +12749,203 @@
     "time": "32  hours (4 days)",
     "num_checks": 16,
     "dc": 19
+  },
+  {
+    "craft": "wand_whittling",
+    "result": "Lesser Wand of 1st-Level Spell",
+    "quantity": 1,
+    "materials": [
+      [
+        1,
+        "common essence"
+      ],
+      [
+        1,
+        "scroll of the spell"
+      ],
+      [
+        1,
+        "common branch"
+      ]
+    ],
+    "time": "4 hours",
+    "num_checks": 2,
+    "dc": 12
+  },
+  {
+    "craft": "wand_whittling",
+    "result": "Lesser Wand of 2nd-Level Spell",
+    "quantity": 1,
+    "materials": [
+      [
+        1,
+        "common essence"
+      ],
+      [
+        1,
+        "scroll of the spell"
+      ],
+      [
+        1,
+        "common branch"
+      ]
+    ],
+    "time": "4 hours",
+    "num_checks": 2,
+    "dc": 14
+  },
+  {
+    "craft": "wand_whittling",
+    "result": "Lesser Wand of 3rd-Level Spell",
+    "quantity": 1,
+    "materials": [
+      [
+        1,
+        "uncommon essence"
+      ],
+      [
+        1,
+        "scroll of the spell"
+      ],
+      [
+        1,
+        "uncommon branch"
+      ]
+    ],
+    "time": "4 hours",
+    "num_checks": 2,
+    "dc": 15
+  },
+  {
+    "craft": "wand_whittling",
+    "result": "Lesser Wand of 4th-Level Spell",
+    "quantity": 1,
+    "materials": [
+      [
+        1,
+        "uncommon essence"
+      ],
+      [
+        1,
+        "scroll of the spell"
+      ],
+      [
+        1,
+        "uncommon branch"
+      ]
+    ],
+    "time": "4 hours",
+    "num_checks": 2,
+    "dc": 16
+  },
+  {
+    "craft": "wand_whittling",
+    "result": "Lesser Wand of 5th-Level Spell",
+    "quantity": 1,
+    "materials": [
+      [
+        1,
+        "rare essence"
+      ],
+      [
+        1,
+        "scroll of the spell"
+      ],
+      [
+        1,
+        "rare branch"
+      ]
+    ],
+    "time": "8 hours",
+    "num_checks": 4,
+    "dc": 16
+  },
+  {
+    "craft": "wand_whittling",
+    "result": "Lesser Wand of 6th-Level Spell",
+    "quantity": 1,
+    "materials": [
+      [
+        1,
+        "rare essence"
+      ],
+      [
+        1,
+        "scroll of the spell"
+      ],
+      [
+        1,
+        "rare branch"
+      ]
+    ],
+    "time": "8 hours",
+    "num_checks": 4,
+    "dc": 17
+  },
+  {
+    "craft": "wand_whittling",
+    "result": "Lesser Wand of 7th-Level Spell",
+    "quantity": 1,
+    "materials": [
+      [
+        1,
+        "very rare essence"
+      ],
+      [
+        1,
+        "scroll of the spell"
+      ],
+      [
+        1,
+        "very rare branch"
+      ]
+    ],
+    "time": "16 hours",
+    "num_checks": 8,
+    "dc": 17
+  },
+  {
+    "craft": "wand_whittling",
+    "result": "Lesser Wand of 8th-Level Spell",
+    "quantity": 1,
+    "materials": [
+      [
+        1,
+        "very rare essence"
+      ],
+      [
+        1,
+        "scroll of the spell"
+      ],
+      [
+        1,
+        "very rare branch"
+      ]
+    ],
+    "time": "16 hours",
+    "num_checks": 8,
+    "dc": 18
+  },
+  {
+    "craft": "wand_whittling",
+    "result": "Lesser Wand of 9th-Level Spell",
+    "quantity": 1,
+    "materials": [
+      [
+        1,
+        "legendary essence"
+      ],
+      [
+        1,
+        "scroll of the spell"
+      ],
+      [
+        1,
+        "legendary branch"
+      ]
+    ],
+    "time": "24 hours",
+    "num_checks": 12,
+    "dc": 20
   }
 ]
