@@ -8,6 +8,20 @@ def sanitize_names(name: str) -> str:
     """Sanitize the names for use in a javascript string."""
     return name.replace("'", r"\'").replace('"', r"\"")
 
+def split_text(text: str) -> tuple[str, str, str]:
+    split_text = [s.strip() for s in text.split("|")]
+    id = split_text[0]
+    src = split_text[1] if len(split_text) > 1 else ""
+    display_string = split_text[2] if len(split_text) > 2 else ""
+    return (id, src, display_string)
+
+def titlecase(s: str) -> str:
+    """Returns a smartly-titled string."""
+    ignore_words = ["A", "Of", "And", "The", "Or", "An"]
+    s = string.capwords(s)
+    return " ".join(wd.lower() if wd in ignore_words else wd for wd in s.split(" "))
+
+
 class Macro5e:
     damage = re.compile(r"{@damage (.*?)}")
     atk = re.compile(r"{@atk (.*?)}")
@@ -15,7 +29,7 @@ class Macro5e:
     on_hit = re.compile(r"{@h}")
     condition = re.compile(r"\{@condition (\w+)\}")
     dc = re.compile(r"\{@dc (\d+)\}")
-    spell = re.compile(r"\{@spell (.*?)\}")
+    spell = re.compile(r"\{@spell (.*?)}")
     dice = re.compile(r"\{@dice (\d+)?d(\d+)\}")
     status = re.compile(r"\{@status (\w+)(?:\s*\|\|\s*(\w+))?}")
     skill = re.compile(r"{@skill (.*?)}")
@@ -118,13 +132,14 @@ class Macro5e:
     def render_spell(match: re.Match) -> str:
         """Convert spell references to Roll20 links."""
         spell = string.capwords(match.group(1))
-        url = f"https://roll20.net/compendium/dnd5e/{quote(spell, safe='')}"
+        spell_id, _, spell_name = split_text(spell)
+        url = f"https://roll20.net/compendium/dnd5e/{quote(spell_id, safe='')}"
 
-        spell_url = url_for("tracker_bp.get_spell_tooltip", spell_name=spell)
+        spell_url = url_for("tracker_bp.get_spell_tooltip", spell_name=spell_id)
         spell_url = sanitize_names(spell_url)
         func = f"showNewTooltip(event, '{spell_url}')"
         
-        return f"""<span class="tooltip" onmouseenter="{func}" onmouseleave="hideTooltip(event)"><a href="{url}">{spell}</a></span>"""
+        return f"""<span class="tooltip" onmouseenter="{func}" onmouseleave="hideTooltip(event)"><a href="{url}">{titlecase(spell_name)}</a></span>"""
 
     @staticmethod
     def render_status(match: re.Match) -> str:

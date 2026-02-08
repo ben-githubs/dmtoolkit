@@ -76,15 +76,15 @@
       ],
       [
         1,
-        "scroll of fly"
+        "{@spell fly||scroll of fly}"
       ],
       [
         1,
-        "scroll of levitate"
+        "{@spell levitate||scroll of levitate}"
       ],
       [
         1,
-        "scroll of animate objects"
+        "{@spell animate objects||scroll of animate objects}"
       ],
       [
         1,
@@ -110,7 +110,7 @@
       ],
       [
         1,
-        "scroll of the spell"
+        "{@spell the spell||scroll of the spell}"
       ],
       [
         1,
@@ -132,7 +132,7 @@
       ],
       [
         1,
-        "scroll of the spell"
+        "{@spell the spell||scroll of the spell}"
       ],
       [
         1,
@@ -154,7 +154,7 @@
       ],
       [
         1,
-        "scroll of the spell"
+        "{@spell the spell||scroll of the spell}"
       ],
       [
         1,
@@ -176,7 +176,7 @@
       ],
       [
         1,
-        "scroll of the spell"
+        "{@spell the spell||scroll of the spell}"
       ],
       [
         1,
@@ -198,7 +198,7 @@
       ],
       [
         1,
-        "scroll of the spell"
+        "{@spell the spell||scroll of the spell}"
       ],
       [
         1,
@@ -220,7 +220,7 @@
       ],
       [
         1,
-        "scroll of the spell"
+        "{@spell the spell||scroll of the spell}"
       ],
       [
         1,
@@ -242,7 +242,7 @@
       ],
       [
         1,
-        "scroll of the spell"
+        "{@spell the spell||scroll of the spell}"
       ],
       [
         1,
@@ -264,7 +264,7 @@
       ],
       [
         1,
-        "scroll of the spell"
+        "{@spell the spell||scroll of the spell}"
       ],
       [
         1,
@@ -286,7 +286,7 @@
       ],
       [
         1,
-        "scroll of the spell"
+        "{@spell the spell||scroll of the spell}"
       ],
       [
         1,
@@ -445,7 +445,7 @@
       ],
       [
         1,
-        "scroll of enlarge"
+        "{@spell enlarge||scroll of enlarge}"
       ]
     ],
     "time": "6 hours",
@@ -594,7 +594,7 @@
     "materials": [
       [
         1,
-        "scroll of comprehend languages"
+        "{@spell comprehend languages||scroll of comprehend languages}"
       ],
       [
         1,
@@ -621,11 +621,11 @@
     "materials": [
       [
         1,
-        "scroll of detect thoughts"
+        "{@spell detect thoughts||scroll of detect thoughts}"
       ],
       [
         1,
-        "scroll of calm emotions"
+        "{@spell calm emotions||scroll of calm emotions}"
       ],
       [
         1,
@@ -656,7 +656,7 @@
       ],
       [
         1,
-        "scroll of shield"
+        "{@spell shield||scroll of shield}"
       ]
     ],
     "time": "4 hours",
@@ -679,7 +679,7 @@
       ],
       [
         1,
-        "scroll of levitate"
+        "{@spell levitate||scroll of levitate}"
       ]
     ],
     "time": "4 hours",
@@ -698,7 +698,7 @@
       ],
       [
         1,
-        "scroll of enhance ability"
+        "{@spell enhance ability||scroll of enhance ability}"
       ],
       [
         1,
@@ -721,7 +721,7 @@
       ],
       [
         1,
-        "scroll of vampiric touch"
+        "{@spell vampiric touch||scroll of vampiric touch}"
       ],
       [
         1,
@@ -767,7 +767,7 @@
       ],
       [
         1,
-        "scroll of dimension door"
+        "{@spell dimension door||scroll of dimension door}"
       ],
       [
         2,
@@ -798,7 +798,7 @@
       ],
       [
         1,
-        "scroll of haste"
+        "{@spell haste||scroll of haste}"
       ]
     ],
     "time": "12 hours",
@@ -813,11 +813,11 @@
     "materials": [
       [
         1,
-        "scroll of major image"
+        "{@spell major image||scroll of major image}"
       ],
       [
         1,
-        "scroll of creation"
+        "{@spell creation||scroll of creation}"
       ],
       [
         1,
@@ -844,7 +844,7 @@
     "materials": [
       [
         1,
-        "scroll of time stop"
+        "{@spell time stop||scroll of time stop}"
       ],
       [
         1,

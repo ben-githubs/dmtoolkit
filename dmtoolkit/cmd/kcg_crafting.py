@@ -77,7 +77,7 @@ def read_file(fname: Path, crafting_type: str) -> list[dict]:
             if item_obj := find_item_by_name(item):
                 if len(item_obj) == 1:
                     item = item_obj[0].id()
-            materials.append((int(quantity), item.strip()))
+            materials.append([int(quantity), item.strip()])
 
 
         time = groups.get("time", "")
@@ -330,5 +330,13 @@ def convert():
         # convert_woodcarving() + 
         convert_runecarving()
     )
+    # Quickly convert any spell scrolls
+    for recipe in recipes:
+        for material in recipe["materials"]:
+            if material[1].startswith("scroll of "):
+                spell_name = str(material[1]).replace("scroll of ", "", 1)
+                new_item = f"{{@spell {spell_name}||{material[1]}}}"
+                material[1] = new_item
+
     with TARGET_FILE.open("w") as f:
         json.dump(recipes, f, indent=2)
