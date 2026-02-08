@@ -4447,6 +4447,66 @@
     "__dataclass__": "Item"
   },
   {
+    "name": "Harp",
+    "source": [
+      "KCG",
+      116
+    ],
+    "rarity": "common",
+    "weight": 1,
+    "entries": [],
+    "value": 3500,
+    "item_type": "Instrument",
+    "properties": [],
+    "attunement": "",
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Carved Figurine",
+    "source": [
+      "KCG",
+      117
+    ],
+    "rarity": "common",
+    "weight": 1,
+    "entries": [],
+    "value": 40,
+    "item_type": "Trinket",
+    "properties": [],
+    "attunement": "",
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Quality Figurine",
+    "source": [
+      "KCG",
+      117
+    ],
+    "rarity": "common",
+    "weight": 1,
+    "entries": [],
+    "value": 5000,
+    "item_type": "Trinket",
+    "properties": [],
+    "attunement": "",
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Superb Figurine",
+    "source": [
+      "KCG",
+      117
+    ],
+    "rarity": "common",
+    "weight": 1,
+    "entries": [],
+    "value": 40000,
+    "item_type": "Trinket",
+    "properties": [],
+    "attunement": "",
+    "__dataclass__": "Item"
+  },
+  {
     "name": "Composite Bow",
     "source": [
       "KCG",

@@ -20,9 +20,9 @@ def read_file(fname: Path, crafting_type: str) -> list[dict]:
     with fname.open("r") as f:
         contents = " ".join([s.strip() for s in f.readlines()])
         contents = re.sub(r"\x01", "", contents)
-    lines = re.sub(r"((?:common|uncommon|rare|very rare|legendary) [\d,]+ )(gp)", r"\1gp\n", contents).split("\n")
+    lines = re.sub(r"((?:common|uncommon|rare|very rare|legendary) [\d,]+ )([csg]p)", r"\1gp\n", contents).split("\n")
 
-    p = r"(?:(?P<item_amt1>\d+) x )?(?P<item_name>(?:\+\d )?[^\s\d]+(?:\s[^\s\d\[]+)*)\s*(?P<note>\[[^\]]*\])?\s*(?: \((?P<item_amt2>[\w\s]+)\))?\s(?P<materials>(?:[\.\d,]+\s\+?[\d,]*[A-Za-z’\-\(\)\/\s]+)+)(?P<time>\d+\shours?(?:\s*\([\.\d]*\s\w+\))?)\s*(?P<num_checks>\d+)\s*(?:DC )?(?P<dc>\d+)\s*(?P<rarity>(?:[A-Za-z]+\s)+)\s*(?P<value>[\d,]+)\s?gp\s?"
+    p = r"(?:(?P<item_amt1>\d+) x )?(?P<item_name>(?:\+\d )?[^\s\d]+(?:\s[^\s\d\[]+)*)\s*(?P<note>\[[^\]]*\])?\s*(?: \((?P<item_amt2>[\w\s]+)\))?\s(?P<materials>(?:[\.\d,]+\s\+?[\d,]*[A-Za-z’\-\(\)\/\s]+)+)(?P<time>\d+\shours?(?:\s*\([\.\d]*\s\w+\))?)\s*(?P<num_checks>\d+)\s*(?:DC )?(?P<dc>\d+)\s*(?P<rarity>(?:[A-Za-z]+\s)+)\s*(?P<value>[\d,]+)\s?(?P<currency>[csg]p)\s?"
     line_pattern = re.compile(p)
     # Split each line up
     recipes = []
@@ -124,6 +124,9 @@ def convert_leatherworking():
 
 def convert_tinkering():
     return read_file(DATA_DIR / "raw_tinkering_recipes.txt", "tinkering")
+
+def convert_woodcarving():
+    return read_file(DATA_DIR / "raw_woodcarving_recipes.txt", "woodcarving")
 
 def hard_coded_recipes():
     return [
@@ -298,6 +301,17 @@ def hard_coded_recipes():
             "time": "24 hours",
             "num_checks": 12,
             "dc": 20,
+        },
+        { # Pole (10-foot) 1 common branch 2 hours 1 DC 8 common 3 sp
+            "craft": "woodcarving",
+            "result": "Pole (10-foot)",
+            "quantity": 1,
+            "materials": [
+                [1, "common branch"]
+            ],
+            "time": "2 hours",
+            "num_checks": 1,
+            "dc": 8,
         }
     ]
 
@@ -312,7 +326,8 @@ def convert():
         # convert_scrollscribing() + 
         # convert_wand_whittling() + 
         # convert_leatherworking() + 
-        convert_tinkering()
+        # convert_tinkering() + 
+        convert_woodcarving()
     )
     with TARGET_FILE.open("w") as f:
         json.dump(recipes, f, indent=2)
