@@ -22,6 +22,7 @@ class CraftingType(StrEnum):
     Scrollscribing = auto()
     WandWhittling = "wand_whittling"
     Leatherworking = auto()
+    Tinkering = auto()
 
 @dataclass
 class Recipe:

@@ -298,189 +298,44 @@
     "dc": 20
   },
   {
-    "craft": "leatherworking",
-    "result": "carapace breastplate|kcg",
-    "quantity": "1",
-    "materials": [
-      [
-        1,
-        "large carapace"
-      ],
-      [
-        2,
-        "leather"
-      ],
-      [
-        2,
-        "buckles"
-      ]
-    ],
-    "time": "8 hours",
-    "num_checks": 4,
-    "dc": 12,
-    "note": null
-  },
-  {
-    "craft": "leatherworking",
-    "result": "carapace shield|kcg",
-    "quantity": "1",
-    "materials": [
-      [
-        1,
-        "medium carapace"
-      ],
-      [
-        1,
-        "leather piece"
-      ],
-      [
-        4,
-        "leather scraps"
-      ]
-    ],
-    "time": "4 hours",
-    "num_checks": 2,
-    "dc": 10,
-    "note": null
-  },
-  {
-    "craft": "leatherworking",
-    "result": "hide armor|phb",
-    "quantity": "1",
-    "materials": [
-      [
-        2,
-        "rawhide leather"
-      ],
-      [
-        1,
-        "hide"
-      ],
-      [
-        2,
-        "buckles"
-      ]
-    ],
-    "time": "4 hours",
-    "num_checks": 2,
-    "dc": 10,
-    "note": null
-  },
-  {
-    "craft": "leatherworking",
-    "result": "leather armor|phb",
+    "craft": "tinkering",
+    "result": "bullseye lantern|phb",
     "quantity": "1",
     "materials": [
       [
         3,
-        "rawhide leather"
-      ],
-      [
-        2,
-        "buckles"
-      ]
-    ],
-    "time": "4 hours",
-    "num_checks": 2,
-    "dc": 12,
-    "note": null
-  },
-  {
-    "craft": "leatherworking",
-    "result": "Leather Buckler|kcg",
-    "quantity": "1",
-    "materials": [
-      [
-        2,
-        "boiled leather"
-      ],
-      [
-        2,
-        "leather scraps"
-      ]
-    ],
-    "time": "4 hours",
-    "num_checks": 2,
-    "dc": 10,
-    "note": null
-  },
-  {
-    "craft": "leatherworking",
-    "result": "studded leather armor|phb",
-    "quantity": "1",
-    "materials": [
-      [
-        3,
-        "rawhide leather"
-      ],
-      [
-        6,
         "metal scraps"
       ],
       [
         2,
-        "buckles"
-      ]
-    ],
-    "time": "6 hours",
-    "num_checks": 3,
-    "dc": 14,
-    "note": null
-  },
-  {
-    "craft": "leatherworking",
-    "result": "scale mail|phb",
-    "quantity": "1",
-    "materials": [
-      [
-        25,
-        "scales"
-      ],
-      [
-        5,
-        "leather scraps"
+        "parts"
       ],
       [
         1,
-        "armor padding"
+        "glass flask"
       ]
     ],
-    "time": "12 hours (1.5 days)",
-    "num_checks": 6,
-    "dc": 12,
+    "time": "4 hours",
+    "num_checks": 2,
+    "dc": 11,
     "note": null
   },
   {
-    "craft": "leatherworking",
-    "result": "tough carapace breastplate|kcg",
+    "craft": "tinkering",
+    "result": "hooded lantern|phb",
     "quantity": "1",
     "materials": [
       [
-        1,
-        "large tough carapace"
+        3,
+        "metal scraps"
       ],
       [
-        2,
-        "leather"
+        1,
+        "parts"
       ],
       [
-        2,
-        "buckles"
-      ]
-    ],
-    "time": "12 hours (1.5 days)",
-    "num_checks": 6,
-    "dc": 15,
-    "note": null
-  },
-  {
-    "craft": "leatherworking",
-    "result": "whip|phb",
-    "quantity": "1",
-    "materials": [
-      [
         1,
-        "tanned leather"
+        "glass flask"
       ]
     ],
     "time": "4 hours",
@@ -489,277 +344,60 @@
     "note": null
   },
   {
-    "craft": "leatherworking",
-    "result": "Scourge|kcg",
+    "craft": "tinkering",
+    "result": "lamp|phb",
     "quantity": "1",
     "materials": [
       [
-        1,
-        "tanned leather"
+        2,
+        "metal scraps"
+      ],
+      [
+        4,
+        "hours"
+      ],
+      [
+        2,
+        "DC"
+      ],
+      [
+        10,
+        "common"
+      ],
+      [
+        5,
+        "sp Lock"
+      ],
+      [
+        2,
+        "metal scraps"
       ],
       [
         3,
-        "metal scraps"
-      ]
-    ],
-    "time": "6 hours",
-    "num_checks": 3,
-    "dc": 14,
-    "note": null
-  },
-  {
-    "craft": "leatherworking",
-    "result": "rawhide leather|kcg",
-    "quantity": "1",
-    "materials": [
-      [
-        1,
-        "hide"
+        "parts"
       ]
     ],
     "time": "8 hours",
     "num_checks": 4,
-    "dc": 6,
+    "dc": 17,
     "note": null
   },
   {
-    "craft": "leatherworking",
-    "result": "tanned leather|kcg",
+    "craft": "tinkering",
+    "result": "grappling hook|phb",
     "quantity": "1",
     "materials": [
       [
         1,
-        "hide or rawhide"
-      ]
-    ],
-    "time": "16 hours",
-    "num_checks": 8,
-    "dc": 6,
-    "note": null
-  },
-  {
-    "craft": "leatherworking",
-    "result": "boiled leather|kcg",
-    "quantity": "1",
-    "materials": [
-      [
-        1,
-        "hide or rawhide"
-      ]
-    ],
-    "time": "16 hours",
-    "num_checks": 8,
-    "dc": 6,
-    "note": null
-  },
-  {
-    "craft": "leatherworking",
-    "result": "leather scraps|kcg",
-    "quantity": "20",
-    "materials": [
-      [
-        1,
-        "leather"
-      ]
-    ],
-    "time": "2 hours",
-    "num_checks": 1,
-    "dc": 4,
-    "note": null
-  },
-  {
-    "craft": "leatherworking",
-    "result": "hide|kcg",
-    "quantity": "1",
-    "materials": [
-      [
-        20,
-        "hide scraps"
-      ]
-    ],
-    "time": "2 hours",
-    "num_checks": 1,
-    "dc": 10,
-    "note": null
-  },
-  {
-    "craft": "leatherworking",
-    "result": "hide scraps|kcg",
-    "quantity": "20",
-    "materials": [
-      [
-        1,
-        "hide"
-      ]
-    ],
-    "time": "2 hours",
-    "num_checks": 1,
-    "dc": 4,
-    "note": null
-  },
-  {
-    "craft": "leatherworking",
-    "result": "belt|kcg",
-    "quantity": "1",
-    "materials": [
-      [
-        4,
-        "leather scraps"
-      ],
-      [
-        1,
-        "buckle"
-      ]
-    ],
-    "time": "2 hours",
-    "num_checks": 1,
-    "dc": 9,
-    "note": null
-  },
-  {
-    "craft": "leatherworking",
-    "result": "quiver|phb",
-    "quantity": "1",
-    "materials": [
-      [
-        5,
-        "leather scraps"
-      ]
-    ],
-    "time": "2 hours",
-    "num_checks": 1,
-    "dc": 9,
-    "note": null
-  },
-  {
-    "craft": "leatherworking",
-    "result": "sheath|kcg",
-    "quantity": "1",
-    "materials": [
-      [
-        4,
-        "leather scraps"
+        "rope"
       ],
       [
         2,
-        "hours"
+        "metal scraps"
       ],
       [
         1,
-        "DC"
-      ],
-      [
-        9,
-        "common"
-      ],
-      [
-        6,
-        "sp Holster"
-      ],
-      [
-        2,
-        "leather scraps"
-      ],
-      [
-        2,
-        "hours"
-      ],
-      [
-        1,
-        "DC"
-      ],
-      [
-        9,
-        "common"
-      ],
-      [
-        5,
-        "sp Waterskin"
-      ],
-      [
-        2,
-        "leather scraps"
-      ],
-      [
-        2,
-        "hours"
-      ],
-      [
-        1,
-        "DC"
-      ],
-      [
-        8,
-        "common"
-      ],
-      [
-        2,
-        "sp Backpack"
-      ],
-      [
-        1,
-        "sheet of leather"
-      ],
-      [
-        4,
-        "leather scraps"
-      ],
-      [
-        2,
-        "buckles"
-      ]
-    ],
-    "time": "2 hours",
-    "num_checks": 1,
-    "dc": 14,
-    "note": null
-  },
-  {
-    "craft": "leatherworking",
-    "result": "bag|kcg",
-    "quantity": "1",
-    "materials": [
-      [
-        10,
-        "leather scraps"
-      ],
-      [
-        1,
-        "buckles"
-      ]
-    ],
-    "time": "2 hours",
-    "num_checks": 1,
-    "dc": 10,
-    "note": null
-  },
-  {
-    "craft": "leatherworking",
-    "result": "parchment|kcg",
-    "quantity": "10",
-    "materials": [
-      [
-        10,
-        "leather scraps"
-      ]
-    ],
-    "time": "2 hours",
-    "num_checks": 1,
-    "dc": 8,
-    "note": null
-  },
-  {
-    "craft": "leatherworking",
-    "result": "uncommon parchment|kcg",
-    "quantity": "1",
-    "materials": [
-      [
-        1,
-        "tanned leather"
-      ],
-      [
-        2,
-        "common alchemical reagents"
+        "parts"
       ]
     ],
     "time": "2 hours",
@@ -768,116 +406,523 @@
     "note": null
   },
   {
-    "craft": "leatherworking",
-    "result": "rare parchment|kcg",
+    "craft": "tinkering",
+    "result": "climber's kit|phb",
     "quantity": "1",
     "materials": [
       [
-        1,
-        "tanned leather"
+        10,
+        "pitons"
+      ],
+      [
+        50,
+        "feet rope"
+      ],
+      [
+        4,
+        "parts"
       ],
       [
         1,
-        "uncommon arcane essence"
+        "fancy parts"
       ]
     ],
     "time": "2 hours",
     "num_checks": 1,
-    "dc": 16,
+    "dc": 12,
     "note": null
   },
   {
-    "craft": "leatherworking",
-    "result": "very rare parchment|kcg",
+    "craft": "tinkering",
+    "result": "merchant's scale|phb",
     "quantity": "1",
     "materials": [
       [
         1,
-        "tough leather"
-      ],
-      [
-        1,
-        "rare arcane essence"
+        "metal scraps"
       ],
       [
         2,
-        "uncommon arcane essence"
+        "parts"
       ]
     ],
-    "time": "4 hours",
-    "num_checks": 2,
+    "time": "2 hours",
+    "num_checks": 1,
+    "dc": 10,
+    "note": null
+  },
+  {
+    "craft": "tinkering",
+    "result": "tinderbox|phb",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "metal scraps"
+      ],
+      [
+        1,
+        "parts"
+      ]
+    ],
+    "time": "2 hours",
+    "num_checks": 1,
+    "dc": 10,
+    "note": null
+  },
+  {
+    "craft": "tinkering",
+    "result": "spyglass|phb",
+    "quantity": "1",
+    "materials": [
+      [
+        2,
+        "metal scraps"
+      ],
+      [
+        2,
+        "fancy parts"
+      ],
+      [
+        5,
+        "esoteric parts"
+      ]
+    ],
+    "time": "12 hours (1.5 days)",
+    "num_checks": 6,
     "dc": 18,
     "note": null
   },
   {
-    "craft": "leatherworking",
-    "result": "legendary parchment|kcg",
+    "craft": "tinkering",
+    "result": "windup timer|kcg",
+    "quantity": "1",
+    "materials": [
+      [
+        2,
+        "metal scraps"
+      ],
+      [
+        1,
+        "parts"
+      ]
+    ],
+    "time": "2 hours",
+    "num_checks": 1,
+    "dc": 12,
+    "note": null
+  },
+  {
+    "craft": "tinkering",
+    "result": "clockwork toy|kcg",
+    "quantity": "1",
+    "materials": [
+      [
+        2,
+        "metal scraps"
+      ],
+      [
+        3,
+        "parts"
+      ]
+    ],
+    "time": "2 hours",
+    "num_checks": 1,
+    "dc": 12,
+    "note": null
+  },
+  {
+    "craft": "tinkering",
+    "result": "pocket watch|kcg",
     "quantity": "1",
     "materials": [
       [
         1,
-        "tough leather"
+        "metal scraps"
+      ],
+      [
+        3,
+        "parts"
+      ],
+      [
+        1,
+        "fancy parts"
+      ],
+      [
+        1,
+        "esoteric parts"
+      ]
+    ],
+    "time": "8 hours",
+    "num_checks": 4,
+    "dc": 14,
+    "note": null
+  },
+  {
+    "craft": "tinkering",
+    "result": "underwater breathing apparatus|kcg",
+    "quantity": "1",
+    "materials": [
+      [
+        4,
+        "metal scraps"
+      ],
+      [
+        3,
+        "common primal essence"
       ],
       [
         2,
-        "rare arcane essence"
-      ],
+        "fancy parts"
+      ]
+    ],
+    "time": "8 hours",
+    "num_checks": 4,
+    "dc": 16,
+    "note": null
+  },
+  {
+    "craft": "tinkering",
+    "result": "drill|kcg",
+    "quantity": "1",
+    "materials": [
       [
         2,
-        "very rare alchemical reagents"
+        "metal scraps"
+      ],
+      [
+        1,
+        "parts"
+      ]
+    ],
+    "time": "2 hours",
+    "num_checks": 1,
+    "dc": 12,
+    "note": null
+  },
+  {
+    "craft": "tinkering",
+    "result": "parts|kcg",
+    "quantity": "1",
+    "materials": [
+      [
+        5,
+        "metal scraps"
       ]
     ],
     "time": "4 hours",
     "num_checks": 2,
-    "dc": 20,
+    "dc": 12,
     "note": null
   },
   {
-    "craft": "leatherworking",
-    "result": "armor padding|kcg",
+    "craft": "tinkering",
+    "result": "autoloader|kcg",
     "quantity": "1",
     "materials": [
       [
-        1,
-        "tanned leather"
+        2,
+        "metal scraps"
       ],
       [
         2,
-        "buckles"
+        "parts"
+      ],
+      [
+        5,
+        "fancy parts"
+      ]
+    ],
+    "time": "8 hours",
+    "num_checks": 4,
+    "dc": 17,
+    "note": null
+  },
+  {
+    "craft": "tinkering",
+    "result": "noise trap|kcg",
+    "quantity": "1",
+    "materials": [
+      [
+        2,
+        "metal scraps"
+      ],
+      [
+        2,
+        "parts"
       ]
     ],
     "time": "2 hours",
     "num_checks": 1,
+    "dc": 13,
+    "note": null
+  },
+  {
+    "craft": "tinkering",
+    "result": "hunting trap|phb",
+    "quantity": "1",
+    "materials": [
+      [
+        4,
+        "metal scraps"
+      ],
+      [
+        2,
+        "parts"
+      ]
+    ],
+    "time": "2 hours",
+    "num_checks": 1,
+    "dc": 13,
+    "note": null
+  },
+  {
+    "craft": "tinkering",
+    "result": "trip wire|kcg",
+    "quantity": "1",
+    "materials": [
+      [
+        2,
+        "metal scraps"
+      ],
+      [
+        1,
+        "parts"
+      ]
+    ],
+    "time": "2 hours",
+    "num_checks": 1,
+    "dc": 12,
+    "note": null
+  },
+  {
+    "craft": "tinkering",
+    "result": "alchemist's supplies|phb",
+    "quantity": "1",
+    "materials": [
+      [
+        4,
+        "metal scraps"
+      ],
+      [
+        2,
+        "fancy parts"
+      ]
+    ],
+    "time": "8 hours",
+    "num_checks": 4,
+    "dc": 14,
+    "note": null
+  },
+  {
+    "craft": "tinkering",
+    "result": "brewer's supplies|phb",
+    "quantity": "1",
+    "materials": [
+      [
+        4,
+        "metal scraps"
+      ],
+      [
+        2,
+        "fancy parts"
+      ]
+    ],
+    "time": "6 hours",
+    "num_checks": 3,
     "dc": 10,
     "note": null
   },
   {
-    "craft": "leatherworking",
-    "result": "dice bag|kcg",
+    "craft": "tinkering",
+    "result": "cartographer's tools|phb",
     "quantity": "1",
     "materials": [
       [
+        2,
+        "metal scraps"
+      ],
+      [
         1,
-        "leather scraps"
+        "parts"
+      ],
+      [
+        1,
+        "fancy parts"
       ]
     ],
-    "time": "2 hours",
-    "num_checks": 1,
-    "dc": 9,
+    "time": "6 hours",
+    "num_checks": 3,
+    "dc": 13,
     "note": null
   },
   {
-    "craft": "leatherworking",
-    "result": "exotic saddle|phb",
+    "craft": "tinkering",
+    "result": "cobbler's tools|phb",
+    "quantity": "1",
+    "materials": [
+      [
+        3,
+        "metal scraps"
+      ],
+      [
+        1,
+        "parts"
+      ]
+    ],
+    "time": "4 hours",
+    "num_checks": 2,
+    "dc": 12,
+    "note": null
+  },
+  {
+    "craft": "tinkering",
+    "result": "cook's utensils|phb",
+    "quantity": "1",
+    "materials": [
+      [
+        5,
+        "metal scraps"
+      ]
+    ],
+    "time": "4 hours",
+    "num_checks": 2,
+    "dc": 12,
+    "note": null
+  },
+  {
+    "craft": "tinkering",
+    "result": "glassblower's tools|phb",
+    "quantity": "1",
+    "materials": [
+      [
+        3,
+        "metal scraps"
+      ],
+      [
+        2,
+        "fancy parts"
+      ]
+    ],
+    "time": "6 hours",
+    "num_checks": 3,
+    "dc": 12,
+    "note": null
+  },
+  {
+    "craft": "tinkering",
+    "result": "jeweler's tools|phb",
+    "quantity": "1",
+    "materials": [
+      [
+        2,
+        "metal scraps"
+      ],
+      [
+        2,
+        "fancy parts"
+      ]
+    ],
+    "time": "4 hours",
+    "num_checks": 2,
+    "dc": 12,
+    "note": null
+  },
+  {
+    "craft": "tinkering",
+    "result": "leatherworker's tools|phb",
     "quantity": "1",
     "materials": [
       [
         4,
-        "rawhide"
+        "metal scraps"
       ],
       [
+        1,
+        "parts"
+      ]
+    ],
+    "time": "4 hours",
+    "num_checks": 2,
+    "dc": 12,
+    "note": null
+  },
+  {
+    "craft": "tinkering",
+    "result": "mason's tools|phb",
+    "quantity": "1",
+    "materials": [
+      [
+        5,
+        "metal scraps"
+      ],
+      [
+        2,
+        "parts"
+      ]
+    ],
+    "time": "6 hours",
+    "num_checks": 3,
+    "dc": 10,
+    "note": null
+  },
+  {
+    "craft": "tinkering",
+    "result": "tinker's tools|phb",
+    "quantity": "1",
+    "materials": [
+      [
+        5,
+        "metal scraps"
+      ],
+      [
+        3,
+        "fancy parts"
+      ]
+    ],
+    "time": "8 hours",
+    "num_checks": 4,
+    "dc": 12,
+    "note": null
+  },
+  {
+    "craft": "tinkering",
+    "result": "weaver's tools|phb",
+    "quantity": "1",
+    "materials": [
+      [
         4,
-        "tanned leather"
+        "metal scraps"
+      ]
+    ],
+    "time": "4 hours",
+    "num_checks": 2,
+    "dc": 12,
+    "note": null
+  },
+  {
+    "craft": "tinkering",
+    "result": "woodcarver's tools|phb",
+    "quantity": "1",
+    "materials": [
+      [
+        4,
+        "metal scraps"
+      ]
+    ],
+    "time": "4 hours",
+    "num_checks": 2,
+    "dc": 12,
+    "note": null
+  },
+  {
+    "craft": "tinkering",
+    "result": "navigator's tools|phb",
+    "quantity": "1",
+    "materials": [
+      [
+        3,
+        "metal scraps"
       ],
       [
         2,
@@ -890,111 +935,54 @@
     ],
     "time": "6 hours",
     "num_checks": 3,
-    "dc": 14,
-    "note": null
-  },
-  {
-    "craft": "leatherworking",
-    "result": "military saddle|phb",
-    "quantity": "1",
-    "materials": [
-      [
-        2,
-        "rawhide"
-      ],
-      [
-        2,
-        "tanned leather"
-      ],
-      [
-        2,
-        "parts"
-      ]
-    ],
-    "time": "4 hours",
-    "num_checks": 2,
     "dc": 12,
     "note": null
   },
   {
-    "craft": "leatherworking",
-    "result": "pack saddle|phb",
-    "quantity": "1",
-    "materials": [
-      [
-        1,
-        "tanned leather"
-      ],
-      [
-        2,
-        "leather scraps"
-      ]
-    ],
-    "time": "2 hours",
-    "num_checks": 1,
-    "dc": 10,
-    "note": null
-  },
-  {
-    "craft": "leatherworking",
-    "result": "riding saddle|phb",
-    "quantity": "1",
-    "materials": [
-      [
-        2,
-        "tanned leather"
-      ],
-      [
-        1,
-        "parts"
-      ]
-    ],
-    "time": "4 hours",
-    "num_checks": 2,
-    "dc": 10,
-    "note": null
-  },
-  {
-    "craft": "leatherworking",
-    "result": "saddlebag|kcg",
-    "quantity": "1",
-    "materials": [
-      [
-        1,
-        "tanned leather"
-      ]
-    ],
-    "time": "2 hours",
-    "num_checks": 1,
-    "dc": 10,
-    "note": null
-  },
-  {
-    "craft": "leatherworking",
-    "result": "bit and bridle|phb",
+    "craft": "tinkering",
+    "result": "thieves' tools|phb",
     "quantity": "1",
     "materials": [
       [
         4,
-        "leather scraps"
-      ],
-      [
-        1,
-        "wood scraps"
-      ],
-      [
-        1,
         "metal scraps"
+      ],
+      [
+        2,
+        "parts"
+      ],
+      [
+        1,
+        "fancy parts"
       ]
     ],
-    "time": "2 hours",
-    "num_checks": 1,
-    "dc": 10,
+    "time": "6 hours",
+    "num_checks": 3,
+    "dc": 12,
     "note": null
   },
   {
-    "craft": "leatherworking",
-    "result": "Throwing Bandolier|kcg",
+    "craft": "tinkering",
+    "result": "herbalism kit|phb",
+    "quantity": "1",
+    "materials": [
+      [
+        4,
+        "metal scraps"
+      ],
+      [
+        1,
+        "parts"
+      ]
+    ],
+    "time": "4 hours",
+    "num_checks": 2,
+    "dc": 12,
+    "note": null
+  },
+  {
+    "craft": "tinkering",
+    "result": "bagpipes|phb",
     "quantity": "1",
     "materials": [
       [
@@ -1002,17 +990,526 @@
         "tanned leather"
       ],
       [
-        3,
-        "leather scraps"
+        2,
+        "metal scraps"
       ],
       [
         1,
-        "buckle"
+        "fancy parts"
+      ]
+    ],
+    "time": "6 hours",
+    "num_checks": 3,
+    "dc": 13,
+    "note": null
+  },
+  {
+    "craft": "tinkering",
+    "result": "horn|phb",
+    "quantity": "1",
+    "materials": [
+      [
+        4,
+        "metal scraps"
+      ],
+      [
+        1,
+        "parts"
       ]
     ],
     "time": "4 hours",
     "num_checks": 2,
+    "dc": 10,
+    "note": null
+  },
+  {
+    "craft": "tinkering",
+    "result": "light crossbow|phb",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "wooden stock"
+      ],
+      [
+        4,
+        "metal scraps"
+      ],
+      [
+        6,
+        "parts"
+      ]
+    ],
+    "time": "4 hours",
+    "num_checks": 2,
+    "dc": 13,
+    "note": null
+  },
+  {
+    "craft": "tinkering",
+    "result": "hand crossbow|phb",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "wooden stock"
+      ],
+      [
+        4,
+        "metal scraps"
+      ],
+      [
+        2,
+        "parts"
+      ],
+      [
+        3,
+        "fancy parts"
+      ]
+    ],
+    "time": "8 hours",
+    "num_checks": 4,
+    "dc": 16,
+    "note": null
+  },
+  {
+    "craft": "tinkering",
+    "result": "heavy crossbow|phb",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "wooden stock"
+      ],
+      [
+        8,
+        "metal scraps"
+      ],
+      [
+        6,
+        "parts"
+      ],
+      [
+        2,
+        "fancy parts"
+      ]
+    ],
+    "time": "6 hours",
+    "num_checks": 3,
+    "dc": 13,
+    "note": null
+  },
+  {
+    "craft": "tinkering",
+    "result": "whistling shot|kcg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "piece of ammunition"
+      ],
+      [
+        2,
+        "parts"
+      ]
+    ],
+    "time": "2 hours",
+    "num_checks": 1,
     "dc": 12,
+    "note": null
+  },
+  {
+    "craft": "tinkering",
+    "result": "bola shot|kcg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "piece of ammunition"
+      ],
+      [
+        1,
+        "net"
+      ],
+      [
+        2,
+        "parts"
+      ]
+    ],
+    "time": "2 hours",
+    "num_checks": 1,
+    "dc": 14,
+    "note": null
+  },
+  {
+    "craft": "tinkering",
+    "result": "payload shot|kcg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "piece of ammunition"
+      ],
+      [
+        1,
+        "item weighing less than"
+      ],
+      [
+        1,
+        "lb"
+      ],
+      [
+        1,
+        "parts"
+      ]
+    ],
+    "time": "2 hours",
+    "num_checks": 1,
+    "dc": 16,
+    "note": null
+  },
+  {
+    "craft": "tinkering",
+    "result": "propelled shot|kcg",
+    "quantity": "10",
+    "materials": [
+      [
+        10,
+        "pieces of ammunition"
+      ],
+      [
+        1,
+        "packet of blasting powder"
+      ],
+      [
+        5,
+        "parts"
+      ]
+    ],
+    "time": "2 hours",
+    "num_checks": 1,
+    "dc": 15,
+    "note": null
+  },
+  {
+    "craft": "tinkering",
+    "result": "spell shot|kcg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "piece of ammunition"
+      ],
+      [
+        1,
+        "fancy parts"
+      ],
+      [
+        1,
+        "scroll of fog cloud"
+      ],
+      [
+        1,
+        "scroll of entangle"
+      ],
+      [
+        1,
+        "scroll of multishot"
+      ]
+    ],
+    "time": "2 hours",
+    "num_checks": 1,
+    "dc": 15,
+    "note": null
+  },
+  {
+    "craft": "tinkering",
+    "result": "adaptable shot|kcg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "piece of ammunition"
+      ],
+      [
+        1,
+        "parts"
+      ]
+    ],
+    "time": "2 hours",
+    "num_checks": 1,
+    "dc": 14,
+    "note": null
+  },
+  {
+    "craft": "tinkering",
+    "result": "bouncing shot|kcg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "piece of ammunition"
+      ],
+      [
+        1,
+        "fancy parts"
+      ]
+    ],
+    "time": "2 hours",
+    "num_checks": 1,
+    "dc": 15,
+    "note": null
+  },
+  {
+    "craft": "tinkering",
+    "result": "ricochet shot|kcg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "piece of ammunition"
+      ],
+      [
+        1,
+        "fancy parts"
+      ]
+    ],
+    "time": "2 hours",
+    "num_checks": 1,
+    "dc": 16,
+    "note": null
+  },
+  {
+    "craft": "tinkering",
+    "result": "basic leg prosthetic|kcg",
+    "quantity": "1",
+    "materials": [
+      [
+        8,
+        "metal scraps"
+      ],
+      [
+        1,
+        "parts"
+      ]
+    ],
+    "time": "4 hours",
+    "num_checks": 2,
+    "dc": 10,
+    "note": null
+  },
+  {
+    "craft": "tinkering",
+    "result": "mechanical arm|kcg",
+    "quantity": "1",
+    "materials": [
+      [
+        6,
+        "metal scraps"
+      ],
+      [
+        4,
+        "parts"
+      ],
+      [
+        2,
+        "fancy parts"
+      ],
+      [
+        1,
+        "common arcane essence"
+      ]
+    ],
+    "time": "8 hours",
+    "num_checks": 4,
+    "dc": 14,
+    "note": null
+  },
+  {
+    "craft": "tinkering",
+    "result": "mechanical leg|kcg",
+    "quantity": "1",
+    "materials": [
+      [
+        8,
+        "metal scraps"
+      ],
+      [
+        4,
+        "parts"
+      ],
+      [
+        2,
+        "fancy parts"
+      ],
+      [
+        1,
+        "common arcane essence"
+      ]
+    ],
+    "time": "8 hours",
+    "num_checks": 4,
+    "dc": 14,
+    "note": null
+  },
+  {
+    "craft": "tinkering",
+    "result": "weaponized arm|kcg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "one handed melee weapon"
+      ],
+      [
+        8,
+        "metal scraps"
+      ],
+      [
+        4,
+        "parts"
+      ],
+      [
+        2,
+        "fancy parts"
+      ],
+      [
+        1,
+        "esoteric parts"
+      ]
+    ],
+    "time": "8 hours",
+    "num_checks": 4,
+    "dc": 15,
+    "note": null
+  },
+  {
+    "craft": "tinkering",
+    "result": "specialized mechanical arm|kcg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "tool of your choice"
+      ],
+      [
+        6,
+        "metal scraps"
+      ],
+      [
+        4,
+        "fancy parts"
+      ],
+      [
+        1,
+        "esoteric parts"
+      ],
+      [
+        1,
+        "common arcane essence"
+      ]
+    ],
+    "time": "8 hours",
+    "num_checks": 4,
+    "dc": 15,
+    "note": null
+  },
+  {
+    "craft": "tinkering",
+    "result": "spring loaded leg|kcg",
+    "quantity": "1",
+    "materials": [
+      [
+        8,
+        "metal scraps"
+      ],
+      [
+        4,
+        "parts"
+      ],
+      [
+        2,
+        "esoteric parts"
+      ],
+      [
+        1,
+        "common arcane essence"
+      ]
+    ],
+    "time": "8 hours",
+    "num_checks": 4,
+    "dc": 16,
+    "note": null
+  },
+  {
+    "craft": "tinkering",
+    "result": "folding boat|dmg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "boat"
+      ],
+      [
+        10,
+        "parts"
+      ],
+      [
+        3,
+        "esoteric parts"
+      ],
+      [
+        2,
+        "uncommon primal essence"
+      ],
+      [
+        1,
+        "rare arcane essence"
+      ],
+      [
+        16,
+        "hours"
+      ],
+      [
+        2,
+        "days"
+      ],
+      [
+        8,
+        "DC"
+      ],
+      [
+        17,
+        "Rare"
+      ],
+      [
+        1,
+        "800 gp Folding Cart"
+      ],
+      [
+        1,
+        "cart"
+      ],
+      [
+        10,
+        "parts"
+      ],
+      [
+        3,
+        "esoteric parts"
+      ],
+      [
+        2,
+        "uncommon arcane essence"
+      ],
+      [
+        1,
+        "rare arcane essence"
+      ]
+    ],
+    "time": "16 hours (2 days)",
+    "num_checks": 8,
+    "dc": 15,
     "note": null
   }
 ]

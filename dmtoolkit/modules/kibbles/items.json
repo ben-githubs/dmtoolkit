@@ -3943,7 +3943,7 @@
     "__dataclass__": "Item"
   },
   {
-    "name": "Basic Leg Prothetic",
+    "name": "Basic Leg Prosthetic",
     "source": [
       "KCG",
       112
@@ -4104,7 +4104,7 @@
     "__dataclass__": "Item"
   },
   {
-    "name": "Watch",
+    "name": "Pocket Watch",
     "source": [
       "KCG",
       112
@@ -4127,7 +4127,55 @@
     "__dataclass__": "Item"
   },
   {
-    "name": "Sprint Loaded Leg",
+    "name": "Noise Trap",
+    "source": [
+      "KCG",
+      109
+    ],
+    "rarity": "none",
+    "weight": 25,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "When you use your action to set it, this trap can be affixed to another device, such as a door, pressure plate, or lock. When that device is activated, if this trap has not been disarmed, it will emit a loud, distinctive noise which cna be heard within 300 feet. You may decide the nature of the noise when setting the trap."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 1000,
+    "item_type": "Adventuring Gear",
+    "properties": [],
+    "attunement": "",
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Trip Wire",
+    "source": [
+      "KCG",
+      109
+    ],
+    "rarity": "common",
+    "weight": 1,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "This trap can be placed between any two points which are not more than 10 feet apart. Any creature which passes through these points without noticing the trap immediately falls prone."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 500,
+    "item_type": "Adventuring Gear",
+    "properties": [],
+    "attunement": "",
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Spring Loaded Leg",
     "source": [
       "KCG",
       112
@@ -4174,7 +4222,7 @@
     "__dataclass__": "Item"
   },
   {
-    "name": "Underwater Breathing Aparatus",
+    "name": "Underwater Breathing Apparatus",
     "source": [
       "KCG",
       112
@@ -4303,6 +4351,31 @@
   },
   {
     "name": "Bouncing Shot",
+    "source": [
+      "KCG",
+      113
+    ],
+    "rarity": "common",
+    "weight": 0,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "You can attack a target out of line of sight of with it if you know their location by bouncing it off a surface. They have the benefit of half cover instead of full cover when firing this shot.",
+          "When you recover this arrow, roll a d6. On a 1, it is broken."
+
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 3000,
+    "item_type": "Item",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Ricochet Shot",
     "source": [
       "KCG",
       113

@@ -122,6 +122,9 @@ def convert_wand_whittling():
 def convert_leatherworking():
     return read_file(DATA_DIR / "raw_leatherworking_recipes.txt", "leatherworking")
 
+def convert_tinkering():
+    return read_file(DATA_DIR / "raw_tinkering_recipes.txt", "tinkering")
+
 def hard_coded_recipes():
     return [
         {
@@ -308,7 +311,8 @@ def convert():
         # convert_enchanting() + 
         # convert_scrollscribing() + 
         # convert_wand_whittling() + 
-        convert_leatherworking()
+        # convert_leatherworking() + 
+        convert_tinkering()
     )
     with TARGET_FILE.open("w") as f:
         json.dump(recipes, f, indent=2)
