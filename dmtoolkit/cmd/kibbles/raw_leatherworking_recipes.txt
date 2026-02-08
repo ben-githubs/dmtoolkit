@@ -1,0 +1,34 @@
+Carapace Breastplate 1 large carapace 2 leather (any) 2 buckles 8 hours 4 DC 12 common 50 gp
+Carapace Shield 1 medium carapace 1 leather piece 4 leather scraps 4 hours 2 DC 10 common 10 gp
+Hide Armor 2 rawhide leather 1 hide 2 buckles 4 hours 2 DC 10 common 10 gp
+Leather Armor 3 rawhide leather 2 buckles 4 hours 2 DC 12 common 10 gp
+Leather BucklerK 2 boiled leather 2 leather scraps 4 hours 2 DC 10 common 10 gp
+Studded Leather Armor 3 rawhide leather 6 metal scraps 2 buckles 6 hours 3 DC 14 common 45 gp
+Scale Mail 25 scales 5 leather scraps 1 armor padding 12 hours (1.5 days) 6 DC 12 common 50 gp
+Tough Carapace Breastplate 1 large tough carapace 2 leather (any) 2 buckles 12 hours (1.5 days) 6 DC 15 common 400 gp
+Whip 1 tanned leather 4 hours 2 DC 9 common 4 gp
+ScourgeK 1 tanned leather 3 metal scraps 6 hours 3 DC 14 common 40 gp
+Rawhide Leather 1 hide 8 hours 4 DC 6 common 2 gp
+Tanned Leather 1 hide or rawhide 16 hours 8 DC 6 common 3 gp
+Boiled Leather 1 hide or rawhide 16 hours 8 DC 6 common 3 gp
+20 x Leather Scraps 1 leather (any) 2 hours 1 DC 4 common 2 gp
+Hide 20 hide scraps 2 hours 1 DC 10 common 2 gp
+20 x Hide Scraps 1 hide 2 hours 1 DC 4 common 2 gp
+Belt 4 leather scraps 1 buckle 2 hours 1 DC 9 common 1 gp
+Quiver 5 leather scraps 2 hours 1 DC 9 common 1 gp
+Sheath 4 leather scraps 2 hours 1 DC 9 common 6 sp Holster 2 leather scraps 2 hours 1 DC 9 common 5 sp Waterskin 2 leather scraps 2 hours 1 DC 8 common 2 sp Backpack 1 sheet of leather 4 leather scraps 2 buckles 2 hours 1 DC 14 common 5 gp
+Bag 10 leather scraps 1 buckles 2 hours 1 DC 10 common 2 gp
+10 x Parchment 10 leather scraps 2 hours 1 DC 8 common 1 gp
+Uncommon Parchment 1 tanned leather 2 common alchemical reagents (any) 2 hours 1 DC 12 uncommon 40 gp
+Rare Parchment 1 tanned leather 1 uncommon arcane essence 2 hours 1 DC 16 rare 200 gp
+Very Rare Parchment 1 tough leather 1 rare arcane essence 2 uncommon arcane essence 4 hours 2 DC 18 very rare 2,000 gp
+Legendary Parchment 1 tough leather 2 rare arcane essence 2 very rare alchemical reagents (any) 4 hours 2 DC 20 legendary 5,000 gp
+Armor Padding 1 tanned leather 2 buckles 2 hours 1 DC 10 common 5 gp
+Dice Bag 1 leather scraps 2 hours 1 DC 9 common 1 gp
+Exotic Saddle 4 rawhide 4 tanned leather 2 parts 1 fancy parts 6 hours 3 DC 14 common 60 gp
+Military Saddle 2 rawhide 2 tanned leather 2 parts 4 hours 2 DC 12 common 20 gp
+Pack Saddle 1 tanned leather 2 leather scraps 2 hours 1 DC 10 common 5 gp
+Riding Saddle 2 tanned leather 1 parts 4 hours 2 DC 10 common 10 gp
+Saddlebag 1 tanned leather 2 hours 1 DC 10 common 4 gp
+Bit and Bridle 4 leather scraps 1 wood scraps 1 metal scraps 2 hours 1 DC 10 common 2 gp
+Throwing BandolierK 1 tanned leather 3 leather scraps 1 buckle 4 hours 2 12 common 20 gp

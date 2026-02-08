@@ -119,6 +119,9 @@ def convert_scrollscribing():
 def convert_wand_whittling():
     return read_file(DATA_DIR / "raw_wand_whittling_recipes.txt", "wand_whittling")
 
+def convert_leatherworking():
+    return read_file(DATA_DIR / "raw_leatherworking_recipes.txt", "leatherworking")
+
 def hard_coded_recipes():
     return [
         {
@@ -297,13 +300,15 @@ def hard_coded_recipes():
 
 def convert():
     recipes = (
-        convert_alchemy() + 
-        convert_poisoncraft() + 
-        convert_blacksmithing() + 
-        convert_cooking() + 
-        convert_enchanting() + 
-        convert_scrollscribing() + 
-        convert_wand_whittling() + 
-        hard_coded_recipes())
+        hard_coded_recipes() +
+        # convert_alchemy() + 
+        # convert_poisoncraft() + 
+        # convert_blacksmithing() + 
+        # convert_cooking() + 
+        # convert_enchanting() + 
+        # convert_scrollscribing() + 
+        # convert_wand_whittling() + 
+        convert_leatherworking()
+    )
     with TARGET_FILE.open("w") as f:
         json.dump(recipes, f, indent=2)

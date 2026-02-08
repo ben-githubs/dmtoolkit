@@ -5383,5 +5383,85 @@
     "item_type": "Adventuring Gear",
     "properties": [],
     "__dataclass__": "Item"
+  },
+  {
+    "name": "Carapace Breastplate",
+    "source": [
+      "KCG",
+      104
+    ],
+    "rarity": "common",
+    "weight": 20,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "Identical to a regular, mundane breastplate, but with -1 AC. Also it's made from bugs."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 5000,
+    "item_type": "",
+    "properties": [],
+    "attunement": "",
+    "ac": 13,
+    "armor_type": "Medium Armor",
+    "min_strength": 0,
+    "affects_stealth": false,
+    "__dataclass__": "ItemArmor"
+  },
+  {
+    "name": "Carapace Shield",
+    "source": [
+      "KCG",
+      104
+    ],
+    "rarity": "common",
+    "weight": 6,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "This shield is made from hardened carapace and is carried in one hand. Wielding a shield increases your Armor Class by 2. You can benefit from only one shield at a time."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 1000,
+    "item_type": "Shield",
+    "properties": [],
+    "attunement": "",
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Tough Carapace Breastplate",
+    "source": [
+      "KCG",
+      104
+    ],
+    "rarity": "common",
+    "weight": 20,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "This armor consists of a chiseled carapace chest piece worn with supple leather. Although it leaves the legs and arms relatively unprotected, this armor provides good protection for the wearer's vital organs while leaving the wearer relatively unencumbered."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 40000,
+    "item_type": "",
+    "properties": [],
+    "attunement": "",
+    "ac": 14,
+    "armor_type": "Medium Armor",
+    "min_strength": 0,
+    "affects_stealth": false,
+    "__dataclass__": "ItemArmor"
   }
 ]

@@ -1072,6 +1072,81 @@
     "__dataclass__": "KibblesIngredient"
   },
   {
+    "name": "Belt",
+    "source": [
+      "KCG",
+      0
+    ],
+    "rarity": "common",
+    "weight": 2,
+    "entries": [],
+    "value": 100,
+    "item_type": "ingredient",
+    "ingredient_type": "leather",
+    "properties": [""],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Sheath",
+    "source": [
+      "KCG",
+      0
+    ],
+    "rarity": "common",
+    "weight": 2,
+    "entries": [],
+    "value": 60,
+    "item_type": "ingredient",
+    "ingredient_type": "leather",
+    "properties": [""],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Bag",
+    "source": [
+      "KCG",
+      0
+    ],
+    "rarity": "common",
+    "weight": 2,
+    "entries": [],
+    "value": 200,
+    "item_type": "ingredient",
+    "ingredient_type": "leather",
+    "properties": [""],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Dice Bag",
+    "source": [
+      "KCG",
+      0
+    ],
+    "rarity": "common",
+    "weight": 2,
+    "entries": [],
+    "value": 100,
+    "item_type": "ingredient",
+    "ingredient_type": "leather",
+    "properties": [""],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
+    "name": "Saddlebag",
+    "source": [
+      "KCG",
+      105
+    ],
+    "rarity": "common",
+    "weight": 2,
+    "entries": [],
+    "value": 400,
+    "item_type": "ingredient",
+    "ingredient_type": "leather",
+    "properties": [""],
+    "__dataclass__": "KibblesIngredient"
+  },
+  {
     "name": "Firewood",
     "source": [
       "KCG",
