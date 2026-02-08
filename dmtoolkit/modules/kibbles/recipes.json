@@ -312,580 +312,560 @@
     "dc": 8
   },
   {
-    "craft": "woodcarving",
-    "result": "shortbow|phb",
+    "craft": "runecarving",
+    "result": "light|kcg",
     "quantity": "1",
     "materials": [
       [
         1,
-        "quality branch"
+        "common primal essence"
       ],
       [
         1,
-        "leather scraps"
-      ],
-      [
-        1,
-        "length of string"
-      ]
-    ],
-    "time": "12 hours",
-    "num_checks": 6,
-    "dc": 12,
-    "note": null
-  },
-  {
-    "craft": "woodcarving",
-    "result": "longbow|phb",
-    "quantity": "1",
-    "materials": [
-      [
-        1,
-        "quality branch"
-      ],
-      [
-        1,
-        "leather scraps"
-      ],
-      [
-        1,
-        "length of string"
-      ]
-    ],
-    "time": "14 hours",
-    "num_checks": 7,
-    "dc": 13,
-    "note": null
-  },
-  {
-    "craft": "woodcarving",
-    "result": "composite bow|kcg",
-    "quantity": "1",
-    "materials": [
-      [
-        1,
-        "common branch"
-      ],
-      [
-        4,
-        "leather scraps"
-      ],
-      [
-        1,
-        "length of string"
-      ]
-    ],
-    "time": "24 hours",
-    "num_checks": 12,
-    "dc": 12,
-    "note": null
-  },
-  {
-    "craft": "woodcarving",
-    "result": "quarterstaff|phb",
-    "quantity": "1",
-    "materials": [
-      [
-        1,
-        "common branch"
-      ]
-    ],
-    "time": "2 hours",
-    "num_checks": 1,
-    "dc": 10,
-    "note": null
-  },
-  {
-    "craft": "woodcarving",
-    "result": "shield|phb",
-    "quantity": "1",
-    "materials": [
-      [
-        4,
-        "common branch"
-      ],
-      [
-        1,
-        "metal scraps"
-      ],
-      [
-        1,
-        "leather scraps"
-      ]
-    ],
-    "time": "8 hours",
-    "num_checks": 4,
-    "dc": 12,
-    "note": null
-  },
-  {
-    "craft": "woodcarving",
-    "result": "flute|phb",
-    "quantity": "1",
-    "materials": [
-      [
-        1,
-        "quality branch"
-      ]
-    ],
-    "time": "8 hours",
-    "num_checks": 4,
-    "dc": 9,
-    "note": null
-  },
-  {
-    "craft": "woodcarving",
-    "result": "harp|kcg",
-    "quantity": "1",
-    "materials": [
-      [
-        3,
-        "quality branch"
-      ],
-      [
-        4,
-        "length of string"
-      ]
-    ],
-    "time": "16 hours (2 days)",
-    "num_checks": 8,
-    "dc": 12,
-    "note": null
-  },
-  {
-    "craft": "woodcarving",
-    "result": "lute|phb",
-    "quantity": "1",
-    "materials": [
-      [
-        2,
-        "quality branch"
-      ],
-      [
-        2,
-        "length of string"
-      ],
-      [
-        1,
-        "fancy parts"
-      ]
-    ],
-    "time": "16 hours (2 days)",
-    "num_checks": 8,
-    "dc": 13,
-    "note": null
-  },
-  {
-    "craft": "woodcarving",
-    "result": "drum|phb",
-    "quantity": "1",
-    "materials": [
-      [
-        4,
-        "common branch"
-      ],
-      [
-        1,
-        "rawhide leather"
-      ],
-      [
-        1,
-        "parts"
-      ]
-    ],
-    "time": "8 hours",
-    "num_checks": 4,
-    "dc": 8,
-    "note": null
-  },
-  {
-    "craft": "woodcarving",
-    "result": "dulcimer|phb",
-    "quantity": "1",
-    "materials": [
-      [
-        2,
-        "quality branch"
-      ],
-      [
-        2,
-        "length of string"
-      ],
-      [
-        1,
-        "fancy parts"
-      ]
-    ],
-    "time": "8 hours",
-    "num_checks": 4,
-    "dc": 11,
-    "note": null
-  },
-  {
-    "craft": "woodcarving",
-    "result": "lyre|phb",
-    "quantity": "1",
-    "materials": [
-      [
-        2,
-        "quality branch"
-      ],
-      [
-        2,
-        "length of string"
-      ],
-      [
-        1,
-        "fancy parts"
-      ]
-    ],
-    "time": "10 hours",
-    "num_checks": 5,
-    "dc": 12,
-    "note": null
-  },
-  {
-    "craft": "woodcarving",
-    "result": "pan flute|phb",
-    "quantity": "1",
-    "materials": [
-      [
-        1,
-        "quality branch"
-      ]
-    ],
-    "time": "8 hours",
-    "num_checks": 4,
-    "dc": 11,
-    "note": null
-  },
-  {
-    "craft": "woodcarving",
-    "result": "Shawm|phb",
-    "quantity": "1",
-    "materials": [
-      [
-        1,
-        "quality branch"
-      ]
-    ],
-    "time": "8 hours",
-    "num_checks": 4,
-    "dc": 8,
-    "note": null
-  },
-  {
-    "craft": "woodcarving",
-    "result": "viol|phb",
-    "quantity": "1",
-    "materials": [
-      [
-        3,
-        "quality branch"
-      ],
-      [
-        2,
-        "length of string"
-      ],
-      [
-        1,
-        "fancy parts"
-      ]
-    ],
-    "time": "8 hours",
-    "num_checks": 4,
-    "dc": 12,
-    "note": null
-  },
-  {
-    "craft": "woodcarving",
-    "result": "arrow|phb",
-    "quantity": "10",
-    "materials": [
-      [
-        1,
-        "common branch"
-      ],
-      [
-        1,
-        "metal scraps"
-      ],
-      [
-        1,
-        "fletching"
-      ]
-    ],
-    "time": "2 hours",
-    "num_checks": 1,
-    "dc": 10,
-    "note": null
-  },
-  {
-    "craft": "woodcarving",
-    "result": "crossbow bolt|phb",
-    "quantity": "10",
-    "materials": [
-      [
-        1,
-        "common branch"
-      ],
-      [
-        1,
-        "metal scraps"
-      ],
-      [
-        1,
-        "fletching"
-      ]
-    ],
-    "time": "2 hours",
-    "num_checks": 1,
-    "dc": 10,
-    "note": null
-  },
-  {
-    "craft": "woodcarving",
-    "result": "dart|phb",
-    "quantity": "10",
-    "materials": [
-      [
-        2,
-        "wood scraps"
-      ],
-      [
-        1,
-        "metal scraps"
-      ],
-      [
-        1,
-        "fletching"
-      ]
-    ],
-    "time": "2 hours",
-    "num_checks": 1,
-    "dc": 11,
-    "note": null
-  },
-  {
-    "craft": "woodcarving",
-    "result": "blowgun needle|phb",
-    "quantity": "10",
-    "materials": [
-      [
-        2,
-        "wood scraps"
-      ],
-      [
-        1,
-        "fletching"
-      ]
-    ],
-    "time": "2 hours",
-    "num_checks": 1,
-    "dc": 8,
-    "note": null
-  },
-  {
-    "craft": "woodcarving",
-    "result": "short haft|kcg",
-    "quantity": "1",
-    "materials": [
-      [
-        1,
-        "common branch"
-      ]
-    ],
-    "time": "2 hours",
-    "num_checks": 1,
-    "dc": 8,
-    "note": null
-  },
-  {
-    "craft": "woodcarving",
-    "result": "long haft|kcg",
-    "quantity": "1",
-    "materials": [
-      [
-        1,
-        "common branch"
-      ]
-    ],
-    "time": "2 hours",
-    "num_checks": 1,
-    "dc": 8,
-    "note": null
-  },
-  {
-    "craft": "woodcarving",
-    "result": "wooden stock|kcg",
-    "quantity": "1",
-    "materials": [
-      [
-        1,
-        "common branch"
-      ]
-    ],
-    "time": "2 hours",
-    "num_checks": 1,
-    "dc": 9,
-    "note": null
-  },
-  {
-    "craft": "woodcarving",
-    "result": "basic fishing equipment|aag",
-    "quantity": "1",
-    "materials": [
-      [
-        1,
-        "quality branch"
-      ],
-      [
-        1,
-        "parts"
-      ],
-      [
-        3,
-        "length of string"
+        "common magical ink"
       ]
     ],
     "time": "4 hours",
     "num_checks": 2,
-    "dc": 8,
+    "dc": 12,
     "note": null
   },
   {
-    "craft": "woodcarving",
-    "result": "carved figurine|kcg",
+    "craft": "runecarving",
+    "result": "fire|kcg",
     "quantity": "1",
     "materials": [
       [
         1,
-        "wood scraps"
-      ]
-    ],
-    "time": "8 hours",
-    "num_checks": 4,
-    "dc": 8,
-    "note": null
-  },
-  {
-    "craft": "woodcarving",
-    "result": "quality figurine|kcg",
-    "quantity": "1",
-    "materials": [
+        "uncommon primal essence"
+      ],
       [
         1,
-        "quality branch"
-      ]
-    ],
-    "time": "8 hours",
-    "num_checks": 4,
-    "dc": 14,
-    "note": null
-  },
-  {
-    "craft": "woodcarving",
-    "result": "superb figurine|kcg",
-    "quantity": "1",
-    "materials": [
+        "uncommon magical ink"
+      ],
       [
-        1,
-        "rare branch"
-      ]
-    ],
-    "time": "8 hours",
-    "num_checks": 4,
-    "dc": 18,
-    "note": null
-  },
-  {
-    "craft": "woodcarving",
-    "result": "wood scraps|kcg",
-    "quantity": "5",
-    "materials": [
-      [
-        1,
-        "common branch"
-      ]
-    ],
-    "time": "2 hours",
-    "num_checks": 1,
-    "dc": 5,
-    "note": null
-  },
-  {
-    "craft": "woodcarving",
-    "result": "quality branch|kcg",
-    "quantity": "1",
-    "materials": [
-      [
-        1,
-        "common branch"
-      ]
-    ],
-    "time": "4 hours",
-    "num_checks": 2,
-    "dc": 9,
-    "note": null
-  },
-  {
-    "craft": "woodcarving",
-    "result": "uncommon branch|kcg",
-    "quantity": "1",
-    "materials": [
-      [
-        1,
-        "quality branch"
-      ]
-    ],
-    "time": "4 hours",
-    "num_checks": 2,
-    "dc": 14,
-    "note": null
-  },
-  {
-    "craft": "woodcarving",
-    "result": "rare branch|kcg",
-    "quantity": "1",
-    "materials": [
-      [
-        1,
-        "uncommon branch"
+        2,
+        "uncommon reactive reagent"
       ]
     ],
     "time": "6 hours",
     "num_checks": 3,
+    "dc": 14,
+    "note": null
+  },
+  {
+    "craft": "runecarving",
+    "result": "lightning|kcg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "uncommon primal essence"
+      ],
+      [
+        1,
+        "uncommon magical ink"
+      ],
+      [
+        1,
+        "common primal essence"
+      ],
+      [
+        1,
+        "common arcane essence"
+      ]
+    ],
+    "time": "6 hours",
+    "num_checks": 3,
+    "dc": 14,
+    "note": null
+  },
+  {
+    "craft": "runecarving",
+    "result": "frost|kcg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "uncommon primal essence"
+      ],
+      [
+        1,
+        "uncommon magical ink"
+      ],
+      [
+        2,
+        "common primal essence"
+      ]
+    ],
+    "time": "6 hours",
+    "num_checks": 3,
+    "dc": 14,
+    "note": null
+  },
+  {
+    "craft": "runecarving",
+    "result": "vision|kcg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "uncommon primal essence"
+      ],
+      [
+        1,
+        "uncommon magical ink"
+      ],
+      [
+        1,
+        "common arcane essence"
+      ],
+      [
+        1,
+        "common divine essence"
+      ]
+    ],
+    "time": "6 hours",
+    "num_checks": 3,
+    "dc": 14,
+    "note": null
+  },
+  {
+    "craft": "runecarving",
+    "result": "size|kcg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "uncommon primal essence"
+      ],
+      [
+        1,
+        "uncommon magical ink"
+      ],
+      [
+        1,
+        "scroll of enlarge"
+      ]
+    ],
+    "time": "6 hours",
+    "num_checks": 3,
+    "dc": 14,
+    "note": null
+  },
+  {
+    "craft": "runecarving",
+    "result": "vigor|kcg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "rare primal essence"
+      ],
+      [
+        1,
+        "uncommon magical ink"
+      ],
+      [
+        4,
+        "rare curative reagent"
+      ],
+      [
+        1,
+        "uncommon divine essence"
+      ]
+    ],
+    "time": "12 hours",
+    "num_checks": 6,
     "dc": 15,
     "note": null
   },
   {
-    "craft": "woodcarving",
-    "result": "very rare branch|kcg",
+    "craft": "runecarving",
+    "result": "destruction|kcg",
+    "quantity": "1",
+    "materials": [
+      [
+        3,
+        "rare primal essence"
+      ],
+      [
+        3,
+        "uncommon primal essence"
+      ],
+      [
+        1,
+        "rare magical ink"
+      ]
+    ],
+    "time": "12 hours",
+    "num_checks": 6,
+    "dc": 16,
+    "note": null
+  },
+  {
+    "craft": "runecarving",
+    "result": "brutality|kcg",
+    "quantity": "1",
+    "materials": [
+      [
+        3,
+        "rare primal essence"
+      ],
+      [
+        1,
+        "rare magical ink"
+      ]
+    ],
+    "time": "12 hours",
+    "num_checks": 6,
+    "dc": 16,
+    "note": null
+  },
+  {
+    "craft": "runecarving",
+    "result": "wrath|kcg",
     "quantity": "1",
     "materials": [
       [
         1,
-        "rare branch"
+        "very rare primal essence"
+      ],
+      [
+        2,
+        "rare primal essence"
+      ],
+      [
+        1,
+        "very rare magical ink"
       ]
     ],
-    "time": "12 hours (1.5 days)",
-    "num_checks": 6,
+    "time": "16 hours (2 days)",
+    "num_checks": 8,
+    "dc": 17,
+    "note": null
+  },
+  {
+    "craft": "runecarving",
+    "result": "death|kcg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "legendary divine essence"
+      ],
+      [
+        1,
+        "legendary primal essence"
+      ],
+      [
+        1,
+        "legendary magical ink"
+      ],
+      [
+        4,
+        "rare primal essence"
+      ]
+    ],
+    "time": "24 hours (3 days)",
+    "num_checks": 12,
     "dc": 19,
     "note": null
   },
   {
-    "craft": "woodcarving",
-    "result": "legendary branch|kcg",
+    "craft": "runecarving",
+    "result": "color|kcg",
     "quantity": "1",
     "materials": [
       [
         1,
-        "very rare branch"
+        "common magical ink"
       ]
     ],
-    "time": "12 hours (1.5 days)",
+    "time": "2 hours",
+    "num_checks": 1,
+    "dc": 13,
+    "note": null
+  },
+  {
+    "craft": "runecarving",
+    "result": "comprehension|kcg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "scroll of comprehend languages"
+      ],
+      [
+        1,
+        "uncommon arcane essence"
+      ],
+      [
+        1,
+        "common divine essence"
+      ],
+      [
+        1,
+        "uncommon magical ink"
+      ]
+    ],
+    "time": "4 hours",
+    "num_checks": 2,
+    "dc": 14,
+    "note": null
+  },
+  {
+    "craft": "runecarving",
+    "result": "connection|kcg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "scroll of detect thoughts"
+      ],
+      [
+        1,
+        "scroll of calm emotions"
+      ],
+      [
+        1,
+        "uncommon divine essence"
+      ],
+      [
+        1,
+        "uncommon magical ink"
+      ]
+    ],
+    "time": "4 hours",
+    "num_checks": 2,
+    "dc": 14,
+    "note": null
+  },
+  {
+    "craft": "runecarving",
+    "result": "protection|kcg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "uncommon arcane essence"
+      ],
+      [
+        1,
+        "uncommon magical ink"
+      ],
+      [
+        1,
+        "scroll of shield"
+      ]
+    ],
+    "time": "4 hours",
+    "num_checks": 2,
+    "dc": 15,
+    "note": null
+  },
+  {
+    "craft": "runecarving",
+    "result": "gravity|kcg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "uncommon arcane essence"
+      ],
+      [
+        1,
+        "uncommon magical ink"
+      ],
+      [
+        1,
+        "scroll of levitate"
+      ]
+    ],
+    "time": "4 hours",
+    "num_checks": 2,
+    "dc": 15,
+    "note": null
+  },
+  {
+    "craft": "runecarving",
+    "result": "skill|kcg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "uncommon arcane essence"
+      ],
+      [
+        1,
+        "scroll of enhance ability"
+      ],
+      [
+        1,
+        "uncommon magical ink"
+      ]
+    ],
+    "time": "4 hours",
+    "num_checks": 2,
+    "dc": 15,
+    "note": null
+  },
+  {
+    "craft": "runecarving",
+    "result": "blood|kcg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "rare arcane essence"
+      ],
+      [
+        1,
+        "scroll of vampiric touch"
+      ],
+      [
+        1,
+        "rare magical ink"
+      ]
+    ],
+    "time": "8 hours",
+    "num_checks": 4,
+    "dc": 16,
+    "note": null
+  },
+  {
+    "craft": "runecarving",
+    "result": "power|kcg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "rare arcane essence"
+      ],
+      [
+        1,
+        "rare magical ink"
+      ],
+      [
+        2,
+        "uncommon arcane essence"
+      ]
+    ],
+    "time": "10 hours",
+    "num_checks": 5,
+    "dc": 17,
+    "note": null
+  },
+  {
+    "craft": "runecarving",
+    "result": "space|kcg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "rare arcane essence"
+      ],
+      [
+        1,
+        "scroll of dimension door"
+      ],
+      [
+        2,
+        "uncommon arcane essence"
+      ],
+      [
+        1,
+        "rare magical ink"
+      ]
+    ],
+    "time": "10 hours",
+    "num_checks": 5,
+    "dc": 17,
+    "note": null
+  },
+  {
+    "craft": "runecarving",
+    "result": "speed|kcg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "very rare arcane essence"
+      ],
+      [
+        1,
+        "very rare magical ink"
+      ],
+      [
+        1,
+        "scroll of haste"
+      ]
+    ],
+    "time": "12 hours",
     "num_checks": 6,
-    "dc": 20,
+    "dc": 17,
+    "note": null
+  },
+  {
+    "craft": "runecarving",
+    "result": "reality|kcg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "scroll of major image"
+      ],
+      [
+        1,
+        "scroll of creation"
+      ],
+      [
+        1,
+        "very rare arcane essence"
+      ],
+      [
+        2,
+        "rare arcane essence"
+      ],
+      [
+        1,
+        "very rare magical ink"
+      ]
+    ],
+    "time": "16 hours (2 days)",
+    "num_checks": 8,
+    "dc": 18,
+    "note": null
+  },
+  {
+    "craft": "runecarving",
+    "result": "time|kcg",
+    "quantity": "1",
+    "materials": [
+      [
+        1,
+        "scroll of time stop"
+      ],
+      [
+        1,
+        "legendary arcane essence"
+      ],
+      [
+        1,
+        "very rare arcane essence"
+      ],
+      [
+        1,
+        "legendary magical ink"
+      ],
+      [
+        2,
+        "rare divine essence"
+      ]
+    ],
+    "time": "24 hours (3 days)",
+    "num_checks": 12,
+    "dc": 21,
     "note": null
   }
 ]

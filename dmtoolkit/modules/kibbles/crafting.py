@@ -24,6 +24,7 @@ class CraftingType(StrEnum):
     Leatherworking = auto()
     Tinkering = auto()
     Woodcarving = auto()
+    Runecarving = auto()
 
 @dataclass
 class Recipe:
