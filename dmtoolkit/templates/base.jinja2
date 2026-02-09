@@ -22,37 +22,37 @@
         {% block header %}{% endblock %}
     </head>
     <body>
+        <div style="display: flex; flex-direction: column">
+            <div class="w3-bar w3-border w3-light-grey">
+                <a class="w3-bar-item w3-button" href="{{ url_for('settings_bp.settings') }}"><i class="fa-solid fa-gear"></i></a>
+                <a class="w3-bar-item w3-button" href="{{ url_for('tracker_bp.tracker') }}">Tracker</a>
+                <a class="w3-bar-item w3-button" href="{{ url_for('players_bp.list_players_page') }}">Manage Players</a>
+                {% for title, route in get_main_routes().items() %}
+                    <a class="w3-bar-item w3-button" href="{{ url_for(route) }}">{{ title }}</a>
+                {% endfor %}
+            </div>
 
-    <div class="w3-bar w3-border w3-light-grey">
-        <a class="w3-bar-item w3-button" href="{{ url_for('settings_bp.settings') }}"><i class="fa-solid fa-gear"></i></a>
-        <a class="w3-bar-item w3-button" href="{{ url_for('tracker_bp.tracker') }}">Tracker</a>
-        <a class="w3-bar-item w3-button" href="{{ url_for('players_bp.list_players_page') }}">Manage Players</a>
-        {% for title, route in get_main_routes().items() %}
-            <a class="w3-bar-item w3-button" href="{{ url_for(route) }}">{{ title }}</a>
-        {% endfor %}
-    </div>
+            {% with messages = get_flashed_messages(with_categories=True) %}
+                {% if messages %}
+                    {% for category, message in messages %}
+                        <div id="_flash_message_{{ loop.index }}" class="w3-panel w3-display-container {{ category }}">
+                            <span onclick="this.parentElement.style.display='none'" class="w3-button w3-display-topright">X</span>
+                            <p>{{ message }}</p>
+                        </div>
+                        <script>
+                            $('#_flash_message_{{ loop.index }}').delay(5000 + (2000 * {{ loop.index0 }})).fadeOut(1000);
+                        </script>
+                    {% endfor %}
+                {% endif %}
+            {% endwith %}
 
-    {% with messages = get_flashed_messages(with_categories=True) %}
-        {% if messages %}
-            {% for category, message in messages %}
-                <div id="_flash_message_{{ loop.index }}" class="w3-panel w3-display-container {{ category }}">
-                    <span onclick="this.parentElement.style.display='none'" class="w3-button w3-display-topright">X</span>
-                    <p>{{ message }}</p>
-                </div>
-                <script>
-                    $('#_flash_message_{{ loop.index }}').delay(5000 + (2000 * {{ loop.index0 }})).fadeOut(1000);
-                </script>
-            {% endfor %}
-        {% endif %}
-    {% endwith %}
+            <div id="content" class="content" style="flex-grow:1;display: flex;flex-direction: column;">
+                {% block content %}{% endblock %}
+            </div>
 
-    <div id="content" class="content">
-        {% block content %}{% endblock %}
-    </div>
-
-    <footer class="w3-container w3-teal">
-        <p>by Ben Airey</p>
-    </footer>
-
+            <footer class="w3-container w3-teal">
+                <p>by Ben Airey</p>
+            </footer>
+        </div>
     </body>
 </html>
