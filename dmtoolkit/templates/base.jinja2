@@ -18,6 +18,15 @@
                 }
             });
         </script>
+        <style>
+            .logo {
+                font-size: 24px;
+                font-variant: small-caps;
+                font-family: 'Times New Roman', Times, serif;
+                font-style: italic;
+                text-shadow: 1px 1px 2px #5f5f5f;
+            }
+        </style>
         {% block header %}{% endblock %}
     </head>
     <body>
@@ -25,14 +34,15 @@
     <div class="w3-bar w3-border w3-light-grey">
         <a class="w3-bar-item w3-button" href="{{ url_for('tracker_bp.tracker') }}">Tracker</a>
         <a class="w3-bar-item w3-button" href="{{ url_for('players_bp.list_players_page') }}">Manage Players</a>
+        <span style="margin-top: auto; margin-bottom: auto;display: inline-block; float: right; margin-right: 12px;"><span class="logo">BagOfTricks<sub>v{{ current_app_version }}</sub></span></span>
     </div>
 
     <div id="content" class="content">
         {% block content %}{% endblock %}
     </div>
 
-    <footer class="w3-container w3-teal">
-        <p>by Ben Airey</p>
+    <footer class="w3-container w3-teal w3-center">
+        <p>Copyright (c) <script>document.write(new Date().getFullYear())</script> by Ben Airey</p>
     </footer>
 
     </body>
