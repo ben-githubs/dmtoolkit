@@ -1,0 +1,6 @@
+min,max,item,amt,gp,sp,cp
+1,30,common poisonous reagent,1,,,
+31,60,uncommon poisonous reagent,1,,,
+61,80,uncommon curative reagent,1d4,,,
+81,90,uncommon primal essence,1,,,
+91,100,uncommon primal essence,1,,,

@@ -1,0 +1,10 @@
+Spell Scroll (Cantrip) 1 common magical ink 1 common parchment 2 hours 1 DC 12 Common 20 gp
+Spell Scroll (1st Level) 1 common essence 1 common magical ink 1 common parchment 2 hours 1 DC 12 Uncommon 65 gp
+Spell Scroll (2nd Level) 1 common essence 2 common magical ink 1 common parchment 2 hours 1 DC 14 Uncommon 90 gp
+Spell Scroll (3rd Level) 1 uncommon essence 1 uncommon magical ink 1 uncommon parchment 4 hours 2 DC 14 Rare 250 gp
+Spell Scroll (4th Level) 1 uncommon essence 2 uncommon magical ink 1 uncommon parchment 4 hours 2 DC 14 Rare 300 gp
+Spell Scroll (5th Level) 1 rare essence 1 rare magical ink 1 rare parchment 4 hours 2 DC 15 Rare 1200 gp
+Spell Scroll (6th Level) 1 rare essence 2 rare magical ink 1 rare parchment 4 hours 2 DC 16 Rare 1500 gp
+Spell Scroll (7th Level) 1 very rare essence 1 very rare magical ink 1 very rare parchment 8 hours 4 DC 17 Very Rare 12,000 gp
+Spell Scroll (8th Level) 1 very rare essence 2 very rare magical ink 1 very rare parchment 8 hours 4 DC 18 Very Rare 14,000 gp
+Spell Scroll (9th Level) 1 legendary essence 1 legendary magical ink 1 legendary parchment 24 hours (3 days) 12 DC 20 Legendary 40,000 gp

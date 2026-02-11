@@ -1,0 +1,122 @@
+Common FeastK
+1 common fresh ingredient
+1 common cooking supplies 1 hour 1 DC 8 common 3 gp
+Enhancing FeastK
+1 uncommon fresh ingredient
+1 uncommon cooking supplies
+2 common cooking supplies
+2 hours 1 DC 14 uncommon 15 gp
+Meat FeastK
+1 uncommon meat
+1 uncommon cooking supplies
+2 common cooking supplies
+2 hours 1 DC 14 uncommon 15 gp
+What Doesn’t Kill
+You... FeastK
+1 uncommon meat from a creature that
+deals poison damage
+2 uncommon poisonous reagents
+1 uncommon cooking supplies
+2 common cooking supplies
+2 hours 1 DC 16 uncommon 110 gp
+Seaworthy
+BouillabaisseK
+1 uncommon meat from a creature with a
+swimming speed greater than its walking speed
+2 uncommon cooking supplies
+2 common cooking supplies
+2 hours 1 DC 12 uncommon 25 gp
+Wondrous FeastK
+1 rare fresh ingredient
+1 uncommon reagent (any)
+1 rare cooking supplies
+1 uncommon cooking supplies
+2 common cooking supplies
+2 hours 1 DC 16 rare 150 gp
+Hearty Meat
+FeastK
+1 rare meat
+1 uncommon reagent (any)
+1 rare cooking supplies
+1 uncommon cooking supplies
+2 common cooking supplies
+2 hours 1 DC 16 rare 150 gp
+Elementally
+Fortifying FeastK
+1 rare meat from a creature with an
+elemental resistance or immunity
+2 uncommon reactive reagent
+1 common primal essence
+2 rare cooking supplies
+2 uncommon cooking supplies
+2 common cooking supplies
+2 hours 1 DC 16 rare 325 gp
+Heroes’ FeastK
+4 rare curative reagent
+2 uncommon divine essence
+4 rare cooking supplies
+4 cooking supplies
+4 hours 2 DC 18 rare 1,500 gp
+Superb FeastK
+1 very rare fresh ingredient
+1 rare reagent (any)
+2 rare cooking supplies
+2 uncommon cooking supplies
+2 common cooking supplies
+4 hours 2 DC 18 very rare 300 gp
+Superb Meat
+FeastK
+1 very rare meat
+1 rare reagent (any)
+2 rare cooking supplies
+2 uncommon cooking supplies
+2 common cooking supplies
+4 hours 2 DC 18 very rare 300 gp
+Legendary Meat
+FeastK
+1 legendary meat
+1 very rare reagent (any)
+3 rare cooking supplies
+3 uncommon cooking supplies
+1 common cooking supplies
+6 hours 3 DC 20 legendary 3,000 gp
+Legendary FeastK
+1 legendary fresh ingredient
+1 very rare reagent (any)
+3 rare cooking supplies
+3 uncommon cooking supplies
+1 common cooking supplies
+6 hours 3 DC 20 legendary 3,000 gp
+5 x Flame Breathing JerkyK
+1 uncommon or rarer meat from a
+creature that is immune to fire damage
+2 uncommon reactive reagents
+1 rare cooking supplies
+6 hours 3 DC 15 uncommon 250 gp
+5 x Mint ChewK 2 uncommon curative reagent
+1 uncommon cooking supplies 4 hours 2 DC 14 uncommon 100 gp
+5 x Morph CookiesK
+1 ingredient harvested from a
+shapeshifter
+1 rare cooking supplies
+1 uncommon cooking supplies
+1 common cooking supplies
+2 hours 2 DC 15 uncommon 125 gp
+5 x Seeing SticksK
+1 ingredient from a creature with
+blindsight or tremorsense
+1 uncommon reactive reagent
+1 rare cooking supplies
+1 common cooking supplies (optional)
+4 hours 2 DC 15 uncommon 150 gp
+5 x Quickening CandiesK
+1 rare cooking supplies
+2 uncommon cooking supplies
+1 common cooking supplies
+4 hours 2 DC 18 rare
+10 x Elvish BreadK
+1 uncommon curative reagent
+1 uncommon cooking supplies
+1 common cooking supplies
+6 hours 3 DC 15 uncommon 60 gp
+10 x Iron Rations 2 common cooking supplies 1 hour 1 DC 8 common 2 gp

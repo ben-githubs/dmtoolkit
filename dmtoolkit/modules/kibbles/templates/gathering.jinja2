@@ -1,0 +1,54 @@
+{% extends "base.jinja2" %}
+
+{% block header %}
+    <link rel=stylesheet type="text/css" href="{{ url_for('tracker_bp.static', filename='tracker.css') }}">
+    <link rel=stylesheet type="text/css" href="{{ url_for('tracker_bp.static', filename='statblock.css') }}">
+    <script src="{{url_for('tracker_bp.static', filename='tracker.js')}}"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Convergence">
+{% endblock %}
+
+{% block content %}
+
+<div style="width: 1200px; margin: auto">
+    <h1>Gathering</h1>
+
+    <p>Many of the materials can simply be found growing in the wild, and can be gathered by someone that knows what to look for and spends the time doing just that. When traveling at a slow pace through wilderness for 8 hours or more (i.e. not urban land or farmland), you can make a gathering check, but have disadvantage on the check to harvest anything found.</p>
+    <p>If you dedicate 8 hours to gathering without traveling, you can make two checks (without disadvantage) or find one item other than an essence of your choice that is available within that biome’s table (making the ability check from the corresponding line of the table to harvest it) or 1d12 of any trivial item (making a DC 8 ability check to harvest it).</p>
+
+    <div style="display:flex; gap: 10px; padding: 10px;">
+        <select class="w3-select" id="locale">
+            {% if not default_locale %}
+                <option value="" disabled selected>Choose your location</option>
+            {% endif %}
+            {% for locale in locales %}
+                <option value="{{url_for('kibbles.roll_gathering', locale_name=locale)}}" {{ "selected" if (locale == default_locale) }}>{{locale | title}}</option>
+            {% endfor %}
+        </select>
+        <a id="roll-button" class="w3-button w3-white w3-ripple w3-border" style="width: 200px" href="{{url_for('kibbles.roll_gathering', locale_name=default_locale) if default_locale}}">Roll Gathering</a>
+    </div>
+
+    {% if loot_response.items %}
+        <p>Note: {{ loot_response.note }}</p>
+        <ul>
+            {% for item_wrapper in loot_response.items %}
+                <li>{{ item_wrapper.quantity }} x {{ ('{@item ' + item_wrapper.item.id() + '}') | macro5e}} {{ '(' + item_wrapper.item.note + ')' if item_wrapper.item.note }}</li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <p><em>No ingredients are found.</em></p>
+    {% endif %}
+</div>
+
+<script>
+    $(document).ready(function() {
+        $('#locale').change(function (e) {
+            $('#roll-button').attr("href", e.target.value);
+        });
+    });
+</script>
+
+<div id="tooltip-sleeve" style="position: absolute; width: 0; height: 0;">
+    <div id="tooltip" class="tooltip"></div>
+</div>
+
+{% endblock %}

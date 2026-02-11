@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Efficient Quiver",
+    "source": [
+      "SRD",
+      1
+    ],
+    "rarity": "uncommon",
+    "weight": 2,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "Each of the quiver's three compartments connects to an extradimensional space that allow the quiver to hold numerous items while never weighing more than 2 pounds. The shortest compartment can hold up to sixty {@item arrow|phb|arrows}, {@item bolt|phb|bolts}, or similar objects. The midsize compartment holds up to eighteen {@item javelin|phb|javelins} or similar objects. The longest compartment holds up to six long objects, such as {@item longbow|phb|longbows}, {@item quarterstaff|phb|quarterstaffs}, or {@item spear|phb|spears}.",
+          "You can draw any item the quiver contains as if doing so from a regular quiver or scabbard."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 43000,
+    "item_type": "Adventuring Gear",
+    "properties": [],
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Iron Bands of Binding",
+    "source": [
+      "SRD",
+      1
+    ],
+    "rarity": "rare",
+    "weight": 1,
+    "entries": [
+      {
+        "title": "",
+        "body": [
+          "This rusty iron sphere measures 3 inches in diameter and weighs 1 pound. You can use an action to speak the command word and throw the sphere at a Huge or smaller creature you can see within 60 feet of you. As the sphere moves through the air, it opens into a tangle of metal bands.",
+          "Make a ranged attack roll with an attack bonus equal to your Dexterity modifier plus your proficiency bonus. On a hit, the target is restrained until you take a bonus action to speak the command word again to release it. Doing so, or missing with the attack, causes the bands to contract and become a sphere once more.",
+          "A creature, including the one restrained, can use an action to make a DC 20 Strength check to break the iron bands. On a success, the item is destroyed, and the restrained creature is freed. If the check fails, any further attempts made by that creature automatically fail until 24 hours have elapsed.",
+          "Once the bands are used, they can't be used again until the next dawn."
+        ],
+        "style": {},
+        "__dataclass__": "Entry"
+      }
+    ],
+    "value": 74000,
+    "item_type": "Wondroud Item",
+    "properties": [],
+    "__dataclass__": "Item"
+  }
+]

@@ -1,0 +1,134 @@
+Dagger 0.5 ingot 2 hours 1 DC 10 Common 3 gp
+Handaxe 1 ingot
+1 short haft 2 hours 1 DC 11 Common 5 gp
+Javelin 1 ingot
+1 short haft 2 hours 1 DC 9 Common 3 gp
+Light Hammer 1 ingot
+1 short haft 2 hours 1 DC 9 Common 3 gp
+Mace 2 ingots
+1 short haft 2 hours 1 DC 9 Common 5 gp
+Sickle 1 ingot
+1 short haft 2 hours 1 DC 10 Common 4 gp
+Spear 1 ingot
+1 long haft 2 hours 1 DC 9 Common 3 gp
+Battleaxe 3 ingots
+1 short haft 4 hours 2 DC 12 Common 10 gp
+Flail
+2 ingots
+1 short haft
+1 short chain
+4 hours 2 DC 12 Common 10 gp
+Glaive 4 ingots
+1 long haft 4 hours 2 DC 13 Common 20 gp
+Greataxe 8 ingots
+1 short haft 4 hours 2 DC 13 Common 30 gp
+Greatsword 10 ingots 4 hours 2 DC 15 Common 50 gp
+Halberd 4 ingots
+1 long haft 4 hours 2 DC 13 Common 20 gp
+Longsword 4 ingots 4 hours 2 DC 14 Common 15 gp
+Maul 8 ingots
+1 short haft 4 hours 2 DC 12 Common 25 gp
+Morning Star 4 ingots
+1 short haft 4 hours 2 DC 14 Common 15 gp
+Pike 3 ingots
+1 long haft 4 hours 2 DC 12 Common 15 gp
+Rapier 1 ingot 4 hours 2 DC 15 Common 25 gp
+Scimitar 2 ingots 4 hours 2 DC 14 Common 25 gp
+Shortsword 2 ingots 4 hours 2 DC 12 Common 10 gp
+War Pick 2 ingots
+1 short haft 4 hours 2 DC 12 Common 10 gp
+War Hammer 4 ingots
+1 short haft 4 hours 2 DC 12 Common 15 gp
+Chain Shirt 5 ingots 14 hours 7 DC 13 common 50 gp
+Scale Mail 8 ingots
+1 armor padding 14 hours 7 DC 12 common 50 gp
+Breastplate 10 ingots 16 hours 8 DC 16 common 400 gp
+half plate armor 16 ingots
+1 armor padding 28 hours 14 DC 17 common 750 gp
+Ring mail 4 ingots
+1 armor padding 10 hours 5 DC 11 common 30 gp
+Chain mail 9 ingots
+1 armor padding 14 hours 7 DC 13 common 75 gp
+Splint armor 12 ingots
+1 armor padding 28 hours 14 DC 14 common 200 gp
+Plate armor 30 ingots
+1 armor padding 56 hours 28 DC 17 common 1,500 gp
+Shield 2 ingots 6 hours 3 DC 10 common 10 gp
+Tower ShieldK 8 ingots 10 hours 5 DC 13 common 50 gp
+Spiked ShieldK 3 ingots 8 hours 4 DC 14 common 40 gp
+BracersK 2 ingots 4 hours 2 DC 13 common 15 gp
+Bell 2 metal scraps 2 hours 1 DC 9 common 1 gp
+Bucket 4 metal scraps 2 hours 1 DC 5 common 3 sp
+Ring 1 ingot 2 hours 1 DC 8 common 2 gp
+Horseshoe (4) 2 ingots 4 hours 2 DC 10 common 5 gp
+Chain (5 ft) 1 ingot 4 hours 2 DC 10 common 3 gp
+Caltrops 1 iron ingot 2 hours 1 DC 8 common 1 gp
+Ball Bearings 1 iron ingot 2 hours 1 DC 8 common 1 gp
+Iron Pot 1 iron ingot 2 hours 1 DC 9 common 2 gp
+20 x Pitons 1 iron ingot 2 hours 1 DC 8 common 1 gp
+10 x Iron Spike 2 iron ingots 2 hours 1 DC 8 common 1 gp
+Manacles
+2 ingots
+1 lock
+1 chain (5 feet)
+2 hours 1 DC 12 common 20 gp
+Helmet 2 ingots 8 hours 4 DC 12 common 12 gp
+smith’s Tools 4 ingots
+2 parts 8 hours 4 DC 11 common 20 gp
+Carpenter’s Tools 2 ingots
+1 parts 6 hours 3 DC 12 common 8 gp
+Adamantine Ingot
+1 steel ingot
+1 adamant ingot
+requires magical forge
+2 hours 1 DC 15 uncommon 60 gp
+Parts 5 metal scraps 4 hours 2 DC 9 common 2 gp
+5 x Buckle 5 metal scraps 2 hours 1 DC 8 common 1 gp
+20 x Metal Scraps 1 ingot 2 hours 1 DC 5 common 2 gp
+Iron Ingot 20 metal scraps 2 hours 1 DC 5 common 2 gp
+10 x Iron IngotsS 10 iron ore 4 hours 2 DC 5 common 10 gp
+10 x Steel IngotsS 10 iron ore
+1 supplies 4 hours 2 DC 8 common 20 gp
+Silver Ingot 20 silver scraps 2 hours 1 DC 5 common 2 gp
+20 x Silver Scraps 1 silver ingot 2 hours 1 DC 5 common 2 gp
+Fancy Parts 1 ingot 4 hours 2 DC 12 common 10 gp
+Gold Ingot 20 gold scraps 2 hours 1 DC 5 common 20 gp
+20 x Gold Scraps 1 gold ingot 2 hours 1 DC 5 common 20 gp
+Mithril IngotS 1 mithril ore 2 hours 1 DC 15 uncommon 30 gp
+Adamantine IngotS 1 admant ore 2 hours 1 DC 16 uncommon 60 gp
+Icesteel IngotS 1 icesteel ore
+1 common primal essence 2 hours 1 DC 16 uncommon 60 gp
+Firesteel IngotS 1 firesteel ore
+1 common primal essence 2 hours 1 DC 16 uncommon 60 gp
+Darksteel IngotS 1 darksteel ore
+1 common arcane essence 2 hours 1 DC 16 uncommon 60 gp
+10 x Thunder Cannon
+Ammo 2 ingots 2 hours 1 DC 15 common 20 gp
+20 x Firearm
+ammunition
+2 lead ingots
+1 packet of blasting powder 4 hours 2 DC 15 uncommon 80 gp
+Pistol
+3 ingots
+4 parts
+2 fancy parts
+16 hours 8 DC 16 uncommon 250 gp
+Musket
+6 ingots
+4 parts
+2 fancy parts
+16 hours 8 DC 17 uncommon 400 gp
+Shotgun
+8 ingots
+4 parts
+2 fancy parts
+2 esoteric parts
+32 hours 16 DC 19 uncommon 2,425 gp
+Thunder CannonK
+6 ingots
+2 uncommon primal essence
+2 uncommon arcane essence
+4 parts
+2 fancy parts
+1 esoteric part
+8 hours 4 DC 17 uncommon 1,000 gp

@@ -1,0 +1,350 @@
+Antitoxin (vial)
+2 common curative reagent
+1 common poisonous reagent
+1 glass vial
+2 hours 1 DC 13 common 50 gp
+Potion of Climbing
+1 common reactive reagent
+1 common poisonous reagent
+1 uncommon reactive reagent
+1 glass vial
+2 hours 1 DC 14 common 85 gp
+Potion of Healing 3 common curative reagent
+1 glass vial 2 hours 1 DC 13 common 50 gp
+Potion of Animal
+Friendship
+2 common reactive reagent
+1 common poisonous reagent
+1 uncommon curative reagent
+1 common primal essence
+1 glass vial
+2 hours 1 DC 13 uncommon 145 gp
+Potion of Fire breath
+1 common reactive reagent
+1 uncommon reactive reagent
+1 glass vial
+2 hours 1 DC 15 uncommon 75 gp
+Potion of Growth
+1 common reactive reagent
+1 uncommon curative reagent
+1 uncommon reactive reagent
+1 glass vial
+2 hours 1 DC 14 uncommon 115 gp
+Potion of Greater
+Healing
+1 common curative reagent
+2 uncommon curative reagent
+1 glass vial
+2 hours 1 DC 15 uncommon 120 gp
+Potion of Poison
+1 common poisonous reagent
+1 uncommon poisonous reagent
+1 glass vial
+2 hours 1 DC 13 uncommon 65 gp
+Potion of Acid Resistance
+1 uncommon primal essence
+1 uncommon reactive reagent
+1 common curative reagent
+1 glass vial
+2 hours 1 DC 15 uncommon 240 gp
+Potion of Cold Resistance
+1 uncommon primal essence
+1 uncommon reactive reagent
+1 common curative reagent
+1 glass vial
+2 hours 1 DC 15 uncommon 240 gp
+Potion of Fire Resistance
+1 uncommon primal essence
+1 uncommon reactive reagent
+1 common curative reagent
+1 glass vial
+2 hours 1 DC 15 uncommon 240 gp
+Potion of Force Resistance
+1 uncommon primal essence
+1 uncommon reactive reagent
+1 common curative reagent
+1 glass vial
+2 hours 1 DC 15 uncommon 240 gp
+Potion of Lightning Resistance
+1 uncommon primal essence
+1 uncommon reactive reagent
+1 common curative reagent
+1 glass vial
+2 hours 1 DC 15 uncommon 240 gp
+Potion of Necrotic Resistance
+1 uncommon primal essence
+1 uncommon reactive reagent
+1 common curative reagent
+1 glass vial
+2 hours 1 DC 15 uncommon 240 gp
+Potion of Poison Resistance
+1 uncommon primal essence
+1 uncommon reactive reagent
+1 common curative reagent
+1 glass vial
+2 hours 1 DC 15 uncommon 240 gp
+Potion of Psychic Resistance
+1 uncommon primal essence
+1 uncommon reactive reagent
+1 common curative reagent
+1 glass vial
+2 hours 1 DC 15 uncommon 240 gp
+Potion of Radiant Resistance
+1 uncommon primal essence
+1 uncommon reactive reagent
+1 common curative reagent
+1 glass vial
+2 hours 1 DC 15 uncommon 240 gp
+Potion of Thunder Resistance
+1 uncommon primal essence
+1 uncommon reactive reagent
+1 common curative reagent
+1 glass vial
+2 hours 1 DC 15 uncommon 240 gp
+Potion of Water
+Breathing
+1 common reactive reagent
+1 uncommon poisonous reagent
+1 uncommon reactive reagent
+1 glass vial
+2 hours 1 DC 15 uncommon 120 gp
+Potion of Hill Giant
+Strength
+1 uncommon primal essence
+1 uncommon reactive reagent
+1 uncommon curative reagent
+4 hours 2 DC 15 uncommon 260 gp
+Potion of Clairvoyance
+1 uncommon reactive reagent
+1 uncommon poisonous reagent
+2 rare reactive reagent
+1 common arcane essence
+1 glass vial
+2 hours 1 DC 16 rare 570 gp
+Potion of Gaseous Form
+2 uncommon reactive reagent
+1 rare curative reagent
+1 rare reactive reagent
+1 glass vial
+2 hours 1 DC 16 rare 560 gp
+Potion of Diminution
+1 uncommon curative reagent
+1 rare curative reagent
+1 rare poisonous reagent
+1 glass vial
+2 hours 1 DC 15 rare 480 gp
+Potion of Heroism
+1 uncommon curative reagent
+1 uncommon reactive reagent
+2 rare curative reagent
+1 common divine essence
+1 glass vial
+2 hours 1 DC 15 rare 480 gp
+Potion of Mind Reading
+1 uncommon poisonous reagent
+1 uncommon reactive reagent
+1 rare poisonous reagent
+1 rare reactive reagent
+1 glass vial
+2 hours 1 DC 16 rare 550 gp
+Potion of Superior
+Healing
+2 uncommon curative reagent
+2 rare curative reagent
+1 glass vial
+4 hours 2 DC 15 rare 525 gp
+Draught of DamnationK
+1 rare reactive reagent
+1 rare poisonous reagent
+1 uncommon arcane essence
+4 hours 2 DC 16 rare 680 gp
+Potion of Supreme
+Healing
+1 uncommon curative reagent
+1 rare curative reagent
+2 very rare curative reagent
+1 uncommon divine essence
+1 crystal vial
+4 hours 2 DC 18 very rare 5000 gp
+Potion of Flying
+2 uncommon reactive reagent
+2 rare curative reagent
+2 very rare reactive reagent
+1 uncommon primal essence
+1 uncommon arcane essence
+1 crystal vial
+4 hours 2 DC 19 very rare 5,500 gp
+Potion of Invisibility
+2 uncommon reactive reagent
+2 rare curative reagent
+1 very rare reactive reagent
+1 very rare curative reagent
+1 crystal vial
+4 hours 2 DC 19 very rare 5,200 gp
+Potion of Speed
+2 uncommon reactive reagent
+2 rare reactive reagent
+1 very rare reactive reagent
+1 very rare curative reagent
+1 rare arcane essence
+1 crystal vial
+4 hours 2 DC 20 very rare 6150 gp
+PanaceaK
+1 legendary curative reagent
+2 very rare curative reagent
+1 legendary divine essence
+1 crystal vial
+8 hours 4 DC 24 legendary 54,000 gp
+Potion of Storm Giant
+Strength
+1 legendary reactive reagent
+1 legendary curative reagent
+1 very rare primal essence
+1 crystal vial
+8 hours 4 DC 23 legendary 25,000 gp
+Alchemical AcidK
+2 common reactive reagent
+1 common poisonous reagent
+1 glass flask
+2 hours 1 DC 13 common 50 gp
+Alchemical FireK 3 common reactive reagent
+1 glass flask 2 hours 1 DC 13 common 50 gp
+Alchemical NapalmK
+3 common reactive reagent
+1 common curative reagent
+1 glass flask
+2 hours 1 DC 14 common 70 gp
+Bottled WindK 2 common reactive reagent
+1 glass flask 2 hours 1 DC 14 common 40 gp
+Potent Alchemical
+AcidK
+2 uncommon reactive reagent
+1 uncommon poisonous reagent
+1 glass flask
+2 hours 1 DC 15 uncommon 140 gp
+Potent Alchemical FireK 3 uncommon reactive reagent
+1 glass flask 2 hours 1 DC 15 uncommon 140 gp
+Sticky Goo PotionK
+Either (a) 1 finely shredded scroll of
+web or (b) 2 uncommon poisonous
+reagent
+1 uncommon reactive reagent
+1 glass flask
+2 hours 1 DC 14 uncommon 140 gp
+Powerful Alchemical
+AcidK
+2 rare reactive reagent
+1 rare poisonous reagent
+1 glass flask
+2 hours 1 DC 17 rare 690 gp
+Powerful Alchemical
+FireK
+3 rare reactive reagent
+1 glass flask 2 hours 1 DC 17 rare 690 gp
+Liquid LightningDS
+2 rare reactive reagent
+1 uncommon primal essence
+1 glass vial
+2 hours 1 DC 16 rare 640 gp
+Dust of Disappearance
+1 handful of sand
+1 common arcane essence
+2 common reactive reagent
+1 common curative reagent
+4 hours 2 DC 15 uncommon 130 gp
+Dust of Dryness
+1 handful of sand
+1 common primal essence
+1 common reactive reagent
+1 common poisonous reagent
+4 hours 2 DC 14 uncommon 100 gp
+Dust of Sneezing and
+Choking
+1 uncommon poisonous reagent
+1 common reactive reagent
+1 common poisonous reagent
+4 hours 2 DC 14 uncommon 95 gp
+Dwarven AlcoholK
+1 flask of alcohol
+1 common reactive reagent
+1 sturdy metal flask
+8 hours 4 DC 12 common 20 gp
+Packet of Blasting
+PowderK 2 common reactive reagent 2 hours 1 DC 14 common 40 gp
+Smoke PowderK 2 common reactive reagent 2 hours 1 DC 15 common 40 gp
+Simple ExplosiveK 2 packet of blasting powder
+1 common reactive reagent 2 hours 1 DC 15 common 120 gp
+Grenade CasingK
+2 parts
+1 fancy parts
+1 glass flask
+4 hours 1 DC 15 uncommon 50 gp
+Potent ExplosiveK 4 packet of blasting powder
+1 common reactive reagent 2 hours 1 DC 17 uncommon 250 gp
+Nail BombK
+3 parts
+2 uncommon reactive reagent
+1 packet of blasting powder
+2 hours 1 DC 17 uncommon 275 gp
+Powerful ExplosiveK 8 packet of blasting powder
+1 rare reactive reagent 4 hours 2 DC 19 rare 750 gp
+Common Magical
+Ink
+1 common alchemical reagent
+1 glass vial 2 hours 1 DC 10 common 15 gp
+Uncommon Magical
+Ink
+1 uncommon alchemical reagent
+1 glass vial 2 hours 1 DC 12 uncommon 40 gp
+Rare Magical
+Ink
+1 rare alchemical reagent
+1 glass vial 2 hours 1 DC 14 rare 200 gp
+Very Rare Magical
+Ink
+1 very rare alchemical reagent
+1 glass vial 4 hours 2 DC 16 very rare 2,000 gp
+Legendary Magical
+Ink
+1 legendary alchemical reagent
+1 glass vial 8 hours 4 DC 18 legendary 5,000 gp
+Burning OilK 2 common reactive reagent
+1 glass vial 2 hours 1 DC 13 common 40 gp
+Frost OilK
+1 common reactive reagent
+1 common primal essence
+1 glass vial
+2 hours 1 DC 14 common 75 gp
+Silver OilK
+4 silver scraps
+1 common reactive reagent
+1 glass vial
+2 hours 1 DC 12 common 20 gp
+Flametongue OilK
+2 uncommon reactive reagent
+1 common arcane essence
+1 glass vial
+2 hours 1 DC 16 uncommon 170 gp
+Oil of Sharpness
+1 rare poisonous reagent
+2 very rare reactive reagent
+300 gp of precious metal flakes
+1 crystal vial
+4 hours 2 DC 19 very rare 5,200 gp
+Restorative Ointment
+1 common divine essence
+2 uncommon curative reagent
+3 common curative reagent
+8 hours 4 DC 15 uncommon 250 gp
+Sovereign Glue
+1 legendary curative reagent
+1 legendary reactive reagent
+1 very rare divine essence
+16 hours
+(2 days) 8 DC 22 legendary 25,000 gp
+Universal Solvent
+1 legendary poisonous reagent
+1 legendary reactive reagent
+1 very rare primal essence
+16 hours
+(2 days) 8 DC 22 legendary 25,000 gp

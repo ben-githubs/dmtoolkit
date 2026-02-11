@@ -174,7 +174,59 @@ def convert(infile: Path, outfile: Path):
                     f"{variant['name']} for item {item['name']}: "
                     f"{type(e).__name__}: {e}"
                 ) from e
+        
+        # Create base variant iterm (useful for crafting and stuff)
+        try:
+            new_entries = variant["inherits"].get("entries", [])
+            for idx in range(len(new_entries)):
+                if not isinstance(new_entries[idx], str):
+                    continue
+                new_entries[idx] = re.sub(r"\{=(\w+)}", lambda x: new_specs.get(x.groups(1), ""), new_entries[idx])
+            variant_items.append({
+                "name": variant["name"],
+                "source": variant["inherits"]["source"],
+                "page": variant["inherits"]["page"],
+                "rarity": variant["inherits"]["rarity"],
+                "weight": 0,
+                "value": 0,
+                "item_type": "generic variant",
+                "entries": new_entries,
+                "attunement": "requires attunement" if variant["inherits"].get("reqAttune") else ""
+            })
+            print(variant["name"])
+        except BaseException as e:
+            raise ConverterError(
+                "Unable to create variant base item "
+                f"{variant['name']} "
+                f"{type(e).__name__}: {e}"
+            ) from e
     raw_item_specs |= {(item["name"], item["source"]): item for item in variant_items}
+
+    for item_group_spec in deep_get(raw_item_specs_container, "magic", "itemGroup"):
+        # Ignore 5.5e stuff
+        if item_group_spec["source"].startswith("X"):
+            continue
+        # Create base variant iterm (useful for crafting and stuff)
+        try:
+            new_entries = item_group_spec.get("entries", [])
+            raw_item_specs[(item_group_spec["name"], item_group_spec["source"])] = {
+                "name": item_group_spec["name"],
+                "source": item_group_spec["source"],
+                "page": item_group_spec["page"],
+                "rarity": item_group_spec["rarity"],
+                "weight": 0,
+                "value": 0,
+                "item_type": "generic variant",
+                "entries": new_entries,
+                "attunement": "requires attunement" if item_group_spec.get("reqAttune") else ""
+            }
+            print(item_group_spec["name"])
+        except BaseException as e:
+            raise ConverterError(
+                "Unable to create variant base item "
+                f"{item_group_spec['name']} "
+                f"{type(e).__name__}: {e}"
+            ) from e
 
     # Convert all item specs to Item objects
     for item_spec in raw_item_specs.values():

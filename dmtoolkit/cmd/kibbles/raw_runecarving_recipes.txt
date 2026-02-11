@@ -1,0 +1,23 @@
+Light 1 common primal essence 1 common magical ink 4 hours 2 DC 12 common 70 gp
+Fire 1 uncommon primal essence 1 uncommon magical ink 2 uncommon reactive reagent 6 hours 3 DC 14 uncommon 320 gp
+Lightning 1 uncommon primal essence 1 uncommon magical ink 1 common primal essence 1 common arcane essence 6 hours 3 DC 14 uncommon 330 gp
+Frost 1 uncommon primal essence 1 uncommon magical ink 2 common primal essence 6 hours 3 DC 14 uncommon 330 gp
+Vision 1 uncommon primal essence 1 uncommon magical ink 1 common arcane essence 1 common divine essence 6 hours 3 DC 14 uncommon 330 gp
+Size 1 uncommon primal essence 1 uncommon magical ink 1 scroll of enlarge/reduce 6 hours 3 DC 14 uncommon 320 gp
+Vigor 1 rare primal essence 1 uncommon magical ink 4 rare curative reagent 1 uncommon divine essence 12 hours 6 DC 15 rare 1,900 gp
+Destruction 3 rare primal essence 3 uncommon primal essence 1 rare magical ink 12 hours 6 DC 16 rare 3,500 gp
+Brutality 3 rare primal essence 1 rare magical ink 12 hours 6 DC 16 rare 3,300 gp
+Wrath 1 very rare primal essence 2 rare primal essence 1 very rare magical ink 16 hours (2 days) 8 DC 17 very rare 12,000 gp
+Death 1 legendary divine essence 1 legendary primal essence 1 legendary magical ink 4 rare primal essence 24 hours (3 days) 12 DC 19 legendary 65,000 gp
+Color 1 common magical ink 2 hours 1 DC 13 common 20 gp
+Comprehension 1 scroll of comprehend languages 1 uncommon arcane essence 1 common divine essence 1 uncommon magical ink 4 hours 2 DC 14 uncommon 350 gp
+Connection 1 scroll of detect thoughts 1 scroll of calm emotions 1 uncommon divine essence 1 uncommon magical ink 4 hours 2 DC 14 uncommon 390 gp
+Protection 1 uncommon arcane essence 1 uncommon magical ink 1 scroll of shield 4 hours 2 DC 15 uncommon 305 gp
+Gravity 1 uncommon arcane essence 1 uncommon magical ink 1 scroll of levitate 4 hours 2 DC 15 uncommon 320 gp
+Skill 1 uncommon arcane essence 1 scroll of enhance ability 1 uncommon magical ink 4 hours 2 DC 15 uncommon 490 gp
+Blood 1 rare arcane essence 1 scroll of vampiric touch 1 rare magical ink 8 hours 4 DC 16 rare 1,400 gp
+Power 1 rare arcane essence 1 rare magical ink 2 uncommon arcane essence 10 hours 5 DC 17 rare 1,600 gp
+Space 1 rare arcane essence 1 scroll of dimension door 2 uncommon arcane essence 1 rare magical ink 10 hours 5 DC 17 rare 2,000 gp
+Speed 1 very rare arcane essence 1 very rare magical ink 1 scroll of haste 12 hours 6 DC 17 very rare 10,500 gp
+Reality 1 scroll of major image 1 scroll of creation 1 very rare arcane essence 2 rare arcane essence 1 very rare magical ink 16 hours (2 days) 8 DC 18 very rare 14,000 gp
+Time 1 scroll of time stop 1 legendary arcane essence 1 very rare arcane essence 1 legendary magical ink 2 rare divine essence 24 hours (3 days) 12 DC 21 legendary 100,000 gp
