@@ -140,7 +140,7 @@ class Macro5e:
         spell_url = sanitize_names(spell_url)
         func = f"showNewTooltip(event, '{spell_url}')"
         
-        return f"""<span class="tooltip" onmouseenter="{func}" onmouseleave="hideTooltip(event)"><a href="{url}">{titlecase(spell_name)}</a></span>"""
+        return f"""<span class="tooltip" onmouseenter="{func}" onmouseleave="hideTooltip(event)"><a href="{url}">{titlecase(spell_name or spell_id)}</a></span>"""
 
     @staticmethod
     def render_status(match: re.Match) -> str:
