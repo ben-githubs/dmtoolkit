@@ -5596,5 +5596,35 @@
     "min_strength": 0,
     "affects_stealth": false,
     "__dataclass__": "ItemArmor"
+  },
+  {
+    "name": "Ring",
+    "source": [
+      "KCG",
+      46
+    ],
+    "rarity": "common",
+    "weight": 0,
+    "entries": [],
+    "value": 200,
+    "item_type": "Treasure (Art Object)",
+    "properties": [],
+    "attunement": "",
+    "__dataclass__": "Item"
+  },
+  {
+    "name": "Holster",
+    "source": [
+      "KCG",
+      0
+    ],
+    "rarity": "common",
+    "weight": 1,
+    "entries": [],
+    "value": 50,
+    "item_type": "Tack and Harness",
+    "properties": [],
+    "attunement": "",
+    "__dataclass__": "Item"
   }
 ]

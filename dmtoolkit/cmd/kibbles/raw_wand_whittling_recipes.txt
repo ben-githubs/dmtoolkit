@@ -1,29 +1,22 @@
 Lesser Wand of Cantrip 1 scroll of the spell 1 common branch 2 hours 1 DC 12 common 30 gp
 Blast Stick 2 common arcane essence 1 common branch 8 hours 4 DC 14 common 215 gp
 Wand of ChoresK 1 scroll of prestidigitation 1 common arcane essence 1 common branch 8 hours 4 DC 14 common 160 gp
-Magician’s WandK 1 scroll of minor illlusion 1 hat worth at least 5 gp
-2 common arcane essence 1 common branch 8 hours 4 DC 14 common 165 gp
+Magician’s WandK 1 scroll of minor illlusion 1 hat worth at least 5 gp 2 common arcane essence 1 common branch 8 hours 4 DC 14 common 165 gp
 Goodberry DispenserK 1 scroll of goodberry 2 common primal essence 1 common branch 8 hours 4 DC 15 common 240 gp
 WhisperstickK 1 scroll of message 1 common arcane essence 1 common psionic essence 1 common branch 8 hours 4 DC 15 common 190 gp
 Wand of Magic Detection 1 scroll of detect magic 1 uncommon arcane essence 1 uncommon branch 8 hours 4 DC 15 uncommon 325 gp
-Wand of Magic Missiles 1 scroll of magic missile 3 uncommon arcane essence 1 gem worth 50 gp
-1 uncommon branch 12 hours 6 DC 17 uncommon 950 gp
+Wand of Magic Missiles 1 scroll of magic missile 3 uncommon arcane essence 1 gem worth 50 gp 1 uncommon branch 12 hours 6 DC 17 uncommon 950 gp
 Wand of Secrets 1 scroll of find traps 1 common arcane essence 1 common primal essence 1 uncommon branch 8 hours 4 DC 15 uncommon 250 gp
 Wand of Web 1 scroll of web 1 uncommon arcane essence 1 uncommon primal essence 1 uncommon branch 12 hours 6 DC 16 uncommon 600 gp
-+1 Wand of the War Mage 1 uncommon arcane essence 1 uncommon primal essence 1 uncommon divine essence 1 jewel worth 150 gp
-1 uncommon branch 8 hours 4 DC 16 uncommon 800 gp
-Wand of Binding 1 scroll of hold monster 1 scroll of hold person 4 rare arcane essence 1 rare branch 24 hours (3 days) 12 DC 17 rare 4,600 gp
++1 Wand of the War Mage 1 uncommon arcane essence 1 uncommon primal essence 1 uncommon divine essence 1 jewel worth 150 gp 1 uncommon branch 8 hours 4 DC 16 uncommon 800 gp
+Wand of Binding 1 scroll of hold monster 1 scroll of hold person 4 rare arcane essence 1 rare branch 24 hours (3 days) 12 DC 17 rare 4600 gp
 Wand of Enemy Detection 1 scroll of see invisbility 1 scroll of true seeing 1 rare arcane essence 1 rare branch 16 hours 8 DC 17 rare 300 gp
-Wand of Fear 1 scroll of fear 2 rare arcane essence 1 uncommon divine essence 1 rare branch 16 hours (2 days) 8 DC 18 rare 2,400 gp
-Wand of Fireballs 1 scroll of fireball 3 rare arcane essence 2 rare primal essence 1 ruby worth 500 gp
-1 rare branch 24 hours (3 days) 12 DC 18 rare 5,300 gp
-Wand of Lightning Bolts 1 scroll of lightning bolt 2 rare arcane essence 3 rare primal essence 1 topaz worth 500 gp
-1 rare branch 24 hours (3 days) 12 DC 18 rare 5,300 gp
-Wand of Paralysis 1 wand of binding 4 rare arcane essence 1 rare branch 24 hours (3 days) 12 DC 17 very rare 8, 000 gp
-Wand of Wonder 1 scroll of prestidigitation 1 scroll of faerie fire 1 scroll of stinking cloud 1 scroll of darkness 1 scroll of enlarge/reduce 1 scroll of invisibility 1 scroll of lightning bolt A handful of colorful gems worth 250 gp
-1 uncommon primal essence 1 uncommon divine essence 1 uncommon arcane essence 1 rare branch 16 hours (2 days) 8 DC 18 rare 2,100 gp
+Wand of Fear 1 scroll of fear 2 rare arcane essence 1 uncommon divine essence 1 rare branch 16 hours (2 days) 8 DC 18 rare 2400 gp
+Wand of Fireballs 1 scroll of fireball 3 rare arcane essence 2 rare primal essence 1 ruby worth 500 gp 1 rare branch 24 hours (3 days) 12 DC 18 rare 5300 gp
+Wand of Lightning Bolts 1 scroll of lightning bolt 2 rare arcane essence 3 rare primal essence 1 topaz worth 500 gp 1 rare branch 24 hours (3 days) 12 DC 18 rare 5300 gp
+Wand of Paralysis 1 wand of binding 4 rare arcane essence 1 rare branch 24 hours (3 days) 12 DC 17 very rare 8000 gp
 +2 Wand of the War Mage 2 rare arcane essence 2 rare primal essence 2 rare divine essence 1 jewel worth 300 gp
-1 rare branch 24 hours (3 days) 12 DC 19 rare 5,400 gp
-Wand of Polymorph 1 scroll of polymorph 2 very rare arcane essence 1 very rare primal essence 1 very rare branch 24 hours (3 days) 12 DC 18 very rare 25,000 gp
+1 rare branch 24 hours (3 days) 12 DC 19 rare 5400 gp
+Wand of Polymorph 1 scroll of polymorph 2 very rare arcane essence 1 very rare primal essence 1 very rare branch 24 hours (3 days) 12 DC 18 very rare 25000 gp
 +3 Wand of the War Mage 1 legendary arcane essence 1 very rare primal essence 1 very rare divine essence 1 jewel worth 500 gp
-1 very rare branch 48 hours (6 days) 24 DC 21 very rare 50,000 gp
+1 very rare branch 48 hours (6 days) 24 DC 21 very rare 50000 gp

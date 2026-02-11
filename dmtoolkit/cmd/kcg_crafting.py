@@ -312,31 +312,56 @@ def hard_coded_recipes():
             "time": "2 hours",
             "num_checks": 1,
             "dc": 8,
+        },
+        { # Wand of Wonder 1 scroll of prestidigitation 1 scroll of faerie fire 1 scroll of stinking cloud 1 scroll of darkness 1 scroll of enlarge/reduce 1 scroll of invisibility 1 scroll of lightning bolt A handful of colorful gems worth 250 gp
+            "craft": "wand_whittling",
+            "result": "wand of wonder|dmg",
+            "quantity": 1,
+            "materials": [
+                [1, '{@spell prestidigitation||scroll of prestidigitation}'],
+                [1, '{@spell faerie fire||scroll of faerie fire}'],
+                [1, '{@spell stinking cloud||scroll of stinking cloud}'],
+                [1, '{@spell darkness||scroll of darkness}'],
+                [1, '{@spell enlarge||scroll of enlarge}'],
+                [1, '{@spell invisibility||scroll of invisibility}'],
+                [1, 'scroll of lightning bolt'],
+                [1, 'A handful of colorful gems worth 250 gp '],
+                [1, 'uncommon primal essence'],
+                [1, 'uncommon divine essence'],
+                [1, 'uncommon arcane essence'],
+                [1, 'rare branch']
+            ],
+            "time": "16 hours (2 days)",
+            "num_checks": 8,
+            "dc": 18,
         }
     ]
 
 def convert():
     recipes = (
         hard_coded_recipes() +
-        # convert_alchemy() + 
-        # convert_poisoncraft() + 
-        # convert_blacksmithing() + 
-        # convert_cooking() + 
-        # convert_enchanting() + 
-        # convert_scrollscribing() + 
-        # convert_wand_whittling() + 
-        # convert_leatherworking() + 
-        # convert_tinkering() + 
-        # convert_woodcarving() + 
+        convert_alchemy() + 
+        convert_poisoncraft() + 
+        convert_blacksmithing() + 
+        convert_cooking() + 
+        convert_enchanting() + 
+        convert_scrollscribing() + 
+        convert_wand_whittling() + 
+        convert_leatherworking() + 
+        convert_tinkering() + 
         convert_runecarving()
     )
     # Quickly convert any spell scrolls
     for recipe in recipes:
         for material in recipe["materials"]:
-            if material[1].startswith("scroll of "):
-                spell_name = str(material[1]).replace("scroll of ", "", 1)
-                new_item = f"{{@spell {spell_name}||{material[1]}}}"
-                material[1] = new_item
+            try:
+                if material[1].startswith("scroll of "):
+                    spell_name = str(material[1]).replace("scroll of ", "", 1)
+                    new_item = f"{{@spell {spell_name}||{material[1]}}}"
+                    material[1] = new_item
+            except Exception as e:
+                print(f"Error with recipe '{recipe}'")
+                raise e
 
     with TARGET_FILE.open("w") as f:
         json.dump(recipes, f, indent=2)
