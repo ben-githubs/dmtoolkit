@@ -4,6 +4,9 @@ test:
 install:
 	poetry install
 
+install-dev:
+	poetry install --with dev
+
 build: install
 	poetry run pip freeze --exclude-editable > requirements.txt
 	docker build -t bagoftricks:latest .

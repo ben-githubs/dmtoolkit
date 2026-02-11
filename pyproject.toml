@@ -22,6 +22,7 @@ dmk = "dmtoolkit.cmd.main:main"
 
 [tool.poetry.group.dev.dependencies]
 gunicorn = "^25.0.3"
+pytest = "^9.0.2"
 
 
 [tool.poetry.group.cmd.dependencies]
