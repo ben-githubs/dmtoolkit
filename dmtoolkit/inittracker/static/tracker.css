@@ -95,6 +95,7 @@ div.saved-encounter-list div.selected {
 
 div#contextmenu {
     position: absolute;
+    display: none;
 }
 
 div.contextmenu {

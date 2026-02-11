@@ -3,6 +3,7 @@ import re
 from urllib.parse import quote
 from flask import url_for
 from dmtoolkit.api import items
+import importlib.metadata
 
 def sanitize_names(name: str) -> str:
     """Sanitize the names for use in a javascript string."""
@@ -139,7 +140,7 @@ class Macro5e:
         spell_url = sanitize_names(spell_url)
         func = f"showNewTooltip(event, '{spell_url}')"
         
-        return f"""<span class="tooltip" onmouseenter="{func}" onmouseleave="hideTooltip(event)"><a href="{url}">{titlecase(spell_name)}</a></span>"""
+        return f"""<span class="tooltip" onmouseenter="{func}" onmouseleave="hideTooltip(event)"><a href="{url}">{titlecase(spell_name or spell_id)}</a></span>"""
 
     @staticmethod
     def render_status(match: re.Match) -> str:
@@ -173,3 +174,5 @@ def ordinal(s: str | int) -> str:
 def add_filters(app):
     app.jinja_env.filters["macro5e"] = Macro5e.render_macros
     app.jinja_env.filters["ordinal"] = ordinal
+
+    app.jinja_env.globals["current_app_version"] = importlib.metadata.version("dmtoolkit")

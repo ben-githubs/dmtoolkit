@@ -19,6 +19,15 @@
                 }
             });
         </script>
+        <style>
+            .logo {
+                font-size: 24px;
+                font-variant: small-caps;
+                font-family: 'Times New Roman', Times, serif;
+                font-style: italic;
+                text-shadow: 1px 1px 2px #5f5f5f;
+            }
+        </style>
         {% block header %}{% endblock %}
     </head>
     <body>
@@ -30,6 +39,7 @@
                 {% for title, route in get_main_routes().items() %}
                     <a class="w3-bar-item w3-button" href="{{ url_for(route) }}">{{ title }}</a>
                 {% endfor %}
+                <span style="margin-top: auto; margin-bottom: auto;display: inline-block; float: right; margin-right: 12px;"><span class="logo">BagOfTricks<sub>v{{ current_app_version }}</sub></span></span>
             </div>
 
             {% with messages = get_flashed_messages(with_categories=True) %}
@@ -50,8 +60,8 @@
                 {% block content %}{% endblock %}
             </div>
 
-            <footer class="w3-container w3-teal">
-                <p>by Ben Airey</p>
+            <footer class="w3-container w3-teal" style="text-align: center;">
+                <p>Copyright (c) <script>document.write(new Date().getFullYear())</script> by Ben Airey</p>
             </footer>
         </div>
     </body>

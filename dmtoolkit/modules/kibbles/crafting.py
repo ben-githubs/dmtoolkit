@@ -41,7 +41,7 @@ class Recipe:
     def from_spec(spec: dict[str, Any]) -> Recipe:
         result = get_item(spec["result"])
         if not result:
-            raise ValueError(f"Unknown item: {spec["result"]}")
+            raise ValueError(f"Unknown item: {spec['result']}")
         materials = []
         for material in spec["materials"]:
             if isinstance(material, str):
