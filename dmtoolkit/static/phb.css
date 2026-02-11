@@ -1,0 +1,51 @@
+.phb-style h1, h2, h3, h4 {
+    font-variant: small-caps;
+    color: #822000;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    line-height: 1.35;
+}
+
+.phb-style h3 {
+    border-bottom: 2px solid #822000;
+}
+
+.phb-style p {
+    margin-top: 0;
+    margin-bottom: 5px;
+    text-indent: 15px;
+}
+
+.phb-style :is(h1, h2, h3, h4, h5, h6) + p {
+    text-indent: 0;
+}
+
+.phb-style hr {
+    border-top: 2px solid #822000;
+    margin-top: 8px;
+    padding-bottom: 8px;
+    margin-bottom: 0;
+}
+
+.phb-style p.center {
+    text-align: center;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.phb-style table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.phb-style table th, td {
+    text-align: center
+}
+
+.phb-style table th {
+    font-weight: bold;
+}
+
+.phb-style table tbody tr:nth-child(even) {
+    background-color: #d6d6d6;
+}

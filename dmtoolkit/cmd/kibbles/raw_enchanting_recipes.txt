@@ -1,0 +1,279 @@
+Doodle RingGS 1 ring 1 scroll of illusory script 1 common magical ink 8 hours 4 DC 12  common 100 gp
+Bag of Beans 1 bag of beans 1 scroll of plant growth 1 scroll of conjure animals 1 uncommon primal essence 6 common primal essence 24 hours (3 days) 12 DC 15  uncommon 1,750 gp
+Bag of Holding 1 bag 1 scroll of secret chest 2 uncommon arcane essence 16 hours (2 days) 8 DC 16  uncommon 1,000 gp
+Bag of Tricks, Tan 1 bag 4 common arcane essence 1 scroll of conjure animals 12 hours (1.5 days) 6 DC 14  uncommon 520 gp
+Bag of Tricks, Gray 1 bag 4 common arcane essence 1 scroll of conjure animals 12 hours (1.5 days) 6 DC 14  uncommon 520 gp
+Bag of Tricks, Rust 1 bag 4 common arcane essence 1 scroll of conjure animals 12 hours (1.5 days) 6 DC 14  uncommon 520 gp
+Boots of Elvenkind 1 boots worth at least 50 gp 1 scroll of silence 1 scroll of pass without a trace 1 uncommon primal essence 1 common primal essence 8 hours 4 DC 14  uncommon 470 gp
+Boots of Striding and Springing 1 boots worth at least 50 gp 1 common arcane essence 1 common primal essence 1 scroll of longstrider 1 scroll of jump 8 hours 4 DC 15  uncommon 325 gp
+Boots of the Winterlands 1 boots 1 scroll of protection from energy 1 scroll of arctic breathK 2 uncommon primal essence 12 hours (1.5 days) 6 DC 15  uncommon 760 gp
+Bracers of Archery 1 set of bracers 1 scroll of seeking shotK 1 uncommon primal essence 1 uncommon arcane essence 12 hours (1.5 days) 6 DC 15  uncommon 500 gp
+Broom of Flying 1 broom 1 scroll of levitate 1 scroll of fly 1 scroll of animate objectK 2 uncommon primal essence 16 hours (2 days) 8 DC 16  uncommon 1,050 gp
+Cap of Water Breathing 1 leather cap 1 scroll of water breathing 1 common arcane essence 2 commom primal essence 8 hours 4 DC 14  uncommon 270 gp
+Cloak of the Manta Ray 1 cloak 1 scroll of water breathing 1 scroll of alter self 2 common primal essence 8 hours 4 DC 14  uncommon 600 gp
+Cloak of Protection 1 cloak 1 scroll of shield of faith 1 scroll of mage armor 1 scroll of protection from energy 1 scroll of shield 1 scroll of false life 1 uncommon arcane essence 1 uncommon divine essence 16 hours 8 16  uncommon 1,150 gp
+Circlet of Blasting 1 circlet worth at least 50 gp 1 scroll of scorching ray 1 common arcane essence 1 common primal essence 8 hours 4 DC 12  uncommon 250 gp
+Goggles of Night 1 pair of goggles 1 scroll of darkvision 1 common primal essence 1 uncommon arcane essence 8 hours 4 DC 13  uncommon 300 gp
+Pearl of Power 1 pearl worth at least 100 gp 5 common arcane essence 8 hours 4 DC 12  uncommon 350 gp
+Cloak of Elvenkind 1 cloak 1 scroll of pass without a trace 1 uncommon primal essence 1 common primal essence 8 hours 4 DC 14  uncommon 335 gp
+Decanter of Endless Water 1 decanter 1 scroll of create or destroy water 1 uncommon primal essence 1 common divine essence 8 hours 4 DC 14  uncommon 300 gp
+Deck of Illusions 34 cards 1 scroll of major image 1 scroll of silent image 34 common arcane essences 8 hours 4 DC 15  uncommon 330 gp
+Efficient Quiver 1 quiver worth 25 gp 1 scroll of secret chest 1 common arcane essence 8 hours 4 DC 15  uncommon 430 gp
+Eversmoking Bottle 1 bottle 1 scroll of fog cloud 1 scroll of produce flame 1 common arcane essence 1 common primal essence 8 hours 4 DC 13  uncommon 210 gp
+Eyes of Charming 1 crystal lenses (glasses) worth 50 gp 1 scroll of charm person 1 uncommon arcane essence 4 hours 2 DC 14  uncommon 300 gp
+Eyes of Minute Seeing 1 crystal lenses (glasses) worth 50 gp 1 scroll of identify 1 common arcane essence 4 hours 2 DC 14  uncommon 190 gp
+Eyes of the Eagle 1 crystal lenses 1 scroll of far sightK 1 common primal essence 4 hours 2 DC 14  uncommon 190 gp
+Figurine of Wondrous Power (Silver Raven) 1 figurine of a raven worth at least 10 gp 1 scroll of find familiar 1 scroll of animal messenger 1 common primal essence 1 common arcane essence 8 hours 4 DC 13  uncommon 270 gp
+Gauntlets of Ogre Power 1 gauntlets worth 50 gp 1 scroll of enlarge/reduce 1 scroll of enhance ability 1 uncommon primal essence 1 common arcane essence 12 hours (1.5 days) 6 DC 14  uncommon 500 gp
+Gem of Brightness 1 cut gem worth at least 50 gp 1 scroll of light 1 scroll of daylight 1 uncommon divine essence 1 common arcane essence 8 hours 4 DC 14  uncommon 585 gp
+Gloves of Missile Snaring 1 pair of gloves 1 scroll of attract/repel 1 uncommon arcane essence 1 common primal essence 8 hours 4 DC 15  uncommon 365 gp
+Gloves of Swimming and Climbing 1 pair of gloves 1 scroll of enhance ability 1 common arcane essence 1 common primal essence 8 hours 4 DC 14  uncommon 225 gp
+Hat of Disguise 1 hat 1 scroll of disguise self 1 scroll of minor illusion 1 uncommon arcane essence 1 common arcane essence 8 hours 4 DC 14  uncommon 340 gp
+Headband of Intellect 1 headband worth at least 25 gp 1 scroll of enhance ability 2 uncommon arcane essence 1 common divine essence 12 hours (1.5 days) 6 DC 14  uncommon 540 gp
+Helm of Comprehending Languages 1 helm worth at least 25 gp 1 scroll of comprhend languages 1 common arcane essence 1 common divine essence 16 hours (2 days) 8 DC 14  uncommon 280 gp
+Helm of Telepathy 1 helm worth at least 50 gp 1 scroll of detect thoughts 1 scroll of suggestion 1 uncommon arcane essence 1 common arcane essence 16 hours (2 days) 8 DC 15  uncommon 575 gp
+Stone of Good Luck 1 polished agate worth 50 gp 1 scroll of imbue luckK 1 uncommon divine essence 1 common primal essence 8 hours 4 DC 15  uncommon 415 gp
+Lantern of Revealing 1 lantern 1 scroll of light 1 scroll of see invisible 1 uncommon arcane essence 1 uncommon divine essence 8 hours 4 DC 15  uncommon 500 gp
+Pipes of Haunting 1 pipes worth at least 25 gp 1 scroll of frightenK 1 uncommon arcane essence 1 uncommon divine essence 8 hour 4 DC 15  uncommon 485 gp
+Pipes of the Sewers 1 pipes worth at least 25 gp 1 scroll of animal friendship 1 uncommon primal essence 1 common primal essence 8 hours 4 DC 14  uncommon 345 gp
+Robe of Useful Items 1 robe 100 gp 1 silver coffer worth 500 gp 1 iron door 10 gems worth 100 gp each 1 wooden ladder 1 picture of a horse worth 75 gp 1 saddle bag 1 scroll of create holeK 4 potions of healing 1 rowboat 1 1st level scroll 1 picture of mastiffs worth at least 25 gp 1 window 1 portable ram 13 common arcane essences 8 hours 4 DC 14  uncommon 3,560 gp
+Rope of Climbing 1 60-foot long rope 1 scroll of awaken ropeK 1 uncommon arcane essence 1 common arcane essence 4 hours 2 DC 14  uncommon 300 gp
+Sending Stones|dmg 1 set of the same kind of stones 1 scroll of sending 2 common arcane essence 4 hours 2 DC 14  uncommon 380 gp
+Shawm of SunderingDS 1 shawm worth 50 gp 1 scroll of thunderwave 1 scroll of shatter 1 scroll of lightning bolt 1 uncommon primal essence 2 common arcane essence 8 hours 4 DC 14  uncommon 600 gp
+Slippers of Spider Climbing 1 slippers 1 scroll of spider climbing 1 common arcane essence 1 common primal essence 8 hours 4 DC 14  uncommon 225 gp
+Yve’s Thieves’ ToolsDS 1 thieves’ tools 1 scroll of enhance ability 1 uncommon arcane essence 2 common arcane essence 8 hours 4 DC 15  uncommon 440 gp
+Winged Boots 1 boots worth at least 50 gp 1 scroll of fly 1 scroll of levitate 1 scroll of feather fall 1 uncommon arcane essence 1 uncommon primal essence 16 hours (2 days) 8 DC 15  uncommon 1000 gp
+Bead of Force (8 beads) 8 scrolls of resilient sphere 16 hours (2 days) 8 DC 16  rare 2,900 gp
+Belt of Dwarvenkind 1 belt worth at least 200 gp 200 gp worth of quality ale 1 rare primal essence 2 uncommon primal essences 1 scroll of stoneskin 1 scroll of alter self 16 hours (2 days) 8 DC 17  rare 2,400 gp
+Belt of Hill Giant Strength 1 belt 1 scroll of enhance ability 1 scroll of enlarge/reduce 3 rare primal essence 16 hours (2 days) 8 DC 18  rare 3,500 gp
+Boots of Levitation 1 boots worth at least 50 gp 1 scroll of levitate 2 rare arcane essence 2 uncommon primal essence 16 hours (2 days) 8 DC 17  rare 2,600 gp
+Boots of Speed 1 boots worth at least 200 gp 1 scroll of haste 1 rare primal essence 2 rare arcane essence 2 uncommon arcane essence 16 hours (2 days) 8 DC 16  rare 3,400 gp
+Bracers of Defense 1 set of bracers worth at least 200 gp 1 scroll of shield 1 scroll of shield of faith 1 rare divine essence 1 rare arcane essence 16 hours 8 DC 17  rare 2,300 gp
+Brazier of Commanding Fire Elementals 1 brazier worth 200 gp 1 scroll of conjure elemental 2 rare primal essences 2 rare reactive reagents 16 hours (2 days) 8 DC 17  rare 2,400 gp
+Bowl of Commanding Water Elementals 1 bowl worth 200 gp 1 scroll of conjure elemental 2 rare primal essences 2 rare curative reagents 16 hours (2 days) 8 DC 17  rare 2,400 gp
+Censer of Controlling Air Elementals 1 censer worth 200 gp 1 scroll of conjure elemental 2 rare primal essences 1 rare reactive reagent 1 uncommon arcane essence 16 hours (2 days) 8 DC 17  rare 2,400 gp
+Cape of the Mountebank 1 cape worth at least 200 gp 1 scroll of dimension door 1 scroll of pyrotechnics 1 rare arcane essence 1 uncommon primal essence 16 hours (2 days) 8 DC 18  rare 2,000 gp
+Chime of Opening 1 chime worth 50 gp 1 scroll of knock 10 common arcane essences 10 hours 5 DC 14  rare 666 gp
+Cloak of Displacement 1 cloak worth 50 gp 1 scroll of mirror image 1 rare arcane essence 1 uncommon arcane essence 12 hours (1.5 days) 6 DC 16  rare 1,270 gp
+Cloak of the Bat 1 cloak worth at least 50 gp 1 scroll of form of the familiarK 1 scroll of darkness 1 scroll of fly 1 rare primal essence 1 uncommon arcane essence 12 hours (1.5 days) 6 DC 15  rare 1,500 gp
+Dimensional Shackles 1 set of manacles 1 scroll of hold monster 1 scroll of forbiddence 1 rare divine essence 1 rare arcane essence 16 hours (2 days) 8 DC 17  rare 4,900 gp
+quaal's feather token, Anchor 1 fletching 1 scroll of entangle 1 scroll of web 1 scroll of binding curseK 1 uncommon arcane essence 6 hours 3 DC 15  rare 435 gp
+quaal's feather token, Bird 1 fletching 1 scroll of conjure animals 2 scrolls of enlarge reduce 1 uncommon primal essence 6 hours 3 DC 17  rare 770 gp
+quaal's feather token, Fan 1 fletching 1 scroll of gust of wind 1 scroll of animate objectK 1 uncommon arcane essence 1 uncommon primal essence 6 hours 3 DC 15  rare 525 gp
+quaal's feather token, Swan Boat 1 fletching 1 boat 50 feet long and 20 feet wide 1 scroll of dimension door 1 uncommon arcane essence 8 hours 4 DC 16  rare 4000 gp
+quaal's feather token, Tree 1 fletching 1 scroll of plant growth 1 uncommon primal essence 6 hours 3 DC 15  rare 475 gp
+quaal's feather token, Whip 1 fletching 1 whip 1 scroll of animate objects 1 uncommon arcane essence 6 hours 3 DC 14  rare 275 gp
+Figurine of Wondrous Power, Bronze Griffon 1 figurine of a griffon worth at least 20 gp 1 scroll of summon greater steed 1 rare divine essence 1 uncommon divine essence 16 hours (2 days) 8 DC 17  rare 2,700 gp
+Figurine of Wondrous Power, Ebony Fly 1 figurine of a fly worth at least 20 gp 1 scroll of giant insect 1 rare primal essence 1 uncommon primal essence 8 hours 4 DC 15  rare 1,300 gp
+Figurine of Wondrous Power, Golden Lions 2 figurines of a lion worth at least 20 gp 1 scroll of conjure animals 1 uncommon primal essence 1 uncommon divine essence 12 hours (1.5 days) 6 DC 15  rare 730 gp
+Figurine of Wondrous Power, Ivory Goats 3 figurines of a goat worth at least 20 gp 1 scroll of conjure animals 1 rare arcane essence 1 uncommon divine essence 1 uncommon arcane essence 16 hours 8 DC 16  rare 1,700 gp
+Figurine of Wondrous Power, Marble Elephant 1 figurine of an elephant worth at least 20 gp 1 scroll of conjure animals 1 scroll of enlarge reduce 1 uncommon primal essence 8 hours 4 DC 15  rare 600 gp
+Figurine of Wondrous Power, Onyx Dog 1 figurine of a dog worth at least 20 gp 1 scroll of conjure animals 1 uncommon primal essence 8 hours 4 DC 15  rare 515 gp
+Figurine of Wondrous Power, Serpentine Owl 1 figurine of an owl worth at least 20 gp 1 scroll of find familiar 1 scroll of enlarge reduce 1 uncommon arcane essence 8 hours 4 DC 16  rare 475 gp
+Figurine of Wondrous Power, Onyx PantherK 1 figurine of a panther worth at least 20 gp 1 scroll of conjure animals 1 uncommon primal essence 8 hours 4 DC 15  rare 515 gp
+Gem of Seeing 1 cut gem worth at least 50 gp 1 scroll of true seeing 1 rare arcane essence 1 uncommon arcane essence 16 hours (2 days) 8 DC 17  rare 3050 gp
+Heward's Handy Haversack 1 backpack 1 scroll of secret chest 1 instant summons 1 uncommon arcane essence 1 rare arcane essence 16 hours (2 days) 8 DC 18  rare 3,600 gp
+Helm of Teleportation 1 helm worth at least 200 gp 1 scroll of teleport 2 rare arcane essence 1 rare divine essence 24 hours (3 days) 12 DC 18  rare 16,700 gp
+Horn of Blasting 1 horn worth at least 100 gp 1 scroll of shockwaveK 1 scroll of sonic shriekK 24 hours (3 days) 12 DC 17  rare 3,370 gp
+Horn of Valhalla, Silver 1 silver horn worth at least 50 gp 1 scroll of spirit guardians 1 scroll of guardian of faith 1 rare primal essence 1 rare divine essence 24 hours (3 days) 12 DC 17  rare 2,800 gp
+Horn of Valhalla, Brass 1 brass horn worth at least 50 gp 1 scroll of spirit guardians 1 scroll of guardian of faith 1 rare primal essence 1 rare divine essence 24 hours (3 days) 12 DC 17  rare 2,800 gp
+Horseshoes of Speed 4 horseshoes worth 10 gp each 4 scrolls of longstrider 4 uncommon arcane essences 4 common primal essence 24 hours (3 days) 12 DC 16  rare 1,570 gp
+Helm of HeroesGS 1 helm worth 50 gp 1 scroll of heroism 1 scroll of shield of faith 1 rare divine essence 1 uncommon divine essence 16 hours (2 days) 8 DC 16  rare 1,390 gp
+Iron Bands of Binding 30 feet of chain 1 scroll of entangle 1 scroll of awaken ropeK 1 rare arcane essence 2 uncommon divine essence 16 hours (2 days) 8 DC 16  rare 740 gp
+Mantle of Spell Resistance 1 mantle worth at least 100 gp 1 scroll of dispel magic 3 rare arcane essence 1 uncommon divine essence 16 hours (1.5 days) 8 DC 17  rare 3,280 gp
+Portable Hole 1 large cloth 1 scroll of rope trick 1 scroll of passwall 1 scroll of dimension door 2 rare arcane essence 1 rare primal essence 16 hours (1.5 days) 8 DC 18  rare 5,000 gp
+Robe of Eyes 1 robe worth at least 100 gp 1 scroll of darkvision 1 scroll of see invisibility 1 scroll of arcane eye 1 rare arcane essence 1 uncommon psionic essence 24 hours (3 days) 12 DC 17  rare 2,170 gp
+Rope of Entanglement 1 30-foot long rope 1 scroll of awaken ropeK 1 scroll of entangle 1 rare arcane essence 16 hours (2 days) 8 DC 17  rare 1,325 gp
+Stone of Controlling Earth Elementals 1 stone worth 200 gp 1 scroll of conjure elemental 2 rare primal essences 2 rare poisonous reagent 16 hours (2 days) 8 DC 17  rare 2,400 gp
+Squall CollarDS 1 collar worth 100 gp 1 scroll of enhance ability 1 scroll of lightning chargedK 1 rare primal essence 1 uncommon primal essence 12 hours (1.5 days) 4 DC 16  rare 1,400 gp
+Wings of Flying 1 cloak worth 50 gp 1 scroll of fly 1 scroll of polymorph 1 rare arcane essence 1 uncommon arcane essence 16 hours (2 days) 8 DC 17  rare 3,000 gp
+Animated Shield 1 shield worth at least 200 gp 1 scroll of animate objects 1 very rare arcane essence 2 rare arcane essence 1 rare divine essence 24 hours (3 days) 12 DC 18  very rare 12,500 gp
+Bag of Devouring 1 bag of holding 1 scroll of plane shift 1 scroll of hunger of hadar 16 hours (2 days) 8 DC 17  very rare 15,000 gp
+Candle of Invocation 1 candle worth 100 gp 4 rare divine essence 1 scroll of holy aura 1 scroll of gate 32 hours (4 days) 16 DC 19  very rare 65,000 gp
+Carpet of Flying, 4 ft. × 6 ft. 1 fancy carpet worth 1000 gp 1 scroll of fly 1 scroll of levitate 1 scroll of animate objects 1 very rare arcane essence 1 very rare primal essence 32 hours (4 days) 16 DC 19  very rare 20,000 gp
+Cloak of Arachnida 1 cloak worth 200 gp 1 scroll of web 1 scroll of spiderclimb 1 scroll of protection from poison 1 very rare arcane essence 1 rare arcane essence 24 hours (3 days) 12 DC 18  very rare 10,000 gp
+Figurine of Wondrous Power, Obsidian Steed 1 figurine of a horse worth at least 50 gp 1 scroll of summon greater steed 1 very rare arcane essence 1 rare divine essence 16 hours (2 days) 8 DC 17  very rare 10,250 gp
+Crystal Ball 1 crystal worth at least 1,000 gp 1 scroll of scrying 1 very rare arcane essence 2 rare arcane essence 24 hours (3 days) 12 DC 18  very rare 12,600 gp
+Crystal Ball of Mind Reading 1 very rare magical crystal ball 1 scroll of detect thoughts 1 very rare arcane essence 8 hours 4 DC 19  very rare 22,200 gp
+Crystal Ball of Telepathy 1 very rare magical crystal ball 1 scroll of suggestion 1 very rare psionic essence 8 hours 4 DC 20  very rare 22,600 gp
+Cube of Force 1 metal cube of mithril, adamantine, or gold 1 scroll of wall of force 1 scroll of antilife shell 1 scroll of gaseous form 1 scroll of antimagic field 2 rare arcane essence 3 uncommon arcane essence 16 hours (2 days) 8 DC 17  very rare 20,000 gp
+Efreeti Bottle 1 brass bottle 1 scroll of conjure elemental 1 scroll of planar binding 2 very rare primal essences 3 rare primal essences 3 rare arcane essences 32 hours (4 days) 16 DC 18  very rare 24,000 gp
+Cubic Gate 1 3 inch cube worth at least 500 gp 1 scroll of gate 1 scroll of plane shift 1 very rare arcane essence 1 very rare divine essence 32 hours (4 days) 16 DC 20  very rare 75,000 gp
+Helm of Brilliance 1 helm worth at least 100 gp 5 diamonds worth 50 gp 10 rubies worth 20 gp 15 fire opals worth 10 gp 20 opals worth 10 gp 1 scroll of daylight 1 scroll of fireball 1 scroll of prismatic spray 1 wall of fire 1 rare arcane essence 1 uncommon arcane essence 24 hours (3 days) 12 DC 18  very rare 17,000 gp
+Horn of Valhalla, Bronze 1 bronze horn worth at least 100 gp 1 scroll of spirit guardians 1 scroll of guardian of faith 1 scroll of conjure celestial 2 rare primal essence 2 rare divine essence 32 hours (4 days) 16 DC 19  very rare 5,600 gp
+Horseshoes of a Zephyr 4 horseshoes worth 10 gp each 4 scrolls of levitate 1 scroll of fly 1 scroll of longstrider 4 rare arcane essences 4 uncommon primal essences 24 hours (3 days) 12 DC 18  very rare 5,500 gp
+Daern's Instant Fortress 1 admantine cube 100 adamantine ingots 1 scroll of magnificent mansion 2 very rare arcane essence 4 rare arcane essence 2 rare divine essence 40 hours (5 days) 20 DC 18  very rare 42,000 gp
+Mirror of Life Trapping 1 4 foot tall mirror worth at least 50 gp 1 scroll of demiplane 1 scroll of banishment 1 very rare arcane essence 2 rare arcane essence 32 hours (4 days) 16 DC 19  very rare 25,000 gp
+Robe of Scintillating Colors 1 robe worth at least 200 gp 1 scroll of daylight 1 scroll of prismatic spray 1 scroll of wall of light 1 very rare arcane essence 1 rare arcane essence 1 rare divine essence 24 hours (3 days) 12 DC 18  very rare 25,000 gp
+Robe of Stars 1 black or blue robe worth 200 gp 1 scroll of magic missile 1 scroll of etherealness 1 scroll of blink 1 very rare arcane essence 1 very rare divine essence 6 rare arcane essence 32 hours (4 days) 16 DC 19  very rare 32,800 gp
+Belt of Stone Giant Strength 1 belt 1 scroll of enhance ability 1 scroll of enlarge/reduce 1 scroll of stoneskin 3 very rare primal essence 24 hours (3 days) 12 DC 20  very rare 26,000 gp
+Belt of Fire Giant Strength 1 belt 1 scroll of enhance ability 1 scroll of transformation 1 very rare arcane essence 3 very rare primal essence 32 hours (4 days) 16 DC 22  very rare 47,000 gp
+Iron Flask 1 iron flask worth at least 200 gp 1 scroll of imprisonment 1 scroll of planar blinding 1 legendary arcane essence 1 very rare divine essence 40 hours (5 days) 20 DC 21  legendary 98,000 gp
+Horn of Valhalla, Iron 1 iron horn worth at least 500 gp 1 scroll of spirit guardians 1 scroll of conjure celestial 1 very rare primal essence 1 very rare divine essence 40 hours (5 days) 20 DC 20  legendary 33,800 gp
+Deck of Many Things|dmg 22 cards 1 tears of a dungeon master 22 hours 11 DC 100  legendary 0 gp
+Belt of Cloud Giant Strength 1 belt 1 scroll of enhance ability 1 scroll of transformation 1 scroll of investiture of wind 1 very rare arcane essence 3 very rare primal essence 1 legendary primal essence 40 hours (5 days) 16 DC 23  legendary 83,000 gp
+Belt of Storm Giant Strength 1 belt 1 scroll of enhance ability 1 scroll of transformation 1 scroll of invulnerability 1 very rare arcane essence 3 very rare primal essence 2 legendary primal essence 48 hours (6 days) 24 DC 25  legendary 200,000 gp
+Crystal Ball of True Seeing 1 very rare magical crystal ball 1 scroll of truesight 1 legendary arcane essence 8 hours 4 DC 21  legendary 50,000 gp
+Robe of the Archmagi 1 white, gray, or black robe worth at least 500 gp 1 scroll of mage armor 1 scroll of antimagic field 1 legendary arcane essence 5 very rare arcane essence 40 hours (5 days) 20 DC 21  legendary 100,000 gp
+Sphere of Annihilation 1 legendary arcane essence 1 scroll of disintegrate 1 scroll of levitate 1 scroll of demiplane 2 very rare arcane essence 1 very rare divine essence 40 hours (5 days) 20 DC 21  legendary 81,000 gp
+Well of Many Worlds 1 fine block cloth worth 100 gp 1 scroll of plane shift 1 scroll of demiplane 1 legendary divine essence 1 very rare arcane essence 40 hours (5 days) 20 DC 20  legendary 75,000 gp
+Crystal Ball of ThievingDS 1 crystal worth at least 1,000 gp 1 scroll of scrying 1 scroll of mage hand 1 legendary arcane essence 1 very rare arcane essence 24 hours (3 days) 12 DC 19  legendary 40,000 gp
+Vision Stone 1 crystal worth at least 10 gp 1 common psion essence 4 hours 2 DC 13  common 70 gp
++1 Amplifying Crystal 1 crystal worth at least 20 gp 2 uncommon psionic essence 2 common psionic essence 8 hours 4 DC 14  uncommon 480 gp
++1 Psi Blade Crystal 1 crystal worth at least 20 gp 1 uncommon psionic essence 1 common psionic essence 1 common primal essence 8 hours 4 DC 14  uncommon 320 gp
+Blasting Crystal 1 crystal worth at least 20 gp 1 uncommon psionic essence 1 uncommon primal essence 8 hours 4 DC 15  uncommon 410 gp
+Focusing Crystal 1 crystal worth at least 20 gp 2 uncommon psionic essence 1 common psionic essence 8 hours 4 DC 15  uncommon 460 gp
+Mantle of the Mind 1 mantle 1 uncommon psionic essence 1 uncommon arcane essence 8 hours 4 DC 15  uncommon 230 gp
+Psionically Attuned Weapon 1 weapon 1 uncommon psionic essence 1 common psionic essence 4 hours 2 DC 13  uncommon 220 gp
+Resonating Crystal 1 crystal worth at least 20 gp 2 uncommon psionic essence 8 hours 4 DC 15  uncommon 410 gp
++2 Amplifying Crystal 1 crystal worth at least 100 gp 2 rare psionic essence 1 uncommon psionic essence 12 hours 6 DC 16  rare 2,000 gp
++2 Psi Blade Crystal 1 crystal worth at least 100 gp 1 rare psionic essence 1 rare primal essence 2 uncommon psionic essence 12 hours 6 DC 16  rare 2,100 gp
+Imprint Crystal 1 crystal worth at least 100 gp 2 rare psionic essences 2 uncommon psionic essences 12 hours 6 DC 16  rare 2,100 gp
+Purity of Mind 1 blindfold worth 10 gp 2 rare psionic essence 1 uncommon divine essence 16 hours (2 days) 8 DC 16  rare 2,000 gp
++3 Amplifying Crystal 1 crystal worth at least 200 gp 4 very rare psionic essence 2 rare psionic essence 24 hours (3 days) 12 DC 18  very rare 33,000 gp
++3 Psi Blade Crystal 1 crystal worth at least 200 gp 2 very rare psionic essence 1 very rare primal essence 1 very rare arcane essence 24 hours (3 days) 12 DC 18  very rare 32,000 gp
+Mind Shard 1 crystal worth at least 50 gp 3 very rare psionic essence 2 rare psionic essences 32 hours (4 days) 16 DC 19  very rare 26,000 gp
+Soul Shard [The creature can be alive or dead, but must have died within 24 hours of starting the craft. On success, the creatures soul is consumed, and it can’t be resurrected while the soul shard exists. The discipline and effect can be tailored to the creature used as per the GM’s discretion.] 1 crystal worth at least 20 gp 1 psionic creature of CR 7 or higher 1 legendary psion essence 2 very rare psionic essence 40 hours (5 days) 20 DC 20  legendary 55,000 gp
++1 Ammunition 1 piece of ammunition 1 common arcane essence 2 hours 1 DC 14  uncommon 60 gp
++1 Weapon 1 weapon 1 scroll of magic weapon 2 common arcane essence 2 uncommon arcane essence 8 hours 4 DC 14  uncommon 540 gp
+Berserker Axe 1 axe 1 scroll of crown of madness 1 scroll of magic weapon 1 scroll of aid 2 uncommon primal essence 8 hours 4 DC 14  uncommon 500 gp
+Dagger of the Ogre MageGS 1 shortsword (or dagger for a Large-sized creature) worth at least 50 gp 1 scroll of magic weapon 3 scrolls of cantrip 1 uncommon arcane essence 3 common arcane essence 12 hours 6 DC 15  uncommon 612 gp
+Javelin of Lightning 1 javalin 1 scroll of lightning bolt 1 uncommon primal essence 8 hours 4 DC 15  uncommon 400 gp
+Squall CallerDS 1 battle axe 1 scroll of windborne weaponK 1 scroll of returning weaponK 1 uncommon primal essence 1 common arcane essence 8 hours 4 DC 15  uncommon 380 gp
+Trident of Fish Command 1 trident 1 scroll of dominate beast 1 common primal essence 1 uncommon primal essence 8 hours 4 DC 15  uncommon 560 gp
++2 Ammunition 1 piece of ammunition 2 common arcane essence 2 hours 1 DC 16  rare 130 gp
++2 Weapon 1 weapon 1 scroll of magic weapon 2 uncommon arcane essence 2 rare arcane essence 2 rare divine essence 2 rare primal essence 16 hours (2 days) 8 DC 16  rare 5,300 gp
+Dagger of Venom 1 +1 weapon 1 potent injury poison 1 scroll of nauseating poisonK 1 rare primal essence 1 rare arcane essence 12 hours (1.5 days) 6 DC 16  rare 2,500 gp
+Flame Tongue 1 weapon 1 scroll of prismatic weaponK 1 flametongue oilK 5 rare primal essence 1 rare arcane essence 16 hours (2 days) 8 DC 18  rare 5,800 gp
+Giant Slayer 1 weapon worth at least 100 gp 1 scroll of magic weapon 1 rare primal essence from a giant 2 uncommon arcane essence 2 uncommon primal essence 16 hours (2 days) 8 DC 16  rare 1,800 gp
+Mace of Disruption 1 mace 1 scroll of banishment 2 rare divine essence 1 uncommon divine essence 1 uncommon arcane essence 16 hours (2 days) 8 DC 16  rare 2,400 gp
+Dragon Slayer 1 sword worth at least 1,000 gp 2 rare primal essence 1 rare divine essence 1 scroll of bestow curse 16 hours (2 days) 8 DC 18  rare 4400 gp
+Mace of Smiting 1 mace 1 scroll of dispel constructK 1 rare arcane essence 1 uncommon arcane essence 1 uncommon divine essence 12 hours (1.5 days) 6 DC 16  rare 1,500 gp
+Mace of Terror 1 mace 1 scroll of fear 1 rare arcane essence 2 uncommon arcane essence 12 hours (1.5 days) 6 DC 17  rare 1,680 gp
+Sun Blade 1 sword hilt worth 200 gp 1 scroll of vorpal weaponK 1 scroll of magic weapon 1 scroll of daylight 3 rare divine essence 2 uncommon arcane essence 2 uncommon primal essence 24 hours (3 days) 12 DC 17  rare 5,500 gp
+Vicious Weapon 1 weapon 1 scroll of vorpal weapon 3 uncommon arcane essence 8 hours 4 DC 16  rare 1,650 gp
+Sword of Life Stealing 1 sword worth at least 200 gp 1 scroll of vampiric touch 1 rare arcane essence 2 uncommon arcane essence 12 hours (1.5 days) 6 DC 16  rare 1,800 gp
+Sword of Wounding 1 sword worth at least 200 gp 1 scroll of decaying touchK 1 scroll of rotting curseK 2 rare arcane essence 2 very rare poisonous reagent 1 rare poisonous reagent 12 hours (1.5 days) 6 DC 17  rare 5,000 gp
+Javelin of the Harpy EagleDS 1 javalin worth at least 100 gp 1 scroll of returning weaponK 1 rare primal essence 1 uncommon arcane essence 12 hours (1.5 days) 6 DC 16  rare 1,300 gp
++3 Ammunition 1 piece of ammunition 1 uncommon arcane essence 1 scroll of magic weapon 4 hours 2 DC 18  very rare 585 gp
++3 Weapon 1 weapon worth at least 1,000 gp 1 scroll of magic weapon 1 scroll of prismatic weaponK 1 scroll of vorpal weaponK 1 very rare arcane essence 1 very rare divine essence 1 very rare primal essence 24 hours (3 days) 12 DC 18  very rare 26,000 gp
+Arrow of Slaying 1 arrow 1 scroll of bestow curse 2 rare primal essence 2 uncommon primal essence 6 hours 4 DC 18  very rare 2,500 gp
+Dancing Sword 1 sword worth 100 gp 1 scroll of animate objects 2 very rare arcane essence 4 uncommon arcane essence 24 hours (3 days) 12 DC 19  very rare 18,500 gp
+Dwarven Thrower 1 +3 warhammer 1 scroll of weapon of throwing 1 very rare primal essence 16 hours (2 days) 8 DC 18  very rare 37,000 gp
+Bow of Magic MissilesTAG 1 bow (short or long) 1 scroll of magic missile 1 scroll of magic weapon 3 rare arcane essence 1 very rare arcane essence 16 hours (1.5 days) 8 DC 18  very rare 10,000 gp
+Frost Brand 1 weapon 1 scroll of prismatic weaponK 1 freezing oil 1 very rare primal essence 3 rare primal essence 1 rare arcane essence 16 hours (2 days) 8 DC 19  very rare 11,600 gp
+Nine Lives Stealer 1 sword worth at least 500 gp 1 scroll of power word kill 1 scroll of magic jar 16 hours (2 days) 8 DC 17  very rare 46,600 gp
+Oathbow 1 longbow worth 500 gp 4 very rare primal essences 1 scroll of true strike 1 scroll of hunter’s mark 1 scroll of hex 24 hours (3 days) 12 DC 19  very rare 17,700 gp
+Scimitar of Speed 1 scimitar worth 500 gp 1 scroll of haste 1 very rare arcane essence 1 rare primal essence 16 hours (2 days) 8 DC 18  very rare 10,000 gp
+Sword of Sharpness 1 sword worth at least 500 gp 1 scroll of vorpal weapon 1 very rare arcane essence 1 rare arcane essence 16 hours (2 days) 8 DC 18  very rare 11,000 gp
+Holy Avenger 1 weapon worth at least 10,000 gp 3 legendary divine essence 1 scroll of holy weapon 1 scroll of holy aura 1 scroll of magic weapon 3 very rare divine essence 40 hours (5 days) 20 DC 22  legendary 158,000 gp
+Luck Blade 1 +1 sword 2 scrolls of wish 32 hours (4 days) 16 DC 20  legendary 92,000 gp
+Hammer of Thunderbolts 1 maul worth at least 1,000 gp 1 legendary primal essence 2 very rare primal essence 1 scroll of thunderwave 40 hours (5 days) 20 DC 20  legendary 64,000 gp
+Defender 1 sword worth at least 1,000 gp 1 legendary divine essence 1 scroll of magic weapon 1 scroll of shield of faith 1 +3 shield 32 hours (4 days) 16 DC 20  legendary 59,000 gp
+Dragon Tamer LanceGS 1 lance worth 1,000 gp 1 scroll of summon dragon 1 scroll of chromatic orb 1 legendary primal essence 2 very rare primal essence 8 uncommon primal essences 32 hours (4 days) 16 DC 20  legendary 50,000 gp
++1 Shield 1 shield 1 scroll of shield 1 scroll of shield of faith 1 uncommon arcane essence 1 uncommon divine essence 8 hours 4 DC 15  uncommon 500 gp
++1 Armor 1 set of armor 1 scroll of mage armor 1 scroll of shield 1 scroll of shield of faith 1 rare arcane essence 1 rare divine essence 1 rare primal essence 24 hours (3 days) 12 DC 16  rare 3,000 gp
+Armor of Resistance 1 set of armor 1 scroll of protection from energy 2 rare primal essence 1 uncommon primal essence 16 hours (2 days) 8 DC 17  rare 2,400 gp
+Arrow-Catching Shield 1 shield 1 scroll of warding wind 1 rare primal essence 1 uncommon arcane essence 12 hours (1.5 days) 6 DC 17  rare 1,300 gp
++2 Shield 1 shield 1 scroll of shield 1 scroll of shield of faith 1 scroll of glyph of warding 2 rare arcane essence 1 rare divine essence 16 hours (2 days) 8 DC 17  rare 3,200 gp
+Glamoured Studded Leather 1 +1 studded leather armor 1 scroll of disguise self 1 scroll of silent image 1 rare arcane essence 16 hours (2 days) 8 DC 15  rare 4,2000 gp
+Shield of Missile Attraction 1 shield 1 scroll of warding wind 1 rare arcane essence 1 uncommon primal essence 12 hours (1.5 days) 6 DC 16  rare 1,200 gp
+Scale Mail of the PangolinDS 1 set of scale mail 1 large carapace 1 scroll of move earth 1 rare primal essence 2 uncommon primal essence 12 hours (1.5 days) 6 DC 16  rare 3,000 gp
+Captain’s CoatDS 1 fine longcoat worth 100 gp 1 scroll of enhance ability 1 scroll of vicious mockery 1 scroll of dancing waveK 1 rare primal essence 1 uncommon arcane essence 12 hours (1.5 days) 6 DC 16  rare 1,400 gp
++2 Armor 1 set of armor worth at least 2,000 gp 1 scroll of globe of invulnerability 1 scroll of stoneskin 1 scroll of mage armor 1 scroll of shield 1 scroll of shield of faith 1 very rare arcane essence 1 rare divine essence 1 rare primal essence 32 hours (4 days) 16 DC 20  very rare 17,000 gp
++3 Shield 1 shield worth at least 1,000 gp 1 scroll of wall of stone 1 scroll of wall of force 1 scroll of wind wall 1 scroll of shield 1 scroll of shield of faith 1 very rare arcane essence 1 very rare divine essence 2 rare arcane essence 2 rare divine essence 24 hours (3 days) 12 DC 20 very rare 24,000 gp
+Breastplate of the Golden RetrieverDS 1 ornate breastplate worth at least 500 gp 1 scroll of warding bond 1 scroll of faithful hound 16 hours (2 days) 8 DC 16  very rare 9,700 gp
+Demon Armor 1 plate armor worth at least 1,500 gp 1 scroll of summon fiend 1 rare arcane essence 16 hours (2 days) 8 DC 15  very rare 4,000 gp
+Raiment of the RacoonDS 1 set of studded leather 1 scroll of enhance ability 1 scroll of polymorph 1 very rare primal essence 1 rare arcane essence 16 hours (2 days) 8 DC 17  very rare 9,350 gp
+Spellguard Shield 1 shield worth at least 200 gp 1 scroll of antimagic field 1 very rare divine essence 1 rare arcane essence 32 hours (4 days) 16 DC 20  very rare 28,000 gp
+Dwarven Plate 1 plate armor with the dwarven modifier 1 scroll of globe of invulnerability 1 scroll of stoneskin 1 scroll of mage armor 1 scroll of shield 1 scroll of shield of faith 1 very rare arcane essence 1 rare divine essence 1 rare primal essence 32 hours (4 days) 16 DC 20  very rare 28,000 gp
+Dark Fathom ArmorGS 1 set of studded leather armor 1 scroll of mage armor 1 scroll of shield 1 scroll of black tentacles 1 very rare arcane essence 2 rare primal essence 1 scroll of water breathing 24 hours 12 DC 18  very rare 11,000 gp
++3 Armor 1 set of armor worth at least 4,000 gp 1 scroll of invulnerability 1 legendary arcane essence 1 very rare primal essence 1 very rare divine essence 48 hours (6 days) 24 DC 22  legendary 100,000 gp
+Armor of Invulnerability 1 set of plate armor worth at least 4,000 gp 1 scroll of invulnerability 1 scroll of stone skin 1 legendary divine essence 2 very rare arcane essence 48 hours (6 days) 24 DC 23  legendary 125,000 gp
+Plate Armor of Etherealness 1 set of plate armor worth at least 1,500 gp 1 scroll of etherealness 1 legendary arcane essence 1 very rare arcane essence 24 hours (3 days) 12 DC 19  legendary 50,000 gp
+Ring of Jumping 1 ring worth at least 10 gp 1 scroll of jump 1 common primal essence 8 hours 4 DC 12  uncommon 140 gp
+Ring of Mind Shielding 1 ring worth at least 20 gp 1 scroll of protection from good and evil 1 scroll of detect good and evil 1 scroll of detect thoughts 1 common psionic essence 12 hours (1.5 days) 6 DC 15  uncommon 350 gp
+Ring of Swimming 1 ring 1 scroll of alter self 1 common primal essence 4 hours 2 DC 14  uncommon 150 gp
+Ring of Warmth 1 ring 1 scroll of create bonfire 1 scroll of protection from energy 2 common primal essence 1 uncommon primal essence 16 hours (2 days) 8 DC 14  uncommon 580 gp
+Ring of Water Walking 1 ring worth at least 10 gp 1 scroll of water walking 2 common primal essence 8 hours 4 DC 14  uncommon 400 gp
+Ring of Resistance 1 ring 1 gem worth 50 gp 1 scroll of protection from energy 1 common primal essence 1 uncommon primal essence 1 rare primal essence 16 hours (2 days) 8 DC 16  uncommon 1,500 gp
+Ring of Evasion 1 ring worth at least 400 gp 1 scroll of haste 1 rare primal essence 1 rare arcane essence 16 hours (2 days) 8 DC 17  rare 2,600 gp
+Ring of Feather Falling 1 ring worth at least 50 gp 1 scroll of feather fall 1 scroll of levitate 1 uncommon primal essence 1 uncommon arcane essence 8 hours 4 DC 14  rare 500 gp
+Ring of Free Action 1 ring worth at least 200 gp 1 scroll of freedom of movement 2 rare divine essence 2 rare arcane essence 1 rare primal essence 24 hours (3 days) 12 DC 17  rare 5000 gp
+Ring of Protection 1 ring worth at least 400 gp 1 scroll of shield of faith 1 scroll of mage armor 1 scroll of protection from energy 1 scroll of shield 1 scroll of false life 1 rare arcane essence 1 rare divine essence 16 hours (2 days) 8 DC 17  rare 3,500 gp
+Ring of Animal Influence 1 ring worth at least 200 gp 1 scroll of animal friendship 1 scroll of fear 1 scroll of speak with animals 1 rare primal essence 12 hours (1.5 days) 6 DC 16  rare 1,600 gp
+Ring of Spell Storing 1 ring worth at least 400 gp 1 empty wizard’s spell book (50 gp) 4 rare arcane essence 4 uncommon arcane essence 4 common arcane essence 16 hours (2 days) 8 DC 17  rare 5,000 gp
+Ring of X-Ray Vision 1 ring worth at least 200 gp 1 scroll of true seeing 1 scroll of find traps 1 uncommon arcane essence 12 hours (1.5 days) 6 DC 16  rare 2,300 gp
+Ring of the Ram 1 ring worth at least 200 gp 1 scroll of galeboltK 1 scroll of shatter 1 rare arcane essence 1 uncommon primal essence 12 hours (1.5 days) 6 DC 15  rare 1,400 gp
+Ring of Regeneration 1 ring worth at least 400 gp 1 scroll of regeneration 1 rare divine essence 1 rare arcane essence 1 rare primal essence 16 hours (2 days) 8 DC 18  very rare 16,600 gp
+Ring of Shooting Stars 1 ring worth at least 400 gp 1 scroll of field of starsK 1 very rare arcane essence 1 rare divine essence 16 hours (2 days) 8 DC 18  very rare 11,000 gp
+Ring of Telekinesis 1 ringer worth at least 400 gp 1 scroll of telekinesis 1 very rare arcane essence 1 very rare psionic essence 16 hours (2 days) 8 DC 19  very rare 18,250 gp
+Ring of Spell Turning 1 ring worth at least 400 gp 1 scroll of antimagic field 1 scroll of counterspell 1 legendary arcane essence 32 hours (4 days) 16 DC 22  legendary 57,000 gp
+Ring of Three Wishes 1 ring 3 scrolls of wish 16 hours (2 days) 8 DC 18  legendary 133,333 gp
+Ring of Djinni Summoning 1 ring worth at least 400 gp 1 scroll of gate 1 scroll of conjure elemental 1 very rare primal essence the true name of a djinni 24 hours (3 days) 12 DC 20  legendary 56,000 gp
+Ring of Elemental Command 1 ring worth at least 400 gp 1 scroll of dominate monster 1 scroll of conjure elemental 1 legendary primal essence 3 very rare primal essence 24 hours (3 days) 12 DC 19  legendary 55,000 gp
+Ring of Invisibility 1 ring worth at least 400 gp 1 scroll of invisbility 1 legendary arcane essence 1 very rare arcane essence 32 hours (4 days) 16 DC 22  legendary 50,000 gp
+Amulet of Proof against Detection and Location 1 amulet 1 scroll of nondetection 8 hours 4 DC 14  uncommon 350 gp
+Brooch of Shielding 1 brooch or amulet worth 10 gp 1 scroll of magic missile 1 scroll of shield 1 scroll of protection from energy 6 hours 3 DC 14  uncommon 444 gp
+Medallion of Thoughts 1 medallion worth 25 gp 1 scroll of detect thoughts 1 uncommon arcane essence 1 uncommon psionic essence 8 hours 4 DC 15  uncommon 500 gp
+Necklace of Adaptation 1 necklace worth at least 25 gp 1 scroll of protection from poison 1 common divine essence 6 hours 3 DC 12  uncommon 170 gp
+Periapt of Health 1 necklace worth 50 gp 1 scroll of purify food and drink 1 scroll of lesser restoration 2 common divine essence 12 hours (1.5 days) 6 DC 12  uncommon 325 gp
+Periapt of Wound Closure 1 amulet worth at least 50 gp 1 uncommon divine essence 1 scroll of cure wounds 1 scroll of prayer of healing 8 hours 4 DC 14  uncommon 450 gp
+Savage TalismanK 1 necklace worth at least 10 gp 1 scroll of alter self 2 common arcane essence 2 uncommon arcane essence 8 hours 4 DC 14  uncommon 550 gp
+Amulet of Health 1 amulet worth 200 gp 1 rare divine essence 1 rare primal essence 16 hours (2 days) 8 DC 18  rare 2500 gp
+Necklace of Prayer Beads* 6 gems worth 50 gp each 1 scroll of planar ally 1 scroll of wind walk 1 scroll of branding smite 1 greater restoration 1 cure wounds 1 scroll of lesser restoration 1 scroll of bless 6 rare divine essence 12 hours (1.5 days) 6 DC 16  rare 10,000 gp
+Amulet of the Planes 1 amulet worth 650 gp 1 scroll of plane shift 1 rare arcane essence 1 very rare divine essence 24 hours (3 days) 12 DC 18  very rare 23,400 gp
+Scarab of Protection 1 scarab shaped medallion worth at least 500 gp 1 scroll of holy aura 1 very rare divine essence 24 hours (3 days) 12 DC 19  legendary 25,000 gp
+Talisman of Pure Good 1 talisman woth at least 1,000 gp 1 legendary divine essence from a good- aligned source 1 scroll of fissureK 1 scroll of gate 40 hours (5 days) 20 DC 21  legendary 88,000 gp
+Talisman of Ultimate Evil 1 talisman woth at least 1,000 gp 1 legendary divine essence from an evil-aligned source 1 scroll of fissureK 1 scroll of gate 40 hours (5 days) 20 DC 21  legendary 88,000 gp
+Talisman of the Sphere 1 talisman woth at least 1,000 gp 1 legendary arcane essence 24 hours (3 days) 12 DC 22  legendary 37,000 gp
+Staff of the Python 1 uncommon branch 1 scroll of conjure animals 1 common primal essence 8 hours 4 DC 12  uncommon 350 gp
+Staff of Charming 1 rare branch 2 rare divine essence 2 rare primal essence 4 uncommon arcane essence 1 scroll of command 1 scroll of comprehend language 1 scroll of charm person 16 hours (2 days) 8 DC 18  rare 4,600 gp
+Staff of Healing 1 rare branch 3 rare divine essence 3 uncommon divine essence 1 scroll of mass cure wounds 1 scroll of cure wounds 1 scroll of lesser restoration 12 hours (1.5 days) 6 DC 18  rare 5,000 gp
+Staff of Swarming Insects 1 rare branch 1 scroll of giant insect 1 scroll of insect plague 1 rare primal essence 2 uncommon primal essence 1 uncommone divine essence 12 hours (1.5 days) 6 DC 16  rare 3,200 gp
+Staff of Withering 1 rare branch 1 uncommon primal essence 1 uncommon arcane essence 1 scroll of blight 8 hours 4 DC 15  rare 780 gp
+Staff of the Woodlands 1 rare branch 4 rare primal essence 8 uncommon primal essence 16 hours (2 days) 8 DC 18  rare 5,100 gp
+Staff of Fire 1 very rare branch 1 ruby worth 500 gp 3 very rare primal essence 6 rare primal essence 1 scroll of burning hands 1 scroll of fireball 1 scroll of wall of fire 16 hours (2 days) 8 DC 19  very rare 31,000 gp
+Staff of Frost 1 very rare branch 1 sapphire worth 500 gp 1 very rare primal essence 1 very rare arcane essence 4 rare primal essences 2 rare arcane essences 1 scroll of cone of cold 1 scroll of fog cloud 1 scroll of icestorm 1 scroll of of wall of ice 16 hours (2 days) 8 DC 19  very rare 26,000 gp
+Staff of Power 1 +2 quarterstaff 1 diamond worth 500 gp 1 legendary arcane essence 1 scroll of cone of cold 1 scroll of fireball 1 scroll of globe of invulnerability 1 scroll of hold monster 1 scroll of levitate 1 scroll of lightning bolt 1 scroll of magic missile 1 scroll of ray of enfeeblement 1 scroll of wall of force 10 rare arcane essence 32 hours (4 days) 16 DC 20  very rare 50,000 gp
+Staff of Striking 1 +3 quarterstaff 10 rare arcane essence 16 hours (2 days) 8 DC 18  very rare 37,000 gp
+Staff of Thunder and Lightning 1 very rare branch 1 very rare primal essence 1 scroll of lightning bolt 1 scroll of thunder pulseK 16 hours (2 days) 8 DC 16  very rare 9,300 gp
+Staff of the Magi 1 legendary branch 2 legendary arcane essence 1 wizard’s spellbook containing all the spells of a staff of magi 4 very rare arcane essence 40 hours (5 days) 20 DC 22  legendary 114,000 gp
+Immovable Rod 1 rod worth at least 100 gp 1 scroll of gravity surgeK 4 uncommon arcane essence 8 hours 4 DC 15  uncommon 800 gp
++1 Rod of the Pact Keeper 1 rod worth at least 100 gp (a) 1 entrapped humanoid soul, or (b) 3 uncommon arcane essence 8 hours 4 DC 15  uncommon 650 gp
+Rod of Rulership 1 rod worth at least 500 gp 1 scroll of command 1 scroll of charm person 1 scroll of suggestion 1 scroll of charm monster 2 rare arcane essence 16 hours (2 days) 8 DC 17  rare 3,100 gp
++2 Rod of the Pact Keeper 1 rod worth at least 500 gp (a) 3 entrapped humanoid souls of CR/Level 5 or higher, or (b) 3 rare arcane essence 16 hours (2 days) 12 DC 17  rare 3,300 gp
+Tentacle Rod 1 rod worth at least 500 gp 1 scroll of black tentacle 3 tentacles at least 5 feet long 2 rare arcane essence 8 hours 4 DC 16  rare 2500 gp
+Rod of Absorption 1 rod worth at least 3,000 gp 1 scroll of spelltrapK 1 scroll of counterspell 2 rare arcane essence 8 hours 4 DC 16  very rare 7500 gp
+Rod of Alertness 1 rod worth at least 3,000 gp 1 scroll of alarm 1 scroll of detect evil and good 1 scroll of detect magic 1 scroll of detect poison and disease 1 scroll of see invisibility 3 rare arcane essence 16 hours (2 days) 8 DC 17  very rare 6,400 gp
+Rod of Security 1 rod worth at least 5,000 gp 1 scroll of demiplane 1 very rare divine essence 24 hours (3 days) 12 DC 18  very rare 29,000 gp
++3 Rod of the Pact Keeper 1 rod worth at least 5,000 gp (a) 1 entrapped soul of a devil or demon CR 15 or higher 2 very rare arcane essence, or (b) 4 very rare arcane essence 24 hours (3 days) 12 DC 19  very rare 38,000 gp
+Rod of Lordly Might 1 rod worth at least 10,000 gp 1 scroll of magic weapon 1 scroll of prismatic weaponK 1 scroll of fear 1 scroll of hold monster 1 scroll of vampiric touch 1 very rare primal essence 1 very rare arcane essence 1 very rare divine essence 1 +3 weapon mace or battleaxe 40 hours (5 days) 20 DC 22  legendary 84,000 gp
+Rod of Resurrection 1 rod worth at least 10,000 gp 1 scroll of revivify 1 scroll of raise dead 1 scroll of resurrection 1 scroll of true resurrection 1 very rare divine essence 1 legendary divine essence 80 hours (10 days) 40 DC 24  legendary 120,000 gp
+Manual of Bodily Health 1 blank book worth 500 gp 1 scroll of enhance ability 1 legendary primal essence 1 legendary divine essence 40 hours (5 days) 20 DC 21  legendary 68,500 gp
+Manual of Gainful Exercise 1 blank book worth 500 gp 1 scroll of enhance ability 2 legendary primal essence 40 hours (5 days) 20 DC 21  legendary 68,500 gp
+Manual of Golems[When making a manual of golems in this way, you can pick which golem type it is for.] 1 blank book worth 250 gp 1 scroll of awaken 1 scroll of scroll of animate objects 2 very rare arcane essence 1 rare divine essence 24 hours (3 days) 12 DC 19  very rare 12,400 gp
+Manual of Quickness of Action 1 blank book worth 500 gp 1 scroll of enhance ability 1 legendary arcane essence 1 legendary divine essence 40 hours (5 days) 20 DC 21  legendary 68,500 gp
+Tome of Clear Thought 1 blank book worth 500 gp 1 scroll of enhance ability 2 legendary arcane essence 40 hours (5 days) 20 DC 21  legendary 68,500 gp
+Tome of Leadership and Influence 1 blank book worth 500 gp 1 scroll of enhance ability 2 legendary divine essence 40 hours (5 days) 20 DC 21  legendary 68,500 gp
+Tome of Understanding 1 blank book worth 500 gp 1 scroll of enhance ability 1 legendary divine essence 1 legendary primal essence 40 hours (5 days) 20 DC 21  legendary 68,500 gp
+Ioun Stone (Protection) 1 rose gem worth at least 200 gp 1 scroll of mage armor 3 rare arcane essence 1 rare divine essence 16 hours (2 days) 8 DC 17  rare 3,800 gp
+Ioun Stone (Awareness) 1 dark blue gem worth at least 200 gp 1 scroll of enhance ability 1 rare primal essence 1 rare arcane essence 16 hours (2 days) 8 DC 17  rare 2260 gp
+Ioun Stone (Sustenance) 1 clear gem worth at least 200 gp 1 scroll of create food and water 2 rare divine essence 1 uncommon arcane essence 16 hours (2 days) 8 DC 16  rare 2,290 gp
+Ioun Stone (Reserve) 1 purple gem worth at least 200 gp 5 rare arcane essence 4 uncommon arcane essence 16 hours (2 days) 8 DC 17  rare 5,100 gp
+Ioun Stone (Strength) 1 pale blue gem at least 500 gp 1 scroll of enhance ability 4 very rare primal essence 24 hours (3 days) 12 DC 19  very rare 33,000 gp
+Ioun Stone (Absorption) 1 pale lavender gem worth at least 500 gp 1 scroll of dispel magic 1 very rare arcane essence 1 very rare divine essence 24 hours (3 days) 12 DC 19  very rare 18,000 gp
+Ioun Stone (Agility) 1 deep red gem worth at least 500 gp 1 scroll of enhance ability 2 very rare primal essence 2 very rare divine essence 24 hours (3 days) 12 DC 19  very rare 33,000 gp
+Ioun Stone (Fortitude) 1 pink gem worth at least 500 gp 1 scroll of enhance ability 2 very rare divine essence 2 very rare primal essence 24 hours (3 days) 12 DC 19  very rare 33,000 gp
+Ioun Stone (Insight) 1 incandescent blue worth at least 500 gp 1 scroll of enhance ability 2 very rare divine essence 2 very rare primal essence 24 hours (3 days) 12 DC 19  very rare 33,000 gp
+Ioun Stone (Intellect) 1 incandescent blue worth at least 500 gp 1 scroll of enhance ability 3 very rare arcane essence 1 very rare primal essence 24 hours (3 days) 12 DC 19  very rare 33,000 gp
+Ioun Stone (Leadership) 1 pink gem at least 500 gp 1 scroll of enhance ability 4 very rare divine essence 24 hours (3 days) 12 DC 19  very rare 33,000 gp
+Ioun Stone (Greater Absorption) 1 lavender gem worth at least 500 gp 1 green gem worth at least 500 gp 2 very rare divine essence 2 very rare arcane essence 1 scroll of antimagic sphere 32 hours (4 days) 16 DC 20  legendary 50,000 gp
+Ioun Stone (Mastery) 1 green gem worth at least 1,000 gp 1 scroll of enhance ability 1 legendary divine essence 1 very rare arcane essence 1 very rare primal essence 40 hours (5 days) 20 DC 21  legendary 55,800 gp
+Ioun Stone (Regeneration) 1 pearl worth at least 1,000 gp 1 scroll of regeneration 2 very rare divine essence 2 rare divine essence 24 hours (3 days) 12 DC 19 legendary 32,800 Brilliant Diamond 1 diamond worth at least 25 gp 1 common arcane essence 4 hours 2 DC 14  Common 95 gp
+Effervescent Emerald 1 emerald worth at least 25 gp 1 common primal essence 4 hours 2 DC 13  Common 70 gp
+Flickering Ruby 1 ruby worth at least 50 gp 1 common primal essence 4 hours 2 DC 14  Common 125 gp
+Sparkling Sapphire 1 sapphire worth at least 100 gp 1 uncommon arcane essence 6 hours 3 DC 15  Uncommon 320 gp
+Glittering Garnet 1 garnet worth at least 100 gp 1 common divine essence 1 uncommon arcane essence 6 hours 3 DC 16  Uncommon 420 gp
+Magic Diamond 1 diamond worth at least 100 gp 1 uncommon arcane essence 6 hours 3 DC 16  Uncommon 370 gp
+Perfect Infusion 1 cut gem worth at least 50 gp 1 common arcane essence 1 common primal essence 6 hours 3 DC 18 Uncommon 400 gp

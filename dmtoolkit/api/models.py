@@ -2,10 +2,15 @@ from __future__ import annotations
 
 from collections.abc import Sequence
 from dataclasses import dataclass, field, fields
+from fractions import Fraction
 from typing import Any, Optional, TypeVar, Generic, Type
 
 import dominate.tags as dtags
 from flask import render_template_string
+
+from dmtoolkit.util import get_logger
+
+log = get_logger(__name__)
 
 T = TypeVar("T")
 
@@ -56,17 +61,19 @@ class Monster:
     # environment: list[str]
 
     other_sources: list[dict] = field(default_factory=list)
-    subtype: str = None
+    subtype: Optional[str] = None
     actions_note: str = "" # See Homunculus Servant-TCE for example
-    mythic: Section = None
+    mythic: Optional[Section] = None
 
     key: str = ""
-
-    
 
     def __post_init__(self):
         if not self.key:
             self.key = f"{self.name}-{self.source}"
+    
+    @property
+    def cr_num(self) -> Fraction:
+        return Fraction(self.cr)
 
 
 @dataclass
@@ -82,6 +89,7 @@ class AC:
             string += f" {note}"
         return f"({string})" if self.with_braces else string
 
+    @staticmethod
     def from_spec(ac_spec: int | list) -> list[AC]:
         if isinstance(ac_spec, int):
             return [AC(ac_spec)]
@@ -94,8 +102,10 @@ class AC:
                 value = spec["ac"]
                 if "from" in spec:
                     aux_str = ", ".join(spec["from"])
-                if "condition" in spec:
+                elif "condition" in spec:
                     aux_str = spec["condition"]
+                else:
+                    aux_str = None
                 braces = spec.get("braces", False)
                 ac_list.append(AC(value, aux_str, braces))
             return ac_list
@@ -789,22 +799,28 @@ class Item:
     value: int = 0 # Value in CP
     item_type: str = ""
     properties: list[str] = field(default_factory=list)
+    attunement: str = ""
 
     @classmethod
     def from_spec(cls: type, spec: dict[str, Any]) -> Item:
-        # Convert entries, if needed
-        for idx, entry in enumerate(spec.get("entries", [])):
-            if not isinstance(entry, Entry):
-                spec["entries"][idx] = Entry.from_spec(entry)
+        try:
+            # Convert entries, if needed
+            for idx, entry in enumerate(spec.get("entries", [])):
+                if not isinstance(entry, Entry):
+                    spec["entries"][idx] = Entry.from_spec(entry)
 
-        # Return a subclass if relevant
-        if cls is Item:
-            if spec.get("weapon"):
-                return ItemWeapon.from_spec(spec)
-            if spec.get("armor"):
-                return ItemArmor.from_spec(spec)
-        
-        return cls(**cls._filter_spec(spec))
+            # Return a subclass if relevant
+            if cls is Item:
+                if spec.get("weapon"):
+                    return ItemWeapon.from_spec(spec)
+                if spec.get("armor"):
+                    return ItemArmor.from_spec(spec)
+            
+            return cls(**cls._filter_spec(spec))
+        except Exception as e:
+            name = spec.get("name", str(spec))
+            log.error(f"Unable to load item: {name}")
+            raise e
     
     @classmethod
     def _from_spec(cls: Type, spec: dict[str, Any]) -> Item:
@@ -815,9 +831,15 @@ class Item:
         allowed_fields = {field.name for field in fields(cls)}
         return {k: spec[k] for k in spec.keys() if k in allowed_fields}
 
-
     def id(self):
         return f"{self.name}|{self.source[0]}".lower()
+    
+    def __hash__(self):
+        return hash(self.id())
+    
+    @classmethod
+    def __post_init__(cls):
+        cls.__hash__ = Item.__hash__
 
 @dataclass(kw_only=True)
 class ItemWeapon(Item):
@@ -850,3 +872,8 @@ class ItemArmor(Item):
         spec["affects_stealth"] = spec.pop("stealth", False)
 
         return cls._from_spec(spec)
+
+@dataclass(kw_only=True)
+class KibblesIngredient(Item):
+    ingredient_type: str
+    locales: list[str] = field(default_factory=list)

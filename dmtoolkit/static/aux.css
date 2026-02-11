@@ -1,0 +1,32 @@
+.success, .error, .info, .warn {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 1000px;
+    border-radius: 6px;
+}
+
+.success {
+    background-color: #ddffdd !important;
+    color: #104d10 !important;
+    border: 1px solid #104d10;
+}
+
+.error {
+    background-color: #ffdddd !important;
+    color: #6b1414 !important;
+    border: 1px solid #6b1414;
+}
+
+.info {
+    background-color: #ddf8ff !important;
+    color: #14416b !important;
+    border: 1px solid #14416b;
+}
+
+.warn {
+    background-color: #ffbb55  !important;
+    color: #774801   !important;
+    border: 1px solid #774801   !important;
+;
+}

@@ -1,0 +1,31 @@
+Shortbow 1 quality branch 1 leather scraps 1 length of string 12 hours 6 DC 12 common 25 gp
+Longbow 1 quality branch 1 leather scraps 1 length of string 14 hours 7 DC 13 common 50 gp
+Composite Bow 1 common branch 4 leather scraps 1 length of string 24 hours 12 DC 12 common 50 gp
+Quarterstaff 1 common branch 2 hours 1 DC 10 common 2 sp
+Shield 4 common branch 1 metal scraps 1 leather scraps 8 hours 4 DC 12 common 10 gp
+Flute 1 quality branch 8 hours 4 DC 9 common 4 gp
+Harp 3 quality branch 4 length of string 16 hours (2 days) 8 DC 12 common 35 gp
+Lute 2 quality branch 2 length of string 1 fancy parts 16 hours (2 days) 8 DC 13 common 35 gp
+Drum 4 common branch 1 rawhide leather 1 parts 8 hours 4 DC 8 common 6 gp
+Dulcimer 2 quality branch 2 length of string 1 fancy parts 8 hours 4 DC 11 common 25 gp
+Lyre 2 quality branch 2 length of string 1 fancy parts 10 hours 5 DC 12 common 35 gp
+Pan Flute 1 quality branch 8 hours 4 DC 11 common 12 gp
+Shawm|phb 1 quality branch 8 hours 4 DC 8 common 2 gp
+Viol 3 quality branch 2 length of string 1 fancy parts 8 hours 4 DC 12 common 30 gp
+10 x Arrow 1 common branch 1 metal scraps 1 fletching 2 hours 1 DC 10 common 5 sp
+10 x Crossbow Bolt 1 common branch 1 metal scraps 1 fletching 2 hours 1 DC 10 common 5 sp
+10 x Dart 2 wood scraps 1 metal scraps 1 fletching 2 hours 1 DC 11 common 5 sp
+10 x Blowgun Needles 2 wood scraps 1 fletching 2 hours 1 DC 8 common 1 sp
+Short Haft 1 common branch 2 hours 1 DC 8 common 1 sp
+Long Haft 1 common branch 2 hours 1 DC 8 common 2 sp
+Wooden Stock 1 common branch 2 hours 1 DC 9 common 5 sp
+Basic Fishing Equipment 1 quality branch 1 parts 3 length of string 4 hours 2 DC 8 common 5 gp
+Carved Figurine 1 wood scraps 8 hours 4 DC 8 common 4 sp
+Quality Figurine 1 quality branch 8 hours 4 DC 14 common 50 gp
+Superb Figurine 1 rare branch 8 hours 4 DC 18 common 400 gp
+5 x Wood Scraps 1 common branch 2 hours 1 DC 5 common 1 sp
+Quality Branch 1 common branch 4 hours 2 DC 9 common 2 gp
+Uncommon Branch 1 quality branch 4 hours 2 DC 14 uncommon 25 gp
+Rare Branch 1 uncommon branch 6 hours 3 DC 15 rare 70 gp
+Very Rare Branch 1 rare branch 12 hours (1.5 days) 6 DC 19 very rare 800 gp
+Legendary Branch 1 very rare branch 12 hours (1.5 days) 6 DC 20 legendary 2,000 gp

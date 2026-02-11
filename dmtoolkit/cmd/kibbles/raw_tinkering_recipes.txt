@@ -1,0 +1,57 @@
+Bullseye Lantern 3 metal scraps 2 parts 1 glass flask 4 hours 2 DC 11 common 10 gp
+Hooded Lantern 3 metal scraps 1 parts 1 glass flask 4 hours 2 DC 9 common 5 gp
+Lamp 2 metal scraps 4 hours 2 DC 10 common 5 sp Lock 2 metal scraps 3 parts 8 hours 4 DC 17 common 10 gp
+Grappling Hook 1 rope 2 metal scraps 1 parts 2 hours 1 DC 12 common 7 gp
+Climber’s Kit 10 pitons 50 feet rope 4 parts 1 fancy parts 2 hours 1 DC 12 common 25 gp
+Merchant’s Scale 1 metal scraps 2 parts 2 hours 1 DC 10 common 5 gp
+Tinderbox 1 metal scraps 1 parts 2 hours 1 DC 10 common 2 gp
+Spyglass 2 metal scraps 2 fancy parts 5 esoteric parts 12 hours (1.5 days) 6 DC 18 common 1,000 gp
+Windup Timer 2 metal scraps 1 parts 2 hours 1 DC 12 common 5 gp
+Clockwork Toy 2 metal scraps 3 parts 2 hours 1 DC 12 common 10 gp
+Pocket Watch 1 metal scraps 3 parts 1 fancy parts 1 esoteric parts 8 hours 4 DC 14 common 150 gp
+Underwater Breathing Apparatus 4 metal scraps 3 common primal essence 2 fancy parts 8 hours 4 DC 16 uncommon 300 gp
+Drill 2 metal scraps 1 parts 2 hours 1 DC 12 common 5 gp
+Parts 5 metal scraps 4 hours 2 DC 12 common 2 gp
+Autoloader 2 metal scraps 2 parts 5 fancy parts 8 hours 4 DC 17 uncommon 250 gp
+Noise Trap 2 metal scraps 2 parts 2 hours 1 DC 13 common 10 gp
+Hunting Trap 4 metal scraps 2 parts 2 hours 1 DC 13 common 10 gp
+Trip Wire 2 metal scraps 1 parts 2 hours 1 DC 12 common 5 gp
+Alchemist’s Supplies 4 metal scraps 2 fancy parts 8 hours 4 DC 14 common 50 gp
+Brewer’s Supplies 4 metal scraps 2 fancy parts 6 hours 3 DC 10 common 20 gp
+Cartographer’s Tools 2 metal scraps 1 parts 1 fancy parts 6 hours 3 DC 13 common 15 gp
+Cobbler’s Tools 3 metal scraps 1 parts 4 hours 2 DC 12 common 5 gp
+Cook’s Utensils 5 metal scraps 4 hours 2 DC 12 common 1 gp
+Glassblower’s Tools 3 metal scraps 2 fancy parts 6 hours 3 DC 12 common 30 gp
+Jeweler’s Tools 2 metal scraps 2 fancy parts 4 hours 2 DC 12 common 25 gp
+Leatherworker’s Tools 4 metal scraps 1 parts 4 hours 2 DC 12 common 5 gp
+Mason’s Tools 5 metal scraps 2 parts 6 hours 3 DC 10 common 10 gp
+Tinker’s Tools 5 metal scraps 3 fancy parts 8 hours 4 DC 12 common 50 gp
+Weaver’s Tools 4 metal scraps 4 hours 2 DC 12 common 1 gp
+Woodcarver’s Tools 4 metal scraps 4 hours 2 DC 12 common 1 gp
+Navigator’s Tools 3 metal scraps 2 parts 1 fancy parts 6 hours 3 DC 12 common 25 gp
+Thieves’ Tools 4 metal scraps 2 parts 1 fancy parts 6 hours 3 DC 12 common 25 gp
+Herbalism Kit 4 metal scraps 1 parts 4 hours 2 DC 12 common 5 gp
+Bagpipes 1 tanned leather 2 metal scraps 1 fancy parts 6 hours 3 DC 13 common 30 gp
+Horn 4 metal scraps 1 parts 4 hours 2 DC 10 common 4 gp
+Light Crossbow 1 wooden stock 4 metal scraps 6 parts 4 hours 2 DC 13 common 25 gp
+Hand Crossbow 1 wooden stock 4 metal scraps 2 parts 3 fancy parts 8 hours 4 DC 16 common 75 gp
+Heavy Crossbow 1 wooden stock 8 metal scraps 6 parts 2 fancy parts 6 hours 3 DC 13 common 50 gp
+Ordinary Walking StickDS 1 hand crossbow 1 quarterstaff 3 parts 6 hours 3 DC 14 common 120 gp
+Lantern ShieldDS 1 shield 1 hooded lantern 1 +1 shortsword 3 esoteric parts 5 fancy parts 16 hours 8 DC 18 very rare 1700 gp
+Rapid Fire CrossbowDS 1 +2 heavy crossbow 1 autoloader 2 fancy parts 8 hours 4 DC 18 very rare 6500 gp
+Whistling Shot 1 piece of ammunition 2 parts 2 hours 1 DC 12 common 8 gp
+Bola Shot 1 piece of ammunition 1 net 2 parts 2 hours 1 DC 14 common 15 gp
+Payload Shot 1 piece of ammunition 1 item weighing less than 1 lb. 1 parts 2 hours 1 DC 16 common 35 gp
+10 x Propelled Shot 10 pieces of ammunition 1 packet of blasting powder 5 parts 2 hours 1 DC 15 common 80 gp
+Spell Shot 1 piece of ammunition 1 fancy parts (a) 1 scroll of fog cloud, or (b) 1 scroll of entangle, or (c) 1 scroll of multishot 2 hours 1 DC 15 uncommon 80 gp
+Adaptable Shot 1 piece of ammunition 1 parts 2 hours 1 DC 14 common 13 gp
+Bouncing Shot 1 piece of ammunition 1 fancy parts 2 hours 1 DC 15 common 30 gp
+Ricochet Shot 1 piece of ammunition 1 fancy parts 2 hours 1 DC 16 common 40 gp
+Basic Leg Prosthetics 8 metal scraps 1 parts 4 hours 2 DC 10 common 5 gp
+Mechanical Arm 6 metal scraps 4 parts 2 fancy parts 1 common arcane essence 8 hours 4 DC 14 common 125 gp
+Mechanical Leg 8 metal scraps 4 parts 2 fancy parts 1 common arcane essence 8 hours 4 DC 14 common 125 gp
+Weaponized Arm 1 one handed melee weapon 8 metal scraps 4 parts 2 fancy parts 1 esoteric parts 8 hours 4 DC 15 common 180 gp
+Specialized Mechanical Arm 1 tool of your choice 6 metal scraps 4 fancy parts 1 esoteric parts 1 common arcane essence 8 hours 4 DC 15 uncommon 270 gp
+Spring Loaded Leg 8 metal scraps 4 parts 2 esoteric parts 1 common arcane essence 8 hours 4 DC 16 uncommon 300 gp
+Folding Boat 1 boat (not inluded in cost) 10 parts 3 esoteric parts 2 uncommon primal essence 1 rare arcane essence 16 hours (2 days) 8 DC 17 Rare 1,800 gp
+Folding Cart 1 cart (not inluded in cost) 10 parts 3 esoteric parts 2 uncommon arcane essence 1 rare arcane essence 16 hours (2 days) 8 DC 15 Rare 1,500 gp

@@ -1,0 +1,61 @@
+{% extends "base.jinja2" %}
+
+{% block header %}
+    <link rel=stylesheet type="text/css" href="{{ url_for('tracker_bp.static', filename='tracker.css') }}">
+    <link rel=stylesheet type="text/css" href="{{ url_for('tracker_bp.static', filename='statblock.css') }}">
+    <link rel=stylesheet type="text/css" href="{{ url_for('kibbles.static', filename='kibbles.css') }}">
+    <link rel=stylesheet type="text/css" href="{{ url_for('static', filename='phb.css') }}">
+    <script src="{{url_for('tracker_bp.static', filename='tracker.js')}}"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Convergence">
+{% endblock %}
+
+{% block content %}
+
+<div style="width: 1200px; margin: auto; display: flex; flex-direction: column;flex-grow: 1;">
+    <h1>Crafting</h1>
+
+    <h3>Recipe Search</h3>
+    <input id="recipesearch" list="recipelist" class="w3-input w3-border" type="text" placeholder="Search for recipes...">
+    <datalist id="recipelist">
+        {% for item in items %}
+            <option value="{{item.id()}}">{{item.name}}</option>
+        {% endfor %}
+    </datalist>
+
+    <div id="recipe-block" class="recipe-block">
+    
+    </div>
+
+</div>
+
+<div id="tooltip-sleeve" style="position: absolute; width: 0; height: 0;">
+    <div id="tooltip" class="tooltip"></div>
+</div>
+
+<script>
+    function searchBoxEnter(e) {
+        if (e.key == 'Enter') {
+            showRecipe();
+        }
+    }
+    function showRecipe() {
+        $.ajax({
+            url: '{{url_for('kibbles.get_crafting_recipe_view')}}',
+            data: {item_id: $('#recipesearch').val()},
+            method: 'GET',
+            headers: {
+                'Content-Type': 'application/json',
+                'Accepts': 'application/json'
+            },
+            success: function(response) {
+                $('#recipe-block').html(response)
+            }
+        })
+    };
+
+    $(document).ready(function () {
+        $('#recipesearch').keydown(searchBoxEnter);
+    })
+</script>
+
+{% endblock %}

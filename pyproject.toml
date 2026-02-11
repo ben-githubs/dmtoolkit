@@ -14,6 +14,7 @@ flask-session = "^0.8.0"
 redis = "^5.2.1"
 dominate = "^2.9.1"
 requests = "^2.32.4"
+d20 = "^1.1.2"
 
 [tool.poetry.scripts]
 dmk = "dmtoolkit.cmd.main:main"
@@ -25,6 +26,9 @@ dmk = "dmtoolkit.cmd.main:main"
 [tool.poetry.group.cmd.dependencies]
 selenium = "^4.29.0"
 dominate = "^2.9.1"
+
+[tool.pytest.ini_options]
+log_cli = true
 
 [build-system]
 requires = ["poetry-core"]

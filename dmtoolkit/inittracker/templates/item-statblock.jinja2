@@ -11,6 +11,12 @@
                 AC {{ item.ac }}
                 {%- if item.armor_type == "Light Armor" %} + Dex{% elif item.armor_type == "Medium Armor" %} + Dex (max 2){% endif %}
             {% endif %}
+            {% if item.properties %}
+                {{ item.properties | join(', ') | title }}
+            {% endif %}
+            {% if item.ingredient_type %}
+                ({{ item.ingredient_type | title}})
+            {% endif %}
         </div>
     </div>
 

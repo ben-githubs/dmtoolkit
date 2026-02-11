@@ -1,0 +1,73 @@
+<div id="recipe-statblock-wrapper" style="width: 850px">
+    <div id="recipe-statblock" class="statblock">
+        <h1>{{ item.name }}</h1>
+        <div style="display: flex; width: 100%; justify-content: space-between">
+            <div><em>{{ item.item_type or "Wonderous Item"}}</em></div>
+            <div>{{ item.rarity | title }}</div>
+        </div>
+        <div style="display: flex; width: 100%; justify-content: space-between">
+            <div>{{ item.weight }} lb.</div>
+            <div>
+                {% if item.ac is defined %}
+                    AC {{ item.ac }}
+                    {%- if item.armor_type == "Light Armor" %} + Dex{% elif item.armor_type == "Medium Armor" %} + Dex (max 2){% endif %}
+                {% endif %}
+                {% if item.properties %}
+                    {{ item.properties | join(', ') | title }}
+                {% endif %}
+                {% if item.ingredient_type %}
+                    ({{ item.ingredient_type | title}})
+                {% endif %}
+            </div>
+        </div>
+
+        <hr/>
+        {% if item.entries %}
+            {% for entry in item.entries %}
+                {{ entry.html() | macro5e }}
+            {% endfor %}
+
+            <hr/>
+        {% endif %}
+
+        <h3>Recipes</h3>
+        <ol>
+            {% for recipe in recipes %}
+                <li>
+                    <strong>{{ recipe.result.name }} {{ '(' ~ recipe.quantity ~ ')' }}</strong><br/>
+                    <em>Requires {{ recipe.num_checks }} successful DC {{ recipe.dc }} {{ recipe.crafting_type | title }} check{{ 's' if recipe.num_checks != 1 }} and takes {{ recipe.crafting_time }}. {{ recipe.note }}</em>
+                    <ul>
+                        {% for ingredient_wrapper in recipe.materials %}
+                            <li>{{ ingredient_wrapper | macro5e }}</li>
+                        {% endfor%}
+                    </ul>
+                </li>
+            {% endfor %}
+        </ol>
+    </div>
+</div>
+<div style="display: flex; flex-grow: 1">
+    <div class="phb-style" style="flex: 1 1 0; min-height: 0; overflow-y: scroll">
+        {% if recipes %}
+            {% if recipes[0].crafting_type == 'alchemy' %}
+                {% include 'crafting_rules/alchemy.jinja2' %}
+            {% elif recipes[0].crafting_type == 'poisoncraft' %}
+                {% include 'crafting_rules/poisoncraft.jinja2' %}
+            {% elif recipes[0].crafting_type == 'blacksmithing' %}
+                {% include 'crafting_rules/blacksmithing.jinja2' %}
+            {% elif recipes[0].crafting_type == 'cooking' %}
+                {% include 'crafting_rules/cooking.jinja2' %}
+            {% elif recipes[0].crafting_type == 'enchanting' %}
+                {% include 'crafting_rules/enchanting.jinja2' %}
+            {% elif recipes[0].crafting_type == 'scrollscribing' %}
+                {% include 'crafting_rules/scrollscribing.jinja2' %}
+            {% elif recipes[0].crafting_type == 'wand_whittling' %}
+                {% include 'crafting_rules/wand_whittling.jinja2' %}
+            {% elif recipes[0].crafting_type == 'tinkering' %}
+                {% include 'crafting_rules/tinkering.jinja2' %}
+            {% elif recipes[0].crafting_type == 'runecarving' %}
+                {% include 'crafting_rules/runecarving.jinja2' %}
+            {% endif %}
+        {% endif %}
+    </div>
+</div>

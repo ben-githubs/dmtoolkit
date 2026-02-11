@@ -8,6 +8,9 @@ import json
 from typing import TYPE_CHECKING
 
 import dmtoolkit.api.models
+from dmtoolkit.util import get_logger
+
+log = get_logger(__name__)
 
 if TYPE_CHECKING:
     from _typeshed import DataclassInstance
@@ -87,7 +90,12 @@ class CustomDecoder(json.JSONDecoder):
                     raise ValueError(f"Unknown dataclass '{class_name}'")
                 if "race" in o:
                     o.pop("race")
-                return class_(**o)
+                try:
+                    return class_(**o)
+                except Exception as e:
+                    name = o.get("id") or o.get("name") or o.get("title") or str(o)
+                    log.error(f"Cannot parse object '{name}' into class {class_.__name__}: {e}")
+                    raise e
         return o
 
 
