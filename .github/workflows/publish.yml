@@ -1,0 +1,154 @@
+name: Publish Docker Image and Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+    branches:
+      - main
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Version tag (e.g., v0.1.0)'
+        required: true
+        type: string
+
+permissions:
+  contents: write
+  packages: write
+
+jobs:
+  build-and-publish:
+    runs-on: ubuntu-latest
+    # Skip if push to main is not a version bump (will be checked in step)
+    if: |
+      github.event_name == 'workflow_dispatch' ||
+      startsWith(github.ref, 'refs/tags/v') ||
+      github.ref == 'refs/heads/main'
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+      with:
+        fetch-depth: 0
+        token: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Check if version bump in commits
+      id: check_version_bump
+      if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+      run: |
+        # Check if any commit in this push contains "Bump version to"
+        # Handle case where before might be all zeros (first push)
+        if [ "${{ github.event.before }}" = "0000000000000000000000000000000000000000" ]; then
+          # First push to branch, check last commit
+          if git log -1 --pretty=%B | grep -q "Bump version to"; then
+            echo "is_version_bump=true" >> $GITHUB_OUTPUT
+            echo "Found version bump in commit"
+          else
+            echo "is_version_bump=false" >> $GITHUB_OUTPUT
+            echo "No version bump found"
+          fi
+        else
+          # Check commits in the push range
+          if git log --oneline ${{ github.event.before }}..${{ github.event.after }} | grep -q "Bump version to"; then
+            echo "is_version_bump=true" >> $GITHUB_OUTPUT
+            echo "Found version bump in commits"
+          else
+            echo "is_version_bump=false" >> $GITHUB_OUTPUT
+            echo "No version bump found in commits"
+          fi
+        fi
+
+    - name: Set up Python
+      uses: actions/setup-python@0b93645e9fea7318ecaed2b359559ac225c90a2b
+      with:
+        python-version: 3.11
+
+    - name: Install Poetry
+      run: make install-poetry
+
+    - name: Determine version
+      id: version
+      run: |
+        if [ "${{ github.event_name }}" == "workflow_dispatch" ]; then
+          VERSION="${{ github.event.inputs.version }}"
+        elif [ "${{ github.event_name }}" == "push" ] && [ "${{ github.ref }}" == "refs/heads/main" ]; then
+          # Only proceed if this is a version bump
+          if [ "${{ steps.check_version_bump.outputs.is_version_bump }}" != "true" ]; then
+            echo "Not a version bump commit, exiting"
+            exit 1
+          fi
+          # Extract version from pyproject.toml
+          VERSION=$(poetry version -s)
+          VERSION="v$VERSION"
+        else
+          # Tag push
+          VERSION="${{ github.ref_name }}"
+        fi
+        # Remove 'v' prefix if present for Docker tag
+        DOCKER_TAG="${VERSION#v}"
+        echo "version=$VERSION" >> $GITHUB_OUTPUT
+        echo "docker_tag=$DOCKER_TAG" >> $GITHUB_OUTPUT
+        echo "Version: $VERSION"
+        echo "Docker tag: $DOCKER_TAG"
+
+    - name: Create tag (if manual trigger or version bump)
+      if: |
+        github.event_name == 'workflow_dispatch' ||
+        (github.event_name == 'push' && github.ref == 'refs/heads/main')
+      run: |
+        git config user.name "github-actions[bot]"
+        git config user.email "github-actions[bot]@users.noreply.github.com"
+        git tag -a "${{ steps.version.outputs.version }}" -m "Release ${{ steps.version.outputs.version }}"
+        git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
+        git push origin "${{ steps.version.outputs.version }}"
+
+    - name: Build Docker image
+      run: make build
+
+    - name: Set up Docker Buildx
+      uses: docker/setup-buildx-action@v3
+
+    - name: Log in to GitHub Container Registry
+      uses: docker/login-action@v3
+      with:
+        registry: ghcr.io
+        username: ${{ github.actor }}
+        password: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Tag Docker image
+      run: |
+        docker tag bagoftricks:latest ghcr.io/${{ github.repository_owner }}/dmtools:${{ steps.version.outputs.docker_tag }}
+        docker tag bagoftricks:latest ghcr.io/${{ github.repository_owner }}/dmtools:latest
+
+    - name: Push Docker image to GHCR
+      run: |
+        docker push ghcr.io/${{ github.repository_owner }}/dmtools:${{ steps.version.outputs.docker_tag }}
+        docker push ghcr.io/${{ github.repository_owner }}/dmtools:latest
+
+    - name: Create GitHub Release
+      run: |
+        # Check if release already exists
+        if gh release view "${{ steps.version.outputs.version }}" 2>/dev/null; then
+          echo "Release ${{ steps.version.outputs.version }} already exists, skipping creation"
+        else
+          gh release create "${{ steps.version.outputs.version }}" \
+            --title "Release ${{ steps.version.outputs.version }}" \
+            --notes "## Release ${{ steps.version.outputs.version }}
+        
+        ### Docker Image
+        
+        The Docker image is available on GitHub Container Registry:
+        
+        \`\`\`bash
+        docker pull ghcr.io/${{ github.repository_owner }}/dmtools:${{ steps.version.outputs.docker_tag }}
+        \`\`\`
+        
+        Or use the latest tag:
+        
+        \`\`\`bash
+        docker pull ghcr.io/${{ github.repository_owner }}/dmtools:latest
+        \`\`\`"
+        fi
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
