@@ -1,0 +1,16 @@
+services:
+  bagoftricks:
+    image: ghcr.io/ben-githubs/bagoftricks:latest
+    container_name: bagoftricks
+    ports:
+      - "5000:5000"
+    environment:
+      - SECRET_KEY=${SECRET_KEY:-change-me-in-production}
+      - SESSION_COOKIE_NAME=${SESSION_COOKIE_NAME:-session}
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:5000/"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
