@@ -42,14 +42,14 @@ jobs:
     - name: Tag Docker image
       run: |
         export VERSION=$(poetry version -s)
-        docker tag bagoftricks:latest ghcr.io/${{ github.repository_owner }}/dmtools:v$VERSION
-        docker tag bagoftricks:latest ghcr.io/${{ github.repository_owner }}/dmtools:latest
+        docker tag bagoftricks:latest ghcr.io/${{ github.repository_owner }}/bagoftricks:v$VERSION
+        docker tag bagoftricks:latest ghcr.io/${{ github.repository_owner }}/bagoftricks:latest
 
     - name: Push Docker image to GHCR
       run: |
         export VERSION=$(poetry version -s)
-        docker push ghcr.io/${{ github.repository_owner }}/dmtools:v$VERSION
-        docker push ghcr.io/${{ github.repository_owner }}/dmtools:latest
+        docker push ghcr.io/${{ github.repository_owner }}/bagoftricks:v$VERSION
+        docker push ghcr.io/${{ github.repository_owner }}/bagoftricks:latest
 
     - name: Create GitHub Release
       run: |
