@@ -2,7 +2,8 @@ import json
 from pathlib import Path
 from typing import Any
 
-from dmtoolkit.cmd._util import ConverterError, browser_fetch, pluralize, singularize, deep_get
+from dmtoolkit.cmd._util import ConverterError, browser_fetch, pluralize, singularize, deep_get, FetchError
+from dmtoolkit.cmd.util import NEW_2024_SOURCES, mark_2024
 from dmtoolkit.constants import ROOT_DIR
 from dmtoolkit.api.models import Spell, Subclass, ClassFeature, Entry
 from dmtoolkit.api.serialize import dump_json, load_json
@@ -38,18 +39,21 @@ def fetch_spells(outfile: Path):
         "https://5e.tools/data/spells/spells-scc.json",
         "https://5e.tools/data/spells/spells-tce.json",
         "https://5e.tools/data/spells/spells-xge.json",
-        "https://5e.tools/data/spells/spells-tdcsr.json",
+        # "https://5e.tools/data/spells/spells-tdcsr.json",
         "https://5e.tools/data/spells/spells-bmt.json",
         "https://5e.tools/data/spells/spells-sato.json",
-        # "https://5e.tools/data/spells/spells-xphb.json"
+        "https://5e.tools/data/spells/spells-xphb.json"
     ]
 
     # Store info
     spells = []
     for url in urls:
         # Fetch the file
-        data = browser_fetch(url)
-        spells.append(json.loads(data))
+        try:
+            data = browser_fetch(url)
+            spells.append(json.loads(data))
+        except Exception as e:
+            raise FetchError(f"Unable to fetch spells from URL '{url}'") from e
     
     # Dump data in file
     with outfile.open("w") as f:
@@ -63,60 +67,69 @@ def convert(infile: Path, outfile: Path):
     
     for group in raw_spell_specs:
         for spell_spec in group["spell"]:
-            if "name" not in spell_spec:
-                print(spell_spec)
-                raise Exception
-            spell_name = spell_spec["name"]
-            spell_params = {
-                "entries": [],
-                "duration": "",
-                "level": spell_spec["level"],
-                "name": spell_name,
-                "range": "",
-                "school": SCHOOLS[spell_spec["school"]],
-                "source": (spell_spec["source"], int(spell_spec["page"])),
-                "time": "",
-            }
-
-            for entry in spell_spec["entries"]:
-                spell_params["entries"].append(Entry.from_spec(entry))
-            for entry in spell_spec.get("entriesHigherLevel", []):
-                spell_params["entries"].append(Entry.from_spec(entry))
-
             try:
-                duration_spec = spell_spec["duration"][0] # Only ever has one entry
-                spell_params["duration"] = _fmt_duration(duration_spec) 
-                spell_params["range"] = _fmt_range(spell_spec["range"])
-                spell_params["time"] = _fmt_time(spell_spec["time"])
-            except BaseException as e:
-                raise ConverterError(f"{spell_name}: {e}") from e
-            if spell_params["duration"].startswith("Concentration"):
-                spell_params["is_concentration"] = True
-            
-            for additional_source in spell_spec.get("additional_sources", []):
-                if "additional_sources" not in spell_params:
-                    spell_params["additional_sources"] = []
-                spell_params["additional_sources"].append(
-                    (additional_source["source"], additional_source["page"])
-                )
-            
-            if deep_get(spell_spec, "components", "v"):
-                spell_params["is_verbal"] = True
-            if deep_get(spell_spec, "components", "s"):
-                spell_params["is_somatic"] = True
-            if material_component_spec := deep_get(spell_spec, "components", "m"):
-                spell_params["is_material"] = True
-                if isinstance(material_component_spec, dict):
-                    spell_params["material_components"] = material_component_spec["text"]
-                else:
-                    spell_params["material_components"] = str(material_component_spec)
-            
-            spell_params["is_ritual"] = deep_get(spell_spec, "meta", "ritual", default=False)
+                if "name" not in spell_spec:
+                    print(spell_spec)
+                    raise Exception
+                spell_name = spell_spec["name"]
+                spell_params = {
+                    "entries": [],
+                    "duration": "",
+                    "level": spell_spec["level"],
+                    "name": spell_name,
+                    "range": "",
+                    "school": SCHOOLS[spell_spec["school"]],
+                    "source": spell_spec["source"],
+                    "page": int(spell_spec["page"]),
+                    "time": "",
+                }
 
-            try:
-                spells.append(Spell(**spell_params))
-            except BaseException as e:
-                raise ConverterError(f"{spell_name}: Unable to convert: {e}") from e
+                for entry in spell_spec["entries"]:
+                    spell_params["entries"].append(Entry.from_spec(entry))
+                for entry in spell_spec.get("entriesHigherLevel", []):
+                    spell_params["entries"].append(Entry.from_spec(entry))
+
+                try:
+                    duration_spec = spell_spec["duration"][0] # Only ever has one entry
+                    spell_params["duration"] = _fmt_duration(duration_spec) 
+                    spell_params["range"] = _fmt_range(spell_spec["range"])
+                    spell_params["time"] = _fmt_time(spell_spec["time"])
+                except BaseException as e:
+                    raise ConverterError(f"{spell_name}: {e}") from e
+                if spell_params["duration"].startswith("Concentration"):
+                    spell_params["is_concentration"] = True
+                
+                for additional_source in spell_spec.get("additional_sources", []):
+                    if "additional_sources" not in spell_params:
+                        spell_params["additional_sources"] = []
+                    spell_params["additional_sources"].append(
+                        (additional_source["source"], additional_source["page"])
+                    )
+                
+                if deep_get(spell_spec, "components", "v"):
+                    spell_params["is_verbal"] = True
+                if deep_get(spell_spec, "components", "s"):
+                    spell_params["is_somatic"] = True
+                if material_component_spec := deep_get(spell_spec, "components", "m"):
+                    spell_params["is_material"] = True
+                    if isinstance(material_component_spec, dict):
+                        spell_params["material_components"] = material_component_spec["text"]
+                    else:
+                        spell_params["material_components"] = str(material_component_spec)
+                
+                spell_params["is_ritual"] = deep_get(spell_spec, "meta", "ritual", default=False)
+
+                spell_params["is_2024"] = spell_spec["source"] in NEW_2024_SOURCES
+                spell_params["reprinted_as"] = ["-".join(src.split("|")) for src in spell_spec.get("reprintedAs", [])]
+
+                try:
+                    spells.append(Spell(**spell_params))
+                except BaseException as e:
+                    raise ConverterError(f"{spell_name}: Unable to convert: {e}") from e
+            except Exception as e:
+                raise ConverterError(f"{spell_spec['name']}: Unable to convert: {e}") from e
+    
+    mark_2024(spells)
     
     with outfile.open("w") as f:
         dump_json(spells, f)
@@ -169,6 +182,9 @@ def _fmt_range(range_spec: dict[str, Any]) -> str:
                 case "feet":
                     nfeet = distance["amount"]
                     return f"Self ({nfeet}-foot {shape})"
+                case "miles":
+                    n = distance["amount"]
+                    return f"Self ({n}-mile {shape})"
                 case _:
                     raise ConverterError(f"Unexpected range unit for shape: '{distance.get('type')}'")
         case "point":
@@ -181,6 +197,8 @@ def _fmt_range(range_spec: dict[str, Any]) -> str:
             return f"Self ({distance['amount']}-{singularize(distance['type'])} radius)"
         case "special":
             return "Special"
+        case "emanation":
+            return "Emanation"
         case _:
             raise ConverterError(f"Unexpected range type: '{range_type}'")
     

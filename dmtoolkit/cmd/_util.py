@@ -50,6 +50,9 @@ def singularize(s: str) -> str:
 class ConverterError(BaseException):
     pass
 
+class FetchError(BaseException):
+    pass
+
 def deep_get(obj: Mapping, *fields, default: Any = None) -> Any:
     _obj = obj
     for field in fields[:-1]:

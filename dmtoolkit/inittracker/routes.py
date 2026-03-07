@@ -31,7 +31,6 @@ def tracker():
     page = {
         "title": "DMTTools - Init Tracker"
     }
-    print(get_setting("use_new_content"))
     monsters = get_monster_names(prefer_reprinted=get_setting("use_new_content"))
     monster = get_monster("Poltergeist-MM")
     return render_template(
@@ -168,7 +167,7 @@ def get_loot_statblock():
 
 @tracker_bp.route("/tooltips/spells/<spell_name>", methods=["GET"])
 def get_spell_tooltip(spell_name: str):
-    spell = get_spell(spell_name)
+    spell = get_spell(spell_name, get_setting("use_new_content"))
     return render_template("spell-statblock.jinja2", spell=spell)
 
 

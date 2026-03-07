@@ -19,12 +19,19 @@ class Reference(Generic[T]):
     """Used as a marker to indicate we should not directly serialize this class."""
     pass
 
-@dataclass
-class Monster:
-    # This class will be moved to the Monsters API when it gets made
-    name: str
+@dataclass(kw_only=True)
+class Model:
     source: str
     page: int
+    is_2024: bool = False
+    has_2024: bool = False
+    reprinted_as: list[str] = field(default_factory=list)
+
+
+@dataclass
+class Monster(Model):
+    # This class will be moved to the Monsters API when it gets made
+    name: str
     size_str: str
     maintype: str
     alignment: str
@@ -67,9 +74,6 @@ class Monster:
     mythic: Optional[Section] = None
 
     key: str = ""
-    is_2024: bool = False
-    has_2024: bool = False
-    reprinted_as: list[str] = field(default_factory=list)
 
     def __post_init__(self):
         if not self.key:
@@ -775,14 +779,13 @@ class ClassFeature(Entry):
     level: int = 0
 
 @dataclass
-class Spell:
+class Spell(Model):
     entries: list[Entry]
     duration: str
     level: int
     name: str
     range: str
     school: str
-    source: tuple[str, int]
     time: str
     
     

@@ -16,7 +16,7 @@ from typing import Any
 
 import click
 
-from dmtoolkit.cmd.util import listify
+from dmtoolkit.cmd.util import listify, NEW_2024_SOURCES
 from dmtoolkit.api.models import AC, HP, Entry, Monster, SkillList, Speed, SpellCasting, Scalar
 from dmtoolkit.api.serialize import load_json, dump_json
 
@@ -35,12 +35,6 @@ IGNORE_MONSTERS = {
     # The source monster is miscapitalized and I don't feel like making the check case insensitive
     "Ougalop-OotA",
     "Shuushar the Awakened-OotA"
-}
-
-NEW_2024_SOURCES = {
-    "XPHB",
-    "XDMG",
-    "XMM"
 }
 
 def convert_monster(spec: dict[str, Any]) -> Monster | None:
