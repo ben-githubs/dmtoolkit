@@ -3,6 +3,7 @@ from __future__ import annotations
 from collections.abc import Sequence
 from dataclasses import dataclass, field, fields
 from fractions import Fraction
+import re
 from typing import Any, Optional, TypeVar, Generic, Type
 
 import dominate.tags as dtags
@@ -66,6 +67,9 @@ class Monster:
     mythic: Optional[Section] = None
 
     key: str = ""
+    is_2024: bool = False
+    has_2024: bool = False
+    reprinted_as: list[str] = field(default_factory=list)
 
     def __post_init__(self):
         if not self.key:
@@ -413,6 +417,8 @@ class Entry:
                 case "section":
                     body.append(f"<h2>{spec['entries'][0]['name']}")
                     body.extend([Entry.from_spec(subentry) for subentry in spec["entries"][0]["entries"]])
+                case "itemSub":
+                    body.append(f"<em>{spec['name']}</em> {' '.join(spec['entries'])}")
                 case _:
                     raise ValueError(f"Unexpected type '{spec['type']}'")
 
@@ -595,11 +601,22 @@ class DailySpellList:
 class Modifier:
     target: str
     mod: int
+    note: str = ""
 
     def __post_init__(self):
-        # Often, it's entered as '+1' or '-5'.
+        # Often, it's entered as '+1' or '-5'. Sometimes it has a note, like "+3 (+6 in snake form)"
         if isinstance(self.mod, str):
-            self.mod = int(self.mod)
+            m = re.match(r"([+-]\d+)\s*(\(.*?\))?", self.mod)
+            if not m:
+                raise ValueError(f"Invalid modifier string: '{self.mod}")
+            self.mod = int(m.group(1))
+            self.note = m.group(2)
+    
+    def __str__(self):
+        s = f"{self.mod:+}"
+        if self.note:
+            s += f" {self.note}"
+        return s
 
 
 @dataclass
@@ -613,7 +630,10 @@ class SkillMod(Modifier):
     
 
     def __str__(self):
-        return "{@skill " + self.target.title() + "} " + f"{self.mod:+}"
+        s = f"{self.mod:+}"
+        if self.note:
+            s += f" {self.note}"
+        return "{@skill " + self.target.title() + "} " + f"{s}"
 
 @dataclass
 class SkillList:

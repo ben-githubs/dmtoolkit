@@ -37,7 +37,13 @@ IGNORE_MONSTERS = {
     "Shuushar the Awakened-OotA"
 }
 
-def convert_monster(spec: dict[str, Any]) -> Monster:
+NEW_2024_SOURCES = {
+    "XPHB",
+    "XDMG",
+    "XMM"
+}
+
+def convert_monster(spec: dict[str, Any]) -> Monster | None:
     if any(key in spec for key in ("_copy", "summonedBySpell", "summonedByClass")):
         # Implement this later
         return
@@ -128,6 +134,9 @@ def convert_monster(spec: dict[str, Any]) -> Monster:
         reactions = [Entry.from_spec(reaction) for reaction in spec.get("reaction", [])],
         legendary_actions = [Entry.from_spec(legendary) for legendary in spec.get("legendary", [])],
         spellcasting = [SpellCasting.from_spec(s) for s in spec.get("spellcasting", [])],
+        is_2024 = spec["source"] in NEW_2024_SOURCES,
+        has_2024 = False, # We will set this later in the `convert` function
+        reprinted_as = ["-".join(src.split("|")) for src in spec.get("reprintedAs", [])],
         **optargs
     )
     return monster
@@ -167,6 +176,8 @@ def copy_monster(orig: dict[str, Any], copy: dict[str, Any]) -> dict[str, Any]:
                         raise ValueError(f"Unknown modification: '{mod}'")
                 continue
             match mod.get("mode"):
+                case "setProp":
+                    new_spec[mod["prop"]] = mod["value"]
                 case "replaceTxt":
                     old_str = mod.get("replace", "")
                     new_str = mod.get("with", "")
@@ -383,7 +394,7 @@ def get_size_string(size_spec: list[str]) -> str:
         "M": "Medium",
         "S": "Small",
         "T": "Tiny"
-    }.get(size_spec[0])
+    }.get(size_spec[0], "Medium")
 
 
 def get_speed(speed_spec):
@@ -507,6 +518,7 @@ def get(outfile: Path):
         "https://5e.tools/data/bestiary/bestiary-xphb.json",
         "https://5e.tools/data/bestiary/bestiary-xdmg.json",
         "https://5e.tools/data/bestiary/bestiary-egw.json",
+        "https://5e.tools/data/bestiary/bestiary-xmm.json",
     ]
 
     # If you try to fetch the URLs above, you get a "Please wait" HTML response, and presumably 
@@ -557,7 +569,7 @@ def convert(infile: Path, outfile: Path):
         monsters = json.load(f)
         monsters_dict: dict[str, dict[str, Any]] = {}
         monsters_to_copy: dict[str, dict[str, Any]] = {}
-        converted_monsters = []
+        converted_monsters: list[Monster] = []
         for monster in monsters:
             key = f"{monster.get('name')}-{monster.get('source')}"
             monsters_dict[key] = monster
@@ -602,6 +614,11 @@ def convert(infile: Path, outfile: Path):
                     print(json.dumps(copy_spec))
                     raise e
 
+    # Mark any monster which have reprints in 5.5e
+    for monster in converted_monsters:
+        for _key in monster.reprinted_as:
+            if _key.split("-")[-1] in NEW_2024_SOURCES:
+                monster.has_2024 = True
     
     with outfile.open("w") as f:
         dump_json(converted_monsters, f)

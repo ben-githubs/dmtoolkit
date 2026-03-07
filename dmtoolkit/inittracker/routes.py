@@ -15,6 +15,7 @@ from dmtoolkit.api.spells import get_spell
 from dmtoolkit.inittracker.loot import loot as generate_loot
 from dmtoolkit.modules import flatten_modules
 from dmtoolkit.settings.api import get_active_modules
+from dmtoolkit.settings.api import get_setting
 
 tracker_bp = Blueprint(
     "tracker_bp",
@@ -30,7 +31,8 @@ def tracker():
     page = {
         "title": "DMTTools - Init Tracker"
     }
-    monsters = get_monster_names()
+    print(get_setting("use_new_content"))
+    monsters = get_monster_names(prefer_reprinted=get_setting("use_new_content"))
     monster = get_monster("Poltergeist-MM")
     return render_template(
         "tracker.jinja2",
@@ -169,10 +171,12 @@ def get_spell_tooltip(spell_name: str):
     spell = get_spell(spell_name)
     return render_template("spell-statblock.jinja2", spell=spell)
 
+
 @tracker_bp.route("/tooltips/items/<item_name>", methods=["GET"])
 def get_item_tooltip(item_name: str):
     item = get_item(item_name)
     return render_template("item-statblock.jinja2", item=item)
+
 
 @tracker_bp.route("/tooltips/conditions/<name>")
 def get_condition_tooltip(name: str):
