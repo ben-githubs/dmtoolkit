@@ -137,6 +137,11 @@ div.statblock {
     text-align: right;
 }
 
+.statblock .note {
+    color: grey;
+    font-style: italic;
+}
+
 span.tooltip {
     text-decoration-line: underline;
     text-decoration-style: dotted;
