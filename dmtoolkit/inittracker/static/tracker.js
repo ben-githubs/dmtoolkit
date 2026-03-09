@@ -179,11 +179,13 @@ function togglePlayer(button) {
                 
                 trow.data("id", `${playerName}.player`);
                 trow.data("statuses", []);
+                trow.data("type", "player");
 
                 trow.click(function(event) { updateStatblockTarget(event); });
 
                 tbody.append(trow);
                 updateAddPlayerButtons();
+                refreshXP();
             }
         });
     } else {
@@ -254,6 +256,7 @@ function refreshXP() {
     tbody = $("#turntracker").children().eq(0);
     xp = 0;
     total_xp = 0;
+    n_players = 0;
     tbody.children().each(function() {
         data = $(this).data();
         if (data.type == "npc" && data.hasXp) {
@@ -262,9 +265,16 @@ function refreshXP() {
             }
             total_xp += data.xp;
         }
+        else {
+            if (data.type == "player") {
+                n_players += 1;
+            }
+        }
     });
+    if (n_players == 0) { n_players = 1; } // Prevent division by 0
     $("#xp-to-award").text(xp);
     $("#xp-total").text(total_xp);
+    $("#xp-each").text(Math.round(xp/n_players));
 }
 
 function refreshLoot() {
