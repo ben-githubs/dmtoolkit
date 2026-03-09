@@ -127,9 +127,15 @@
             {{ action.html() | macro5e }}
         {% endfor %}
     {% endif %}
-    {% if monster.bonus %}
+    {% if monster.bonus_actions %}
         <h4>Bonus Actions</h4>
-        {% for action in monster.bonus %}
+        {% for action in monster.bonus_actions %}
+            {{ action.html() | macro5e }}
+        {% endfor %}
+    {% endif %}
+    {% if monster.reactions %}
+        <h4>Reactions</h4>
+        {% for action in monster.reactions %}
             {{ action.html() | macro5e }}
         {% endfor %}
     {% endif %}
