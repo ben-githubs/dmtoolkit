@@ -4,6 +4,7 @@
     <link rel=stylesheet type="text/css" href="{{ url_for('tracker_bp.static', filename='tracker.css') }}">
     <link rel=stylesheet type="text/css" href="{{ url_for('tracker_bp.static', filename='statblock.css') }}">
     <script src="{{url_for('tracker_bp.static', filename='tracker.js')}}"></script>
+    <script src="{{url_for('static', filename='util.js')}}"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Convergence">
 {% endblock %}
 
@@ -23,19 +24,23 @@
                 <option value="{{monster_id}}">{{monster_name}}</option>
             {% endfor %}
         </datalist>
-        <button id="add-monster-button" class="w3-button w3-whte w3-border w3-large w3-circle w3-xlarge w3-ripple" style="margin-left: 12px; overflow: visible">+</button>
+        <button id="add-monster-button" class="w3-button w3-white w3-border w3-large w3-circle w3-xlarge w3-ripple" style="margin-left: 12px; overflow: visible">+</button>
         <button id="manage-players-btn" class="w3-button w3-white w3-border w3-ripple" style="margin-left: 12px; float: right; overflow: visible">Add Players</button>
     </div>
     <div style="display: flex; flex-grow: 1; overflow: hidden;">
         <div style="width: 100%; flex-grow: 1; overflow-y: scroll">
-            <h1>Initiative Tracker</h1>
-            <h5>Saved Encounters</h5>
-            <div class="saved-encounter-list-header w3-small" style="width: 100%">
-                <div><strong>Title</strong></div>
-                <div><strong>Description</strong></div>
-                <div></div>
+            <div>
+                <h1>Initiative Tracker</h1>
+                <h5>Saved Encounters <a class="w3-button w3-white w3-border w3-small" style="padding: 4px 4px 4px 4px" onclick="toggle_header(event, $('#saved-encounter-wrapper'))">Hide</a></h5>
+                <div id="saved-encounter-wrapper">
+                    <div class="saved-encounter-list-header w3-small" style="width: 100%">
+                        <div><strong>Title</strong></div>
+                        <div><strong>Description</strong></div>
+                        <div></div>
+                    </div>
+                    <div class="saved-encounter-list w3-small"></div>
+                </div>
             </div>
-            <div class="saved-encounter-list w3-small"></div>
 
             <table id="turntracker" class="w3-table w3-bordered w3-border">
                 <tr id="tracker-header">
