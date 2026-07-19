@@ -87,13 +87,17 @@ function changeHP(self) {
 }
 
 function updateHP(self, hp) {
-    // Update Data
+    // Update Textbox
     tr = self.closest('tr');
+    textbox = tr.find('.hpbox');
+    textbox.attr('placeholder', hp);
+    textbox.val('');
+    console.log(textbox);
+
+    // Update Data
     monster = self.closest('tr').data();
     if ((hp <= 0 && monster.dead == false) || (hp > 0 && monster.dead == true)) {
         monster.dead = !monster.dead;
-        refreshLoot();
-        refreshXP();
         if (monster.dead) {
             addStatus(self, 'incapacitated', prepend=true);
         } else {
@@ -101,16 +105,16 @@ function updateHP(self, hp) {
         }
     }
 
-    // Update Textbox
-    textbox = tr.find('.hpbox');
-    textbox.attr('placeholder', hp);
-    textbox.val('');
-
     // If this is a mob, trigger the mobsize calculation
     updateMobSizeRemaining(tr);
+
+    // Update Loot and XP
+    //   Always do this last so the final calculations are already complete
+    refreshLoot();
+    refreshXP();
 }
 
-function getHP(trow) {
+function getHP(tr) {
     // Returns the current HP for a given table row in the tracker.
     return parseInt(tr.children().eq(3).children("input").eq(0).attr('placeholder'));
 }
@@ -156,6 +160,7 @@ function addMonster(monsterId, params={}) {
             trow.data('hasLoot', data.flag_loot);
             trow.data('statuses', data.statuses);
             trow.data('mobsize', data.mobsize);
+            trow.data('remaining-mobs', 1);
             trow.data('maxhp', data.hp);
 
             // Some functions might provide some overrides we should use
@@ -286,10 +291,12 @@ function refreshXP() {
     tbody.children().each(function() {
         data = $(this).data();
         if (data.type == "npc" && data.hasXp) {
-            if (data.dead == true) {
-                xp += data.xp;
-            }
-            total_xp += data.xp;
+            total_xp += data.mobsize * data.xp;
+
+            num_dead = data.mobsize - $(this).data('remaining-mobs');
+            console.log(`HP: ${Math.max(getHP($(this)), 0)}`);
+            console.log(`Num Alive: ${$(this).data('remaining-mobs')}`);
+            xp += num_dead * data.xp;
         }
         else {
             if (data.type == "player") {
@@ -368,10 +375,8 @@ function refreshStatus(tr) {
             height = 20;
         }
         $.each(statuses, function(_, status) {
-            console.log(status);
             wrapper = $(`<div class="w3-button" style="display: inline-block; width: ${height}px; height: ${height}px; padding:0; background-size: 40px 40px; background-image: url('inittracker/static/status-markers/${status}.png')" onmouseleave="hideTooltip(event)"></div>`);
             wrapper.mouseenter(function(event) {
-                console.log(event);
                 showNewTooltip(event, `/tooltips/conditions/${status}`);
             })
             wrapper.click(function(event) {
@@ -678,13 +683,11 @@ function showNewTooltip(event, url) {
 function showMobSizeModal(tr) {
     // Takes the table row for the monster being edited as input
     $('#edit-mob-modal').show();
-    console.log(tr.data('mobsize'));
     $('#edit-mob-modal-value').val(tr.data('mobsize'));
     $('#edit-mob-modal-form').submit(function(event) {
         // Stop form from reloading page
         event.preventDefault();
         // Update Mob Size
-        console.log($('#edit-mob-modal-value').val());
         new_mob_size = parseInt($('#edit-mob-modal-value').val());
         $('#edit-mob-modal').hide();
         updateMobSize(tr, new_mob_size);
@@ -699,11 +702,7 @@ function updateMobSize(tr, size) {
     // Adjust base HP
     current_hp = getHP(tr);
     max_hp = getMaxHP(tr);
-    console.log(`Max HP: ${max_hp}`);
-    console.log(`Now HP: ${current_hp}`);
-    console.log(`Old Size: ${prev_size}`);
     hp_frac = current_hp / (max_hp * prev_size);
-    console.log(hp_frac);
     // TODO: implement a function to SET hp from outside the hpbox input, then use that here
     updateHP(tr, Math.ceil(hp_frac * max_hp * size));
 
@@ -718,17 +717,14 @@ function updateMobSizeRemaining(tr) {
     max_hp = getMaxHP(tr);
     current_hp = getHP(tr);
     mobsize = parseInt(tr.data('mobsize'));
+    
+    remaining = Math.min(Math.max(0, Math.ceil(current_hp / max_hp)), mobsize);
+    tr.data('remaining-mobs', remaining);
 
     if (mobsize < 2) {
         textbox_name.text(tr.data('name'));
         textbox_max_hp = tr.find("#max-hp");
     } else {
-        console.log(`Current HP: ${current_hp}`);
-        console.log(`Max HP: ${max_hp}`);
-        console.log(`Mob Size: ${mobsize}`);
-        remaining = Math.ceil(current_hp / max_hp);
-        tr.data('remaining-mobs', remaining);
-        console.log(`${tr.data('name')} (${tr.data('remaining-mobs')}/${tr.data('mobsize')})`);
         textbox_name.text(`${tr.data('name')} (${tr.data('remaining-mobs')}/${tr.data('mobsize')})`);
     }
     textbox_max_hp.text(max_hp * mobsize);
