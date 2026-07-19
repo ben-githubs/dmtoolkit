@@ -51,6 +51,8 @@ def get_monster_page():
 def get_monster_combat_overview():
     name = str(request.args.get("name"))
     monster = get_monster(name)
+    if not monster:
+        raise ValueError("Cannot find monster with ID '{name}'")
     ac = monster.ac[0].value
     hp = monster.hp.average
     init_mod = int(monster.dexterity) // 2 - 5
@@ -95,7 +97,8 @@ def get_monster_combat_overview():
             "gp": gp,
             "items": item_specs
         },
-        "statuses": []
+        "statuses": [],
+        "mobsize": 1 # 1 means single enemy, more means a mob
     })
 
 @tracker_bp.app_template_filter("ordinal")

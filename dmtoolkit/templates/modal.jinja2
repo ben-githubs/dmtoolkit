@@ -1,6 +1,11 @@
-{% macro render_modal(id) %}
+{% macro render_modal(id, title=none) %}
 <div id="{{id}}" class="w3-modal">
     <div class="w3-modal-content">
+        {% if title is not none %}
+        <div class="w3-container w3-red">
+            <h1>{{ title }}</h1>
+        </div>
+        {% endif %}
         <div class="w3-container">
             <span id="{{id}}-close"  class="w3-button w3-display-topright">&times;</span>
             {{ caller() }}

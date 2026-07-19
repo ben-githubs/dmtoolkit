@@ -71,19 +71,24 @@ function deleteRow(event) {
     refreshLoot();
 }
 
-function updateHP(self) {
-    // Get or Set current HP
-    hp = parseInt(self.attr('placeholder'));
-    value = $.trim(self.val());
+function changeHP(self) {
+    // Event Handler for text inputs
+    
+    current_hp = parseInt(self.attr('placeholder'));
+    input = $.trim(self.val());
     // If the value is a relative amount
-    if (value.includes('+') || value.includes('-')) {
-        hp += parseInt(value);
+    if (input.includes('+') || input.includes('-')) {
+        current_hp += parseInt(input);
     } else {
-        hp = parseInt(value);
+        current_hp = parseInt(input);
     }
-    self.attr('placeholder', hp);
-    self.val('');
 
+    updateHP(self, current_hp);
+}
+
+function updateHP(self, hp) {
+    // Update Data
+    tr = self.closest('tr');
     monster = self.closest('tr').data();
     if ((hp <= 0 && monster.dead == false) || (hp > 0 && monster.dead == true)) {
         monster.dead = !monster.dead;
@@ -95,6 +100,24 @@ function updateHP(self) {
             removeStatus(self, 'incapacitated');
         }
     }
+
+    // Update Textbox
+    textbox = tr.find('.hpbox');
+    textbox.attr('placeholder', hp);
+    textbox.val('');
+
+    // If this is a mob, trigger the mobsize calculation
+    updateMobSizeRemaining(tr);
+}
+
+function getHP(trow) {
+    // Returns the current HP for a given table row in the tracker.
+    return parseInt(tr.children().eq(3).children("input").eq(0).attr('placeholder'));
+}
+
+function getMaxHP(trow) {
+    // Returns the maximum HP for a given table row in the tracker.
+    return parseInt(tr.data('maxhp'));
 }
 
 function addMonster(monsterId, params={}) {
@@ -111,9 +134,9 @@ function addMonster(monsterId, params={}) {
             trow.append(`<td><input class=w3-input w3-border-0" type="text" value="${data.name}" style="width: 100%; text-align: left"><br/><span class="w3-small"><em>${data.name}</em></span></td>`);
             trow.append(`<td>${data.ac}</td>`);
 
-            td = $(`<td>/${data.hp}</td>`);
+            td = $(`<td>/<span id="max-hp">${data.hp}<span></td>`);
             hpbox = $(`<input class="w3-input w3-border hpbox" type="text" placeholder="${data.hp}">`);
-            hpbox.change(function() { updateHP($(this)); });
+            hpbox.change(function() { changeHP($(this)); });
             td.prepend(hpbox);
             trow.append(td);
             
@@ -123,6 +146,7 @@ function addMonster(monsterId, params={}) {
             statusCell.html(getAddStatusWidget());
             trow.append(statusCell);
             trow.data("id", monsterId);
+            trow.data("name", data.name);
             trow.data("type", "npc");
             trow.data("initMod", data.initMod);
             trow.data("xp", data.xp);
@@ -131,6 +155,8 @@ function addMonster(monsterId, params={}) {
             trow.data('hasXp', data.flag_xp);
             trow.data('hasLoot', data.flag_loot);
             trow.data('statuses', data.statuses);
+            trow.data('mobsize', data.mobsize);
+            trow.data('maxhp', data.hp);
 
             // Some functions might provide some overrides we should use
             if ('hasXp' in params) {
@@ -167,7 +193,7 @@ function togglePlayer(button) {
 
                 td = $(`<td>/${data.hp}</td>`);
                 hpbox = $(`<input class="w3-input w3-border hpbox" type="text" placeholder="${data.hp}">`);
-                hpbox.change(function() { updateHP($(this)); });
+                hpbox.change(function() { changeHP($(this)); });
                 td.prepend(hpbox);
                 trow.append(td);
                 
@@ -649,6 +675,65 @@ function showNewTooltip(event, url) {
     setContentAjax($('#tooltip'), url);
 }
 
+function showMobSizeModal(tr) {
+    // Takes the table row for the monster being edited as input
+    $('#edit-mob-modal').show();
+    console.log(tr.data('mobsize'));
+    $('#edit-mob-modal-value').val(tr.data('mobsize'));
+    $('#edit-mob-modal-form').submit(function(event) {
+        // Stop form from reloading page
+        event.preventDefault();
+        // Update Mob Size
+        console.log($('#edit-mob-modal-value').val());
+        new_mob_size = parseInt($('#edit-mob-modal-value').val());
+        $('#edit-mob-modal').hide();
+        updateMobSize(tr, new_mob_size);
+    });
+}
+
+function updateMobSize(tr, size) {
+    // Update Data
+    prev_size = tr.data('mobsize');
+    tr.data('mobsize', size);
+
+    // Adjust base HP
+    current_hp = getHP(tr);
+    max_hp = getMaxHP(tr);
+    console.log(`Max HP: ${max_hp}`);
+    console.log(`Now HP: ${current_hp}`);
+    console.log(`Old Size: ${prev_size}`);
+    hp_frac = current_hp / (max_hp * prev_size);
+    console.log(hp_frac);
+    // TODO: implement a function to SET hp from outside the hpbox input, then use that here
+    updateHP(tr, Math.ceil(hp_frac * max_hp * size));
+
+}
+
+function updateMobSizeRemaining(tr) {
+    // Updates the number of mobs remaining if the mob takes damage. Also updates the display
+    // name of the monster to indicate this value.
+
+    textbox_name = tr.children().eq(1).children().eq(2)
+    textbox_max_hp = tr.find("#max-hp");
+    max_hp = getMaxHP(tr);
+    current_hp = getHP(tr);
+    mobsize = parseInt(tr.data('mobsize'));
+
+    if (mobsize < 2) {
+        textbox_name.text(tr.data('name'));
+        textbox_max_hp = tr.find("#max-hp");
+    } else {
+        console.log(`Current HP: ${current_hp}`);
+        console.log(`Max HP: ${max_hp}`);
+        console.log(`Mob Size: ${mobsize}`);
+        remaining = Math.ceil(current_hp / max_hp);
+        tr.data('remaining-mobs', remaining);
+        console.log(`${tr.data('name')} (${tr.data('remaining-mobs')}/${tr.data('mobsize')})`);
+        textbox_name.text(`${tr.data('name')} (${tr.data('remaining-mobs')}/${tr.data('mobsize')})`);
+    }
+    textbox_max_hp.text(max_hp * mobsize);
+}
+
 function trackerContextMenu(event) {
     // Override default browser context menu
     event.preventDefault();
@@ -659,6 +744,7 @@ function trackerContextMenu(event) {
     checkXp = $('#tracker-context-has-xp');
     checkLoot = $('#tracker-context-has-loot');
     rerollInitBtn = $('#tracker-context-reroll-init');
+    mobSizeBtn = $('#tracker-context-adjust-mob-size');
     deleteBtn = $('#tracker-context-delete-item');
 
     // Update checkboxe states
@@ -685,6 +771,11 @@ function trackerContextMenu(event) {
     rerollInitBtn.off('click');
     rerollInitBtn.click(function() {
         rollInitiativeSingle(tr);
+    })
+
+    mobSizeBtn.off('click');
+    mobSizeBtn.click(function () {
+        showMobSizeModal(tr);
     })
 
     deleteBtn.off('click');

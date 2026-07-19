@@ -1,0 +1,10 @@
+{% from "modal.jinja2" import render_modal %}
+
+{% call render_modal("edit-mob-modal", "Adjust Mob Size") %}
+    <form id="edit-mob-modal-form">
+        <div style="display: flex; justify-content: space-between; gap: 1em; padding: 8px 0;">
+            <input id="edit-mob-modal-value" type="number" class="w3-input w3-border" style="flex-grow: 1">
+            <button id="edit-mob-modal-submit" type="submit" class="w3-button w3-border w3-white w3-ripple" style="width: 150px; flex-grow: 0">Update Mob</button>
+        </div>
+    </form>
+{% endcall %}
