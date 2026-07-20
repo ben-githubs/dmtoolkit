@@ -262,6 +262,53 @@ function updateStatblockTarget(event) {
         method: 'GET',
         success: function(response) {
             $('#statblock-div').html(response);
+
+            // Add Mob Function
+            if (row.data("mobsize") > 1) {
+                $('#statblock-div').find('.d20mod').each(function () {
+                    $(this).addClass("hovertext");
+                    $(this).on('mouseenter', function(event) {
+                        self = $(event.target);
+                        // Get Hit Modifier
+                        mod = parseInt(self.text());
+                        // Get Mob Size
+                        target_row = $(".statblock-target");
+                        mobsize = target_row.data('mobsize');
+
+                        // Update Table Values
+                        $('#mob-hit-chart-values').find('td').each(function(index) {
+                            if (index+1 <= 5) {
+                                $(this).text(mobsize);
+                            } else if (index+1 <= 12) {
+                                $(this).text(Math.floor(mobsize / 2));
+                            } else if (index+1 <= 14) {
+                                $(this).text(Math.floor(mobsize / 3));
+                            } else if (index+1 <= 16) {
+                                $(this).text(Math.floor(mobsize / 4));
+                            } else if (index+1 <= 18) {
+                                $(this).text(Math.floor(mobsize / 5));
+                            } else if (index+1 <= 19) {
+                                $(this).text(Math.floor(mobsize / 10));
+                            } else if (index+1 <= 20) {
+                                $(this).text(Math.floor(mobsize / 20));
+                            }
+                        });
+
+                        // Update Table Header
+                        $('#mob-hit-chart-header').find('th').each(function(index) {
+                            $(this).text(index + 1 + mod);
+                        });
+                    
+                        // Update position of the table
+                        $('#mob-hit-chart').css({left: event.pageX - $('#mob-hit-chart').width(), top: event.pageY + 16, position: 'absolute'});
+                        $('#mob-hit-chart').show();
+                    });
+
+                    $(this).on('mouseleave', function() {
+                        $('#mob-hit-chart').hide();
+                    })
+                });
+            }
         }
     })
 }
@@ -782,4 +829,8 @@ function trackerContextMenu(event) {
 
     cm.css({left: event.pageX, top: event.pageY});
     cm.show();
+}
+
+function showMobHitChart(event) {
+    
 }

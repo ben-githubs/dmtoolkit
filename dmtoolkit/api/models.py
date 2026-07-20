@@ -637,7 +637,7 @@ class SkillMod(Modifier):
         s = f"{self.mod:+}"
         if self.note:
             s += f" {self.note}"
-        return "{@skill " + self.target.title() + "} " + f"{s}"
+        return "{@skill " + self.target.title() + "} " + f"""<span class="d20mod">{s}</span>"""
 
 @dataclass
 class SkillList:

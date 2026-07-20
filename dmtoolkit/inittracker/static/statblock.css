@@ -47,7 +47,7 @@ div.statblock {
     text-align: center;
 }
 
-.statblock a {
+.statblock a, .statblock .hovertext {
     text-decoration: none;
     color: #337ab7;;
 }

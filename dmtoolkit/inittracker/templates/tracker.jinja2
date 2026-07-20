@@ -116,6 +116,17 @@
     </div>
 </div>
 
+<div id="mob-hit-chart" style="postion: absolute; display: none;">
+<table class="w3-table w3-border w3-bordered" style="width: 200px; background-color: white; text-align: center;">
+    <tr id="mob-hit-chart-header">
+        {% for x in range(20)%}<th class="w3-border">{{x+1}}</th>{% endfor %}
+    </tr>
+    <tr id="mob-hit-chart-values">
+        {% for x in range(20)%}<td class="w3-border">{{x+1}}</td>{% endfor %}
+    </tr>
+</table>
+</div>
+
 <script>
     $('.remove-btn').click(function() { deleteRow($(this)); });
     $('.hpbox').change(function() { changeHP($(this)); });
