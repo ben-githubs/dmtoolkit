@@ -25,29 +25,29 @@
     <hr/>
     <div id="ability-scores">
         <div>
-            <strong>STR</strong><br/>{{ monster.strength }} ({{ "%+d" | format(monster.strength // 2 - 5) }})
+            <strong>STR</strong><br/>{{ monster.strength }} (<span class="d20mod">{{ "%+d" | format(monster.strength // 2 - 5) }}</span>)
         </div>
         <div>
-            <strong>DEX</strong><br/>{{ monster.dexterity }} ({{ "%+d" | format(monster.dexterity // 2 - 5) }})
+            <strong>DEX</strong><br/>{{ monster.dexterity }} (<span class="d20mod">{{ "%+d" | format(monster.dexterity // 2 - 5) }}</span>)
         </div>
         <div>
-            <strong>CON</strong><br/>{{ monster.constitution }} ({{ "%+d" | format(monster.constitution // 2 - 5) }})
+            <strong>CON</strong><br/>{{ monster.constitution }} (<span class="d20mod">{{ "%+d" | format(monster.constitution // 2 - 5) }}</span>)
         </div>
         <div>
-            <strong>INT</strong><br/>{{ monster.intelligence }} ({{ "%+d" | format(monster.intelligence // 2 - 5) }})
+            <strong>INT</strong><br/>{{ monster.intelligence }} (<span class="d20mod">{{ "%+d" | format(monster.intelligence // 2 - 5) }}</span>)
         </div>
         <div>
-            <strong>WIS</strong><br/>{{ monster.wisdom }} ({{ "%+d" | format(monster.wisdom // 2 - 5) }})
+            <strong>WIS</strong><br/>{{ monster.wisdom }} (<span class="d20mod">{{ "%+d" | format(monster.wisdom // 2 - 5) }}</span>)
         </div>
         <div>
-            <strong>CHA</strong><br/>{{ monster.charisma }} ({{ "%+d" | format(monster.charisma // 2 - 5) }})
+            <strong>CHA</strong><br/>{{ monster.charisma }} (<span class="d20mod">{{ "%+d" | format(monster.charisma // 2 - 5) }}</span>)
         </div>
     </div>
     <hr/>
     {% if monster.saves %}
         <strong>Saving Throws</strong>
         {% for stat, mod in monster.saves.items() %}
-            {{ stat | title }} {{ mod }}{% if not loop.last %},{% endif %} 
+            {{ stat | title }} <span class="d20mod">{{ mod }}</span>{% if not loop.last %},{% endif %} 
         {%- endfor -%}
         <br/>
     {% endif %}

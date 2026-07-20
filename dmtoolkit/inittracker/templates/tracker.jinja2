@@ -11,9 +11,8 @@
 {% block content %}
 
 {% include "add-player.jinja2" %}
-
 {% include "add-status.jinja2" %}
-
+{% include "edit-mob.jinja2" %}
 {% include "save-encounter.jinja2" %}
 
 <div style="margin: auto; width:1400px; height: 100%; display: flex; flex-direction: column;">
@@ -108,15 +107,29 @@
         <div id="tracker-context-reroll-init" class="w3-button w3-white w3-ripple">
             Reroll Initiative
         </div>
+        <div id="tracker-context-adjust-mob-size" class="w3-button w3-white w3-ripple">
+            Adjust Mob Size
+        </div>
         <div id="tracker-context-delete-item" class="w3-button w3-white w3-ripple">
             Delete Combatant
         </div>
     </div>
 </div>
 
+<div id="mob-hit-chart" style="postion: absolute; display: none;">
+<table class="w3-table w3-border w3-bordered" style="width: 200px; background-color: white; text-align: center;">
+    <tr id="mob-hit-chart-header">
+        {% for x in range(20)%}<th class="w3-border">{{x+1}}</th>{% endfor %}
+    </tr>
+    <tr id="mob-hit-chart-values">
+        {% for x in range(20)%}<td class="w3-border">{{x+1}}</td>{% endfor %}
+    </tr>
+</table>
+</div>
+
 <script>
     $('.remove-btn').click(function() { deleteRow($(this)); });
-    $('.hpbox').change(function() { updateHP($(this)); });
+    $('.hpbox').change(function() { changeHP($(this)); });
     $('#add-monster-button').click(function() {
         monsterId = $('#monstersearch').val();
         // If no ID is provided, then just ignore.

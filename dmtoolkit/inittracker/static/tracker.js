@@ -71,30 +71,57 @@ function deleteRow(event) {
     refreshLoot();
 }
 
-function updateHP(self) {
-    // Get or Set current HP
-    hp = parseInt(self.attr('placeholder'));
-    value = $.trim(self.val());
+function changeHP(self) {
+    // Event Handler for text inputs
+    
+    current_hp = parseInt(self.attr('placeholder'));
+    input = $.trim(self.val());
     // If the value is a relative amount
-    if (value.includes('+') || value.includes('-')) {
-        hp += parseInt(value);
+    if (input.includes('+') || input.includes('-')) {
+        current_hp += parseInt(input);
     } else {
-        hp = parseInt(value);
+        current_hp = parseInt(input);
     }
-    self.attr('placeholder', hp);
-    self.val('');
 
+    updateHP(self, current_hp);
+}
+
+function updateHP(self, hp) {
+    // Update Textbox
+    tr = self.closest('tr');
+    textbox = tr.find('.hpbox');
+    textbox.attr('placeholder', hp);
+    textbox.val('');
+    console.log(textbox);
+
+    // Update Data
     monster = self.closest('tr').data();
     if ((hp <= 0 && monster.dead == false) || (hp > 0 && monster.dead == true)) {
         monster.dead = !monster.dead;
-        refreshLoot();
-        refreshXP();
         if (monster.dead) {
             addStatus(self, 'incapacitated', prepend=true);
         } else {
             removeStatus(self, 'incapacitated');
         }
     }
+
+    // If this is a mob, trigger the mobsize calculation
+    updateMobSizeRemaining(tr);
+
+    // Update Loot and XP
+    //   Always do this last so the final calculations are already complete
+    refreshLoot();
+    refreshXP();
+}
+
+function getHP(tr) {
+    // Returns the current HP for a given table row in the tracker.
+    return parseInt(tr.children().eq(3).children("input").eq(0).attr('placeholder'));
+}
+
+function getMaxHP(trow) {
+    // Returns the maximum HP for a given table row in the tracker.
+    return parseInt(trow.data('maxhp'));
 }
 
 function addMonster(monsterId, params={}) {
@@ -111,9 +138,9 @@ function addMonster(monsterId, params={}) {
             trow.append(`<td><input class=w3-input w3-border-0" type="text" value="${data.name}" style="width: 100%; text-align: left"><br/><span class="w3-small"><em>${data.name}</em></span></td>`);
             trow.append(`<td>${data.ac}</td>`);
 
-            td = $(`<td>/${data.hp}</td>`);
+            td = $(`<td>/<span id="max-hp">${data.hp}<span></td>`);
             hpbox = $(`<input class="w3-input w3-border hpbox" type="text" placeholder="${data.hp}">`);
-            hpbox.change(function() { updateHP($(this)); });
+            hpbox.change(function() { changeHP($(this)); });
             td.prepend(hpbox);
             trow.append(td);
             
@@ -123,6 +150,7 @@ function addMonster(monsterId, params={}) {
             statusCell.html(getAddStatusWidget());
             trow.append(statusCell);
             trow.data("id", monsterId);
+            trow.data("name", data.name);
             trow.data("type", "npc");
             trow.data("initMod", data.initMod);
             trow.data("xp", data.xp);
@@ -131,6 +159,9 @@ function addMonster(monsterId, params={}) {
             trow.data('hasXp', data.flag_xp);
             trow.data('hasLoot', data.flag_loot);
             trow.data('statuses', data.statuses);
+            trow.data('mobsize', data.mobsize);
+            trow.data('remaining-mobs', 1);
+            trow.data('maxhp', data.hp);
 
             // Some functions might provide some overrides we should use
             if ('hasXp' in params) {
@@ -138,6 +169,9 @@ function addMonster(monsterId, params={}) {
             }
             if ('hasLoot' in params) {
                 trow.data('hasLoot', params.hasLoot);
+            }
+            if ('mobsize' in params) {
+                updateMobSize(trow, params.mobsize);
             }
 
             trow.click(function(event) { updateStatblockTarget(event); });
@@ -167,7 +201,7 @@ function togglePlayer(button) {
 
                 td = $(`<td>/${data.hp}</td>`);
                 hpbox = $(`<input class="w3-input w3-border hpbox" type="text" placeholder="${data.hp}">`);
-                hpbox.change(function() { updateHP($(this)); });
+                hpbox.change(function() { changeHP($(this)); });
                 td.prepend(hpbox);
                 trow.append(td);
                 
@@ -231,6 +265,53 @@ function updateStatblockTarget(event) {
         method: 'GET',
         success: function(response) {
             $('#statblock-div').html(response);
+
+            // Add Mob Function
+            if (row.data("mobsize") > 1) {
+                $('#statblock-div').find('.d20mod').each(function () {
+                    $(this).addClass("hovertext");
+                    $(this).on('mouseenter', function(event) {
+                        self = $(event.target);
+                        // Get Hit Modifier
+                        mod = parseInt(self.text());
+                        // Get Mob Size
+                        target_row = $(".statblock-target");
+                        mobsize = target_row.data('remaining-mobs');
+
+                        // Update Table Values
+                        $('#mob-hit-chart-values').find('td').each(function(index) {
+                            if (index+1 <= 5) {
+                                $(this).text(mobsize);
+                            } else if (index+1 <= 12) {
+                                $(this).text(Math.floor(mobsize / 2));
+                            } else if (index+1 <= 14) {
+                                $(this).text(Math.floor(mobsize / 3));
+                            } else if (index+1 <= 16) {
+                                $(this).text(Math.floor(mobsize / 4));
+                            } else if (index+1 <= 18) {
+                                $(this).text(Math.floor(mobsize / 5));
+                            } else if (index+1 <= 19) {
+                                $(this).text(Math.floor(mobsize / 10));
+                            } else if (index+1 <= 20) {
+                                $(this).text(Math.floor(mobsize / 20));
+                            }
+                        });
+
+                        // Update Table Header
+                        $('#mob-hit-chart-header').find('th').each(function(index) {
+                            $(this).text(index + 1 + mod);
+                        });
+                    
+                        // Update position of the table
+                        $('#mob-hit-chart').css({left: event.pageX - $('#mob-hit-chart').width(), top: event.pageY + 16, position: 'absolute'});
+                        $('#mob-hit-chart').show();
+                    });
+
+                    $(this).on('mouseleave', function() {
+                        $('#mob-hit-chart').hide();
+                    })
+                });
+            }
         }
     })
 }
@@ -260,10 +341,12 @@ function refreshXP() {
     tbody.children().each(function() {
         data = $(this).data();
         if (data.type == "npc" && data.hasXp) {
-            if (data.dead == true) {
-                xp += data.xp;
-            }
-            total_xp += data.xp;
+            total_xp += data.mobsize * data.xp;
+
+            num_dead = data.mobsize - $(this).data('remaining-mobs');
+            console.log(`HP: ${Math.max(getHP($(this)), 0)}`);
+            console.log(`Num Alive: ${$(this).data('remaining-mobs')}`);
+            xp += num_dead * data.xp;
         }
         else {
             if (data.type == "player") {
@@ -342,10 +425,8 @@ function refreshStatus(tr) {
             height = 20;
         }
         $.each(statuses, function(_, status) {
-            console.log(status);
             wrapper = $(`<div class="w3-button" style="display: inline-block; width: ${height}px; height: ${height}px; padding:0; background-size: 40px 40px; background-image: url('inittracker/static/status-markers/${status}.png')" onmouseleave="hideTooltip(event)"></div>`);
             wrapper.mouseenter(function(event) {
-                console.log(event);
                 showNewTooltip(event, `/tooltips/conditions/${status}`);
             })
             wrapper.click(function(event) {
@@ -572,6 +653,7 @@ function saveEncounter() {
             'id': data.id,
             'hasXp': data.hasXp,
             'hasLoot': data.hasLoot,
+            'mobsize': data.mobsize
         }
         monsters.push(entry);
     })
@@ -649,6 +731,56 @@ function showNewTooltip(event, url) {
     setContentAjax($('#tooltip'), url);
 }
 
+function showMobSizeModal(tr) {
+    // Takes the table row for the monster being edited as input
+    $('#edit-mob-modal').show();
+    $('#edit-mob-modal-value').val(tr.data('mobsize'));
+    $('#edit-mob-modal-form').submit(function(event) {
+        // Stop form from reloading page
+        event.preventDefault();
+        // Update Mob Size
+        new_mob_size = parseInt($('#edit-mob-modal-value').val());
+        $('#edit-mob-modal').hide();
+        updateMobSize(tr, new_mob_size);
+    });
+}
+
+function updateMobSize(tr, size) {
+    // Update Data
+    prev_size = tr.data('mobsize');
+    tr.data('mobsize', size);
+
+    // Adjust base HP
+    current_hp = getHP(tr);
+    max_hp = getMaxHP(tr);
+    hp_frac = current_hp / (max_hp * prev_size);
+    // TODO: implement a function to SET hp from outside the hpbox input, then use that here
+    updateHP(tr, Math.ceil(hp_frac * max_hp * size));
+
+}
+
+function updateMobSizeRemaining(tr) {
+    // Updates the number of mobs remaining if the mob takes damage. Also updates the display
+    // name of the monster to indicate this value.
+
+    textbox_name = tr.children().eq(1).children().eq(2)
+    textbox_max_hp = tr.find("#max-hp");
+    max_hp = getMaxHP(tr);
+    current_hp = getHP(tr);
+    mobsize = parseInt(tr.data('mobsize'));
+    
+    remaining = Math.min(Math.max(0, Math.ceil(current_hp / max_hp)), mobsize);
+    tr.data('remaining-mobs', remaining);
+
+    if (mobsize < 2) {
+        textbox_name.text(tr.data('name'));
+        textbox_max_hp = tr.find("#max-hp");
+    } else {
+        textbox_name.text(`${tr.data('name')} (${tr.data('remaining-mobs')}/${tr.data('mobsize')})`);
+    }
+    textbox_max_hp.text(max_hp * mobsize);
+}
+
 function trackerContextMenu(event) {
     // Override default browser context menu
     event.preventDefault();
@@ -659,6 +791,7 @@ function trackerContextMenu(event) {
     checkXp = $('#tracker-context-has-xp');
     checkLoot = $('#tracker-context-has-loot');
     rerollInitBtn = $('#tracker-context-reroll-init');
+    mobSizeBtn = $('#tracker-context-adjust-mob-size');
     deleteBtn = $('#tracker-context-delete-item');
 
     // Update checkboxe states
@@ -687,6 +820,11 @@ function trackerContextMenu(event) {
         rollInitiativeSingle(tr);
     })
 
+    mobSizeBtn.off('click');
+    mobSizeBtn.click(function () {
+        showMobSizeModal(tr);
+    })
+
     deleteBtn.off('click');
     deleteBtn.click(function() {
         deleteRow(event);
@@ -695,4 +833,8 @@ function trackerContextMenu(event) {
 
     cm.css({left: event.pageX, top: event.pageY});
     cm.show();
+}
+
+function showMobHitChart(event) {
+    
 }

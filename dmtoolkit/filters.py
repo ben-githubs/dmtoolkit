@@ -256,7 +256,7 @@ class Macro5e:
     @staticmethod
     def render_hit(match: re.Match) -> str:
         hit_mod = match.group(1)
-        return f"{int(hit_mod):+d}"
+        return f"""<span class="d20mod">{int(hit_mod):+d}</span>"""
     
     @staticmethod
     def render_item(match: re.Match) -> str:
