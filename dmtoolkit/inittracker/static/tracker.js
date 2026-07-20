@@ -121,7 +121,7 @@ function getHP(tr) {
 
 function getMaxHP(trow) {
     // Returns the maximum HP for a given table row in the tracker.
-    return parseInt(tr.data('maxhp'));
+    return parseInt(trow.data('maxhp'));
 }
 
 function addMonster(monsterId, params={}) {
@@ -169,6 +169,9 @@ function addMonster(monsterId, params={}) {
             }
             if ('hasLoot' in params) {
                 trow.data('hasLoot', params.hasLoot);
+            }
+            if ('mobsize' in params) {
+                updateMobSize(trow, params.mobsize);
             }
 
             trow.click(function(event) { updateStatblockTarget(event); });
@@ -650,6 +653,7 @@ function saveEncounter() {
             'id': data.id,
             'hasXp': data.hasXp,
             'hasLoot': data.hasLoot,
+            'mobsize': data.mobsize
         }
         monsters.push(entry);
     })
