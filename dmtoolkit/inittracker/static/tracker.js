@@ -273,7 +273,7 @@ function updateStatblockTarget(event) {
                         mod = parseInt(self.text());
                         // Get Mob Size
                         target_row = $(".statblock-target");
-                        mobsize = target_row.data('mobsize');
+                        mobsize = target_row.data('remaining-mobs');
 
                         // Update Table Values
                         $('#mob-hit-chart-values').find('td').each(function(index) {
