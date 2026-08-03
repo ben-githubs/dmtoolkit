@@ -9,7 +9,7 @@ from dmtoolkit.api.conditions import get_condition
 from dmtoolkit.api.items import get_item
 from dmtoolkit.api.models import Item
 from dmtoolkit.api.monsters import get_monster, get_monster_names
-from dmtoolkit.api.players import list_players, get_player
+from dmtoolkit.api.players import list_players, get_player, list_player_tags
 from dmtoolkit.api.races import get_race
 from dmtoolkit.api.spells import get_spell
 from dmtoolkit.inittracker.loot import loot as generate_loot
@@ -38,7 +38,8 @@ def tracker():
         page = page,
         monsters = monsters,
         players = list_players(),
-        monster = monster
+        monster = monster,
+        player_tags = list_player_tags()
     )
 
 @tracker_bp.route("/api/monsters", methods=["GET"])

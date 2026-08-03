@@ -138,7 +138,7 @@
     });
     $('#monstersearch').focus(function () { $(this).val(''); });
     $('#manage-players-btn').click(function() { $('#player-add-modal').show(); updateAddPlayerButtons();});
-    $('#player-add-modal').find('button').click(function() { togglePlayer($(this)) });
+    $('#player-add-modal').find('._player-add-btn').click(function() { togglePlayer($(this)) });
 
     // Save Encounter
     $('#prompt-save-encounter-btn').click(function() { $('#save-encounter-modal').show(); });
