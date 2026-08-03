@@ -7,11 +7,20 @@
 {% block content %}
 <div class="content">
     <h1>Player Characters</h1>
-    <div class="w3-margin-bottom">
+    <div class="w3-margin-bottom" style="display: flex; justify-content: space-between;">
         <a href="{{ url_for('players_bp.new_player_page') }}" class="w3-button w3-white w3-border w3-ripple">Create New Player Character</a>
+        <span>
+            Filter by Tag:
+            <select class="w3-select" style="width: 20em" name="tag-filter" id="tag-filter">
+                <option value=""><em>Show All Players</em></option>
+                {% for tag in all_tags %}
+                    <option value="{{ tag }}">{{ tag }}</option>
+                {% endfor %}
+            </select>
+        </span>
     </div>
     {% for player in players %}
-        <div class="w3-card w3-padding" style="margin-bottom: 12px">
+        <div class="w3-card w3-padding _player" style="margin-bottom: 12px" data-tags="{{ player.tags | tojson | forceescape }}">
             <div>
                 <span class="w3-xlarge">{{ player.name }}</span>
                 <a href="{{ url_for('players_bp.delete_player', player_name=player.name)}}" style="float: right" class="w3-button w3-white w3-border w3-ripple">Delete</a>
@@ -37,4 +46,18 @@
         </div>
     {% endfor %}
 </div>
+
+<script>
+    $("#tag-filter").change(function () {
+        tag = $("#tag-filter").val();
+        $("div._player").each(function() {
+            if (tag == "" || $(this).data("tags").includes(tag)) {
+                $(this).show();
+            }
+            else {
+                $(this).hide();
+            }
+        })
+    })
+</script>
 {% endblock %}

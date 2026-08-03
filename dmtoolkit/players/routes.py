@@ -60,7 +60,7 @@ def list_players_page():
         "title": "DMTTools - Players"
     }
     players = api.list_players()
-    return render_template("list_players.jinja2", page=page, players=players)
+    return render_template("list_players.jinja2", page=page, players=players, all_tags=api.list_player_tags())
 
 
 @players_bp.route("/new", methods=["GET", "POST"])

@@ -12,6 +12,8 @@ def init_app():
     app = Flask(__name__, instance_relative_config=False)
     app.config.from_object("config.DevConfig")
 
+    app.jinja_env.lstrip_blocks = True # Prevent weird indents from templates
+
     csrf.init_app(app)
     # session.init_app(app)
 
