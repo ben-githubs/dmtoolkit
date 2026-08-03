@@ -5,8 +5,7 @@
 {% endblock %}
 
 {% block content %}
-
-<div style="width: 1200px; margin: auto">
+<div class="content">
     <h1>Options</h1>
 
     <form method="POST" action="">
@@ -40,10 +39,10 @@
                     </div>
                 </fieldset>
             {% endfor %}
+        </div>
 
         {{ form.submit(class_="w3-button w3-white w3-border w3-ripple") }}
     </form>
 </div>
-<br/>
 
 {% endblock %}

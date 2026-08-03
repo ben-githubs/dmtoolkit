@@ -5,7 +5,7 @@
 {% endblock %}
 
 {% block content %}
-<div style="width: 1200px; margin: auto">
+<div class="content">
     <h1>Player Characters</h1>
     <div class="w3-margin-bottom">
         <a href="{{ url_for('players_bp.new_player_page') }}" class="w3-button w3-white w3-border w3-ripple">Create New Player Character</a>
@@ -29,6 +29,9 @@
                 </div>
                 <div class="w3-padding">
                     <strong>Race: </strong> {{ player.race_id or "Unknown" }}
+                </div>
+                <div class="w3-padding">
+                    <strong>Tags: </strong> {% for tag in player.tags %}<span style="padding: 4px 10px; margin-right: 2px; border-radius: 16px;" class="w3-blue">{{ tag }}</span>{% endfor %}
                 </div>
             </div>
         </div>
