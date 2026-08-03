@@ -28,6 +28,13 @@ SAMPLE_PLAYERS = [
 def list_players() -> list[Player]:
    return load_json_string(request.cookies.get("players", "[]")) or SAMPLE_PLAYERS
 
+def list_player_tags() -> list[str]:
+    """Return all tags currently in use."""
+    tags = set()
+    for player in list_players():
+        tags |= set(player.tags)
+    return list(tags)
+
 def get_player(player_name: str) -> Player | None:
     for player in list_players():
         if player.name == player_name:

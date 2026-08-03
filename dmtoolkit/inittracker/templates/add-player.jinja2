@@ -1,10 +1,47 @@
 {% from "modal.jinja2" import render_modal %}
 
-{% call render_modal("player-add-modal") %}
+{% call render_modal("player-add-modal", "Add Player to Combat") %}
+    <div style="display: flex; justify-content: space-between; margin-top: 1em;">
+        <button class="w3-button w3-red" id="player-add-all-btn">Add All</button>
+        <span>
+            Filter by Tag:
+            <select class="w3-select" style="width: 20em" name="tag-filter" id="tag-filter">
+                <option value=""><em>Show All Players</em></option>
+                {% for tag in player_tags %}
+                    <option value="{{ tag }}">{{ tag }}</option>
+                {% endfor %}
+            </select>
+        </span>
+    </div>
     {%- for player in players %}
-        <div class="_player-row w3-container w3-cell-row w3-padding">
+        <div class="_player-row w3-container w3-cell-row w3-padding" data-tags="{{ player.tags | tojson | forceescape }}">
             <span class="w3-large w3-cell w3-cell-middle">{{ player.name }}</span>
-            <button class="w3-button w3-ripple" style="float: right">Add Player</button>
+            <button class="w3-button w3-ripple _player-add-btn" style="float: right">Add Player</button>
         </div>
     {% endfor %}
+
+    <script>
+        $("#tag-filter").change(function () {
+            tag = $("#tag-filter").val();
+            $("div._player-row").each(function() {
+                if (tag == "" || $(this).data("tags").includes(tag)) {
+                    $(this).show();
+                }
+                else {
+                    $(this).hide();
+                }
+            });
+        });
+
+        $("#player-add-all-btn").click(function() {
+            $('#player-add-modal').find('._player-add-btn').each(function () {
+                if (!$(this).is(":visible")) {
+                    return; // Works like 'continue' in Python apparently
+                };
+                if ($(this).text() == "Add Player") {
+                    $(this).trigger("click");
+                }
+            });
+        })
+</script>
 {% endcall %}
