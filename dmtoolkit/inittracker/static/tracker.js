@@ -1,3 +1,17 @@
+
+const GameMaster = {
+    roundCounter: 1, // How many rounds of combat have passed?
+
+    newRound: function() {
+        this.roundCounter = 1;
+        this.conditions = [];
+    },
+    incrementRound: function(amt) {
+        this.roundCounter += amt;
+        console.log(`Round: ${this.roundCounter}`);
+    }
+}
+
 function nextCombatant() {
     cycleCombatants(1);
 }
@@ -20,12 +34,14 @@ function cycleCombatants(step) {
                 // Loop to bottom if needed
                 if (next.attr("id") == "tracker-header") {
                     next = $("table#turntracker").children().eq(0).children().last();
+                    GameMaster.incrementRound(-1);
                 }
             } else {
                 next = next.next();
                 // Loop back to top if needed
                 if (next.length == 0) {
                     next = $("table#turntracker").children().eq(0).children().eq(1);
+                    GameMaster.incrementRound(1);
                 }
             }
         } while (nRetries < combatants.length && (next.data("type") == "npc" && next.data("dead") == true))
