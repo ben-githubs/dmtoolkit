@@ -1,4 +1,5 @@
 from dataclasses import asdict
+import json
 
 from flask import Blueprint, render_template, redirect, url_for, make_response
 from flask_wtf import FlaskForm
@@ -8,6 +9,7 @@ from wtforms.validators import InputRequired, NumberRange, ValidationError
 import dmtoolkit.api.players as api
 from dmtoolkit.api.races import list_races
 from dmtoolkit.api.classes import list_classes, get_class
+from dmtoolkit.widgets import TagField
 
 players_bp = Blueprint(
     "players_bp",
@@ -27,6 +29,7 @@ class CreateForm(FlaskForm):
     class_ = SelectField("Class", choices=[(c.name, c.name) for c in list_classes()])
     level = IntegerField("Player Level", [InputRequired(), NumberRange(min=1)])
     subclass = SelectField("Subclass", choices=[], validate_choice=False)
+    tags = TagField("Tags", whitelist=["foo", "bar"])
     submit = SubmitField("Create Player Character")
 
     def validate_name(self, field):
@@ -72,7 +75,8 @@ def new_player_page():
             "race_id": form.race.data,
             "level": form.level.data,
             "class_id": form.class_.data or "",
-            "subclass_id": form.subclass.data or ""
+            "subclass_id": form.subclass.data or "",
+            "tags": [x.get("value") for x in json.loads(form.tags.data or "[])")]
         }
         resp = make_response(redirect(url_for("players_bp.list_players_page")))
         api.create_player(resp, player)
@@ -93,6 +97,8 @@ def update_player_page(player_name: str):
     if not player_arr:
         return "404 Player Not Found"
     player = player_arr[0]
+
+    print(player)
 
     if form.validate_on_submit():
         player_params = {}
@@ -115,6 +121,8 @@ def update_player_page(player_name: str):
             subclass_list = list(get_class(form.class_.data or player.class_id).subclasses)
             subclass = subclass_list[idx]
             player_params["subclass_id"] = subclass.name
+        if val := form.tags.data:
+            player_params["tags"] = [x.get("value") for x in json.loads(form.tags.data or "[])")]
         
         print(player_params)
 
@@ -130,14 +138,18 @@ def update_player_page(player_name: str):
         return resp
 
     form.class_.data = player.class_id
+    form.tags.set_tags(player.tags)
+    form.tags.whitelist = api.list_player_tags()
     if player.class_id:
         form.subclass.choices = [(str(x), y) for x, y in enumerate([c.name for c in get_class(player.class_id).subclasses])]
         if player.subclass_id.isdigit():
             # Previous bug wrote the index of the subclass in the list as the subclass_id; this 
             #   fix allows those older saved characters to be loaded correctly in most cases.
             idx = int(player.subclass_id)
-        else:
+        elif player.subclass_id in {x[1] for x in form.subclass.choices}:
             idx = list(x[1] for x in form.subclass.choices).index(player.subclass_id)
+        else:
+            idx = 0 # fallback
         form.subclass.data = str(idx)
     
     page = {

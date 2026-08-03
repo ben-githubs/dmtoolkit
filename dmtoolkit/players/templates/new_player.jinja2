@@ -103,7 +103,15 @@
                 {% endif %}
             </fieldset>
         </div>
-        {{ form.submit }}
+        <div style="display: flex; flex-direction: row; justify-content: space-between">
+            <fieldset style="display: flex; flex-grow: 1; gap: 10px;">
+                {{ form.tags.label }} {{ form.tags(style="flex-grow: 1") }}
+            </fieldset>
+
+            <fieldset>
+                {{ form.submit }}
+            </fieldset>
+        </div>
     </form>
 </div>
 

@@ -757,6 +757,8 @@ class Player:
     enabled: bool = False
     notes: str = ""
 
+    tags: list[str] = field(default_factory=list)
+
 @dataclass
 class Class:
     name: str
