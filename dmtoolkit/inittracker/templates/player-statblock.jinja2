@@ -57,14 +57,14 @@
         {% if loop.index == 1 %}
             <h3>Racial Traits</h3>
         {% endif %}
-        {{ trait.html() | macro5e }}
+        {{ render_player_feature(trait) }}
     {% endfor %}
 
     {% for level in range(player.level) %}
         {% if loop.index == 1 %}
             <h3>Class Features</h3>
         {% endif %}
-        {% for entry in class_.class_features + subclass.subclass_features %}
+        {% for entry in class_.class_features + subclass.subclass_features if entry.title not in ("Ability Score Improvement", "Spellcasting")%}
             {% if entry.level == level+1 %}
                 {{ render_player_feature(entry) }}
             {% endif %}
