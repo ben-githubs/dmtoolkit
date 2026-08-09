@@ -108,7 +108,6 @@ function updateHP(self, hp) {
     textbox = tr.find('.hpbox');
     textbox.attr('placeholder', hp);
     textbox.val('');
-    console.log(textbox);
 
     // Update Data
     monster = self.closest('tr').data();
@@ -122,7 +121,9 @@ function updateHP(self, hp) {
     }
 
     // If this is a mob, trigger the mobsize calculation
-    updateMobSizeRemaining(tr);
+    if (monster.type == "npc") {
+        updateMobSizeRemaining(tr);
+    }
 
     // Update Loot and XP
     //   Always do this last so the final calculations are already complete
