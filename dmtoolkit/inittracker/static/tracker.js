@@ -207,6 +207,7 @@ function togglePlayer(button) {
             url: `/api/players/${playerName}`,
             method: 'GET',
             success: function(response) {
+                console.log(`${playerName}.player`);
                 tbody = $("#turntracker").children().eq(0);
                 trow = $("<tr></tr>");
                 data = $.parseJSON(response);
@@ -233,6 +234,7 @@ function togglePlayer(button) {
                 trow.data("type", "player");
 
                 trow.click(function(event) { updateStatblockTarget(event); });
+                console.log(`${playerName}.player`);
 
                 tbody.append(trow);
                 updateAddPlayerButtons();
