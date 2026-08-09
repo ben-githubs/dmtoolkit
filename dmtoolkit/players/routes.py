@@ -21,16 +21,16 @@ players_bp = Blueprint(
 )
 
 class CreateForm(FlaskForm):
-    name = StringField("Name", [InputRequired()])
-    ac = IntegerField("AC", [InputRequired(), NumberRange(min=0)])
-    hp = IntegerField("Max HP", [InputRequired(), NumberRange(min=1, message="No!")])
-    pp = IntegerField("Passive Perception", [InputRequired(), NumberRange(min=0)])
-    race = SelectField("Race", choices=list_races())
-    class_ = SelectField("Class", choices=[(c.name, c.name) for c in list_classes()])
-    level = IntegerField("Player Level", [InputRequired(), NumberRange(min=1)])
-    subclass = SelectField("Subclass", choices=[], validate_choice=False)
+    name = StringField("Name", [InputRequired()], render_kw={"class": "w3-input w3-border"})
+    ac = IntegerField("AC", [InputRequired(), NumberRange(min=0)], render_kw={"class": "w3-input w3-border"})
+    hp = IntegerField("Max HP", [InputRequired(), NumberRange(min=1, message="No!")], render_kw={"class": "w3-input w3-border"})
+    pp = IntegerField("Passive Perception", [InputRequired(), NumberRange(min=0)], render_kw={"class": "w3-input w3-border"})
+    race = SelectField("Race", choices=list_races(), render_kw={"class": "w3-input"})
+    class_ = SelectField("Class", choices=[(c.name, c.name) for c in list_classes()], render_kw={"class": "w3-input"})
+    level = IntegerField("Player Level", [InputRequired(), NumberRange(min=1)], render_kw={"class": "w3-input w3-border"})
+    subclass = SelectField("Subclass", choices=[], validate_choice=False, render_kw={"class": "w3-input"})
     tags = TagField("Tags", whitelist=["foo", "bar"])
-    submit = SubmitField("Create Player Character")
+    submit = SubmitField("Create Player Character", render_kw={"class": "w3-button w3-blue w3-ripple"})
 
     def validate_name(self, field):
         players = api.list_players()
