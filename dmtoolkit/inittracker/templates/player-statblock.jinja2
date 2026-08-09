@@ -1,7 +1,7 @@
 <div id="statblock" class="statblock">
     <h1>{{ player.name }}</h1>
     {% if race %}
-        <em>{{ race.size }} {{ race.name | title }}</em>
+        <em>{{ race.size_str }} {{ race.name | title }}</em>
     {% endif %}
     <hr/>
     <strong>Armor Class</strong> {{ player.ac }}
