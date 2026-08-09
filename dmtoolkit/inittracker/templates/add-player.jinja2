@@ -39,7 +39,8 @@
                     return; // Works like 'continue' in Python apparently
                 };
                 if ($(this).text() == "Add Player") {
-                    $(this).trigger("click");
+                    playerName = $(this).prev().text();
+                    togglePlayer($(this), playerName);
                 }
             });
         })

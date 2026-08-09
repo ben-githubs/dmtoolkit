@@ -200,7 +200,7 @@ function addMonster(monsterId, params={}) {
     });
 }
 
-function togglePlayer(button) {
+function togglePlayer(button, playerName="") {
     playerName = button.prev().text();
     if (button.text() == "Add Player") {
         $.ajax({
