@@ -138,6 +138,7 @@ def update_player_page(player_name: str):
         return resp
 
     form.class_.data = player.class_id
+    form.race.data = player.race_id
     form.tags.set_tags(player.tags)
     form.tags.whitelist = api.list_player_tags()
     if player.class_id:
