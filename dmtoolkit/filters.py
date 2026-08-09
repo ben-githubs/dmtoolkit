@@ -83,7 +83,6 @@ class Macro5e:
             r"{@hazard (.*?)}": Macro5e.render_hazard,
             r"{@hit (.*?)}": Macro5e.render_hit,
             r"{@hom}": r"<em>Hit or Miss: </em>",
-            r"{@i(?:talics)? (.*?)}": r"<em>\1</em>",
             r"{@item (.*?)}": Macro5e.render_item,
             r"{@language}": Macro5e.render_language,
             r"{@link (.*?)\|(.*?)}": r"""<a href="\2">\1</a>""",
@@ -103,6 +102,9 @@ class Macro5e:
             r"{@subclassFeature ([^|}]+).*?}": r"\1", # Keep just first part as display text
             r"{@table ([^|}]+).*?}": r"\1", # Keep just first part as display text
             r"{@variantrule ([^|}]+).*?}": r"\1", # Keep just first part as display text
+
+            # Do these last
+            r"{@i(?:talics)? (.*?)}": r"<em>\1</em>",
         }
 
         for pattern, renderer in renderers.items():
