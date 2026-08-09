@@ -170,3 +170,20 @@ div.tooltip h2 {
 #tab-bar button {
     border-radius: 10px 10px 0 0;
 }
+
+.player-feature {
+    border: 1px solid transparent;
+    border-radius: 2px;
+    padding: 1px;
+}
+.player-feature:hover {
+    border: 1px solid #23527c;
+}
+
+.player-feature-title:hover {
+    cursor: pointer;
+}
+
+.player-feature-content {
+    display: none;
+}

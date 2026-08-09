@@ -738,9 +738,25 @@ class Race:
 
     key: str = ""
     _id: str = ""
+    size_str: str = ""
 
     def __post_init__(self):
         self._id = f"{self.name}-{self.source}"
+        size_maps = {
+            "G": "Gargantuan",
+            "H": "Huge",
+            "L": "Large",
+            "M": "Medium",
+            "S": "Small",
+            "T": "Tiny"
+        }
+        sizes = [size_maps.get(size, "Unknown") for size in self.size]
+        if len(self.size) == 1:
+            self.size_str = sizes[0]
+        elif len(self.size) == 2:
+            self.size_str = f"{sizes[0]} or {sizes[1]}"
+        else:
+            self.size_str = ", ".join(sizes[:-1]) + ", or " + sizes[-1]
 
 
 @dataclass
