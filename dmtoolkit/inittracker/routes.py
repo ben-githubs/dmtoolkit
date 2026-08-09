@@ -128,11 +128,15 @@ def get_statblock_html(id: str):
             return f"Unable to find player with name '{name}'."
         race = get_race(player.race_id) 
         class_ = get_class(player.class_id)
-        subclass= [c for c in class_.subclasses if c.name == player.subclass_id]
-        if subclass:
-            subclass = subclass[0]
+        if player.subclass_id.isdigit(): # Means the ID is an index for some reason
+            subclass = class_.subclasses[int(player.subclass_id)]
         else:
-            subclass = {}
+            subclass= [c for c in class_.subclasses if c.name == player.subclass_id]
+            if subclass:
+                subclass = subclass[0]
+            else:
+                subclass = {}
+        print(player.subclass_id.__class__)
         
         return render_template("player-statblock.jinja2", player=player, race=race, class_=class_, subclass=subclass)
     

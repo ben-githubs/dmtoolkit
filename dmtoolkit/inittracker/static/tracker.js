@@ -854,6 +854,21 @@ function trackerContextMenu(event) {
     cm.show();
 }
 
-function showMobHitChart(event) {
-    
+function togglePlayerFeature (event) {
+    featureHeader = $(event.target).closest(".player-feature");
+    featureContent = featureHeader.find(".player-feature-content");
+
+    featureContent.toggle();
+
+    // Change Caret
+    caret = featureHeader.find(".fa-solid");
+    if (caret.hasClass("fa-caret-right")) {
+        caret.removeClass("fa-caret-right");
+        caret.addClass("fa-caret-down");
+    } else {
+        caret.removeClass("fa-caret-down");
+        caret.addClass("fa-caret-right");
+    }
+
+    console.log(event);
 }

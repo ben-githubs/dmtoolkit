@@ -1,0 +1,11 @@
+{% macro render_player_feature(entry, title=none) %}
+{% if title is none%}
+    {% set title = entry.title %}
+{% endif %}
+<div class="player-feature">
+    <span class="player-feature-title" onclick="togglePlayerFeature(event)"><strong>{{ entry.title }}</strong> <i class="fa-solid fa-caret-right"></i></span>
+    <div class="player-feature-content">
+        {{ entry.html() | macro5e }}
+    </div>
+</div>
+{% endmacro %}

@@ -76,7 +76,7 @@ def new_player_page():
             "level": form.level.data,
             "class_id": form.class_.data or "",
             "subclass_id": form.subclass.data or "",
-            "tags": [x.get("value") for x in json.loads(form.tags.data or "[])")]
+            "tags": [x.get("value") for x in json.loads(form.tags.data or "[]")]
         }
         resp = make_response(redirect(url_for("players_bp.list_players_page")))
         api.create_player(resp, player)
